@@ -2,7 +2,7 @@
 titulo: La CDMX y los nuevos partidos
 capa: sustrato
 tema: mexico
-fuente: 
+fuente: https://www.elfinanciero.com.mx/opinion/rosario-guerra/2026/07/09/la-cdmx-y-los-nuevos-partidos/
 fecha: 2026-07-09
 confianza: alta
 tags: [elfinanciero, cdmx, partidos-politicos, democracia, oposicion, politica]

@@ -2,7 +2,7 @@
 titulo: El T-MEC no va — la revisión anual no genera certidumbre para los inversionistas
 capa: dominio
 tema: finanzas
-fuente: 
+fuente: https://www.elfinanciero.com.mx/opinion/colaborador-invitado/2026/07/09/el-t-mec-no-va-la-revision-anual-no-genera-certidumbre-para-los-inversionistas/
 fecha: 2026-07-09
 confianza: alta
 tags: [elfinanciero, tmec, inversionistas, industria-mexicana, incertidumbre, comercio]

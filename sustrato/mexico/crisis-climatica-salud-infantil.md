@@ -2,7 +2,7 @@
 titulo: El triste legado de la crisis climática para la salud infantil
 capa: sustrato
 tema: mexico
-fuente: 
+fuente: https://www.elfinanciero.com.mx/opinion/colaborador-invitado/2026/07/09/el-triste-legado-de-la-crisis-climatica-para-la-salud-infantil/
 fecha: 2026-07-09
 confianza: alta
 tags: [elfinanciero, crisis-climatica, salud-infantil, salud-publica, gasto-publico, contaminacion]

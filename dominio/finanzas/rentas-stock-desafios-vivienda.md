@@ -2,7 +2,7 @@
 titulo: De rentas, stock y otros desafíos en vivienda
 capa: dominio
 tema: finanzas
-fuente: 
+fuente: https://www.elfinanciero.com.mx/opinion/claudia-olguin/2026/07/09/de-rentas-stock-y-otros-desafios-en-vivienda/
 fecha: 2026-07-09
 confianza: alta
 tags: [elfinanciero, vivienda, mercado-inmobiliario, renta, demanda, mexico]

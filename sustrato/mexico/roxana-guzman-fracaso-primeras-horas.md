@@ -2,7 +2,7 @@
 titulo: Roxana Guzmán y el fracaso de las primeras horas
 capa: sustrato
 tema: mexico
-fuente: 
+fuente: https://www.elfinanciero.com.mx/opinion/colaborador-invitado/2026/07/09/roxana-guzman-y-el-fracaso-de-las-primeras-horas/
 fecha: 2026-07-09
 confianza: alta
 tags: [elfinanciero, roxana-guzman, seguridad, desaparicion, protocolos, periodistas]

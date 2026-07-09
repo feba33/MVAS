@@ -2,7 +2,7 @@
 titulo: Incertidumbre (T-MEC y México)
 capa: dominio
 tema: finanzas
-fuente: 
+fuente: https://www.elfinanciero.com.mx/opinion/guillermo-knochenhauer/2026/07/09/incertidumbre/
 fecha: 2026-07-09
 confianza: alta
 tags: [elfinanciero, tmec, comercio, inversiones, mexico, incertidumbre]

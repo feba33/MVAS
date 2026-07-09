@@ -2,7 +2,7 @@
 titulo: ¿Y AMLO no le preguntó a Rocha por Ismael 'N'?
 capa: sustrato
 tema: mexico
-fuente: 
+fuente: https://www.elfinanciero.com.mx/opinion/salvador-camarena/2026/07/09/y-amlo-no-le-pregunto-a-rocha-por-ismael-n/
 fecha: 2026-07-09
 confianza: alta
 tags: [elfinanciero, amlo, rocha-moya, ismael-zambada, sinaloa, narcotrafico, seguridad]

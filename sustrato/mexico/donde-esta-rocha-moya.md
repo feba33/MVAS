@@ -2,7 +2,7 @@
 titulo: ¿Dónde está Rocha Moya?
 capa: sustrato
 tema: mexico
-fuente: 
+fuente: https://www.elfinanciero.com.mx/opinion/raymundo-riva-palacio/2026/07/09/donde-esta-rocha-moya/
 fecha: 2026-07-09
 confianza: alta
 tags: [elfinanciero, rocha-moya, sinaloa, gobernador, seguridad, culiacan]
