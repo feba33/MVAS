@@ -67,4 +67,12 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [design-thinking](dominio/diseno/design-thinking.md) — Design Thinking + UX research · 🏷️ design-thinking · 📅 2026-07-09
 
 ### rol/
-- (pending — nodos por crear: growth-lead, product-lead, engineering-manager, data-lead, ux-ui-lead, marketing-lead, finance-lead, operations-lead, agile-coach)
+- [growth-lead](rol/growth-lead/growth-lead.md) — Growth Lead: adquisición, canales, experimentación · 🏷️ growth · 📅 2026-07-09
+- [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
+- [engineering-manager](rol/engineering-manager/engineering-manager.md) — Engineering Manager: liderazgo, entrega, procesos · 🏷️ eng-mgmt · 📅 2026-07-09
+- [data-lead](rol/data-lead/data-lead.md) — Data Lead: datos, ML, analítica · 🏷️ data · 📅 2026-07-09
+- [ux-ui-lead](rol/ux-ui-lead/ux-ui-lead.md) — UX/UI Lead: research, diseño, prototipado · 🏷️ ux-ui · 📅 2026-07-09
+- [marketing-lead](rol/marketing-lead/marketing-lead.md) — Marketing Lead: marca, campañas · 🏷️ marketing · 📅 2026-07-09
+- [finance-lead](rol/finance-lead/finance-lead.md) — Finance Lead/Controller: FP&A, reporting · 🏷️ finance · 📅 2026-07-09
+- [operations-lead](rol/operations-lead/operations-lead.md) — Operations Lead: procesos, eficiencia · 🏷️ operations · 📅 2026-07-09
+- [agile-coach](rol/agile-coach/agile-coach.md) — Agile Coach/Scrum Master: agilidad, facilitación · 🏷️ agile · 📅 2026-07-09
