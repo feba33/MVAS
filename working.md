@@ -62,8 +62,8 @@ Enfoques por capa:
 
 ## 🗺️ Plan de cobertura (checklist)
 ### Sustrato
-- [ ] México: Ley General de Sociedades Mercantiles (LGSM) — tipos de sociedad
-- [ ] México: Código de Comercio — contratos mercantiles
+- [x] México: Ley General de Sociedades Mercantiles (LGSM) — tipos de sociedad
+- [x] México: Código de Comercio — contratos mercantiles
 - [ ] México: LFPDPPP (protección de datos) y regulación de IA
 - [ ] México: noticias legales recientes (suprema corte, DOF)
 - [ ] EE.UU.: Delaware General Corporation Law / tipos de entity
@@ -89,7 +89,7 @@ Enfoques por capa:
 ## 📊 Índice de progreso
 | Entidad | Capa | Entradas | Última |
 |---------|------|----------|--------|
-| (por llenar por el loop) | | | |
+| sustrato/mexico (LGSM, CCom) | sustrato | 2 | 2026-07-09 |
 
 ## 🧾 Log de iteraciones
 ### 2026-07-09 — iter 0 (setup)
@@ -97,9 +97,18 @@ Enfoques por capa:
 - Creado `working.md` (este archivo) con prompt maestro, protocolo y checklist.
 - Loop arrancado vía cronjob recurrente (lee este archivo y continúa).
 
+### 2026-07-09 — iter 1 (sustrato/mexico)
+- 2 entradas en `sustrato/mexico/`:
+  - `lgsm.md` — Ley General de Sociedades Mercantiles: 7 tipos de sociedad, reforma DOF 20-10-2023, SAS (art. 260, montos DOF 26-12-2025).
+  - `codigo-de-comercio.md` — Código de Comercio: actos de comercio, contratos mercantiles, títulos de crédito, quiebras; reforma DOF 14-11-2025.
+- Fuentes: Cámara de Diputados (oficial, ambas) + CICDE y Gobierno.com.mx (digest). Reference-only.
+- Índices/logs de entidad y globales actualizados; checklist tachado (2 items).
+- Próxima tarea: `sustrato/mexico` → LFPDPPP y regulación de IA.
+
 ## ▶️ Estado actual / Próxima tarea
-- **Próxima tarea:** primer item sin tachar del checklist (arrancar con
-  **Sustrato › México › LGSM**).
+- **Próxima tarea:** siguiente item sin tachar del checklist →
+  **Sustrato › México › LFPDPPP (protección de datos) y regulación de IA**.
+  (Luego continuar con EE.UU. y las capas dominio/rol para cubrir las 3 capas.)
 - Notas: el cronjob itera cada 2h; cada corrida hace 1-3 entradas y actualiza
   este archivo. Para detener: decir `/stop` o eliminar el cronjob.
 

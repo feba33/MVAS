@@ -22,3 +22,13 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 
 ## [2026-07-09] ingest | ¿Y AMLO no le preguntó a Rocha por Ismael 'N'?
 - Fuente: El Financiero (opinión, S. Camarena). Caso Zambada-Cuén y entramado político-narco en Sinaloa.
+
+## [2026-07-09] ingest | Ley General de Sociedades Mercantiles (LGSM)
+- Fuente: Cámara de Diputados (texto vigente) + CICDE (digest de 7 tipos).
+- Página: `lgsm.md`. Cubre los 7 tipos sociales, última reforma (DOF 20-10-2023) y SAS (art. 260, montos DOF 26-12-2025).
+- Cross-ref: `dominio/leyes/` y `dominio/finanzas/`.
+
+## [2026-07-09] ingest | Código de Comercio (CCom)
+- Fuente: Cámara de Diputados (texto vigente) + Gobierno.com.mx (guía histórica).
+- Página: `codigo-de-comercio.md`. Actos de comercio, contratos mercantiles, títulos de crédito, quiebras; reforma DOF 14-11-2025.
+- Cross-ref: `lgsm.md` y `dominio/leyes/`.

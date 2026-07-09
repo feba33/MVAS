@@ -11,3 +11,5 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [donde-esta-rocha-moya](donde-esta-rocha-moya.md) — Rocha Moya se resguarda en Sinaloa bajo vigilancia del Ejército · 🏷️ rocha-moya,sinaloa,seguridad · 📅 2026-07-09
 - [crisis-climatica-salud-infantil](crisis-climatica-salud-infantil.md) — contaminación y clima dañan salud infantil y elevan gasto público · 🏷️ crisis-climatica,salud-infantil,gasto-publico · 📅 2026-07-09
 - [amlo-rocha-ismael-n](amlo-rocha-ismael-n.md) — caso Zambada-Cuén y entramado político-narco en Sinaloa · 🏷️ amlo,rocha-moya,ismael-zambada,narcotrafico · 📅 2026-07-09
+- [lgsm](lgsm.md) — Ley General de Sociedades Mercantiles: 7 tipos de sociedad y reformas · 🏷️ lgsm,sociedades-mercantiles,derecho-corporativo · 📅 2026-07-09
+- [codigo-de-comercio](codigo-de-comercio.md) — Código de Comercio: actos de comercio, contratos, títulos de crédito · 🏷️ codigo-de-comercio,contratos-mercantiles,comerciantes · 📅 2026-07-09
