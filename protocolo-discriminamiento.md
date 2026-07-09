@@ -26,6 +26,19 @@ cualquier página del wiki.
      **PEDIR CONFIRMACIÓN** al usuario (aclarar las candidatas) **ANTES** de
      escribir. No escribir a ciegas.
 
+## Filtro de relevancia (antes de escribir)
+Además de inferir el nodo, evaluar: **¿esta pieza cambia una decisión, un supuesto
+o una acción posible del usuario?**
+- **Sí** → califica para ingesta.
+- **No** (noticia real pero sin efecto sobre decisiones: nota política, crónica
+  criminal, coyuntura sin marco normativo) → **NO ingerir**, aunque la fuente sea
+  legítima.
+
+Por capa: *Sustrato* = marcos normativos/mercados que condicionan operar en un país;
+*Dominio* = conocimiento reutilizable de una disciplina; *Rol* = capacidades y
+responsabilidades operativas. Coyuntura política/criminal sin ángulo
+legal-corporativo-técnico no aplica a ninguna capa.
+
 ## Regla de oro
 > El usuario NO debe especificar la entidad. Hermes la infiere. Solo pregunta
 > cuando no hay nivel de certeza suficiente (usar la herramienta `clarify`).
