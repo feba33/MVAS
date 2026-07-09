@@ -164,6 +164,16 @@ el cronjob `e273fdbbba14` (investigación continua). En conversación se usa
 `delegate_task` para paralelizar la creación de nodos/páginas. **Raw = cita**
 (URL en `fuente`, sin `raw/`).
 
+## NAVEGACIÓN (QMD — búsqueda híbrida)
+MVAS se indexa en una colección QMD (`mvas`, DB en `.qmd/`, gitignored) para
+búsqueda semántica + BM25 + rerank sobre el repo completo de Markdown.
+- **Helper:** `scripts/qmd.py` (librería `qmd`, venv aislado `/opt/data/.venvs/qmd`).
+- **Indexar tras edits:** `env -u PYTHONPATH /opt/data/.venvs/qmd/bin/python scripts/qmd.py index`
+  (salta `.git/`, `raw/`, `.qmd/`; carga los modelos Qwen3-0.6B una sola vez).
+- **Buscar:** `env -u PYTHONPATH /opt/data/.venvs/qmd/bin/python scripts/qmd.py search "consulta" --top-k 5 --rerank [--node dominio]`
+- **Skill `qmd`:** instalación, fix de `tokenizers`, pitfall de `PYTHONPATH=/opt/data/stt_lib`, y API baja.
+- Así Hermes salta directo a la página correcta sin recorrer todo el árbol.
+
 ## Referencia técnica
 
 - Repo (privado): https://github.com/feba33/MVAS — clone: `/opt/data/MVAS`

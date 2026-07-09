@@ -1,0 +1,4 @@
+# Ignorados por git
+.qmd/
+__pycache__/
+*.pyc
