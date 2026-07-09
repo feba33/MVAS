@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [pld, uif, antilavado, lavado-dinero, prevencion]
+english_keywords: [pld, UIF (Financial Intelligence Unit), antilavado, lavado-dinero, prevencion]
 ---
 
 # Prevención de Lavado de Dinero y UIF (Ley Antilavado)

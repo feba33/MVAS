@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [impuestos, contabilidad-fiscal, deferred-tax, impuesto-diferido, niif, gaap, contabilidad]
+english_keywords: [impuestos, tax accounting, deferred-tax, impuesto-diferido, IFRS, US GAAP, contabilidad]
 ---
 
 # Contabilidad fiscal (impuesto a la ganancia y diferido)

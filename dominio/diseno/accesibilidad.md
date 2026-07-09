@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Web_accessibility
 fecha: 2026-07-09
 confianza: alta
 tags: [accesibilidad, wcag, web-accessibility, pour, niveles-conformidad, discapacidad]
+english_keywords: [accesibilidad, WCAG (accessibility guidelines), web-accessibility, pour, niveles-conformidad, discapacidad]
 ---
 
 # Accesibilidad Web (WCAG)

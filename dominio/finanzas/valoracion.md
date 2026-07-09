@@ -7,6 +7,7 @@ fuente2: https://ctacquisitions.com/company-valuation-methods/
 fecha: 2026-07-09
 confianza: alta
 tags: [finanzas, valoracion, dcf, multiples, wacc, capital-structure, mna, enterprise-value, equity-value]
+english_keywords: [finanzas, valuation, dcf, multiples, wacc, capital-structure, mna, enterprise-value, equity-value]
 ---
 
 ## Resumen condensado

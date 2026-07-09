@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Delaware_General_Corporation_Law
 fecha: 2026-07-09
 confianza: alta
 tags: [delaware, dgcl, corporate-law, incorporacion, eeuu]
+english_keywords: [delaware, DGCL (Delaware corporate law), corporate-law, incorporacion, eeuu]
 ---
 
 # Delaware General Corporation Law (DGCL)

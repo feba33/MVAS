@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Computer_security
 fecha: 2026-07-09
 confianza: alta
 tags: [ciberseguridad, seguridad, cia, nist, amenazas]
+english_keywords: [ciberseguridad, seguridad, CIA triad (confidentiality, integrity, availability), NIST (cybersecurity framework), amenazas]
 ---
 
 # Ciberseguridad

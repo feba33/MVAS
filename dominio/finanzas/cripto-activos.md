@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Cryptocurrency (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [cripto, bitcoin, ethereum, blockchain, exchanges, sec, regulacion, activos-digitales]
+english_keywords: [cripto, bitcoin, ethereum, blockchain, exchanges, SEC / securities, regulacion, activos-digitales]
 ---
 
 # Criptoactivos y Activos Digitales

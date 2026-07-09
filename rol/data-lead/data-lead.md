@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [data-lead, data-science, ml, analitica]
+english_keywords: [data-lead, data-science, machine learning, analitica]
 ---
 # Data Lead / Data Scientist
 ## 📜 Cita

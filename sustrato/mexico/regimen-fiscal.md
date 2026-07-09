@@ -6,6 +6,7 @@ fuente: https://www.sat.gob.mx/portal/public/personas-fisicas/pf-simplificado-de
 fecha: 2026-07-09
 confianza: alta
 tags: [isr, iva, resico, regimen-fiscal, sat, impuestos-mexico]
+english_keywords: [isr, VAT (Value Added Tax), RESICO (Régimen Simplificado de Confianza, simplified tax regime), tax regime, sat, impuestos-mexico]
 ---
 
 # Régimen Fiscal de México (ISR, IVA, RESICO)

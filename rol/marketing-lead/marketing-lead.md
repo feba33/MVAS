@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [marketing-lead, marketing, brand, campanas]
+english_keywords: [marketing-lead, marketing, branding, campanas]
 ---
 # Marketing Lead
 ## 📜 Cita

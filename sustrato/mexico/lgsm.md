@@ -7,6 +7,7 @@ fuente2: https://cicde.mx/diferentes-tipos-sociedades-mexico/
 fecha: 2026-07-09
 confianza: alta
 tags: [mexico, lgsm, sociedades-mercantiles, derecho-corporativo, constitucion-empresa, sas]
+english_keywords: [mexico, LGSM (Ley General de Sociedades Mercantiles), sociedades-mercantiles, derecho-corporativo, constitucion-empresa, sas]
 ---
 
 ## Resumen condensado

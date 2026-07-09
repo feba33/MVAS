@@ -7,6 +7,7 @@ fuente2: https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf
 fecha: 2026-07-09
 confianza: alta
 tags: [mexico, lfpdpdp, proteccion-datos, privacidad, inai, derecho-digital, cumplimiento]
+english_keywords: [mexico, LFPDPPP (personal data protection law), data protection, privacy, inai, digital law, cumplimiento]
 ---
 
 ## Resumen condensado

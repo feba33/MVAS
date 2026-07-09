@@ -6,6 +6,7 @@ fuente: conocimiento general
 fecha: 2026-07-09
 confianza: alta
 tags: [ml-engineering, mlops, entrenamiento, serving, feature-store]
+english_keywords: [ml-engineering, MLOps, entrenamiento, serving, feature-store]
 ---
 
 # Ingeniería de Machine Learning (ML Engineering)

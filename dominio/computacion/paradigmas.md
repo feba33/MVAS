@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Programming_paradigm
 fecha: 2026-07-09
 confianza: alta
 tags: [paradigmas, programacion, imperativo, declarativo, oop, funcional]
+english_keywords: [paradigmas, programacion, imperativo, declarativo, oop, funcional]
 ---
 
 # Paradigmas de Programación

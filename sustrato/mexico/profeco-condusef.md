@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [profeco, condusef, consumidor, usuario-financiero, proteccion]
+english_keywords: [profeco, CONDUSEF (financial consumer protection), consumer, usuario-financiero, proteccion]
 ---
 
 # PROFECO y CONDUSEF (protección al consumidor y usuario financiero)

@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Copyright
 fecha: 2026-07-09
 confianza: alta
 tags: [copyright, ip, derechos-autor, propiedad-intelectual]
+english_keywords: [copyright, intellectual property, derechos-autor, propiedad-intelectual]
 ---
 
 # Copyright (EE.UU. / derecho de autor)

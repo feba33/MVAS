@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/At-will_employment
 fecha: 2026-07-09
 confianza: alta
 tags: [at-will, empleo, laboral-eeuu, despido]
+english_keywords: [at-will, empleo, laboral-eeuu, despido]
 ---
 
 # At-will Employment (EE.UU.)

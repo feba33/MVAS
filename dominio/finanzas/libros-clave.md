@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/The_Intelligent_Investor
 fecha: 2026-07-09
 confianza: alta
 tags: [libros, value-investing, principles, finanzas, graham, dalio]
+english_keywords: [libros, value-investing, principles, finance, graham, dalio]
 ---
 
 # Libros clave de Finanzas

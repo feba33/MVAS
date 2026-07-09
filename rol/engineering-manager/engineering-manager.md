@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [engineering-manager, liderazgo, procesos, equipos]
+english_keywords: [engineering-manager, liderazgo, procesos, equipos]
 ---
 # Engineering Manager
 ## 📜 Cita

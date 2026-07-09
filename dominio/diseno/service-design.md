@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [service-design, diseno-servicios, customer-journey, blueprint, touchpoints]
+english_keywords: [service-design, diseno-servicios, customer-journey, blueprint, touchpoints]
 ---
 
 # Service Design (Diseño de Servicios)

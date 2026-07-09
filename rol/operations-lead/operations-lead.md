@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [operations-lead, operations, procesos, eficiencia]
+english_keywords: [operations-lead, operations, procesos, eficiencia]
 ---
 # Operations Lead
 ## 📜 Cita

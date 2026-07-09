@@ -6,6 +6,7 @@ fuente: conocimiento general
 fecha: 2026-07-09
 confianza: alta
 tags: [marketing, cro, conversion-rate-optimization, ab-testing, analytics, ux, landing-pages]
+english_keywords: [marketing, CRO (conversion rate optimization), conversion-rate-optimization, A/B testing, analytics, ux, landing-pages]
 ---
 
 # Conversion Rate Optimization (CRO) — A/B testing, tasas de conversión

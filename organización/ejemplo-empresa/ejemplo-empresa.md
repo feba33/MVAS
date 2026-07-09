@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [organizacion, empresa, ejemplo, saas]
+english_keywords: [organizacion, empresa, ejemplo, saas]
 ---
 
 # NovaTech — empresa SaaS de ejemplo

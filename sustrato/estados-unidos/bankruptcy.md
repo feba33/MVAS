@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Bankruptcy_in_the_United_States
 fecha: 2026-07-09
 confianza: alta
 tags: [bankruptcy, derecho-concursal, bankruptcy-code, chapter-7, chapter-11, chapter-13, title-11]
+english_keywords: [bankruptcy, derecho-concursal, bankruptcy-code, chapter-7, chapter-11, chapter-13, title-11]
 ---
 
 # Bankruptcy / derecho concursal (EE.UU.)

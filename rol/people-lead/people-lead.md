@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [people-lead, hr, cultura]
+english_keywords: [people-lead, hr, cultura]
 ---
 # People Lead
 ## 📝 Conocimiento

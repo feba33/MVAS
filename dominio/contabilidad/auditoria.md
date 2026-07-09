@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Audit
 fecha: 2026-07-09
 confianza: alta
 tags: [auditoria, auditoria-interna, auditoria-externa, ifrs-audit, dictamen, control-interno, contabilidad]
+english_keywords: [auditoria, auditoria-interna, auditoria-externa, ifrs-audit, dictamen, control-interno, contabilidad]
 ---
 
 # Auditoría (interna, externa y dictamen)

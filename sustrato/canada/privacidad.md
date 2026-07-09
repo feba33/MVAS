@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Personal_Information_Protection_and_Electr
 fecha: 2026-07-09
 confianza: alta
 tags: [canada, pipeda, privacidad, proteccion-datos, datos-personales]
+english_keywords: [canada, PIPEDA (Personal Information Protection, Canada), privacy, data protection, datos-personales]
 ---
 
 # Privacidad Canadá (PIPEDA)

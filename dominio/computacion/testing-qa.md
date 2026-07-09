@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Software_testing
 fecha: 2026-07-09
 confianza: alta
 tags: [testing, qa, unit, integration, e2e, tdd]
+english_keywords: [testing, QA (quality assurance), unit, integration, e2e, tdd]
 ---
 
 # Testing y Aseguramiento de Calidad (QA)

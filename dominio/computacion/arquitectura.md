@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Software_architecture
 fecha: 2026-07-09
 confianza: alta
 tags: [arquitectura, software, trade-offs, c4, nfr]
+english_keywords: [arquitectura, software, trade-offs, c4, nfr]
 ---
 
 # Arquitectura de Software

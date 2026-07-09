@@ -7,6 +7,7 @@ fuente2: https://en.wikipedia.org/wiki/Corporate_Sustainability_Reporting_Direct
 fecha: 2026-07-09
 confianza: alta
 tags: [esg, sostenibilidad, csrd, gri, sasb, tcfd, issb, reporting, gobierno-corporativo]
+english_keywords: [esg, sostenibilidad, csrd, gri, sasb, tcfd, issb, reporting, gobierno-corporativo]
 ---
 
 ## Síntesis

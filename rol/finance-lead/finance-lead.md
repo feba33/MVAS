@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [finance-lead, controller, fp&a, tesoreria]
+english_keywords: [finance-lead, controller, fp&a, tesoreria]
 ---
 # Finance Lead / Controller
 ## 📜 Cita

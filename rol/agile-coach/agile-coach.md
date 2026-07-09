@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [agile-coach, scrum, facilitation, agilidad]
+english_keywords: [agile-coach, scrum, facilitation, agilidad]
 ---
 # Agile Coach / Scrum Master
 

@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Marketing
 fecha: 2026-07-09
 confianza: alta
 tags: [marketing, marketing-mix, 4ps, growth-hacking, seo, sem, b2b, b2c]
+english_keywords: [marketing, marketing-mix, 4ps, growth-hacking, SEO (search engine optimization), sem, b2b, b2c]
 ---
 
 # Marketing (mix 4Ps, growth hacking, SEO/SEM)

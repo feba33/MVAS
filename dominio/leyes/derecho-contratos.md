@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Contract
 fecha: 2026-07-09
 confianza: alta
 tags: [derecho, contratos, obligaciones, common-law, civil-law, formacion, breach, remedios]
+english_keywords: [derecho, contracts, obligaciones, common-law, civil-law, formacion, breach, remedios]
 ---
 
 # Derecho de Contratos

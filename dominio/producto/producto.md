@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [producto, discovery, aarrr, pmf]
+english_keywords: [producto, discovery, AARRR (pirate metrics), pmf]
 ---
 
 # Producto (entidad de dominio)

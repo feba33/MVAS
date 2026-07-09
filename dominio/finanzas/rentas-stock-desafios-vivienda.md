@@ -6,6 +6,7 @@ fuente: https://www.elfinanciero.com.mx/opinion/claudia-olguin/2026/07/09/de-ren
 fecha: 2026-07-09
 confianza: alta
 tags: [elfinanciero, vivienda, mercado-inmobiliario, renta, demanda, mexico]
+english_keywords: [elfinanciero, vivienda, mercado-inmobiliario, renta, demanda, mexico]
 ---
 
 ## Resumen condensado

@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission
 fecha: 2026-07-09
 confianza: alta
 tags: [sec, securities, valores, disclosure, enforcement, exchange-act-1934, securities-act-1933]
+english_keywords: [sec, securities, securities, disclosure, enforcement, exchange-act-1934, securities-act-1933]
 ---
 
 # SEC y regulación de valores (EE.UU.)

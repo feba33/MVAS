@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [ux-ui-lead, ux, ui, design, research]
+english_keywords: [ux-ui-lead, ux, ui, design, research]
 ---
 # UX/UI Lead
 

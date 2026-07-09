@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [cto, technology, strategy]
+english_keywords: [cto, technology, strategy]
 ---
 # CTO
 ## 📝 Conocimiento

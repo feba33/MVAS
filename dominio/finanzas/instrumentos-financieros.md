@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Financial_instrument
 fecha: 2026-07-09
 confianza: alta
 tags: [instrumentos-financieros, bonos, acciones, derivados, equity, deuda]
+english_keywords: [instrumentos-financieros, bonos, acciones, derivados, equity, deuda]
 ---
 
 # Instrumentos Financieros

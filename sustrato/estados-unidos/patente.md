@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Patent
 fecha: 2026-07-09
 confianza: alta
 tags: [patente, ip, trips, propiedad-intelectual]
+english_keywords: [patente, intellectual property, trips, propiedad-intelectual]
 ---
 
 # Patente (EE.UU. / patent)

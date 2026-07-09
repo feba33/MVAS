@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [customer-success, cs, retention]
+english_keywords: [customer-success, cs, retention]
 ---
 
 # Customer Success Lead (nodo rol)

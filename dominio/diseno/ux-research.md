@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/User_experience
 fecha: 2026-07-09
 confianza: alta
 tags: [ux-research, user-experience, usabilidad, entrevistas, personas, usability-testing]
+english_keywords: [ux-research, user-experience, usabilidad, entrevistas, personas, usability-testing]
 ---
 
 # UX Research (Investigación de Experiencia de Usuario)

@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Behavioral_economics (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [finanzas-conductuales, behavioral-finance, sesgos, kahneman, tversky, prospect-theory, decisiones]
+english_keywords: [finanzas-conductuales, behavioral-finance, sesgos, kahneman, tversky, prospect-theory, decisiones]
 ---
 
 # Finanzas Conductuales

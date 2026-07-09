@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Traction_(book)
 fecha: 2026-07-09
 confianza: alta
 tags: [libros, traction, hooked, growth, marketing]
+english_keywords: [libros, traction, hooked, growth, marketing]
 ---
 
 # Libros clave de Marketing

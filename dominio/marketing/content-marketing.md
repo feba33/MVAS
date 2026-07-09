@@ -6,6 +6,7 @@ fuente: conocimiento general
 fecha: 2026-07-09
 confianza: alta
 tags: [marketing, content-marketing, seo, blogs, funnels, leads, inbound]
+english_keywords: [marketing, content-marketing, SEO (search engine optimization), blogs, funnels, leads, inbound]
 ---
 
 # Content Marketing (blogs, SEO, funnels de contenido)

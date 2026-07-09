@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/List_of_areas_of_law
 fecha: 2026-07-09
 confianza: alta
 tags: [derecho, ramas, civil, penal, mercantil, laboral, fiscal]
+english_keywords: [derecho, ramas, civil, penal, mercantil, labor, fiscal]
 ---
 
 # Ramas del Derecho

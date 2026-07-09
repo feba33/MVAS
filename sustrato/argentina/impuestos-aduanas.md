@@ -7,6 +7,7 @@ fuente2: https://www.argentina.gob.ar/economia/ingresospublicos/sistematributari
 fecha: 2026-07-09
 confianza: alta
 tags: [argentina, impuestos, afip, arca, aduana, iva, ganancias, bienes-personales, monotributo, cuit]
+english_keywords: [argentina, taxes / taxation, afip, arca, aduana, VAT (Value Added Tax), ganancias, bienes-personales, monotributo, cuit]
 ---
 
 ## Síntesis

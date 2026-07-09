@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [canada, impuestos, cra, income-tax, gst-hst, tributario]
+english_keywords: [canada, taxes / taxation, CRA (Canada Revenue Agency), income-tax, gst-hst, tributario]
 ---
 
 # Impuestos Federales Canadá (CRA)

@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [operaciones, supply-chain, lean, logistica]
+english_keywords: [operaciones, supply chain, lean, logistica]
 ---
 
 # Operaciones (Cadena de Suministro, Lean, Six Sigma, Logística y Planificación de Capacidad)

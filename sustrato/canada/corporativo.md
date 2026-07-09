@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Canada_Business_Corporations_Act
 fecha: 2026-07-09
 confianza: alta
 tags: [canada, cbca, derecho-corporativo, incorporacion]
+english_keywords: [canada, cbca, derecho-corporativo, incorporacion]
 ---
 
 # Derecho Corporativo Canadá (CBCA)

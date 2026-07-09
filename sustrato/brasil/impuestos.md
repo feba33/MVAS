@@ -6,6 +6,7 @@ fuente: conocimiento geral (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [brasil, impuestos, receita-federal, irpf, icms, ipi, tributario]
+english_keywords: [brasil, taxes / taxation, receita-federal, irpf, icms, ipi, tributario]
 ---
 
 # Impuestos en Brasil (Receita Federal, IRPF, ICMS, IPI)

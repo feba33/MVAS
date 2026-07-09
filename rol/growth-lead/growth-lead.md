@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [growth-lead, growth, adquisicion, experimentacion]
+english_keywords: [growth-lead, growth, adquisicion, experimentacion]
 ---
 # Growth Lead
 ## 📜 Cita

@@ -171,6 +171,7 @@ MVAS se indexa como colección `mvas` del CLI **QMD** (Node.js, `@tobilu/qmd` po
 - **Buscar:** `qmd query "consulta" --collection mvas` (híbrido+rerank, mejor) · `qmd search` (BM25, instant) · `qmd vsearch` (vector). Añade `--json --limit N`.
 - **Helper:** `scripts/qmd.py index|status|search|get` envuelve ese CLI.
 - **MCP (recomendado):** `~/.hermes/config.yaml` → `mcp_servers.qmd: {command: qmd, args: [mcp]}`; o daemon HTTP `qmd mcp --http --daemon`.
+- **K-words bilingües:** toda página lleva `tags` (ES) + `english_keywords` (EN); el script `scripts/add_en_keywords.py` las regenera en lote (regla obligatoria en `esquema.md`). Así el retrieval funciona en ES y EN.
 - **Skill `qmd`:** instalación, MCP, modelo multilingüe, y el pitfall de NO confundirlo con el paquete PyPI `qmd` (Python), que es OTRO proyecto.
 - Así Hermes salta directo a la página correcta sin recorrer todo el árbol.
 

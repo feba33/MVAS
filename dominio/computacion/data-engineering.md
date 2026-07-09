@@ -6,6 +6,7 @@ fuente: conocimiento general
 fecha: 2026-07-09
 confianza: alta
 tags: [data-engineering, etl, elt, data-warehouse, dbt, spark]
+english_keywords: [data-engineering, ETL (extract transform load), elt, data-warehouse, dbt, spark]
 ---
 
 # Ingeniería de Datos

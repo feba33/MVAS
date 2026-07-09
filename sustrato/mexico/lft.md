@@ -6,6 +6,7 @@ fuente: https://es.wikipedia.org/wiki/Ley_Federal_del_Trabajo_(M%C3%A9xico)
 fecha: 2026-07-09
 confianza: alta
 tags: [lft, laboral, jornada, salario-minimo, subcontratacion, ptu, contratos]
+english_keywords: [lft, labor, jornada, salario-minimo, subcontratacion, PTU (profit sharing), contratos]
 ---
 
 # Ley Federal del Trabajo (México)

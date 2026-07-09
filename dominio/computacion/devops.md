@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/DevOps
 fecha: 2026-07-09
 confianza: alta
 tags: [devops, ci-cd, cloud, automatizacion, entrega-continua]
+english_keywords: [devops, ci-cd, cloud, automatizacion, entrega-continua]
 ---
 
 # DevOps

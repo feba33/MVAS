@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [rrhh, people, cultura, reclutamiento]
+english_keywords: [rrhh, people / HR, cultura, reclutamiento]
 ---
 
 # Recursos Humanos (Gestión de Personas)

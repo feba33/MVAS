@@ -6,6 +6,7 @@ fuente: https://pt.wikipedia.org/wiki/Lei_Geral_de_Proteção_de_Dados
 fecha: 2026-07-09
 confianza: alta
 tags: [brasil, lgpd, privacidade, protecao-de-dados, anpd, gdpr]
+english_keywords: [brasil, LGPD (Lei Geral de Proteção de Dados, Brazil), privacidade, protecao-de-dados, anpd, gdpr]
 ---
 
 # LGPD (Lei Geral de Proteção de Dados, Lei 13.709/2018)

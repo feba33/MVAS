@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Sherman_Antitrust_Act
 fecha: 2026-07-09
 confianza: alta
 tags: [antitrust, sherman-act-1890, clayton-act-1914, ftc-act-1914, competencia, monopolio]
+english_keywords: [antitrust, sherman-act-1890, clayton-act-1914, ftc-act-1914, competition / antitrust, monopolio]
 ---
 
 # Antitrust (derecho de la competencia, EE.UU.)

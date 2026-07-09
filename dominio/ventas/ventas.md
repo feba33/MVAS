@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [ventas, sales, funnel, crm]
+english_keywords: [ventas, sales, funnel, crm]
 ---
 
 # Ventas (metodología, funnel, CRM y métricas)

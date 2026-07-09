@@ -7,6 +7,7 @@ fuente2: https://en.wikipedia.org/wiki/Regulatory_compliance
 fecha: 2026-07-09
 confianza: alta
 tags: [compliance, compliance-officer, cco, grc, aml, anticorrupcion, regulacion]
+english_keywords: [compliance, compliance-officer, cco, grc, AML (anti-money laundering), anticorrupcion, regulacion]
 ---
 
 ## Síntesis

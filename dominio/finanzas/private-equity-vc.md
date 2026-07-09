@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Venture_capital (y conocimiento general â€
 fecha: 2026-07-09
 confianza: alta
 tags: [private-equity, venture-capital, fundraising, rondas, term-sheet, dilucion, ipo, m&a]
+english_keywords: [private-equity, venture-capital, fundraising, rondas, term-sheet, dilucion, ipo, m&a]
 ---
 
 # Private Equity y Venture Capital

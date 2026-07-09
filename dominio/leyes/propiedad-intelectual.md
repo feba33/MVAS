@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Intellectual_property
 fecha: 2026-07-09
 confianza: alta
 tags: [derecho, propiedad-intelectual, marcas, patentes, copyright, trade-secrets, ee-uu]
+english_keywords: [derecho, intellectual property, marcas, patentes, copyright, trade-secrets, ee-uu]
 ---
 
 # Propiedad Intelectual (profundización)

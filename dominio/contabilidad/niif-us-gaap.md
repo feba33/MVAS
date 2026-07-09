@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/International_Financial_Reporting_Standard
 fecha: 2026-07-09
 confianza: alta
 tags: [niif, ifrs, us-gaap, contabilidad, normas-contables, iasb]
+english_keywords: [niif, ifrs, us-gaap, contabilidad, normas-contables, iasb]
 ---
 
 # NIIF vs US GAAP (normas contables)

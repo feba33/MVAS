@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Internal_Revenue_Service
 fecha: 2026-07-09
 confianza: alta
 tags: [irs, impuestos-eeuu, treasury, internal-revenue-code]
+english_keywords: [irs, impuestos-eeuu, treasury, internal-revenue-code]
 ---
 
 # Internal Revenue Service (IRS)

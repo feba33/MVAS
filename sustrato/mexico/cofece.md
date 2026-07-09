@@ -6,6 +6,7 @@ fuente: https://www.diputados.gob.mx/LeyesBiblio/ref/lfce.htm
 fecha: 2026-07-09
 confianza: alta
 tags: [competencia-economica, cofece, lfce, antimonopolio, mexico]
+english_keywords: [competencia-economica, COFECE (antitrust authority), lfce, antimonopolio, mexico]
 ---
 
 # Competencia Económica en México (LFCE / COFECE)

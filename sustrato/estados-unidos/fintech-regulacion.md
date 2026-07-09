@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Financial_technology
 fecha: 2026-07-09
 confianza: media
 tags: [fintech, regulacion, sec, occ, cnbv, ley-fintech]
+english_keywords: [fintech, regulacion, SEC / securities, occ, cnbv, ley-fintech]
 ---
 
 # Regulación de Fintech (EE.UU. y México)

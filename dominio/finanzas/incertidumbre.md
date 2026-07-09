@@ -6,6 +6,7 @@ fuente: https://www.elfinanciero.com.mx/opinion/guillermo-knochenhauer/2026/07/0
 fecha: 2026-07-09
 confianza: alta
 tags: [elfinanciero, tmec, comercio, inversiones, mexico, incertidumbre]
+english_keywords: [elfinanciero, tmec, comercio, inversiones, mexico, incertidumbre]
 ---
 
 ## Resumen condensado

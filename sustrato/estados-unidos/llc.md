@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Limited_liability_company
 fecha: 2026-07-09
 confianza: alta
 tags: [llc, limited-liability, estructura-empresarial, eeuu, paso-through]
+english_keywords: [llc, limited-liability, estructura-empresarial, eeuu, paso-through]
 ---
 
 # Limited Liability Company (LLC) en EE.UU.

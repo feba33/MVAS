@@ -6,6 +6,7 @@ fuente: https://www.elfinanciero.com.mx/opinion/colaborador-invitado/2026/07/09/
 fecha: 2026-07-09
 confianza: alta
 tags: [elfinanciero, tmec, inversionistas, industria-mexicana, incertidumbre, comercio]
+english_keywords: [elfinanciero, tmec, inversionistas, industria-mexicana, incertidumbre, comercio]
 ---
 
 ## Resumen condensado

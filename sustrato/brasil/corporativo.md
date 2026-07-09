@@ -6,6 +6,7 @@ fuente: https://pt.wikipedia.org/wiki/Lei_das_Sociedades_por_Ações
 fecha: 2026-07-09
 confianza: alta
 tags: [brasil, lei-sa, direito-empresarial, sociedade-anonima]
+english_keywords: [brasil, lei-sa, direito-empresarial, sociedade-anonima]
 ---
 
 # Derecho Corporativo Brasil (Lei das S.A.)

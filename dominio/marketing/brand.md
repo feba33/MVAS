@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Brand
 fecha: 2026-07-09
 confianza: alta
 tags: [marketing, branding, marca, brand-equity, posicionamiento, identidad, brand-awareness]
+english_keywords: [marketing, branding, marca, brand-equity, posicionamiento, identidad, brand-awareness]
 ---
 
 # Branding / Marca (brand equity, posicionamiento, identidad)

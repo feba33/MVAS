@@ -7,6 +7,7 @@ fuente2: https://es.wikipedia.org/wiki/Direcci%C3%B3n_Nacional_de_Protecci%C3%B3
 fecha: 2026-07-09
 confianza: alta
 tags: [argentina, proteccion-datos, privacidad, habeas-data, aaip, lfpdp]
+english_keywords: [argentina, data protection, privacy, habeas-data, aaip, lfpdp]
 ---
 
 ## Síntesis

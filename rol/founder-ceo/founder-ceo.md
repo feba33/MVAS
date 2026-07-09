@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [founder, ceo, strategy]
+english_keywords: [founder, ceo, strategy]
 ---
 
 # Founder / CEO

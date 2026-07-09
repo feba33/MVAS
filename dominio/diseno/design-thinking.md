@@ -6,6 +6,7 @@ fuente: https://en.wikipedia.org/wiki/Design_thinking
 fecha: 2026-07-09
 confianza: alta
 tags: [design-thinking, ux-research, innovacion, centrado-en-usuario]
+english_keywords: [design-thinking, UX research, innovacion, centrado-en-usuario]
 ---
 
 # Design Thinking (y UX Research)

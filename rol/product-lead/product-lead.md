@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [product-lead, product-manager, roadmap, discovery, producto]
+english_keywords: [product-lead, product-manager, roadmap, discovery, producto]
 ---
 # Product Lead / Product Manager
 ## 📜 Cita

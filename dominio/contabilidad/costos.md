@@ -6,6 +6,7 @@ fuente: conocimiento general (reference-only)
 fecha: 2026-07-09
 confianza: alta
 tags: [costos, costeo-directo, costeo-absorbente, abc, costos-fijos, costos-variables, cpv, contabilidad]
+english_keywords: [costos, costeo-directo, costeo-absorbente, abc, costos-fijos, costos-variables, cpv, contabilidad]
 ---
 
 # Contabilidad de costos (costeo y CPV)

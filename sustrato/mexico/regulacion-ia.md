@@ -7,6 +7,7 @@ fuente2: https://mobiletime.la/noticias/03/10/2025/senado-regular-ia/
 fecha: 2026-07-09
 confianza: media
 tags: [mexico, inteligencia-artificial, ia, regulacion, derecho-digital, ciberseguridad, neuroderechos]
+english_keywords: [mexico, inteligencia-artificial, AI (artificial intelligence), regulacion, digital law, cybersecurity, neuroderechos]
 ---
 
 ## Resumen condensado

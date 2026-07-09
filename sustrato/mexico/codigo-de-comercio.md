@@ -7,6 +7,7 @@ fuente2: https://gobierno.com.mx/codigo-de-comercio.html
 fecha: 2026-07-09
 confianza: alta
 tags: [mexico, codigo-de-comercio, contratos-mercantiles, comerciantes, titulos-de-credito, derecho-corporativo]
+english_keywords: [mexico, Commercial Code, contratos-mercantiles, comerciantes, titulos-de-credito, derecho-corporativo]
 ---
 
 ## Resumen condensado

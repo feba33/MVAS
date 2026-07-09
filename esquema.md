@@ -40,6 +40,10 @@ con esta superstructura anidada. La arquitectura LLM Wiki se repite en cada inst
 - `index.md` — catálogo (el raíz lista nodos; el nodo lista sus páginas).
 - `log.md` — registro cronológico (`## [fecha] tipo | título`).
 - Cada página lleva YAML frontmatter (capa, tema, fuente, fecha, confianza, tags).
+- **Bilingüe (obligatorio):** además de `tags` (español), TODA página nueva debe
+  incluir `english_keywords:` (k-words en inglés) para retrieval cross-lingual
+  (BM25 + embedding). Se derivan traduciendo las `tags` con
+  `scripts/add_en_keywords.py` (lo corre Hermes en lote).
 - Ver `GUIA-HERMES.md` para el procedimiento completo de ingest/query/lint.
 
 Cuando el usuario pase la taxonomía definitiva, reemplazar este archivo y crear las
