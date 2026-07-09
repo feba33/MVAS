@@ -11,3 +11,11 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-09] ingest | Ramas del Derecho
 - Fuente: conocimiento general + Wikipedia 'List of areas of law' — reference-only.
 - Página: `ramas-derecho.md`. Derecho constitucional, civil, penal, mercantil, laboral, administrativo, fiscal, internacional, procesal.
+
+## [2026-07-09] ingest | Derecho de Contratos
+- Fuente: Wikipedia EN 'Contract' (https://en.wikipedia.org/wiki/Contract).
+- Página: `derecho-contratos.md`. Elementos esenciales, tipos, formación (common law vs. civil), incumplimiento (breach) y remedios (damages, specific performance, rescission).
+
+## [2026-07-09] ingest | Propiedad Intelectual (profundización)
+- Fuente: Wikipedia EN 'Intellectual property' (https://en.wikipedia.org/wiki/Intellectual_property).
+- Página: `propiedad-intelectual.md`. Marcas, patentes, copyright, trade secrets; relación con el régimen de EE. UU. (Copyright Office, USPTO, Lanham Act, DTSA).

@@ -21,64 +21,75 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 
 ## ESTADO
 - **Plan:** generado por `scripts/gap_analysis.py` (36 huecos + 5 nodos nuevos = 41 temas)
-- **Iteración actual:** 54 (loop 1 = 35-44; loop 2 = 45-54)
-- **Temas completados:** 54 / 75 (34 previos + 41 de este plan; 20 hechos en loops 1-2)
-- **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corre aquí)
+- **Iteración actual:** 75 (loop 1 = 35-44; loop 2 = 45-54; loop 3 = 55-75)
+- **Temas completados:** 75 / 75 (34 previos + 41 de este plan — PLAN COMPLETO)
+- **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
+- **Siguiente paso (procedimiento):** al vaciarse la cola, correr `gap_analysis.py`
+  de nuevo para detectar nuevos huecos (p. ej. nuevos países, noticias recientes,
+  más dominios) y generar un nuevo plan. El procedimiento está documentado y listo.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
-- [x] sustrato/mexico — LFT (laboral, outsourcing, reparto utilidades)
-- [x] sustrato/mexico — PROFECO / CONDUSEF (protección al consumidor)
-- [x] sustrato/mexico — PLD / UIF (prevención de lavado, AML)
+- [x] sustrato/mexico — LFT
+- [x] sustrato/mexico — PROFECO / CONDUSEF
+- [x] sustrato/mexico — PLD / UIF
 - [x] sustrato/estados-unidos — SEC y regulación de valores
-- [x] sustrato/estados-unidos — Antitrust (Sherman / Clayton)
-- [x] sustrato/estados-unidos — Bankruptcy / derecho concursal
+- [x] sustrato/estados-unidos — Antitrust
+- [x] sustrato/estados-unidos — Bankruptcy
 - [x] sustrato/canada — Privacidad (PIPEDA)
-- [x] sustrato/canada — Impuestos federales (CRA)
-- [x] sustrato/brasil — LGPD (protección de datos)
+- [x] sustrato/canada — Impuestos (CRA)
+- [x] sustrato/brasil — LGPD
 - [x] sustrato/brasil — Impuestos (Receita Federal)
 ### Dominio (nodos existentes — ampliar)
-- [x] dominio/finanzas — Private Equity / Venture Capital / fundraising
-- [x] dominio/finanzas — Criptoactivos / activos digitales
+- [x] dominio/finanzas — Private Equity / VC
+- [x] dominio/finanzas — Criptoactivos
 - [x] dominio/finanzas — Finanzas conductuales
 - [x] dominio/computacion — Ciberseguridad
-- [x] dominio/computacion — Ingeniería de datos (data engineering)
+- [x] dominio/computacion — Ingeniería de datos
 - [x] dominio/computacion — ML / AI engineering
 - [x] dominio/computacion — Testing / QA
 - [x] dominio/marketing — Content marketing
-- [x] dominio/marketing — Conversion Rate Optimization (CRO)
-- [x] dominio/marketing — Branding / marca
-- [ ] dominio/leyes — Derecho de contratos
-- [ ] dominio/leyes — Propiedad intelectual (profundización)
-- [ ] dominio/contabilidad — Contabilidad de costos
-- [ ] dominio/contabilidad — Auditoría
-- [ ] dominio/contabilidad — Contabilidad fiscal
-- [ ] dominio/diseno — UX research (métodos)
-- [ ] dominio/diseno — Accesibilidad (WCAG)
-- [ ] dominio/diseno — Service design
+- [x] dominio/marketing — CRO
+- [x] dominio/marketing — Branding
+- [x] dominio/leyes — Derecho de contratos
+- [x] dominio/leyes — Propiedad intelectual
+- [x] dominio/contabilidad — Contabilidad de costos
+- [x] dominio/contabilidad — Auditoría
+- [x] dominio/contabilidad — Contabilidad fiscal
+- [x] dominio/diseno — UX research
+- [x] dominio/diseno — Accesibilidad (WCAG)
+- [x] dominio/diseno — Service design
 ### Dominio (nuevos nodos)
-- [ ] dominio/ventas — metodología, funnel, CRM (nuevo nodo)
-- [ ] dominio/producto — discovery, métricas AARRR, PMF (nuevo nodo)
-- [ ] dominio/recursos-humanos — People / HR (nuevo nodo)
-- [ ] dominio/operaciones — supply chain, lean (nuevo nodo)
+- [x] dominio/ventas
+- [x] dominio/producto
+- [x] dominio/recursos-humanos
+- [x] dominio/operaciones
 ### Rol (nuevos nodos)
-- [ ] rol/sales-lead
-- [ ] rol/customer-success-lead
-- [ ] rol/people-lead
-- [ ] rol/legal-counsel
-- [ ] rol/founder-ceo
-- [ ] rol/cto
-- [ ] rol/data-engineer
-- [ ] rol/qa-engineer
+- [x] rol/sales-lead
+- [x] rol/customer-success-lead
+- [x] rol/people-lead
+- [x] rol/legal-counsel
+- [x] rol/founder-ceo
+- [x] rol/cto
+- [x] rol/data-engineer
+- [x] rol/qa-engineer
 ### Organización (nuevo nodo)
-- [ ] organización/ejemplo-empresa — empresa ejemplo (nuevo nodo)
+- [x] organización/ejemplo-empresa
 
 ## LOG DE ITERACIONES
 ### [2026-07-09] fase previa | iter 1-34 completas (34 temas; lint OK)
 ### [2026-07-09] setup | Procedimiento reabastecimiento + gap_analysis + plan 41 temas
 ### [2026-07-09] LOOP 1 (Sustrato) | iter 35-44 — 10 páginas vía 4 subagentes
 ### [2026-07-09] LOOP 2 (Dominio existentes) | iter 45-54 — 10 páginas vía 3 subagentes
-- finanzas: private-equity-vc, cripto-activos, behavioral-finance
-- computacion: ciberseguridad, data-engineering, ml-engineering, testing-qa
-- marketing: content-marketing, cro, brand
-### [2026-07-09] LOOP 3 (Leyes/Contabilidad/Diseño + nuevos nodos + roles) | iter 55+
+### [2026-07-09] LOOP 3 (Leyes/Contabilidad/Diseño + 4 nodos dominio + organización + 8 roles) | iter 55-75
+- dominio/leyes: derecho-contratos, propiedad-intelectual
+- dominio/contabilidad: costos, auditoria, impuestos
+- dominio/diseno: ux-research, accesibilidad, service-design
+- nuevos nodos: dominio/ventas, dominio/producto, dominio/recursos-humanos, dominio/operaciones
+- organización/ejemplo-empresa (NovaTech)
+- roles: sales-lead, customer-success-lead, people-lead, legal-counsel, founder-ceo, cto, data-engineer, qa-engineer
+- **PLAN COMPLETO (75/75).** Procedimiento de reabastecimiento listo en GUIA-HERMES.md + scripts/gap_analysis.py.
+### [2026-07-09] ESTADO FINAL DEL PLAN
+- Los 41 temas del plan gap-analysis están ingestados. Wiki con 4 capas pobladas.
+- Para extender: correr `python3 scripts/gap_analysis.py` (la taxonomía puede ampliarse)
+  y volcar nuevos huecos en esta cola, o añadir temas manualmente.

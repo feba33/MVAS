@@ -19,11 +19,11 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 <!-- El LLM añade aquí cada página nueva con su resumen. -->
 
 ### sustrato/mexico
-- [lgsm](sustrato/mexico/lgsm.md) — LGSM: 7 tipos de sociedad mercantil y reformas · 🏷️ lgsm,derecho-corporativo · 📅 2026-07-09
-- [codigo-de-comercio](sustrato/mexico/codigo-de-comercio.md) — CCom: actos de comercio, contratos, títulos de crédito · 🏷️ codigo-de-comercio · 📅 2026-07-09
-- [lfpdpdp](sustrato/mexico/lfpdpdp.md) — LFPDPPP 2025: protección de datos, abroga la de 2010 · 🏷️ lfpdpdp,privacidad · 📅 2026-07-09
-- [regulacion-ia](sustrato/mexico/regulacion-ia.md) — Regulación de IA en México: iniciativas 2023-2025 · 🏷️ ia,regulacion · 📅 2026-07-09
+- [lgsm](sustrato/mexico/lgsm.md) — LGSM: 7 tipos de sociedad mercantil · 🏷️ lgsm,derecho-corporativo · 📅 2026-07-09
+- [codigo-de-comercio](sustrato/mexico/codigo-de-comercio.md) — CCom: actos de comercio, títulos de crédito · 🏷️ codigo-de-comercio · 📅 2026-07-09
 - [regimen-fiscal](sustrato/mexico/regimen-fiscal.md) — Régimen fiscal México: ISR, IVA, RESICO · 🏷️ isr,iva,resico · 📅 2026-07-09
+- [lfpdpdp](sustrato/mexico/lfpdpdp.md) — LFPDPPP 2025: protección de datos · 🏷️ lfpdpdp,privacidad · 📅 2026-07-09
+- [regulacion-ia](sustrato/mexico/regulacion-ia.md) — Regulación de IA en México · 🏷️ ia,regulacion · 📅 2026-07-09
 - [cofece](sustrato/mexico/cofece.md) — Competencia económica México: LFCE y COFECE · 🏷️ cofece,competencia · 📅 2026-07-09
 - [lft](sustrato/mexico/lft.md) — LFT: laboral, outsourcing, PTU · 🏷️ lft,laboral,outsourcing · 📅 2026-07-09
 - [profeco-condusef](sustrato/mexico/profeco-condusef.md) — PROFECO/CONDUSEF: protección al consumidor · 🏷️ profeco,condusef,consumidor · 📅 2026-07-09
@@ -53,8 +53,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/finanzas
 - [incertidumbre](dominio/finanzas/incertidumbre.md) — T-MEC vigente hasta 2036 · 🏷️ tmec · 📅 2026-07-09
-- [t-mec-revision-anual-inversionistas](dominio/finanzas/t-mec-revision-anual-inversionistas.md) — revisión anual del T-MEC · 🏷️ tmec · 📅 2026-07-09
-- [rentas-stock-desafios-vivienda](dominio/finanzas/rentas-stock-desafios-vivienda.md) — mercado inmobiliario · 🏷️ vivienda · 📅 2026-07-09
+- [t-mec-revision-anual-inversionistas](dominio/finanzas/t-mec-revision-anual-inversionistas.md) — Revisión anual del T-MEC · 🏷️ tmec · 📅 2026-07-09
+- [rentas-stock-desafios-vivienda](dominio/finanzas/rentas-stock-desafios-vivienda.md) — Mercado inmobiliario · 🏷️ vivienda · 📅 2026-07-09
 - [valoracion](dominio/finanzas/valoracion.md) — Valoración de empresas: DCF, múltiplos · 🏷️ valoracion · 📅 2026-07-09
 - [instrumentos-financieros](dominio/finanzas/instrumentos-financieros.md) — Instrumentos financieros: deuda, capital, derivados · 🏷️ instrumentos · 📅 2026-07-09
 - [libros-clave](dominio/finanzas/libros-clave.md) — Libros clave: Intelligent Investor, Principles · 🏷️ libros · 📅 2026-07-09
@@ -80,12 +80,32 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/leyes
 - [ramas-derecho](dominio/leyes/ramas-derecho.md) — Ramas del derecho · 🏷️ derecho · 📅 2026-07-09
+- [derecho-contratos](dominio/leyes/derecho-contratos.md) — Derecho de contratos: elementos, remedios · 🏷️ contratos · 📅 2026-07-09
+- [propiedad-intelectual](dominio/leyes/propiedad-intelectual.md) — Propiedad intelectual: marcas, patentes, copyright · 🏷️ ip,pi · 📅 2026-07-09
 
 ### dominio/contabilidad
 - [niif-us-gaap](dominio/contabilidad/niif-us-gaap.md) — NIIF vs US GAAP · 🏷️ niif,gaap · 📅 2026-07-09
+- [costos](dominio/contabilidad/costos.md) — Contabilidad de costos · 🏷️ costos · 📅 2026-07-09
+- [auditoria](dominio/contabilidad/auditoria.md) — Auditoría: interna/externa, SOX · 🏷️ auditoria · 📅 2026-07-09
+- [impuestos](dominio/contabilidad/impuestos.md) — Contabilidad fiscal: corriente/diferido · 🏷️ impuestos · 📅 2026-07-09
 
 ### dominio/diseno
 - [design-thinking](dominio/diseno/design-thinking.md) — Design Thinking + UX research · 🏷️ design-thinking · 📅 2026-07-09
+- [ux-research](dominio/diseno/ux-research.md) — UX research: métodos · 🏷️ ux,research · 📅 2026-07-09
+- [accesibilidad](dominio/diseno/accesibilidad.md) — Accesibilidad: WCAG (POUR) · 🏷️ accesibilidad,wcag · 📅 2026-07-09
+- [service-design](dominio/diseno/service-design.md) — Service design: journeys, blueprints · 🏷️ service-design · 📅 2026-07-09
+
+### dominio/ventas
+- [ventas](dominio/ventas/ventas.md) — Ventas: SPIN, Challenger, MEDDIC, funnel, CRM · 🏷️ ventas,sales,funnel · 📅 2026-07-09
+
+### dominio/producto
+- [producto](dominio/producto/producto.md) — Producto: discovery, AARRR, PMF, roadmap · 🏷️ producto,discovery,pmf · 📅 2026-07-09
+
+### dominio/recursos-humanos
+- [recursos-humanos](dominio/recursos-humanos/recursos-humanos.md) — RRHH: reclutamiento, cultura, compensación · 🏷️ rrhh,people · 📅 2026-07-09
+
+### dominio/operaciones
+- [operaciones](dominio/operaciones/operaciones.md) — Operaciones: supply chain, lean, Six Sigma · 🏷️ operaciones,lean · 📅 2026-07-09
 
 ### rol/
 - [growth-lead](rol/growth-lead/growth-lead.md) — Growth Lead: adquisición, canales, experimentación · 🏷️ growth · 📅 2026-07-09
@@ -97,3 +117,14 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [finance-lead](rol/finance-lead/finance-lead.md) — Finance Lead/Controller: FP&A, reporting · 🏷️ finance · 📅 2026-07-09
 - [operations-lead](rol/operations-lead/operations-lead.md) — Operations Lead: procesos, eficiencia · 🏷️ operations · 📅 2026-07-09
 - [agile-coach](rol/agile-coach/agile-coach.md) — Agile Coach/Scrum Master: agilidad, facilitación · 🏷️ agile · 📅 2026-07-09
+- [sales-lead](rol/sales-lead/sales-lead.md) — Sales Lead: pipeline, forecast, cerrar · 🏷️ sales,revenue · 📅 2026-07-09
+- [customer-success-lead](rol/customer-success-lead/customer-success-lead.md) — Customer Success Lead: retención, NPS · 🏷️ cs,retention · 📅 2026-07-09
+- [people-lead](rol/people-lead/people-lead.md) — People/HR Lead: talento, cultura · 🏷️ people,hr · 📅 2026-07-09
+- [legal-counsel](rol/legal-counsel/legal-counsel.md) — Legal Counsel: contratos, compliance · 🏷️ legal,compliance · 📅 2026-07-09
+- [founder-ceo](rol/founder-ceo/founder-ceo.md) — Founder/CEO: visión, estrategia, fundraising · 🏷️ founder,ceo · 📅 2026-07-09
+- [cto](rol/cto/cto.md) — CTO: estrategia tecnológica, arquitectura · 🏷️ cto,tech · 📅 2026-07-09
+- [data-engineer](rol/data-engineer/data-engineer.md) — Data Engineer: pipelines, warehouses · 🏷️ data-engineer · 📅 2026-07-09
+- [qa-engineer](rol/qa-engineer/qa-engineer.md) — QA Engineer: calidad, automatización · 🏷️ qa,testing · 📅 2026-07-09
+
+### organización/
+- [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09
