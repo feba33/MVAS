@@ -26,19 +26,24 @@ El usuario aporta fuentes y preguntas; Hermes cuida, mantiene, optimiza y da ret
 auto-contenido con su propia `raw/`, `index.md` y `log.md`. La info de cada
 entidad vive **solo en su carpeta**. Ver `esquema.md` (plantilla de nodo).
 
+**🔎 Capa de discernimiento:** antes de escribir, Hermes **infiere a qué entidad
+va cada input** (sin que tú lo especifiques); solo pregunta si hay baja certeza.
+Ver `protocolo-discriminamiento.md`.
+
 **Navegación**
 - `index.md` — catálogo de nodos (lo lee Hermes primero al responder).
 - `log.md` — registro cronológico de actividad.
 
 ## Operaciones
-- **Ingest**: el usuario deposita una fuente en el `raw/` correspondiente → Hermes la
-  lee, la discute, ubica el nodo (creándolo con su superstructura si no existe),
+- **Ingest**: depositas una fuente en el `raw/` correspondiente → Hermes la lee,
+  **infiere la entidad** (discernimiento), la discute, ubica/crea el nodo,
   escribe/actualiza páginas DENTRO del nodo, enlaza, actualiza `index.md`/`log.md`
   del nodo, y hace push.
-- **Query**: el usuario pregunta → Hermes busca en `index.md`, taladra nodos y
-  páginas, sintetiza con citas; las respuestas valiosas se archivan como páginas.
+- **Query**: preguntas → Hermes busca en `index.md`, taladra nodos y páginas,
+  sintetiza con citas; las respuestas valiosas se archivan como páginas.
 - **Lint**: Hermes hace health-check (contradicciones, huérfanas, gaps, integridad
   recursiva) y optimiza.
 
 ## Para Hermes
-Ver `GUIA-HERMES.md` (esquema completo y procesos de ingest/query/lint).
+Ver `GUIA-HERMES.md` (esquema completo y procesos de ingest/query/lint) y
+`protocolo-discriminamiento.md` (capa de inferencia de entidad).
