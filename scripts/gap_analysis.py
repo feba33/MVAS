@@ -122,10 +122,14 @@ def main() -> None:
             for s, t in missing:
                 print(f"- [{s}] {t}")
             total += len(missing)
-    print("\n## Nodos sugeridos (no existen aún)")
+    print("\n## Nodos sugeridos (que aún no existen)")
+    _any_new = False
     for path, desc in NEW_NODES:
-        mark = "" if os.path.isdir(os.path.join(ROOT, path)) else "  <- NUEVO"
-        print(f"- {path}: {desc}{mark}")
+        if not os.path.isdir(os.path.join(ROOT, path)):
+            print(f"- {path}: {desc}  <- NUEVO")
+            _any_new = True
+    if not _any_new:
+        print("- (ninguno: todos los nodos sugeridos ya existen)")
     print(f"\nTOTAL huecos en nodos existentes: {total}")
 
 
