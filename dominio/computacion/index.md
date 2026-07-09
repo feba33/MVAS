@@ -9,3 +9,7 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [paradigmas](paradigmas.md) — Paradigmas de programación: imperativo, declarativo, OOP, funcional · 🏷️ paradigmas,programacion,oop,funcional · 📅 2026-07-09
 - [arquitectura](arquitectura.md) — Arquitectura de software: estructuras, trade-offs, C4 · 🏷️ arquitectura,software,trade-offs,c4 · 📅 2026-07-09
 - [devops](devops.md) — DevOps: automatización dev+ops, CI/CD, cloud · 🏷️ devops,ci-cd,cloud,automatizacion · 📅 2026-07-09
+- [ciberseguridad](ciberseguridad.md) — Ciberseguridad: tríada CIA, amenazas, frameworks (NIST) · 🏷️ ciberseguridad,seguridad,cia,nist,amenazas · 📅 2026-07-09
+- [data-engineering](data-engineering.md) — Ingeniería de datos: pipelines, ETL/ELT, data warehouses, dbt, Spark · 🏷️ data-engineering,etl,elt,data-warehouse,dbt,spark · 📅 2026-07-09
+- [ml-engineering](ml-engineering.md) — ML engineering: entrenamiento/serving, MLOps, feature store · 🏷️ ml-engineering,mlops,entrenamiento,serving,feature-store · 📅 2026-07-09
+- [testing-qa](testing-qa.md) — Testing/QA: unit, integration, e2e, TDD, automatización · 🏷️ testing,qa,unit,integration,e2e,tdd · 📅 2026-07-09

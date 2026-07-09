@@ -21,8 +21,8 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 
 ## ESTADO
 - **Plan:** generado por `scripts/gap_analysis.py` (36 huecos + 5 nodos nuevos = 41 temas)
-- **Iteración actual:** 44 (loop 1 = iter 35-44, 10 temas sustrato)
-- **Temas completados:** 44 / 75 (34 previos + 41 de este plan; 10 hechos en loop 1)
+- **Iteración actual:** 54 (loop 1 = 35-44; loop 2 = 45-54)
+- **Temas completados:** 54 / 75 (34 previos + 41 de este plan; 20 hechos en loops 1-2)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corre aquí)
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
@@ -38,16 +38,16 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - [x] sustrato/brasil — LGPD (protección de datos)
 - [x] sustrato/brasil — Impuestos (Receita Federal)
 ### Dominio (nodos existentes — ampliar)
-- [ ] dominio/finanzas — Private Equity / Venture Capital / fundraising
-- [ ] dominio/finanzas — Criptoactivos / activos digitales
-- [ ] dominio/finanzas — Finanzas conductuales
-- [ ] dominio/computacion — Ciberseguridad
-- [ ] dominio/computacion — Ingeniería de datos (data engineering)
-- [ ] dominio/computacion — ML / AI engineering
-- [ ] dominio/computacion — Testing / QA
-- [ ] dominio/marketing — Content marketing
-- [ ] dominio/marketing — Conversion Rate Optimization (CRO)
-- [ ] dominio/marketing — Branding / marca
+- [x] dominio/finanzas — Private Equity / Venture Capital / fundraising
+- [x] dominio/finanzas — Criptoactivos / activos digitales
+- [x] dominio/finanzas — Finanzas conductuales
+- [x] dominio/computacion — Ciberseguridad
+- [x] dominio/computacion — Ingeniería de datos (data engineering)
+- [x] dominio/computacion — ML / AI engineering
+- [x] dominio/computacion — Testing / QA
+- [x] dominio/marketing — Content marketing
+- [x] dominio/marketing — Conversion Rate Optimization (CRO)
+- [x] dominio/marketing — Branding / marca
 - [ ] dominio/leyes — Derecho de contratos
 - [ ] dominio/leyes — Propiedad intelectual (profundización)
 - [ ] dominio/contabilidad — Contabilidad de costos
@@ -77,8 +77,8 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 ### [2026-07-09] fase previa | iter 1-34 completas (34 temas; lint OK)
 ### [2026-07-09] setup | Procedimiento reabastecimiento + gap_analysis + plan 41 temas
 ### [2026-07-09] LOOP 1 (Sustrato) | iter 35-44 — 10 páginas vía 4 subagentes
-- mexico: lft, profeco-condusef, pld-uif · EE.UU.: sec-valores, antitrust, bankruptcy
-- canada: privacidad (PIPEDA), impuestos (CRA) · brasil: lgpd, impuestos (Receita)
-- Nota: se borró `sustrato/canada/raw/pipeda-cita.txt` (raw = cita only, no raw files).
-### [2026-07-09] LOOP 2 (Dominio existentes) | iter 45+
-### [2026-07-09] LOOP 3 (Nuevos nodos + roles) | iter …
+### [2026-07-09] LOOP 2 (Dominio existentes) | iter 45-54 — 10 páginas vía 3 subagentes
+- finanzas: private-equity-vc, cripto-activos, behavioral-finance
+- computacion: ciberseguridad, data-engineering, ml-engineering, testing-qa
+- marketing: content-marketing, cro, brand
+### [2026-07-09] LOOP 3 (Leyes/Contabilidad/Diseño + nuevos nodos + roles) | iter 55+

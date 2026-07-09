@@ -58,14 +58,25 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [valoracion](dominio/finanzas/valoracion.md) — Valoración de empresas: DCF, múltiplos · 🏷️ valoracion · 📅 2026-07-09
 - [instrumentos-financieros](dominio/finanzas/instrumentos-financieros.md) — Instrumentos financieros: deuda, capital, derivados · 🏷️ instrumentos · 📅 2026-07-09
 - [libros-clave](dominio/finanzas/libros-clave.md) — Libros clave: Intelligent Investor, Principles · 🏷️ libros · 📅 2026-07-09
+- [private-equity-vc](dominio/finanzas/private-equity-vc.md) — Private Equity / VC: rondas, term sheets, exits · 🏷️ pe,vc,fundraising · 📅 2026-07-09
+- [cripto-activos](dominio/finanzas/cripto-activos.md) — Criptoactivos: Bitcoin, Ethereum, regulación · 🏷️ cripto,blockchain · 📅 2026-07-09
+- [behavioral-finance](dominio/finanzas/behavioral-finance.md) — Finanzas conductuales: sesgos, prospect theory · 🏷️ behavioral,finanzas · 📅 2026-07-09
 
 ### dominio/computacion
 - [paradigmas](dominio/computacion/paradigmas.md) — Paradigmas de programación · 🏷️ paradigmas · 📅 2026-07-09
 - [arquitectura](dominio/computacion/arquitectura.md) — Arquitectura de software · 🏷️ arquitectura · 📅 2026-07-09
 - [devops](dominio/computacion/devops.md) — DevOps: CI/CD, cloud · 🏷️ devops · 📅 2026-07-09
+- [ciberseguridad](dominio/computacion/ciberseguridad.md) — Ciberseguridad: tríada CIA, NIST · 🏷️ security,cia · 📅 2026-07-09
+- [data-engineering](dominio/computacion/data-engineering.md) — Ingeniería de datos: pipelines, ETL/ELT · 🏷️ data-engineering,etl · 📅 2026-07-09
+- [ml-engineering](dominio/computacion/ml-engineering.md) — ML/AI engineering: MLOps, serving · 🏷️ ml,mlops · 📅 2026-07-09
+- [testing-qa](dominio/computacion/testing-qa.md) — Testing/QA: unit, integration, e2e, TDD · 🏷️ testing,qa,tdd · 📅 2026-07-09
 
 ### dominio/marketing
 - [marketing-mix](dominio/marketing/marketing-mix.md) — Marketing 4Ps, growth hacking, SEO/SEM · 🏷️ marketing · 📅 2026-07-09
+- [libros-clave](dominio/marketing/libros-clave.md) — Libros clave: Traction, Hooked · 🏷️ libros,marketing · 📅 2026-07-09
+- [content-marketing](dominio/marketing/content-marketing.md) — Content marketing: blogs, SEO, funnels · 🏷️ content,seo · 📅 2026-07-09
+- [cro](dominio/marketing/cro.md) — CRO: A/B testing, conversión · 🏷️ cro,ab-testing · 📅 2026-07-09
+- [brand](dominio/marketing/brand.md) — Branding: brand equity, posicionamiento · 🏷️ brand,branding · 📅 2026-07-09
 
 ### dominio/leyes
 - [ramas-derecho](dominio/leyes/ramas-derecho.md) — Ramas del derecho · 🏷️ derecho · 📅 2026-07-09

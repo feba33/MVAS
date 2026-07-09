@@ -29,3 +29,15 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 ## [2026-07-09] ingest | Libros clave de finanzas
 - Fuente: Wikipedia (en) The Intelligent Investor + conocimiento general (Principles, R. Dalio) — reference-only.
 - Página: `libros-clave.md`. Value investing (Graham) y principios de trabajo/vida (Dalio).
+
+## [2026-07-09] ingest | Private Equity y Venture Capital
+- Fuente: Wikipedia (en) Venture capital / Private equity + conocimiento general (reference-only).
+- Página: `private-equity-vc.md`. PE/VC: fundraising, rondas (seed/A/B/C), term sheets, dilución, salidas (IPO/M&A).
+
+## [2026-07-09] ingest | Criptoactivos y activos digitales
+- Fuente: Wikipedia (en) Cryptocurrency — reference-only.
+- Página: `cripto-activos.md`. Bitcoin, Ethereum, exchanges, regulación (SEC); mecanismos PoW/PoS.
+
+## [2026-07-09] ingest | Finanzas conductuales
+- Fuente: Wikipedia (en) Behavioral economics — reference-only.
+- Página: `behavioral-finance.md`. Sesgos, Kahneman/Tversky, prospect theory.
