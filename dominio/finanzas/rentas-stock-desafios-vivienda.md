@@ -19,4 +19,4 @@ Opinión sobre la necesidad de un ciclo de vivienda que responda a la demanda es
 los sectores medio y social, con foco en oferta (stock) y mercado de arrendamiento.
 
 ## Cross-references
-- [sustrato/mexico](../sustrato/mexico/index.md) — contexto país del mercado inmobiliario.
+- [sustrato/mexico](../../sustrato/mexico/index.md) — contexto país del mercado inmobiliario.

@@ -19,4 +19,4 @@ Opinión sobre la proliferación de partidos en la CDMX y si fortalece o fragmen
 oposición, en el marco de la competencia democrática local.
 
 ## Cross-references
-- [sustrato/mexico](../sustrato/mexico/index.md) — entidad país.
+- [sustrato/mexico](index.md) — entidad país.

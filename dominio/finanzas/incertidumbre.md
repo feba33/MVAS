@@ -20,4 +20,4 @@ EE.UU. y deja a México expuesto a revisiones periódicas y a una salida anticip
 directa con [t-mec-revision-anual-inversionistas](t-mec-revision-anual-inversionistas.md).
 
 ## Cross-references
-- [sustrato/mexico](../sustrato/mexico/index.md) — contexto país del tratado.
+- [sustrato/mexico](../../sustrato/mexico/index.md) — contexto país del tratado.

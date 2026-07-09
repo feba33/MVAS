@@ -54,8 +54,8 @@ reforma de 2016):
 
 ## Contexto
 Marco base del derecho corporativo mexicano. Crucial al constituir, restructurar o invertir en
-empresas en México. Cross-ref: véase [dominio/leyes](../leyes/) para otras ramas jurídicas y
-[dominio/finanzas](../finanzas/) para implicaciones financieras/fiscales de cada tipo social.
+empresas en México. Cross-ref: véase [dominio/leyes](../../dominio/leyes/) para otras ramas jurídicas y
+[dominio/finanzas](../../dominio/finanzas/) para implicaciones financieras/fiscales de cada tipo social.
 
 ## Fuentes
 - Cámara de Diputados — texto vigente y reformas (autoridad oficial):

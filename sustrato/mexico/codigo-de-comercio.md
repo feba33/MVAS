@@ -48,7 +48,7 @@ societario).
 ## Contexto
 Marco del derecho mercantil mexicano. Crucial al redactar contratos, litigar en la vía
 mercantil y entender títulos de crédito. Cross-ref: véase [lgsm](lgsm.md) (sociedades) y
-[dominio/leyes](../leyes/) (panorama jurídico).
+[dominio/leyes](../../dominio/leyes/) (panorama jurídico).
 
 ## Fuentes
 - Cámara de Diputados — texto vigente y reformas (oficial):

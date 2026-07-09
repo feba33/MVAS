@@ -20,4 +20,4 @@ para el capital y aboga por fortalecer la base industrial nacional como contrape
 
 ## Cross-references
 - [incertidumbre](incertidumbre.md) — vigencia y retiro anticipado del T-MEC.
-- [sustrato/mexico](../sustrato/mexico/index.md) — contexto país.
+- [sustrato/mexico](../../sustrato/mexico/index.md) — contexto país.

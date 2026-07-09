@@ -16,8 +16,8 @@ tags: [elfinanciero, crisis-climatica, salud-infantil, salud-publica, gasto-publ
 ## Contexto
 Opinión sobre las externalidades de la crisis climática en la salud de la infancia y su
 presión sobre las finanzas públicas (salud y educación). Conecta con la dimensión fiscal
-de [rentas-stock-desafios-vivienda](../dominio/finanzas/rentas-stock-desafios-vivienda.md)
+de [rentas-stock-desafios-vivienda](../../dominio/finanzas/rentas-stock-desafios-vivienda.md)
 vía presupuesto público.
 
 ## Cross-references
-- [dominio/finanzas](../dominio/finanzas/index.md) — impacto en gasto público.
+- [dominio/finanzas](../../dominio/finanzas/index.md) — impacto en gasto público.
