@@ -2,7 +2,7 @@
 titulo: Incertidumbre (T-MEC y México)
 capa: dominio
 tema: finanzas
-fuente: raw/ef-20260709-incertidumbre.md
+fuente: 
 fecha: 2026-07-09
 confianza: alta
 tags: [elfinanciero, tmec, comercio, inversiones, mexico, incertidumbre]

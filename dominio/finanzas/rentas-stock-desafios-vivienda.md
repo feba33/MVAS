@@ -2,7 +2,7 @@
 titulo: De rentas, stock y otros desafíos en vivienda
 capa: dominio
 tema: finanzas
-fuente: raw/ef-20260709-rentas-stock-desafios-vivienda.md
+fuente: 
 fecha: 2026-07-09
 confianza: alta
 tags: [elfinanciero, vivienda, mercado-inmobiliario, renta, demanda, mexico]

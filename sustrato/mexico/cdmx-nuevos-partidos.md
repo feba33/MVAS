@@ -2,7 +2,7 @@
 titulo: La CDMX y los nuevos partidos
 capa: sustrato
 tema: mexico
-fuente: raw/ef-20260709-cdmx-nuevos-partidos.md
+fuente: 
 fecha: 2026-07-09
 confianza: alta
 tags: [elfinanciero, cdmx, partidos-politicos, democracia, oposicion, politica]
