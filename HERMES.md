@@ -9,24 +9,28 @@ Hermes. La fuente de verdad es el repo; esta guía es un atajo rápido.
 - `organización/` — empresas (operaciones, decisiones, artefactos)
 - `rol/` — responsabilidades y capacidades por cargo
 
-## Cómo navegar (QMD — búsqueda híbrida)
-MVAS está indexado con **QMD** (BM25 + embeddings on-device + reranker).
-Esto deja saltar directo a la página correcta sin recorrer el árbol.
+## Cómo navegar (QMD — búsqueda híbrida on-device)
+MVAS está indexado con **QMD**, el CLI oficial de Node.js (`@tobilu/qmd`, por
+Tobi Lütke): BM25 + vectores + reranker, todo local con modelos GGUF (~2GB, en
+`~/.cache/qmd`). Esto deja saltar directo a la página correcta.
 
 ```bash
-# Indexar todo el repo (carga modelos una vez; salta .git/, raw/, .qmd/):
-env -u PYTHONPATH /opt/data/.venvs/qmd/bin/python scripts/qmd.py index
+# Setup una vez (descarga modelos + indexa 249 .md):
+qmd collection add /opt/data/MVAS --name mvas
+qmd context add qmd://mvas "Wiki MVAS en capas (sustrato/dominio/organización/rol)"
+qmd embed
 
-# Buscar (semántico + lexical + rerank):
-env -u PYTHONPATH /opt/data/.venvs/qmd/bin/python scripts/qmd.py \
-  search "regulación fintech México" --top-k 5 --rerank
-
-# Acotar a una capa/nodo:
-... qmd.py search "cómo opera un growth lead" --node rol
+# Buscar:
+qmd query "regulación fintech México" --collection mvas        # híbrido + rerank (mejor)
+qmd search "handleError async" --collection mvas                # BM25, instant
+qmd vsearch "cómo opera un growth lead" --collection mvas       # vector
+# Helper:
+python3 scripts/qmd.py search "consulta" [--mode query|vsearch|search] [--limit N] [--json]
 ```
-> **Pitfall:** la sesión exporta `PYTHONPATH=/opt/data/stt_lib` (STT) que
-> sombrea `tokenizers` y rompe `transformers`. SIEMPRE correr qmd con
-> `env -u PYTHONPATH`. Detalle en `GUIA-HERMES.md` y skill `qmd`.
+> **No confundir** con el paquete PyPI `qmd` (Python, chengzhag/qmd-py): es otro
+> proyecto distinto. El correcto es `@tobilu/qmd` (npm). MVAS es en español; el
+> modelo de embedding por defecto es inglés-leaning — para mejorar ES, ver
+> `QMD_EMBED_MODEL` en la skill `qmd`.
 
 ## Documentos clave
 - `GUIA-HERMES.md` — procedimiento completo (ingest / query / lint / reabastecimiento).

@@ -164,14 +164,14 @@ el cronjob `e273fdbbba14` (investigación continua). En conversación se usa
 `delegate_task` para paralelizar la creación de nodos/páginas. **Raw = cita**
 (URL en `fuente`, sin `raw/`).
 
-## NAVEGACIÓN (QMD — búsqueda híbrida)
-MVAS se indexa en una colección QMD (`mvas`, DB en `.qmd/`, gitignored) para
-búsqueda semántica + BM25 + rerank sobre el repo completo de Markdown.
-- **Helper:** `scripts/qmd.py` (librería `qmd`, venv aislado `/opt/data/.venvs/qmd`).
-- **Indexar tras edits:** `env -u PYTHONPATH /opt/data/.venvs/qmd/bin/python scripts/qmd.py index`
-  (salta `.git/`, `raw/`, `.qmd/`; carga los modelos Qwen3-0.6B una sola vez).
-- **Buscar:** `env -u PYTHONPATH /opt/data/.venvs/qmd/bin/python scripts/qmd.py search "consulta" --top-k 5 --rerank [--node dominio]`
-- **Skill `qmd`:** instalación, fix de `tokenizers`, pitfall de `PYTHONPATH=/opt/data/stt_lib`, y API baja.
+## NAVEGACIÓN (QMD — búsqueda híbrida on-device)
+MVAS se indexa como colección `mvas` del CLI **QMD** (Node.js, `@tobilu/qmd` por Tobi Lütke; modelos GGUF locales, nada en la nube).
+- **Instalado:** `npm install -g @tobilu/qmd` (Node ≥ 22; bin en `/opt/data/.npm-global/bin`).
+- **Indexar (una vez):** `qmd collection add /opt/data/MVAS --name mvas` → `qmd context add qmd://mvas "wiki MVAS en capas"` → `qmd embed` (descarga ~2GB GGUF + vectores; re-embed al añadir archivos).
+- **Buscar:** `qmd query "consulta" --collection mvas` (híbrido+rerank, mejor) · `qmd search` (BM25, instant) · `qmd vsearch` (vector). Añade `--json --limit N`.
+- **Helper:** `scripts/qmd.py index|status|search|get` envuelve ese CLI.
+- **MCP (recomendado):** `~/.hermes/config.yaml` → `mcp_servers.qmd: {command: qmd, args: [mcp]}`; o daemon HTTP `qmd mcp --http --daemon`.
+- **Skill `qmd`:** instalación, MCP, modelo multilingüe, y el pitfall de NO confundirlo con el paquete PyPI `qmd` (Python), que es OTRO proyecto.
 - Así Hermes salta directo a la página correcta sin recorrer todo el árbol.
 
 ## Referencia técnica
