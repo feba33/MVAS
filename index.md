@@ -51,6 +51,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [lgpd](sustrato/brasil/lgpd.md) — LGPD: protección de datos Brasil · 🏷️ brasil,lgpd,privacidad · 📅 2026-07-09
 - [impuestos](sustrato/brasil/impuestos.md) — Impuestos Brasil: Receita Federal · 🏷️ brasil,impuestos · 📅 2026-07-09
 
+### sustrato/argentina
+- [proteccion-datos-personales](sustrato/argentina/proteccion-datos-personales.md) — Ley 25.326 (2000): habeas data, DNPDP/AAIP, adecuación UE · 🏷️ argentina,privacidad,habeas-data,aaip · 📅 2026-07-09
+
 ### dominio/finanzas
 - [incertidumbre](dominio/finanzas/incertidumbre.md) — T-MEC vigente hasta 2036 · 🏷️ tmec · 📅 2026-07-09
 - [t-mec-revision-anual-inversionistas](dominio/finanzas/t-mec-revision-anual-inversionistas.md) — Revisión anual del T-MEC · 🏷️ tmec · 📅 2026-07-09
@@ -107,6 +110,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/operaciones
 - [operaciones](dominio/operaciones/operaciones.md) — Operaciones: supply chain, lean, Six Sigma · 🏷️ operaciones,lean · 📅 2026-07-09
 
+### dominio/sostenibilidad
+- [esg-marco](dominio/sostenibilidad/esg-marco.md) — ESG y reporting: CSRD, GRI, SASB, TCFD, ISSB · 🏷️ esg,sostenibilidad,csrd,reporting · 📅 2026-07-09
+
 ### rol/
 - [growth-lead](rol/growth-lead/growth-lead.md) — Growth Lead: adquisición, canales, experimentación · 🏷️ growth · 📅 2026-07-09
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
@@ -125,6 +131,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [cto](rol/cto/cto.md) — CTO: estrategia tecnológica, arquitectura · 🏷️ cto,tech · 📅 2026-07-09
 - [data-engineer](rol/data-engineer/data-engineer.md) — Data Engineer: pipelines, warehouses · 🏷️ data-engineer · 📅 2026-07-09
 - [qa-engineer](rol/qa-engineer/qa-engineer.md) — QA Engineer: calidad, automatización · 🏷️ qa,testing · 📅 2026-07-09
+- [compliance-officer](rol/compliance-officer/compliance-officer.md) — Compliance Officer: GRC, AML, anticorrupción · 🏷️ compliance,cco,grc,aml · 📅 2026-07-09
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

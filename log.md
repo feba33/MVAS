@@ -33,3 +33,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 ## [2026-07-09] ingest | Valoración de empresas — dominio/finanzas
 - 1 → `dominio/finanzas/`: `valoracion.md` (DCF, múltiplos EV/EBITDA-SDE-revenue, WACC, EV vs Equity, estructura de capital).
 - Fuentes: Finance Interview Prep (2026) + CT Acquisitions (2026). Reference-only.
+
+## [2026-07-09] ingest | Round 2 — 3 nodos nuevos (iter 76-78)
+- `sustrato/argentina` (nuevo): `proteccion-datos-personales.md` — Ley 25.326, DNPDP/AAIP, adecuación UE 2003. Fuentes: Wikipedia (es).
+- `dominio/sostenibilidad` (nuevo): `esg-marco.md` — ESG + CSRD/GRI/SASB/TCFD/ISSB. Fuentes: Wikipedia (en).
+- `rol/compliance-officer` (nuevo): `compliance-officer.md` — GRC, AML, anticorrupción, ISO 37301. Fuentes: Wikipedia (en).
+- Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/). Lint OK por construcción.
+
