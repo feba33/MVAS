@@ -10,7 +10,7 @@ El usuario aporta fuentes y preguntas; Hermes cuida, mantiene, optimiza y da ret
 ## Arquitectura
 
 **Capas del patrón LLM Wiki**
-- `raw/` — fuentes crudas **inmutables** (el usuario escribe, Hermes solo lee).
+- `raw/` — fuentes crudas **inmutables** (el usuario escribe, Hermes solo lee). Para fuentes **web/scraping** basta una **cita/URL** en el frontmatter `fuente` (no se duplica el documento en `raw/` — ver `esquema.md`).
 - `sustrato/` `dominio/` `organización/` `rol/` — **el wiki** (Hermes lo escribe).
 - `GUIA-HERMES.md` + `esquema.md` — **el esquema** (configuración del método).
 

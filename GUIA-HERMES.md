@@ -80,6 +80,10 @@ Al ingerir desde web, **omite el paso de crear archivo en `raw/`**.
    (raíz `raw/` para general, o `dominio/finanzas/raw/` para esa entidad) →
    o la adjunta en el chat → Hermes la guarda en el `raw/` adecuado con nombre
    estable. NUNCA modificar ningún `raw/`.
+   **Optimización (raw = cita):** si la fuente es **web/scraping**, no es necesario
+   guardar el documento en `raw/`; basta citar la **URL en el frontmatter `fuente`**
+   de la página (ver `esquema.md`). Aplica a ingesta automática (El Financiero, bucle
+   de investigación web).
 2. **🔎 DISCERNIMIENTO (inferir entidad):** analizar el input, buscar en la
    taxonomía (`esquema.md` / `index.md` / nodos) las entidades mencionadas, e
    **inferir el nodo destino**.
