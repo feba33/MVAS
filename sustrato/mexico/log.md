@@ -32,3 +32,11 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 - Fuente: Cámara de Diputados (texto vigente) + Gobierno.com.mx (guía histórica).
 - Página: `codigo-de-comercio.md`. Actos de comercio, contratos mercantiles, títulos de crédito, quiebras; reforma DOF 14-11-2025.
 - Cross-ref: `lgsm.md` y `dominio/leyes/`.
+
+## [2026-07-09] ingest | LFPDPPP 2025 (protección de datos)
+- Fuente: Hogan Lovells (análisis 25-03-2025) + Cámara de Diputados (texto DOF).
+- Página: `lfpdpdp.md`. Nueva ley publicada DOF 20-03-2025, vigencia 21-03-2025, abroga la de 2010; INAI disuelto y transferido a la Secretaría Anticorrupción y Buen Gobierno; refuerza derechos ARCO+ y eleva obligaciones de responsables/encargados. Reference-only.
+
+## [2026-07-09] ingest | Regulación de IA en México
+- Fuente: CeCo (22-01-2025, cuadro de iniciativas 2023-2025) + Mobile Time (03-10-2025, Marco Normativo del Senado).
+- Página: `regulacion-ia.md`. México aún sin ley de IA vigente; múltiples iniciativas con enfoque por riesgo (estilo UE); propuesta de 3 niveles (reforma const., Ley General de IA, armonización de 17 leyes). Confianza media (estatus de iniciativas cambia).

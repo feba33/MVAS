@@ -64,7 +64,7 @@ Enfoques por capa:
 ### Sustrato
 - [x] México: Ley General de Sociedades Mercantiles (LGSM) — tipos de sociedad
 - [x] México: Código de Comercio — contratos mercantiles
-- [ ] México: LFPDPPP (protección de datos) y regulación de IA
+- [x] México: LFPDPPP (protección de datos) y regulación de IA
 - [ ] México: noticias legales recientes (suprema corte, DOF)
 - [ ] EE.UU.: Delaware General Corporation Law / tipos de entity
 - [ ] EE.UU.: SEC, FTC, regulación de IA (federal/estatal)
@@ -89,7 +89,8 @@ Enfoques por capa:
 ## 📊 Índice de progreso
 | Entidad | Capa | Entradas | Última |
 |---------|------|----------|--------|
-| sustrato/mexico (LGSM, CCom) | sustrato | 2 | 2026-07-09 |
+| sustrato/mexico (LGSM, CCom, LFPDPPP, IA) | sustrato | 4 | 2026-07-09 |
+| dominio/finanzas (T-MEC, vivienda, valoración) | dominio | 4 | 2026-07-09 |
 
 ## 🧾 Log de iteraciones
 ### 2026-07-09 — iter 0 (setup)
@@ -105,10 +106,19 @@ Enfoques por capa:
 - Índices/logs de entidad y globales actualizados; checklist tachado (2 items).
 - Próxima tarea: `sustrato/mexico` → LFPDPPP y regulación de IA.
 
+### 2026-07-09 — iter 2 (sustrato/mexico + dominio/finanzas)
+- 3 entradas en total (cubiertas 2 de 3 capas; rol pendiente):
+  - `sustrato/mexico/lfpdpdp.md` — LFPDPPP 2025: nueva ley publicada DOF 20-03-2025, vigencia 21-03-2025, abroga la de 2010; INAI disuelto → Secretaría Anticorrupción y Buen Gobierno; refuerza derechos ARCO+ y eleva obligaciones. Confianza alta.
+  - `sustrato/mexico/regulacion-ia.md` — Regulación de IA en México: iniciativas 2023-2025 (cuadro CeCo), enfoque por riesgo (estilo UE), propuesta de marco de 3 niveles del Senado (03-10-2025). Confianza media (sin ley vigente).
+  - `dominio/finanzas/valoracion.md` — Valoración de empresas: 3 enfoques (DCF, comps, activos), EV vs Equity, WACC, múltiplos EV/EBITDA-SDE-revenue y rangos por sector.
+- Fuentes: Hogan Lovells + Cámara de Diputados (LFPDPPP); CeCo + Mobile Time (IA); Finance Interview Prep + CT Acquisitions (valoración). Reference-only (URL en frontmatter; sin archivos en raw/).
+- Índices/logs de entidad y globales actualizados; checklist tachado (1 item), índice de progreso ampliado.
+- Próxima tarea: siguiente item sin tachar → `Sustrato › México › noticias legales recientes (suprema corte, DOF)`. Sugerido tras ello iniciar capa `rol` (p.ej. growth lead) para cubrir las 3 capas.
+
 ## ▶️ Estado actual / Próxima tarea
 - **Próxima tarea:** siguiente item sin tachar del checklist →
-  **Sustrato › México › LFPDPPP (protección de datos) y regulación de IA**.
-  (Luego continuar con EE.UU. y las capas dominio/rol para cubrir las 3 capas.)
+  **Sustrato › México › noticias legales recientes (suprema corte, DOF)**.
+  (Luego iniciar capa `rol` — p.ej. growth lead / product manager — para cubrir las 3 capas.)
 - Notas: el cronjob itera cada 2h; cada corrida hace 1-3 entradas y actualiza
   este archivo. Para detener: decir `/stop` o eliminar el cronjob.
 

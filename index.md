@@ -22,6 +22,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [incertidumbre](dominio/finanzas/incertidumbre.md) — T-MEC vigente hasta 2036; asimetría favorable a EE.UU. · 🏷️ tmec,comercio · 📅 2026-07-09
 - [t-mec-revision-anual-inversionistas](dominio/finanzas/t-mec-revision-anual-inversionistas.md) — revisión anual del T-MEC e incertidumbre para inversionistas · 🏷️ tmec,inversionistas · 📅 2026-07-09
 - [rentas-stock-desafios-vivienda](dominio/finanzas/rentas-stock-desafios-vivienda.md) — mercado inmobiliario y ciclo de vivienda · 🏷️ vivienda · 📅 2026-07-09
+- [valoracion](dominio/finanzas/valoracion.md) — valoración de empresas: DCF, múltiplos, WACC, EV vs Equity · 🏷️ valoracion,dcf,multiples,wacc · 📅 2026-07-09
 
 ### sustrato/mexico (ingest 2026-07-09 · El Financiero)
 - [cdmx-nuevos-partidos](sustrato/mexico/cdmx-nuevos-partidos.md) — partidos y voto opositor en la CDMX · 🏷️ politica · 📅 2026-07-09
@@ -31,3 +32,5 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [amlo-rocha-ismael-n](sustrato/mexico/amlo-rocha-ismael-n.md) — caso Zambada-Cuén y narcotráfico en Sinaloa · 🏷️ narcotrafico · 📅 2026-07-09
 - [lgsm](sustrato/mexico/lgsm.md) — LGSM: 7 tipos de sociedad mercantil y reformas vigentes · 🏷️ lgsm,sociedades-mercantiles,derecho-corporativo · 📅 2026-07-09
 - [codigo-de-comercio](sustrato/mexico/codigo-de-comercio.md) — CCom: actos de comercio, contratos y títulos de crédito · 🏷️ codigo-de-comercio,contratos-mercantiles · 📅 2026-07-09
+- [lfpdpdp](sustrato/mexico/lfpdpdp.md) — LFPDPPP 2025: nueva ley de protección de datos, abroga la de 2010 · 🏷️ lfpdpdp,proteccion-datos,privacidad · 📅 2026-07-09
+- [regulacion-ia](sustrato/mexico/regulacion-ia.md) — Regulación de IA en México: iniciativas 2023-2025, enfoque por riesgo · 🏷️ ia,regulacion,derecho-digital · 📅 2026-07-09

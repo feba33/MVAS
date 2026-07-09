@@ -9,3 +9,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [incertidumbre](incertidumbre.md) — T-MEC vigente hasta 2036 con revisiones anuales; asimetría favorable a EE.UU. · 🏷️ tmec,comercio,inversiones · 📅 2026-07-09
 - [t-mec-revision-anual-inversionistas](t-mec-revision-anual-inversionistas.md) — revisión anual del T-MEC genera incertidumbre para inversionistas · 🏷️ tmec,inversionistas,industria-mexicana · 📅 2026-07-09
 - [rentas-stock-desafios-vivienda](rentas-stock-desafios-vivienda.md) — mercado inmobiliario mayor de México; urge ciclo de vivienda para sectores medio/social · 🏷️ vivienda,mercado-inmobiliario,renta · 📅 2026-07-09
+- [valoracion](valoracion.md) — valoración de empresas: DCF, múltiplos (EV/EBITDA, SDE, revenue), WACC, EV vs Equity · 🏷️ valoracion,dcf,multiples,wacc,capital-structure · 📅 2026-07-09

@@ -25,3 +25,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - 1 → `sustrato/mexico/`: `codigo-de-comercio.md` (actos de comercio, contratos, títulos de crédito; reforma DOF 14-11-2025).
 - Fuentes: Cámara de Diputados (oficial) + Gobierno.com.mx. Cross-ref a `lgsm.md` y `dominio/leyes/`.
 - Autónomo (cronjob). Reference-only.
+
+## [2026-07-09] ingest | LFPDPPP 2025 + Regulación de IA — sustrato/mexico
+- 2 → `sustrato/mexico/`: `lfpdpdp.md` (nueva ley de protección de datos, DOF 20-03-2025, abroga la de 2010, INAI→Secretaría Anticorrupción) y `regulacion-ia.md` (iniciativas 2023-2025, enfoque por riesgo, marco de 3 niveles; confianza media).
+- Fuentes: Hogan Lovells, Cámara de Diputados (LFPDPPP); CeCo y Mobile Time (IA). Reference-only.
+
+## [2026-07-09] ingest | Valoración de empresas — dominio/finanzas
+- 1 → `dominio/finanzas/`: `valoracion.md` (DCF, múltiplos EV/EBITDA-SDE-revenue, WACC, EV vs Equity, estructura de capital).
+- Fuentes: Finance Interview Prep (2026) + CT Acquisitions (2026). Reference-only.
