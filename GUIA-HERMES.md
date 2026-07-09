@@ -143,6 +143,27 @@ Reportar hallazgos y aplicar correcciones con commit+push.
 - `log.md`: append-only cronológico; prefijo `## [YYYY-MM-DD] <tipo> | <título>`
   (parseable con `grep "^##" log.md`).
 
+## REABASTECIMIENTO AUTOMÁTICO DEL BUCLE (análisis de huecos)
+
+Cuando la cola de `working.md` se queda sin temas `pending` (el bucle "completa"),
+Hermes **no se detiene**: analiza la base, genera un nuevo plan y sigue. Procedimiento:
+
+1. **Analizar huecos:** correr `python3 scripts/gap_analysis.py`. Reporta temas
+   faltantes en nodos existentes y nodos sugeridos (nuevos).
+2. **Generar plan:** convertir la lista de huecos en temas `pending` en `working.md`
+   (agrupados por capa). Añadir también temas que el usuario o el análisis sugieran
+   (noticias, nuevos países, nuevos dominios).
+3. **Actualizar `working.md`:** reescribir la cola con los nuevos temas, subir
+   `Iteración actual` y `Temas completados`, y registrar en el LOG. Commit + push.
+4. **Continuar el bucle:** ejecutar ingest por cada tema `pending` (investigar →
+   escribir → actualizar índices/logs → commit), sin pausas, hasta que la cola
+   se vacíe otra vez. Al vaciarse, volver al paso 1.
+
+El bucle puede correr **en la conversación** (sin cron) iterando directamente, o vía
+el cronjob `e273fdbbba14` (investigación continua). En conversación se usa
+`delegate_task` para paralelizar la creación de nodos/páginas. **Raw = cita**
+(URL en `fuente`, sin `raw/`).
+
 ## Referencia técnica
 
 - Repo (privado): https://github.com/feba33/MVAS — clone: `/opt/data/MVAS`
