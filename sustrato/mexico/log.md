@@ -40,3 +40,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-09] ingest | Regulación de IA en México
 - Fuente: CeCo (22-01-2025, cuadro de iniciativas 2023-2025) + Mobile Time (03-10-2025, Marco Normativo del Senado).
 - Página: `regulacion-ia.md`. México aún sin ley de IA vigente; múltiples iniciativas con enfoque por riesgo (estilo UE); propuesta de 3 niveles (reforma const., Ley General de IA, armonización de 17 leyes). Confianza media (estatus de iniciativas cambia).
+
+## [2026-07-09] lint | Curación: baja de 5 notas de bajo valor (filtro de relevancia)
+- Removidas de `sustrato/mexico/` 5 opinión político-criminales sin ángulo legal-corporativo-técnico (cdmx-nuevos-partidos, roxana-guzman-fracaso-primeras-horas, donde-esta-rocha-moya, crisis-climatica-salud-infantil, amlo-rocha-ismael-n): no pasan el filtro de relevancia (`protocolo-discriminamiento.md`).
+- `index.md` de nodo y raíz actualizados. Fuentes eran reference-only (sin `raw/`).

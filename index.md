@@ -25,11 +25,6 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [valoracion](dominio/finanzas/valoracion.md) — valoración de empresas: DCF, múltiplos, WACC, EV vs Equity · 🏷️ valoracion,dcf,multiples,wacc · 📅 2026-07-09
 
 ### sustrato/mexico (ingest 2026-07-09 · El Financiero)
-- [cdmx-nuevos-partidos](sustrato/mexico/cdmx-nuevos-partidos.md) — partidos y voto opositor en la CDMX · 🏷️ politica · 📅 2026-07-09
-- [roxana-guzman-fracaso-primeras-horas](sustrato/mexico/roxana-guzman-fracaso-primeras-horas.md) — caso periodista y protocolos de búsqueda · 🏷️ seguridad · 📅 2026-07-09
-- [donde-esta-rocha-moya](sustrato/mexico/donde-esta-rocha-moya.md) — Rocha Moya resguardado en Sinaloa · 🏷️ sinaloa,seguridad · 📅 2026-07-09
-- [crisis-climatica-salud-infantil](sustrato/mexico/crisis-climatica-salud-infantil.md) — clima, salud infantil y gasto público · 🏷️ clima,salud · 📅 2026-07-09
-- [amlo-rocha-ismael-n](sustrato/mexico/amlo-rocha-ismael-n.md) — caso Zambada-Cuén y narcotráfico en Sinaloa · 🏷️ narcotrafico · 📅 2026-07-09
 - [lgsm](sustrato/mexico/lgsm.md) — LGSM: 7 tipos de sociedad mercantil y reformas vigentes · 🏷️ lgsm,sociedades-mercantiles,derecho-corporativo · 📅 2026-07-09
 - [codigo-de-comercio](sustrato/mexico/codigo-de-comercio.md) — CCom: actos de comercio, contratos y títulos de crédito · 🏷️ codigo-de-comercio,contratos-mercantiles · 📅 2026-07-09
 - [lfpdpdp](sustrato/mexico/lfpdpdp.md) — LFPDPPP 2025: nueva ley de protección de datos, abroga la de 2010 · 🏷️ lfpdpdp,proteccion-datos,privacidad · 📅 2026-07-09
