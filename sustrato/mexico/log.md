@@ -44,3 +44,11 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-09] lint | Curación: baja de 5 notas de bajo valor (filtro de relevancia)
 - Removidas de `sustrato/mexico/` 5 opinión político-criminales sin ángulo legal-corporativo-técnico (cdmx-nuevos-partidos, roxana-guzman-fracaso-primeras-horas, donde-esta-rocha-moya, crisis-climatica-salud-infantil, amlo-rocha-ismael-n): no pasan el filtro de relevancia (`protocolo-discriminamiento.md`).
 - `index.md` de nodo y raíz actualizados. Fuentes eran reference-only (sin `raw/`).
+
+## [2026-07-09] ingest | Régimen Fiscal de México (ISR, IVA, RESICO)
+- Fuente: SAT + icopyme/calculadoraIVA/contpaqi (reference-only).
+- Página: `regimen-fiscal.md`. ISR e IVA son los impuestos federales principales; RESICO (arts. 113-E a 113-J ISR, desde 2022) simplifica cumplimiento para PF (ingresos ≤$3.5M) y PM (≤$35M, ≤30 trabajadores) con retención 1.25%.
+
+## [2026-07-09] ingest | Competencia Económica en México (LFCE / COFECE)
+- Fuente: Cámara de Diputados (texto LFCE, DOF 23-05-2014, última reforma 14-11-2025) — reference-only.
+- Página: `cofece.md`. COFECE es el órgano autónomo constitucional que aplica la LFCE: prácticas monopólicas, concentraciones y competencia.

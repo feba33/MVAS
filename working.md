@@ -7,12 +7,16 @@
 > actualizar este archivo → commit), y deja el archivo actualizado para la siguiente.
 
 ## GESTIÓN DEL BUCLE
-- **Cronjob:** `e273fdbbba14` — "MVAS · Investigación continua (loop)" (cada 120 min).
-- **Reanudar:** `cronjob action=resume job_id=e273fdbbba14`.
+- **Cronjob de investigación `e273fdbbba14`:** el usuario lo **PAUSÓ** expresamente para
+  que Hermes corra el bucle **en esta conversación, en continuo, hasta `/stop`**. No
+  reanudar ese cronjob mientras el usuario no lo pida.
+- **Reanudar (solo si el usuario lo pide):** `cronjob action=resume job_id=e273fdbbba14`.
 - **Pausar / detener (cuando el usuario digite `/stop`):** `cronjob action=pause job_id=e273fdbbba14`
-  (o `remove` para borrarlo). El cron de El Financiero (`d472fa235ca3`) es **independiente**;
-  si se quiere parar todo, pausar/remover también ese.
-- **CLI de investigación:** `python3 scripts/web_research.py "<query>"` (busca y extrae).
+  (o `remove`). El cron de El Financiero (`d472fa235ca3`) es **independiente**; pausar/remover
+  también ese si se quiere parar todo.
+- **CLI de investigación:** `python3 scripts/web_research.py "<query>"` (DuckDuckGo + extracción;
+  maneja PDF/403 con nota). Para consultas en inglés que devuelvan vacío, usar
+  `curl -sG "https://en.wikipedia.org/w/api.php" --data-urlencode ...` (ver ejemplos en log).
 - **Health-check:** `python3 scripts/lint.py`.
 
 ## PROMPT MAESTRO (qué hacer)
@@ -60,30 +64,31 @@ digite `/stop`**. Cubrir tres capas siguiendo estas guías:
    git pull --ff-only 2>/dev/null || true
    ```
 2. Lee este `working.md`; elige el **primer tema `[ ]` (pending)** de la cola.
-3. Investiga en la web (`scripts/web_research.py`, browser, curl): fuentes autorizadas
-   (Wikipedia, Investopedia, docs oficiales, job boards, Reddit, libros/académico).
+3. Investiga en la web (`scripts/web_research.py`, curl a Wikipedia, browser): fuentes
+   autorizadas (Wikipedia, Investopedia, docs oficiales, job boards, Reddit, libros/académico).
 4. Condensa y escribe la(s) página(s) en el nodo inferido.
 5. Actualiza `index.md`/`log.md` del nodo **+ este `working.md`** (marca `[x]`, añade
    al log, incrementa `iteración`).
 6. `git add -A && git commit -m "mv: ingest <tema> en <entidad>" && git push`.
-7. Termina. El scheduler vuelve a llamar para la siguiente iteración.
+7. Termina. El scheduler vuelve a llamar para la siguiente iteración (o, en modo
+   conversación continua, Hermes pasa al siguiente tema sin parar).
 
 ## ESTADO
-- **Iteración actual:** 5 (investigaciones completadas en sesiones previas)
-- **Última ejecución:** 2026-07-09 (reanudado tras pausa)
-- **Temas completados:** 5 / 41
-- **Cronjob:** `e273fdbbba14` (activo)
+- **Iteración actual:** 9 (4 nuevas ingest en esta corrida continua; 5 previas del loop)
+- **Última ejecución:** 2026-07-09 (corrida continua en conversación, sin cron)
+- **Temas completados:** 9 / 41
+- **Cronjob investigación:** `e273fdbbba14` (PAUSADO por el usuario; bucle corre aquí)
 
 ## COLA DE TEMAS ([ ] pending / [x] done)
 ### Sustrato
 - [x] Marco societario México — Ley General de Sociedades Mercantiles → `sustrato/mexico/lgsm.md`
 - [x] Código de Comercio México → `sustrato/mexico/codigo-de-comercio.md`
-- [ ] Régimen fiscal México — ISR, IVA, RESICO
+- [x] Régimen fiscal México — ISR, IVA, RESICO → `sustrato/mexico/regimen-fiscal.md`
 - [x] Protección de datos México — LFPDPPP 2025 → `sustrato/mexico/lfpdpdp.md`
 - [x] Regulación de IA México → `sustrato/mexico/regulacion-ia.md`
-- [ ] Competencia económica México — COFECE
-- [ ] Delaware General Corporation Law (EE.UU.)
-- [ ] LLC / estructuras EE.UU.
+- [x] Competencia económica México — COFECE → `sustrato/mexico/cofece.md`
+- [x] Delaware General Corporation Law (EE.UU.) → `sustrato/estados-unidos/delaware-gcl.md`
+- [x] LLC / estructuras EE.UU. → `sustrato/estados-unidos/llc.md`
 - [ ] Impuestos federales EE.UU. — IRS
 - [ ] Employment law EE.UU. — at-will, FLSA
 - [ ] IP / Copyright / Patent EE.UU.
@@ -125,5 +130,18 @@ digite `/stop`**. Cubrir tres capas siguiendo estas guías:
 - Documentado `raw` = solo referencia/cita (URL) en `README.md` y `GUIA-HERMES.md`
   (ya estaba en `esquema.md` y en el skill). Commit `0db8df3`.
 - `working.md` puesto al día con estado real, cola y gestión del bucle.
-- Se **reanuda** el cronjob `e273fdbbba14` (investigación continua) por petición del
-  usuario ("quédate haciendo bucles hasta /stop").
+
+### [2026-07-09] iter 6-9 | Corrida continua en conversación (sin cron)
+- El usuario pausó `e273fdbbba14` y pidió correr el bucle **en continuo aquí**.
+- **iter 6 — `sustrato/mexico/regimen-fiscal.md`**: ISR, IVA, RESICO (arts. 113-E a 113-J;
+  retención 1.25%; límites PF $3.5M / PM $35M). Fuente: SAT + guías 2025 (reference-only).
+- **iter 7 — `sustrato/mexico/cofece.md`**: LFCE (DOF 23-05-2014; última reforma 14-11-2025)
+  y COFECE (órgano autónomo constitucional antimonopolio). Fuente: Cámara de Diputados (ref).
+- **iter 8 — `sustrato/estados-unidos/delaware-gcl.md`**: DGCL (Title 8, Ch.1 DE, 1899);
+  66% Fortune 500 incorporadas en DE. Fuente: Wikipedia (en).
+- **iter 9 — `sustrato/estados-unidos/llc.md`**: LLC híbrido paso-through + responsabilidad
+  limitada; members/operating agreement. Fuente: Wikipedia (en).
+- Nota técnica: `web_search` NO existe en este entorno; se usa `scripts/web_research.py`
+  (es/consultas generales) y `curl` a Wikipedia API para inglés (el script devolvió vacío
+  en inglés). El curl|python3 disparó un gate de aprobación en una ocasión; ISR-es wiki
+  quedó bloqueada por timeout — se usó lo ya investigado de RESICO/ISR.
