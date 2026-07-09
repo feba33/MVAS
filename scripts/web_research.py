@@ -4,7 +4,7 @@
 Uso:
     python3 scripts/web_research.py "consulta" [n_resultados]
 
-Hace una búsqueda en DuckDuckGo (modo lite), obtiene los N primeros
+Hace una búsqueda en DuckDuckGo (endpoint HTML), obtiene los N primeros
 resultados y extrae el texto legible de cada página. Imprime un digest
 condensado (título | url | texto) que el agente usa para investigar e
 ingerir en MVAS. No requiere dependencias externas: solo la stdlib.
@@ -15,7 +15,7 @@ import html
 import urllib.parse
 import urllib.request
 
-DDG = "https://duckduckgo.com/lite/?q={q}"
+DDG = "https://html.duckduckgo.com/html/?q={q}"
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 
 
@@ -30,14 +30,16 @@ def search(query, n=5):
         data = _get(url).decode("utf-8", "ignore")
     except Exception as e:  # noqa: BLE001
         return [], f"search error: {e}"
-    # lite results: <a class="result-link" href="URL">TITLE</a>
+    # result links: <a class="result__a" href="//duckduckgo.com/l/?uddg=ENCODED">TITLE</a>
     items = re.findall(
-        r'class="result-link"[^>]*href="([^"]+)"[^>]*>(.*?)</a>', data, re.S
+        r'class="result__a"[^>]*href="([^"]+)"[^>]*>(.*?)</a>', data, re.S
     )
     results = []
     for href, title in items[:n]:
+        m = re.search(r"uddg=([^ \"&]+)", href)
+        real = urllib.parse.unquote(m.group(1)) if m else href
         title = re.sub(r"<[^>]+>", "", title)
-        results.append((html.unescape(title).strip(), href))
+        results.append((html.unescape(title).strip(), real))
     return results, None
 
 
@@ -46,6 +48,8 @@ def fetch_text(url, max_chars=2500):
         data = _get(url)
     except Exception as e:  # noqa: BLE001
         return f"fetch error: {e}"
+    if data[:5] == b"%PDF-":
+        return "(archivo PDF - citar la URL; usar browser_navigate para leer el texto si se requiere)"
     text = None
     for enc in ("utf-8", "latin-1"):
         try:
@@ -60,6 +64,8 @@ def fetch_text(url, max_chars=2500):
     text = re.sub(r"<[^>]+>", " ", text)
     text = html.unescape(text)
     text = re.sub(r"\s+", " ", text).strip()
+    if len(text) < 40:
+        return "(poco texto extraible o bloqueado - citar la URL; usar browser_navigate si se requiere)"
     return text[:max_chars]
 
 
