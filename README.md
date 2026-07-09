@@ -7,7 +7,7 @@ de documentos crudos en cada consulta.
 
 El usuario aporta fuentes y preguntas; Hermes cuida, mantiene, optimiza y da retrieval.
 
-## Arquitectura (3 capas del patrón + 4 capas de contenido)
+## Arquitectura
 
 **Capas del patrón LLM Wiki**
 - `raw/` — fuentes crudas **inmutables** (el usuario escribe, Hermes solo lee).
@@ -22,17 +22,23 @@ El usuario aporta fuentes y preguntas; Hermes cuida, mantiene, optimiza y da ret
 | Organización | `organización/` | Empresas: operaciones, decisiones, responsabilidades, artefactos. |
 | Rol | `rol/` | Responsabilidades y sets de capacidades: ing. software, ing. UI/UX, road lead. |
 
+**⚠️ Recursivo:** cada entidad (p.ej. `dominio/finanzas/`) es a su vez un wiki
+auto-contenido con su propia `raw/`, `index.md` y `log.md`. La info de cada
+entidad vive **solo en su carpeta**. Ver `esquema.md` (plantilla de nodo).
+
 **Navegación**
-- `index.md` — catálogo de páginas (lo lee Hermes primero al responder).
+- `index.md` — catálogo de nodos (lo lee Hermes primero al responder).
 - `log.md` — registro cronológico de actividad.
 
 ## Operaciones
-- **Ingest**: el usuario deposita una fuente en `raw/` → Hermes la lee, la discute,
-  clasifica, escribe/actualiza páginas en la capa correcta, enlaza, actualiza
-  `index.md` y `log.md`, y hace push.
-- **Query**: el usuario pregunta → Hermes busca en `index.md`, taladra páginas,
-  sintetiza con citas; las respuestas valiosas se archivan como páginas nuevas.
-- **Lint**: Hermes hace health-check (contradicciones, huérfanas, gaps) y optimiza.
+- **Ingest**: el usuario deposita una fuente en el `raw/` correspondiente → Hermes la
+  lee, la discute, ubica el nodo (creándolo con su superstructura si no existe),
+  escribe/actualiza páginas DENTRO del nodo, enlaza, actualiza `index.md`/`log.md`
+  del nodo, y hace push.
+- **Query**: el usuario pregunta → Hermes busca en `index.md`, taladra nodos y
+  páginas, sintetiza con citas; las respuestas valiosas se archivan como páginas.
+- **Lint**: Hermes hace health-check (contradicciones, huérfanas, gaps, integridad
+  recursiva) y optimiza.
 
 ## Para Hermes
 Ver `GUIA-HERMES.md` (esquema completo y procesos de ingest/query/lint).
