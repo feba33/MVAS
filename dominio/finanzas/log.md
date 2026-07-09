@@ -21,3 +21,7 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 ## [2026-07-09] ingest | Valoración de empresas (métodos)
 - Fuentes: Finance Interview Prep (guía 2026) + CT Acquisitions (guía 2026).
 - Página: `valoracion.md`. Los 3 enfoques (intrínseco/DCF, relativo/comps, activos); EV vs Equity; WACC y estructura de capital; múltiplos EBITDA/SDE/revenue y rangos por sector. Reference-only.
+
+## [2026-07-09] ingest | Instrumentos Financieros
+- Fuente: Wikipedia (en) — reference-only.
+- Página: `instrumentos-financieros.md`. Definición IAS 32/39; clases: deuda (bonos), capital (acciones), derivados (opciones/futuros).

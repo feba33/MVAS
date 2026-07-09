@@ -5,3 +5,5 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 
 ## Páginas
 <!-- Hermes añade aquí cada página de computacion con su resumen. -->
+
+- [paradigmas](paradigmas.md) — Paradigmas de programación: imperativo, declarativo, OOP, funcional · 🏷️ paradigmas,programacion,oop,funcional · 📅 2026-07-09

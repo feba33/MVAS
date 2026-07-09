@@ -7,3 +7,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 - Creada la superstructura recursiva de la entidad `marketing` dentro de `dominio/`:
   `raw/`, `index.md`, `log.md` y `README.md`.
 - Demuestra el principio: toda la info de marketing vive solo en esta carpeta.
+
+## [2026-07-09] ingest | Marketing (mix 4Ps, growth hacking, SEO/SEM)
+- Fuente: Wikipedia (en) — reference-only.
+- Página: `marketing-mix.md`. Marketing mix 4Ps; B2B/B2C; growth hacking y SEO/SEM como tácticas digitales.

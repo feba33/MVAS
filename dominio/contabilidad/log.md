@@ -7,3 +7,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 - Creada la superstructura recursiva de la entidad `contabilidad` dentro de `dominio/`:
   `raw/`, `index.md`, `log.md` y `README.md`.
 - Demuestra el principio: toda la info de contabilidad vive solo en esta carpeta.
+
+## [2026-07-09] ingest | NIIF vs US GAAP
+- Fuente: Wikipedia (en) + FASB — reference-only.
+- Página: `niif-us-gaap.md`. IFRS (IASB, principios) vs US GAAP (FASB, reglas); convergencia ingresos.

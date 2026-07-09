@@ -5,3 +5,5 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 
 ## Páginas
 <!-- Hermes añade aquí cada página de contabilidad con su resumen. -->
+
+- [niif-us-gaap](niif-us-gaap.md) — NIIF vs US GAAP: principios vs reglas · 🏷️ niif,ifrs,us-gaap,contabilidad · 📅 2026-07-09
