@@ -47,3 +47,12 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Fuentes: Wikipedia (es) AFIP, Argentina.gob.ar Sistema Tributario, Arancely, Expat.com.
 - Autónomo (cronjob). Reference-only.
 
+## [2026-07-09] ingest | Colombia — protección de datos + impuestos (DIAN) — iter 80
+- Nuevo nodo `sustrato/colombia` (superstructura completa: README, index, log, raw/).
+- 2 páginas: `proteccion-datos.md` (Ley Estatutaria 1581/2012: habeas data art.15-20,
+  SIC/Delegatura/RNBD, datos sensibles, transferencia internacional art.26, D.1377/2013·886/2014·1081/2015)
+  y `impuestos.md` (DIAN, UVT $52.374, renta 35% PJ / 39% PN, IVA 19%, retención en la fuente
+  2026, GMF 4x1000, RST Ley 1943/2018 + 2010/2019, Monotributo, NIT/RUT, facturación electrónica).
+- Fuentes: Gestor Normativo Función Pública (Ley 1581, D.1377), portal DIAN, Gerencie.com.
+- Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
+

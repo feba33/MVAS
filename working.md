@@ -22,8 +22,8 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 ## ESTADO
 - **Plan:** Round 2 — expansión de cobertura (gap_analysis.py agotó la taxonomía del plan 1).
   Nuevos países LatAm/España + dominio ESG + rol compliance officer (11 temas nuevos).
-- **Iteración actual:** 79 (Round 2)
-- **Temas completados:** 79 / 85 (75 previos + 4 de Round 2 ingestados — restan 6)
+- **Iteración actual:** 80 (Round 2)
+- **Temas completados:** 80 / 85 (75 previos + 5 de Round 2 ingestados — restan 5)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
 - **Siguiente paso (procedimiento):** ejecutar la cola Round 2 (1-3 temas por corrida,
   cubriendo las 3 capas). Cuando se vacíe, ampliar taxonomía de gap_analysis.py.
@@ -79,7 +79,7 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 ### Sustrato (nuevos países — LatAm + España)
 - [x] sustrato/argentina — Protección de datos personales (Ley 25.326 / AAIP)
 - [x] sustrato/argentina — Impuestos y Aduanas (AFIP)
-- [ ] sustrato/colombia — Protección de datos (Ley 1581) + impuestos (DIAN)
+- [x] sustrato/colombia — Protección de datos (Ley 1581) + impuestos (DIAN)
 - [ ] sustrato/españa — RGPD europeo / AEPD / CNMV
 ### Dominio (nuevos nodos)
 - [x] dominio/sostenibilidad — ESG (CSRD, GRI, SASB, TCFD, ISSB)
@@ -124,3 +124,17 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - Reference-only (URL en frontmatter; sin raw/). Superstructura completa en el nodo argentina.
 - **Próxima tarea (iter 80):** sustrato/colombia — Protección de datos (Ley 1581) + impuestos (DIAN) [sustrato].
   Cola Round 2 restante: 6 temas (sustrato x2, dominio x2, rol x2).
+
+### [2026-07-09] Round 2 — ITER 80 | sustrato/colombia (nuevo nodo)
+- gap_analysis.py agotó taxonomía plan 1 → cola Round 2 sigue abierta (5 temas pendientes).
+- Creado nodo `sustrato/colombia` con superstructura completa (README, index, log, raw/).
+- 2 páginas [sustrato]:
+  - `sustrato/colombia/proteccion-datos.md` — Ley Estatutaria 1581/2012: habeas data (art.15-20),
+    SIC/Delegatura/RNBD, datos sensibles, autorización, transferencia internacional (art.26),
+    reglamentación D.1377/2013·886/2014·1081/2015.
+  - `sustrato/colombia/impuestos.md` — DIAN; UVT 2026 $52.374; renta 35% PJ / escala 39% PN;
+    IVA 19%; retención en la fuente (tarifas 2026); GMF 4x1000; RST (Ley 1943/2018 + 2010/2019);
+    Monotributo; NIT/RUT; facturación electrónica.
+- Reference-only (URL en frontmatter; sin raw/).
+- **Próxima tarea (iter 81):** sustrato/españa — RGPD europeo / AEPD / CNMV [sustrato].
+  Cola Round 2 restante: 5 temas (sustrato x1, dominio x2, rol x2).

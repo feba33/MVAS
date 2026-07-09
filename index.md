@@ -55,6 +55,10 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [proteccion-datos-personales](sustrato/argentina/proteccion-datos-personales.md) — Ley 25.326 (2000): habeas data, DNPDP/AAIP, adecuación UE · 🏷️ argentina,privacidad,habeas-data,aaip · 📅 2026-07-09
 - [impuestos-aduanas](sustrato/argentina/impuestos-aduanas.md) — AFIP/ARCA: IVA 21%, Ganancias, Bienes Personales, Monotributo; aduana DI/TE/IVA, NCM · 🏷️ argentina,impuestos,afip,arca,aduanas · 📅 2026-07-09
 
+### sustrato/colombia
+- [proteccion-datos](sustrato/colombia/proteccion-datos.md) — Ley Estatutaria 1581/2012: habeas data, SIC/RNBD, datos sensibles · 🏷️ colombia,privacidad,sic,ley-1581 · 📅 2026-07-09
+- [impuestos](sustrato/colombia/impuestos.md) — DIAN: renta 35%/39%, IVA 19%, retención, RST, GMF · 🏷️ colombia,impuestos,dian,renta,iva · 📅 2026-07-09
+
 ### dominio/finanzas
 - [incertidumbre](dominio/finanzas/incertidumbre.md) — T-MEC vigente hasta 2036 · 🏷️ tmec · 📅 2026-07-09
 - [t-mec-revision-anual-inversionistas](dominio/finanzas/t-mec-revision-anual-inversionistas.md) — Revisión anual del T-MEC · 🏷️ tmec · 📅 2026-07-09
