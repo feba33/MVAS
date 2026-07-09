@@ -1,30 +1,25 @@
-# MWAS
+# MVAS
 
-Base de conocimiento en capas con pipeline de **cuidado → mantenimiento → optimización → retrieval**.
+**Super wiki en capas de conocimiento**, de lo más general a lo más específico y granular.
 
-## Arquitectura (capas)
+El punto de este repositorio es ser una base de conocimiento por capas donde cada
+carpeta contiene **subcarpetas** que se van llenando progresivamente a partir de
+un esquema de taxonomía. Hermes (el asistente) es responsable de cuidarlo,
+mantenerlo, optimizarlo y dar retrieval.
 
-| Capa | Carpeta | Función |
-|------|---------|----------|
-| Sustrato | `sustrato/` | Fuentes **crudas**: documentos, notas, datos originales. El suelo del conocimiento. |
-| Dominio | `dominio/` | Conocimiento de **dominio** ya refinado: conceptos, reglas y materia específica. |
-| Organización | `organización/` | Estructura, taxonomía, índices y metadatos que preparan el conocimiento para la recuperación. |
-| Rol | `rol/` | **Perspectiva/persona**: cómo se entrega y adapta el conocimiento según quien lo consulta. |
+## Las 4 capas (de general → específico)
 
-Flujo: `sustrato → dominio → organización → rol`.
+| Capa | Carpeta | Qué contiene |
+|------|---------|--------------|
+| **Sustrato** | `sustrato/` | Fundamento general por **país**: legislación, cultura, reglas, normatividad, noticias y mercados. Ej.: `sustrato/mexico/`, `sustrato/estados-unidos/`. |
+| **Dominio** | `dominio/` | Material de referencia y conocimiento puntual por **dominio**: finanzas, computación, marketing, leyes, contabilidad, diseño, etc. |
+| **Organización** | `organización/` | Lo específico de **empresas**: operaciones, decisiones, responsabilidades, artefactos creados, bases de conocimiento internas. |
+| **Rol** | `rol/` | **Responsabilidades** y sets de capacidades por rol: ingeniero de software, ingeniero UI/UX, road lead, etc. |
 
-## Cómo cuidar y mantener
-- **Ingesta:** todo entra crudo en `sustrato/`. No mezclar Dominio hasta refinar.
-- **Refinamiento:** derivar de `sustrato/` a `dominio/` lo ya validado.
-- **Organización:** etiquetar, indexar y deduplicar en `organización/`.
-- **Servicio:** preparar vistas/adaptaciones por rol en `rol/`.
+Flujo de granularidad: `sustrato → dominio → organización → rol`
+(lo más general del mundo → lo más específico de una persona/equipo).
 
-## Optimización y retrieval
-- Mantener metadatos consistentes (fuente, fecha, tema).
-- Indexar `organización/` para búsqueda y (opcional) embeddings.
-- El retrieval lee de `organización/` + `rol/` según la consulta.
-
-## Mantenimiento periódico
-- Revisar `sustrato/` para limpiar duplicados y obsoletos.
-- Actualizar índices en `organización/`.
-- Verificar que `rol/` sigue alineado con quien consulta.
+## Para Hermes
+Ver `GUIA-HERMES.md` — protocolo de inserción de nueva información,
+navegación entre capas y retrieval. La taxonomía completa de subcarpetas
+vive en `esquema.md` (lo provee el usuario).
