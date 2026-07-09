@@ -25,3 +25,7 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 ## [2026-07-09] ingest | Instrumentos Financieros
 - Fuente: Wikipedia (en) — reference-only.
 - Página: `instrumentos-financieros.md`. Definición IAS 32/39; clases: deuda (bonos), capital (acciones), derivados (opciones/futuros).
+
+## [2026-07-09] ingest | Libros clave de finanzas
+- Fuente: Wikipedia (en) The Intelligent Investor + conocimiento general (Principles, R. Dalio) — reference-only.
+- Página: `libros-clave.md`. Value investing (Graham) y principios de trabajo/vida (Dalio).

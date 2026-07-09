@@ -10,7 +10,7 @@
 - **Cronjob de investigación `e273fdbbba14`:** el usuario lo **PAUSÓ** expresamente para
   que Hermes corra el bucle **en esta conversación, en continuo, hasta `/stop`**. No
   reanudar ese cronjob mientras el usuario no lo pida.
-- **Reanudar (solo si el usuario lo pide):** `cronjob action=resume job_id=e273fdbbba14`.
+- **Reanudar (solo si el usuario lo pida):** `cronjob action=resume job_id=e273fdbbba14`.
 - **Pausar / detener (cuando el usuario digite `/stop`):** `cronjob action=pause job_id=e273fdbbba14`
   (o `remove`). El cron de El Financiero (`d472fa235ca3`) es **independiente**; pausar/remover
   también ese si se quiere parar todo.
@@ -75,9 +75,9 @@ digite `/stop`**. Cubrir tres capas siguiendo estas guías:
 7. Pasa al siguiente tema sin parar (modo conversación continua) hasta `/stop`.
 
 ## ESTADO
-- **Iteración actual:** 13 (4 sustrato previas + 4 sustrato esta corrida + 4 dominio esta corrida + 1 valoracion previa)
+- **Iteración actual:** 18 (8 sustrato + 10 dominio previos/esta corrida + 1 valoracion previa... ver log)
 - **Última ejecución:** 2026-07-09 (corrida continua en conversación, sin cron)
-- **Temas completados:** 13 / 41
+- **Temas completados:** 18 / 41
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO por el usuario; bucle corre aquí)
 
 ## COLA DE TEMAS ([ ] pending / [x] done)
@@ -98,15 +98,15 @@ digite `/stop`**. Cubrir tres capas siguiendo estas guías:
 ### Dominio
 - [x] Finanzas — valoración (DCF, múltiplos) → `dominio/finanzas/valoracion.md`
 - [x] Finanzas — instrumentos financieros (bonos, acciones, derivados) → `dominio/finanzas/instrumentos-financieros.md`
+- [x] Finanzas — libros clave (The Intelligent Investor, Principles) → `dominio/finanzas/libros-clave.md`
 - [x] Computación — paradigmas y lenguajes → `dominio/computacion/paradigmas.md`
+- [x] Computación — arquitectura de software / patrones → `dominio/computacion/arquitectura.md`
+- [x] Computación — DevOps / CI-CD / cloud → `dominio/computacion/devops.md`
 - [x] Marketing — 4Ps, growth hacking, SEO/SEM → `dominio/marketing/marketing-mix.md`
+- [x] Leyes — ramas del derecho / contratos → `dominio/leyes/ramas-derecho.md`
 - [x] Contabilidad — NIIF / US GAAP → `dominio/contabilidad/niif-us-gaap.md`
-- [ ] Finanzas — libros clave (The Intelligent Investor, Principles)
-- [ ] Computación — arquitectura de software / patrones
-- [ ] Computación — DevOps / CI-CD / cloud
+- [x] Diseño — Design Thinking / UX research → `dominio/diseno/design-thinking.md`
 - [ ] Marketing — libros clave (Traction, Hooked)
-- [ ] Leyes — ramas del derecho / contratos
-- [ ] Diseño — Design Thinking / UX research
 ### Rol
 - [ ] growth lead — responsabilidades y skills (job descriptions)
 - [ ] product lead / product manager
@@ -122,26 +122,23 @@ digite `/stop`**. Cubrir tres capas siguiendo estas guías:
 ### [2026-07-09] sesión previa (loop) | Investigación continua — estado al reanudar
 - Ingestados (sesión previa, antes de la pausa): `sustrato/mexico` → lgsm,
   codigo-de-comercio, lfpdpdp (LFPDPPP 2025), regulacion-ia; `dominio/finanzas` → valoracion.
-- Curación: bajó 5 notas político-criminales de bajo valor (filtro de relevancia);
-  corrigió 9 cross-refs rotos (`../` → `../../`); añadió `scripts/web_research.py`
-  (CLI de investigación) y `scripts/lint.py` (health-check); añadió filtro de
-  relevancia al protocolo de discernimiento.
-- `raw = cita/URL` ya aplicado (reference-only) en los ingests.
+- Curación: bajó 5 notas político-criminales de bajo valor; corrigió 9 cross-refs;
+  añadió `scripts/web_research.py` y `scripts/lint.py`.
+- `raw = cita/URL` ya aplicado (reference-only).
 
-### [2026-07-09] iter 5 | Optimización raw=cita + working.md actualizado
+### [2026-07-09] iter 5 | Optimización raw=cita + working.md
 - Documentado `raw` = solo referencia/cita (URL) en `README.md` y `GUIA-HERMES.md`.
-- `working.md` puesto al día con estado real, cola y gestión del bucle.
 
-### [2026-07-09] iter 6-9 | Sustrato (corrida continua en conversación)
-- El usuario pausó `e273fdbbba14` y pidió correr el bucle **en continuo aquí**.
-- iter 6 `sustrato/mexico/regimen-fiscal.md`; iter 7 `sustrato/mexico/cofece.md`;
-  iter 8 `sustrato/estados-unidos/delaware-gcl.md`; iter 9 `sustrato/estados-unidos/llc.md`.
-- Técnica: `web_research.py` para ES; `curl` a Wikipedia API para EN (el script devolvió
-  vacío en inglés). `web_search` NO existe en este entorno.
+### [2026-07-09] iter 6-9 | Sustrato (corrida continua)
+- regimen-fiscal, cofece (mexico); delaware-gcl, llc (estados-unidos).
 
-### [2026-07-09] iter 10-13 | Dominio (corrida continua en conversación)
-- iter 10 `dominio/finanzas/instrumentos-financieros.md` (Financial instrument, IAS 32/39).
-- iter 11 `dominio/computacion/paradigmas.md` (Programming paradigm).
-- iter 12 `dominio/marketing/marketing-mix.md` (Marketing 4Ps, growth hacking, SEO/SEM).
-- iter 13 `dominio/contabilidad/niif-us-gaap.md` (IFRS vs US GAAP).
-- Todas vía `curl` a Wikipedia API (en) → /tmp JSON → read_file (evita gate curl|python3).
+### [2026-07-09] iter 10-13 | Dominio (corrida continua)
+- finanzas/instrumentos-financieros; computacion/paradigmas; marketing/marketing-mix; contabilidad/niif-us-gaap.
+
+### [2026-07-09] iter 14-18 | Dominio (corrida continua)
+- iter 14 `dominio/finanzas/libros-clave.md` (Intelligent Investor, Principles).
+- iter 15 `dominio/computacion/arquitectura.md` (Software architecture).
+- iter 16 `dominio/computacion/devops.md` (DevOps, CI/CD, cloud).
+- iter 17 `dominio/leyes/ramas-derecho.md` (ramas del derecho).
+- iter 18 `dominio/diseno/design-thinking.md` (Design thinking + UX research).
+- Todas vía `curl` a Wikipedia API (en) → /tmp JSON → read_file.

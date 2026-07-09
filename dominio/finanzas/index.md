@@ -11,3 +11,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [rentas-stock-desafios-vivienda](rentas-stock-desafios-vivienda.md) — mercado inmobiliario mayor de México; urge ciclo de vivienda para sectores medio/social · 🏷️ vivienda,mercado-inmobiliario,renta · 📅 2026-07-09
 - [valoracion](valoracion.md) — valoración de empresas: DCF, múltiplos (EV/EBITDA, SDE, revenue), WACC, EV vs Equity · 🏷️ valoracion,dcf,multiples,wacc,capital-structure · 📅 2026-07-09
 - [instrumentos-financieros](instrumentos-financieros.md) — Instrumentos financieros: deuda, capital, derivados (IAS 32/39) · 🏷️ instrumentos-financieros,bonos,acciones,derivados · 📅 2026-07-09
+- [libros-clave](libros-clave.md) — Libros clave finanzas: The Intelligent Investor, Principles · 🏷️ libros,value-investing,principles,finanzas · 📅 2026-07-09

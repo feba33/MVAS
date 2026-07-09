@@ -11,3 +11,11 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-09] ingest | Paradigmas de Programación
 - Fuente: Wikipedia (en) — reference-only.
 - Página: `paradigmas.md`. Imperativo (procedural, OOP) vs declarativo (funcional, lógico); multiparadigma.
+
+## [2026-07-09] ingest | Arquitectura de Software
+- Fuente: Wikipedia (en) — reference-only.
+- Página: `arquitectura.md`. Estructuras para razonar el sistema; 'todo es trade-off'; modelo C4; NFR.
+
+## [2026-07-09] ingest | DevOps
+- Fuente: Wikipedia (en) — reference-only.
+- Página: `devops.md`. Automatización dev+ops; propiedades: ownership compartido, automatización, feedback rápido; CI/CD y cloud.

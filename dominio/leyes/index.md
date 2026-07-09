@@ -5,3 +5,5 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 
 ## Páginas
 <!-- Hermes añade aquí cada página de leyes con su resumen. -->
+
+- [ramas-derecho](ramas-derecho.md) — Ramas del derecho: civil, penal, mercantil, laboral, fiscal · 🏷️ derecho,ramas,civil,penal,mercantil · 📅 2026-07-09
