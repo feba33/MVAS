@@ -22,8 +22,8 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 ## ESTADO
 - **Plan:** Round 2 — expansión de cobertura (gap_analysis.py agotó la taxonomía del plan 1).
   Nuevos países LatAm/España + dominio ESG + rol compliance officer (11 temas nuevos).
-- **Iteración actual:** 76 (Round 2, loop 1 = 76-78)
-- **Temas completados:** 78 / 86 (75 previos + 3 de Round 2 ingestados — restan 8)
+- **Iteración actual:** 79 (Round 2)
+- **Temas completados:** 79 / 85 (75 previos + 4 de Round 2 ingestados — restan 6)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
 - **Siguiente paso (procedimiento):** ejecutar la cola Round 2 (1-3 temas por corrida,
   cubriendo las 3 capas). Cuando se vacíe, ampliar taxonomía de gap_analysis.py.
@@ -78,7 +78,7 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 
 ### Sustrato (nuevos países — LatAm + España)
 - [x] sustrato/argentina — Protección de datos personales (Ley 25.326 / AAIP)
-- [ ] sustrato/argentina — Impuestos y Aduanas (AFIP)
+- [x] sustrato/argentina — Impuestos y Aduanas (AFIP)
 - [ ] sustrato/colombia — Protección de datos (Ley 1581) + impuestos (DIAN)
 - [ ] sustrato/españa — RGPD europeo / AEPD / CNMV
 ### Dominio (nuevos nodos)
@@ -116,5 +116,11 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
   - `dominio/sostenibilidad` (nuevo): esg-marco.md — ESG + CSRD/GRI/SASB/TCFD/ISSB.
   - `rol/compliance-officer` (nuevo): compliance-officer.md — GRC, AML, anticorrupción, ISO 37301.
 - Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo.
-- **Próxima tarea (iter 79):** sustrato/argentina — Impuestos y Aduanas (AFIP) [sustrato].
-  Cola Round 2 restante: 8 temas (sustrato x3, dominio x2, rol x3).
+### [2026-07-09] Round 2 — ITER 79 | sustrato/argentina impuestos-aduanas
+- gap_analysis.py agotó taxonomía plan 1 → cola Round 2 sigue abierta (6 temas pendientes).
+- ingestado 1 tema [sustrato]: `sustrato/argentina/impuestos-aduanas.md` — AFIP/ARCA, IVA 21%,
+  Ganancias, Bienes Personales, Monotributo, seguridad social, tributos aduaneros
+  (DI/TE/IVA/IVA Adicional/Ganancias/IIBB), NCM, CUIT, RG 5617/2024; transición AFIP→ARCA (2024).
+- Reference-only (URL en frontmatter; sin raw/). Superstructura completa en el nodo argentina.
+- **Próxima tarea (iter 80):** sustrato/colombia — Protección de datos (Ley 1581) + impuestos (DIAN) [sustrato].
+  Cola Round 2 restante: 6 temas (sustrato x2, dominio x2, rol x2).

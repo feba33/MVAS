@@ -53,6 +53,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### sustrato/argentina
 - [proteccion-datos-personales](sustrato/argentina/proteccion-datos-personales.md) — Ley 25.326 (2000): habeas data, DNPDP/AAIP, adecuación UE · 🏷️ argentina,privacidad,habeas-data,aaip · 📅 2026-07-09
+- [impuestos-aduanas](sustrato/argentina/impuestos-aduanas.md) — AFIP/ARCA: IVA 21%, Ganancias, Bienes Personales, Monotributo; aduana DI/TE/IVA, NCM · 🏷️ argentina,impuestos,afip,arca,aduanas · 📅 2026-07-09
 
 ### dominio/finanzas
 - [incertidumbre](dominio/finanzas/incertidumbre.md) — T-MEC vigente hasta 2036 · 🏷️ tmec · 📅 2026-07-09

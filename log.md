@@ -40,3 +40,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - `rol/compliance-officer` (nuevo): `compliance-officer.md` — GRC, AML, anticorrupción, ISO 37301. Fuentes: Wikipedia (en).
 - Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/). Lint OK por construcción.
 
+## [2026-07-09] ingest | Argentina — Impuestos y Aduanas (AFIP/ARCA) — iter 79
+- 1 → `sustrato/argentina`: `impuestos-aduanas.md` — niveles de recaudación, DGI/DGA/DGRSS,
+  IVA 21%, Ganancias, Bienes Personales, Monotributo, seguridad social, tributos aduaneros
+  (DI/TE/IVA/IVA Adicional/Ganancias/IIBB), NCM, CUIT, RG 5617/2024; transición AFIP→ARCA (2024).
+- Fuentes: Wikipedia (es) AFIP, Argentina.gob.ar Sistema Tributario, Arancely, Expat.com.
+- Autónomo (cronjob). Reference-only.
+
