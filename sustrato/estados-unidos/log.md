@@ -35,3 +35,15 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-09] ingest | Regulación de Fintech (EE.UU. y MX)
 - Fuente: conocimiento general (wiki 'Fintech' vacío) — reference-only.
 - Página: `fintech-regulacion.md`. US: SEC/OCC/FinCEN; MX: Ley Fintech 2018 (CNBV/SHCP).
+
+## [2026-07-09] ingest | SEC y regulación de valores (EE.UU.)
+- Fuente: Wikipedia (en) — reference-only.
+- Página: `sec-valores.md`. SEC post-1929; Securities Act 1933 (divulgación/prospectus); Exchange Act 1934 (crea la SEC); 10-K/10-Q/MD&A; EDGAR; misión triple y enforcement.
+
+## [2026-07-09] ingest | Antitrust (derecho de la competencia)
+- Fuente: Wikipedia (en) — reference-only.
+- Página: `antitrust.md`. Sherman Act 1890 (15 U.S.C. §§1–7, treble damages); Clayton Act 1914 (incipiencia); FTC Act 1914 (crea la FTC, Sec. 5); per se vs rule of reason.
+
+## [2026-07-09] ingest | Bankruptcy / derecho concursal (EE.UU.)
+- Fuente: Wikipedia (en) — reference-only.
+- Página: `bankruptcy.md`. Bankruptcy Code (Title 11); 1978 Reform Act; BAPCPA 2005; Chapter 7 liquidación, 11 reorganización, 13 consumidor; bankruptcy courts.

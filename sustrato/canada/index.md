@@ -7,3 +7,5 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 <!-- Hermes añade aquí cada página de canada con su resumen. -->
 
 - [corporativo](corporativo.md) — Derecho corporativo Canadá: CBCA (federal/provincial) · 🏷️ canada,cbca,derecho-corporativo · 📅 2026-07-09
+- [privacidad](privacidad.md) — Privacidad Canadá: PIPEDA (protección de datos sector privado) · 🏷️ canada,pipeda,privacidad,proteccion-datos · 📅 2026-07-09
+- [impuestos](impuestos.md) — Impuestos federales Canadá: CRA, income tax, GST/HST · 🏷️ canada,impuestos,cra,income-tax,gst-hst,tributario · 📅 2026-07-09

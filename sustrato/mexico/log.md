@@ -52,3 +52,15 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-09] ingest | Competencia Económica en México (LFCE / COFECE)
 - Fuente: Cámara de Diputados (texto LFCE, DOF 23-05-2014, última reforma 14-11-2025) — reference-only.
 - Página: `cofece.md`. COFECE es el órgano autónomo constitucional que aplica la LFCE: prácticas monopólicas, concentraciones y competencia.
+
+## [2026-07-09] ingest | Ley Federal del Trabajo (LFT)
+- Fuente: Wikipedia ES (artículo *Ley Federal del Trabajo (México)*) + conocimiento general — reference-only.
+- Página: `lft.md`. Marco laboral (art. 123 Constitucional, vigente desde 1970); jornada (8/7/7.5 h), salario mínimo (CONASAMI), reforma de subcontratación 2021 (outsourcing prohibido en lo sustantivo), PTU (10 % utilidades) y tipos de contrato.
+
+## [2026-07-09] ingest | PROFECO y CONDUSEF
+- Fuente: conocimiento general (reference-only).
+- Página: `profeco-condusef.md`. PROFECO protege al consumidor (LFPC, registro de contratos, conciliación/arbitraje); CONDUSEF protege al usuario de servicios financieros (Buró de Entidades Financieras, SHCP).
+
+## [2026-07-09] ingest | Prevención de Lavado de Dinero / UIF
+- Fuente: conocimiento general (reference-only).
+- Página: `pld-uif.md`. Ley Antilavado (LFPIORPI) y UIF (SHCP): sujetos obligados, KYC, avisos de operaciones relevantes y sanciones.

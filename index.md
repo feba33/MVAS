@@ -25,6 +25,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [regulacion-ia](sustrato/mexico/regulacion-ia.md) — Regulación de IA en México: iniciativas 2023-2025 · 🏷️ ia,regulacion · 📅 2026-07-09
 - [regimen-fiscal](sustrato/mexico/regimen-fiscal.md) — Régimen fiscal México: ISR, IVA, RESICO · 🏷️ isr,iva,resico · 📅 2026-07-09
 - [cofece](sustrato/mexico/cofece.md) — Competencia económica México: LFCE y COFECE · 🏷️ cofece,competencia · 📅 2026-07-09
+- [lft](sustrato/mexico/lft.md) — LFT: laboral, outsourcing, PTU · 🏷️ lft,laboral,outsourcing · 📅 2026-07-09
+- [profeco-condusef](sustrato/mexico/profeco-condusef.md) — PROFECO/CONDUSEF: protección al consumidor · 🏷️ profeco,condusef,consumidor · 📅 2026-07-09
+- [pld-uif](sustrato/mexico/pld-uif.md) — PLD/UIF: prevención de lavado (AML) · 🏷️ pld,uif,aml · 📅 2026-07-09
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -34,12 +37,19 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [copyright](sustrato/estados-unidos/copyright.md) — Copyright: propiedad intelectual · 🏷️ copyright,ip · 📅 2026-07-09
 - [patente](sustrato/estados-unidos/patente.md) — Patente: exclusividad por divulgación · 🏷️ patente,ip · 📅 2026-07-09
 - [fintech-regulacion](sustrato/estados-unidos/fintech-regulacion.md) — Fintech: regulación US/MX · 🏷️ fintech · 📅 2026-07-09
+- [sec-valores](sustrato/estados-unidos/sec-valores.md) — SEC y regulación de valores · 🏷️ sec,valores · 📅 2026-07-09
+- [antitrust](sustrato/estados-unidos/antitrust.md) — Antitrust: Sherman/Clayton/FTC · 🏷️ antitrust,sherman · 📅 2026-07-09
+- [bankruptcy](sustrato/estados-unidos/bankruptcy.md) — Bankruptcy: Chapter 7/11/13 · 🏷️ bankruptcy,concursal · 📅 2026-07-09
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
+- [privacidad](sustrato/canada/privacidad.md) — Privacidad Canadá: PIPEDA · 🏷️ canada,pipeda,privacidad · 📅 2026-07-09
+- [impuestos](sustrato/canada/impuestos.md) — Impuestos Canadá: CRA, GST/HST · 🏷️ canada,impuestos,cra · 📅 2026-07-09
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
+- [lgpd](sustrato/brasil/lgpd.md) — LGPD: protección de datos Brasil · 🏷️ brasil,lgpd,privacidad · 📅 2026-07-09
+- [impuestos](sustrato/brasil/impuestos.md) — Impuestos Brasil: Receita Federal · 🏷️ brasil,impuestos · 📅 2026-07-09
 
 ### dominio/finanzas
 - [incertidumbre](dominio/finanzas/incertidumbre.md) — T-MEC vigente hasta 2036 · 🏷️ tmec · 📅 2026-07-09

@@ -12,3 +12,6 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [regulacion-ia](regulacion-ia.md) — Regulación de IA en México: iniciativas 2023-2025, enfoque por riesgo, marco de 3 niveles · 🏷️ ia,regulacion,derecho-digital,riesgo · 📅 2026-07-09
 - [regimen-fiscal](regimen-fiscal.md) — Régimen fiscal México: ISR, IVA y RESICO (Régimen Simplificado de Confianza) · 🏷️ isr,iva,resico,regimen-fiscal,sat · 📅 2026-07-09
 - [cofece](cofece.md) — Competencia económica México: LFCE y COFECE (antimonopolio) · 🏷️ competencia-economica,cofece,lfce,antimonopolio · 📅 2026-07-09
+- [lft](lft.md) — Ley Federal del Trabajo: jornada, salario mínimo, subcontratación 2021, PTU · 🏷️ lft,laboral,jornada,salario-minimo,subcontratacion,ptu,contratos · 📅 2026-07-09
+- [profeco-condusef](profeco-condusef.md) — PROFECO (consumidor) y CONDUSEF (usuario financiero) · 🏷️ profeco,condusef,consumidor,usuario-financiero,proteccion · 📅 2026-07-09
+- [pld-uif](pld-uif.md) — Prevención de Lavado de Dinero / UIF y Ley Antilavado (LFPIORPI) · 🏷️ pld,uif,antilavado,lavado-dinero,prevencion · 📅 2026-07-09

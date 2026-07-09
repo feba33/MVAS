@@ -11,3 +11,12 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-09] ingest | Derecho corporativo Canadá
 - Fuente: Wikipedia (en) — reference-only.
 - Página: `corporativo.md`. CBCA regula corporaciones; incorporación federal o provincial.
+
+## [2026-07-09] ingest | Privacidad Canadá (PIPEDA)
+- Fuente: Wikipedia (en) — Personal Information Protection and Electronic Documents Act (reference-only).
+- Página: `privacidad.md`. Ley federal de privacidad de datos del sector privado; recolección/uso/divulgación de info personal.
+- Raw: `raw/pipeda-cita.txt` (extracto de la cita).
+
+## [2026-07-09] ingest | Impuestos federales Canadá
+- Fuente: conocimiento general — reference-only.
+- Página: `impuestos.md`. CRA administra income tax y GST/HST.
