@@ -34,6 +34,11 @@ cualquier página del wiki.
 Hermes valida la entidad dicha contra la taxonomía (`esquema.md`). Si existe,
 la usa; si no, propone crearla (con su superstructura) o pide confirmación.
 
+## Nota de optimización
+Si la fuente es web/URL (p.ej. scrape de El Financiero), el ingest **solo cita la URL**
+en el frontmatter `fuente` y NO crea archivo en `raw/` (ver GUIA-HERMES.md,
+sección de optimización). `raw/` queda para documentos que el usuario aporta localmente.
+
 ## Ejemplos
 - Input: "Nota sobre la tasa de interés del Banco de México 2026"
   → inferencia: `dominio/finanzas/` (+ cross-ref `sustrato/mexico/`). Certeza alta → procede.

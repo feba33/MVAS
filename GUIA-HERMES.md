@@ -45,6 +45,18 @@ usuario lo especifique. Ver `protocolo-discriminamiento.md`. Regla: inferir; si
 la certeza es baja, **pedir confirmación** (`clarify`). El usuario no debe
 señalar la entidad manualmente.
 
+## 💡 OPTIMIZACIÓN: fuentes web = solo referencia (no raw)
+
+Cuando la fuente es **web (URL, scrape, RSS)**, NO se copia el contenido a `raw/`.
+Se guarda **solo una cita/referencia** en el frontmatter de la página del wiki:
+`fuente: <url>` (+ título, autor, fecha si aplica). El contenido vivo queda en el
+origen; el wiki guarda el resumen condensado y el puntero. Esto evita duplicación,
+mantiene el repo ligero y preserva la trazabilidad.
+
+`raw/` se reserva para **documentos que el usuario deposita localmente** (PDF,
+texto, imágenes, notas) — esas sí se guardan completas como fuente inmutable.
+Al ingerir desde web, **omite el paso de crear archivo en `raw/`**.
+
 ## Convenciones de página (wiki)
 
 - Cada página es markdown con **YAML frontmatter**:

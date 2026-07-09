@@ -36,7 +36,7 @@ con esta superstructura anidada. La arquitectura LLM Wiki se repite en cada inst
   - `ingeniero-software/`  `ingeniero-uiux/`  `road-lead/`
 
 ## Convenciones transversales
-- `raw/` (en cualquier nivel) — fuentes crudas inmutables; Hermes no las toca.
+- `raw/` (en cualquier nivel) — fuentes crudas inmutables que el **usuario deposita localmente** (PDF, texto, imágenes); Hermes no las toca. Para fuentes **web (URL)** se guarda SOLO la cita en el frontmatter `fuente` (no se copia a `raw/`).
 - `index.md` — catálogo (el raíz lista nodos; el nodo lista sus páginas).
 - `log.md` — registro cronológico (`## [fecha] tipo | título`).
 - Cada página lleva YAML frontmatter (capa, tema, fuente, fecha, confianza, tags).
