@@ -23,10 +23,11 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 **Raw = cita** (URL en `fuente`, sin `raw/`). Si el nodo no existe, créalo con superstructura.
 
 ## ESTADO
-- **⚠️ ALCANCE CORREGIDO (2026-07-10):** sustrato se limita a Norteamérica (México, EE.UU., Canadá).
-  Los países fuera de alcance ya creados (ecuador, portugal, argentina, brasil, chile, colombia,
-  peru, uruguay, españa — 48 páginas) permanecen en el repo pero NO se agregan más; pendiente
-  decisión del usuario (borrar / archivar / mantener). `gap_analysis.py` ya filtra países no-NA.
+- **✅ ALCANCE: solo Norteamérica (México, EE.UU., Canadá) para sustrato.** Los países fuera de
+  alcance ya creados (ecuador, portugal, argentina, brasil, chile, colombia, peru, uruguay, españa
+  — 48 páginas) SE MANTENEN en el repo (decisión usuario 2026-07-10, opción 3: no borrar ni
+  archivar; solo detener la búsqueda de nuevos países). El bucle NO agrega más países no-NA.
+  `gap_analysis.py` filtra países no-NA.
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
 - **Iteración actual:** 114 — LOOP 1 de Round 5 COMPLETO (sustrato/ecuador + sustrato/portugal, 4 páginas).
 - **Temas completados:** 127 / 135 (Round 3: 114 + Round 4: 11 + Round 5: 2/10).
