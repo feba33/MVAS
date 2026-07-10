@@ -109,18 +109,23 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [propiedad-intelectual](dominio/leyes/propiedad-intelectual.md) — Propiedad intelectual: marcas, patentes, copyright · 🏷️ ip,pi · 📅 2026-07-09
 - [derecho-societario](dominio/leyes/derecho-societario.md) — Derecho societario + gobierno corporativo: SA/SAPI/SAS, consejo · 🏷️ leyes,societario,gobierno-corporativo · 📅 2026-07-10
 - [derecho-laboral](dominio/leyes/derecho-laboral.md) — Derecho laboral LFT (prof.): outsourcing/REPSE, jornada, rescisión · 🏷️ leyes,laboral,lft,outsourcing · 📅 2026-07-10
+- [cumplimiento-regulacion](dominio/leyes/cumplimiento-regulacion.md) — Cumplimiento y regulación: ISO 37301, compliance · 🏷️ leyes,cumplimiento,compliance,iso-37301 · 📅 2026-07-10
 
 ### dominio/contabilidad
 - [niif-us-gaap](dominio/contabilidad/niif-us-gaap.md) — NIIF vs US GAAP · 🏷️ niif,gaap · 📅 2026-07-09
 - [costos](dominio/contabilidad/costos.md) — Contabilidad de costos · 🏷️ costos · 📅 2026-07-09
 - [auditoria](dominio/contabilidad/auditoria.md) — Auditoría: interna/externa, SOX · 🏷️ auditoria · 📅 2026-07-09
 - [impuestos](dominio/contabilidad/impuestos.md) — Contabilidad fiscal: corriente/diferido · 🏷️ impuestos · 📅 2026-07-09
+- [consolidacion](dominio/contabilidad/consolidacion.md) — Consolidación: control, eliminaciones, NIIF 10 · 🏷️ contabilidad,consolidacion,niif-10 · 📅 2026-07-10
+- [tesoreria](dominio/contabilidad/tesoreria.md) — Tesorería y flujo de efectivo: liquidez, working capital · 🏷️ contabilidad,tesoreria,liquidez,cash-flow · 📅 2026-07-10
 
 ### dominio/diseno
 - [design-thinking](dominio/diseno/design-thinking.md) — Design Thinking + UX research · 🏷️ design-thinking · 📅 2026-07-09
 - [ux-research](dominio/diseno/ux-research.md) — UX research: métodos · 🏷️ ux,research · 📅 2026-07-09
 - [accesibilidad](dominio/diseno/accesibilidad.md) — Accesibilidad: WCAG (POUR) · 🏷️ accesibilidad,wcag · 📅 2026-07-09
-- [service-design](dominio/diseno/service-design.md) — Service design: journeys, blueprints · 🏷️ service-design · 📅 2026-07-09
+- [service-design](dominio/diseno/service-design.md) — Service design: customer journey, blueprints · 🏷️ service-design · 📅 2026-07-09
+- [design-systems](dominio/diseno/design-systems.md) — Design systems + componentes: tokens, Atomic Design · 🏷️ diseno,design-system,tokens · 📅 2026-07-10
+- [ux-writing](dominio/diseno/ux-writing.md) — UX writing + microcopy: voz/tono, claridad · 🏷️ diseno,ux-writing,microcopy · 📅 2026-07-10
 
 ### dominio/ventas
 - [ventas](dominio/ventas/ventas.md) — Ventas: SPIN, Challenger, MEDDIC, funnel, CRM · 🏷️ ventas,sales,funnel · 📅 2026-07-09

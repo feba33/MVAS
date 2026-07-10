@@ -23,13 +23,14 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - **Plan:** Round 3 — gap_analysis.py (iter 85) reportó 25 huecos en nodos existentes
   + 2 nodos nuevos sugeridos (`dominio/juridico`, `dominio/estrategia`). Cola Round 3
   abierta con 29 temas (cubre las 3 capas; sustrato vía nuevo país Chile).
-- **Iteración actual:** 97 (Round 3 — 11 bucles de ingest completados:
-  7 previos + esta corrida: dominio/marketing demand-generation, dominio/marketing
-  analitica+lifecycle, dominio/leyes societario, dominio/leyes laboral)
-- **Temas completados:** 99 / 114 (85 previos + 14 de Round 3 ingestados en 11 bucles; restan 12 en cola)
+- **Iteración actual:** 100 (Round 3 — 13 bucles de ingest completados:
+  7 previos + esta corrida: marketing x2 (demand-gen, analitica+lifecycle),
+  leyes x3 (societario, laboral, compliance), contabilidad x1 (consolidación+tesorería),
+  diseño x1 (design-systems+ux-writing))
+- **Temas completados:** 104 / 114 (85 previos + 19 de Round 3 ingestados en 13 bucles; restan 7 en cola)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
 - **Siguiente paso (procedimiento):** ejecutar cola Round 3 (≥3 bucles por corrida).
-  Próxima tarea (iter 98): dominio/leyes — Cumplimiento / regulación.
+  Próxima tarea (iter 101): dominio/juridico — Jurídico / legal interno (nuevo nodo).
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -333,6 +334,34 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
   estrategia, roles design-lead/marketing-manager/ops-lead/support-lead/reclutador).
   Próxima tarea (iter 98): dominio/leyes — Cumplimiento / regulación.
 
+### [2026-07-10] Round 3 — ITER 98 | dominio/leyes — Cumplimiento / regulación (LOOP 5)
+- 1 página añadida al nodo existente `dominio/leyes`:
+  - `dominio/leyes/cumplimiento-regulacion.md` — compliance transversal; ISO 37301
+    (CMS certificable, PDCA); enfoque basado en riesgo; DOJ/UK Bribery Act; vs ISO 37001.
+- Reference-only (URL en frontmatter; sin raw/). Cross-ref a dominio/juridico,
+  rol/compliance-officer, ciberseguridad-gobierno (ISO 27001), sostenibilidad (ESG),
+  finanzas/riesgo-financiero.
+
+### [2026-07-10] Round 3 — ITER 99 | dominio/contabilidad — Consolidación + Tesorería (LOOP 6)
+- 2 páginas añadidas al nodo existente `dominio/contabilidad`:
+  - `dominio/contabilidad/consolidacion.md` — grupo como una entidad; control=obligación;
+    métodos (integración/equivalencia/costo); eliminaciones intercompañía; NIIF 10/3.
+  - `dominio/contabilidad/tesoreria.md` — treasury (liquidez, working capital, cash
+    forecasting, TMS/ERP); conexión con finanzas corporativas y CFO.
+- Reference-only (URL en frontmatter; sin raw/). Cross-ref a niif-us-gaap, auditoria,
+  rol/cfo, finanzas-corporativas, riesgo-financiero.
+
+### [2026-07-10] Round 3 — ITER 100 | dominio/diseno — Design systems + UX writing (LOOP 7)
+- 2 páginas añadidas al nodo existente `dominio/diseno`:
+  - `dominio/diseno/design-systems.md` — single source of truth, Atomic Design, design
+    tokens, component/pattern library; conecta con frontend.
+  - `dominio/diseno/ux-writing.md` — microcopy, voz/tono, claridad/brevedad/acción;
+    impacto en conversión; vive dentro de design-systems.
+- Reference-only (URL en frontmatter; sin raw/). Cross-ref a accesibilidad, ux-research,
+  service-design, frontend, rol/design-lead, ux-ui-lead, cro, lifecycle-email.
+- Cola Round 3 restante: 7 temas (juridico, estrategia, roles design-lead/marketing-manager/
+  ops-lead/support-lead/reclutador). Próxima tarea (iter 101): dominio/juridico (nuevo nodo).
+
 
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)
@@ -352,11 +381,11 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - [x] dominio/marketing — Lifecycle / email marketing
 - [x] dominio/leyes — Derecho societario / corporativo
 - [x] dominio/leyes — Derecho laboral (profundización)
-- [ ] dominio/leyes — Cumplimiento / regulación
-- [ ] dominio/contabilidad — Consolidación / reportes financieros
-- [ ] dominio/contabilidad — Tesorería / flujo de efectivo
-- [ ] dominio/diseno — Design systems / componentes
-- [ ] dominio/diseno — UX writing / microcopy
+- [x] dominio/leyes — Cumplimiento / regulación
+- [x] dominio/contabilidad — Consolidación / reportes financieros
+- [x] dominio/contabilidad — Tesorería / flujo de efectivo
+- [x] dominio/diseno — Design systems / componentes
+- [x] dominio/diseno — UX writing / microcopy
 ### Dominio (nuevos nodos)
 - [ ] dominio/juridico — Jurídico / legal interno de empresa (nuevo nodo)
 - [ ] dominio/estrategia — Estrategia / OKRs / planeación (nuevo nodo)

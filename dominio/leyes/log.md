@@ -27,3 +27,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-10] ingest | Derecho Laboral (México, LFT — profundización)
 - Fuentes: Lledías Abogados (2025), Cámara de Diputados LFT (vigente 14-05-2026) — reference-only.
 - Página: `derecho-laboral.md`. Relación laboral, jornada/salario/PTU, IMSS/INFONAVIT, rescisión, reforma outsourcing 2021 + REPSE, justicia laboral, reforma jornada 2026.
+
+## [2026-07-10] ingest | Cumplimiento y Regulación (compliance)
+- Fuentes: ISO 37301:2021, Audit Advisor (2025) — reference-only.
+- Página: `cumplimiento-regulacion.md`. Compliance como disciplina transversal; ISO 37301 (CMS certificable, PDCA); enfoque basado en riesgo; DOJ/UK Bribery Act; vs ISO 37001.

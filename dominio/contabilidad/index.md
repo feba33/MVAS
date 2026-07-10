@@ -10,3 +10,5 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [costos](costos.md) — Contabilidad de costos: directo/ABC, fijos/variables, CPV · 🏷️ costos,costeo-directo,abc,cpv,contabilidad · 📅 2026-07-09
 - [auditoria](auditoria.md) — Auditoría interna/externa, IFRS audit, dictamen · 🏷️ auditoria,auditoria-interna,auditoria-externa,ifrs-audit,dictamen · 📅 2026-07-09
 - [impuestos](impuestos.md) — Contabilidad fiscal: impuesto corriente/diferido, NIIF/GAAP · 🏷️ impuestos,deferred-tax,niif,gaap,contabilidad · 📅 2026-07-09
+- [consolidacion](consolidacion.md) — Consolidación de estados financieros: control, eliminaciones intercompañía, NIIF 10 · 🏷️ contabilidad,consolidacion,grupo,niif-10,eliminaciones · 📅 2026-07-10
+- [tesoreria](tesoreria.md) — Tesorería y flujo de efectivo: liquidez, working capital, cash forecasting · 🏷️ contabilidad,tesoreria,liquidez,cash-flow,working-capital · 📅 2026-07-10

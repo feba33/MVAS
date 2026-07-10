@@ -146,3 +146,15 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - 2 → `dominio/leyes`: `derecho-societario.md` (tipos LGSM SA/SAPI/SAS/SRL, órganos, gobierno corporativo, levantamiento del velo) y `derecho-laboral.md` (LFT vigente 14-05-2026; outsourcing/REPSE, jornada/salario/PTU, IMSS/INFONAVIT, rescisión, justicia laboral, reforma jornada 2026).
 - Fuentes (web, reference-only): TYP Advisers, RMS Abogados (societario); Lledías Abogados, Cámara de Diputados LFT (laboral).
 - Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/). **LOOP 3-4 de Round 3 (capa dominio — leyes).**
+
+## [2026-07-10] ingest | Leyes — Cumplimiento y Regulación — iter 98
+- 1 → `dominio/leyes/cumplimiento-regulacion.md`. Compliance transversal; ISO 37301 (CMS certificable, PDCA); enfoque basado en riesgo; DOJ/UK Bribery Act; vs ISO 37001.
+- Fuentes (web, reference-only): ISO 37301:2021, Audit Advisor. **LOOP 5 de Round 3 (capa dominio — leyes).**
+
+## [2026-07-10] ingest | Contabilidad — Consolidación + Tesorería — iter 99
+- 2 → `dominio/contabilidad`: `consolidacion.md` (control=obligación, métodos, eliminaciones intercompañía, NIIF 10/3) y `tesoreria.md` (liquidez, working capital, cash forecasting, TMS/ERP).
+- Fuentes (web, reference-only): Rural Caja, DECAP, Growth Operators, J.P. Morgan. **LOOP 6 de Round 3 (capa dominio — contabilidad).**
+
+## [2026-07-10] ingest | Diseño — Design systems + UX writing — iter 100
+- 2 → `dominio/diseno`: `design-systems.md` (single source of truth, Atomic Design, design tokens, component/pattern library) y `ux-writing.md` (microcopy, voice & tone, claridad/conversión).
+- Fuentes (web, reference-only): Bornfight, NN/g, Parallel, Designer Daily. **LOOP 7 de Round 3 (capa dominio — diseño).**

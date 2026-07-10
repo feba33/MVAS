@@ -23,3 +23,11 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-09] ingest | Contabilidad fiscal (impuestos)
 - Fuente: conocimiento general — reference-only.
 - Página: `impuestos.md`. Impuesto corriente/diferido, IAS 12 / ASC 740, NIIF vs GAAP.
+
+## [2026-07-10] ingest | Consolidación de Estados Financieros
+- Fuentes: Rural Caja (2025), DECAP (MX) — reference-only.
+- Página: `consolidacion.md`. Grupo empresarial como una entidad; control = obligación; métodos (integración/equivalencia/costo); eliminaciones intercompañía; criterios homogéneos; NIIF 10/3.
+
+## [2026-07-10] ingest | Tesorería y Flujo de Efectivo
+- Fuentes: Growth Operators (2025), J.P. Morgan — reference-only.
+- Página: `tesoreria.md`. Treasury como función estratégica (liquidez, riesgo, working capital); cash forecasting; TMS/ERP; conexión con finanzas corporativas y CFO.
