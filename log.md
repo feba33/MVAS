@@ -56,3 +56,12 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Fuentes: Gestor Normativo Función Pública (Ley 1581, D.1377), portal DIAN, Gerencie.com.
 - Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
 
+## [2026-07-10] ingest | España — RGPD/AEPD + CNMV (nuevo nodo sustrato/españa) — iter 81
+- Nuevo nodo `sustrato/españa` (superstructura completa: README, index, log, raw/).
+- 2 páginas: `rgpd-aepd.md` (RGPD UE 2016/679 + LOPDGDD LO 3/2018 + AEPD: principios,
+  derechos, transferencias internacionales, sanciones hasta 20M€/4%, derechos digitales) y
+  `cnmv.md` (CNMV Ley 6/2002: supervisión del mercado de valores, protección del inversor,
+  abuso de mercado, criptoactivos/MiCA, potestad sancionadora).
+- Fuentes: AEPD (normativa, principios), European Commission (data protection), CNMV (portal), BOE Ley 6/2002.
+- Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
+

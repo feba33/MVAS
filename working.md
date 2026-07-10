@@ -22,8 +22,8 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 ## ESTADO
 - **Plan:** Round 2 — expansión de cobertura (gap_analysis.py agotó la taxonomía del plan 1).
   Nuevos países LatAm/España + dominio ESG + rol compliance officer (11 temas nuevos).
-- **Iteración actual:** 80 (Round 2)
-- **Temas completados:** 80 / 85 (75 previos + 5 de Round 2 ingestados — restan 5)
+- **Iteración actual:** 81 (Round 2)
+- **Temas completados:** 81 / 85 (75 previos + 6 de Round 2 ingestados — restan 4)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
 - **Siguiente paso (procedimiento):** ejecutar la cola Round 2 (1-3 temas por corrida,
   cubriendo las 3 capas). Cuando se vacíe, ampliar taxonomía de gap_analysis.py.
@@ -80,7 +80,7 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - [x] sustrato/argentina — Protección de datos personales (Ley 25.326 / AAIP)
 - [x] sustrato/argentina — Impuestos y Aduanas (AFIP)
 - [x] sustrato/colombia — Protección de datos (Ley 1581) + impuestos (DIAN)
-- [ ] sustrato/españa — RGPD europeo / AEPD / CNMV
+- [x] sustrato/españa — RGPD europeo / AEPD / CNMV
 ### Dominio (nuevos nodos)
 - [x] dominio/sostenibilidad — ESG (CSRD, GRI, SASB, TCFD, ISSB)
 - [ ] dominio/logistica — Supply chain / última milla / incoterms
@@ -138,3 +138,17 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - Reference-only (URL en frontmatter; sin raw/).
 - **Próxima tarea (iter 81):** sustrato/españa — RGPD europeo / AEPD / CNMV [sustrato].
   Cola Round 2 restante: 5 temas (sustrato x1, dominio x2, rol x2).
+
+### [2026-07-10] Round 2 — ITER 81 | sustrato/españa (nuevo nodo)
+- gap_analysis.py agotó taxonomía plan 1 → cola Round 2 sigue abierta (4 temas pendientes).
+- Creado nodo `sustrato/españa` con superstructura completa (README, index, log, raw/).
+- 2 páginas [sustrato]:
+  - `sustrato/españa/rgpd-aepd.md` — RGPD (UE 2016/679, aplicable 25-05-2018) + LOPDGDD
+    (LO 3/2018) + AEPD: principios (art.5), base legal (art.6), derechos (arts.12-22),
+    DPD, transferencias internacionales (cap.V), sanciones (art.83 hasta 20M€/4%), derechos digitales.
+  - `sustrato/españa/cnmv.md` — CNMV (Ley 6/2002): autoridad administrativa independiente,
+    funciones (art.18: transparencia, precios, protección inversor), supervisión de entidades/
+    instrumentos, abuso de mercado (MAR), criptoactivos/MiCA, potestad sancionadora.
+- Reference-only (URL en frontmatter; sin raw/).
+- **Próxima tarea (iter 82):** dominio/logistica — Supply chain / última milla / incoterms [dominio].
+  Cola Round 2 restante: 4 temas (dominio x2, rol x2).

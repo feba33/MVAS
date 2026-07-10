@@ -59,6 +59,10 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [proteccion-datos](sustrato/colombia/proteccion-datos.md) — Ley Estatutaria 1581/2012: habeas data, SIC/RNBD, datos sensibles · 🏷️ colombia,privacidad,sic,ley-1581 · 📅 2026-07-09
 - [impuestos](sustrato/colombia/impuestos.md) — DIAN: renta 35%/39%, IVA 19%, retención, RST, GMF · 🏷️ colombia,impuestos,dian,renta,iva · 📅 2026-07-09
 
+### sustrato/españa
+- [rgpd-aepd](sustrato/españa/rgpd-aepd.md) — RGPD (UE 2016/679) + LOPDGDD (LO 3/2018) + AEPD: principios, derechos, transferencias, sanciones · 🏷️ españa,rgpd,aepd,lopdgdd · 📅 2026-07-10
+- [cnmv](sustrato/españa/cnmv.md) — CNMV: supervisión del mercado de valores, protección del inversor, abuso de mercado · 🏷️ españa,cnmv,valores,mercado · 📅 2026-07-10
+
 ### dominio/finanzas
 - [incertidumbre](dominio/finanzas/incertidumbre.md) — T-MEC vigente hasta 2036 · 🏷️ tmec · 📅 2026-07-09
 - [t-mec-revision-anual-inversionistas](dominio/finanzas/t-mec-revision-anual-inversionistas.md) — Revisión anual del T-MEC · 🏷️ tmec · 📅 2026-07-09
