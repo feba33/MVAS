@@ -122,6 +122,15 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/sostenibilidad
 - [esg-marco](dominio/sostenibilidad/esg-marco.md) — ESG y reporting: CSRD, GRI, SASB, TCFD, ISSB · 🏷️ esg,sostenibilidad,csrd,reporting · 📅 2026-07-09
 
+### dominio/logistica
+- [gestion-cadena-suministro](dominio/logistica/gestion-cadena-suministro.md) — Gestión de la cadena de suministro (SCM): flujo, inventario, KPIs · 🏷️ logistica,supply-chain,cadena-suministro · 📅 2026-07-10
+- [ultima-milla](dominio/logistica/ultima-milla.md) — Logística de última milla: tramo final CD→cliente, ~50% del costo · 🏷️ logistica,ultima-milla,last-mile · 📅 2026-07-10
+- [incoterms](dominio/logistica/incoterms.md) — Incoterms 2020 (ICC): 11 reglas, grupos E/F/C/D · 🏷️ logistica,incoterms,comercio-internacional · 📅 2026-07-10
+
+### dominio/ciberseguridad-gobierno
+- [nist-csf](dominio/ciberseguridad-gobierno/nist-csf.md) — NIST CSF 2.0: 6 funciones, gobernanza (GOV) · 🏷️ ciberseguridad,nist,gobierno · 📅 2026-07-10
+- [iso-27001](dominio/ciberseguridad-gobierno/iso-27001.md) — ISO 27001:2022 ISMS certificable, 93 controles · 🏷️ ciberseguridad,iso-27001,isms · 📅 2026-07-10
+
 ### rol/
 - [growth-lead](rol/growth-lead/growth-lead.md) — Growth Lead: adquisición, canales, experimentación · 🏷️ growth · 📅 2026-07-09
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09

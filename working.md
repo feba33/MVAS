@@ -22,8 +22,8 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 ## ESTADO
 - **Plan:** Round 2 — expansión de cobertura (gap_analysis.py agotó la taxonomía del plan 1).
   Nuevos países LatAm/España + dominio ESG + rol compliance officer (11 temas nuevos).
-- **Iteración actual:** 81 (Round 2)
-- **Temas completados:** 81 / 85 (75 previos + 6 de Round 2 ingestados — restan 4)
+- **Iteración actual:** 83 (Round 2)
+- **Temas completados:** 83 / 85 (75 previos + 8 de Round 2 ingestados — restan 2)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
 - **Siguiente paso (procedimiento):** ejecutar la cola Round 2 (1-3 temas por corrida,
   cubriendo las 3 capas). Cuando se vacíe, ampliar taxonomía de gap_analysis.py.
@@ -83,8 +83,8 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - [x] sustrato/españa — RGPD europeo / AEPD / CNMV
 ### Dominio (nuevos nodos)
 - [x] dominio/sostenibilidad — ESG (CSRD, GRI, SASB, TCFD, ISSB)
-- [ ] dominio/logistica — Supply chain / última milla / incoterms
-- [ ] dominio/ciberseguridad-gobierno — Framework NIST / ISO 27001 (gobernanza)
+- [x] dominio/logistica — Supply chain / última milla / incoterms
+- [x] dominio/ciberseguridad-gobierno — Framework NIST / ISO 27001 (gobernanza)
 ### Rol (nuevos nodos)
 - [x] rol/compliance-officer — Oficial de cumplimiento (PLD/anticorrupción)
 - [ ] rol/cfo — Director financiero
@@ -152,3 +152,29 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - Reference-only (URL en frontmatter; sin raw/).
 - **Próxima tarea (iter 82):** dominio/logistica — Supply chain / última milla / incoterms [dominio].
   Cola Round 2 restante: 4 temas (dominio x2, rol x2).
+
+### [2026-07-10] Round 2 — ITER 82 | dominio/logistica (nuevo nodo)
+- gap_analysis.py agotó taxonomía plan 1 → cola Round 2 sigue abierta (3 temas pendientes).
+- Creado nodo `dominio/logistica` con superstructura completa (README, index, log, raw/).
+- 3 páginas [dominio]:
+  - `dominio/logistica/gestion-cadena-suministro.md` — SCM: flujo Plan-Source-Make-Deliver-Return,
+    inventario, KPIs (OTIF, turns), tendencias (nearshoring, gemelos digitales, ESG).
+  - `dominio/logistica/ultima-milla.md` — Last mile: tramo final CD→cliente, ~50% del costo,
+    lockers/microfulfillment, route optimization, KPIs (costo/entrega, fallidas).
+  - `dominio/logistica/incoterms.md` — Incoterms 2020 (ICC): 11 reglas, grupos E/F/C/D,
+    cambios 2020 vs 2010, división riesgo-costo entre comprador/vendedor.
+- Reference-only (URL en frontmatter; sin raw/).
+- **Próxima tarea (iter 83):** dominio/ciberseguridad-gobierno — NIST CSF 2.0 / ISO 27001 [dominio].
+  Cola Round 2 restante: 3 temas (dominio x1, rol x2).
+
+### [2026-07-10] Round 2 — ITER 83 | dominio/ciberseguridad-gobierno (nuevo nodo)
+- gap_analysis.py agotó taxonomía plan 1 → cola Round 2 sigue abierta (2 temas pendientes).
+- Creado nodo `dominio/ciberseguridad-gobierno` con superstructura completa (README, index, log, raw/).
+- 2 páginas [dominio]:
+  - `dominio/ciberseguridad-gobierno/nist-csf.md` — NIST CSF 2.0: 6 funciones (GOV, ID, PR, DE, RS, RC),
+    voluntario/flexible, gobernanza de ciber alineada al negocio, tiers y perfiles.
+  - `dominio/ciberseguridad-gobierno/iso-27001.md` — ISO 27001:2022 ISMS certificable, 93 controles
+    Anexo A, vs NIST CSF 2.0 (complementarios).
+- Reference-only (URL en frontmatter; sin raw/).
+- **Próxima tarea (iter 84):** rol/cfo — Director financiero [rol].
+  Cola Round 2 restante: 2 temas (rol x2).
