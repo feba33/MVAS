@@ -23,7 +23,7 @@ english_keywords: [afores, ISR, income-tax, inheritance, estate, retirement, pen
 - Para planeación: el debate refuerza la conveniencia de estructurar la transmisión de Afores/ahorros con asesoría fiscal y, en su caso, designación de beneficiarios.
 
 ## 🔗 Cross-references
-- Régimen fiscal de México (ISR, exenciones): [regimen-fiscal](../sustrato/mexico/regimen-fiscal.md)
+- Régimen fiscal de México (ISR, exenciones): [regimen-fiscal](../../sustrato/mexico/regimen-fiscal.md)
 - Marco legal / ramas del derecho (amparo, SCJN): [ramas-derecho](../leyes/ramas-derecho.md)
 - Retiro e instrumentos de ahorro: [instrumentos-financieros](instrumentos-financieros.md)
 
