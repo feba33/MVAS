@@ -168,3 +168,18 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Creado nodo `dominio/estrategia` con superstructura completa (README, index, log, raw/).
 - 1 página: `estrategia-okr.md`. OKRs (prioridades medibles, ciclo frecuente) + Hoshin Kanri (despliegue/catchball/PDCA); OGSM, Balanced Scorecard, KPIs lag; brecha de ejecución.
 - Fuentes (web, reference-only): Operational Excellence Consulting, iSixSigma, Workpath. **LOOP 9 de Round 3 (capa dominio — estrategia).**
+
+## [2026-07-10] ingest | NODO NUEVO rol/design-lead — Design Lead (LOOP 10)
+- Creado nodo `rol/design-lead`. 1 página: `design-lead.md`. Visión/estrategia de diseño, liderazgo/mentoría, research, prototyping, abogacía UX. Fuentes: LinkedIn (reference-only). **LOOP 10 de Round 3 (capa rol).**
+
+## [2026-07-10] ingest | NODO NUEVO rol/marketing-manager — Marketing Manager (LOOP 11)
+- Creado nodo `rol/marketing-manager`. 1 página: `marketing-manager.md`. Estrategia/ejecución/optimización de marketing; brand, campañas, AI fluency, revenue. Fuentes: LHH, The Interview Guys (reference-only). **LOOP 11 de Round 3 (capa rol).**
+
+## [2026-07-10] ingest | NODO NUEVO rol/ops-lead — Ops Lead (LOOP 12)
+- Creado nodo `rol/ops-lead`. 1 página: `ops-lead.md`. Diseña/controla producción; eficiencia, procesos, cadena, mejora continua. Fuentes: Wikipedia 'Operations management' (reference-only). **LOOP 12 de Round 3 (capa rol).**
+
+## [2026-07-10] ingest | NODO NUEVO rol/support-lead — Support / CX Lead (LOOP 13)
+- Creado nodo `rol/support-lead`. 1 página: `support-lead.md`. Servicio al cliente; calidad por retención; CSAT/NPS; vs customer-success. Fuentes: Wikipedia 'Customer service' (reference-only). **LOOP 13 de Round 3 (capa rol).**
+
+## [2026-07-10] ingest | NODO NUEVO rol/reclutador — Recruiter / Talent Acquisition (LOOP 14)
+- Creado nodo `rol/reclutador`. 1 página: `reclutador.md`. Proceso identificar/sourcer/screening/entrevistar/contratar; AI sourcing. Fuentes: Wikipedia 'Recruitment' (reference-only). **LOOP 14 de Round 3 (capa rol).**

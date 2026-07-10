@@ -23,13 +23,13 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - **Plan:** Round 3 — gap_analysis.py (iter 85) reportó 25 huecos en nodos existentes
   + 2 nodos nuevos sugeridos (`dominio/juridico`, `dominio/estrategia`). Cola Round 3
   abierta con 29 temas (cubre las 3 capas; sustrato vía nuevo país Chile).
-- **Iteración actual:** 102 (Round 3 — 15 bucles de ingest completados:
-  7 previos + esta corrida: marketing x2, leyes x3, contabilidad x1,
-  diseño x1, juridico (nuevo nodo), estrategia (nuevo nodo))
-- **Temas completados:** 106 / 114 (85 previos + 21 de Round 3 ingestados en 15 bucles; restan 5 en cola)
+- **Iteración actual:** 107 (Round 3 — 21 bucles de ingest completados:
+  11 previos + 10 de esta corrida: leyes/cumplimiento, contabilidad x1, diseño x1,
+  juridico, estrategia, roles x5)
+- **Temas completados:** 111 / 114 (85 previos + 26 de Round 3 ingestados en 21 bucles; restan 3 en cola: sustrato/chile x2, organización/caso x1)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
 - **Siguiente paso (procedimiento):** ejecutar cola Round 3 (≥3 bucles por corrida).
-  Próxima tarea (iter 103): rol/design-lead — Design Lead / UX Lead.
+  Próxima tarea (iter 108): sustrato/chile — Marco general Chile (nuevo país).
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -378,6 +378,18 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - Cola Round 3 restante: 5 temas (roles design-lead/marketing-manager/ops-lead/
   support-lead/reclutador). Próxima tarea (iter 103): rol/design-lead.
 
+### [2026-07-10] Round 3 — ITER 103-107 | NODOS NUEVOS rol/* (design-lead, marketing-manager, ops-lead, support-lead, reclutador) (LOOP 10-14)
+- 5 nodos `rol/` creados con superstructura completa (README, index, log, raw/), 1 página c/u:
+  - `rol/design-lead/design-lead.md` — visión/estrategia de diseño, mentoría, research, abogacía UX (LinkedIn).
+  - `rol/marketing-manager/marketing-manager.md` — estrategia/ejecución/optimización de marketing; brand, campañas, AI fluency (LHH, Interview Guys).
+  - `rol/ops-lead/ops-lead.md` — diseña/controla producción; eficiencia, procesos, cadena, mejora continua (Wikipedia Operations mgmt).
+  - `rol/support-lead/support-lead.md` — servicio al cliente; calidad por retención; CSAT/NPS; vs customer-success (Wikipedia Customer service).
+  - `rol/reclutador/reclutador.md` — proceso reclutamiento; sourcing+IA; in-house vs agency (Wikipedia Recruitment).
+- Reference-only (URL en frontmatter; sin raw/). Cross-refs a dominio/marketing, dominio/diseno,
+  dominio/operaciones, dominio/recursos-humanos, head-of-people, customer-success-lead, operations-lead, founder-ceo.
+- Cola Round 3 restante: 3 temas (sustrato/chile x2, organización/caso x1).
+  Próxima tarea (iter 108): sustrato/chile — Marco general Chile (nuevo país).
+
 
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)
@@ -408,9 +420,9 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 ### Rol (nuevos nodos)
 - [x] rol/product-owner — Product Owner / PO
 - [x] rol/scrum-master — Scrum Master
-- [ ] rol/design-lead — Design Lead / UX Lead
-- [ ] rol/marketing-manager — Marketing Manager
-- [ ] rol/ops-lead — Operations Lead
-- [ ] rol/support-lead — Support / CX Lead
-- [ ] rol/reclutador — Recruiter / Talent Acquisition
+- [x] rol/design-lead — Design Lead / UX Lead
+- [x] rol/marketing-manager — Marketing Manager
+- [x] rol/ops-lead — Operations Lead
+- [x] rol/support-lead — Support / CX Lead
+- [x] rol/reclutador — Recruiter / Talent Acquisition
 

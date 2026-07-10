@@ -180,6 +180,11 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-people](rol/head-of-people/head-of-people.md) — Head of People / VP People / CPO: liderazgo estratégico de talento, cultura, total rewards y people ops · 🏷️ head-of-people,vp-people,cpo,chro,hr-estrategico,cultura · 📅 2026-07-10
 - [product-owner](rol/product-owner/product-owner.md) — Product Owner: maximiza valor, dueño del backlog, voz del cliente · 🏷️ product-owner,scrum,backlog,agile,producto · 📅 2026-07-10
 - [scrum-master](rol/scrum-master/scrum-master.md) — Scrum Master: líder servicial, facilita eventos, remueve impedimentos · 🏷️ scrum-master,agile,servant-leader,facilitador,scrum · 📅 2026-07-10
+- [design-lead](rol/design-lead/design-lead.md) — Design Lead / UX Lead: visión de diseño, mentoría, research · 🏷️ design-lead,ux-lead,diseno,liderazgo · 📅 2026-07-10
+- [marketing-manager](rol/marketing-manager/marketing-manager.md) — Marketing Manager: estrategia, campañas, brand, revenue · 🏷️ marketing-manager,marketing,brand,campaigns · 📅 2026-07-10
+- [ops-lead](rol/ops-lead/ops-lead.md) — Ops Lead / Operations Lead: eficiencia, procesos, escalado · 🏷️ ops-lead,operations,eficiencia,procesos · 📅 2026-07-10
+- [support-lead](rol/support-lead/support-lead.md) — Support / CX Lead: servicio al cliente, retención, CSAT · 🏷️ support-lead,cx,servicio-cliente,retencion · 📅 2026-07-10
+- [reclutador](rol/reclutador/reclutador.md) — Recruiter / Talent Acquisition: sourcing, hiring, employer branding · 🏷️ reclutador,talent-acquisition,sourcing,hiring · 📅 2026-07-10
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09
