@@ -90,6 +90,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [data-engineering](dominio/computacion/data-engineering.md) — Ingeniería de datos: pipelines, ETL/ELT · 🏷️ data-engineering,etl · 📅 2026-07-09
 - [ml-engineering](dominio/computacion/ml-engineering.md) — ML/AI engineering: MLOps, serving · 🏷️ ml,mlops · 📅 2026-07-09
 - [testing-qa](dominio/computacion/testing-qa.md) — Testing/QA: unit, integration, e2e, TDD · 🏷️ testing,qa,tdd · 📅 2026-07-09
+- [plataforma-sre](dominio/computacion/plataforma-sre.md) — Ingeniería de plataforma + SRE: IDP, SLI/SLO, error budget · 🏷️ platform-engineering,sre,devops,idp,slo · 📅 2026-07-10
+- [frontend](dominio/computacion/frontend.md) — Frontend 2026: React/Vue/Svelte/Astro/Next.js, rendimiento (Core Web Vitals) · 🏷️ frontend,react,vue,svelte,astro,rendimiento · 📅 2026-07-10
 
 ### dominio/marketing
 - [marketing-mix](dominio/marketing/marketing-mix.md) — Marketing 4Ps, growth hacking, SEO/SEM · 🏷️ marketing · 📅 2026-07-09

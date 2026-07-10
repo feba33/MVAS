@@ -15,3 +15,5 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [testing-qa](testing-qa.md) — Testing/QA: unit, integration, e2e, TDD, automatización · 🏷️ testing,qa,unit,integration,e2e,tdd · 📅 2026-07-09
 - [estilos-arquitectura](estilos-arquitectura.md) — Estilos arquitectónicos: monolito modular, microservicios, event-driven (EDA), serverless, SOA · 🏷️ arquitectura,microservicios,event-driven,serverless,soa · 📅 2026-07-10
 - [bases-datos](bases-datos.md) — Bases de datos: SQL relacional, NoSQL, distribuidas (sharding, CAP, NewSQL) · 🏷️ bases-datos,sql,nosql,distribuidas,cap · 📅 2026-07-10
+- [plataforma-sre](plataforma-sre.md) — Ingeniería de plataforma + SRE: IDP, SLI/SLO, error budget · 🏷️ platform-engineering,sre,devops,idp,slo · 📅 2026-07-10
+- [frontend](frontend.md) — Frontend 2026: React/Vue/Svelte/Astro/Next.js, rendimiento (Core Web Vitals) · 🏷️ frontend,react,vue,svelte,astro,rendimiento · 📅 2026-07-10

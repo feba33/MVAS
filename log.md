@@ -120,3 +120,14 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
 - **LOOP 3 de Round 3 (capa rol).** Cumple ≥3 bucles de ingest por corrida.
 
+
+## [2026-07-10] ingest | Computación — Plataforma/SRE + Frontend — iter 92-93
+- 2 → `dominio/computacion`: `plataforma-sre.md` (Ingeniería de Plataforma + SRE; IDP/golden
+  paths, SLI/SLO/error budget, tabla DevOps vs SRE vs Platform Eng; cross-ref devops,
+  estilos-arquitectura, bases-datos) y `frontend.md` (frameworks 2026 React/Vue/Svelte/
+  Angular/Astro/Next.js, meta-frameworks, Core Web Vitals, tabla de decisión; cross-ref
+  arquitectura, estilos-arquitectura, testing-qa, plataforma-sre).
+- Fuentes (web, reference-only): Splunk, Gart Solutions, SwitchtoDevOps, OpenSpace, Urolime
+  (plataforma-sre); Midrocket, DEV.to, Coderio, Pharos Production (frontend).
+- Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
+- **LOOP 7 de Round 3 (capa dominio — continuación de computación).**

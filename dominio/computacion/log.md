@@ -47,3 +47,15 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 - Página: `bases-datos.md`. SQL relacional (RDBMS, ACID); NoSQL (documental/clave-valor/
   columnar/grafo, sin esquema, polyglot); distribuidas (sharding, replicación, consenso);
   teorema CAP (CP vs AP); NewSQL.
+
+## [2026-07-10] ingest | Ingeniería de Plataforma + SRE
+- Fuente: Splunk, Gart Solutions, SwitchtoDevOps, OpenSpace, Urolime (2026) — reference-only.
+- Página: `plataforma-sre.md`. DevOps (cultura/automatización) vs SRE (SLI/SLO/error budget,
+  confiabilidad, origen Google 2003) vs Ingeniería de Plataforma (IDP, golden paths, DX);
+  tabla comparativa; cross-ref a devops, estilos-arquitectura, bases-datos.
+
+## [2026-07-10] ingest | Frontend — Frameworks y rendimiento
+- Fuente: Midrocket, DEV.to, Coderio, Pharos Production (2026) — reference-only.
+- Página: `frontend.md`. React/Vue/Svelte/Angular/Astro/Next.js; meta-frameworks; bundle size,
+  hidratación parcial/islands, Core Web Vitals, SSR/SSG vs CSR; tabla de decisión por contexto;
+  cross-ref a arquitectura, estilos-arquitectura, testing-qa, plataforma-sre.

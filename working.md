@@ -23,14 +23,14 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - **Plan:** Round 3 — gap_analysis.py (iter 85) reportó 25 huecos en nodos existentes
   + 2 nodos nuevos sugeridos (`dominio/juridico`, `dominio/estrategia`). Cola Round 3
   abierta con 29 temas (cubre las 3 capas; sustrato vía nuevo país Chile).
-- **Iteración actual:** 91 (Round 3 — 5 bucles de ingest completados en esta corrida:
+- **Iteración actual:** 93 (Round 3 — 7 bucles de ingest completados en esta corrida:
   sustrato/chile, dominio/finanzas derivados+mercados-capitales, rol PO+Scrum Master,
   dominio/computacion estilos-arquitectura+bases-datos, dominio/finanzas corporativas
-  + riesgo-financiero)
-- **Temas completados:** 92 / 114 (85 previos + 7 de Round 3 ingestados en 5 bucles; restan 19 en cola)
+  + riesgo-financiero, dominio/computacion plataforma-sre+frontend)
+- **Temas completados:** 94 / 114 (85 previos + 9 de Round 3 ingestados en 7 bucles; restan 17 en cola)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
 - **Siguiente paso (procedimiento):** ejecutar cola Round 3 (≥3 bucles por corrida).
-  Próxima tarea (iter 92): dominio/computacion — Plataforma / DevOps / SRE.
+  Próxima tarea (iter 94): dominio/marketing — Demand generation / paid media.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -278,6 +278,21 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - **Próxima tarea (iter 92):** dominio/computacion — Plataforma / DevOps / SRE.
   Cola Round 3 restante: 19 temas.
 
+### [2026-07-10] Round 3 — ITER 92-93 | dominio/computacion — Plataforma/SRE + Frontend (LOOP 7)
+- 2 páginas añadidas al nodo existente `dominio/computacion`:
+  - `dominio/computacion/plataforma-sre.md` — Ingeniería de Plataforma + SRE: IDP/golden
+    paths, SLI/SLO/error budget, tabla DevOps vs SRE vs Platform Eng; cross-ref devops,
+    estilos-arquitectura, bases-datos.
+  - `dominio/computacion/frontend.md` — Frontend 2026: React/Vue/Svelte/Angular/Astro/
+    Next.js, meta-frameworks, Core Web Vitals, tabla de decisión; cross-ref arquitectura,
+    estilos-arquitectura, testing-qa, plataforma-sre.
+- Reference-only (URL en frontmatter; sin raw/).
+- **Cumple ≥3 bucles de ingest por corrida (Round 3 lleva 7 bucles).** Cola Round 3
+  restante: 17 temas (marketing x3, leyes x3, contabilidad x2, diseño x2, juridico,
+  estrategia, roles design-lead/marketing-manager/ops-lead/support-lead/reclutador).
+  Próxima corrida retoma desde iter 94.
+
+
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)
 - [x] sustrato/chile — Protección de datos (Ley 19.628 / Consejo Transparencia)
@@ -288,8 +303,8 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - [x] dominio/finanzas — Finanzas corporativas (M&A, valoración, tesorería)
 - [x] dominio/finanzas — Riesgo financiero
 - [x] dominio/computacion — Arquitectura de software (microservicios, event-driven)
-- [ ] dominio/computacion — Plataforma / DevOps / SRE
-- [ ] dominio/computacion — Frontend (frameworks, performance)
+- [x] dominio/computacion — Plataforma / DevOps / SRE
+- [x] dominio/computacion — Frontend (frameworks, performance)
 - [x] dominio/computacion — Bases de datos (SQL, NoSQL, distribuidas)
 - [ ] dominio/marketing — Demand generation / paid media
 - [ ] dominio/marketing — Analítica de marketing (atribución)
