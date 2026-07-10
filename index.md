@@ -63,6 +63,10 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [rgpd-aepd](sustrato/españa/rgpd-aepd.md) — RGPD (UE 2016/679) + LOPDGDD (LO 3/2018) + AEPD: principios, derechos, transferencias, sanciones · 🏷️ españa,rgpd,aepd,lopdgdd · 📅 2026-07-10
 - [cnmv](sustrato/españa/cnmv.md) — CNMV: supervisión del mercado de valores, protección del inversor, abuso de mercado · 🏷️ españa,cnmv,valores,mercado · 📅 2026-07-10
 
+### sustrato/chile
+- [proteccion-datos](sustrato/chile/proteccion-datos.md) — Ley 19.628 (1999) + reforma Ley 21.719 (2023): vida privada, CPLT, transferencias · 🏷️ chile,privacidad,ley-19628,ley-21719,cplt · 📅 2026-07-10
+- [impuestos](sustrato/chile/impuestos.md) — SII: IVA 19%, Renta 1ª cat./global complementario, F29 mensual, F22 anual · 🏷️ chile,impuestos,sii,iva,renta,f29,f22 · 📅 2026-07-10
+
 ### dominio/finanzas
 - [incertidumbre](dominio/finanzas/incertidumbre.md) — T-MEC vigente hasta 2036 · 🏷️ tmec · 📅 2026-07-09
 - [t-mec-revision-anual-inversionistas](dominio/finanzas/t-mec-revision-anual-inversionistas.md) — Revisión anual del T-MEC · 🏷️ tmec · 📅 2026-07-09

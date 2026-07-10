@@ -82,3 +82,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
 - **Cierra la cola Round 2** (último tema pendiente). Siguiente: gap analysis → Round 3.
 
+## [2026-07-10] ingest | Chile — protección de datos + impuestos (SII) — iter 86
+- Nuevo nodo `sustrato/chile` (superstructura completa: README, index, log, raw/).
+- 2 → `sustrato/chile`: `proteccion-datos.md` (Ley 19.628 + reforma Ley 21.719, CPLT)
+  y `impuestos.md` (SII: IVA 19%, Renta 1ª cat./global complementario, F29/F22, PPM).
+- Fuentes (web, reference-only): leychile.cl 19.628, digital.gob.cl, sii.cl, BaseAPI F29.
+- Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
+- **LOOP 1 de Round 3 (capa sustrato).**
+

@@ -202,10 +202,22 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
   nodos existentes + 2 nodos nuevos sugeridos (`dominio/juridico`, `dominio/estrategia`).
   Abierta cola Round 3 (29 temas) abajo.
 
+### [2026-07-10] Round 3 — ITER 86 | sustrato/chile (nuevo nodo — LOOP 1)
+- gap_analysis.py no sugirió sustrato; se añade Chile para cubrir la capa sustrato en Round 3.
+- Creado nodo `sustrato/chile` con superstructura completa (README, index, log, raw/).
+- 2 páginas [sustrato]:
+  - `sustrato/chile/proteccion-datos.md` — Ley 19.628 (1999) + reforma Ley 21.719 (2023);
+    CPLT como autoridad; transferencias internacionales; proyecto de nueva ley en trámite.
+  - `sustrato/chile/impuestos.md` — SII: IVA 19%, Renta 1ª cat./global complementario,
+    F29 mensual, F22 anual, PPM, retención BHE 15,25%, factura electrónica, aduana/TLC.
+- Reference-only (URL en frontmatter; sin raw/).
+- **Próxima tarea (iter 87):** dominio/finanzas — Derivados + Mercados de capitales [dominio] (LOOP 2).
+  Cola Round 3 restante: 27 temas.
+
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)
-- [ ] sustrato/chile — Protección de datos (Ley 19.628 / Consejo Transparencia)
-- [ ] sustrato/chile — Impuestos y Aduanas (SII: IVA 19%, Renta, F29/F22)
+- [x] sustrato/chile — Protección de datos (Ley 19.628 / Consejo Transparencia)
+- [x] sustrato/chile — Impuestos y Aduanas (SII: IVA 19%, Renta, F29/F22)
 ### Dominio (nodos existentes — ampliar)
 - [ ] dominio/finanzas — Derivados (futuros, opciones, swaps)
 - [ ] dominio/finanzas — Mercados de capitales (IPO, emisión deuda)
