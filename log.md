@@ -195,3 +195,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - `sustrato/peru`: `proteccion-datos.md` (Ley N.° 29733 + Reglamento DS 003-2013-JUS; MINJUS/DIGEPDP, ANPD) e `impuestos.md` (SUNAT: IGV 18%, Renta 29,5%, RUC).
 - `sustrato/uruguay`: `proteccion-datos.md` (Ley N.° 18.331 + URCDP) e `impuestos.md` (DGI: IVA 22%, IRAE 25%, IRPF, Patrimonio).
 - Fuentes web (reference-only): MINJUS, SUNAT (gob.pe), URCDP/DGI (gub.uy), Wikipedia (es). **LOOP 1 de Round 4 (capa sustrato).**
+
+## [2026-07-10] Round 4 — ITER 112 | NODOS NUEVOS dominio/economia, estadistica, project-management, negociacion (LOOP 2)
+- Creados 4 nodos `dominio/` con superstructura completa (README, index, log, raw/).
+- `dominio/economia`: `macroeconomia.md` (PIB, inflación, desempleo, política monetaria, bancos centrales) + `indicadores-ciclo-fiscal.md` (política fiscal, déficit/deuda, indicadores, ciclo).
+- `dominio/estadistica`: `estadistica-ciencia-datos.md` (descriptiva, probabilidad, inferencia, data science).
+- `dominio/project-management`: `gestion-proyectos.md` (ciclo de vida, triple restricción, waterfall/ágil, PMBOK/PMP).
+- `dominio/negociacion`: `negociacion.md` (método Harvard, BATNA, ZOPA).
+- Fuentes web (reference-only): Wikipedia (es), Program on Negotiation (Harvard). **LOOP 2 de Round 4 (capa dominio).**

@@ -419,11 +419,11 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - [x] sustrato/uruguay — Protección de datos (URCDP Ley 18.331)
 - [x] sustrato/uruguay — Impuestos (DGI: IRPF, IRAE, IVA)
 ### Dominio (nuevos nodos)
-- [ ] dominio/economia — Macroeconomía (PIB, inflación, política monetaria, bancos centrales)
-- [ ] dominio/economia — Indicadores y ciclo económico / política fiscal
-- [ ] dominio/estadistica — Estadística y ciencia de datos (inferencia, probabilidad, visualización)
-- [ ] dominio/project-management — Gestión de proyectos (PMP, agile/waterfall, triple restricción)
-- [ ] dominio/negociacion — Negociación (método Harvard, BATNA, ZOPA)
+- [x] dominio/economia — Macroeconomía (PIB, inflación, política monetaria, bancos centrales)
+- [x] dominio/economia — Indicadores y ciclo económico / política fiscal
+- [x] dominio/estadistica — Estadística y ciencia de datos (inferencia, probabilidad, visualización)
+- [x] dominio/project-management — Gestión de proyectos (PMP, agile/waterfall, triple restricción)
+- [x] dominio/negociacion — Negociación (método Harvard, BATNA, ZOPA)
 ### Rol (ampliar nodo existente)
 - [ ] rol/product-marketing-manager — Product Marketing Manager (PMM)
 - [ ] rol/data-scientist — Data Scientist

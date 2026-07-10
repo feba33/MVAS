@@ -167,6 +167,19 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/estrategia
 - [estrategia-okr](dominio/estrategia/estrategia-okr.md) — Estrategia + OKRs/Hoshin Kanri: ejecución, KPIs · 🏷️ estrategia,okr,hoshin-kanri,planeacion · 📅 2026-07-10
 
+### dominio/economia
+- [macroeconomia](dominio/economia/macroeconomia.md) — PIB, inflación, desempleo, política monetaria, bancos centrales · 🏷️ economia,macroeconomia,pib,inflacion,banco-central · 📅 2026-07-10
+- [indicadores-ciclo-fiscal](dominio/economia/indicadores-ciclo-fiscal.md) — Política fiscal, déficit/deuda, indicadores clave, ciclo económico · 🏷️ economia,politica-fiscal,ciclo-economico,indicadores · 📅 2026-07-10
+
+### dominio/estadistica
+- [estadistica-ciencia-datos](dominio/estadistica/estadistica-ciencia-datos.md) — Estadística descriptiva, probabilidad, inferencia, ciencia de datos · 🏷️ estadistica,probabilidad,inferencia,data-science · 📅 2026-07-10
+
+### dominio/project-management
+- [gestion-proyectos](dominio/project-management/gestion-proyectos.md) — Ciclo de vida, triple restricción, waterfall/ágil, PMBOK/PMP, riesgo · 🏷️ project-management,pmbok,pmp,agil,waterfall · 📅 2026-07-10
+
+### dominio/negociacion
+- [negociacion](dominio/negociacion/negociacion.md) — Método Harvard, BATNA, ZOPA, valor creado/repartido · 🏷️ negociacion,metodo-harvard,batna,zopa · 📅 2026-07-10
+
 ### rol/
 - [growth-lead](rol/growth-lead/growth-lead.md) — Growth Lead: adquisición, canales, experimentación · 🏷️ growth · 📅 2026-07-09
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
