@@ -8,3 +8,5 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 
 - [proteccion-datos](proteccion-datos.md) — Ley 19.628 (1999) + reforma Ley 21.719 (2023): vida privada, CPLT, transferencias · 🏷️ chile,privacidad,ley-19628,ley-21719,cplt · 📅 2026-07-10
 - [impuestos](impuestos.md) — SII: IVA 19%, Renta 1ª cat. / global complementario, F29 mensual, F22 anual · 🏷️ chile,impuestos,sii,iva,renta,f29,f22 · 📅 2026-07-10
+- [chile-general](chile-general.md) — Chile: economía ingresos altos, OCDE, competitividad, libre comercio · 🏷️ chile,economia,oecd,competitividad · 📅 2026-07-10
+- [chile-emprendimiento](chile-emprendimiento.md) — Ecosistema emprendimiento: Start-Up Chile/CORFO, Régimen SIMPLE (PyMEs) · 🏷️ chile,emprendimiento,startups,corfo,regimen-simple · 📅 2026-07-10

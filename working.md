@@ -20,16 +20,17 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 **Raw = cita** (URL en `fuente`, sin `raw/`). Si el nodo no existe, créalo con superstructura.
 
 ## ESTADO
-- **Plan:** Round 3 — gap_analysis.py (iter 85) reportó 25 huecos en nodos existentes
-  + 2 nodos nuevos sugeridos (`dominio/juridico`, `dominio/estrategia`). Cola Round 3
-  abierta con 29 temas (cubre las 3 capas; sustrato vía nuevo país Chile).
-- **Iteración actual:** 107 (Round 3 — 21 bucles de ingest completados:
-  11 previos + 10 de esta corrida: leyes/cumplimiento, contabilidad x1, diseño x1,
-  juridico, estrategia, roles x5)
-- **Temas completados:** 111 / 114 (85 previos + 26 de Round 3 ingestados en 21 bucles; restan 3 en cola: sustrato/chile x2, organización/caso x1)
-- **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
-- **Siguiente paso (procedimiento):** ejecutar cola Round 3 (≥3 bucles por corrida).
-  Próxima tarea (iter 108): sustrato/chile — Marco general Chile (nuevo país).
+- **Plan:** Round 4 — gap_analysis.py (iter 110) tras corregir taxonomía obsoleta (5 falsos
+  positivos de Round 3 ya estaban ingestados: estilos-arquitectura, plataforma-sre,
+  demand-generation, lifecycle-email, cumplimiento-regulacion). Reportó 2 huecos reales en
+  `rol` (product-marketing-manager, data-scientist) + 6 nodos nuevos sugeridos (sustrato/peru,
+  sustrato/uruguay, dominio/economia, dominio/estadistica, dominio/project-management,
+  dominio/negociacion). Cola Round 4 = 11 temas (cubre las 3 capas: sustrato x4, dominio x5, rol x2).
+- **Iteración actual:** 110 — Plan Round 4 abierto (11 temas `pending`). Ejecutando ≥3 bucles.
+- **Temas completados:** 114 / 114 (Round 3) → Round 4 objetivo +11 (total 125).
+- **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
+- **Siguiente paso:** ejecutar bucles de ingest Round 4. Próxima tarea (iter 111):
+  sustrato/peru + sustrato/uruguay (LOOP 1, capa sustrato).
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -390,6 +391,42 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - Cola Round 3 restante: 3 temas (sustrato/chile x2, organización/caso x1).
   Próxima tarea (iter 108): sustrato/chile — Marco general Chile (nuevo país).
 
+### [2026-07-10] Round 3 — ITER 108-109 | sustrato/chile — Marco general + Emprendimiento (LOOP 15-16)
+- Nodo existente `sustrato/chile` (ya tenía proteccion-datos + impuestos). 2 páginas añadidas:
+  - `sustrato/chile/chile-general.md` — economía ingresos altos, miembro OCDE, competitividad,
+    libertad económica, TLC (Wikipedia Economy of Chile en/es).
+  - `sustrato/chile/chile-emprendimiento.md` — Start-Up Chile/CORFO, PyMEs, Régimen SIMPLE
+    2025 (Wikipedia + SII, reference-only; confianza media en detalles del SIMPLE).
+- `organización/caso` (NovaTech) ya existe con métricas desde iteraciones previas → se marca
+  [x] sin nueva ingest.
+- **Round 3 COMPLETO (114/114).** Reabastecimiento: re-ejecutar `python3 scripts/gap_analysis.py`\
+  para abrir Round 4. Próxima tarea (iter 110): gap analysis → nuevo plan.
+
+### [2026-07-10] Round 4 — ITER 110 | gap analysis + plan Round 4 (reabastecimiento)
+- gap_analysis.py (Round 3) reportó 5 falsos positivos: slugs obsoletos que ya estaban
+  ingestados en Round 3 (estilos-arquitectura, plataforma-sre, demand-generation,
+  lifecycle-email, cumplimiento-regulacion). Corregida la taxonomía de `scripts/gap_analysis.py`
+  (slugs reales + 6 nodos nuevos + 6 roles nuevos). Re-ejecutado → 2 huecos reales en `rol`
+  (product-marketing-manager, data-scientist) + 6 nodos nuevos sugeridos.
+- Abierta cola Round 4 (11 temas: sustrato x4, dominio x5, rol x2). Próxima tarea (iter 111):
+  sustrato/peru + sustrato/uruguay (LOOP 1, capa sustrato).
+
+
+## COLA ROUND 4 (gap_analysis.py iter 110 — taxonomía corregida)
+### Sustrato (nuevos países)
+- [ ] sustrato/peru — Protección de datos (Ley 29733 / ANPD)
+- [ ] sustrato/peru — Impuestos y aduanas (SUNAT: IGV, IR, RUC)
+- [ ] sustrato/uruguay — Protección de datos (URCDP Ley 18.331)
+- [ ] sustrato/uruguay — Impuestos (DGI: IRPF, IRAE, IVA)
+### Dominio (nuevos nodos)
+- [ ] dominio/economia — Macroeconomía (PIB, inflación, política monetaria, bancos centrales)
+- [ ] dominio/economia — Indicadores y ciclo económico / política fiscal
+- [ ] dominio/estadistica — Estadística y ciencia de datos (inferencia, probabilidad, visualización)
+- [ ] dominio/project-management — Gestión de proyectos (PMP, agile/waterfall, triple restricción)
+- [ ] dominio/negociacion — Negociación (método Harvard, BATNA, ZOPA)
+### Rol (ampliar nodo existente)
+- [ ] rol/product-marketing-manager — Product Marketing Manager (PMM)
+- [ ] rol/data-scientist — Data Scientist
 
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)

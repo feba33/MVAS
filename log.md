@@ -182,4 +182,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Creado nodo `rol/support-lead`. 1 página: `support-lead.md`. Servicio al cliente; calidad por retención; CSAT/NPS; vs customer-success. Fuentes: Wikipedia 'Customer service' (reference-only). **LOOP 13 de Round 3 (capa rol).**
 
 ## [2026-07-10] ingest | NODO NUEVO rol/reclutador — Recruiter / Talent Acquisition (LOOP 14)
-- Creado nodo `rol/reclutador`. 1 página: `reclutador.md`. Proceso identificar/sourcer/screening/entrevistar/contratar; AI sourcing. Fuentes: Wikipedia 'Recruitment' (reference-only). **LOOP 14 de Round 3 (capa rol).**
+- 1 página: `reclutador.md`. Proceso identificar/sourcer/screening/entrevistar/contratar; AI sourcing. Fuentes: Wikipedia 'Recruitment' (reference-only). **LOOP 14 de Round 3 (capa rol).**
+
+## [2026-07-10] ingest | sustrato/chile — Marco general del país (iter 108 / LOOP 15)
+- Nodo existente `sustrato/chile`. 1 página añadida: `chile-general.md` (economía ingresos altos, miembro OCDE, competitividad, libertad económica, TLC). Fuentes: Wikipedia Economy of Chile (en/es). **LOOP 15 de Round 3 (capa sustrato — chile).**
+
+## [2026-07-10] ingest | sustrato/chile — Ecosistema de emprendimiento (iter 109 / LOOP 16)
+- Nodo existente `sustrato/chile`. 1 página añadida: `chile-emprendimiento.md` (Start-Up Chile/CORFO, PyMEs, Régimen SIMPLE 2025). Fuentes: Wikipedia, SII (reference-only). **LOOP 16 de Round 3 (capa sustrato — chile). Restan 1 (organización/caso: NovaTech ya existe).**

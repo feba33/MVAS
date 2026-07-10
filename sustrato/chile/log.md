@@ -12,3 +12,8 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
   Consejo Transparencia, SII (sii.cl), BaseAPI calculadora F29.
 - Páginas: `proteccion-datos.md` (Ley 19.628 + Ley 21.719), `impuestos.md` (SII).
 - Reference-only (URL en frontmatter; sin raw/).
+
+## [2026-07-10] ingest | Chile — marco general + emprendimiento
+- Fuentes: Wikipedia (Economy of Chile, en/es), SII (reference-only).
+- Páginas: `chile-general.md` (economía ingresos altos, OCDE, competitividad, TLC) y
+  `chile-emprendimiento.md` (Start-Up Chile/CORFO, Régimen SIMPLE 2025 para PyMEs).

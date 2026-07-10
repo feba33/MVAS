@@ -66,6 +66,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### sustrato/chile
 - [proteccion-datos](sustrato/chile/proteccion-datos.md) — Ley 19.628 (1999) + reforma Ley 21.719 (2023): vida privada, CPLT, transferencias · 🏷️ chile,privacidad,ley-19628,ley-21719,cplt · 📅 2026-07-10
 - [impuestos](sustrato/chile/impuestos.md) — SII: IVA 19%, Renta 1ª cat./global complementario, F29 mensual, F22 anual · 🏷️ chile,impuestos,sii,iva,renta,f29,f22 · 📅 2026-07-10
+- [chile-general](sustrato/chile/chile-general.md) — Chile: economía ingresos altos, OCDE, competitividad, libre comercio · 🏷️ chile,economia,oecd,competitividad · 📅 2026-07-10
+- [chile-emprendimiento](sustrato/chile/chile-emprendimiento.md) — Ecosistema emprendimiento: Start-Up Chile/CORFO, Régimen SIMPLE (PyMEs) · 🏷️ chile,emprendimiento,startups,corfo,regimen-simple · 📅 2026-07-10
 
 ### dominio/finanzas
 - [incertidumbre](dominio/finanzas/incertidumbre.md) — T-MEC vigente hasta 2036 · 🏷️ tmec · 📅 2026-07-09

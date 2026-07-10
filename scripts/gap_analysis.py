@@ -46,8 +46,8 @@ TAXONOMY = {
         ("data-engineering", "Ingeniería de datos (ETL, lakehouse)"),
         ("ml-engineering", "ML / AI engineering (MLOps, RAG)"),
         ("testing-qa", "Testing / QA (unit, e2e, SDET)"),
-        ("arquitectura-software", "Arquitectura de software (microservicios, event-driven)"),
-        ("plataforma-devops", "Plataforma / DevOps / SRE"),
+        ("estilos-arquitectura", "Arquitectura de software (microservicios, event-driven)"),
+        ("plataforma-sre", "Plataforma / DevOps / SRE"),
         ("frontend", "Frontend (frameworks, performance)"),
         ("bases-datos", "Bases de datos (SQL, NoSQL, distribuidas)"),
     ],
@@ -55,16 +55,16 @@ TAXONOMY = {
         ("content-marketing", "Content marketing"),
         ("cro", "Conversion Rate Optimization (CRO)"),
         ("brand", "Branding / marca"),
-        ("demand-gen", "Demand generation / paid media"),
+        ("demand-generation", "Demand generation / paid media"),
         ("analitica-marketing", "Analítica de marketing (atribución)"),
-        ("lifecycle", "Lifecycle / email marketing"),
+        ("lifecycle-email", "Lifecycle / email marketing"),
     ],
     "dominio/leyes": [
         ("derecho-contratos", "Derecho de contratos"),
         ("propiedad-intelectual", "Propiedad intelectual (profundización)"),
         ("derecho-societario", "Derecho societario / corporativo"),
         ("derecho-laboral", "Derecho laboral (profundización)"),
-        ("cumplimiento", "Compliance / regulación"),
+        ("cumplimiento-regulacion", "Compliance / regulación"),
     ],
     "dominio/contabilidad": [
         ("costos", "Contabilidad de costos"),
@@ -99,6 +99,12 @@ TAXONOMY = {
         ("ops-lead", "Operations Lead"),
         ("support-lead", "Support / CX Lead"),
         ("reclutador", "Recruiter / Talent Acquisition"),
+        ("engineering-manager", "Engineering Manager"),
+        ("growth-lead", "Growth Lead"),
+        ("ux-ui-lead", "UX / UI Lead"),
+        ("product-marketing-manager", "Product Marketing Manager (PMM)"),
+        ("finance-lead", "Finance Lead / Controller"),
+        ("data-scientist", "Data Scientist"),
     ],
 }
 
@@ -111,6 +117,12 @@ NEW_NODES = [
     ("dominio/juridico", "Jurídico / legal interno de empresa"),
     ("dominio/estrategia", "Estrategia / OKRs / planeación"),
     ("organización/ejemplo-empresa", "Empresa ejemplo (capa organización)"),
+    ("sustrato/peru", "Perú: protección de datos (Ley 29733) + SUNAT (impuestos/aduana)"),
+    ("sustrato/uruguay", "Uruguay: URCDP (Ley 18.331) + DGI (impuestos)"),
+    ("dominio/economia", "Economía / macroeconomía (PIB, inflación, bancos centrales, ciclo)"),
+    ("dominio/estadistica", "Estadística y ciencia de datos (inferencia, probabilidad, visualización)"),
+    ("dominio/project-management", "Gestión de proyectos (PMP, agile/waterfall, triple restricción)"),
+    ("dominio/negociacion", "Negociación (método Harvard, BATNA, ZOPA)"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}
