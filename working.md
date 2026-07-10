@@ -23,14 +23,13 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - **Plan:** Round 3 — gap_analysis.py (iter 85) reportó 25 huecos en nodos existentes
   + 2 nodos nuevos sugeridos (`dominio/juridico`, `dominio/estrategia`). Cola Round 3
   abierta con 29 temas (cubre las 3 capas; sustrato vía nuevo país Chile).
-- **Iteración actual:** 100 (Round 3 — 13 bucles de ingest completados:
-  7 previos + esta corrida: marketing x2 (demand-gen, analitica+lifecycle),
-  leyes x3 (societario, laboral, compliance), contabilidad x1 (consolidación+tesorería),
-  diseño x1 (design-systems+ux-writing))
-- **Temas completados:** 104 / 114 (85 previos + 19 de Round 3 ingestados en 13 bucles; restan 7 en cola)
+- **Iteración actual:** 102 (Round 3 — 15 bucles de ingest completados:
+  7 previos + esta corrida: marketing x2, leyes x3, contabilidad x1,
+  diseño x1, juridico (nuevo nodo), estrategia (nuevo nodo))
+- **Temas completados:** 106 / 114 (85 previos + 21 de Round 3 ingestados en 15 bucles; restan 5 en cola)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
 - **Siguiente paso (procedimiento):** ejecutar cola Round 3 (≥3 bucles por corrida).
-  Próxima tarea (iter 101): dominio/juridico — Jurídico / legal interno (nuevo nodo).
+  Próxima tarea (iter 103): rol/design-lead — Design Lead / UX Lead.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -362,6 +361,23 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - Cola Round 3 restante: 7 temas (juridico, estrategia, roles design-lead/marketing-manager/
   ops-lead/support-lead/reclutador). Próxima tarea (iter 101): dominio/juridico (nuevo nodo).
 
+### [2026-07-10] Round 3 — ITER 101 | NODO NUEVO dominio/juridico — Jurídico interno (LOOP 8)
+- Creado nodo `dominio/juridico` con superstructura completa (README, index, log, raw/).
+- 1 página: `juridico-interno.md` — función in-house; jerarquía GC/CLO → counsel →
+  legal ops; contratos, M&A, gobernanza corporativa, litigios, investigaciones, externos.
+- Reference-only (URL en frontmatter; sin raw/). Cross-ref a leyes/derecho-societario,
+  derecho-contratos, cumplimiento-regulacion, finanzas-corporativas, rol/legal-counsel,
+  rol/compliance-officer, founder-ceo, cfo.
+
+### [2026-07-10] Round 3 — ITER 102 | NODO NUEVO dominio/estrategia — Estrategia/OKRs (LOOP 9)
+- Creado nodo `dominio/estrategia` con superstructura completa (README, index, log, raw/).
+- 1 página: `estrategia-okr.md` — OKRs + Hoshin Kanri (despliegue/catchball/PDCA); OGSM,
+  Balanced Scorecard, KPIs lag; brecha de ejecución entre estrategia y operación.
+- Reference-only (URL en frontmatter; sin raw/). Cross-ref a founder-ceo, product-lead,
+  head-of-people, marketing-lead, producto, finanzas-corporativas, operaciones.
+- Cola Round 3 restante: 5 temas (roles design-lead/marketing-manager/ops-lead/
+  support-lead/reclutador). Próxima tarea (iter 103): rol/design-lead.
+
 
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)
@@ -387,8 +403,8 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - [x] dominio/diseno — Design systems / componentes
 - [x] dominio/diseno — UX writing / microcopy
 ### Dominio (nuevos nodos)
-- [ ] dominio/juridico — Jurídico / legal interno de empresa (nuevo nodo)
-- [ ] dominio/estrategia — Estrategia / OKRs / planeación (nuevo nodo)
+- [x] dominio/juridico — Jurídico / legal interno de empresa (nuevo nodo)
+- [x] dominio/estrategia — Estrategia / OKRs / planeación (nuevo nodo)
 ### Rol (nuevos nodos)
 - [x] rol/product-owner — Product Owner / PO
 - [x] rol/scrum-master — Scrum Master

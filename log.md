@@ -158,3 +158,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 ## [2026-07-10] ingest | Diseño — Design systems + UX writing — iter 100
 - 2 → `dominio/diseno`: `design-systems.md` (single source of truth, Atomic Design, design tokens, component/pattern library) y `ux-writing.md` (microcopy, voice & tone, claridad/conversión).
 - Fuentes (web, reference-only): Bornfight, NN/g, Parallel, Designer Daily. **LOOP 7 de Round 3 (capa dominio — diseño).**
+
+## [2026-07-10] ingest | NODO NUEVO dominio/juridico — Jurídico interno — iter 101
+- Creado nodo `dominio/juridico` con superstructura completa (README, index, log, raw/).
+- 1 página: `juridico-interno.md`. Función in-house; jerarquía GC/CLO → counsel → legal ops; contratos, M&A, gobernanza, litigios, investigaciones, abogados externos.
+- Fuentes (web, reference-only): Streamline AI, CaseFox, Torchora. **LOOP 8 de Round 3 (capa dominio — juridico).**
+
+## [2026-07-10] ingest | NODO NUEVO dominio/estrategia — Estrategia/OKRs — iter 102
+- Creado nodo `dominio/estrategia` con superstructura completa (README, index, log, raw/).
+- 1 página: `estrategia-okr.md`. OKRs (prioridades medibles, ciclo frecuente) + Hoshin Kanri (despliegue/catchball/PDCA); OGSM, Balanced Scorecard, KPIs lag; brecha de ejecución.
+- Fuentes (web, reference-only): Operational Excellence Consulting, iSixSigma, Workpath. **LOOP 9 de Round 3 (capa dominio — estrategia).**

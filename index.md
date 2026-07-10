@@ -111,6 +111,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [derecho-laboral](dominio/leyes/derecho-laboral.md) — Derecho laboral LFT (prof.): outsourcing/REPSE, jornada, rescisión · 🏷️ leyes,laboral,lft,outsourcing · 📅 2026-07-10
 - [cumplimiento-regulacion](dominio/leyes/cumplimiento-regulacion.md) — Cumplimiento y regulación: ISO 37301, compliance · 🏷️ leyes,cumplimiento,compliance,iso-37301 · 📅 2026-07-10
 
+### dominio/juridico
+- [juridico-interno](dominio/juridico/juridico-interno.md) — Jurídico interno (in-house): GC/CLO, contratos, M&A, governance · 🏷️ juridico,inhouse,general-counsel,gobernanza · 📅 2026-07-10
+
 ### dominio/contabilidad
 - [niif-us-gaap](dominio/contabilidad/niif-us-gaap.md) — NIIF vs US GAAP · 🏷️ niif,gaap · 📅 2026-07-09
 - [costos](dominio/contabilidad/costos.md) — Contabilidad de costos · 🏷️ costos · 📅 2026-07-09
@@ -150,6 +153,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/ciberseguridad-gobierno
 - [nist-csf](dominio/ciberseguridad-gobierno/nist-csf.md) — NIST CSF 2.0: 6 funciones, gobernanza (GOV) · 🏷️ ciberseguridad,nist,gobierno · 📅 2026-07-10
 - [iso-27001](dominio/ciberseguridad-gobierno/iso-27001.md) — ISO 27001:2022 ISMS certificable, 93 controles · 🏷️ ciberseguridad,iso-27001,isms · 📅 2026-07-10
+
+### dominio/estrategia
+- [estrategia-okr](dominio/estrategia/estrategia-okr.md) — Estrategia + OKRs/Hoshin Kanri: ejecución, KPIs · 🏷️ estrategia,okr,hoshin-kanri,planeacion · 📅 2026-07-10
 
 ### rol/
 - [growth-lead](rol/growth-lead/growth-lead.md) — Growth Lead: adquisición, canales, experimentación · 🏷️ growth · 📅 2026-07-09
