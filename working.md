@@ -23,13 +23,14 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - **Plan:** Round 3 — gap_analysis.py (iter 85) reportó 25 huecos en nodos existentes
   + 2 nodos nuevos sugeridos (`dominio/juridico`, `dominio/estrategia`). Cola Round 3
   abierta con 29 temas (cubre las 3 capas; sustrato vía nuevo país Chile).
-- **Iteración actual:** 90 (Round 3 — 5 bucles de ingest completados en esta corrida:
+- **Iteración actual:** 91 (Round 3 — 5 bucles de ingest completados en esta corrida:
   sustrato/chile, dominio/finanzas derivados+mercados-capitales, rol PO+Scrum Master,
-  dominio/computacion estilos-arquitectura+bases-datos, dominio/finanzas corporativas)
-- **Temas completados:** 91 / 114 (85 previos + 6 de Round 3 ingestados en 5 bucles; restan 20 en cola)
+  dominio/computacion estilos-arquitectura+bases-datos, dominio/finanzas corporativas
+  + riesgo-financiero)
+- **Temas completados:** 92 / 114 (85 previos + 7 de Round 3 ingestados en 5 bucles; restan 19 en cola)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
 - **Siguiente paso (procedimiento):** ejecutar cola Round 3 (≥3 bucles por corrida).
-  Próxima tarea (iter 91): dominio/finanzas — Riesgo financiero (riesgo de mercado, crédito, liquidez, operativo).
+  Próxima tarea (iter 92): dominio/computacion — Plataforma / DevOps / SRE.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -263,7 +264,19 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - Reference-only (URL en frontmatter; sin raw/). Cross-ref a valoracion, mercados-capitales,
   private-equity-vc, derivados y rol/cfo (sin duplicar valoracion.md).
 - **Próxima tarea (iter 91):** dominio/finanzas — Riesgo financiero (mercado, crédito,
-  liquidez, operativo). Cola Round 3 restante: 20 temas.
+  liquidez, operativo) — COMPLETADA en esta corrida. Cola Round 3 restante: 19 temas.
+
+### [2026-07-10] Round 3 — ITER 91 | dominio/finanzas — Riesgo financiero (LOOP 6)
+- 1 página añadida al nodo existente `dominio/finanzas`:
+  - `dominio/finanzas/riesgo-financiero.md` — riesgo financiero: los 4 tipos
+    principales (mercado: FX/tasa/equidad/commodities/inflación; crédito/contraparte;
+    liquidez: financiamiento y mercado; operativo: procesos/personas/sistemas/externos
+    + legal, tecnológico, PLD) con sub-riesgos y mitigación; marcos de gobernanza COSO
+    ERM, ISO 31000, Basilea III (LCR/NSFR), CNBV; ciclo identificar-medir-mitigar-monitorear.
+- Reference-only (URL en frontmatter; sin raw/). Cross-ref a derivados (coberturas),
+  finanzas-corporativas (tesorería/liquidez), valoracion, rol/cfo y rol/compliance-officer.
+- **Próxima tarea (iter 92):** dominio/computacion — Plataforma / DevOps / SRE.
+  Cola Round 3 restante: 19 temas.
 
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)
@@ -273,7 +286,7 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - [x] dominio/finanzas — Derivados (futuros, opciones, swaps)
 - [x] dominio/finanzas — Mercados de capitales (IPO, emisión deuda)
 - [x] dominio/finanzas — Finanzas corporativas (M&A, valoración, tesorería)
-- [ ] dominio/finanzas — Riesgo financiero
+- [x] dominio/finanzas — Riesgo financiero
 - [x] dominio/computacion — Arquitectura de software (microservicios, event-driven)
 - [ ] dominio/computacion — Plataforma / DevOps / SRE
 - [ ] dominio/computacion — Frontend (frameworks, performance)

@@ -19,3 +19,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [derivados](derivados.md) — Derivados: futuros, opciones, swaps, forwards; cobertura y apalancamiento · 🏷️ finanzas,derivados,futuros,opciones,swaps,cobertura · 📅 2026-07-10
 - [mercados-capitales](mercados-capitales.md) — Mercados de capitales: ECM/IPO, DCM/bonos, underwriting · 🏷️ finanzas,mercados-capitales,ipo,bonos,underwriting · 📅 2026-07-10
 - [finanzas-corporativas](finanzas-corporativas.md) — Finanzas corporativas: M&A (fusiones/adquisiciones), valoración, tesorería/liquidez · 🏷️ finanzas-corporativas,mna,valoracion,tesoreria,liquidez · 📅 2026-07-10
+- [riesgo-financiero](riesgo-financiero.md) — Riesgo financiero: mercado, crédito, liquidez, operativo + marcos COSO ERM / ISO 31000 / Basilea III · 🏷️ finanzas,riesgo,riesgo-de-mercado,riesgo-de-credito,riesgo-de-liquidez,riesgo-operativo,gestion-de-riesgos,basilea · 📅 2026-07-10

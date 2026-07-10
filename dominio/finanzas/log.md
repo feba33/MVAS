@@ -61,3 +61,8 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Fuentes (web, reference-only): Wikipedia (en) Corporate finance / M&A / Business valuation / Treasury management + conocimiento general.
 - Página: `finanzas-corporativas.md`. Visión integrada de finanzas corporativas como 3 pilares (M&A, valoración, tesorería) sobre el objetivo de maximizar valor de accionista. Cruza con valoracion.md, mercados-capitales.md, private-equity-vc.md, derivados.md y rol/cfo.
 - Discernimiento: dominio/finanzas (certeza alta). No duplica valoracion.md (lo enlaza).
+
+## [2026-07-10] ingest | Riesgo financiero (mercado, crédito, liquidez, operativo) — iter 91
+- Fuentes (web, reference-only): Santander Open Academy, BIS (Basilea III), LinkedIn (COSO ERM/ISO 31000/CNBV), Scribd (clase riesgos bancarios), EAE Barcelona.
+- Página: `riesgo-financiero.md`. Los 4 tipos principales con sub-riesgos y mitigación; riesgos complementarios (legal, tecnológico, PLD); marcos de gobernanza (COSO ERM, ISO 31000, Basilea III/LCR/NSFR, CNBV); ciclo identificar-medir-mitigar-monitorear.
+- Discernimiento: dominio/finanzas (certeza alta). No duplica derivados.md (lo enlaza para coberturas) ni finanzas-corporativas.md (lo enlaza para tesorería/liquidez).
