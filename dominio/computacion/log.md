@@ -35,3 +35,15 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-09] ingest | Testing y QA
 - Fuente: Wikipedia (en) — reference-only.
 - Página: `testing-qa.md`. Niveles unit/integration/e2e; test pyramid; TDD; automatización y QA.
+
+## [2026-07-10] ingest | Estilos arquitectónicos de software
+- Fuente: Wikipedia (en) — Microservices, Event-driven architecture — reference-only.
+- Página: `estilos-arquitectura.md`. Monolito modular, SOA, microservicios (servicios poco
+  acoplados, protocolos ligeros, despliegue/escala independiente), event-driven (EDA:
+  producción/detección de eventos, tolerancia a fallos), serverless; tabla de trade-offs.
+
+## [2026-07-10] ingest | Bases de datos
+- Fuente: Wikipedia (en) — Database, NoSQL, SQL, CAP theorem, Distributed database — reference-only.
+- Página: `bases-datos.md`. SQL relacional (RDBMS, ACID); NoSQL (documental/clave-valor/
+  columnar/grafo, sin esquema, polyglot); distribuidas (sharding, replicación, consenso);
+  teorema CAP (CP vs AP); NewSQL.

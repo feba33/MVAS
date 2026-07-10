@@ -99,6 +99,15 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - **LOOP 2 de Round 3 (capa dominio).**
 
 ## [2026-07-10] ingest | Roles — Product Owner + Scrum Master — iter 88
+
+## [2026-07-10] ingest | Computación — Estilos arquitectura + Bases de datos — iter 89
+- 2 → `dominio/computacion`: `estilos-arquitectura.md` (monolito modular, SOA, microservicios,
+  EDA, serverless; tabla de trade-offs) y `bases-datos.md` (SQL relacional, NoSQL, distribuidas,
+  CAP, NewSQL).
+- Fuentes (web, reference-only): Wikipedia (en) Microservices, Event-driven architecture,
+  Database, NoSQL, SQL, CAP theorem, Distributed database.
+- Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
+- **LOOP 4 de Round 3 (capa dominio — continuación de computación).**
 - 2 nodos nuevos `rol/product-owner` y `rol/scrum-master` (superstructura completa cada uno).
 - 1 → `rol/product-owner`: `product-owner.md` — maximiza valor del producto, dueño del
   backlog/PBIs, voz del cliente, stakeholder; vs PM/Product Lead.

@@ -13,3 +13,5 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [data-engineering](data-engineering.md) — Ingeniería de datos: pipelines, ETL/ELT, data warehouses, dbt, Spark · 🏷️ data-engineering,etl,elt,data-warehouse,dbt,spark · 📅 2026-07-09
 - [ml-engineering](ml-engineering.md) — ML engineering: entrenamiento/serving, MLOps, feature store · 🏷️ ml-engineering,mlops,entrenamiento,serving,feature-store · 📅 2026-07-09
 - [testing-qa](testing-qa.md) — Testing/QA: unit, integration, e2e, TDD, automatización · 🏷️ testing,qa,unit,integration,e2e,tdd · 📅 2026-07-09
+- [estilos-arquitectura](estilos-arquitectura.md) — Estilos arquitectónicos: monolito modular, microservicios, event-driven (EDA), serverless, SOA · 🏷️ arquitectura,microservicios,event-driven,serverless,soa · 📅 2026-07-10
+- [bases-datos](bases-datos.md) — Bases de datos: SQL relacional, NoSQL, distribuidas (sharding, CAP, NewSQL) · 🏷️ bases-datos,sql,nosql,distribuidas,cap · 📅 2026-07-10

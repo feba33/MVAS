@@ -23,12 +23,12 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - **Plan:** Round 3 — gap_analysis.py (iter 85) reportó 25 huecos en nodos existentes
   + 2 nodos nuevos sugeridos (`dominio/juridico`, `dominio/estrategia`). Cola Round 3
   abierta con 29 temas (cubre las 3 capas; sustrato vía nuevo país Chile).
-- **Iteración actual:** 88 (Round 3 — 3 bucles de ingest completados en esta corrida:
+- **Iteración actual:** 89 (Round 3 — 4 bucles de ingest completados en esta corrida:
   sustrato/chile, dominio/finanzas derivados+mercados, rol PO+Scrum Master)
-- **Temas completados:** 88 / 114 (85 previos + 3 de Round 3 ingestados en 3 bucles; restan 23 en cola)
+- **Temas completados:** 90 / 114 (85 previos + 5 de Round 3 ingestados en 4 bucles; restan 21 en cola)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
 - **Siguiente paso (procedimiento):** ejecutar cola Round 3 (≥3 bucles por corrida).
-  Próxima tarea (iter 89): dominio/computacion — Arquitectura de software + Bases de datos.
+  Próxima tarea (iter 90): dominio/finanzas — Finanzas corporativas (M&A, valoración, tesorería).
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -238,6 +238,19 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
   x2, diseño x2, juridico, estrategia, y roles design-lead/marketing-manager/ops-lead/
   support-lead/reclutador). Próxima corrida retoma desde iter 89.
 
+### [2026-07-10] Round 3 — ITER 89 | dominio/computacion — Estilos arquitectura + Bases de datos (LOOP 4)
+- 2 páginas añadidas al nodo existente `dominio/computacion`:
+  - `dominio/computacion/estilos-arquitectura.md` — monolito modular, SOA, microservicios
+    (servicios poco acoplados, protocolos ligeros, despliegue/escala independiente),
+    event-driven (EDA: producción/detección de eventos, tolerancia a fallos), serverless;
+    tabla de trade-offs.
+  - `dominio/computacion/bases-datos.md` — SQL relacional (RDBMS, ACID); NoSQL (documental/
+    clave-valor/columnar/grafo, sin esquema, polyglot); distribuidas (sharding, replicación,
+    consenso); teorema CAP (CP vs AP); NewSQL.
+- Reference-only (URL en frontmatter; sin raw/). Cross-ref a arquitectura, devops, data-engineering.
+- **Próxima tarea (iter 90):** dominio/finanzas — Finanzas corporativas (M&A, valoración, tesorería).
+  Cola Round 3 restante: 21 temas.
+
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)
 - [x] sustrato/chile — Protección de datos (Ley 19.628 / Consejo Transparencia)
@@ -247,10 +260,10 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - [x] dominio/finanzas — Mercados de capitales (IPO, emisión deuda)
 - [ ] dominio/finanzas — Finanzas corporativas (M&A, valoración, tesorería)
 - [ ] dominio/finanzas — Riesgo financiero
-- [ ] dominio/computacion — Arquitectura de software (microservicios, event-driven)
+- [x] dominio/computacion — Arquitectura de software (microservicios, event-driven)
 - [ ] dominio/computacion — Plataforma / DevOps / SRE
 - [ ] dominio/computacion — Frontend (frameworks, performance)
-- [ ] dominio/computacion — Bases de datos (SQL, NoSQL, distribuidas)
+- [x] dominio/computacion — Bases de datos (SQL, NoSQL, distribuidas)
 - [ ] dominio/marketing — Demand generation / paid media
 - [ ] dominio/marketing — Analítica de marketing (atribución)
 - [ ] dominio/marketing — Lifecycle / email marketing
