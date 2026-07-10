@@ -189,3 +189,9 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 
 ## [2026-07-10] ingest | sustrato/chile — Ecosistema de emprendimiento (iter 109 / LOOP 16)
 - Nodo existente `sustrato/chile`. 1 página añadida: `chile-emprendimiento.md` (Start-Up Chile/CORFO, PyMEs, Régimen SIMPLE 2025). Fuentes: Wikipedia, SII (reference-only). **LOOP 16 de Round 3 (capa sustrato — chile). Restan 1 (organización/caso: NovaTech ya existe).**
+
+## [2026-07-10] Round 4 — ITER 111 | NODOS NUEVOS sustrato/peru + sustrato/uruguay (LOOP 1)
+- Creados nodos `sustrato/peru` y `sustrato/uruguay` con superstructura completa (README, index, log, raw/).
+- `sustrato/peru`: `proteccion-datos.md` (Ley N.° 29733 + Reglamento DS 003-2013-JUS; MINJUS/DIGEPDP, ANPD) e `impuestos.md` (SUNAT: IGV 18%, Renta 29,5%, RUC).
+- `sustrato/uruguay`: `proteccion-datos.md` (Ley N.° 18.331 + URCDP) e `impuestos.md` (DGI: IVA 22%, IRAE 25%, IRPF, Patrimonio).
+- Fuentes web (reference-only): MINJUS, SUNAT (gob.pe), URCDP/DGI (gub.uy), Wikipedia (es). **LOOP 1 de Round 4 (capa sustrato).**

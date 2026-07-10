@@ -69,6 +69,14 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [chile-general](sustrato/chile/chile-general.md) — Chile: economía ingresos altos, OCDE, competitividad, libre comercio · 🏷️ chile,economia,oecd,competitividad · 📅 2026-07-10
 - [chile-emprendimiento](sustrato/chile/chile-emprendimiento.md) — Ecosistema emprendimiento: Start-Up Chile/CORFO, Régimen SIMPLE (PyMEs) · 🏷️ chile,emprendimiento,startups,corfo,regimen-simple · 📅 2026-07-10
 
+### sustrato/peru
+- [proteccion-datos](sustrato/peru/proteccion-datos.md) — Ley N.° 29733 + Reglamento DS 003-2013-JUS; MINJUS/DIGEPDP, ANPD · 🏷️ peru,privacidad,ley-29733,anpd · 📅 2026-07-10
+- [impuestos](sustrato/peru/impuestos.md) — SUNAT: IGV 18%, Renta 29,5%, RUC, facturación electrónica · 🏷️ peru,impuestos,sunat,igv,renta · 📅 2026-07-10
+
+### sustrato/uruguay
+- [proteccion-datos](sustrato/uruguay/proteccion-datos.md) — Ley N.° 18.331 + URCDP; RUBD, transferencias · 🏷️ uruguay,privacidad,ley-18331,urcdp · 📅 2026-07-10
+- [impuestos](sustrato/uruguay/impuestos.md) — DGI: IVA 22%, IRAE 25%, IRPF (máx 36%), Patrimonio · 🏷️ uruguay,impuestos,dgi,iva,irae,irpf · 📅 2026-07-10
+
 ### dominio/finanzas
 - [incertidumbre](dominio/finanzas/incertidumbre.md) — T-MEC vigente hasta 2036 · 🏷️ tmec · 📅 2026-07-09
 - [t-mec-revision-anual-inversionistas](dominio/finanzas/t-mec-revision-anual-inversionistas.md) — Revisión anual del T-MEC · 🏷️ tmec · 📅 2026-07-09

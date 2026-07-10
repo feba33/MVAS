@@ -414,10 +414,10 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 
 ## COLA ROUND 4 (gap_analysis.py iter 110 — taxonomía corregida)
 ### Sustrato (nuevos países)
-- [ ] sustrato/peru — Protección de datos (Ley 29733 / ANPD)
-- [ ] sustrato/peru — Impuestos y aduanas (SUNAT: IGV, IR, RUC)
-- [ ] sustrato/uruguay — Protección de datos (URCDP Ley 18.331)
-- [ ] sustrato/uruguay — Impuestos (DGI: IRPF, IRAE, IVA)
+- [x] sustrato/peru — Protección de datos (Ley 29733 / ANPD)
+- [x] sustrato/peru — Impuestos y aduanas (SUNAT: IGV, IR, RUC)
+- [x] sustrato/uruguay — Protección de datos (URCDP Ley 18.331)
+- [x] sustrato/uruguay — Impuestos (DGI: IRPF, IRAE, IVA)
 ### Dominio (nuevos nodos)
 - [ ] dominio/economia — Macroeconomía (PIB, inflación, política monetaria, bancos centrales)
 - [ ] dominio/economia — Indicadores y ciclo económico / política fiscal
