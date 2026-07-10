@@ -41,3 +41,9 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 ## [2026-07-09] ingest | Finanzas conductuales
 - Fuente: Wikipedia (en) Behavioral economics — reference-only.
 - Página: `behavioral-finance.md`. Sesgos, Kahneman/Tversky, prospect theory.
+
+## [2026-07-10] ingest | Gravar Afores heredadas con ISR — JUFED lo rechaza
+- Fuente: El Financiero (2026-07-09) — reference-only (URL en frontmatter, sin raw/).
+- Página: `afores-herencia-isr.md`. JUFED rechaza gravar Afores heredadas con ISR; pide a SCJN proteger patrimonio familiar/seguridad social. Ángulo: planeación patrimonial sucesoria de cuentas de retiro.
+- Discernimiento: dominio/finanzas (Afores, ISR, retiro) + cross-ref sustrato/mexico (régimen fiscal) y dominio/leyes (JUFED/SCJN). Certeza alta.
+- Nota: los otros 4 ítems del scrape (crónica criminal migrante/ICE, captura de sicario, desaparición adolescentes, reality show) se filtraron por gate de relevancia (coyuntura sin ángulo legal-corporativo-técnico).

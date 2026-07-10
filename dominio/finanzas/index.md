@@ -15,3 +15,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [private-equity-vc](private-equity-vc.md) — Private Equity / VC: rondas seed/A/B/C, term sheets, dilución, salidas IPO/M&A · 🏷️ private-equity,venture-capital,fundraising,term-sheet,dilucion,ipo,m&a · 📅 2026-07-09
 - [cripto-activos](cripto-activos.md) — Criptoactivos: Bitcoin, Ethereum, exchanges, regulación SEC · 🏷️ cripto,bitcoin,ethereum,blockchain,exchanges,sec,regulacion,activos-digitales · 📅 2026-07-09
 - [behavioral-finance](behavioral-finance.md) — Finanzas conductuales: sesgos, Kahneman/Tversky, prospect theory · 🏷️ finanzas-conductuales,behavioral-finance,sesgos,kahneman,tversky,prospect-theory,decisiones · 📅 2026-07-09
+- [afores-herencia-isr](afores-herencia-isr.md) — JUFED rechaza gravar Afores heredadas con ISR; pide a SCJN proteger patrimonio familiar · 🏷️ afores,isr,herencias,retiro,patrimonio · 📅 2026-07-10

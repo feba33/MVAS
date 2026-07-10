@@ -73,6 +73,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [private-equity-vc](dominio/finanzas/private-equity-vc.md) — Private Equity / VC: rondas, term sheets, exits · 🏷️ pe,vc,fundraising · 📅 2026-07-09
 - [cripto-activos](dominio/finanzas/cripto-activos.md) — Criptoactivos: Bitcoin, Ethereum, regulación · 🏷️ cripto,blockchain · 📅 2026-07-09
 - [behavioral-finance](dominio/finanzas/behavioral-finance.md) — Finanzas conductuales: sesgos, prospect theory · 🏷️ behavioral,finanzas · 📅 2026-07-09
+- [afores-herencia-isr](dominio/finanzas/afores-herencia-isr.md) — JUFED rechaza gravar Afores heredadas con ISR; pide a SCJN proteger patrimonio familiar · 🏷️ afores,isr,herencias,retiro · 📅 2026-07-10
 
 ### dominio/computacion
 - [paradigmas](dominio/computacion/paradigmas.md) — Paradigmas de programación · 🏷️ paradigmas · 📅 2026-07-09
