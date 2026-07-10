@@ -26,11 +26,10 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
   `rol` (product-marketing-manager, data-scientist) + 6 nodos nuevos sugeridos (sustrato/peru,
   sustrato/uruguay, dominio/economia, dominio/estadistica, dominio/project-management,
   dominio/negociacion). Cola Round 4 = 11 temas (cubre las 3 capas: sustrato x4, dominio x5, rol x2).
-- **Iteración actual:** 110 — Plan Round 4 abierto (11 temas `pending`). Ejecutando ≥3 bucles.
-- **Temas completados:** 114 / 114 (Round 3) → Round 4 objetivo +11 (total 125).
+- **Iteración actual:** 113 — Round 4 COMPLETO (11/11 temas ingestados en 3 bucles: LOOP 1 sustrato, LOOP 2 dominio, LOOP 3 rol).
+- **Temas completados:** 125 / 125 (Round 3: 114 + Round 4: 11).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** ejecutar bucles de ingest Round 4. Próxima tarea (iter 111):
-  sustrato/peru + sustrato/uruguay (LOOP 1, capa sustrato).
+- **Siguiente paso:** reabastecimiento — re-ejecutar `python3 scripts/gap_analysis.py` para abrir Round 5 (nuevos países/disciplinas/roles). Próxima tarea sugerida (iter 114): ejecutar gap analysis y abrir Round 5.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -411,6 +410,30 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - Abierta cola Round 4 (11 temas: sustrato x4, dominio x5, rol x2). Próxima tarea (iter 111):
   sustrato/peru + sustrato/uruguay (LOOP 1, capa sustrato).
 
+### [2026-07-10] Round 4 — ITER 111 | LOOP 1 (sustrato) — peru + uruguay
+- Creados nodos `sustrato/peru` y `sustrato/uruguay` (superstructura completa).
+- `sustrato/peru`: `proteccion-datos.md` (Ley 29733 + Reglamento DS 003-2013-JUS; MINJUS/ANPD)
+  e `impuestos.md` (SUNAT: IGV 18%, Renta 29,5%, RUC).
+- `sustrato/uruguay`: `proteccion-datos.md` (Ley 18.331 + URCDP) e `impuestos.md`
+  (DGI: IVA 22%, IRAE 25%, IRPF, Patrimonio).
+- Reference-only (URL en frontmatter; sin raw/). Próxima tarea (iter 112): dominio/economia,
+  estadistica, project-management, negociacion (LOOP 2).
+
+### [2026-07-10] Round 4 — ITER 112 | LOOP 2 (dominio) — economia, estadistica, project-management, negociacion
+- Creados 4 nodos `dominio/` (superstructura completa).
+- `economia`: macroeconomia.md + indicadores-ciclo-fiscal.md.
+- `estadistica`: estadistica-ciencia-datos.md. `project-management`: gestion-proyectos.md.
+- `negociacion`: negociacion.md (método Harvard, BATNA, ZOPA).
+- Reference-only (URL en frontmatter; sin raw/). Próxima tarea (iter 113): rol/product-marketing-manager
+  + rol/data-scientist (LOOP 3).
+
+### [2026-07-10] Round 4 — ITER 113 | LOOP 3 (rol) — product-marketing-manager + data-scientist
+- Creados 2 nodos `rol/` (superstructura completa).
+- `product-marketing-manager`: product-marketing-manager.md (PMM: GTM, posicionamiento, mensaje).
+- `data-scientist`: data-scientist.md (estadística + ML + programación; modelado predictivo).
+- Reference-only (URL en frontmatter; sin raw/).
+- **Round 4 COMPLETO (11/11 temas en 3 bucles).** Siguiente paso de reabastecimiento:
+  re-ejecutar `python3 scripts/gap_analysis.py` para abrir Round 5.
 
 ## COLA ROUND 4 (gap_analysis.py iter 110 — taxonomía corregida)
 ### Sustrato (nuevos países)
@@ -425,8 +448,12 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - [x] dominio/project-management — Gestión de proyectos (PMP, agile/waterfall, triple restricción)
 - [x] dominio/negociacion — Negociación (método Harvard, BATNA, ZOPA)
 ### Rol (ampliar nodo existente)
-- [ ] rol/product-marketing-manager — Product Marketing Manager (PMM)
-- [ ] rol/data-scientist — Data Scientist
+- [x] rol/product-marketing-manager — Product Marketing Manager (PMM)
+- [x] rol/data-scientist — Data Scientist
+
+## ✅ CIERRE ROUND 4
+Todos los temas de la cola ingestados (11/11 en 3 bucles: LOOP 1 sustrato, LOOP 2 dominio, LOOP 3 rol).
+Siguiente paso de reabastecimiento: re-ejecutar `python3 scripts/gap_analysis.py` para abrir Round 5 (nuevos países/disciplinas/roles).
 
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)

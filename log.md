@@ -203,3 +203,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - `dominio/project-management`: `gestion-proyectos.md` (ciclo de vida, triple restricción, waterfall/ágil, PMBOK/PMP).
 - `dominio/negociacion`: `negociacion.md` (método Harvard, BATNA, ZOPA).
 - Fuentes web (reference-only): Wikipedia (es), Program on Negotiation (Harvard). **LOOP 2 de Round 4 (capa dominio).**
+
+## [2026-07-10] Round 4 — ITER 113 | NODOS NUEVOS rol/product-marketing-manager + rol/data-scientist (LOOP 3)
+- Creados 2 nodos `rol/` con superstructura completa (README, index, log, raw/).
+- `rol/product-marketing-manager`: `product-marketing-manager.md` (PMM: GTM, posicionamiento, mensaje, sales enablement).
+- `rol/data-scientist`: `data-scientist.md` (estadística + ML + programación; modelado predictivo).
+- Fuentes web (reference-only): Wikipedia (es), Product Marketing Alliance, IBM. **LOOP 3 de Round 4 (capa rol).**
+- **Round 4 COMPLETO (11/11 temas ingestados en 3 bucles).** Reabastecimiento: re-ejecutar `python3 scripts/gap_analysis.py` para abrir Round 5.

@@ -208,6 +208,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [ops-lead](rol/ops-lead/ops-lead.md) — Ops Lead / Operations Lead: eficiencia, procesos, escalado · 🏷️ ops-lead,operations,eficiencia,procesos · 📅 2026-07-10
 - [support-lead](rol/support-lead/support-lead.md) — Support / CX Lead: servicio al cliente, retención, CSAT · 🏷️ support-lead,cx,servicio-cliente,retencion · 📅 2026-07-10
 - [reclutador](rol/reclutador/reclutador.md) — Recruiter / Talent Acquisition: sourcing, hiring, employer branding · 🏷️ reclutador,talent-acquisition,sourcing,hiring · 📅 2026-07-10
+- [product-marketing-manager](rol/product-marketing-manager/product-marketing-manager.md) — PMM: GTM, posicionamiento, mensaje, habilitación de ventas · 🏷️ rol,product-marketing,pmm,gtm · 📅 2026-07-10
+- [data-scientist](rol/data-scientist/data-scientist.md) — Data Scientist: estadística + ML + programación; modelado predictivo · 🏷️ rol,data-scientist,ml,estadistica · 📅 2026-07-10
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09
