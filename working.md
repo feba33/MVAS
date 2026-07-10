@@ -23,12 +23,13 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - **Plan:** Round 3 — gap_analysis.py (iter 85) reportó 25 huecos en nodos existentes
   + 2 nodos nuevos sugeridos (`dominio/juridico`, `dominio/estrategia`). Cola Round 3
   abierta con 29 temas (cubre las 3 capas; sustrato vía nuevo país Chile).
-- **Iteración actual:** 89 (Round 3 — 4 bucles de ingest completados en esta corrida:
-  sustrato/chile, dominio/finanzas derivados+mercados, rol PO+Scrum Master)
-- **Temas completados:** 90 / 114 (85 previos + 5 de Round 3 ingestados en 4 bucles; restan 21 en cola)
+- **Iteración actual:** 90 (Round 3 — 5 bucles de ingest completados en esta corrida:
+  sustrato/chile, dominio/finanzas derivados+mercados-capitales, rol PO+Scrum Master,
+  dominio/computacion estilos-arquitectura+bases-datos, dominio/finanzas corporativas)
+- **Temas completados:** 91 / 114 (85 previos + 6 de Round 3 ingestados en 5 bucles; restan 20 en cola)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
 - **Siguiente paso (procedimiento):** ejecutar cola Round 3 (≥3 bucles por corrida).
-  Próxima tarea (iter 90): dominio/finanzas — Finanzas corporativas (M&A, valoración, tesorería).
+  Próxima tarea (iter 91): dominio/finanzas — Riesgo financiero (riesgo de mercado, crédito, liquidez, operativo).
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -251,6 +252,19 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - **Próxima tarea (iter 90):** dominio/finanzas — Finanzas corporativas (M&A, valoración, tesorería).
   Cola Round 3 restante: 21 temas.
 
+### [2026-07-10] Round 3 — ITER 90 | dominio/finanzas — Finanzas corporativas (M&A, valoración, tesorería) (LOOP 5)
+- gap_analysis.py no sugirió sustrato; Round 3 sigue ampliando dominio/finanzas.
+- 1 página añadida al nodo existente `dominio/finanzas`:
+  - `dominio/finanzas/finanzas-corporativas.md` — finanzas corporativas como 3 pilares
+    (M&A: merger/acquisition/tender offer/hostile takeover, sinergias, LBO; valoración:
+    valor económico de la participación, cross-ref a valoracion.md; tesorería: liquidez,
+    cobranza/pagos/concentración/inversión/fondeo, mitigación de riesgo) sobre el objetivo
+    de maximizar valor de accionista.
+- Reference-only (URL en frontmatter; sin raw/). Cross-ref a valoracion, mercados-capitales,
+  private-equity-vc, derivados y rol/cfo (sin duplicar valoracion.md).
+- **Próxima tarea (iter 91):** dominio/finanzas — Riesgo financiero (mercado, crédito,
+  liquidez, operativo). Cola Round 3 restante: 20 temas.
+
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)
 - [x] sustrato/chile — Protección de datos (Ley 19.628 / Consejo Transparencia)
@@ -258,7 +272,7 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 ### Dominio (nodos existentes — ampliar)
 - [x] dominio/finanzas — Derivados (futuros, opciones, swaps)
 - [x] dominio/finanzas — Mercados de capitales (IPO, emisión deuda)
-- [ ] dominio/finanzas — Finanzas corporativas (M&A, valoración, tesorería)
+- [x] dominio/finanzas — Finanzas corporativas (M&A, valoración, tesorería)
 - [ ] dominio/finanzas — Riesgo financiero
 - [x] dominio/computacion — Arquitectura de software (microservicios, event-driven)
 - [ ] dominio/computacion — Plataforma / DevOps / SRE

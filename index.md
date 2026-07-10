@@ -80,6 +80,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [afores-herencia-isr](dominio/finanzas/afores-herencia-isr.md) — JUFED rechaza gravar Afores heredadas con ISR; pide a SCJN proteger patrimonio familiar · 🏷️ afores,isr,herencias,retiro · 📅 2026-07-10
 - [derivados](dominio/finanzas/derivados.md) — Derivados: futuros, opciones, swaps, forwards; cobertura y apalancamiento · 🏷️ finanzas,derivados,futuros,opciones,swaps,cobertura · 📅 2026-07-10
 - [mercados-capitales](dominio/finanzas/mercados-capitales.md) — Mercados de capitales: ECM/IPO, DCM/bonos, underwriting · 🏷️ finanzas,mercados-capitales,ipo,bonos,underwriting · 📅 2026-07-10
+- [finanzas-corporativas](dominio/finanzas/finanzas-corporativas.md) — Finanzas corporativas: M&A, valoración, tesorería/liquidez · 🏷️ finanzas-corporativas,mna,valoracion,tesoreria · 📅 2026-07-10
 
 ### dominio/computacion
 - [paradigmas](dominio/computacion/paradigmas.md) — Paradigmas de programación · 🏷️ paradigmas · 📅 2026-07-09

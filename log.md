@@ -100,6 +100,9 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 
 ## [2026-07-10] ingest | Roles — Product Owner + Scrum Master — iter 88
 
+## [2026-07-10] ingest | Finanzas corporativas — M&A, valoración, tesorería — iter 90
+- 1 → `dominio/finanzas/finanzas-corporativas.md`. Visión integrada (3 pilares) sobre maximizar valor de accionista; cruza con valoracion/mercados-capitales/PE-VC/derivados y rol/cfo.
+
 ## [2026-07-10] ingest | Computación — Estilos arquitectura + Bases de datos — iter 89
 - 2 → `dominio/computacion`: `estilos-arquitectura.md` (monolito modular, SOA, microservicios,
   EDA, serverless; tabla de trade-offs) y `bases-datos.md` (SQL relacional, NoSQL, distribuidas,

@@ -56,3 +56,8 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Fuentes (web, reference-only): BBVA (emisión de bonos), Rankia (underwriting).
 - Página: `mercados-capitales.md`. ECM/IPO, DCM/bonos, underwriting (aseguramiento), actores.
 - **LOOP 2 de Round 3 (capa dominio).**
+
+## [2026-07-10] ingest | Finanzas corporativas (M&A, valoración, tesorería) — iter 90
+- Fuentes (web, reference-only): Wikipedia (en) Corporate finance / M&A / Business valuation / Treasury management + conocimiento general.
+- Página: `finanzas-corporativas.md`. Visión integrada de finanzas corporativas como 3 pilares (M&A, valoración, tesorería) sobre el objetivo de maximizar valor de accionista. Cruza con valoracion.md, mercados-capitales.md, private-equity-vc.md, derivados.md y rol/cfo.
+- Discernimiento: dominio/finanzas (certeza alta). No duplica valoracion.md (lo enlaza).
