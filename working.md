@@ -28,6 +28,10 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   — 48 páginas) SE MANTENEN en el repo (decisión usuario 2026-07-10, opción 3: no borrar ni
   archivar; solo detener la búsqueda de nuevos países). El bucle NO agrega más países no-NA.
   `gap_analysis.py` filtra países no-NA.
+- **2026-07-10 (iter 115) — PROFUNDIZACIÓN NORteamérica:** añadidas 4 páginas de mercado NA:
+  `sustrato/canada/competition-bureau.md` + `provincial-federal.md`, `sustrato/mexico/comercio-exterior.md`
+  (T-MEC/USMCA, IMMEX) y `sustrato/estados-unidos/controles-exportacion.md` (EAR/ITAR). CBCA ya cubierto
+  en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
 - **Iteración actual:** 114 — LOOP 1 de Round 5 COMPLETO (sustrato/ecuador + sustrato/portugal, 4 páginas).
 - **Temas completados:** 127 / 135 (Round 3: 114 + Round 4: 11 + Round 5: 2/10).

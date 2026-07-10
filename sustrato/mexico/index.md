@@ -15,3 +15,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [lft](lft.md) — Ley Federal del Trabajo: jornada, salario mínimo, subcontratación 2021, PTU · 🏷️ lft,laboral,jornada,salario-minimo,subcontratacion,ptu,contratos · 📅 2026-07-09
 - [profeco-condusef](profeco-condusef.md) — PROFECO (consumidor) y CONDUSEF (usuario financiero) · 🏷️ profeco,condusef,consumidor,usuario-financiero,proteccion · 📅 2026-07-09
 - [pld-uif](pld-uif.md) — Prevención de Lavado de Dinero / UIF y Ley Antilavado (LFPIORPI) · 🏷️ pld,uif,antilavado,lavado-dinero,prevencion · 📅 2026-07-09
+- [comercio-exterior](comercio-exterior.md) — Comercio exterior México: T-MEC/USMCA, IMMEX, aduana · 🏷️ mexico,comercio-exterior,usmca,immex,aduanas · 📅 2026-07-10

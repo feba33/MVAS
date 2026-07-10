@@ -16,3 +16,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [sec-valores](sec-valores.md) — SEC y regulación de valores: Securities Act 1933, Exchange Act 1934, divulgación, enforcement · 🏷️ sec,securities,valores,disclosure,enforcement · 📅 2026-07-09
 - [antitrust](antitrust.md) — Antitrust: Sherman Act 1890, Clayton Act 1914, FTC Act 1914 · 🏷️ antitrust,sherman-act-1890,clayton-act-1914,ftc-act-1914 · 📅 2026-07-09
 - [bankruptcy](bankruptcy.md) — Bankruptcy / derecho concursal: Bankruptcy Code, Chapter 7/11/13 · 🏷️ bankruptcy,derecho-concursal,chapter-7,chapter-11,chapter-13 · 📅 2026-07-09
+- [controles-exportacion](controles-exportacion.md) — Controles de exportación EE.UU.: EAR/ITAR (BIS/DDTC) · 🏷️ eeuu,export-controls,ear,itar,bis,ddtc · 📅 2026-07-10

@@ -35,7 +35,6 @@ TAXONOMY = {
         ("bankruptcy", "Derecho concursal / bancarrotas"),
     ],
     "sustrato/canada": [
-        ("cbcA", "Constitución de sociedades (Canada Business Corporations Act)"),
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
         ("provincial-federal", "Divisiones de poder provincial vs federal en Canadá"),
     ],

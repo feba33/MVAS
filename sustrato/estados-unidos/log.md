@@ -47,3 +47,6 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-09] ingest | Bankruptcy / derecho concursal (EE.UU.)
 - Fuente: Wikipedia (en) — reference-only.
 - Página: `bankruptcy.md`. Bankruptcy Code (Title 11); 1978 Reform Act; BAPCPA 2005; Chapter 7 liquidación, 11 reorganización, 13 consumidor; bankruptcy courts.
+## [2026-07-10] ingest | Controles de exportación EE.UU. (EAR/ITAR, BIS/DDTC)
+- Fuente: Wikipedia (en) — Export Administration Regulations, International Traffic in Arms Regulations (reference-only).
+- Página: `controles-exportacion.md`. EAR (15 CFR, BIS/Commerce): CCL + ECCN, licencias; ITAR (22 CFR, DDTC/State): USML; OFAC sanciones. No eximidos por USMCA; impactan cadenas NA.

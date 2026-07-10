@@ -20,3 +20,10 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-09] ingest | Impuestos federales Canadá
 - Fuente: conocimiento general — reference-only.
 - Página: `impuestos.md`. CRA administra income tax y GST/HST.
+## [2026-07-10] ingest | Competencia Canadá (Competition Bureau / Competition Act)
+- Fuente: Wikipedia (en) — Competition Act, Competition Bureau (reference-only).
+- Página: `competition-bureau.md`. Competition Act (R.S.C. 1985, c. C-34): disposiciones criminales y civiles; Bureau (Commissioner of Competition) + Competition Tribunal; carteles, fusiones, abuso de dominancia; wage-fixing/no-poach (Bill C-19, 2022).
+
+## [2026-07-10] ingest | Divisiones de poder federal/provincial en Canadá
+- Fuente: Wikipedia (en) — Federalism in Canada (reference-only).
+- Página: `provincial-federal.md`. Constitution Act 1867: distribución exhaustiva; s. 91 federal (POGG, comercio, banca, penal) vs s. 92 provincial (propiedad/civil, educación, recursos); residuales federales.

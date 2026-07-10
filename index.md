@@ -28,6 +28,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [lft](sustrato/mexico/lft.md) — LFT: laboral, outsourcing, PTU · 🏷️ lft,laboral,outsourcing · 📅 2026-07-09
 - [profeco-condusef](sustrato/mexico/profeco-condusef.md) — PROFECO/CONDUSEF: protección al consumidor · 🏷️ profeco,condusef,consumidor · 📅 2026-07-09
 - [pld-uif](sustrato/mexico/pld-uif.md) — PLD/UIF: prevención de lavado (AML) · 🏷️ pld,uif,aml · 📅 2026-07-09
+- [comercio-exterior](sustrato/mexico/comercio-exterior.md) — Comercio exterior México: T-MEC/USMCA, IMMEX, aduana · 🏷️ mexico,comercio-exterior,usmca,immex · 📅 2026-07-10
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -40,11 +41,14 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [sec-valores](sustrato/estados-unidos/sec-valores.md) — SEC y regulación de valores · 🏷️ sec,valores · 📅 2026-07-09
 - [antitrust](sustrato/estados-unidos/antitrust.md) — Antitrust: Sherman/Clayton/FTC · 🏷️ antitrust,sherman · 📅 2026-07-09
 - [bankruptcy](sustrato/estados-unidos/bankruptcy.md) — Bankruptcy: Chapter 7/11/13 · 🏷️ bankruptcy,concursal · 📅 2026-07-09
+- [controles-exportacion](sustrato/estados-unidos/controles-exportacion.md) — Controles de exportación EE.UU.: EAR/ITAR (BIS/DDTC) · 🏷️ eeuu,export-controls,ear,itar · 📅 2026-07-10
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
 - [privacidad](sustrato/canada/privacidad.md) — Privacidad Canadá: PIPEDA · 🏷️ canada,pipeda,privacidad · 📅 2026-07-09
 - [impuestos](sustrato/canada/impuestos.md) — Impuestos Canadá: CRA, GST/HST · 🏷️ canada,impuestos,cra · 📅 2026-07-09
+- [competition-bureau](sustrato/canada/competition-bureau.md) — Competencia Canadá: Competition Bureau / Competition Act · 🏷️ canada,competencia,competition-act · 📅 2026-07-10
+- [provincial-federal](sustrato/canada/provincial-federal.md) — Divisiones de poder federal/provincial Canadá (Constitución 1867) · 🏷️ canada,federalismo,division-poderes · 📅 2026-07-10
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09

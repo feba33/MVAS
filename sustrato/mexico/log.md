@@ -64,3 +64,6 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-09] ingest | Prevención de Lavado de Dinero / UIF
 - Fuente: conocimiento general (reference-only).
 - Página: `pld-uif.md`. Ley Antilavado (LFPIORPI) y UIF (SHCP): sujetos obligados, KYC, avisos de operaciones relevantes y sanciones.
+## [2026-07-10] ingest | Comercio exterior México (T-MEC/USMCA, IMMEX, aduana)
+- Fuente: Wikipedia (en) — United States–Mexico–Canada Agreement (reference-only).
+- Página: `comercio-exterior.md`. México: 14+ TLC; USMCA vigente 1 jul 2020 (sustituye NAFTA); reglas de origen auto 75% regional / 40-45% laboral; IMMEX (importación temporal); PROSEC/draw-back; SE y SAT. Cross-ref controles-exportacion EE.UU.
