@@ -22,8 +22,8 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 ## ESTADO
 - **Plan:** Round 2 — expansión de cobertura (gap_analysis.py agotó la taxonomía del plan 1).
   Nuevos países LatAm/España + dominio ESG + rol compliance officer (11 temas nuevos).
-- **Iteración actual:** 83 (Round 2)
-- **Temas completados:** 83 / 85 (75 previos + 8 de Round 2 ingestados — restan 2)
+- **Iteración actual:** 84 (Round 2)
+- **Temas completados:** 84 / 85 (75 previos + 9 de Round 2 ingestados — restan 1)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
 - **Siguiente paso (procedimiento):** ejecutar la cola Round 2 (1-3 temas por corrida,
   cubriendo las 3 capas). Cuando se vacíe, ampliar taxonomía de gap_analysis.py.
@@ -87,7 +87,7 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - [x] dominio/ciberseguridad-gobierno — Framework NIST / ISO 27001 (gobernanza)
 ### Rol (nuevos nodos)
 - [x] rol/compliance-officer — Oficial de cumplimiento (PLD/anticorrupción)
-- [ ] rol/cfo — Director financiero
+- [x] rol/cfo — Director financiero
 - [ ] rol/head-of-people — (ampliación de people-lead)
 
 ## LOG DE ITERACIONES
@@ -176,5 +176,14 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
   - `dominio/ciberseguridad-gobierno/iso-27001.md` — ISO 27001:2022 ISMS certificable, 93 controles
     Anexo A, vs NIST CSF 2.0 (complementarios).
 - Reference-only (URL en frontmatter; sin raw/).
-- **Próxima tarea (iter 84):** rol/cfo — Director financiero [rol].
-  Cola Round 2 restante: 2 temas (rol x2).
+### [2026-07-10] Round 2 — ITER 84 | rol/cfo (nuevo nodo)
+- gap_analysis.py agotó taxonomía plan 1 → cola Round 2 sigue abierta (1 tema pendiente).
+- Creado nodo `rol/cfo` con superstructura completa (README, index, log, raw/).
+- 1 página [rol]:
+  - `rol/cfo/cfo.md` — Chief Financial Officer: estrategia financiera, FP&A, tesorería,
+    reporting, estructura de capital; reporting al CEO/junta; CRO/CIO/Treasurer reportan;
+    evolución a socio estratégico (CEO-en-espera); cualificaciones CPA/CA/CMA/CIMA + MBA/CFA;
+    mandato legal (India Sec.203, US CFO Act 1990).
+- Reference-only (URL en frontmatter; sin raw/).
+- **Próxima tarea (iter 85):** rol/head-of-people — ampliación de people-lead [rol].
+  Cola Round 2 restante: 1 tema (rol x1) — último de la cola Round 2.

@@ -65,3 +65,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Fuentes: AEPD (normativa, principios), European Commission (data protection), CNMV (portal), BOE Ley 6/2002.
 - Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
 
+## [2026-07-10] ingest | CFO — rol/cfo (nuevo nodo) — iter 84
+- Nuevo nodo `rol/cfo` (superstructura completa: README, index, log, raw/).
+- 1 → `rol/cfo`: `cfo.md` — Chief Financial Officer: estrategia financiera, FP&A, tesorería,
+  reporting, estructura de capital; CRO/CIO/Treasurer reportan; evolución a socio estratégico.
+- Fuentes: Wikipedia (en) "Chief financial officer".
+- Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
+
