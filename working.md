@@ -23,11 +23,12 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - **Plan:** Round 3 — gap_analysis.py (iter 85) reportó 25 huecos en nodos existentes
   + 2 nodos nuevos sugeridos (`dominio/juridico`, `dominio/estrategia`). Cola Round 3
   abierta con 29 temas (cubre las 3 capas; sustrato vía nuevo país Chile).
-- **Iteración actual:** 85 (Round 2 cerrada) → inicia Round 3
-- **Temas completados:** 85 / 114 (85 previos + 29 de Round 3 pendientes)
+- **Iteración actual:** 88 (Round 3 — 3 bucles de ingest completados en esta corrida:
+  sustrato/chile, dominio/finanzas derivados+mercados, rol PO+Scrum Master)
+- **Temas completados:** 88 / 114 (85 previos + 3 de Round 3 ingestados en 3 bucles; restan 23 en cola)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
-- **Siguiente paso (procedimiento):** ejecutar cola Round 3 (≥3 bucles de ingest por
-  corrida, cubriendo las 3 capas). Al vaciarse → nuevo gap_analysis.py.
+- **Siguiente paso (procedimiento):** ejecutar cola Round 3 (≥3 bucles por corrida).
+  Próxima tarea (iter 89): dominio/computacion — Arquitectura de software + Bases de datos.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -225,6 +226,18 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - **Próxima tarea (iter 88):** rol/product-owner + rol/scrum-master [rol] (LOOP 3).
   Cola Round 3 restante: 25 temas.
 
+### [2026-07-10] Round 3 — ITER 88 | rol/product-owner + rol/scrum-master (nuevos nodos — LOOP 3)
+- 2 nodos nuevos creados con superstructura completa:
+  - `rol/product-owner/product-owner.md` — maximiza valor del producto, dueño del
+    Product Backlog/PBIs, voz del cliente, stakeholders; vs PM/Product Lead.
+  - `rol/scrum-master/scrum-master.md` — líder servicial, facilita eventos Scrum,
+    remueve impedimentos, protege al equipo; vs Agile Coach/Engineering Manager.
+- Reference-only (URL en frontmatter; sin raw/).
+- **Cierra 3 bucles de ingest de esta corrida (sustrato + dominio + rol).** Cola Round 3
+  restante: 23 temas (incl. dominio/computacion x4, marketing x3, leyes x3, contabilidad
+  x2, diseño x2, juridico, estrategia, y roles design-lead/marketing-manager/ops-lead/
+  support-lead/reclutador). Próxima corrida retoma desde iter 89.
+
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)
 - [x] sustrato/chile — Protección de datos (Ley 19.628 / Consejo Transparencia)
@@ -252,8 +265,8 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - [ ] dominio/juridico — Jurídico / legal interno de empresa (nuevo nodo)
 - [ ] dominio/estrategia — Estrategia / OKRs / planeación (nuevo nodo)
 ### Rol (nuevos nodos)
-- [ ] rol/product-owner — Product Owner / PO
-- [ ] rol/scrum-master — Scrum Master
+- [x] rol/product-owner — Product Owner / PO
+- [x] rol/scrum-master — Scrum Master
 - [ ] rol/design-lead — Design Lead / UX Lead
 - [ ] rol/marketing-manager — Marketing Manager
 - [ ] rol/ops-lead — Operations Lead

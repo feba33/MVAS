@@ -98,3 +98,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
 - **LOOP 2 de Round 3 (capa dominio).**
 
+## [2026-07-10] ingest | Roles — Product Owner + Scrum Master — iter 88
+- 2 nodos nuevos `rol/product-owner` y `rol/scrum-master` (superstructura completa cada uno).
+- 1 → `rol/product-owner`: `product-owner.md` — maximiza valor del producto, dueño del
+  backlog/PBIs, voz del cliente, stakeholder; vs PM/Product Lead.
+- 1 → `rol/scrum-master`: `scrum-master.md` — líder servicial, facilita eventos Scrum,
+  remueve impedimentos, protege al equipo; vs Agile Coach/EM.
+- Fuentes (web, reference-only): GeeksforGeeks, TeachingAgile, LinkedIn, Mr.Torras.
+- Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
+- **LOOP 3 de Round 3 (capa rol).** Cumple ≥3 bucles de ingest por corrida.
+
