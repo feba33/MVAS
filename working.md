@@ -23,14 +23,15 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - **Plan:** Round 3 — gap_analysis.py (iter 85) reportó 25 huecos en nodos existentes
   + 2 nodos nuevos sugeridos (`dominio/juridico`, `dominio/estrategia`). Cola Round 3
   abierta con 29 temas (cubre las 3 capas; sustrato vía nuevo país Chile).
-- **Iteración actual:** 93 (Round 3 — 7 bucles de ingest completados en esta corrida:
+- **Iteración actual:** 95 (Round 3 — 9 bucles de ingest completados en esta corrida:
   sustrato/chile, dominio/finanzas derivados+mercados-capitales, rol PO+Scrum Master,
   dominio/computacion estilos-arquitectura+bases-datos, dominio/finanzas corporativas
-  + riesgo-financiero, dominio/computacion plataforma-sre+frontend)
-- **Temas completados:** 94 / 114 (85 previos + 9 de Round 3 ingestados en 7 bucles; restan 17 en cola)
+  + riesgo-financiero, dominio/computacion plataforma-sre+frontend, dominio/marketing
+  demand-generation, dominio/marketing analitica+lifecycle)
+- **Temas completados:** 97 / 114 (85 previos + 12 de Round 3 ingestados en 9 bucles; restan 14 en cola)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
 - **Siguiente paso (procedimiento):** ejecutar cola Round 3 (≥3 bucles por corrida).
-  Próxima tarea (iter 94): dominio/marketing — Demand generation / paid media.
+  Próxima tarea (iter 96): dominio/leyes — Derecho societario / corporativo.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -292,6 +293,26 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
   estrategia, roles design-lead/marketing-manager/ops-lead/support-lead/reclutador).
   Próxima corrida retoma desde iter 94.
 
+### [2026-07-10] Round 3 — ITER 94 | dominio/marketing — Demand generation / paid media (LOOP 1)
+- 1 página añadida al nodo existente `dominio/marketing`:
+  - `dominio/marketing/demand-generation.md` — demand gen full-funnel vs lead gen;
+    paid media (Google/LinkedIn/Meta); ABM + intent data; métricas (CPL, CAC, pipeline).
+- Reference-only (URL en frontmatter; sin raw/). Cross-ref a content-marketing, cro,
+  rol/marketing-lead, rol/growth-lead.
+- **Próxima tarea (iter 95):** dominio/marketing — Analítica de marketing + Lifecycle/email.
+
+### [2026-07-10] Round 3 — ITER 95 | dominio/marketing — Analítica + Lifecycle/email (LOOP 2)
+- 2 páginas añadidas al nodo existente `dominio/marketing`:
+  - `dominio/marketing/analitica-marketing.md` — atribución: first/last/lineal/U-shaped/
+    data-driven, multitouch, MMM, method stacking B2B 2026.
+  - `dominio/marketing/lifecycle-email.md` — email disparado por comportamiento, etapas/
+    triggers, retención y LTV; cierra ciclo post-conversión.
+- Reference-only (URL en frontmatter; sin raw/). Cross-ref a demand-generation, cro,
+  rol/customer-success-lead, dominio/finanzas (unit economics).
+- Cola Round 3 restante: 14 temas (leyes x3, contabilidad x2, diseño x2, juridico,
+  estrategia, roles design-lead/marketing-manager/ops-lead/support-lead/reclutador).
+  Próxima tarea (iter 96): dominio/leyes — Derecho societario / corporativo.
+
 
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)
@@ -306,9 +327,9 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - [x] dominio/computacion — Plataforma / DevOps / SRE
 - [x] dominio/computacion — Frontend (frameworks, performance)
 - [x] dominio/computacion — Bases de datos (SQL, NoSQL, distribuidas)
-- [ ] dominio/marketing — Demand generation / paid media
-- [ ] dominio/marketing — Analítica de marketing (atribución)
-- [ ] dominio/marketing — Lifecycle / email marketing
+- [x] dominio/marketing — Demand generation / paid media
+- [x] dominio/marketing — Analítica de marketing (atribución)
+- [x] dominio/marketing — Lifecycle / email marketing
 - [ ] dominio/leyes — Derecho societario / corporativo
 - [ ] dominio/leyes — Derecho laboral (profundización)
 - [ ] dominio/leyes — Cumplimiento / regulación

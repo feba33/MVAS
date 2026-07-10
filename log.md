@@ -131,3 +131,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   (plataforma-sre); Midrocket, DEV.to, Coderio, Pharos Production (frontend).
 - Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
 - **LOOP 7 de Round 3 (capa dominio — continuación de computación).**
+
+## [2026-07-10] ingest | Marketing — Demand generation / paid media — iter 94
+- 1 → `dominio/marketing/demand-generation.md`. Demand gen full-funnel vs lead gen; paid media (Google/LinkedIn/Meta); ABM + intent data; métricas (CPL, CAC, pipeline).
+- Fuentes (web, reference-only): Geisheker (2026), Digital Scouts.
+- Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/). **LOOP 1 de Round 3 (capa dominio — marketing).**
+
+## [2026-07-10] ingest | Marketing — Analítica + Lifecycle/email — iter 95
+- 2 → `dominio/marketing`: `analitica-marketing.md` (atribución: first/last/lineal/U-shaped/data-driven, multitouch, MMM, method stacking B2B 2026) y `lifecycle-email.md` (email disparado por comportamiento; etapas/triggers; retención y LTV).
+- Fuentes (web, reference-only): MCP Analytics (2026), Improvado (2026), Sortment (2026), Enflow Digital (2025).
+- Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/). **LOOP 2 de Round 3 (capa dominio — marketing).**

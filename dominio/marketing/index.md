@@ -11,3 +11,6 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [content-marketing](content-marketing.md) — Content marketing: blogs, SEO, funnels de contenido (TOFU/MOFU/BOFU) · 🏷️ marketing,content-marketing,seo,blogs,funnels,leads,inbound · 📅 2026-07-09
 - [cro](cro.md) — CRO: A/B testing, tasas de conversión, experiments · 🏷️ marketing,cro,conversion-rate-optimization,ab-testing,analytics,ux,landing-pages · 📅 2026-07-09
 - [brand](brand.md) — Branding/marca: brand equity, posicionamiento, identidad · 🏷️ marketing,branding,marca,brand-equity,posicionamiento,identidad,brand-awareness · 📅 2026-07-09
+- [demand-generation](demand-generation.md) — Demand generation + paid media (Google/LinkedIn/Meta), demand vs lead gen, ABM · 🏷️ marketing,demand-generation,paid-media,abm,pipeline · 📅 2026-07-10
+- [analitica-marketing](analitica-marketing.md) — Analítica de marketing y atribución: first/last/multitouch, MMM · 🏷️ marketing,attribution,roi,mmm,mediamix-modeling · 📅 2026-07-10
+- [lifecycle-email](lifecycle-email.md) — Lifecycle marketing + email automation: triggers, retención, LTV · 🏷️ marketing,lifecycle,email-marketing,automation,retention,ltv · 📅 2026-07-10

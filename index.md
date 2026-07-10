@@ -99,6 +99,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [content-marketing](dominio/marketing/content-marketing.md) — Content marketing: blogs, SEO, funnels · 🏷️ content,seo · 📅 2026-07-09
 - [cro](dominio/marketing/cro.md) — CRO: A/B testing, conversión · 🏷️ cro,ab-testing · 📅 2026-07-09
 - [brand](dominio/marketing/brand.md) — Branding: brand equity, posicionamiento · 🏷️ brand,branding · 📅 2026-07-09
+- [demand-generation](dominio/marketing/demand-generation.md) — Demand generation + paid media (Google/LinkedIn/Meta), ABM · 🏷️ marketing,demand-generation,paid-media,abm · 📅 2026-07-10
+- [analitica-marketing](dominio/marketing/analitica-marketing.md) — Analítica y atribución: first/last/multitouch, MMM · 🏷️ marketing,attribution,mmm,roi · 📅 2026-07-10
+- [lifecycle-email](dominio/marketing/lifecycle-email.md) — Lifecycle + email automation: triggers, retención, LTV · 🏷️ marketing,lifecycle,email,retention · 📅 2026-07-10
 
 ### dominio/leyes
 - [ramas-derecho](dominio/leyes/ramas-derecho.md) — Ramas del derecho · 🏷️ derecho · 📅 2026-07-09
