@@ -210,3 +210,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - `rol/data-scientist`: `data-scientist.md` (estadística + ML + programación; modelado predictivo).
 - Fuentes web (reference-only): Wikipedia (es), Product Marketing Alliance, IBM. **LOOP 3 de Round 4 (capa rol).**
 - **Round 4 COMPLETO (11/11 temas ingestados en 3 bucles).** Reabastecimiento: re-ejecutar `python3 scripts/gap_analysis.py` para abrir Round 5.
+
+## [2026-07-10] Round 5 — ITER 114 | gap_analysis (plan) + NODOS NUEVOS sustrato/ecuador + sustrato/portugal (LOOP 1)
+- Reabastecimiento: extendida la taxonomía de `scripts/gap_analysis.py` (6 nodos nuevos sugeridos: seguros, energia, inmobiliario, retail, manufactura [+ roles cio/coo/cmo y países ecuador/portugal]). Re-ejecutado → 10 huecos/nodos nuevos. Abierta cola Round 5 (10 temas: sustrato x2, dominio x5, rol x3).
+- Creados nodos `sustrato/ecuador` y `sustrato/portugal` con superstructura completa (README, index, log, raw/).
+- `sustrato/ecuador`: `proteccion-datos.md` (LOPDP, R.O. Sup. 459/2021, vigencia 2023; Superintendencia de Protección de Datos Personales) e `impuestos.md` (SRI: IVA 15%/5%/0%, Renta ~25%, RUC).
+- `sustrato/portugal`: `proteccion-datos.md` (RGPD + Lei 58/2019; CNPD) e `impuestos.md` (AT: IRS hasta 48%, IRC 21%, IVA 23%/13%/6%).
+- Fuentes web (reference-only): Gob.ec, SRI, CNPD, Portal das Finanças, gov.pt, Wikipedia. **LOOP 1 de Round 5 (capa sustrato).** Cola Round 5 restante: 8 temas (dominio x5, rol x3).

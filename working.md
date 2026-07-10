@@ -20,16 +20,11 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 **Raw = cita** (URL en `fuente`, sin `raw/`). Si el nodo no existe, créalo con superstructura.
 
 ## ESTADO
-- **Plan:** Round 4 — gap_analysis.py (iter 110) tras corregir taxonomía obsoleta (5 falsos
-  positivos de Round 3 ya estaban ingestados: estilos-arquitectura, plataforma-sre,
-  demand-generation, lifecycle-email, cumplimiento-regulacion). Reportó 2 huecos reales en
-  `rol` (product-marketing-manager, data-scientist) + 6 nodos nuevos sugeridos (sustrato/peru,
-  sustrato/uruguay, dominio/economia, dominio/estadistica, dominio/project-management,
-  dominio/negociacion). Cola Round 4 = 11 temas (cubre las 3 capas: sustrato x4, dominio x5, rol x2).
-- **Iteración actual:** 113 — Round 4 COMPLETO (11/11 temas ingestados en 3 bucles: LOOP 1 sustrato, LOOP 2 dominio, LOOP 3 rol).
-- **Temas completados:** 125 / 125 (Round 3: 114 + Round 4: 11).
+- **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
+- **Iteración actual:** 114 — LOOP 1 de Round 5 COMPLETO (sustrato/ecuador + sustrato/portugal, 4 páginas).
+- **Temas completados:** 127 / 135 (Round 3: 114 + Round 4: 11 + Round 5: 2/10).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** reabastecimiento — re-ejecutar `python3 scripts/gap_analysis.py` para abrir Round 5 (nuevos países/disciplinas/roles). Próxima tarea sugerida (iter 114): ejecutar gap analysis y abrir Round 5.
+- **Siguiente paso:** Round 5 — LOOP 2 (dominio): seguros, energia, inmobiliario, retail, manufactura.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -435,6 +430,19 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - **Round 4 COMPLETO (11/11 temas en 3 bucles).** Siguiente paso de reabastecimiento:
   re-ejecutar `python3 scripts/gap_analysis.py` para abrir Round 5.
 
+### [2026-07-10] Round 5 — ITER 114 | gap_analysis (plan) + LOOP 1 (sustrato) — ecuador + portugal
+- Reabastecimiento: extendida la taxonomía de `scripts/gap_analysis.py` (10 nodos nuevos:
+  sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario,
+  dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Re-ejecutado → 10 sugerencias.
+  Abierta cola Round 5 (10 temas).
+- Creados nodos `sustrato/ecuador` y `sustrato/portugal` (superstructura completa).
+- `sustrato/ecuador`: proteccion-datos.md (LOPDP, R.O. Sup. 459/2021, vigencia 2023; SPDP) +
+  impuestos.md (SRI: IVA 15%/5%/0%, Renta ~25%, RUC).
+- `sustrato/portugal`: proteccion-datos.md (RGPD + Lei 58/2019; CNPD) + impuestos.md
+  (AT: IRS hasta 48%, IRC 21%, IVA 23%/13%/6%).
+- Reference-only (URL en frontmatter; sin raw/). **LOOP 1 de Round 5 (capa sustrato) COMPLETO.**
+  Próxima tarea (iter 115): LOOP 2 (dominio) — seguros, energia, inmobiliario, retail, manufactura.
+
 ## COLA ROUND 4 (gap_analysis.py iter 110 — taxonomía corregida)
 ### Sustrato (nuevos países)
 - [x] sustrato/peru — Protección de datos (Ley 29733 / ANPD)
@@ -454,6 +462,26 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 ## ✅ CIERRE ROUND 4
 Todos los temas de la cola ingestados (11/11 en 3 bucles: LOOP 1 sustrato, LOOP 2 dominio, LOOP 3 rol).
 Siguiente paso de reabastecimiento: re-ejecutar `python3 scripts/gap_analysis.py` para abrir Round 5 (nuevos países/disciplinas/roles).
+
+## COLA ROUND 5 (gap_analysis.py iter 114 — taxonomía extendida)
+### Sustrato (nuevos países)
+- [x] sustrato/ecuador — Protección de datos (LOPDP, R.O. Sup. 459/2021; SPDP)
+- [x] sustrato/ecuador — Impuestos y aduanas (SRI: IVA 15%/5%/0%, Renta ~25%, RUC)
+- [x] sustrato/portugal — Protección de datos (RGPD + Lei 58/2019; CNPD)
+- [x] sustrato/portugal — Impuestos (AT: IRS hasta 48%, IRC 21%, IVA 23%/13%/6%)
+### Dominio (nuevos nodos)
+- [ ] dominio/seguros — Seguros (vida, P&C, actuarial, reaseguro, Solvency II)
+- [ ] dominio/energia — Energía (renovables, oil&gas, redes, regulación)
+- [ ] dominio/inmobiliario — Bienes raíces / real estate (mercado, financiamiento, REITs)
+- [ ] dominio/retail — Retail / comercio (omnicanal, merchandising, e-commerce)
+- [ ] dominio/manufactura — Manufactura (lean, Six Sigma, cadena de producción)
+### Rol (nuevos nodos)
+- [ ] rol/cio — CIO (Chief Information Officer)
+- [ ] rol/coo — COO (Chief Operating Officer)
+- [ ] rol/cmo — CMO (Chief Marketing Officer)
+
+## ✅ CIERRE ROUND 5
+Pendiente — Round 5 en curso (LOOP 1 sustrato COMPLETO; restan dominio x5 + rol x3).
 
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)

@@ -77,6 +77,14 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [proteccion-datos](sustrato/uruguay/proteccion-datos.md) — Ley N.° 18.331 + URCDP; RUBD, transferencias · 🏷️ uruguay,privacidad,ley-18331,urcdp · 📅 2026-07-10
 - [impuestos](sustrato/uruguay/impuestos.md) — DGI: IVA 22%, IRAE 25%, IRPF (máx 36%), Patrimonio · 🏷️ uruguay,impuestos,dgi,iva,irae,irpf · 📅 2026-07-10
 
+### sustrato/ecuador
+- [proteccion-datos](sustrato/ecuador/proteccion-datos.md) — LOPDP (R.O. Sup. 459/2021, vigencia 2023); Superintendencia de Protección de Datos Personales · 🏷️ ecuador,privacidad,lopdp,spdp · 📅 2026-07-10
+- [impuestos](sustrato/ecuador/impuestos.md) — SRI: IVA 15% (general)/5%/0%, Impuesto a la Renta ~25%, RUC · 🏷️ ecuador,impuestos,sri,iva,renta,ruc · 📅 2026-07-10
+
+### sustrato/portugal
+- [proteccion-datos](sustrato/portugal/proteccion-datos.md) — RGPD (UE 2016/679) + Lei 58/2019; CNPD · 🏷️ portugal,privacidad,rgpd,cnpd · 📅 2026-07-10
+- [impuestos](sustrato/portugal/impuestos.md) — AT: IRS hasta 48%, IRC 21%, IVA 23%/13%/6% · 🏷️ portugal,impuestos,irs,irc,iva,autoridade-tributaria · 📅 2026-07-10
+
 ### dominio/finanzas
 - [incertidumbre](dominio/finanzas/incertidumbre.md) — T-MEC vigente hasta 2036 · 🏷️ tmec · 📅 2026-07-09
 - [t-mec-revision-anual-inversionistas](dominio/finanzas/t-mec-revision-anual-inversionistas.md) — Revisión anual del T-MEC · 🏷️ tmec · 📅 2026-07-09

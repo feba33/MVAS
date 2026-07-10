@@ -123,6 +123,16 @@ NEW_NODES = [
     ("dominio/estadistica", "Estadística y ciencia de datos (inferencia, probabilidad, visualización)"),
     ("dominio/project-management", "Gestión de proyectos (PMP, agile/waterfall, triple restricción)"),
     ("dominio/negociacion", "Negociación (método Harvard, BATNA, ZOPA)"),
+    ("dominio/seguros", "Seguros (insurance): vida, P&C, actuarial, reaseguro, Solvency II"),
+    ("dominio/energia", "Energía: renovables, oil&gas, redes, regulación"),
+    ("dominio/inmobiliario", "Bienes raíces / real estate: mercado, financiamiento, REITs"),
+    ("dominio/retail", "Retail / comercio: omnicanal, merchandising, e-commerce"),
+    ("dominio/manufactura", "Manufactura: lean, Six Sigma, cadena de producción"),
+    ("sustrato/ecuador", "Ecuador: protección de datos (LOPDP 2019) + SRI (impuestos/aduana)"),
+    ("sustrato/portugal", "Portugal: CNPD (RGPD) + Autoridade Tributária (IRS/IRC/IVA)"),
+    ("rol/cio", "CIO — Chief Information Officer"),
+    ("rol/coo", "COO — Chief Operating Officer"),
+    ("rol/cmo", "CMO — Chief Marketing Officer"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}
