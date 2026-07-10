@@ -20,13 +20,14 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 **Raw = cita** (URL en `fuente`, sin `raw/`). Si el nodo no existe, créalo con superstructura.
 
 ## ESTADO
-- **Plan:** Round 2 — expansión de cobertura (gap_analysis.py agotó la taxonomía del plan 1).
-  Nuevos países LatAm/España + dominio ESG + rol compliance officer (11 temas nuevos).
-- **Iteración actual:** 84 (Round 2)
-- **Temas completados:** 84 / 85 (75 previos + 9 de Round 2 ingestados — restan 1)
+- **Plan:** Round 3 — gap_analysis.py (iter 85) reportó 25 huecos en nodos existentes
+  + 2 nodos nuevos sugeridos (`dominio/juridico`, `dominio/estrategia`). Cola Round 3
+  abierta con 29 temas (cubre las 3 capas; sustrato vía nuevo país Chile).
+- **Iteración actual:** 85 (Round 2 cerrada) → inicia Round 3
+- **Temas completados:** 85 / 114 (85 previos + 29 de Round 3 pendientes)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
-- **Siguiente paso (procedimiento):** ejecutar la cola Round 2 (1-3 temas por corrida,
-  cubriendo las 3 capas). Cuando se vacíe, ampliar taxonomía de gap_analysis.py.
+- **Siguiente paso (procedimiento):** ejecutar cola Round 3 (≥3 bucles de ingest por
+  corrida, cubriendo las 3 capas). Al vaciarse → nuevo gap_analysis.py.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -88,7 +89,7 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 ### Rol (nuevos nodos)
 - [x] rol/compliance-officer — Oficial de cumplimiento (PLD/anticorrupción)
 - [x] rol/cfo — Director financiero
-- [ ] rol/head-of-people — (ampliación de people-lead)
+- [x] rol/head-of-people — (ampliación de people-lead)
 
 ## LOG DE ITERACIONES
 ### [2026-07-09] fase previa | iter 1-34 completas (34 temas; lint OK)
@@ -187,3 +188,52 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - Reference-only (URL en frontmatter; sin raw/).
 - **Próxima tarea (iter 85):** rol/head-of-people — ampliación de people-lead [rol].
   Cola Round 2 restante: 1 tema (rol x1) — último de la cola Round 2.
+
+### [2026-07-10] Round 2 — ITER 85 | rol/head-of-people (nuevo nodo — cierra cola Round 2)
+- gap_analysis.py agotó taxonomía plan 1 → cola Round 2 se vacía (0 temas pendientes).
+- Creado nodo `rol/head-of-people` con superstructura completa (README, index, log, raw/).
+- 1 página [rol]:
+  - `rol/head-of-people/head-of-people.md` — Head of People / VP People / CPO / CHRO:
+    liderazgo estratégico de talento, cultura, total rewards y people operations; reporta
+    al CEO; diferenciado de `rol/people-lead` (táctico-operativo).
+- Reference-only (URL en frontmatter; sin raw/). Cross-ref a people-lead, recursos-humanos,
+  founder-ceo, cfo, compliance-officer.
+- **COLA ROUND 2 CERRADA.** Se ejecutó `python3 scripts/gap_analysis.py` → 25 huecos en
+  nodos existentes + 2 nodos nuevos sugeridos (`dominio/juridico`, `dominio/estrategia`).
+  Abierta cola Round 3 (29 temas) abajo.
+
+## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
+### Sustrato (nuevo país)
+- [ ] sustrato/chile — Protección de datos (Ley 19.628 / Consejo Transparencia)
+- [ ] sustrato/chile — Impuestos y Aduanas (SII: IVA 19%, Renta, F29/F22)
+### Dominio (nodos existentes — ampliar)
+- [ ] dominio/finanzas — Derivados (futuros, opciones, swaps)
+- [ ] dominio/finanzas — Mercados de capitales (IPO, emisión deuda)
+- [ ] dominio/finanzas — Finanzas corporativas (M&A, valoración, tesorería)
+- [ ] dominio/finanzas — Riesgo financiero
+- [ ] dominio/computacion — Arquitectura de software (microservicios, event-driven)
+- [ ] dominio/computacion — Plataforma / DevOps / SRE
+- [ ] dominio/computacion — Frontend (frameworks, performance)
+- [ ] dominio/computacion — Bases de datos (SQL, NoSQL, distribuidas)
+- [ ] dominio/marketing — Demand generation / paid media
+- [ ] dominio/marketing — Analítica de marketing (atribución)
+- [ ] dominio/marketing — Lifecycle / email marketing
+- [ ] dominio/leyes — Derecho societario / corporativo
+- [ ] dominio/leyes — Derecho laboral (profundización)
+- [ ] dominio/leyes — Cumplimiento / regulación
+- [ ] dominio/contabilidad — Consolidación / reportes financieros
+- [ ] dominio/contabilidad — Tesorería / flujo de efectivo
+- [ ] dominio/diseno — Design systems / componentes
+- [ ] dominio/diseno — UX writing / microcopy
+### Dominio (nuevos nodos)
+- [ ] dominio/juridico — Jurídico / legal interno de empresa (nuevo nodo)
+- [ ] dominio/estrategia — Estrategia / OKRs / planeación (nuevo nodo)
+### Rol (nuevos nodos)
+- [ ] rol/product-owner — Product Owner / PO
+- [ ] rol/scrum-master — Scrum Master
+- [ ] rol/design-lead — Design Lead / UX Lead
+- [ ] rol/marketing-manager — Marketing Manager
+- [ ] rol/ops-lead — Operations Lead
+- [ ] rol/support-lead — Support / CX Lead
+- [ ] rol/reclutador — Recruiter / Talent Acquisition
+

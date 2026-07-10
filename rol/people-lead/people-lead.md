@@ -16,3 +16,4 @@ english_keywords: [people-lead, hr, cultura]
 - **Cómo un LLM opera efectivamente en este rol:** redactar descripciones de puesto (JD), diseñar y analizar encuestas de clima, y generar o revisar políticas de People/HR.
 ## 🔗 Referencia
 - conocimiento general (reference-only). Cross-ref: dominio/recursos-humanos/recursos-humanos.md, rol/operations-lead
+- Rol más senior/estratégico equivalente: `rol/head-of-people` (VP People / CPO / CHRO).

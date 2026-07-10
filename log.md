@@ -72,3 +72,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Fuentes: Wikipedia (en) "Chief financial officer".
 - Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
 
+## [2026-07-10] ingest | Head of People — rol/head-of-people (nuevo nodo) — iter 85
+- Nuevo nodo `rol/head-of-people` (superstructura completa: README, index, log, raw/).
+- 1 → `rol/head-of-people`: `head-of-people.md` — Head of People / VP People / CPO / CHRO:
+  liderazgo estratégico de talento, cultura, total rewards y people operations; reporta al CEO;
+  diferenciado de `rol/people-lead` (táctico-operativo).
+- Fuentes (web, reference-only): FirstHR "Chief People Officer", Torchora "VP People",
+  Pebl "VP of People", AIHR "Chief People Officer".
+- Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
+- **Cierra la cola Round 2** (último tema pendiente). Siguiente: gap analysis → Round 3.
+

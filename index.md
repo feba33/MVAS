@@ -152,6 +152,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [qa-engineer](rol/qa-engineer/qa-engineer.md) — QA Engineer: calidad, automatización · 🏷️ qa,testing · 📅 2026-07-09
 - [compliance-officer](rol/compliance-officer/compliance-officer.md) — Compliance Officer: GRC, AML, anticorrupción · 🏷️ compliance,cco,grc,aml · 📅 2026-07-09
 - [cfo](rol/cfo/cfo.md) — Chief Financial Officer: estrategia financiera, FP&A, tesorería, reporting · 🏷️ cfo,finanzas,fp&a,tesoreria,estrategia · 📅 2026-07-10
+- [head-of-people](rol/head-of-people/head-of-people.md) — Head of People / VP People / CPO: liderazgo estratégico de talento, cultura, total rewards y people ops · 🏷️ head-of-people,vp-people,cpo,chro,hr-estrategico,cultura · 📅 2026-07-10
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09
