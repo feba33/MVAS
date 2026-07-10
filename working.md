@@ -23,15 +23,13 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - **Plan:** Round 3 — gap_analysis.py (iter 85) reportó 25 huecos en nodos existentes
   + 2 nodos nuevos sugeridos (`dominio/juridico`, `dominio/estrategia`). Cola Round 3
   abierta con 29 temas (cubre las 3 capas; sustrato vía nuevo país Chile).
-- **Iteración actual:** 95 (Round 3 — 9 bucles de ingest completados en esta corrida:
-  sustrato/chile, dominio/finanzas derivados+mercados-capitales, rol PO+Scrum Master,
-  dominio/computacion estilos-arquitectura+bases-datos, dominio/finanzas corporativas
-  + riesgo-financiero, dominio/computacion plataforma-sre+frontend, dominio/marketing
-  demand-generation, dominio/marketing analitica+lifecycle)
-- **Temas completados:** 97 / 114 (85 previos + 12 de Round 3 ingestados en 9 bucles; restan 14 en cola)
+- **Iteración actual:** 97 (Round 3 — 11 bucles de ingest completados:
+  7 previos + esta corrida: dominio/marketing demand-generation, dominio/marketing
+  analitica+lifecycle, dominio/leyes societario, dominio/leyes laboral)
+- **Temas completados:** 99 / 114 (85 previos + 14 de Round 3 ingestados en 11 bucles; restan 12 en cola)
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO; bucle corrió aquí)
 - **Siguiente paso (procedimiento):** ejecutar cola Round 3 (≥3 bucles por corrida).
-  Próxima tarea (iter 96): dominio/leyes — Derecho societario / corporativo.
+  Próxima tarea (iter 98): dominio/leyes — Cumplimiento / regulación.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -313,6 +311,28 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
   estrategia, roles design-lead/marketing-manager/ops-lead/support-lead/reclutador).
   Próxima tarea (iter 96): dominio/leyes — Derecho societario / corporativo.
 
+### [2026-07-10] Round 3 — ITER 96 | dominio/leyes — Derecho societario / corporativo (LOOP 3)
+- 1 página añadida al nodo existente `dominio/leyes`:
+  - `dominio/leyes/derecho-societario.md` — contrato de sociedad, civil vs mercantil,
+    persona jurídica/responsabilidad limitada, levantamiento del velo; tipos LGSM
+    (SA/SAPI/SAS/SRL); órganos (asamblea/consejo/comisario); gobierno corporativo.
+- Reference-only (URL en frontmatter; sin raw/). Cross-ref a sustrato/mexico/lgsm,
+  codigo-de-comercio, dominio/juridico, rol/legal-counsel, founder-ceo, cfo,
+  dominio/finanzas (M&A, mercados-capitales).
+- **Próxima tarea (iter 97):** dominio/leyes — Derecho laboral (profundización).
+
+### [2026-07-10] Round 3 — ITER 97 | dominio/leyes — Derecho laboral LFT (LOOP 4)
+- 1 página añadida al nodo existente `dominio/leyes`:
+  - `dominio/leyes/derecho-laboral.md` — relación laboral, jornada/salario/PTU,
+    IMSS/INFONAVIT, rescisión, reforma outsourcing 2021 + REPSE, justicia laboral,
+    reforma reducción de jornada 2026 (DOF 01-05-2026).
+- Reference-only (URL en frontmatter; sin raw/). Cross-ref a sustrato/mexico/lft,
+  dominio/juridico, rol/compliance-officer, people-lead/head-of-people,
+  recursos-humanos, contabilidad/impuestos.
+- Cola Round 3 restante: 12 temas (leyes x1, contabilidad x2, diseño x2, juridico,
+  estrategia, roles design-lead/marketing-manager/ops-lead/support-lead/reclutador).
+  Próxima tarea (iter 98): dominio/leyes — Cumplimiento / regulación.
+
 
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)
@@ -330,8 +350,8 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - [x] dominio/marketing — Demand generation / paid media
 - [x] dominio/marketing — Analítica de marketing (atribución)
 - [x] dominio/marketing — Lifecycle / email marketing
-- [ ] dominio/leyes — Derecho societario / corporativo
-- [ ] dominio/leyes — Derecho laboral (profundización)
+- [x] dominio/leyes — Derecho societario / corporativo
+- [x] dominio/leyes — Derecho laboral (profundización)
 - [ ] dominio/leyes — Cumplimiento / regulación
 - [ ] dominio/contabilidad — Consolidación / reportes financieros
 - [ ] dominio/contabilidad — Tesorería / flujo de efectivo

@@ -141,3 +141,8 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - 2 → `dominio/marketing`: `analitica-marketing.md` (atribución: first/last/lineal/U-shaped/data-driven, multitouch, MMM, method stacking B2B 2026) y `lifecycle-email.md` (email disparado por comportamiento; etapas/triggers; retención y LTV).
 - Fuentes (web, reference-only): MCP Analytics (2026), Improvado (2026), Sortment (2026), Enflow Digital (2025).
 - Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/). **LOOP 2 de Round 3 (capa dominio — marketing).**
+
+## [2026-07-10] ingest | Leyes — Derecho societario + laboral — iter 96-97
+- 2 → `dominio/leyes`: `derecho-societario.md` (tipos LGSM SA/SAPI/SAS/SRL, órganos, gobierno corporativo, levantamiento del velo) y `derecho-laboral.md` (LFT vigente 14-05-2026; outsourcing/REPSE, jornada/salario/PTU, IMSS/INFONAVIT, rescisión, justicia laboral, reforma jornada 2026).
+- Fuentes (web, reference-only): TYP Advisers, RMS Abogados (societario); Lledías Abogados, Cámara de Diputados LFT (laboral).
+- Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/). **LOOP 3-4 de Round 3 (capa dominio — leyes).**

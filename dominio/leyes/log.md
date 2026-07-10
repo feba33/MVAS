@@ -23,3 +23,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-10] ingest | Derecho Societario y Gobierno Corporativo
 - Fuentes: TYP Advisers (2023), RMS Abogados (2025) — reference-only.
 - Página: `derecho-societario.md`. Contrato de sociedad, civil vs mercantil, persona jurídica/responsabilidad limitada, levantamiento del velo; tipos LGSM (SA/SAPI/SAS/SRL); órganos (asamblea/consejo/comisario); gobierno corporativo.
+
+## [2026-07-10] ingest | Derecho Laboral (México, LFT — profundización)
+- Fuentes: Lledías Abogados (2025), Cámara de Diputados LFT (vigente 14-05-2026) — reference-only.
+- Página: `derecho-laboral.md`. Relación laboral, jornada/salario/PTU, IMSS/INFONAVIT, rescisión, reforma outsourcing 2021 + REPSE, justicia laboral, reforma jornada 2026.

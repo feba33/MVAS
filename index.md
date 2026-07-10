@@ -108,6 +108,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [derecho-contratos](dominio/leyes/derecho-contratos.md) — Derecho de contratos: elementos, remedios · 🏷️ contratos · 📅 2026-07-09
 - [propiedad-intelectual](dominio/leyes/propiedad-intelectual.md) — Propiedad intelectual: marcas, patentes, copyright · 🏷️ ip,pi · 📅 2026-07-09
 - [derecho-societario](dominio/leyes/derecho-societario.md) — Derecho societario + gobierno corporativo: SA/SAPI/SAS, consejo · 🏷️ leyes,societario,gobierno-corporativo · 📅 2026-07-10
+- [derecho-laboral](dominio/leyes/derecho-laboral.md) — Derecho laboral LFT (prof.): outsourcing/REPSE, jornada, rescisión · 🏷️ leyes,laboral,lft,outsourcing · 📅 2026-07-10
 
 ### dominio/contabilidad
 - [niif-us-gaap](dominio/contabilidad/niif-us-gaap.md) — NIIF vs US GAAP · 🏷️ niif,gaap · 📅 2026-07-09
