@@ -17,9 +17,16 @@ Ver sección "REABASTECIMIENTO AUTOMÁTICO" en `GUIA-HERMES.md`.
 
 ## PROMPT MAESTRO
 Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, Organización.
+**ALCANCE SUSTRATO: solo Norteamérica — México, Estados Unidos, Canadá.** NO agregar ningún
+otro país (LatAm/Europa). Las capas Dominio/Rol son generales (agnósticas de país) y sí se
+enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignorarlo.
 **Raw = cita** (URL en `fuente`, sin `raw/`). Si el nodo no existe, créalo con superstructura.
 
 ## ESTADO
+- **⚠️ ALCANCE CORREGIDO (2026-07-10):** sustrato se limita a Norteamérica (México, EE.UU., Canadá).
+  Los países fuera de alcance ya creados (ecuador, portugal, argentina, brasil, chile, colombia,
+  peru, uruguay, españa — 48 páginas) permanecen en el repo pero NO se agregan más; pendiente
+  decisión del usuario (borrar / archivar / mantener). `gap_analysis.py` ya filtra países no-NA.
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
 - **Iteración actual:** 114 — LOOP 1 de Round 5 COMPLETO (sustrato/ecuador + sustrato/portugal, 4 páginas).
 - **Temas completados:** 127 / 135 (Round 3: 114 + Round 4: 11 + Round 5: 2/10).

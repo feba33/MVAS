@@ -21,6 +21,8 @@ ROOT = sys.argv[1] if len(sys.argv) > 1 else os.path.dirname(
 )
 
 # Taxonomía esperada: nodo -> [(slug, título)]
+# ALCANCE SUSTRATO: solo Norteamérica (México, EE.UU., Canadá). No se sugieren otros países.
+ALLOWED_SUSTRATO = {"mexico", "estados-unidos", "canada"}
 TAXONOMY = {
     "sustrato/mexico": [
         ("lft", "Ley Federal del Trabajo (laboral, outsourcing, reparto de utilidades)"),
@@ -31,6 +33,11 @@ TAXONOMY = {
         ("sec-valores", "SEC y regulación de valores"),
         ("antitrust", "Antitrust (Sherman / Clayton)"),
         ("bankruptcy", "Derecho concursal / bancarrotas"),
+    ],
+    "sustrato/canada": [
+        ("cbcA", "Constitución de sociedades (Canada Business Corporations Act)"),
+        ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
+        ("provincial-federal", "Divisiones de poder provincial vs federal en Canadá"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -117,8 +124,6 @@ NEW_NODES = [
     ("dominio/juridico", "Jurídico / legal interno de empresa"),
     ("dominio/estrategia", "Estrategia / OKRs / planeación"),
     ("organización/ejemplo-empresa", "Empresa ejemplo (capa organización)"),
-    ("sustrato/peru", "Perú: protección de datos (Ley 29733) + SUNAT (impuestos/aduana)"),
-    ("sustrato/uruguay", "Uruguay: URCDP (Ley 18.331) + DGI (impuestos)"),
     ("dominio/economia", "Economía / macroeconomía (PIB, inflación, bancos centrales, ciclo)"),
     ("dominio/estadistica", "Estadística y ciencia de datos (inferencia, probabilidad, visualización)"),
     ("dominio/project-management", "Gestión de proyectos (PMP, agile/waterfall, triple restricción)"),
@@ -128,8 +133,6 @@ NEW_NODES = [
     ("dominio/inmobiliario", "Bienes raíces / real estate: mercado, financiamiento, REITs"),
     ("dominio/retail", "Retail / comercio: omnicanal, merchandising, e-commerce"),
     ("dominio/manufactura", "Manufactura: lean, Six Sigma, cadena de producción"),
-    ("sustrato/ecuador", "Ecuador: protección de datos (LOPDP 2019) + SRI (impuestos/aduana)"),
-    ("sustrato/portugal", "Portugal: CNPD (RGPD) + Autoridade Tributária (IRS/IRC/IVA)"),
     ("rol/cio", "CIO — Chief Information Officer"),
     ("rol/coo", "COO — Chief Operating Officer"),
     ("rol/cmo", "CMO — Chief Marketing Officer"),
@@ -169,6 +172,8 @@ def main() -> None:
     print("\n## Nodos sugeridos (que aún no existen)")
     _any_new = False
     for path, desc in NEW_NODES:
+        if path.startswith("sustrato/") and path.split("/", 1)[1] not in ALLOWED_SUSTRATO:
+            continue  # fuera de alcance: no es país de Norteamérica
         if not os.path.isdir(os.path.join(ROOT, path)):
             print(f"- {path}: {desc}  <- NUEVO")
             _any_new = True
