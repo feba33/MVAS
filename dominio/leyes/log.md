@@ -19,3 +19,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-09] ingest | Propiedad Intelectual (profundización)
 - Fuente: Wikipedia EN 'Intellectual property' (https://en.wikipedia.org/wiki/Intellectual_property).
 - Página: `propiedad-intelectual.md`. Marcas, patentes, copyright, trade secrets; relación con el régimen de EE. UU. (Copyright Office, USPTO, Lanham Act, DTSA).
+
+## [2026-07-10] ingest | Derecho Societario y Gobierno Corporativo
+- Fuentes: TYP Advisers (2023), RMS Abogados (2025) — reference-only.
+- Página: `derecho-societario.md`. Contrato de sociedad, civil vs mercantil, persona jurídica/responsabilidad limitada, levantamiento del velo; tipos LGSM (SA/SAPI/SAS/SRL); órganos (asamblea/consejo/comisario); gobierno corporativo.
