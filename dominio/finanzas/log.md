@@ -47,3 +47,12 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Página: `afores-herencia-isr.md`. JUFED rechaza gravar Afores heredadas con ISR; pide a SCJN proteger patrimonio familiar/seguridad social. Ángulo: planeación patrimonial sucesoria de cuentas de retiro.
 - Discernimiento: dominio/finanzas (Afores, ISR, retiro) + cross-ref sustrato/mexico (régimen fiscal) y dominio/leyes (JUFED/SCJN). Certeza alta.
 - Nota: los otros 4 ítems del scrape (crónica criminal migrante/ICE, captura de sicario, desaparición adolescentes, reality show) se filtraron por gate de relevancia (coyuntura sin ángulo legal-corporativo-técnico).
+
+## [2026-07-10] ingest | Derivados financieros
+- Fuentes (web, reference-only): StrategyCenter, Estudyando, RuinsMag.
+- Página: `derivados.md`. Definición, futuros/opciones/forwards/swaps, mercados (CME/Eurex/MEFF, OTC), cobertura vs especulación, apalancamiento y riesgo de contraparte.
+
+## [2026-07-10] ingest | Mercados de capitales
+- Fuentes (web, reference-only): BBVA (emisión de bonos), Rankia (underwriting).
+- Página: `mercados-capitales.md`. ECM/IPO, DCM/bonos, underwriting (aseguramiento), actores.
+- **LOOP 2 de Round 3 (capa dominio).**

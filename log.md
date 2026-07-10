@@ -90,3 +90,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
 - **LOOP 1 de Round 3 (capa sustrato).**
 
+## [2026-07-10] ingest | Finanzas — Derivados + Mercados de capitales — iter 87
+- 2 → `dominio/finanzas`: `derivados.md` (futuros/opciones/swaps/forwards, cobertura,
+  apalancamiento, MEFF/CME/Eurex, OTC) y `mercados-capitales.md` (ECM/IPO, DCM/bonos,
+  underwriting).
+- Fuentes (web, reference-only): StrategyCenter, Estudyando, BBVA, Rankia.
+- Autónomo (cronjob). Reference-only (URL en frontmatter, sin raw/).
+- **LOOP 2 de Round 3 (capa dominio).**
+

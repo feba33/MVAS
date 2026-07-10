@@ -214,13 +214,24 @@ Enriquecer MVAS con conocimiento real (hasta `/stop`). Sustrato, Dominio, Rol, O
 - **Próxima tarea (iter 87):** dominio/finanzas — Derivados + Mercados de capitales [dominio] (LOOP 2).
   Cola Round 3 restante: 27 temas.
 
+### [2026-07-10] Round 3 — ITER 87 | dominio/finanzas derivados + mercados-capitales (LOOP 2)
+- 2 páginas añadidas al nodo existente `dominio/finanzas`:
+  - `dominio/finanzas/derivados.md` — futuros/opciones/forwards/swaps; cobertura vs
+    especulación; apalancamiento (margen 5-10%); mercados MEFF/CME/Eurex y OTC; riesgo
+    de contraparte.
+  - `dominio/finanzas/mercados-capitales.md` — ECM/IPO (salida a bolsa), DCM/bonos,
+    underwriting (aseguramiento de emisión), actores del mercado.
+- Reference-only (URL en frontmatter; sin raw/).
+- **Próxima tarea (iter 88):** rol/product-owner + rol/scrum-master [rol] (LOOP 3).
+  Cola Round 3 restante: 25 temas.
+
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)
 - [x] sustrato/chile — Protección de datos (Ley 19.628 / Consejo Transparencia)
 - [x] sustrato/chile — Impuestos y Aduanas (SII: IVA 19%, Renta, F29/F22)
 ### Dominio (nodos existentes — ampliar)
-- [ ] dominio/finanzas — Derivados (futuros, opciones, swaps)
-- [ ] dominio/finanzas — Mercados de capitales (IPO, emisión deuda)
+- [x] dominio/finanzas — Derivados (futuros, opciones, swaps)
+- [x] dominio/finanzas — Mercados de capitales (IPO, emisión deuda)
 - [ ] dominio/finanzas — Finanzas corporativas (M&A, valoración, tesorería)
 - [ ] dominio/finanzas — Riesgo financiero
 - [ ] dominio/computacion — Arquitectura de software (microservicios, event-driven)

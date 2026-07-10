@@ -16,3 +16,5 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [cripto-activos](cripto-activos.md) — Criptoactivos: Bitcoin, Ethereum, exchanges, regulación SEC · 🏷️ cripto,bitcoin,ethereum,blockchain,exchanges,sec,regulacion,activos-digitales · 📅 2026-07-09
 - [behavioral-finance](behavioral-finance.md) — Finanzas conductuales: sesgos, Kahneman/Tversky, prospect theory · 🏷️ finanzas-conductuales,behavioral-finance,sesgos,kahneman,tversky,prospect-theory,decisiones · 📅 2026-07-09
 - [afores-herencia-isr](afores-herencia-isr.md) — JUFED rechaza gravar Afores heredadas con ISR; pide a SCJN proteger patrimonio familiar · 🏷️ afores,isr,herencias,retiro,patrimonio · 📅 2026-07-10
+- [derivados](derivados.md) — Derivados: futuros, opciones, swaps, forwards; cobertura y apalancamiento · 🏷️ finanzas,derivados,futuros,opciones,swaps,cobertura · 📅 2026-07-10
+- [mercados-capitales](mercados-capitales.md) — Mercados de capitales: ECM/IPO, DCM/bonos, underwriting · 🏷️ finanzas,mercados-capitales,ipo,bonos,underwriting · 📅 2026-07-10
