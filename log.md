@@ -284,3 +284,22 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   - [rol] `rol/business-development/` (nuevo nodo): Business Development — crecimiento vía relaciones, mercados, partnerships.
 - Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo nuevo.
 - **Round 7 COMPLETO.** Siguiente paso de reabastecimiento: re-ejecutar `python3 scripts/gap_analysis.py` (taxonomía ya ampliada en iter 120); si devuelve 0, ampliar NEW_NODES/TAXONOMY para Round 8 o detener.
+
+## [2026-07-11] Round 8 — ITER 123 | gap_analysis extendido + 13 ingests (3 capas) — REANUDA bucle
+- Reabastecimiento: `gap_analysis.py` (iter 122) devolvió **0 huecos reales y 0 nodos nuevos** → se **EXTENDIÓ** la taxonomía de `scripts/gap_analysis.py` (Round 8) con 3 huecos sustrato NA (mexico→banca, estados-unidos→sector-tecnologia, canada→sector-bancario) + 10 nodos nuevos (dominio: biotecnologia, mineria, defensa-seguridad, aeroespacial, fintech; rol: chief-product-officer, vp-engineering, vp-sales, chief-of-staff, account-executive). **Alcance respetado:** sustrato = solo Norteamérica; NO se agregan países fuera de NA.
+- 13 temas ingestados cubriendo las 3 capas:
+  - [sustrato] `sustrato/mexico/banca-sistema-financiero.md` (nodo existente): Banxico, CNBV, banca múltiple, Sofipos/ITF, SPEI/CoDi.
+  - [sustrato] `sustrato/estados-unidos/sector-tecnologia.md` (nodo existente): Big Tech, antitrust DOJ/FTC, Section 230, IA (EO/NIST RMF), CHIPS Act 2022, privacidad (CCPA), controles de chips (BIS).
+  - [sustrato] `sustrato/canada/sector-bancario.md` (nodo existente): Big Six, OSFI, Bank of Canada, CDIC, Bank Act Schedule I/II/III.
+  - [dominio] `dominio/biotecnologia/` (nuevo): biofármacos, agtech, genómica/CRISPR, CRO/CDMO, FDA/EMA.
+  - [dominio] `dominio/mineria/` (nuevo): extracción, commodities, cadena de valor, minerales críticos, ESG.
+  - [dominio] `dominio/defensa-seguridad/` (nuevo): industria armamentística, dual-use, primes, procurement/ITAR, drones/IA.
+  - [dominio] `dominio/aeroespacial/` (nuevo): aeronáutica civil/defensa, NewSpace, lanzaderas, FAA/EASA.
+  - [dominio] `dominio/fintech/` (nuevo): pagos, banca digital, lending, regtech, cripto, open banking.
+  - [rol] `rol/chief-product-officer/` (nuevo): CPO, dueño de estrategia de producto.
+  - [rol] `rol/vp-engineering/` (nuevo): VP Engineering, liderazgo de ingeniería y entrega.
+  - [rol] `rol/vp-sales/` (nuevo): VP Sales, cuota/pipeline/GTM; vs CRO.
+  - [rol] `rol/chief-of-staff/` (nuevo): Chief of Staff, socio estratégico del CEO.
+  - [rol] `rol/account-executive/` (nuevo): Account Executive, cierre de venta y cuota.
+- Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo nuevo.
+- **Round 8 COMPLETO (13/13 temas en 3 bucles: LOOP 1 sustrato, LOOP 2 dominio, LOOP 3 rol).** Cola Round 8 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 9 o pausar.

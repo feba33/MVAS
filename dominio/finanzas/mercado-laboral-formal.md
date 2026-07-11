@@ -32,5 +32,5 @@ empleo afiliado al **IMSS**.
   **rotación, precariedad o pérdida de calidad** del empleo.
 
 ## Cross-references
-- Sustrato: [economía y normativa laboral de México](../sustrato/mexico/index.md) — véase también `derecho-laboral` en [dominio/leyes](../leyes/derecho-laboral.md) y `lft` en [sustrato/mexico/lft](../../sustrato/mexico/lft.md).
+- Sustrato: [economía y normativa laboral de México](../../sustrato/mexico/index.md) — véase también `derecho-laboral` en [dominio/leyes](../leyes/derecho-laboral.md) y `lft` en [sustrato/mexico/lft](../../sustrato/mexico/lft.md).
 - Dominio: [finanzas](index.md).

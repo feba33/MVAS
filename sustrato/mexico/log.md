@@ -71,3 +71,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-11] ingest | Sector energético de México (electricidad, hidrocarburos, renovables)
 - Fuentes: Wikipedia ES — Energía eléctrica en México; Petróleos Mexicanos (reference-only).
 - Página: `energia.md`. Marco constitucional (propiedad federal); CFE controla electricidad (~90.543 MW, 36,9% limpia 2024); SENER/CRE/CENACE; PEMEX (1938, expropiación), CNH/ASEA; reforma energética 2013; retos de producción y renovables.
+
+## [2026-07-11] ingest | Sistema financiero y banca de México
+- Fuentes: Banco de México (banxico.org.mx), CNBV (gob.mx/cnbv) — reference-only.
+- Página: `banca-sistema-financiero.md`. Banxico (banco central, política monetaria), CNBV (supervisión), banca múltiple (BBVA, Santander, Banorte, Citibanamex, HSBC), banca de desarrollo (NAFIN, Bancomext, Banobras), Sofipos/ITF/fintech (Nu, Mercado Pago, Klar), SPEI/CoDi; Ley de Instituciones de Crédito.

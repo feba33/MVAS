@@ -18,3 +18,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [bankruptcy](bankruptcy.md) — Bankruptcy / derecho concursal: Bankruptcy Code, Chapter 7/11/13 · 🏷️ bankruptcy,derecho-concursal,chapter-7,chapter-11,chapter-13 · 📅 2026-07-09
 - [controles-exportacion](controles-exportacion.md) — Controles de exportación EE.UU.: EAR/ITAR (BIS/DDTC) · 🏷️ eeuu,export-controls,ear,itar,bis,ddtc · 📅 2026-07-10
 - [salud](salud.md) — Salud/healthcare EE.UU.: FDA, CMS, HIPAA, Medicare-Medicaid, ACA · 🏷️ eeuu,healthcare,salud,fda,cms,hipaa,medicare,medicaid · 📅 2026-07-11
+- [sector-tecnologia](sector-tecnologia.md) — Sector tecnológico EE.UU.: Big Tech, antitrust, IA, CHIPS Act, privacidad · 🏷️ eeuu,big-tech,antitrust,ia,chips-act,privacidad · 📅 2026-07-11

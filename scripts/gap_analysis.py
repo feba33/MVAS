@@ -29,17 +29,20 @@ TAXONOMY = {
         ("profeco-condusef", "Protección al consumidor (PROFECO, CONDUSEF)"),
         ("pld-uif", "Prevención de lavado / UIF (AML)"),
         ("energia", "Sector energía (CRE/SENER, PEMEX/CFE, renovables)"),
+        ("banca-sistema-financiero", "Sistema financiero / banca (Banxico, CNBV, banca múltiple, Sofipos)"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
         ("antitrust", "Antitrust (Sherman / Clayton)"),
         ("bankruptcy", "Derecho concursal / bancarrotas"),
         ("salud", "Salud / healthcare (FDA, CMS, HIPAA, Medicare-Medicaid)"),
+        ("sector-tecnologia", "Sector tecnológico (Big Tech, antitrust, IA, CHIPS Act)"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
         ("provincial-federal", "Divisiones de poder provincial vs federal en Canadá"),
         ("salud", "Salud / healthcare (Health Canada, provincias, CADTH)"),
+        ("sector-bancario", "Sector bancario (Big Six, OSFI)"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -157,6 +160,17 @@ NEW_NODES = [
     ("rol/general-counsel", "General Counsel — máximo ejecutivo legal de la organización"),
     ("rol/brand-manager", "Brand Manager — gestión de marca y portafolio"),
     ("rol/business-development", "Business Development — alianzas, canales, expansión de negocio"),
+    # Round 8 — extensiones en capas generales (dominio/rol) + sustrato NA (deepening). Sin nuevos países.
+    ("dominio/biotecnologia", "Biotecnología: industria, genómica, fármacos, agtech, biofarmacéutica"),
+    ("dominio/mineria", "Minería: extracción, commodities, regulación ambiental, metales"),
+    ("dominio/defensa-seguridad", "Defensa y seguridad: industria armamentística, militar, dual-use"),
+    ("dominio/aeroespacial", "Aeroespacial: aeronáutica, espacio, fabricantes, lanzaderas"),
+    ("dominio/fintech", "Fintech: pagos, banca digital, lending, regtech, cripto"),
+    ("rol/chief-product-officer", "CPO — Chief Product Officer"),
+    ("rol/vp-engineering", "VP Engineering — Vicepresidente de Ingeniería"),
+    ("rol/vp-sales", "VP Sales — Vicepresidente de Ventas / Revenue"),
+    ("rol/chief-of-staff", "Chief of Staff — jefe de gabinete ejecutivo"),
+    ("rol/account-executive", "Account Executive — ejecutivo de cuentas (ventas)"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

@@ -17,3 +17,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [pld-uif](pld-uif.md) — Prevención de Lavado de Dinero / UIF y Ley Antilavado (LFPIORPI) · 🏷️ pld,uif,antilavado,lavado-dinero,prevencion · 📅 2026-07-09
 - [comercio-exterior](comercio-exterior.md) — Comercio exterior México: T-MEC/USMCA, IMMEX, aduana · 🏷️ mexico,comercio-exterior,usmca,immex,aduanas · 📅 2026-07-10
 - [energia](energia.md) — Sector energético México: CFE, PEMEX, SENER/CRE, reforma 2013, renovables · 🏷️ mexico,energia,pemex,cfe,sener,reforma-energetica · 📅 2026-07-11
+- [banca-sistema-financiero](banca-sistema-financiero.md) — Sistema financiero México: Banxico, CNBV, banca múltiple, Sofipos, SPEI · 🏷️ mexico,banxico,cnbv,banca,sofipos,sistema-financiero · 📅 2026-07-11

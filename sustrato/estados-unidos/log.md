@@ -54,3 +54,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-11] ingest | Salud y healthcare EE.UU. (FDA/CMS/HIPAA/Medicare-Medicaid)
 - Fuente: Wikipedia (en) — reference-only.
 - Página: `salud.md`. Sistema híbrido sin universal; FDA (FD&C), CMS (Medicare/Medicaid/CHIP), HIPAA (Título II PHI), Medicare A/B/C/D, Medicaid (estatal-federal); gasto ~17.8% PIB.
+
+## [2026-07-11] ingest | Sector tecnológico de EE.UU. (Big Tech y regulación)
+- Fuentes: Wikipedia (en) Big Tech; CHIPS (chips.gov) — reference-only.
+- Página: `sector-tecnologia.md`. Big Tech (Microsoft, Apple, Alphabet, Amazon, Meta); antitrust DOJ/FTC; Section 230; EO de IA / NIST AI RMF; CHIPS and Science Act 2022; privacidad (CCPA, sin ley federal); controles de exportación de chips (BIS).

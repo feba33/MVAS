@@ -31,3 +31,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-11] ingest | Salud y healthcare Canadá
 - Fuente: Wikipedia (en) — reference-only.
 - Página: `salud.md`. Medicare single-payer universal (Canada Health Act 1984, 5 principios); provincias administran; Health Canada regula fármacos; CADTH renombrada Canada's Drug Agency (CDA).
+
+## [2026-07-11] ingest | Sector bancario de Canadá
+- Fuente: Wikipedia (en) Banking in Canada; OSFI (osfi-bsif.gc.ca) — reference-only.
+- Página: `sector-bancario.md`. Big Six (RBC, TD, Scotiabank, BMO, CIBC, National Bank); OSFI (supervisor prudencial), Bank of Canada (política monetaria), CDIC (seguro depósitos), FCAC; Bank Act Schedule I/II/III; open banking, B-20.

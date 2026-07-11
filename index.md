@@ -30,6 +30,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [pld-uif](sustrato/mexico/pld-uif.md) — PLD/UIF: prevención de lavado (AML) · 🏷️ pld,uif,aml · 📅 2026-07-09
 - [comercio-exterior](sustrato/mexico/comercio-exterior.md) — Comercio exterior México: T-MEC/USMCA, IMMEX, aduana · 🏷️ mexico,comercio-exterior,usmca,immex,aduanas · 📅 2026-07-10
 - [energia](sustrato/mexico/energia.md) — Sector energético México: CFE, PEMEX, SENER/CRE, reforma 2013, renovables · 🏷️ mexico,energia,pemex,cfe,sener,reforma-energetica · 📅 2026-07-11
+- [banca-sistema-financiero](sustrato/mexico/banca-sistema-financiero.md) — Sistema financiero México: Banxico, CNBV, banca múltiple, Sofipos, SPEI · 🏷️ mexico,banxico,cnbv,banca,sofipos,sistema-financiero · 📅 2026-07-11
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -44,6 +45,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [bankruptcy](sustrato/estados-unidos/bankruptcy.md) — Bankruptcy: Chapter 7/11/13 · 🏷️ bankruptcy,concursal · 📅 2026-07-09
 - [controles-exportacion](sustrato/estados-unidos/controles-exportacion.md) — Controles de exportación EE.UU.: EAR/ITAR (BIS/DDTC) · 🏷️ eeuu,export-controls,ear,itar,bis,ddtc · 📅 2026-07-10
 - [salud](sustrato/estados-unidos/salud.md) — Salud/healthcare EE.UU.: FDA, CMS, HIPAA, Medicare-Medicaid, ACA · 🏷️ eeuu,healthcare,salud,fda,cms,hipaa,medicare,medicaid · 📅 2026-07-11
+- [sector-tecnologia](sustrato/estados-unidos/sector-tecnologia.md) — Sector tecnológico EE.UU.: Big Tech, antitrust, IA, CHIPS Act, privacidad · 🏷️ eeuu,big-tech,antitrust,ia,chips-act,privacidad · 📅 2026-07-11
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -52,6 +54,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [competition-bureau](sustrato/canada/competition-bureau.md) — Competencia Canadá: Competition Bureau / Competition Act · 🏷️ canada,competencia,competition-act · 📅 2026-07-10
 - [provincial-federal](sustrato/canada/provincial-federal.md) — Divisiones de poder federal/provincial Canadá (Constitución 1867) · 🏷️ canada,federalismo,division-poderes · 📅 2026-07-10
 - [salud](sustrato/canada/salud.md) — Salud/healthcare Canadá: Canada Health Act, Health Canada, medicare single-payer, CADTH/CDA · 🏷️ canada,healthcare,salud,medicare,canada-health-act,health-canada,cadth · 📅 2026-07-11
+- [sector-bancario](sustrato/canada/sector-bancario.md) — Sector bancario Canadá: Big Six (RBC, TD, Scotiabank, BMO, CIBC, National Bank), OSFI, Bank of Canada · 🏷️ canada,big-six,osfi,bank-of-canada,cdic,banca · 📅 2026-07-11
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -241,6 +244,21 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/gobierno-publico
 - [gobierno-publico](dominio/gobierno-publico/gobierno-publico.md) — Sector público y administración pública: servicios, SOEs, políticas, procurement · 🏷️ sector-publico,administracion-publica,gobierno · 📅 2026-07-11
 
+### dominio/biotecnologia
+- [biotecnologia](dominio/biotecnologia/biotecnologia.md) — Biotecnología: industria, genómica, biofármacos, agtech, regulación · 🏷️ biotecnologia,biofarmaceutica,genomica,agtech · 📅 2026-07-11
+
+### dominio/mineria
+- [mineria](dominio/mineria/mineria.md) — Minería: extracción, commodities, cadena de valor, ESG de minerales críticos · 🏷️ mineria,commodities,metales,extraccion · 📅 2026-07-11
+
+### dominio/defensa-seguridad
+- [defensa-seguridad](dominio/defensa-seguridad/defensa-seguridad.md) — Defensa y seguridad: industria armamentística, militar, dual-use · 🏷️ defensa,seguridad,armamento,militar · 📅 2026-07-11
+
+### dominio/aeroespacial
+- [aeroespacial](dominio/aeroespacial/aeroespacial.md) — Aeroespacial: aeronáutica civil/defensa y espacio (NewSpace, lanzaderas) · 🏷️ aeroespacial,aeronautica,espacio,newspace · 📅 2026-07-11
+
+### dominio/fintech
+- [fintech](dominio/fintech/fintech.md) — Fintech: pagos, banca digital, lending, regtech, cripto, open banking · 🏷️ fintech,pagos,banca-digital,regtech · 📅 2026-07-11
+
 ### rol/
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
 - [engineering-manager](rol/engineering-manager/engineering-manager.md) — Engineering Manager: liderazgo, entrega, procesos · 🏷️ eng-mgmt · 📅 2026-07-09
@@ -280,6 +298,11 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [general-counsel](rol/general-counsel/general-counsel.md) — General Counsel: asesor legal máximo, gobierno corporativo, reporting a junta · 🏷️ general-counsel,legal,cumplimiento,rol,gobierno-corporativo · 📅 2026-07-11
 - [brand-manager](rol/brand-manager/brand-manager.md) — Brand Manager: control de percepción de marca, brand equity, relaciones de cadena · 🏷️ brand-manager,marca,branding,marketing,rol · 📅 2026-07-11
 - [business-development](rol/business-development/business-development.md) — Business Development: crecimiento vía relaciones, mercados y partnerships · 🏷️ business-development,desarrollo-negocios,crecimiento,partnerships,rol · 📅 2026-07-11
+- [chief-product-officer](rol/chief-product-officer/chief-product-officer.md) — CPO: ejecutivo dueño de la estrategia de producto y su alineación con el negocio · 🏷️ cpo,producto,estrategia,liderazgo · 📅 2026-07-11
+- [vp-engineering](rol/vp-engineering/vp-engineering.md) — VP Engineering: liderazgo de la organización de ingeniería, entrega y arquitectura · 🏷️ vp-engineering,ingenieria,liderazgo,entrega · 📅 2026-07-11
+- [vp-sales](rol/vp-sales/vp-sales.md) — VP Sales: liderazgo del org de ventas, cuota, pipeline y estrategia GTM · 🏷️ vp-sales,ventas,revenue,gtm · 📅 2026-07-11
+- [chief-of-staff](rol/chief-of-staff/chief-of-staff.md) — Chief of Staff: socio estratégico del CEO, proyectos especiales y coordinación transversal · 🏷️ chief-of-staff,estrategia,operaciones,ceo · 📅 2026-07-11
+- [account-executive](rol/account-executive/account-executive.md) — Account Executive: cierra la venta en cuentas asignadas, dueño del ciclo y la cuota · 🏷️ account-executive,ventas,ciclo-venta,cuota · 📅 2026-07-11
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09
