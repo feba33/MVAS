@@ -33,10 +33,10 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   (T-MEC/USMCA, IMMEX) y `sustrato/estados-unidos/controles-exportacion.md` (EAR/ITAR). CBCA ya cubierto
   en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
-- **Iteración actual:** 121 — Round 7 EN PROGRESO (gap_analysis.py extendido: 3 huecos sustrato NA + 10 nodos nuevos; ver COLA ROUND 7).
-- **Temas completados:** 142 / 142 (Round 3: 114 + Round 4: 11 + Round 5: 10/10 + Round 6: 7/7). Round 7 suma ingests nuevos aparte.
+- **Iteración actual:** 122 — Round 7 COMPLETO (cola vacía; ver LOG ITER 122 y bloque abajo).
+- **Temas completados:** 155 (142 R3-R6 + Round 7: 13/13 ingestados en iter 120/121/122).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** Round 7 — ejecutar bucles de ingest (sustrato NA + dominio x6 + rol x4). Esta iter 121 cubre: sustrato/estados-unidos→salud + sustrato/canada→salud + dominio/turismo. Próxima: iter 122 → dominio/medios-comunicacion.
+- **Siguiente paso:** Reabastecimiento — ejecutar `python3 scripts/gap_analysis.py` (taxonomía ya ampliada en iter 120). Si devuelve 0 huecos, ampliar NEW_NODES/TAXONOMY para Round 8 o detener el bucle. NO agregar países fuera de Norteamérica (alcance vigente).
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -517,6 +517,16 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - Reference-only (URL en frontmatter; sin raw/).
 - **Próxima tarea (iter 122):** dominio/medios-comunicacion — Medios de comunicación / publishing [dominio].
 
+### [2026-07-11] Round 7 — ITER 122 | 5 ingests (dominio x3 + rol x2) — CIERRA COLA ROUND 7
+- 5 temas ingestados cubriendo dominio (x3) + rol (x2). Cola Round 7 VACÍA (13/13 en iter 120+121+122).
+  - [dominio] `dominio/medios-comunicacion/` (nuevo): mass media, publishing, news, modelos de negocio, media capture.
+  - [dominio] `dominio/automotriz/` (nuevo): industria automotriz/movilidad — OEM, Tier 1/2/3, VEs, autonomía, MaaS.
+  - [dominio] `dominio/gobierno-publico/` (nuevo): sector público, SOEs, administración pública, procurement.
+  - [rol] `rol/brand-manager/` (nuevo): Brand Manager — percepción de marca, brand equity, cadena de suministro.
+  - [rol] `rol/business-development/` (nuevo): Business Development — crecimiento vía relaciones/mercados/partnerships.
+- Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo nuevo.
+- **Próxima tarea:** Reabastecimiento Round 8 — ejecutar `python3 scripts/gap_analysis.py`; si 0, ampliar taxonomía (NEW_NODES/TAXONOMY) o detener.
+
 
 ## COLA ROUND 4 (gap_analysis.py iter 110 — taxonomía corregida)
 ### Sustrato (nuevos países)
@@ -582,15 +592,14 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - [x] dominio/agronegocios — Agroindustria / agronegocios
 - [x] dominio/construccion — Construcción / ingeniería AEC
 - [x] dominio/turismo — Turismo / hospitalidad
-- [ ] dominio/medios-comunicacion — Medios de comunicación / publishing
-- [ ] dominio/automotriz — Industria automotriz / movilidad
-- [ ] dominio/gobierno-publico — Sector público / gobierno
+- [x] dominio/medios-comunicacion — Medios de comunicación / publishing
+- [x] dominio/automotriz — Industria automotriz / movilidad
+- [x] dominio/gobierno-publico — Sector público / gobierno
 ### Rol (nuevos nodos)
 - [x] rol/ciso — CISO — Chief Information Security Officer
 - [x] rol/general-counsel — General Counsel
-- [ ] rol/brand-manager — Brand Manager
-- [ ] rol/business-development — Business Development
-
+- [x] rol/brand-manager — Brand Manager
+- [x] rol/business-development — Business Development
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)
 - [x] sustrato/chile — Protección de datos (Ley 19.628 / Consejo Transparencia)

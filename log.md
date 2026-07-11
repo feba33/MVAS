@@ -274,3 +274,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   - [sustrato] `sustrato/canada/salud.md` (nodo existente): medicare single-payer (Canada Health Act 1984), Health Canada, provincias, CADTH→Canada's Drug Agency.
   - [dominio] `dominio/turismo/` (nuevo nodo): turismo y hospitalidad — industria, segmentos, cadena de valor, sostenibilidad; superstructura completa.
 - Reference-only (URL en frontmatter; sin raw/). Próxima corrida: iter 122 → dominio/medios-comunicacion.
+
+## [2026-07-11] Round 7 — ITER 122 | 5 ingests (dominio x3 + rol x2) — CIERRA COLA ROUND 7
+- 5 temas ingestados cubriendo dominio (x3) + rol (x2). **Cola Round 7 VACÍA (13/13 temas en 3 iteraciones: 120, 121, 122).**
+  - [dominio] `dominio/medios-comunicacion/` (nuevo nodo): mass media, publishing, news media, modelos de negocio, concentración/media capture.
+  - [dominio] `dominio/automotriz/` (nuevo nodo): industria automotriz y movilidad — OEM, Tier 1/2/3, VEs, autonomía, MaaS.
+  - [dominio] `dominio/gobierno-publico/` (nuevo nodo): sector público, SOEs, administración pública, procurement, políticas.
+  - [rol] `rol/brand-manager/` (nuevo nodo): Brand Manager — percepción de marca, brand equity, cadena de suministro.
+  - [rol] `rol/business-development/` (nuevo nodo): Business Development — crecimiento vía relaciones, mercados, partnerships.
+- Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo nuevo.
+- **Round 7 COMPLETO.** Siguiente paso de reabastecimiento: re-ejecutar `python3 scripts/gap_analysis.py` (taxonomía ya ampliada en iter 120); si devuelve 0, ampliar NEW_NODES/TAXONOMY para Round 8 o detener.

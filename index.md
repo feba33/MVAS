@@ -232,6 +232,15 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/turismo
 - [turismo](dominio/turismo/turismo.md) — Turismo y hospitalidad: industria, segmentos, cadena de valor, sostenibilidad · 🏷️ turismo,hospitalidad,travel,horeca,sostenibilidad · 📅 2026-07-11
 
+### dominio/medios-comunicacion
+- [medios-comunicacion](dominio/medios-comunicacion/medios-comunicacion.md) — Medios de comunicación: mass media, publishing, news, modelos de negocio y concentración · 🏷️ medios,mass-media,publishing,news,publicidad · 📅 2026-07-11
+
+### dominio/automotriz
+- [automotriz](dominio/automotriz/automotriz.md) — Industria automotriz y movilidad: OEM, proveedores, VEs, autonomía · 🏷️ automotriz,oem,movilidad,vehiculos-electricos · 📅 2026-07-11
+
+### dominio/gobierno-publico
+- [gobierno-publico](dominio/gobierno-publico/gobierno-publico.md) — Sector público y administración pública: servicios, SOEs, políticas, procurement · 🏷️ sector-publico,administracion-publica,gobierno · 📅 2026-07-11
+
 ### rol/
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
 - [engineering-manager](rol/engineering-manager/engineering-manager.md) — Engineering Manager: liderazgo, entrega, procesos · 🏷️ eng-mgmt · 📅 2026-07-09
@@ -269,6 +278,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [chief-risk-officer](rol/chief-risk-officer/chief-risk-officer.md) — CRO: riesgo enterprise, ERM, crédito/mercado/operativo, continuidad · 🏷️ cro,riesgo,erm,gestion-riesgo,cumplimiento · 📅 2026-07-11
 - [ciso](rol/ciso/ciso.md) — CISO: estrategia y operación de seguridad/ciberseguridad, dueño del riesgo · 🏷️ ciso,seguridad,ciberseguridad,rol,riesgo · 📅 2026-07-11
 - [general-counsel](rol/general-counsel/general-counsel.md) — General Counsel: asesor legal máximo, gobierno corporativo, reporting a junta · 🏷️ general-counsel,legal,cumplimiento,rol,gobierno-corporativo · 📅 2026-07-11
+- [brand-manager](rol/brand-manager/brand-manager.md) — Brand Manager: control de percepción de marca, brand equity, relaciones de cadena · 🏷️ brand-manager,marca,branding,marketing,rol · 📅 2026-07-11
+- [business-development](rol/business-development/business-development.md) — Business Development: crecimiento vía relaciones, mercados y partnerships · 🏷️ business-development,desarrollo-negocios,crecimiento,partnerships,rol · 📅 2026-07-11
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09
