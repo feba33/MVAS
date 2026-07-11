@@ -341,3 +341,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   - `rol/auditor-interno/` — Auditor interno: aseguramiento independiente (reporta a comité de auditoría), tres líneas, COSO, normas IIA.
 - Reference-only (URL en frontmatter; sin raw/). Cross-refs a contabilidad, gobierno-corporativo, cfo, ceo, chief-risk-officer, analitica-negocio, gestion-cambio.
 - Siguiente (iter 129): Round 10 COMPLETA (cola 13/13). Ejecutar `scripts/gap_analysis.py`; si 0 huecos → extender taxonomía para Round 11.
+
+## [2026-07-11] ingest | Round 11 — ITER 130 | LOOP 1 (sustrato NA) — 3 ingests
+- 3 temas sustrato (deepening de nodos NA existentes):
+  - `sustrato/mexico/inversion-extranjera.md` — IED en México: LIE (sectores reservados, RNIE), IMMEX (importación temporal sin IGI/IVA), >USD$40B IED 3T2025, maquila.
+  - `sustrato/mexico/sector-manufacturero.md` — Manufactura MX: maquiladora/IMMEX, >USD$300B exportados 2024, clústeres, nearshoring.
+  - `sustrato/estados-unidos/agricultura.md` — USDA, Farm Bill, subsidios/price supports, 2.04M granjas, exportador neto.
+- Reference-only (URL en frontmatter; sin raw/). Alcance respetado: sustrato = solo Norteamérica (los 3 temas son NA). Restan 11 temas de Round 11 (canada/inmigracion + 5 dominio + 5 rol). Próxima tarea (iter 131): sustrato/canada/inmigracion (cierra LOOP 1 sustrato) → luego LOOP 2 dominio.

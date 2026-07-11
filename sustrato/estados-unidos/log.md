@@ -66,3 +66,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-11] ingest | Energía en Estados Unidos (DOE/FERC/EIA)
 - Fuentes: EIA (eia.gov), DOE (energy.gov), FERC (ferc.gov) — reference-only.
 - Página: `energia.md`. EIA (estadística DOE), DOE (política/confiabilidad de grid, informe julio 2025), FERC (regula electricidad/gas interestatal, licencia hydro, PURPA); mix: gas, nuclear ~20%, eólica/solar; mayor productor de petróleo y gas; retos de red por demanda de IA/data centers. Cross-ref sector-tecnologia, dominio/energia.
+
+## [2026-07-11] ingest | Agricultura de EE.UU. (USDA, Farm Bill, subsidios)
+- Fuentes: Wikipedia (Agriculture in the United States; United States Department of Agriculture) — reference-only.
+- Página: `agricultura.md`. 2.04M granjas, ~900M acres; Corn Belt/Wheat Belt/California; USDA (Sec. Rollins, ~71% presupuesto a SNAP/nutrición, Forest Service); Farm Bill (~cada 5 años: commodities, seguro de cultivo, conservación, nutrición); subsidios/price supports/loan programs; exportador neto de alimentos; mano de obra migrante. Cross-ref energia, dominio/agronegocios.

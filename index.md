@@ -33,6 +33,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [banca-sistema-financiero](sustrato/mexico/banca-sistema-financiero.md) — Sistema financiero México: Banxico, CNBV, banca múltiple, Sofipos, SPEI · 🏷️ mexico,banxico,cnbv,banca,sofipos,sistema-financiero · 📅 2026-07-11
 - [pensiones-afore](sustrato/mexico/pensiones-afore.md) — Sistema de pensiones México: AFORE, CONSAR, SAR, SIEFOREs · 🏷️ mexico,pensiones,afore,consar,sar,retiro · 📅 2026-07-11
 - [telecomunicaciones](sustrato/mexico/telecomunicaciones.md) — Telecomunicaciones México: IFT→CRT (LMTR 2025), espectro, banda ancha fija · 🏷️ mexico,telecomunicaciones,ift,crt,lmtr,espectro,banda-ancha · 📅 2026-07-11
+- [inversion-extranjera](sustrato/mexico/inversion-extranjera.md) — IED en México: LIE, IMMEX/maquila, nearshoring · 🏷️ mexico,inversion-extranjera,ied,immex,maquiladora,lie · 📅 2026-07-11
+- [sector-manufacturero](sustrato/mexico/sector-manufacturero.md) — Manufactura MX: maquiladora, IMMEX, exportación · 🏷️ mexico,manufactura,maquiladora,immex,exportacion,nearshoring · 📅 2026-07-11
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -50,6 +52,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [sector-tecnologia](sustrato/estados-unidos/sector-tecnologia.md) — Sector tecnológico EE.UU.: Big Tech, antitrust, IA, CHIPS Act, privacidad · 🏷️ eeuu,big-tech,antitrust,ia,chips-act,privacidad · 📅 2026-07-11
 - [vivienda-real-estate](sustrato/estados-unidos/vivienda-real-estate.md) — Vivienda EE.UU.: homeownership, Fannie/Freddie Mac, FHA/HUD, MBS · 🏷️ eeuu,vivienda,housing,hipotecas,fannie-mae,fha · 📅 2026-07-11
 - [energia](sustrato/estados-unidos/energia.md) — Energía EE.UU.: DOE, FERC, EIA, grid, oil&gas, renovables, nuclear · 🏷️ eeuu,energia,doe,ferc,eia,grid,oil-gas,renovables,nuclear · 📅 2026-07-11
+- [agricultura](sustrato/estados-unidos/agricultura.md) — Agricultura EE.UU.: USDA, Farm Bill, subsidios, exportador neto · 🏷️ eeuu,agricultura,usda,farm-bill,subsidios,exportacion-agricola · 📅 2026-07-11
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09

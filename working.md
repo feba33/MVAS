@@ -33,8 +33,8 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   (T-MEC/USMCA, IMMEX) y `sustrato/estados-unidos/controles-exportacion.md` (EAR/ITAR). CBCA ya cubierto
   en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
-- **Iteración actual:** 129 — Round 11 en curso (cola de 14 temas; ver LOG ITER 129 abajo).
-- **Temas completados:** 194 (181 previos + Round 10: 13/13 en iter 128).
+- **Iteración actual:** 130 — Round 11 en curso (cola 14 temas: 3 ingestados en LOOP 1 sustrato, restan 11; ver LOG ITER 130 abajo).
+- **Temas completados:** 197 (194 previos + Round 11 LOOP 1: 3/14 en iter 130).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
 - **Siguiente paso:** Round 11 en curso (14 temas: 4 sustrato NA deepening + 5 dominio + 5 rol). gap_analysis.py (post-Round 10) = 0 → extendida taxonomía para Round 11 (4 deepenings NA + 10 nodos nuevos). ALCANCE sustrato = solo Norteamérica (sin nuevos países no-NA). NO agregar países fuera de Norteamérica.
 
@@ -748,11 +748,18 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - ALCANCE respetado: sustrato = solo Norteamérica (sin nuevos países).
 - Abierta cola Round 11 (14 temas: sustrato x4, dominio x5, rol x5).
 - **Próxima tarea (iter 130):** LOOP 1 (sustrato NA deepening) — inversion-extranjera, sector-manufacturero, agricultura, inmigracion (iter 130).
+### [2026-07-11] Round 11 — ITER 130 | LOOP 1 (sustrato NA) — 3 ingests (iter 130)
+- 3 temas sustrato (deepening de nodos NA existentes), cubriendo sustrato México (x2) + EE.UU. (x1):
+  - `sustrato/mexico/inversion-extranjera.md` — IED en México: LIE (sectores reservados, RNIE), IMMEX (importación temporal sin IGI/IVA), >USD$40B IED 3T2025, maquila, Shelter.
+  - `sustrato/mexico/sector-manufacturero.md` — Manufactura MX: maquiladora/IMMEX, >USD$300B exportados 2024, clústeres (auto/aero/electrónica/médica), nearshoring, USMCA.
+  - `sustrato/estados-unidos/agricultura.md` — USDA, Farm Bill, subsidios/price supports/loan programs, 2.04M granjas, exportador neto.
+- Reference-only (URL en frontmatter; sin raw/). Alcance respetado: sustrato = solo Norteamérica (los 3 temas son NA).
+- **Próxima tarea (iter 131):** sustrato/canada/inmigracion (IRCC, permisos de trabajo) — cierra LOOP 1 sustrato (4/4); luego LOOP 2 dominio (banca, capital-riesgo, cadena-suministro, consultoria, servicios-profesionales). Restan 11 temas Round 11.
 
 ## COLA ROUND 11 (14 temas — gap_analysis extendido, Round 10 completa)
-- [ ] sustrato/mexico/inversion-extranjera — IED (IMMEX, maquiladora, regulación)
-- [ ] sustrato/mexico/sector-manufacturero — Manufactura MX (industria, exportación)
-- [ ] sustrato/estados-unidos/agricultura — USDA, Farm Bill, subsidios
+- [x] sustrato/mexico/inversion-extranjera — IED (IMMEX, maquiladora, regulación)
+- [x] sustrato/mexico/sector-manufacturero — Manufactura MX (industria, exportación)
+- [x] sustrato/estados-unidos/agricultura — USDA, Farm Bill, subsidios
 - [ ] sustrato/canada/inmigracion — IRCC, permisos de trabajo
 - [ ] dominio/banca — Banca (comercial, múltiple, digital, Basilea)
 - [ ] dominio/capital-riesgo — VC / Private Equity (fundraising, ciclo)

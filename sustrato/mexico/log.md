@@ -83,3 +83,11 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-11] ingest | Telecomunicaciones en México (IFT→CRT, LMTR 2025)
 - Fuentes: Ríosferrer (análisis LMTR 2025), IFT (comunicado banda ancha fija) — reference-only.
 - Página: `telecomunicaciones.md`. Reforma constitucional 2024 elimina el IFT; Ley en Materia de Telecomunicaciones y Radiodifusión (LMTR) aprobada 01-07-2025 abroga la LFTR 2014; CRT sustituye al IFT como órgano desconcentrado de la ATDT (5 comisionados); espectro, concesiones, conectividad; crecimiento de banda ancha fija vía fibra. Cross-ref regulacion-ia, dominio/telecomunicaciones.
+
+## [2026-07-11] ingest | Inversión Extranjera Directa en México (LIE, IMMEX)
+- Fuentes: SNICE/Secretaría de Economía (programa IMMEX), American Industries Group, Wikipedia (Maquiladora) — reference-only.
+- Página: `inversion-extranjera.md`. Marco LIE (sectores reservados al Estado/mexicanos, RNIE); IMMEX (importación temporal sin IGI/IVA, ≥60% exportación, certificación IVA/IEPS); IED >USD$40B al 3T2025 (manufactura ~37%); ~6,500 establecimientos IMMEX, >3M empleos; modalidad Shelter (arranque 3-6 meses). Cross-ref comercio-exterior, sector-manufacturero, regimen-fiscal.
+
+## [2026-07-11] ingest | Sector manufacturero de México (maquiladora)
+- Fuentes: American Industries Group (maquiladora 2026), Wikipedia (Maquiladora) — reference-only.
+- Página: `sector-manufacturero.md`. Maquila: importa-ensambla-exporta bajo IMMEX; >USD$300B exportados 2024, ~6,800 ops; ~48% empleo fronterizo; salario ~$4.5-5/h; acceso USMCA libre de arancel, 3-5 días a EE.UU.; clústeres (auto, aeroespacial, médica, electrónica). Cross-ref inversion-extranjera, comercio-exterior, energia.
