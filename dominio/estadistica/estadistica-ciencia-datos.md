@@ -33,7 +33,7 @@ english_keywords: [statistics, probability, statistical inference, data science,
 - **Visualización:** dashboards y gráficos adecuados al mensaje; herramientas (Tableau,
   Power BI, matplotlib, ggplot, Plotly).
 - **Cross-ref:** [finanzas](../finanzas/),
-  [analítica de marketing](../../marketing/analitica-marketing.md),
-  [ml-engineering](../../computacion/ml-engineering.md),
-  [data-engineering](../../computacion/data-engineering.md),
+  [analítica de marketing](../marketing/analitica-marketing.md),
+  [ml-engineering](../computacion/ml-engineering.md),
+  [data-engineering](../computacion/data-engineering.md),
   [data-scientist (rol)](../../rol/data-scientist/data-scientist.md).

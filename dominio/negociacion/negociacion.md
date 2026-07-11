@@ -33,6 +33,6 @@ english_keywords: [negotiation, Harvard method, BATNA, ZOPA, interests, principl
   distributiva (reparto de un monto fijo, suma cero).
 - **Tipos:** distributiva (suma cero) e integrativa (ganar-ganar).
 - **Cross-ref:** [juridico-interno](../juridico/juridico-interno.md),
-  [derecho-contratos](../../leyes/derecho-contratos.md),
+  [derecho-contratos](../leyes/derecho-contratos.md),
   [legal-counsel (rol)](../../rol/legal-counsel/legal-counsel.md),
   [founder-ceo (rol)](../../rol/founder-ceo/founder-ceo.md), [ventas](../ventas/).

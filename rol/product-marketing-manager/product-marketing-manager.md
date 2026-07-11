@@ -30,6 +30,6 @@ english_keywords: [Product Marketing Manager, PMM, go-to-market, positioning, me
 - **Habilidades:** comunicación, investigación, analítica, colaboración cross-funcional,
   storytelling, comprensión del cliente.
 - **Reporta a:** VP/Head of Marketing o CMO; colabora con Product, Sales y Customer Success.
-- **Cross-ref:** [marketing-manager](marketing-manager.md), [growth-lead](growth-lead.md),
-  [product-lead](product-lead.md), [producto (dominio)](../../dominio/producto/),
-  [marketing (dominio)](../../dominio/marketing/), [sales-lead](sales-lead.md).
+- **Cross-ref:** [marketing-manager](../marketing-manager/marketing-manager.md), [growth-lead](../growth-lead/growth-lead.md),
+  [product-lead](../product-lead/product-lead.md), [producto (dominio)](../../dominio/producto/),
+  [marketing (dominio)](../../dominio/marketing/), [sales-lead](../sales-lead/sales-lead.md).

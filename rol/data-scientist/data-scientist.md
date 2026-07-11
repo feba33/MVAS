@@ -30,7 +30,7 @@ english_keywords: [Data Scientist, data science, machine learning, statistics, a
 - **DS vs Data Engineer:** el ingeniero construye pipelines/infra; el científico los consume
   para modelar.
 - **Reporta a:** Head of Data / Analytics / CDO; en equipos de producto o analítica.
-- **Cross-ref:** [data-engineer](data-engineer.md),
+- **Cross-ref:** [data-engineer](../data-engineer/data-engineer.md),
   [estadistica (dominio)](../../dominio/estadistica/estadistica-ciencia-datos.md),
   [ml-engineering](../../dominio/computacion/ml-engineering.md),
   [analitica-marketing](../../dominio/marketing/analitica-marketing.md).

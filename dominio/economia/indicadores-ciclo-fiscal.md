@@ -30,5 +30,5 @@ english_keywords: [fiscal policy, public debt, budget deficit, business cycle, e
 - **Multiplicador fiscal:** efecto de un aumento del gasto público sobre el PIB (depende de
   la brecha del producto y la propensión marginal a consumir).
 - **Cross-ref:** [macroeconomia](macroeconomia.md), [finanzas](../finanzas/),
-  [impuestos de contabilidad](../../contabilidad/impuestos.md),
+  [impuestos de contabilidad](../contabilidad/impuestos.md),
   [regímenes fiscales por país](../../sustrato/).

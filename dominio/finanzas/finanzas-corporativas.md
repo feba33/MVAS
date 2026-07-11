@@ -17,7 +17,7 @@ para el accionista**. Tres pilares operativos: (1) **M&A** — fusiones y adquis
 (2) **valoración** — estimar el valor económico de la empresa; (3) **tesorería** —
 gestionar liquidez y riesgo financiero. Ver también
 [valoracion.md](valoracion.md), [mercados-capitales.md](mercados-capitales.md),
-[private-equity-vc.md](private-equity-vc.md) y [rol/cfo/cfo.md](../cfo/cfo.md).
+[private-equity-vc.md](private-equity-vc.md) y [rol/cfo/cfo.md](../../rol/cfo/cfo.md).
 
 ### M&A (fusiones y adquisiciones)
 Transacciones en las que la propiedad de una empresa (o una unidad operativa) se
@@ -43,7 +43,7 @@ y en mitigar riesgo financiero, operativo y reputacional. Su alcance cubre:
 **cobranza (collections)**, **pagos (disbursements)**, **concentración** de saldos,
 **inversiones** de excedentes y **fondeo (funding)**. En M&A, la tesorería asegura
 liquidez para el cierre, alineación de cash flow, integración de sistemas bancarios
-y gestión de capital de trabajo durante la transición. Cross-ref: [rol/cfo/cfo.md](../cfo/cfo.md).
+y gestión de capital de trabajo durante la transición. Cross-ref: [rol/cfo/cfo.md](../../rol/cfo/cfo.md).
 
 ## Relación con otras entidades
 - `dominio/finanzas/valoracion.md` — métodos de valoración (DCF, múltiplos, WACC).
