@@ -34,6 +34,7 @@ TAXONOMY = {
         ("telecomunicaciones", "Telecomunicaciones (IFT, sector telecom, banda ancha, despacho)"),
         ("inversion-extranjera", "Inversión extranjera directa (IMMEX, maquiladora, regulación de IED)"),
         ("sector-manufacturero", "Sector manufacturero (industria, exportación, cadenas)"),
+        ("sat", "SAT / sistema tributario (ISR, IVA, impuestos federales)"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -44,6 +45,7 @@ TAXONOMY = {
         ("vivienda-real-estate", "Vivienda y mercado inmobiliario (Fannie/Freddie Mac, FHA/HUD, MBS)"),
         ("energia", "Energía (DOE, FERC, grid, oil & gas, renovables, nuclear)"),
         ("agricultura", "Agricultura (USDA, Farm Bill, subsidios, comercio agrícola)"),
+        ("inmigracion", "Inmigración EE.UU. (USCIS, H-1B, H-2A, green card, visas)"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -53,6 +55,8 @@ TAXONOMY = {
         ("recursos-naturales", "Recursos naturales (NRCan, energía, minerales, bosques)"),
         ("comercio-exterior", "Comercio exterior (Global Affairs Canada, export, USMCA, aranceles)"),
         ("inmigracion", "Inmigración (IRCC, permisos de trabajo, residentes permanentes)"),
+        ("impuestos", "Impuestos Canadá (CRA, T1, GST/HST, tributario federal)"),
+        ("transporte", "Transporte Canadá (Transport Canada, ferrocarriles, aviación, puertos)"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -214,6 +218,17 @@ NEW_NODES = [
     ("rol/chief-investment-officer", "CIO — Chief Investment Officer (inversiones, portafolio, activos)"),
     ("rol/head-of-research", "Head of Research / R&D — I+D, pipeline, innovación técnica"),
     ("rol/chief-digital-officer", "CDO — Chief Digital Officer (transformación digital, canales digitales)"),
+    # Round 12 — reabastecimiento (alcance: sustrato solo Norteamérica; dominio/rol generales).
+    ("dominio/alimentos-bebidas", "Alimentos y bebidas (F&B): industria, regulación, cadena, marca"),
+    ("dominio/moda", "Moda / apparel & retail fashion: industria, supply chain, marca"),
+    ("dominio/espacio", "Espacio / space economy: satélites, lanzamiento, downstream"),
+    ("dominio/agua", "Agua y saneamiento: infraestructura, regulación, escasez"),
+    ("dominio/semiconductores", "Semiconductores / chips: fabs, diseño, cadena, CHIPS Act"),
+    ("rol/chief-strategy-officer", "CSO — Chief Strategy Officer (estrategia corporativa)"),
+    ("rol/chief-privacy-officer", "DPO — Chief Privacy Officer / Data Protection Officer (GDPR, CPRA)"),
+    ("rol/chief-people-officer", "CHRO — Chief People Officer (talento, cultura, RRHH)"),
+    ("rol/chief-client-officer", "Chief Client Officer (CX, retención, cuentas)"),
+    ("rol/head-of-operations", "Head of Operations (operaciones, entrega, eficiencia)"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

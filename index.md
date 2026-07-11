@@ -64,6 +64,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [sector-bancario](sustrato/canada/sector-bancario.md) — Sector bancario Canadá: Big Six (RBC, TD, Scotiabank, BMO, CIBC, National Bank), OSFI, Bank of Canada · 🏷️ canada,big-six,osfi,bank-of-canada,cdic,banca · 📅 2026-07-11
 - [recursos-naturales](sustrato/canada/recursos-naturales.md) — Recursos naturales Canadá: NRCan, energía, minerales, bosques · 🏷️ canada,recursos-naturales,nrcan,energia,minerales,bosques · 📅 2026-07-11
 - [comercio-exterior](sustrato/canada/comercio-exterior.md) — Comercio exterior Canadá: Global Affairs Canada, CUSMA, aranceles 2025-26 · 🏷️ canada,comercio-exterior,cusma,usmca,global-affairs-canada,aranceles · 📅 2026-07-11
+- [inmigracion](sustrato/canada/inmigracion.md) — Inmigración Canadá: IRCC, IRPA, Express Entry, PNP, permisos de trabajo/estudio · 🏷️ canada,inmigracion,ircc,irpa,express-entry,permisos-trabajo,residencia-permanente · 📅 2026-07-11
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -288,6 +289,17 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [cultura-organizacional](dominio/cultura-organizacional/cultura-organizacional.md) — Cultura organizacional: modelo de Schein (artefactos/valores/supuestos) · 🏷️ cultura-organizacional,schein,valores,cultura-desempeno · 📅 2026-07-11
 - [gestion-cambio](dominio/gestion-cambio/gestion-cambio.md) — Gestión del cambio: Lewin, Kotter 8 pasos, ADKAR, McKinsey 7S · 🏷️ gestion-cambio,kotter,adkar,lewin,mckinsey-7s,transformacion · 📅 2026-07-11
 
+### dominio/banca
+- [banca](dominio/banca/banca.md) — Banca: comercial, inversión, central, digital; depósitos, crédito, pagos, Basilea III · 🏷️ banca,bancos,commercial-bank,investment-bank,banca-central,basilea,depositos,credito,pagos,fintech · 📅 2026-07-11
+### dominio/capital-riesgo
+- [capital-riesgo](dominio/capital-riesgo/capital-riesgo.md) — VC y Private Equity: ciclo del fondo, LP/GP, rondas, buyouts, J-curve · 🏷️ capital-riesgo,venture-capital,private-equity,fondos,lp,gp,fundraising,exit,ipo,mna,buyout · 📅 2026-07-11
+### dominio/cadena-suministro
+- [cadena-suministro](dominio/cadena-suministro/cadena-suministro.md) — Supply Chain Management: plan-procure-make-deliver-return, S&OP, procurement · 🏷️ cadena-suministro,supply-chain,scm,procurement,s&op,inventario,logistica,resiliencia · 📅 2026-07-11
+### dominio/consultoria
+- [consultoria](dominio/consultoria/consultoria.md) — Consultoría de gestión: estrategia, operaciones, M&A, tecnología; MBB/Big Four · 🏷️ consultoria,management-consulting,estrategia,mbb,big-four,operaciones,mandd,proyectos · 📅 2026-07-11
+### dominio/servicios-profesionales
+- [servicios-profesionales](dominio/servicios-profesionales/servicios-profesionales.md) — Servicios profesionales: derecho, contabilidad, arquitectura, ingeniería; partnership · 🏷️ servicios-profesionales,professional-services,firmas,bufetes,contabilidad,arquitectura,ingenieria,utilizacion · 📅 2026-07-11
+
 ### rol/
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
 - [controller](rol/controller/controller.md) — Controller (controlador financiero): reporting, cierre, GAAP, SOX · 🏷️ controller,contraloria,reporting,gaap,sox · 📅 2026-07-11
@@ -342,6 +354,11 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-growth](rol/head-of-growth/head-of-growth.md) — Head of Growth: lidera crecimiento vía experimentación cross-funcional · 🏷️ head-of-growth,growth,crecimiento · 📅 2026-07-11
 - [vp-marketing](rol/vp-marketing/vp-marketing.md) — VP of Marketing: lidera org de marketing, brand, GTM, demanda, ROI · 🏷️ vp-marketing,marketing,brand,gtm · 📅 2026-07-11
 - [tech-lead](rol/tech-lead/tech-lead.md) — Tech Lead: liderazgo técnico IC, arquitectura, calidad, mentoría · 🏷️ tech-lead,lider-tecnico,ingenieria · 📅 2026-07-11
+- [chief-compliance-officer](rol/chief-compliance-officer/chief-compliance-officer.md) — CCO: dueño del programa de cumplimiento, AML/sanciones, reporte a CEO/junta · 🏷️ chief-compliance-officer,cco,compliance,cumplimiento,regulacion,aml,riesgo-regulatorio,gobierno · 📅 2026-07-11
+- [treasurer](rol/treasurer/treasurer.md) — Treasurer: liquidez, cash management, financiamiento, cobertura riesgo tasa/divisa · 🏷️ treasurer,tesoreria,liquidez,cash-management,financiamiento,riesgo-tasa,riesgo-divisa,banca · 📅 2026-07-11
+- [chief-investment-officer](rol/chief-investment-officer/chief-investment-officer.md) — CIO de inversiones: estrategia de inversión, asset allocation, portafolio · 🏷️ chief-investment-officer,cio,inversiones,portafolio,asset-allocation,fiduciario,gestora-activos · 📅 2026-07-11
+- [head-of-research](rol/head-of-research/head-of-research.md) — Head of Research / I+D: estrategia de investigación, pipeline, IP · 🏷️ head-of-research,research,desarrollo,i+d,innovacion,pipeline,ciencia · 📅 2026-07-11
+- [chief-digital-officer](rol/chief-digital-officer/chief-digital-officer.md) — CDO: estrategia y transformación digital, experiencia de cliente, e-commerce · 🏷️ chief-digital-officer,cdo,transformacion-digital,experiencia-cliente,estrategia-digital,ecommerce,datos · 📅 2026-07-11
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

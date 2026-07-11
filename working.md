@@ -33,12 +33,26 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   (T-MEC/USMCA, IMMEX) y `sustrato/estados-unidos/controles-exportacion.md` (EAR/ITAR). CBCA ya cubierto
   en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
-- **Iteración actual:** 130 — Round 11 en curso (cola 14 temas: 3 ingestados en LOOP 1 sustrato, restan 11; ver LOG ITER 130 abajo).
-- **Temas completados:** 197 (194 previos + Round 11 LOOP 1: 3/14 en iter 130).
+- **Iteración actual:** 131 — Round 11 COMPLETA (14/14 en 3 bucles). Reabastecimiento ejecutado: gap_analysis.py extendida → **Round 12 ABIERTA (13 temas)**. Próxima tarea (iter 132): sustrato/mexico/sat (Sistema tributario).
+- **Temas completados:** 208 (197 previos + Round 11 LOOP 2/3: 11/14 en iter 131; Round 11 total 14/14).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** Round 11 en curso (14 temas: 4 sustrato NA deepening + 5 dominio + 5 rol). gap_analysis.py (post-Round 10) = 0 → extendida taxonomía para Round 11 (4 deepenings NA + 10 nodos nuevos). ALCANCE sustrato = solo Norteamérica (sin nuevos países no-NA). NO agregar países fuera de Norteamérica.
+- **Siguiente paso:** Round 12 ABIERTA (13 temas): 3 sustrato NA (mexico/sat, estados-unidos/inmigracion, canada/transporte) + 5 dominio (alimentos-bebidas, moda, espacio, agua, semiconductores) + 5 rol (chief-strategy-officer, chief-privacy-officer, chief-people-officer, chief-client-officer, head-of-operations). ALCANCE sustrato = solo Norteamérica (sin nuevos países no-NA). Próxima tarea (iter 132): sustrato/mexico/sat (Sistema tributario mexicano) — abre LOOP 1 sustrato NA de Round 12.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
+# COLA ROUND 12 (13 temas — reabastecimiento gap_analysis.py, Round 11 completa)
+- [ ] sustrato/mexico/sat — SAT / sistema tributario (ISR, IVA)
+- [ ] sustrato/estados-unidos/inmigracion — USCIS, H-1B, H-2A, green card
+- [ ] sustrato/canada/transporte — Transport Canada, ferrocarriles, aviación, puertos
+- [ ] dominio/alimentos-bebidas — F&B (industria, regulación, cadena, marca)
+- [ ] dominio/moda — Moda / apparel & retail fashion
+- [ ] dominio/espacio — Space economy (satélites, lanzamiento, downstream)
+- [ ] dominio/agua — Agua y saneamiento (infra, regulación, escasez)
+- [ ] dominio/semiconductores — Semiconductores / chips (fabs, diseño, CHIPS Act)
+- [ ] rol/chief-strategy-officer — CSO (estrategia corporativa)
+- [ ] rol/chief-privacy-officer — DPO (privacidad, GDPR, CPRA)
+- [ ] rol/chief-people-officer — CHRO (talento, cultura, RRHH)
+- [ ] rol/chief-client-officer — Chief Client Officer (CX, retención)
+- [ ] rol/head-of-operations — Head of Operations
 ### Sustrato
 - [x] sustrato/mexico — LFT
 - [x] sustrato/mexico — PROFECO / CONDUSEF
@@ -756,21 +770,36 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - Reference-only (URL en frontmatter; sin raw/). Alcance respetado: sustrato = solo Norteamérica (los 3 temas son NA).
 - **Próxima tarea (iter 131):** sustrato/canada/inmigracion (IRCC, permisos de trabajo) — cierra LOOP 1 sustrato (4/4); luego LOOP 2 dominio (banca, capital-riesgo, cadena-suministro, consultoria, servicios-profesionales). Restan 11 temas Round 11.
 
+### [2026-07-11] Round 11 — ITER 131 | LOOP 1 (sustrato NA) cierra + LOOP 2 (dominio) + LOOP 3 (rol) — 11 ingests
+- 11 temas ingestados cubriendo las 3 capas (**Round 11 COMPLETA, 14/14**):
+  - [sustrato] `sustrato/canada/inmigracion.md` (deepening nodo NA existente): IRCC/IRPA, Express Entry (CRS), PNP, TFWP (LMIA/ESDC), IMP, study permits, PGWP, doble ciudadanía. Cierra LOOP 1 sustrato (4/4).
+  - [dominio] `dominio/banca/`, `dominio/capital-riesgo/`, `dominio/cadena-suministro/`, `dominio/consultoria/`, `dominio/servicios-profesionales/` (5 nodos nuevos, superstructura completa).
+  - [rol] `rol/chief-compliance-officer/`, `rol/treasurer/`, `rol/chief-investment-officer/`, `rol/head-of-research/`, `rol/chief-digital-officer/` (5 nodos nuevos, superstructura completa).
+- Reference-only (URL en frontmatter; sin raw/). Alcance respetado: sustrato = solo Norteamérica (los 11 temas son NA o generales).
+- **Round 11 COMPLETA (14/14 temas en 3 bucles: LOOP 1 sustrato NA, LOOP 2 dominio x5, LOOP 3 rol x5).** Cola Round 11 VACÍA → reabastecimiento: ejecutar `python3 scripts/gap_analysis.py` para abrir Round 12.
+
+### [2026-07-11] Reabastecimiento — Round 12 ABIERTA (gap_analysis.py extendida)
+- gap_analysis.py post-Round 11 = 0 (taxonomía agotada) → extendida la taxonomía para Round 12:
+  - TAXONOMY: +`sustrato/mexico/sat`, +`sustrato/estados-unidos/inmigracion`, +`sustrato/canada/transporte` (3 deepenings NA). Nota: `sustrato/canada/impuestos` ya existía (creada en run `inga`), así que no genera gap nuevo (no se duplicó).
+  - NEW_NODES (Round 12): +5 `dominio/` (alimentos-bebidas, moda, espacio, agua, semiconductores) +5 `rol/` (chief-strategy-officer, chief-privacy-officer, chief-people-officer, chief-client-officer, head-of-operations).
+- Verificado: gap_analysis.py ahora reporta 3 sustrato + 10 nodos nuevos = **13 huecos**. Cola Round 12 ABIERTA (13 temas). ALCANCE sustrato = solo Norteamérica.
+- Próxima tarea (iter 132): sustrato/mexico/sat (Sistema tributario mexicano) — abre LOOP 1 sustrato NA de Round 12.
+
 ## COLA ROUND 11 (14 temas — gap_analysis extendido, Round 10 completa)
 - [x] sustrato/mexico/inversion-extranjera — IED (IMMEX, maquiladora, regulación)
 - [x] sustrato/mexico/sector-manufacturero — Manufactura MX (industria, exportación)
 - [x] sustrato/estados-unidos/agricultura — USDA, Farm Bill, subsidios
-- [ ] sustrato/canada/inmigracion — IRCC, permisos de trabajo
-- [ ] dominio/banca — Banca (comercial, múltiple, digital, Basilea)
-- [ ] dominio/capital-riesgo — VC / Private Equity (fundraising, ciclo)
-- [ ] dominio/cadena-suministro — Supply Chain (procurement, logística)
-- [ ] dominio/consultoria — Consultoría de gestión (estrategia, big four)
-- [ ] dominio/servicios-profesionales — Servicios profesionales (firmas, utilización)
-- [ ] rol/chief-compliance-officer — CCO (Chief Compliance Officer)
-- [ ] rol/treasurer — Treasurer (liquidez, financiamiento, riesgo tasa/divisa)
-- [ ] rol/chief-investment-officer — CIO inversiones (portafolio, activos)
-- [ ] rol/head-of-research — Head of Research / R&D (I+D, pipeline)
-- [ ] rol/chief-digital-officer — CDO digital (transformación digital)
+- [x] sustrato/canada/inmigracion — IRCC, permisos de trabajo
+- [x] dominio/banca — Banca (comercial, múltiple, digital, Basilea)
+- [x] dominio/capital-riesgo — VC / Private Equity (fundraising, ciclo)
+- [x] dominio/cadena-suministro — Supply Chain (procurement, logística)
+- [x] dominio/consultoria — Consultoría de gestión (estrategia, big four)
+- [x] dominio/servicios-profesionales — Servicios profesionales (firmas, utilización)
+- [x] rol/chief-compliance-officer — CCO (Chief Compliance Officer)
+- [x] rol/treasurer — Treasurer (liquidez, financiamiento, riesgo tasa/divisa)
+- [x] rol/chief-investment-officer — CIO inversiones (portafolio, activos)
+- [x] rol/head-of-research — Head of Research / R&D (I+D, pipeline)
+- [x] rol/chief-digital-officer — CDO digital (transformación digital)
 
 ### [2026-07-11] Round 10 — ITER 127 | LOOP 2 (dominio) — 5 ingests (nuevos nodos)
 - 5 nodos `dominio/` creados con superstructura completa (README, index, log, raw/):

@@ -348,3 +348,25 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   - `sustrato/mexico/sector-manufacturero.md` — Manufactura MX: maquiladora/IMMEX, >USD$300B exportados 2024, clústeres, nearshoring.
   - `sustrato/estados-unidos/agricultura.md` — USDA, Farm Bill, subsidios/price supports, 2.04M granjas, exportador neto.
 - Reference-only (URL en frontmatter; sin raw/). Alcance respetado: sustrato = solo Norteamérica (los 3 temas son NA). Restan 11 temas de Round 11 (canada/inmigracion + 5 dominio + 5 rol). Próxima tarea (iter 131): sustrato/canada/inmigracion (cierra LOOP 1 sustrato) → luego LOOP 2 dominio.
+
+## [2026-07-11] ingest | Round 11 — ITER 131 | LOOP 1 (sustrato NA) cierra — inmigración Canadá
+- 1 tema sustrato (deepening de nodo NA existente): `sustrato/canada/inmigracion.md` — IRCC/IRPA, Express Entry (CRS), PNP, TFWP (LMIA/ESDC), IMP, study permits, PGWP, doble ciudadanía, niveles >400k/año. **Cierra LOOP 1 sustrato (4/4).** Restan 10 temas (5 dominio + 5 rol).
+
+## [2026-07-11] ingest | Round 11 — ITER 131 | LOOP 2 (dominio) — 5 nodos nuevos
+- 5 nodos `dominio/` creados con superstructura completa (README, index, log, raw/):
+  - `dominio/banca/` — Banca: comercial, inversión, central, digital; depósitos, crédito, pagos, Basilea III/IV.
+  - `dominio/capital-riesgo/` — VC y Private Equity: ciclo del fondo (fundraising→exit), LP/GP, rondas, buyouts, J-curve.
+  - `dominio/cadena-suministro/` — Supply Chain Management: plan-procure-make-deliver-return, S&OP/IBP, procurement, resiliencia.
+  - `dominio/consultoria/` — Consultoría de gestión: estrategia, operaciones, M&A, tecnología; MBB/Big Four; up-or-out.
+  - `dominio/servicios-profesionales/` — Servicios profesionales: derecho, contabilidad, arquitectura, ingeniería; partnership, billable hours.
+- Reference-only (URL en frontmatter; sin raw/). Cross-refs a finanzas, logistica, estrategia, servicios-profesionales. **LOOP 2 dominio COMPLETO (5/5).** Restan 5 temas (rol).
+
+## [2026-07-11] ingest | Round 11 — ITER 131 | LOOP 3 (rol) — 5 nodos nuevos
+- 5 nodos `rol/` creados con superstructura completa (README, index, log, raw/):
+  - `rol/chief-compliance-officer/` — CCO: dueño del programa de cumplimiento, AML/sanciones, reporte a CEO/junta; ISO 37301/37001.
+  - `rol/treasurer/` — Treasurer: liquidez, cash management, financiamiento, cobertura riesgo tasa/divisa; reporta a CFO.
+  - `rol/chief-investment-officer/` — CIO de inversiones: estrategia de inversión, asset allocation, portafolio, deber fiduciario.
+  - `rol/head-of-research/` — Head of Research / I+D: estrategia de investigación, pipeline, IP; motor de innovación.
+  - `rol/chief-digital-officer/` — CDO: estrategia y transformación digital, CX, e-commerce, datos; vs CIO/Chief Data Officer.
+- Reference-only (URL en frontmatter; sin raw/). Cross-refs a cfo, cio, cto, cmo, compliance-officer, finanzas. **LOOP 3 rol COMPLETO (5/5).**
+- **Round 11 COMPLETO (14/14 temas en 3 bucles: LOOP 1 sustrato NA, LOOP 2 dominio x5, LOOP 3 rol x5).** Cola Round 11 VACÍA → reabastecimiento (gap_analysis.py).

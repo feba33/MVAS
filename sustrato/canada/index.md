@@ -15,3 +15,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [sector-bancario](sector-bancario.md) — Sector bancario Canadá: Big Six (RBC, TD, Scotiabank, BMO, CIBC, National Bank), OSFI, Bank of Canada · 🏷️ canada,big-six,osfi,bank-of-canada,cdic,banca · 📅 2026-07-11
 - [recursos-naturales](recursos-naturales.md) — Recursos naturales Canadá: NRCan, energía, minerales, bosques · 🏷️ canada,recursos-naturales,nrcan,energia,minerales,bosques · 📅 2026-07-11
 - [comercio-exterior](comercio-exterior.md) — Comercio exterior Canadá: Global Affairs Canada, CUSMA, aranceles 2025-26 · 🏷️ canada,comercio-exterior,cusma,usmca,global-affairs-canada,aranceles · 📅 2026-07-11
+- [inmigracion](inmigracion.md) — Inmigración Canadá: IRCC, IRPA, Express Entry, PNP, permisos de trabajo/estudio · 🏷️ canada,inmigracion,ircc,irpa,express-entry,permisos-trabajo,residencia-permanente · 📅 2026-07-11
