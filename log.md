@@ -267,3 +267,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   - [rol] `rol/general-counsel/` (nuevo nodo): GC/CLO, asesor legal máximo, gobierno corporativo.
 - Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo nuevo.
 - Cola Round 7 restante: 8 temas (sustrato x3, dominio x4, rol x2). Próxima corrida retoma iter 121.
+
+## [2026-07-11] Round 7 — ITER 121 | 3 ingests (sustrato + sustrato + dominio)
+- 3 temas ingestados cubriendo sustrato (x2) + dominio (x1). Cola Round 7 restante: 5 temas (sustrato x1, dominio x3, rol x2).
+  - [sustrato] `sustrato/estados-unidos/salud.md` (nodo existente): healthcare EE.UU. — FDA, CMS, HIPAA, Medicare A/B/C/D, Medicaid, ACA; ~17.8% PIB; sin universal.
+  - [sustrato] `sustrato/canada/salud.md` (nodo existente): medicare single-payer (Canada Health Act 1984), Health Canada, provincias, CADTH→Canada's Drug Agency.
+  - [dominio] `dominio/turismo/` (nuevo nodo): turismo y hospitalidad — industria, segmentos, cadena de valor, sostenibilidad; superstructura completa.
+- Reference-only (URL en frontmatter; sin raw/). Próxima corrida: iter 122 → dominio/medios-comunicacion.

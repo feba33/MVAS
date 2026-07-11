@@ -11,3 +11,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [impuestos](impuestos.md) — Impuestos federales Canadá: CRA, income tax, GST/HST · 🏷️ canada,impuestos,cra,income-tax,gst-hst,tributario · 📅 2026-07-09
 - [competition-bureau](competition-bureau.md) — Competencia Canadá: Competition Bureau / Competition Act · 🏷️ canada,competencia,competition-act · 📅 2026-07-10
 - [provincial-federal](provincial-federal.md) — Divisiones de poder federal/provincial Canadá (Constitución 1867) · 🏷️ canada,federalismo,division-poderes · 📅 2026-07-10
+- [salud](salud.md) — Salud/healthcare Canadá: Canada Health Act, Health Canada, medicare single-payer, CADTH/CDA · 🏷️ canada,healthcare,salud,medicare,canada-health-act,health-canada,cadth · 📅 2026-07-11

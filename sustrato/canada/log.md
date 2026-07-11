@@ -27,3 +27,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-10] ingest | Divisiones de poder federal/provincial en Canadá
 - Fuente: Wikipedia (en) — Federalism in Canada (reference-only).
 - Página: `provincial-federal.md`. Constitution Act 1867: distribución exhaustiva; s. 91 federal (POGG, comercio, banca, penal) vs s. 92 provincial (propiedad/civil, educación, recursos); residuales federales.
+
+## [2026-07-11] ingest | Salud y healthcare Canadá
+- Fuente: Wikipedia (en) — reference-only.
+- Página: `salud.md`. Medicare single-payer universal (Canada Health Act 1984, 5 principios); provincias administran; Health Canada regula fármacos; CADTH renombrada Canada's Drug Agency (CDA).

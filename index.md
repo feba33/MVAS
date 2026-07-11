@@ -42,7 +42,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [sec-valores](sustrato/estados-unidos/sec-valores.md) — SEC y regulación de valores · 🏷️ sec,valores · 📅 2026-07-09
 - [antitrust](sustrato/estados-unidos/antitrust.md) — Antitrust: Sherman/Clayton/FTC · 🏷️ antitrust,sherman · 📅 2026-07-09
 - [bankruptcy](sustrato/estados-unidos/bankruptcy.md) — Bankruptcy: Chapter 7/11/13 · 🏷️ bankruptcy,concursal · 📅 2026-07-09
-- [controles-exportacion](sustrato/estados-unidos/controles-exportacion.md) — Controles de exportación EE.UU.: EAR/ITAR (BIS/DDTC) · 🏷️ eeuu,export-controls,ear,itar · 📅 2026-07-10
+- [controles-exportacion](sustrato/estados-unidos/controles-exportacion.md) — Controles de exportación EE.UU.: EAR/ITAR (BIS/DDTC) · 🏷️ eeuu,export-controls,ear,itar,bis,ddtc · 📅 2026-07-10
+- [salud](sustrato/estados-unidos/salud.md) — Salud/healthcare EE.UU.: FDA, CMS, HIPAA, Medicare-Medicaid, ACA · 🏷️ eeuu,healthcare,salud,fda,cms,hipaa,medicare,medicaid · 📅 2026-07-11
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -50,6 +51,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [impuestos](sustrato/canada/impuestos.md) — Impuestos Canadá: CRA, GST/HST · 🏷️ canada,impuestos,cra · 📅 2026-07-09
 - [competition-bureau](sustrato/canada/competition-bureau.md) — Competencia Canadá: Competition Bureau / Competition Act · 🏷️ canada,competencia,competition-act · 📅 2026-07-10
 - [provincial-federal](sustrato/canada/provincial-federal.md) — Divisiones de poder federal/provincial Canadá (Constitución 1867) · 🏷️ canada,federalismo,division-poderes · 📅 2026-07-10
+- [salud](sustrato/canada/salud.md) — Salud/healthcare Canadá: Canada Health Act, Health Canada, medicare single-payer, CADTH/CDA · 🏷️ canada,healthcare,salud,medicare,canada-health-act,health-canada,cadth · 📅 2026-07-11
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -227,7 +229,10 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [construccion](dominio/construccion/construccion.md) — Construcción AEC: ciclo de proyecto, contratación, costos, tendencias · 🏷️ construccion,ingenieria,infraestructura,proyectos · 📅 2026-07-11
 
 ### rol/
-- [growth-lead](rol/growth-lead/growth-lead.md) — Growth Lead: adquisición, canales, experimentación · 🏷️ growth · 📅 2026-07-09
+### dominio/turismo
+- [turismo](dominio/turismo/turismo.md) — Turismo y hospitalidad: industria, segmentos, cadena de valor, sostenibilidad · 🏷️ turismo,hospitalidad,travel,horeca,sostenibilidad · 📅 2026-07-11
+
+### rol/
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
 - [engineering-manager](rol/engineering-manager/engineering-manager.md) — Engineering Manager: liderazgo, entrega, procesos · 🏷️ eng-mgmt · 📅 2026-07-09
 - [data-lead](rol/data-lead/data-lead.md) — Data Lead: datos, ML, analítica · 🏷️ data · 📅 2026-07-09

@@ -50,3 +50,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-10] ingest | Controles de exportación EE.UU. (EAR/ITAR, BIS/DDTC)
 - Fuente: Wikipedia (en) — Export Administration Regulations, International Traffic in Arms Regulations (reference-only).
 - Página: `controles-exportacion.md`. EAR (15 CFR, BIS/Commerce): CCL + ECCN, licencias; ITAR (22 CFR, DDTC/State): USML; OFAC sanciones. No eximidos por USMCA; impactan cadenas NA.
+
+## [2026-07-11] ingest | Salud y healthcare EE.UU. (FDA/CMS/HIPAA/Medicare-Medicaid)
+- Fuente: Wikipedia (en) — reference-only.
+- Página: `salud.md`. Sistema híbrido sin universal; FDA (FD&C), CMS (Medicare/Medicaid/CHIP), HIPAA (Título II PHI), Medicare A/B/C/D, Medicaid (estatal-federal); gasto ~17.8% PIB.
