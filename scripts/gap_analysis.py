@@ -28,15 +28,18 @@ TAXONOMY = {
         ("lft", "Ley Federal del Trabajo (laboral, outsourcing, reparto de utilidades)"),
         ("profeco-condusef", "Protección al consumidor (PROFECO, CONDUSEF)"),
         ("pld-uif", "Prevención de lavado / UIF (AML)"),
+        ("energia", "Sector energía (CRE/SENER, PEMEX/CFE, renovables)"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
         ("antitrust", "Antitrust (Sherman / Clayton)"),
         ("bankruptcy", "Derecho concursal / bancarrotas"),
+        ("healthcare", "Salud / healthcare (FDA, CMS, HIPAA, Medicare-Medicaid)"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
         ("provincial-federal", "Divisiones de poder provincial vs federal en Canadá"),
+        ("healthcare", "Salud / healthcare (Health Canada, provincias, CADTH)"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -143,6 +146,17 @@ NEW_NODES = [
     ("rol/chief-data-officer", "CDO — Chief Data Officer"),
     ("rol/chief-sustainability-officer", "CSO — Chief Sustainability Officer"),
     ("rol/chief-risk-officer", "CRO — Chief Risk Officer"),
+    # Round 7 — extensiones nuevas (dentro del alcance; sustrato solo NA).
+    ("dominio/agronegocios", "Agroindustria / agronegocios: granos, ganadería, agtech, cadenas de valor rurales"),
+    ("dominio/construccion", "Construcción / ingeniería AEC: ciclo de obra, contratos, costos, infraestructura"),
+    ("dominio/turismo", "Turismo / hospitalidad: hotelería, OTA, destinos, experiencias"),
+    ("dominio/medios-comunicacion", "Medios de comunicación / publishing: prensa, broadcast, digital, streaming"),
+    ("dominio/automotriz", "Industria automotriz / movilidad: OEM, proveedores, maquiladoras, EVs"),
+    ("dominio/gobierno-publico", "Sector público / gobierno: presupuesto, contratación, política pública"),
+    ("rol/ciso", "CISO — Chief Information Security Officer"),
+    ("rol/general-counsel", "General Counsel — máximo ejecutivo legal de la organización"),
+    ("rol/brand-manager", "Brand Manager — gestión de marca y portafolio"),
+    ("rol/business-development", "Business Development — alianzas, canales, expansión de negocio"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

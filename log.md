@@ -252,3 +252,18 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Fuentes web (reference-only): Wikipedia (Chief information/operating/marketing officer), Investopedia (CIO). **LOOP 3 de Round 5 (capa rol).** Cola Round 5 VACÍA (8/8 temas ingestados en 3 bucles).
 - **Round 5 COMPLETO (10/10 temas: sustrato x2 + dominio x5 + rol x3).** Reabastecimiento: re-ejecutar `python3 scripts/gap_analysis.py` para abrir Round 6.
 
+
+## [2026-07-11] Round 7 — ITER 120 | gap_analysis extendido + 5 ingests (3 capas)
+- Reabastecimiento: taxonomía de `scripts/gap_analysis.py` agotada (0 huecos) → extendida con
+  3 huecos sustrato NA (mexico→energia, estados-unidos→healthcare, canada→healthcare) + 10 nodos
+  nuevos (dominio: agronegocios, construccion, turismo, medios-comunicacion, automotriz,
+  gobierno-publico; rol: ciso, general-counsel, brand-manager, business-development).
+- Esta iter 120 ingestó 5 temas cubriendo las 3 capas:
+  - [sustrato] `sustrato/mexico/energia.md` (página nueva en nodo existente): CFE, PEMEX,
+    SENER/CRE/CNH/ASEA, reforma 2013, renovables (fuente: Wikipedia ES).
+  - [dominio] `dominio/agronegocios/` (nuevo nodo): cadena agroalimentaria, agtech, commodities.
+  - [dominio] `dominio/construccion/` (nuevo nodo): ciclo AEC, contratación, costos, tendencias.
+  - [rol] `rol/ciso/` (nuevo nodo): CISO, dueño del riesgo de seguridad/ciberseguridad.
+  - [rol] `rol/general-counsel/` (nuevo nodo): GC/CLO, asesor legal máximo, gobierno corporativo.
+- Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo nuevo.
+- Cola Round 7 restante: 8 temas (sustrato x3, dominio x4, rol x2). Próxima corrida retoma iter 121.

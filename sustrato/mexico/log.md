@@ -67,3 +67,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-10] ingest | Comercio exterior México (T-MEC/USMCA, IMMEX, aduana)
 - Fuente: Wikipedia (en) — United States–Mexico–Canada Agreement (reference-only).
 - Página: `comercio-exterior.md`. México: 14+ TLC; USMCA vigente 1 jul 2020 (sustituye NAFTA); reglas de origen auto 75% regional / 40-45% laboral; IMMEX (importación temporal); PROSEC/draw-back; SE y SAT. Cross-ref controles-exportacion EE.UU.
+
+## [2026-07-11] ingest | Sector energético de México (electricidad, hidrocarburos, renovables)
+- Fuentes: Wikipedia ES — Energía eléctrica en México; Petróleos Mexicanos (reference-only).
+- Página: `energia.md`. Marco constitucional (propiedad federal); CFE controla electricidad (~90.543 MW, 36,9% limpia 2024); SENER/CRE/CENACE; PEMEX (1938, expropiación), CNH/ASEA; reforma energética 2013; retos de producción y renovables.

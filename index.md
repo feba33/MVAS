@@ -28,7 +28,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [lft](sustrato/mexico/lft.md) — LFT: laboral, outsourcing, PTU · 🏷️ lft,laboral,outsourcing · 📅 2026-07-09
 - [profeco-condusef](sustrato/mexico/profeco-condusef.md) — PROFECO/CONDUSEF: protección al consumidor · 🏷️ profeco,condusef,consumidor · 📅 2026-07-09
 - [pld-uif](sustrato/mexico/pld-uif.md) — PLD/UIF: prevención de lavado (AML) · 🏷️ pld,uif,aml · 📅 2026-07-09
-- [comercio-exterior](sustrato/mexico/comercio-exterior.md) — Comercio exterior México: T-MEC/USMCA, IMMEX, aduana · 🏷️ mexico,comercio-exterior,usmca,immex · 📅 2026-07-10
+- [comercio-exterior](sustrato/mexico/comercio-exterior.md) — Comercio exterior México: T-MEC/USMCA, IMMEX, aduana · 🏷️ mexico,comercio-exterior,usmca,immex,aduanas · 📅 2026-07-10
+- [energia](sustrato/mexico/energia.md) — Sector energético México: CFE, PEMEX, SENER/CRE, reforma 2013, renovables · 🏷️ mexico,energia,pemex,cfe,sener,reforma-energetica · 📅 2026-07-11
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -219,6 +220,12 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/telecomunicaciones
 - [telecomunicaciones](dominio/telecomunicaciones/telecomunicaciones.md) — Telecom: redes fijas/móviles, 5G, espectro, regulación · 🏷️ telecomunicaciones,5g,redes,espectro,regulacion · 📅 2026-07-11
 
+### dominio/agronegocios
+- [agronegocios](dominio/agronegocios/agronegocios.md) — Agronegocios: cadena de valor agroalimentaria, agtech, commodities · 🏷️ agronegocios,agricultura,agtech,cadena-valor,alimentos · 📅 2026-07-11
+
+### dominio/construccion
+- [construccion](dominio/construccion/construccion.md) — Construcción AEC: ciclo de proyecto, contratación, costos, tendencias · 🏷️ construccion,ingenieria,infraestructura,proyectos · 📅 2026-07-11
+
 ### rol/
 - [growth-lead](rol/growth-lead/growth-lead.md) — Growth Lead: adquisición, canales, experimentación · 🏷️ growth · 📅 2026-07-09
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
@@ -255,6 +262,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [chief-data-officer](rol/chief-data-officer/chief-data-officer.md) — CDO: gobierno de datos, analítica, democratización, habilitación de IA · 🏷️ cdo,datos,gobierno-datos,analitica,ia · 📅 2026-07-11
 - [chief-sustainability-officer](rol/chief-sustainability-officer/chief-sustainability-officer.md) — CSO: ESG, descarbonización, reporting climático, responsabilidad social · 🏷️ cso,sostenibilidad,esg,clima,responsabilidad-social · 📅 2026-07-11
 - [chief-risk-officer](rol/chief-risk-officer/chief-risk-officer.md) — CRO: riesgo enterprise, ERM, crédito/mercado/operativo, continuidad · 🏷️ cro,riesgo,erm,gestion-riesgo,cumplimiento · 📅 2026-07-11
+- [ciso](rol/ciso/ciso.md) — CISO: estrategia y operación de seguridad/ciberseguridad, dueño del riesgo · 🏷️ ciso,seguridad,ciberseguridad,rol,riesgo · 📅 2026-07-11
+- [general-counsel](rol/general-counsel/general-counsel.md) — General Counsel: asesor legal máximo, gobierno corporativo, reporting a junta · 🏷️ general-counsel,legal,cumplimiento,rol,gobierno-corporativo · 📅 2026-07-11
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

@@ -33,10 +33,10 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   (T-MEC/USMCA, IMMEX) y `sustrato/estados-unidos/controles-exportacion.md` (EAR/ITAR). CBCA ya cubierto
   en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
-- **Iteración actual:** 119 — Round 6 COMPLETO (LOOP 1 dominio x4 + LOOP 2 rol x3; 7 nodos nuevos: salud, educacion, transporte, telecomunicaciones, CDO, CSO, CRO).
-- **Temas completados:** 142 / 142 (Round 3: 114 + Round 4: 11 + Round 5: 10/10 + Round 6: 7/7).
+- **Iteración actual:** 120 — Round 7 EN PROGRESO (gap_analysis.py extendido: 3 huecos sustrato NA + 10 nodos nuevos; ver COLA ROUND 7).
+- **Temas completados:** 142 / 142 (Round 3: 114 + Round 4: 11 + Round 5: 10/10 + Round 6: 7/7). Round 7 suma ingests nuevos aparte.
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** Reabastecimiento — ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0 (taxonomía agotada), ampliar NEW_NODES/TAXONOMY para Round 7 o detener.
+- **Siguiente paso:** Round 7 — ejecutar bucles de ingest (sustrato NA + dominio x6 + rol x4). Esta iter 120 cubre: sustrato/mexico→energia + dominio/agronegocios + dominio/construccion + rol/ciso + rol/general-counsel.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -498,6 +498,18 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - Reference-only (URL en frontmatter; sin raw/). **LOOP 2 de Round 6 (capa rol) COMPLETO.**
 - **Round 6 COMPLETO (7/7 temas en 2 bucles).** Siguiente paso: ejecutar gap_analysis para Round 7.
 
+### [2026-07-11] Round 7 — ITER 120 | gap_analysis extendido + 5 ingests (3 capas)
+- gap_analysis.py agotó taxonomía (0 huecos) → extendida (3 huecos sustrato NA + 10 nodos nuevos).
+- 5 temas ingestados cubriendo las 3 capas:
+  - [sustrato] `sustrato/mexico/energia.md` (nodo existente): CFE, PEMEX, SENER/CRE/CNH/ASEA, reforma 2013, renovables.
+  - [dominio] `dominio/agronegocios/` (nuevo nodo): cadena agroalimentaria, agtech, commodities.
+  - [dominio] `dominio/construccion/` (nuevo nodo): ciclo AEC, contratación, costos, tendencias.
+  - [rol] `rol/ciso/` (nuevo nodo): CISO, dueño del riesgo de seguridad/ciberseguridad.
+  - [rol] `rol/general-counsel/` (nuevo nodo): GC/CLO, asesor legal máximo, gobierno corporativo.
+- Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo nuevo.
+- **Cola Round 7 restante: 8 temas** (sustrato x3, dominio x4, rol x2). Próxima tarea (iter 121):
+  sustrato/estados-unidos — Salud/healthcare (FDA/CMS/HIPAA) [sustrato].
+
 
 ## COLA ROUND 4 (gap_analysis.py iter 110 — taxonomía corregida)
 ### Sustrato (nuevos países)
@@ -553,6 +565,24 @@ COMPLETO — Round 5 finalizado (10/10 temas en 3 bucles: LOOP 1 sustrato ecuado
 ## ✅ CIERRE ROUND 6
 COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 2 rol x3). Siguiente paso: ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0 (taxonomía agotada), ampliar NEW_NODES/TAXONOMY para Round 7 o detener.
 
+
+## COLA ROUND 7 (gap_analysis.py iter 120 — taxonomía extendida; sustrato solo NA)
+### Sustrato (extender nodos NA existentes)
+- [x] sustrato/mexico — Sector energía (CRE/SENER, PEMEX/CFE, renovables)
+- [ ] sustrato/estados-unidos — Salud / healthcare (FDA, CMS, HIPAA, Medicare-Medicaid)
+- [ ] sustrato/canada — Salud / healthcare (Health Canada, provincias, CADTH)
+### Dominio (nuevos nodos)
+- [x] dominio/agronegocios — Agroindustria / agronegocios
+- [x] dominio/construccion — Construcción / ingeniería AEC
+- [ ] dominio/turismo — Turismo / hospitalidad
+- [ ] dominio/medios-comunicacion — Medios de comunicación / publishing
+- [ ] dominio/automotriz — Industria automotriz / movilidad
+- [ ] dominio/gobierno-publico — Sector público / gobierno
+### Rol (nuevos nodos)
+- [x] rol/ciso — CISO — Chief Information Security Officer
+- [x] rol/general-counsel — General Counsel
+- [ ] rol/brand-manager — Brand Manager
+- [ ] rol/business-development — Business Development
 
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)
