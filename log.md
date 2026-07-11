@@ -209,7 +209,24 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - `rol/product-marketing-manager`: `product-marketing-manager.md` (PMM: GTM, posicionamiento, mensaje, sales enablement).
 - `rol/data-scientist`: `data-scientist.md` (estadística + ML + programación; modelado predictivo).
 - Fuentes web (reference-only): Wikipedia (es), Product Marketing Alliance, IBM. **LOOP 3 de Round 4 (capa rol).**
-- **Round 4 COMPLETO (11/11 temas ingestados en 3 bucles).** Reabastecimiento: re-ejecutar `python3 scripts/gap_analysis.py` para abrir Round 5.
+- **Round 5 COMPLETO (10/10 temas en 3 bucles).** Siguiente paso: ejecutar `python3 scripts/gap_analysis.py` para abrir Round 6.
+
+## [2026-07-11] Round 6 — ITER 118 | NODOS NUEVOS dominio/salud + dominio/educacion + dominio/transporte + dominio/telecomunicaciones (LOOP 1)
+- Creados 4 nodos `dominio/` con superstructura completa (README, index, log, raw/).
+- `dominio/salud`: `salud.md` (sistemas, seguros médicos, farmacia, telemedicina).
+- `dominio/educacion`: `educacion.md` (modelos, niveles, edtech, política educativa).
+- `dominio/transporte`: `transporte.md` (modos, logística urbana, aviación, regulación).
+- `dominio/telecomunicaciones`: `telecomunicaciones.md` (redes fijas/móviles, 5G, espectro, regulación).
+- Fuentes web (reference-only): Wikipedia (Health care/Education/Transport/Telecommunications), WHO, OECD, ITF, ITU. **LOOP 1 de Round 6 (capa dominio).** Cola Round 6 restante: 3 temas (rol x3).
+
+## [2026-07-11] Round 6 — ITER 119 | NODOS NUEVOS rol/chief-data-officer + rol/chief-sustainability-officer + rol/chief-risk-officer (LOOP 2)
+- Creados 3 nodos `rol/` con superstructura completa (README, index, log, raw/).
+- `rol/chief-data-officer`: `chief-data-officer.md` (gobierno de datos, analítica, democratización, IA).
+- `rol/chief-sustainability-officer`: `chief-sustainability-officer.md` (ESG, descarbonización, reporting climático, responsabilidad social).
+- `rol/chief-risk-officer`: `chief-risk-officer.md` (riesgo enterprise, ERM, crédito/mercado/operativo, continuidad).
+- Fuentes web (reference-only): Wikipedia (Chief data/sustainability/risk officer), DAMA, UNEP, GARP. **LOOP 2 de Round 6 (capa rol).** Cola Round 6 VACÍA (7/7 temas ingestados en 2 bucles).
+- **Round 6 COMPLETO (7/7 temas: dominio x4 + rol x3).** Reabastecimiento: re-ejecutar `python3 scripts/gap_analysis.py` para abrir Round 7 (taxonomía probablemente agotada; extender si aplica).
+
 
 ## [2026-07-10] Round 5 — ITER 114 | gap_analysis (plan) + NODOS NUEVOS sustrato/ecuador + sustrato/portugal (LOOP 1)
 - Reabastecimiento: extendida la taxonomía de `scripts/gap_analysis.py` (6 nodos nuevos sugeridos: seguros, energia, inmobiliario, retail, manufactura [+ roles cio/coo/cmo y países ecuador/portugal]). Re-ejecutado → 10 huecos/nodos nuevos. Abierta cola Round 5 (10 temas: sustrato x2, dominio x5, rol x3).

@@ -207,6 +207,18 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/manufactura
 - [manufactura](dominio/manufactura/manufactura.md) — Manufactura: lean, Six Sigma, Industry 4.0, cadena de producción · 🏷️ manufactura,lean,six-sigma,produccion,industry-4.0 · 📅 2026-07-11
 
+### dominio/salud
+- [salud](dominio/salud/salud.md) — Salud/healthcare: sistemas, seguros médicos, farmacia, telemedicina · 🏷️ salud,healthcare,seguros-medicos,telemedicina,farmacia · 📅 2026-07-11
+
+### dominio/educacion
+- [educacion](dominio/educacion/educacion.md) — Educación: modelos, niveles, edtech, política educativa · 🏷️ educacion,edtech,formacion,politica-educativa · 📅 2026-07-11
+
+### dominio/transporte
+- [transporte](dominio/transporte/transporte.md) — Transporte/movilidad: modos, logística urbana, aviación, regulación · 🏷️ transporte,movilidad,logistica,aviacion,regulacion · 📅 2026-07-11
+
+### dominio/telecomunicaciones
+- [telecomunicaciones](dominio/telecomunicaciones/telecomunicaciones.md) — Telecom: redes fijas/móviles, 5G, espectro, regulación · 🏷️ telecomunicaciones,5g,redes,espectro,regulacion · 📅 2026-07-11
+
 ### rol/
 - [growth-lead](rol/growth-lead/growth-lead.md) — Growth Lead: adquisición, canales, experimentación · 🏷️ growth · 📅 2026-07-09
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
@@ -240,6 +252,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [cio](rol/cio/cio.md) — Chief Information Officer: estrategia de TI, transformación digital, datos/ciberseguridad · 🏷️ cio,tecnologia,ti,digital,datos · 📅 2026-07-11
 - [coo](rol/coo/coo.md) — Chief Operating Officer: ejecuta la estrategia, opera el día a día, excelencia operativa · 🏷️ coo,operaciones,ejecucion,excelencia-operativa · 📅 2026-07-11
 - [cmo](rol/cmo/cmo.md) — Chief Marketing Officer: marca, demanda, GTM, customer insight, martech · 🏷️ cmo,marketing,marca,demanda,gtm · 📅 2026-07-11
+- [chief-data-officer](rol/chief-data-officer/chief-data-officer.md) — CDO: gobierno de datos, analítica, democratización, habilitación de IA · 🏷️ cdo,datos,gobierno-datos,analitica,ia · 📅 2026-07-11
+- [chief-sustainability-officer](rol/chief-sustainability-officer/chief-sustainability-officer.md) — CSO: ESG, descarbonización, reporting climático, responsabilidad social · 🏷️ cso,sostenibilidad,esg,clima,responsabilidad-social · 📅 2026-07-11
+- [chief-risk-officer](rol/chief-risk-officer/chief-risk-officer.md) — CRO: riesgo enterprise, ERM, crédito/mercado/operativo, continuidad · 🏷️ cro,riesgo,erm,gestion-riesgo,cumplimiento · 📅 2026-07-11
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

@@ -135,6 +135,14 @@ NEW_NODES = [
     ("rol/cio", "CIO — Chief Information Officer"),
     ("rol/coo", "COO — Chief Operating Officer"),
     ("rol/cmo", "CMO — Chief Marketing Officer"),
+    # Round 6 — extensiones en capas generales (dominio/rol), dentro del alcance.
+    ("dominio/salud", "Salud / healthcare: sistemas de salud, seguros médicos, farmacia, telemedicina"),
+    ("dominio/educacion", "Educación: modelos, edtech, política educativa"),
+    ("dominio/transporte", "Transporte / movilidad: logística urbana, aviación, regulación"),
+    ("dominio/telecomunicaciones", "Telecomunicaciones: redes, 5G, regulación"),
+    ("rol/chief-data-officer", "CDO — Chief Data Officer"),
+    ("rol/chief-sustainability-officer", "CSO — Chief Sustainability Officer"),
+    ("rol/chief-risk-officer", "CRO — Chief Risk Officer"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

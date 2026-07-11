@@ -33,10 +33,10 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   (T-MEC/USMCA, IMMEX) y `sustrato/estados-unidos/controles-exportacion.md` (EAR/ITAR). CBCA ya cubierto
   en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
-- **Iteración actual:** 116 — Round 5 COMPLETO (LOOP 1 sustrato + LOOP 2 dominio + LOOP 3 rol; 8 nodos nuevos: seguros, energia, inmobiliario, retail, manufactura, cio, coo, cmo).
-- **Temas completados:** 135 / 135 (Round 3: 114 + Round 4: 11 + Round 5: 10/10).
+- **Iteración actual:** 119 — Round 6 COMPLETO (LOOP 1 dominio x4 + LOOP 2 rol x3; 7 nodos nuevos: salud, educacion, transporte, telecomunicaciones, CDO, CSO, CRO).
+- **Temas completados:** 142 / 142 (Round 3: 114 + Round 4: 11 + Round 5: 10/10 + Round 6: 7/7).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** Reabastecimiento — ejecutar `python3 scripts/gap_analysis.py` para abrir Round 6 (nuevos huecos/nodos sugeridos).
+- **Siguiente paso:** Reabastecimiento — ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0 (taxonomía agotada), ampliar NEW_NODES/TAXONOMY para Round 7 o detener.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -473,6 +473,32 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   - Reference-only (URL en frontmatter; sin raw/). **LOOP 3 de Round 5 (capa rol) COMPLETO.**
   - **Round 5 COMPLETO (10/10 temas en 3 bucles).** Siguiente paso: ejecutar `python3 scripts/gap_analysis.py` para abrir Round 6.
 
+### [2026-07-11] Round 6 — ITER 117 | gap_analysis (plan) + 7 nodos nuevos sugeridos
+- Reabastecimiento: agotada la taxonomía de Round 5 (0 huecos, 0 nodos nuevos). Extendida
+  `scripts/gap_analysis.py` con 7 nodos nuevos en capas generales (dominio/rol, dentro del alcance):
+  `dominio/salud`, `dominio/educacion`, `dominio/transporte`, `dominio/telecomunicaciones`,
+  `rol/chief-data-officer`, `rol/chief-sustainability-officer`, `rol/chief-risk-officer`.
+- Re-ejecutado → 7 sugerencias. Abierta cola Round 6 (7 temas: dominio x4, rol x3).
+- **Próxima tarea (iter 118):** LOOP 1 (dominio): salud, educacion, transporte, telecomunicaciones.
+
+### [2026-07-11] Round 6 — ITER 118 | LOOP 1 (dominio) — salud, educacion, transporte, telecomunicaciones
+- Creados 4 nodos `dominio/` con superstructura completa (README, index, log, raw/).
+- `dominio/salud`: `salud.md` — sistemas de salud, seguros médicos, farmacia, telemedicina.
+- `dominio/educacion`: `educacion.md` — modelos, niveles, edtech, política educativa.
+- `dominio/transporte`: `transporte.md` — modos, logística urbana, aviación, regulación.
+- `dominio/telecomunicaciones`: `telecomunicaciones.md` — redes fijas/móviles, 5G, espectro, regulación.
+- Reference-only (URL en frontmatter; sin raw/). **LOOP 1 de Round 6 (capa dominio) COMPLETO.**
+- **Próxima tarea (iter 119):** LOOP 2 (rol): chief-data-officer, chief-sustainability-officer, chief-risk-officer.
+
+### [2026-07-11] Round 6 — ITER 119 | LOOP 2 (rol) — CDO, CSO, CRO
+- Creados 3 nodos `rol/` con superstructura completa (README, index, log, raw/).
+- `rol/chief-data-officer`: `chief-data-officer.md` — gobierno de datos, analítica, democratización, habilitación de IA.
+- `rol/chief-sustainability-officer`: `chief-sustainability-officer.md` — ESG, descarbonización, reporting climático, responsabilidad social.
+- `rol/chief-risk-officer`: `chief-risk-officer.md` — riesgo enterprise, ERM, crédito/mercado/operativo, continuidad.
+- Reference-only (URL en frontmatter; sin raw/). **LOOP 2 de Round 6 (capa rol) COMPLETO.**
+- **Round 6 COMPLETO (7/7 temas en 2 bucles).** Siguiente paso: ejecutar gap_analysis para Round 7.
+
+
 ## COLA ROUND 4 (gap_analysis.py iter 110 — taxonomía corregida)
 ### Sustrato (nuevos países)
 - [x] sustrato/peru — Protección de datos (Ley 29733 / ANPD)
@@ -512,6 +538,21 @@ Siguiente paso de reabastecimiento: re-ejecutar `python3 scripts/gap_analysis.py
 
 ## ✅ CIERRE ROUND 5
 COMPLETO — Round 5 finalizado (10/10 temas en 3 bucles: LOOP 1 sustrato ecuador+portugal, LOOP 2 dominio x5, LOOP 3 rol x3). Siguiente paso: ejecutar `python3 scripts/gap_analysis.py` para abrir Round 6.
+
+## COLA ROUND 6 (gap_analysis.py iter 117 — taxonomía extendida)
+### Dominio (nuevos nodos)
+- [x] dominio/salud — Salud / healthcare (sistemas de salud, seguros médicos, farmacia, telemedicina)
+- [x] dominio/educacion — Educación (modelos, edtech, política educativa)
+- [x] dominio/transporte — Transporte / movilidad (logística urbana, aviación, regulación)
+- [x] dominio/telecomunicaciones — Telecomunicaciones (redes, 5G, regulación)
+### Rol (nuevos nodos)
+- [x] rol/chief-data-officer — CDO (Chief Data Officer)
+- [x] rol/chief-sustainability-officer — CSO (Chief Sustainability Officer)
+- [x] rol/chief-risk-officer — CRO (Chief Risk Officer)
+
+## ✅ CIERRE ROUND 6
+COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 2 rol x3). Siguiente paso: ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0 (taxonomía agotada), ampliar NEW_NODES/TAXONOMY para Round 7 o detener.
+
 
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)
