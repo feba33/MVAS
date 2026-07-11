@@ -58,3 +58,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-11] ingest | Sector tecnológico de EE.UU. (Big Tech y regulación)
 - Fuentes: Wikipedia (en) Big Tech; CHIPS (chips.gov) — reference-only.
 - Página: `sector-tecnologia.md`. Big Tech (Microsoft, Apple, Alphabet, Amazon, Meta); antitrust DOJ/FTC; Section 230; EO de IA / NIST AI RMF; CHIPS and Science Act 2022; privacidad (CCPA, sin ley federal); controles de exportación de chips (BIS).
+
+## [2026-07-11] ingest | Vivienda y mercado inmobiliario de EE.UU.
+- Fuente: Wikipedia (en, Housing in the United States; Fannie Mae) + FHFA — reference-only.
+- Página: `vivienda-real-estate.md`. Homeownership ~64% (2017); GSEs Fannie Mae (1938) y Freddie Mac securitizan hipotecas en MBS; FHA (bajo HUD) asegura hipotecas; FHFA regula. Cross-ref irs (mortgage interest deduction), bankruptcy (foreclosure), dominio/inmobiliario.

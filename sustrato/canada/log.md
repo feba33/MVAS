@@ -35,3 +35,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-11] ingest | Sector bancario de Canadá
 - Fuente: Wikipedia (en) Banking in Canada; OSFI (osfi-bsif.gc.ca) — reference-only.
 - Página: `sector-bancario.md`. Big Six (RBC, TD, Scotiabank, BMO, CIBC, National Bank); OSFI (supervisor prudencial), Bank of Canada (política monetaria), CDIC (seguro depósitos), FCAC; Bank Act Schedule I/II/III; open banking, B-20.
+
+## [2026-07-11] ingest | Recursos naturales de Canadá (NRCan)
+- Fuente: Wikipedia (en, Natural Resources Canada) + Canada.ca — reference-only.
+- Página: `recursos-naturales.md`. NRCan (depto federal, 1994): energía, minerales/metales, bosques, ciencias de la Tierra, cartografía; base económica (oilsands, uranio, bosques, hidro). Cross-ref dominio/mineria, dominio/energia, sector-bancario, dominio/agronegocios.

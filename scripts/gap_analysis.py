@@ -30,6 +30,7 @@ TAXONOMY = {
         ("pld-uif", "Prevención de lavado / UIF (AML)"),
         ("energia", "Sector energía (CRE/SENER, PEMEX/CFE, renovables)"),
         ("banca-sistema-financiero", "Sistema financiero / banca (Banxico, CNBV, banca múltiple, Sofipos)"),
+        ("pensiones-afore", "Sistema de pensiones (AFORE, CONSAR, SAR, SIEFOREs)"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -37,12 +38,14 @@ TAXONOMY = {
         ("bankruptcy", "Derecho concursal / bancarrotas"),
         ("salud", "Salud / healthcare (FDA, CMS, HIPAA, Medicare-Medicaid)"),
         ("sector-tecnologia", "Sector tecnológico (Big Tech, antitrust, IA, CHIPS Act)"),
+        ("vivienda-real-estate", "Vivienda y mercado inmobiliario (Fannie/Freddie Mac, FHA/HUD, MBS)"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
         ("provincial-federal", "Divisiones de poder provincial vs federal en Canadá"),
         ("salud", "Salud / healthcare (Health Canada, provincias, CADTH)"),
         ("sector-bancario", "Sector bancario (Big Six, OSFI)"),
+        ("recursos-naturales", "Recursos naturales (NRCan, energía, minerales, bosques)"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -170,6 +173,17 @@ NEW_NODES = [
     ("rol/vp-engineering", "VP Engineering — Vicepresidente de Ingeniería"),
     ("rol/vp-sales", "VP Sales — Vicepresidente de Ventas / Revenue"),
     ("rol/chief-of-staff", "Chief of Staff — jefe de gabinete ejecutivo"),
+    # Round 9 — extensiones en capas generales (dominio/rol) + sustrato NA (deepening). Sin nuevos países.
+    ("dominio/emprendimiento", "Emprendimiento: creación de valor, ciclo, ecosistema, financiamiento"),
+    ("dominio/relaciones-publicas", "Relaciones públicas: PR, earned media, media relations, reputación"),
+    ("dominio/innovacion", "Innovación: gestión de la innovación, ISO 56000, tipos incremental/disruptiva"),
+    ("dominio/experiencia-cliente", "Experiencia del cliente (CX): cognitiva/emocional, journey, lealtad"),
+    ("dominio/comercio-internacional", "Comercio internacional: aranceles, TLC, OMC, teorías comparativas"),
+    ("rol/product-manager", "Product Manager — dueño de estrategia de producto, requisitos, lanzamientos"),
+    ("rol/financial-analyst", "Financial Analyst — análisis financiero, valoración, crédito, modelado"),
+    ("rol/head-of-growth", "Head of Growth — crecimiento vía experimentación cross-funcional"),
+    ("rol/vp-marketing", "VP of Marketing — lidera org de marketing, brand, GTM, demanda, ROI"),
+    ("rol/tech-lead", "Tech Lead — liderazgo técnico IC, arquitectura, calidad, mentoría"),
     ("rol/account-executive", "Account Executive — ejecutivo de cuentas (ventas)"),
 ]
 

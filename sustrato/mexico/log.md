@@ -75,3 +75,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-11] ingest | Sistema financiero y banca de México
 - Fuentes: Banco de México (banxico.org.mx), CNBV (gob.mx/cnbv) — reference-only.
 - Página: `banca-sistema-financiero.md`. Banxico (banco central, política monetaria), CNBV (supervisión), banca múltiple (BBVA, Santander, Banorte, Citibanamex, HSBC), banca de desarrollo (NAFIN, Bancomext, Banobras), Sofipos/ITF/fintech (Nu, Mercado Pago, Klar), SPEI/CoDi; Ley de Instituciones de Crédito.
+
+## [2026-07-11] ingest | Sistema de pensiones de México (AFORE / CONSAR / SAR)
+- Fuente: Wikipedia (en, Afore) + CONSAR (gob.mx) — reference-only.
+- Página: `pensiones-afore.md`. AFORE administran cuentas individuales de retiro; CONSAR (SHCP) las regula; SAR desde 1997 (sustituye reparto); aportaciones trabajador+patrón+gobierno vía SIEFOREs; AUM ~MX$8.3 billones (23.8% PIB) y >70% cobertura formal (Consar 2025). Cross-ref regimen-fiscal, banca-sistema-financiero, dominio/finanzas.

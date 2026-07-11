@@ -33,10 +33,10 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   (T-MEC/USMCA, IMMEX) y `sustrato/estados-unidos/controles-exportacion.md` (EAR/ITAR). CBCA ya cubierto
   en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
-- **Iteración actual:** 123 — Round 8 COMPLETO (cola vacía; ver LOG ITER 123 abajo).
-- **Temas completados:** 168 (155 previos + Round 8: 13/13 ingestados en iter 123).
+- **Iteración actual:** 124 — Round 9 COMPLETO (cola vacía; ver LOG ITER 124 abajo).
+- **Temas completados:** 181 (168 previos + Round 9: 13/13 ingestados en iter 124).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** Reabastecimiento ejecutado (iter 123): `gap_analysis.py` (iter 122) dio **0 huecos reales y 0 nodos nuevos** → se **EXTENDIÓ** la taxonomía de `scripts/gap_analysis.py` (Round 8: 3 huecos sustrato NA + 10 nodos nuevos) y se reanudó el bucle. Round 8 COMPLETO (13/13). Cola Round 8 VACÍA. Re-ejecutar `gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 9 o pausar. **Alcance sustrato = solo Norteamérica** (sin nuevos países no-NA). NO agregar países fuera de Norteamérica.
+- **Siguiente paso:** Round 9 COMPLETO (13/13 en 3 bucles: LOOP 1 sustrato NA, LOOP 2 dominio, LOOP 3 rol). `gap_analysis.py` (post-Round 9) = 0 huecos reales, 0 nodos nuevos → taxonomía agotada otra vez. Re-ejecutar `gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 10 o **PAUSAR** el bucle hasta nueva dirección del usuario. **Alcance sustrato = solo Norteamérica** (sin nuevos países no-NA). NO agregar países fuera de Norteamérica.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -667,3 +667,36 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - **Round 8 COMPLETO (13/13 temas en 3 bucles: LOOP 1 sustrato, LOOP 2 dominio, LOOP 3 rol).** Cola Round 8 VACÍA.
   Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 9 o pausar.
 
+
+## COLA ROUND 9 (gap_analysis.py iter 123 → taxonomía extendida en iter 124; sustrato solo NA)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Sistema de pensiones (AFORE / CONSAR / SAR)
+- [x] sustrato/estados-unidos — Vivienda y mercado inmobiliario (Fannie/Freddie Mac, FHA/HUD)
+- [x] sustrato/canada — Recursos naturales (NRCan, energía, minerales, bosques)
+### Dominio (nuevos nodos)
+- [x] dominio/emprendimiento — Emprendimiento
+- [x] dominio/relaciones-publicas — Relaciones públicas (PR)
+- [x] dominio/innovacion — Gestión de la innovación (ISO 56000)
+- [x] dominio/experiencia-cliente — Customer experience (CX)
+- [x] dominio/comercio-internacional — Comercio internacional
+### Rol (nuevos nodos)
+- [x] rol/product-manager — Product Manager (PM)
+- [x] rol/financial-analyst — Financial Analyst
+- [x] rol/head-of-growth — Head of Growth
+- [x] rol/vp-marketing — VP of Marketing
+- [x] rol/tech-lead — Tech Lead
+
+### [2026-07-11] Round 9 — ITER 124 | gap_analysis extendido + 13 ingests (3 capas)
+- gap_analysis.py (iter 123) = 0 huecos reales, 0 nodos nuevos → se **EXTENDIÓ** `scripts/gap_analysis.py`
+  (Round 9) con 3 deepenings sustrato NA (mexico→pensiones-afore, estados-unidos→vivienda-real-estate,
+  canada→recursos-naturales) + 10 nodos nuevos (dominio: emprendimiento, relaciones-publicas, innovacion,
+  experiencia-cliente, comercio-internacional; rol: product-manager, financial-analyst, head-of-growth,
+  vp-marketing, tech-lead). ALCANCE respetado: sustrato = solo Norteamérica; NO se agregan países fuera de NA.
+- 13 temas ingestados cubriendo las 3 capas:
+  - [sustrato] `sustrato/mexico/pensiones-afore.md`, `sustrato/estados-unidos/vivienda-real-estate.md`, `sustrato/canada/recursos-naturales.md` (deepening de nodos NA existentes).
+  - [dominio] `dominio/emprendimiento/`, `dominio/relaciones-publicas/`, `dominio/innovacion/`, `dominio/experiencia-cliente/`, `dominio/comercio-internacional/` (5 nodos nuevos).
+  - [rol] `rol/product-manager/`, `rol/financial-analyst/`, `rol/head-of-growth/`, `rol/vp-marketing/`, `rol/tech-lead/` (5 nodos nuevos).
+- Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo nuevo.
+- **Round 9 COMPLETO (13/13 temas en 3 bucles: LOOP 1 sustrato, LOOP 2 dominio, LOOP 3 rol).** Cola Round 9 VACÍA.
+  Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; devuelve 0 (taxonomía agotada) → ampliar
+  taxonomía para Round 10 o PAUSAR el bucle hasta nueva dirección del usuario (alcance sustrato = solo Norteamérica).

@@ -31,6 +31,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [comercio-exterior](sustrato/mexico/comercio-exterior.md) — Comercio exterior México: T-MEC/USMCA, IMMEX, aduana · 🏷️ mexico,comercio-exterior,usmca,immex,aduanas · 📅 2026-07-10
 - [energia](sustrato/mexico/energia.md) — Sector energético México: CFE, PEMEX, SENER/CRE, reforma 2013, renovables · 🏷️ mexico,energia,pemex,cfe,sener,reforma-energetica · 📅 2026-07-11
 - [banca-sistema-financiero](sustrato/mexico/banca-sistema-financiero.md) — Sistema financiero México: Banxico, CNBV, banca múltiple, Sofipos, SPEI · 🏷️ mexico,banxico,cnbv,banca,sofipos,sistema-financiero · 📅 2026-07-11
+- [pensiones-afore](sustrato/mexico/pensiones-afore.md) — Sistema de pensiones México: AFORE, CONSAR, SAR, SIEFOREs · 🏷️ mexico,pensiones,afore,consar,sar,retiro · 📅 2026-07-11
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -46,6 +47,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [controles-exportacion](sustrato/estados-unidos/controles-exportacion.md) — Controles de exportación EE.UU.: EAR/ITAR (BIS/DDTC) · 🏷️ eeuu,export-controls,ear,itar,bis,ddtc · 📅 2026-07-10
 - [salud](sustrato/estados-unidos/salud.md) — Salud/healthcare EE.UU.: FDA, CMS, HIPAA, Medicare-Medicaid, ACA · 🏷️ eeuu,healthcare,salud,fda,cms,hipaa,medicare,medicaid · 📅 2026-07-11
 - [sector-tecnologia](sustrato/estados-unidos/sector-tecnologia.md) — Sector tecnológico EE.UU.: Big Tech, antitrust, IA, CHIPS Act, privacidad · 🏷️ eeuu,big-tech,antitrust,ia,chips-act,privacidad · 📅 2026-07-11
+- [vivienda-real-estate](sustrato/estados-unidos/vivienda-real-estate.md) — Vivienda EE.UU.: homeownership, Fannie/Freddie Mac, FHA/HUD, MBS · 🏷️ eeuu,vivienda,housing,hipotecas,fannie-mae,fha · 📅 2026-07-11
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -55,6 +57,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [provincial-federal](sustrato/canada/provincial-federal.md) — Divisiones de poder federal/provincial Canadá (Constitución 1867) · 🏷️ canada,federalismo,division-poderes · 📅 2026-07-10
 - [salud](sustrato/canada/salud.md) — Salud/healthcare Canadá: Canada Health Act, Health Canada, medicare single-payer, CADTH/CDA · 🏷️ canada,healthcare,salud,medicare,canada-health-act,health-canada,cadth · 📅 2026-07-11
 - [sector-bancario](sustrato/canada/sector-bancario.md) — Sector bancario Canadá: Big Six (RBC, TD, Scotiabank, BMO, CIBC, National Bank), OSFI, Bank of Canada · 🏷️ canada,big-six,osfi,bank-of-canada,cdic,banca · 📅 2026-07-11
+- [recursos-naturales](sustrato/canada/recursos-naturales.md) — Recursos naturales Canadá: NRCan, energía, minerales, bosques · 🏷️ canada,recursos-naturales,nrcan,energia,minerales,bosques · 📅 2026-07-11
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -259,6 +262,21 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/fintech
 - [fintech](dominio/fintech/fintech.md) — Fintech: pagos, banca digital, lending, regtech, cripto, open banking · 🏷️ fintech,pagos,banca-digital,regtech · 📅 2026-07-11
 
+### dominio/emprendimiento
+- [emprendimiento](dominio/emprendimiento/emprendimiento.md) — Emprendimiento: creación de valor, ciclo, ecosistema, financiamiento · 🏷️ emprendimiento,startups,emprendedores · 📅 2026-07-11
+
+### dominio/relaciones-publicas
+- [relaciones-publicas](dominio/relaciones-publicas/relaciones-publicas.md) — Relaciones públicas: gestión de percepción, earned media, media relations · 🏷️ relaciones-publicas,pr,comunicacion,reputacion · 📅 2026-07-11
+
+### dominio/innovacion
+- [innovacion](dominio/innovacion/innovacion.md) — Innovación: procesos, ISO 56000, tipos incremental/disruptiva/abierta · 🏷️ innovacion,innovation,iso-56000 · 📅 2026-07-11
+
+### dominio/experiencia-cliente
+- [experiencia-cliente](dominio/experiencia-cliente/experiencia-cliente.md) — Customer experience: respuestas cognitivas/emocionales en toda la interacción · 🏷️ cx,experiencia-cliente,lealtad · 📅 2026-07-11
+
+### dominio/comercio-internacional
+- [comercio-internacional](dominio/comercio-internacional/comercio-internacional.md) — Comercio internacional: intercambio transfronterizo, aranceles, TLC, OMC · 🏷️ comercio-internacional,international-trade,aranceles,tlc · 📅 2026-07-11
+
 ### rol/
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
 - [engineering-manager](rol/engineering-manager/engineering-manager.md) — Engineering Manager: liderazgo, entrega, procesos · 🏷️ eng-mgmt · 📅 2026-07-09
@@ -303,6 +321,11 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [vp-sales](rol/vp-sales/vp-sales.md) — VP Sales: liderazgo del org de ventas, cuota, pipeline y estrategia GTM · 🏷️ vp-sales,ventas,revenue,gtm · 📅 2026-07-11
 - [chief-of-staff](rol/chief-of-staff/chief-of-staff.md) — Chief of Staff: socio estratégico del CEO, proyectos especiales y coordinación transversal · 🏷️ chief-of-staff,estrategia,operaciones,ceo · 📅 2026-07-11
 - [account-executive](rol/account-executive/account-executive.md) — Account Executive: cierra la venta en cuentas asignadas, dueño del ciclo y la cuota · 🏷️ account-executive,ventas,ciclo-venta,cuota · 📅 2026-07-11
+- [product-manager](rol/product-manager/product-manager.md) — Product Manager: dueño de estrategia de producto, requisitos, lanzamientos · 🏷️ product-manager,pm,producto,roadmap · 📅 2026-07-11
+- [financial-analyst](rol/financial-analyst/financial-analyst.md) — Financial Analyst: análisis financiero, valoración, crédito, modelado · 🏷️ financial-analyst,analista-financiero,valoracion · 📅 2026-07-11
+- [head-of-growth](rol/head-of-growth/head-of-growth.md) — Head of Growth: lidera crecimiento vía experimentación cross-funcional · 🏷️ head-of-growth,growth,crecimiento · 📅 2026-07-11
+- [vp-marketing](rol/vp-marketing/vp-marketing.md) — VP of Marketing: lidera org de marketing, brand, GTM, demanda, ROI · 🏷️ vp-marketing,marketing,brand,gtm · 📅 2026-07-11
+- [tech-lead](rol/tech-lead/tech-lead.md) — Tech Lead: liderazgo técnico IC, arquitectura, calidad, mentoría · 🏷️ tech-lead,lider-tecnico,ingenieria · 📅 2026-07-11
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

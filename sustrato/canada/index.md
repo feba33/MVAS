@@ -13,3 +13,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [provincial-federal](provincial-federal.md) — Divisiones de poder federal/provincial Canadá (Constitución 1867) · 🏷️ canada,federalismo,division-poderes · 📅 2026-07-10
 - [salud](salud.md) — Salud/healthcare Canadá: Canada Health Act, Health Canada, medicare single-payer, CADTH/CDA · 🏷️ canada,healthcare,salud,medicare,canada-health-act,health-canada,cadth · 📅 2026-07-11
 - [sector-bancario](sector-bancario.md) — Sector bancario Canadá: Big Six (RBC, TD, Scotiabank, BMO, CIBC, National Bank), OSFI, Bank of Canada · 🏷️ canada,big-six,osfi,bank-of-canada,cdic,banca · 📅 2026-07-11
+- [recursos-naturales](recursos-naturales.md) — Recursos naturales Canadá: NRCan, energía, minerales, bosques · 🏷️ canada,recursos-naturales,nrcan,energia,minerales,bosques · 📅 2026-07-11

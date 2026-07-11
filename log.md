@@ -303,3 +303,12 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   - [rol] `rol/account-executive/` (nuevo): Account Executive, cierre de venta y cuota.
 - Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo nuevo.
 - **Round 8 COMPLETO (13/13 temas en 3 bucles: LOOP 1 sustrato, LOOP 2 dominio, LOOP 3 rol).** Cola Round 8 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 9 o pausar.
+
+## [2026-07-11] ingest | Round 9 — 13 ingests (3 capas: sustrato/NA + dominio + rol)
+- Gap analysis (iter 123) = 0 huecos → extendida la taxonomía de `scripts/gap_analysis.py` (Round 9):
+  3 deepenings sustrato NA (mexico→pensiones-afore, estados-unidos→vivienda-real-estate, canada→recursos-naturales)
+  + 10 nodos nuevos (dominio: emprendimiento, relaciones-publicas, innovacion, experiencia-cliente, comercio-internacional;
+  rol: product-manager, financial-analyst, head-of-growth, vp-marketing, tech-lead).
+- 13 temas ingestados cubriendo las 3 capas (LOOP 1 sustrato, LOOP 2 dominio, LOOP 3 rol).
+- Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo nuevo.
+- Alcance respetado: sustrato = solo Norteamérica; NO se agregaron países fuera de NA.
