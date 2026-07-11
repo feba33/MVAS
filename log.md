@@ -217,3 +217,21 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - `sustrato/ecuador`: `proteccion-datos.md` (LOPDP, R.O. Sup. 459/2021, vigencia 2023; Superintendencia de Protección de Datos Personales) e `impuestos.md` (SRI: IVA 15%/5%/0%, Renta ~25%, RUC).
 - `sustrato/portugal`: `proteccion-datos.md` (RGPD + Lei 58/2019; CNPD) e `impuestos.md` (AT: IRS hasta 48%, IRC 21%, IVA 23%/13%/6%).
 - Fuentes web (reference-only): Gob.ec, SRI, CNPD, Portal das Finanças, gov.pt, Wikipedia. **LOOP 1 de Round 5 (capa sustrato).** Cola Round 5 restante: 8 temas (dominio x5, rol x3).
+
+## [2026-07-11] Round 5 — ITER 115 | NODOS NUEVOS dominio/seguros + dominio/energia + dominio/inmobiliario + dominio/retail + dominio/manufactura (LOOP 2)
+- Creados 5 nodos `dominio/` con superstructura completa (README, index, log, raw/).
+- `dominio/seguros`: `seguros.md` (vida, P&C, reaseguro, actuarial, Solvency II).
+- `dominio/energia`: `energia.md` (renovables, oil&gas, redes, regulación FERC/CRE/SENER).
+- `dominio/inmobiliario`: `bienes-raices.md` (residencial/comercial, REITs, cap rate, ciclos).
+- `dominio/retail`: `retail.md` (omnicanal, merchandising, e-commerce, última milla).
+- `dominio/manufactura`: `manufactura.md` (lean, Six Sigma/DMAIC, Industry 4.0, cadena de producción).
+- Fuentes web (reference-only): Wikipedia (Insurance/Energy/Real estate/Retail/Manufacturing), EIOPA, FERC, REIT.com, McKinsey, SixSigma.us. **LOOP 2 de Round 5 (capa dominio).** Cola Round 5 restante: 3 temas (rol x3).
+
+## [2026-07-11] Round 5 — ITER 116 | NODOS NUEVOS rol/cio + rol/coo + rol/cmo (LOOP 3)
+- Creados 3 nodos `rol/` con superstructura completa (README, index, log, raw/).
+- `rol/cio`: `cio.md` (estrategia de TI, transformación digital, datos/ciberseguridad; reporta a CEO; vs CTO).
+- `rol/coo`: `coo.md` (ejecuta estrategia, opera día a día, excelencia operativa; tipologías integrator/heir apparent).
+- `rol/cmo`: `cmo.md` (marca, demanda, GTM, customer insight, martech; ROI del marketing).
+- Fuentes web (reference-only): Wikipedia (Chief information/operating/marketing officer), Investopedia (CIO). **LOOP 3 de Round 5 (capa rol).** Cola Round 5 VACÍA (8/8 temas ingestados en 3 bucles).
+- **Round 5 COMPLETO (10/10 temas: sustrato x2 + dominio x5 + rol x3).** Reabastecimiento: re-ejecutar `python3 scripts/gap_analysis.py` para abrir Round 6.
+

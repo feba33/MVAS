@@ -33,10 +33,10 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   (T-MEC/USMCA, IMMEX) y `sustrato/estados-unidos/controles-exportacion.md` (EAR/ITAR). CBCA ya cubierto
   en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
-- **Iteración actual:** 114 — LOOP 1 de Round 5 COMPLETO (sustrato/ecuador + sustrato/portugal, 4 páginas).
-- **Temas completados:** 127 / 135 (Round 3: 114 + Round 4: 11 + Round 5: 2/10).
+- **Iteración actual:** 116 — Round 5 COMPLETO (LOOP 1 sustrato + LOOP 2 dominio + LOOP 3 rol; 8 nodos nuevos: seguros, energia, inmobiliario, retail, manufactura, cio, coo, cmo).
+- **Temas completados:** 135 / 135 (Round 3: 114 + Round 4: 11 + Round 5: 10/10).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** Round 5 — LOOP 2 (dominio): seguros, energia, inmobiliario, retail, manufactura.
+- **Siguiente paso:** Reabastecimiento — ejecutar `python3 scripts/gap_analysis.py` para abrir Round 6 (nuevos huecos/nodos sugeridos).
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -453,7 +453,25 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - `sustrato/portugal`: proteccion-datos.md (RGPD + Lei 58/2019; CNPD) + impuestos.md
   (AT: IRS hasta 48%, IRC 21%, IVA 23%/13%/6%).
 - Reference-only (URL en frontmatter; sin raw/). **LOOP 1 de Round 5 (capa sustrato) COMPLETO.**
-  Próxima tarea (iter 115): LOOP 2 (dominio) — seguros, energia, inmobiliario, retail, manufactura.
+  - **Próxima tarea (iter 115):** LOOP 2 (dominio) — seguros, energia, inmobiliario, retail, manufactura.
+
+  ### [2026-07-11] Round 5 — ITER 115 | LOOP 2 (dominio) — seguros, energia, inmobiliario, retail, manufactura
+  - Creados 5 nodos `dominio/` con superstructura completa (README, index, log, raw/).
+  - `dominio/seguros`: `seguros.md` — vida, P&C, reaseguro, ciencia actuarial, Solvency II.
+  - `dominio/energia`: `energia.md` — renovables, oil&gas, redes, regulación (FERC/CRE/SENER).
+  - `dominio/inmobiliario`: `bienes-raices.md` — residencial/comercial, REITs, cap rate, ciclos.
+  - `dominio/retail`: `retail.md` — omnicanal, merchandising, e-commerce, última milla.
+  - `dominio/manufactura`: `manufactura.md` — lean, Six Sigma/DMAIC, Industry 4.0, cadena de producción.
+  - Reference-only (URL en frontmatter; sin raw/). **LOOP 2 de Round 5 (capa dominio) COMPLETO.**
+  - **Próxima tarea (iter 116):** LOOP 3 (rol) — cio, coo, cmo.
+
+  ### [2026-07-11] Round 5 — ITER 116 | LOOP 3 (rol) — cio, coo, cmo
+  - Creados 3 nodos `rol/` con superstructura completa (README, index, log, raw/).
+  - `rol/cio`: `cio.md` — estrategia de TI, transformación digital, datos/ciberseguridad; reporta a CEO; vs CTO.
+  - `rol/coo`: `coo.md` — ejecuta estrategia, opera día a día, excelencia operativa; tipologías integrator/heir apparent.
+  - `rol/cmo`: `cmo.md` — marca, demanda, GTM, customer insight, martech; ROI del marketing.
+  - Reference-only (URL en frontmatter; sin raw/). **LOOP 3 de Round 5 (capa rol) COMPLETO.**
+  - **Round 5 COMPLETO (10/10 temas en 3 bucles).** Siguiente paso: ejecutar `python3 scripts/gap_analysis.py` para abrir Round 6.
 
 ## COLA ROUND 4 (gap_analysis.py iter 110 — taxonomía corregida)
 ### Sustrato (nuevos países)
@@ -482,18 +500,18 @@ Siguiente paso de reabastecimiento: re-ejecutar `python3 scripts/gap_analysis.py
 - [x] sustrato/portugal — Protección de datos (RGPD + Lei 58/2019; CNPD)
 - [x] sustrato/portugal — Impuestos (AT: IRS hasta 48%, IRC 21%, IVA 23%/13%/6%)
 ### Dominio (nuevos nodos)
-- [ ] dominio/seguros — Seguros (vida, P&C, actuarial, reaseguro, Solvency II)
-- [ ] dominio/energia — Energía (renovables, oil&gas, redes, regulación)
-- [ ] dominio/inmobiliario — Bienes raíces / real estate (mercado, financiamiento, REITs)
-- [ ] dominio/retail — Retail / comercio (omnicanal, merchandising, e-commerce)
-- [ ] dominio/manufactura — Manufactura (lean, Six Sigma, cadena de producción)
+- [x] dominio/seguros — Seguros (vida, P&C, actuarial, reaseguro, Solvency II)
+- [x] dominio/energia — Energía (renovables, oil&gas, redes, regulación)
+- [x] dominio/inmobiliario — Bienes raíces / real estate (mercado, financiamiento, REITs)
+- [x] dominio/retail — Retail / comercio (omnicanal, merchandising, e-commerce)
+- [x] dominio/manufactura — Manufactura (lean, Six Sigma, cadena de producción)
 ### Rol (nuevos nodos)
-- [ ] rol/cio — CIO (Chief Information Officer)
-- [ ] rol/coo — COO (Chief Operating Officer)
-- [ ] rol/cmo — CMO (Chief Marketing Officer)
+- [x] rol/cio — CIO (Chief Information Officer)
+- [x] rol/coo — COO (Chief Operating Officer)
+- [x] rol/cmo — CMO (Chief Marketing Officer)
 
 ## ✅ CIERRE ROUND 5
-Pendiente — Round 5 en curso (LOOP 1 sustrato COMPLETO; restan dominio x5 + rol x3).
+COMPLETO — Round 5 finalizado (10/10 temas en 3 bucles: LOOP 1 sustrato ecuador+portugal, LOOP 2 dominio x5, LOOP 3 rol x3). Siguiente paso: ejecutar `python3 scripts/gap_analysis.py` para abrir Round 6.
 
 ## COLA ROUND 3 (gap_analysis.py iter 85 + nuevos países)
 ### Sustrato (nuevo país)

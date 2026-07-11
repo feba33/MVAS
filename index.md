@@ -192,6 +192,21 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/negociacion
 - [negociacion](dominio/negociacion/negociacion.md) — Método Harvard, BATNA, ZOPA, valor creado/repartido · 🏷️ negociacion,metodo-harvard,batna,zopa · 📅 2026-07-10
 
+### dominio/seguros
+- [seguros](dominio/seguros/seguros.md) — Industria aseguradora: vida, P&C, reaseguro, actuarial, Solvency II · 🏷️ seguros,insurance,actuarial,reaseguro,solvency-ii · 📅 2026-07-11
+
+### dominio/energia
+- [energia](dominio/energia/energia.md) — Sector energético: renovables, oil&gas, redes, regulación · 🏷️ energia,oil-and-gas,renovables,redes,regulacion · 📅 2026-07-11
+
+### dominio/inmobiliario
+- [bienes-raices](dominio/inmobiliario/bienes-raices.md) — Bienes raíces: mercado, financiamiento, REITs, ciclos · 🏷️ inmobiliario,real-estate,reits,hipotecas,cap-rate · 📅 2026-07-11
+
+### dominio/retail
+- [retail](dominio/retail/retail.md) — Retail/comercio: omnicanal, merchandising, e-commerce, última milla · 🏷️ retail,comercio,omnicanal,ecommerce,merchandising · 📅 2026-07-11
+
+### dominio/manufactura
+- [manufactura](dominio/manufactura/manufactura.md) — Manufactura: lean, Six Sigma, Industry 4.0, cadena de producción · 🏷️ manufactura,lean,six-sigma,produccion,industry-4.0 · 📅 2026-07-11
+
 ### rol/
 - [growth-lead](rol/growth-lead/growth-lead.md) — Growth Lead: adquisición, canales, experimentación · 🏷️ growth · 📅 2026-07-09
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
@@ -222,6 +237,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [reclutador](rol/reclutador/reclutador.md) — Recruiter / Talent Acquisition: sourcing, hiring, employer branding · 🏷️ reclutador,talent-acquisition,sourcing,hiring · 📅 2026-07-10
 - [product-marketing-manager](rol/product-marketing-manager/product-marketing-manager.md) — PMM: GTM, posicionamiento, mensaje, habilitación de ventas · 🏷️ rol,product-marketing,pmm,gtm · 📅 2026-07-10
 - [data-scientist](rol/data-scientist/data-scientist.md) — Data Scientist: estadística + ML + programación; modelado predictivo · 🏷️ rol,data-scientist,ml,estadistica · 📅 2026-07-10
+- [cio](rol/cio/cio.md) — Chief Information Officer: estrategia de TI, transformación digital, datos/ciberseguridad · 🏷️ cio,tecnologia,ti,digital,datos · 📅 2026-07-11
+- [coo](rol/coo/coo.md) — Chief Operating Officer: ejecuta la estrategia, opera el día a día, excelencia operativa · 🏷️ coo,operaciones,ejecucion,excelencia-operativa · 📅 2026-07-11
+- [cmo](rol/cmo/cmo.md) — Chief Marketing Officer: marca, demanda, GTM, customer insight, martech · 🏷️ cmo,marketing,marca,demanda,gtm · 📅 2026-07-11
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09
