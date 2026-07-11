@@ -31,6 +31,7 @@ TAXONOMY = {
         ("energia", "Sector energía (CRE/SENER, PEMEX/CFE, renovables)"),
         ("banca-sistema-financiero", "Sistema financiero / banca (Banxico, CNBV, banca múltiple, Sofipos)"),
         ("pensiones-afore", "Sistema de pensiones (AFORE, CONSAR, SAR, SIEFOREs)"),
+        ("telecomunicaciones", "Telecomunicaciones (IFT, sector telecom, banda ancha, despacho)"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -39,6 +40,7 @@ TAXONOMY = {
         ("salud", "Salud / healthcare (FDA, CMS, HIPAA, Medicare-Medicaid)"),
         ("sector-tecnologia", "Sector tecnológico (Big Tech, antitrust, IA, CHIPS Act)"),
         ("vivienda-real-estate", "Vivienda y mercado inmobiliario (Fannie/Freddie Mac, FHA/HUD, MBS)"),
+        ("energia", "Energía (DOE, FERC, grid, oil & gas, renovables, nuclear)"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -46,6 +48,7 @@ TAXONOMY = {
         ("salud", "Salud / healthcare (Health Canada, provincias, CADTH)"),
         ("sector-bancario", "Sector bancario (Big Six, OSFI)"),
         ("recursos-naturales", "Recursos naturales (NRCan, energía, minerales, bosques)"),
+        ("comercio-exterior", "Comercio exterior (Global Affairs Canada, export, USMCA, aranceles)"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -185,6 +188,17 @@ NEW_NODES = [
     ("rol/vp-marketing", "VP of Marketing — lidera org de marketing, brand, GTM, demanda, ROI"),
     ("rol/tech-lead", "Tech Lead — liderazgo técnico IC, arquitectura, calidad, mentoría"),
     ("rol/account-executive", "Account Executive — ejecutivo de cuentas (ventas)"),
+    # Round 10 — extensiones en capas generales (dominio/rol) + sustrato NA (deepening). Sin nuevos países.
+    ("dominio/analitica-negocio", "Analítica de negocio / Business Analytics / BI: datos, dashboards, toma de decisiones"),
+    ("dominio/gobierno-corporativo", "Gobierno corporativo: consejo, accionistas, deberes fiduciarios, ESG"),
+    ("dominio/ia-generativa", "IA generativa: LLMs, adopción empresarial, gobernanza de IA"),
+    ("dominio/cultura-organizacional", "Cultura organizacional: valores, comportamiento, cultura de alto desempeño"),
+    ("dominio/gestion-cambio", "Gestión del cambio: ADKAR, Kotter, transformación"),
+    ("rol/controller", "Controller — controlador financiero, reporting, cumplimiento contable"),
+    ("rol/project-manager", "Project Manager — gestión de proyectos, triple restricción, stakeholder"),
+    ("rol/data-analyst", "Data Analyst — análisis de datos, reporting, BI"),
+    ("rol/board-member", "Board Member / Consejero — consejo de administración, gobierno"),
+    ("rol/auditor-interno", "Auditor Interno — internal audit, aseguramiento, riesgo"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

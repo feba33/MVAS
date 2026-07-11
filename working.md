@@ -33,10 +33,10 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   (T-MEC/USMCA, IMMEX) y `sustrato/estados-unidos/controles-exportacion.md` (EAR/ITAR). CBCA ya cubierto
   en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
-- **Iteración actual:** 124 — Round 9 COMPLETO (cola vacía; ver LOG ITER 124 abajo).
+- **Iteración actual:** 125 — Round 10 en curso (cola de 13 temas; ver LOG ITER 125 abajo).
 - **Temas completados:** 181 (168 previos + Round 9: 13/13 ingestados en iter 124).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** Round 9 COMPLETO (13/13 en 3 bucles: LOOP 1 sustrato NA, LOOP 2 dominio, LOOP 3 rol). `gap_analysis.py` (post-Round 9) = 0 huecos reales, 0 nodos nuevos → taxonomía agotada otra vez. Re-ejecutar `gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 10 o **PAUSAR** el bucle hasta nueva dirección del usuario. **Alcance sustrato = solo Norteamérica** (sin nuevos países no-NA). NO agregar países fuera de Norteamérica.
+- **Siguiente paso:** Round 10 en curso (13 temas: 3 sustrato NA + 5 dominio + 5 rol). `gap_analysis.py` (post-Round 9) = 0 → extendida taxonomía para Round 10 (3 deepenings NA + 10 nodos nuevos). ALCANCE sustrato = solo Norteamérica (sin nuevos países no-NA). NO agregar países fuera de Norteamérica.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -700,3 +700,31 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - **Round 9 COMPLETO (13/13 temas en 3 bucles: LOOP 1 sustrato, LOOP 2 dominio, LOOP 3 rol).** Cola Round 9 VACÍA.
   Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; devuelve 0 (taxonomía agotada) → ampliar
   taxonomía para Round 10 o PAUSAR el bucle hasta nueva dirección del usuario (alcance sustrato = solo Norteamérica).
+
+## COLA ROUND 10 (gap_analysis.py iter 124 → taxonomía extendida en iter 125; sustrato solo NA)
+### Sustrato (deepening nodos NA existentes)
+- [ ] sustrato/mexico — Telecomunicaciones (IFT, sector telecom, banda ancha)
+- [ ] sustrato/estados-unidos — Energía (DOE, FERC, grid, oil & gas, renovables)
+- [ ] sustrato/canada — Comercio exterior (Global Affairs Canada, export, USMCA)
+### Dominio (nuevos nodos)
+- [ ] dominio/analitica-negocio — Analítica de negocio / Business Analytics / BI
+- [ ] dominio/gobierno-corporativo — Gobierno corporativo (consejo, accionistas, fiduciario)
+- [ ] dominio/ia-generativa — IA generativa (LLMs, adopción, gobernanza)
+- [ ] dominio/cultura-organizacional — Cultura organizacional
+- [ ] dominio/gestion-cambio — Gestión del cambio (ADKAR, Kotter)
+### Rol (nuevos nodos)
+- [ ] rol/controller — Controller (controlador financiero)
+- [ ] rol/project-manager — Project Manager
+- [ ] rol/data-analyst — Data Analyst
+- [ ] rol/board-member — Board Member / Consejero
+- [ ] rol/auditor-interno — Auditor Interno
+
+### [2026-07-11] Round 10 — ITER 125 | gap_analysis extendido (taxonomía Round 10) + apertura de cola
+- gap_analysis.py (post-Round 9) = 0 huecos reales, 0 nodos nuevos → se **EXTENDIÓ** `scripts/gap_analysis.py`
+  (Round 10) con 3 deepenings sustrato NA (mexico→telecomunicaciones, estados-unidos→energia,
+  canada→comercio-exterior) + 10 nodos nuevos (dominio: analitica-negocio, gobierno-corporativo,
+  ia-generativa, cultura-organizacional, gestion-cambio; rol: controller, project-manager,
+  data-analyst, board-member, auditor-interno). ALCANCE respetado: sustrato = solo Norteamérica.
+- Abierta cola Round 10 (13 temas: sustrato x3, dominio x5, rol x5).
+- **Próxima tarea (iter 126):** LOOP 1 (sustrato) — mexico/telecomunicaciones, estados-unidos/energia,
+  canada/comercio-exterior.
