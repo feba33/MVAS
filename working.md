@@ -34,7 +34,7 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
 - **Iteración actual:** 125 — Round 10 en curso (cola de 13 temas; ver LOG ITER 125 abajo).
-- **Temas completados:** 184 (181 previos + Round 10: 3/13 en iter 126).
+- **Temas completados:** 189 (181 previos + Round 10: 8/13 en iter 127).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
 - **Siguiente paso:** Round 10 en curso (13 temas: 3 sustrato NA + 5 dominio + 5 rol). `gap_analysis.py` (post-Round 9) = 0 → extendida taxonomía para Round 10 (3 deepenings NA + 10 nodos nuevos). ALCANCE sustrato = solo Norteamérica (sin nuevos países no-NA). NO agregar países fuera de Norteamérica.
 
@@ -707,11 +707,11 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - [x] sustrato/estados-unidos — Energía (DOE, FERC, grid, oil & gas, renovables)
 - [x] sustrato/canada — Comercio exterior (Global Affairs Canada, export, USMCA)
 ### Dominio (nuevos nodos)
-- [ ] dominio/analitica-negocio — Analítica de negocio / Business Analytics / BI
-- [ ] dominio/gobierno-corporativo — Gobierno corporativo (consejo, accionistas, fiduciario)
-- [ ] dominio/ia-generativa — IA generativa (LLMs, adopción, gobernanza)
-- [ ] dominio/cultura-organizacional — Cultura organizacional
-- [ ] dominio/gestion-cambio — Gestión del cambio (ADKAR, Kotter)
+- [x] dominio/analitica-negocio — Analítica de negocio / Business Analytics / BI
+- [x] dominio/gobierno-corporativo — Gobierno corporativo (consejo, accionistas, fiduciario)
+- [x] dominio/ia-generativa — IA generativa (LLMs, adopción, gobernanza)
+- [x] dominio/cultura-organizacional — Cultura organizacional
+- [x] dominio/gestion-cambio — Gestión del cambio (ADKAR, Kotter)
 ### Rol (nuevos nodos)
 - [ ] rol/controller — Controller (controlador financiero)
 - [ ] rol/project-manager — Project Manager
@@ -726,5 +726,15 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
   ia-generativa, cultura-organizacional, gestion-cambio; rol: controller, project-manager,
   data-analyst, board-member, auditor-interno). ALCANCE respetado: sustrato = solo Norteamérica.
 - Abierta cola Round 10 (13 temas: sustrato x3, dominio x5, rol x5).
-- **Próxima tarea (iter 126):** LOOP 1 (sustrato) COMPLETO. Siguiente: LOOP 2 (dominio) — analitica-negocio, gobierno-corporativo, ia-generativa, cultura-organizacional, gestion-cambio (iter 127).
+- **Próxima tarea (iter 127):** LOOP 2 (dominio) COMPLETO. Siguiente: LOOP 3 (rol) — controller, project-manager, data-analyst, board-member, auditor-interno (iter 128).
   canada/comercio-exterior.
+
+### [2026-07-11] Round 10 — ITER 127 | LOOP 2 (dominio) — 5 ingests (nuevos nodos)
+- 5 nodos `dominio/` creados con superstructura completa (README, index, log, raw/):
+  - `dominio/analitica-negocio/` — Business Analytics/BI: dashboards, KPIs, descriptiva→prescriptiva, brecha insight→acción.
+  - `dominio/gobierno-corporativo/` — Junta de directores, deberes fiduciarios, shareholder vs stakeholder (Business Roundtable 2019), ESG, SOX.
+  - `dominio/ia-generativa/` — GenAI: LLMs, adopción empresarial 2025, riesgos (Deloitte 4 categorías), agentes.
+  - `dominio/cultura-organizacional/` — Modelo de Schein (artefactos/valores/supuestos); cultura difícil de cambiar.
+  - `dominio/gestion-cambio/` — Lewin, Kotter 8 pasos, ADKAR (Prosci), McKinsey 7S; ~70% de transformaciones fallan.
+- Reference-only (URL en frontmatter; sin raw/). Cross-refs a finanzas, estrategia, sostenibilidad, rol/board-member, ciso, head-of-people, data-analyst.
+- **Próxima tarea (iter 128):** LOOP 3 (rol) — controller, project-manager, data-analyst, board-member, auditor-interno.

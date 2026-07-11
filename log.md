@@ -321,3 +321,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   - `sustrato/canada/comercio-exterior.md` — Global Affairs Canada + CUSMA; aranceles EE.UU. 2025-26 (35% sobre algunos bienes), Canadá elimina retaliación sobre bienes CUSMA desde 01-09-2025; revisión CUSMA julio 2026.
 - Reference-only (URL en frontmatter; sin raw/). Alcance respetado: sustrato = solo Norteamérica.
 - Siguiente: LOOP 2 (dominio) — analitica-negocio, gobierno-corporativo, ia-generativa, cultura-organizacional, gestion-cambio (iter 127).
+
+## [2026-07-11] ingest | Round 10 — LOOP 2 (dominio) — 5 nodos nuevos
+- 5 nodos `dominio/` creados con superstructura completa (README, index, log, raw/):
+  - `dominio/analitica-negocio/` — Business Analytics/BI: dashboards, KPIs, descriptiva→prescriptiva, brecha insight→acción (90.5% Fortune 1000 prioriza data/AI, <24% cultura data-driven).
+  - `dominio/gobierno-corporativo/` — Junta de directores, deberes fiduciarios (cuidado/lealtad), shareholder primacy vs stakeholder (Business Roundtable 2019), ESG como frontera fiduciaria, SOX.
+  - `dominio/ia-generativa/` — GenAI: de predictiva→generativa (LLMs/difusión/multimodal), adopción empresarial 2025, riesgos (Deloitte 4 categorías), agentes.
+  - `dominio/cultura-organizacional/` — Modelo de Schein (artefactos/valores/supuestos); la cultura es lo más difícil de cambiar.
+  - `dominio/gestion-cambio/` — Lewin, Kotter 8 pasos, ADKAR (Prosci), McKinsey 7S; ~70% de transformaciones fallan (cultura barrera).
+- Reference-only (URL en frontmatter; sin raw/). Cross-refs a finanzas, estrategia, sostenibilidad, rol/board-member, ciso, head-of-people, data-analyst.
+- Siguiente: LOOP 3 (rol) — controller, project-manager, data-analyst, board-member, auditor-interno (iter 128).

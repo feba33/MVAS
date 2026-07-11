@@ -279,6 +279,11 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/comercio-internacional
 - [comercio-internacional](dominio/comercio-internacional/comercio-internacional.md) — Comercio internacional: intercambio transfronterizo, aranceles, TLC, OMC · 🏷️ comercio-internacional,international-trade,aranceles,tlc · 📅 2026-07-11
+- [analitica-negocio](dominio/analitica-negocio/analitica-negocio.md) — Analítica de negocio / BI: dashboards, KPIs, descriptiva→prescriptiva · 🏷️ analitica-negocio,bi,business-analytics,dashboards,kpis · 📅 2026-07-11
+- [gobierno-corporativo](dominio/gobierno-corporativo/gobierno-corporativo.md) — Gobierno corporativo: junta, deberes fiduciarios, accionistas, ESG · 🏷️ gobierno-corporativo,board,accionistas,fiduciario,esg · 📅 2026-07-11
+- [ia-generativa](dominio/ia-generativa/ia-generativa.md) — IA generativa: LLMs, adopción empresarial, gobernanza y riesgos · 🏷️ ia-generativa,llm,genai,gobernanza-ia,agentes · 📅 2026-07-11
+- [cultura-organizacional](dominio/cultura-organizacional/cultura-organizacional.md) — Cultura organizacional: modelo de Schein (artefactos/valores/supuestos) · 🏷️ cultura-organizacional,schein,valores,cultura-desempeno · 📅 2026-07-11
+- [gestion-cambio](dominio/gestion-cambio/gestion-cambio.md) — Gestión del cambio: Lewin, Kotter 8 pasos, ADKAR, McKinsey 7S · 🏷️ gestion-cambio,kotter,adkar,lewin,mckinsey-7s,transformacion · 📅 2026-07-11
 
 ### rol/
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
