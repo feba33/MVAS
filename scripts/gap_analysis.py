@@ -34,12 +34,12 @@ TAXONOMY = {
         ("sec-valores", "SEC y regulación de valores"),
         ("antitrust", "Antitrust (Sherman / Clayton)"),
         ("bankruptcy", "Derecho concursal / bancarrotas"),
-        ("healthcare", "Salud / healthcare (FDA, CMS, HIPAA, Medicare-Medicaid)"),
+        ("salud", "Salud / healthcare (FDA, CMS, HIPAA, Medicare-Medicaid)"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
         ("provincial-federal", "Divisiones de poder provincial vs federal en Canadá"),
-        ("healthcare", "Salud / healthcare (Health Canada, provincias, CADTH)"),
+        ("salud", "Salud / healthcare (Health Canada, provincias, CADTH)"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),

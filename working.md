@@ -36,7 +36,7 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - **Iteración actual:** 122 — Round 7 COMPLETO (cola vacía; ver LOG ITER 122 y bloque abajo).
 - **Temas completados:** 155 (142 R3-R6 + Round 7: 13/13 ingestados en iter 120/121/122).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** Reabastecimiento — ejecutar `python3 scripts/gap_analysis.py` (taxonomía ya ampliada en iter 120). Si devuelve 0 huecos, ampliar NEW_NODES/TAXONOMY para Round 8 o detener el bucle. NO agregar países fuera de Norteamérica (alcance vigente).
+- **Siguiente paso:** Reabastecimiento ejecutado (iter 122): `gap_analysis.py` devolvió **0 huecos reales y 0 nodos nuevos** tras corregir 2 falsos positivos (slug `healthcare`→`salud`, ya cubierto en iter 121). Taxonomía AGOTADA dentro del alcance (sustrato solo Norteamérica; 155 nodos en 4 capas). Bucle de enriquecimiento en punto de pausa: **DETENER** hasta que el usuario amplíe NEW_NODES/TAXONOMY (Round 8) o amplíe alcance. NO agregar países fuera de Norteamérica.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -525,7 +525,7 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   - [rol] `rol/brand-manager/` (nuevo): Brand Manager — percepción de marca, brand equity, cadena de suministro.
   - [rol] `rol/business-development/` (nuevo): Business Development — crecimiento vía relaciones/mercados/partnerships.
 - Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo nuevo.
-- **Próxima tarea:** Reabastecimiento Round 8 — ejecutar `python3 scripts/gap_analysis.py`; si 0, ampliar taxonomía (NEW_NODES/TAXONOMY) o detener.
+- **Próxima tarea / estado:** Reabastecimiento ejecutado — gap_analysis.py = 0 huecos reales, 0 nodos nuevos (post-corrección de falsos positivos `healthcare`→`salud`). Bucle puede pausar (DETENER) hasta nueva dirección de taxonomía/alcance del usuario.
 
 
 ## COLA ROUND 4 (gap_analysis.py iter 110 — taxonomía corregida)
