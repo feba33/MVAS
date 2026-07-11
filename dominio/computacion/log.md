@@ -59,3 +59,8 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 - Página: `frontend.md`. React/Vue/Svelte/Angular/Astro/Next.js; meta-frameworks; bundle size,
   hidratación parcial/islands, Core Web Vitals, SSR/SSG vs CSR; tabla de decisión por contexto;
   cross-ref a arquitectura, estilos-arquitectura, testing-qa, plataforma-sre.
+
+## [2026-07-11] ingest | Apple demanda a OpenAI por robo de secretos comerciales
+- Fuente: El Financiero (sección tech, 2026-07-10) — reference-only (URL en frontmatter, sin raw/).
+- Página: `apple-openai-secretos-comerciales.md`. Apple acusa a OpenAI de alentar a exempleados a compartir información, componentes, planos y materiales de futuros productos; señala al jefe de hardware de OpenAI.
+- Discernimiento: dominio/computacion (certeza alta, ángulo tecnológico/IA+hardware) + cross-ref dominio/leyes (propiedad-intelectual / trade secrets).

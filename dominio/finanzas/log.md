@@ -66,3 +66,8 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Fuentes (web, reference-only): Santander Open Academy, BIS (Basilea III), LinkedIn (COSO ERM/ISO 31000/CNBV), Scribd (clase riesgos bancarios), EAE Barcelona.
 - Página: `riesgo-financiero.md`. Los 4 tipos principales con sub-riesgos y mitigación; riesgos complementarios (legal, tecnológico, PLD); marcos de gobernanza (COSO ERM, ISO 31000, Basilea III/LCR/NSFR, CNBV); ciclo identificar-medir-mitigar-monitorear.
 - Discernimiento: dominio/finanzas (certeza alta). No duplica derivados.md (lo enlaza para coberturas) ni finanzas-corporativas.md (lo enlaza para tesorería/liquidez).
+
+## [2026-07-11] ingest | Mercado laboral formal de México (IMSS, junio 2026)
+- Fuente: El Financiero (opinión, Víctor Piz, 2026-07-10) — reference-only (URL en frontmatter, sin raw/).
+- Página: `mercado-laboral-formal.md`. Empleo formal afiliado al IMSS mejoró en junio 2026 tras debilidad en mayo; columna resalta las métricas menos visibles (calidad, salarios, rotación).
+- Discernimiento: dominio/finanzas (certeza alta) + cross-ref sustrato/mexico (economía laboral) y dominio/leyes (derecho-laboral).

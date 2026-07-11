@@ -17,3 +17,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [bases-datos](bases-datos.md) — Bases de datos: SQL relacional, NoSQL, distribuidas (sharding, CAP, NewSQL) · 🏷️ bases-datos,sql,nosql,distribuidas,cap · 📅 2026-07-10
 - [plataforma-sre](plataforma-sre.md) — Ingeniería de plataforma + SRE: IDP, SLI/SLO, error budget · 🏷️ platform-engineering,sre,devops,idp,slo · 📅 2026-07-10
 - [frontend](frontend.md) — Frontend 2026: React/Vue/Svelte/Astro/Next.js, rendimiento (Core Web Vitals) · 🏷️ frontend,react,vue,svelte,astro,rendimiento · 📅 2026-07-10
+- [apple-openai-secretos-comerciales](apple-openai-secretos-comerciales.md) — Apple demanda a OpenAI por alentar a exempleados a filtrar planos/materiales de futuros productos · 🏷️ elfinanciero,apple,openai,secretos-comerciales,litigio,ia,hardware · 📅 2026-07-11
