@@ -34,7 +34,7 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
 - **Iteración actual:** 125 — Round 10 en curso (cola de 13 temas; ver LOG ITER 125 abajo).
-- **Temas completados:** 189 (181 previos + Round 10: 8/13 en iter 127).
+- **Temas completados:** 194 (181 previos + Round 10: 13/13 en iter 128).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
 - **Siguiente paso:** Round 10 en curso (13 temas: 3 sustrato NA + 5 dominio + 5 rol). `gap_analysis.py` (post-Round 9) = 0 → extendida taxonomía para Round 10 (3 deepenings NA + 10 nodos nuevos). ALCANCE sustrato = solo Norteamérica (sin nuevos países no-NA). NO agregar países fuera de Norteamérica.
 
@@ -713,11 +713,11 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - [x] dominio/cultura-organizacional — Cultura organizacional
 - [x] dominio/gestion-cambio — Gestión del cambio (ADKAR, Kotter)
 ### Rol (nuevos nodos)
-- [ ] rol/controller — Controller (controlador financiero)
-- [ ] rol/project-manager — Project Manager
-- [ ] rol/data-analyst — Data Analyst
-- [ ] rol/board-member — Board Member / Consejero
-- [ ] rol/auditor-interno — Auditor Interno
+- [x] rol/controller — Controller (controlador financiero)
+- [x] rol/project-manager — Project Manager
+- [x] rol/data-analyst — Data Analyst
+- [x] rol/board-member — Board Member (consejero)
+- [x] rol/auditor-interno — Auditor Interno
 
 ### [2026-07-11] Round 10 — ITER 125 | gap_analysis extendido (taxonomía Round 10) + apertura de cola
 - gap_analysis.py (post-Round 9) = 0 huecos reales, 0 nodos nuevos → se **EXTENDIÓ** `scripts/gap_analysis.py`
@@ -726,7 +726,18 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
   ia-generativa, cultura-organizacional, gestion-cambio; rol: controller, project-manager,
   data-analyst, board-member, auditor-interno). ALCANCE respetado: sustrato = solo Norteamérica.
 - Abierta cola Round 10 (13 temas: sustrato x3, dominio x5, rol x5).
-- **Próxima tarea (iter 127):** LOOP 2 (dominio) COMPLETO. Siguiente: LOOP 3 (rol) — controller, project-manager, data-analyst, board-member, auditor-interno (iter 128).
+- **Próxima tarea (iter 128):** LOOP 3 (rol) COMPLETO → Round 10 cola 13/13. Siguiente: ejecutar `scripts/gap_analysis.py`; si 0 huecos → extender taxonomía para Round 11 (iter 129).
+  canada/comercio-exterior.
+
+### [2026-07-11] Round 10 — ITER 128 | LOOP 3 (rol) — 5 ingests (nuevos nodos)
+- 5 nodos `rol/` creados con superstructura completa (README, index, log, raw/):
+  - `rol/controller/` — Controlador financiero: reporting, cierre mensual, GAAP, controles, SOX, CPA/CMA.
+  - `rol/project-manager/` — Gestor de proyectos: alcance, equipo, riesgos, stakeholders; ciclo de vida; PMP/PMBOK; agile/scrum.
+  - `rol/data-analyst/` — Analista de datos: SQL, dashboards, data storytelling; diferenciación de data scientist/engineer.
+  - `rol/board-member/` — Miembro de la Junta: órgano rector, elegido por accionistas, deberes fiduciarios, comités.
+  - `rol/auditor-interno/` — Auditor interno: aseguramiento independiente, tres líneas, COSO, normas IIA.
+- Reference-only (URL en frontmatter; sin raw/). Cross-refs a contabilidad, gobierno-corporativo, cfo, ceo, chief-risk-officer, analitica-negocio, gestion-cambio.
+- **Próxima tarea (iter 129):** Ejecutar `scripts/gap_analysis.py`. Si 0 huecos → extender taxonomía (deepenings sustrato NA + nuevos nodos dominio/rol) para Round 11 y abrir cola.
   canada/comercio-exterior.
 
 ### [2026-07-11] Round 10 — ITER 127 | LOOP 2 (dominio) — 5 ingests (nuevos nodos)

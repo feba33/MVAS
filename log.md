@@ -331,3 +331,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   - `dominio/gestion-cambio/` — Lewin, Kotter 8 pasos, ADKAR (Prosci), McKinsey 7S; ~70% de transformaciones fallan (cultura barrera).
 - Reference-only (URL en frontmatter; sin raw/). Cross-refs a finanzas, estrategia, sostenibilidad, rol/board-member, ciso, head-of-people, data-analyst.
 - Siguiente: LOOP 3 (rol) — controller, project-manager, data-analyst, board-member, auditor-interno (iter 128).
+
+## [2026-07-11] ingest | Round 10 — LOOP 3 (rol) — 5 nodos nuevos
+- 5 nodos `rol/` creados con superstructura completa (README, index, log, raw/):
+  - `rol/controller/` — Controlador financiero: reporting, cierre mensual (6-10 días mid-market), GAAP, controles internos, SOX, CPA/CMA.
+  - `rol/project-manager/` — Gestor de proyectos: 5 responsabilidades (alcance, equipo, progreso, stakeholders, riesgos); ciclo de vida; PMP/PMBOK; agile/scrum.
+  - `rol/data-analyst/` — Analista de datos: inspeccionar/limpiar/transformar/modelar datos para decisiones; SQL, BI, dashboards, data storytelling.
+  - `rol/board-member/` — Miembro de la Junta: órgano rector, directores no ejecutivos elegidos por accionistas, responsabilidad última de gestión, deberes fiduciarios, comités.
+  - `rol/auditor-interno/` — Auditor interno: aseguramiento independiente (reporta a comité de auditoría), tres líneas, COSO, normas IIA.
+- Reference-only (URL en frontmatter; sin raw/). Cross-refs a contabilidad, gobierno-corporativo, cfo, ceo, chief-risk-officer, analitica-negocio, gestion-cambio.
+- Siguiente (iter 129): Round 10 COMPLETA (cola 13/13). Ejecutar `scripts/gap_analysis.py`; si 0 huecos → extender taxonomía para Round 11.

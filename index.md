@@ -287,6 +287,11 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
+- [controller](rol/controller/controller.md) — Controller (controlador financiero): reporting, cierre, GAAP, SOX · 🏷️ controller,contraloria,reporting,gaap,sox · 📅 2026-07-11
+- [project-manager](rol/project-manager/project-manager.md) — Project Manager: alcance, equipo, riesgos, stakeholders, ciclo de vida · 🏷️ project-manager,pmp,pmbok,agile,scrum · 📅 2026-07-11
+- [data-analyst](rol/data-analyst/data-analyst.md) — Data Analyst: SQL, dashboards, data storytelling · 🏷️ data-analyst,sql,dashboards,bi · 📅 2026-07-11
+- [board-member](rol/board-member/board-member.md) — Miembro de la Junta (Board Member): supervisión, fiduciario · 🏷️ board-member,junta,gobierno-corporativo,fiduciario · 📅 2026-07-11
+- [auditor-interno](rol/auditor-interno/auditor-interno.md) — Auditor Interno: aseguramiento independiente, riesgo, control, COSO · 🏷️ auditor-interno,internal-audit,coso,riesgo · 📅 2026-07-11
 - [engineering-manager](rol/engineering-manager/engineering-manager.md) — Engineering Manager: liderazgo, entrega, procesos · 🏷️ eng-mgmt · 📅 2026-07-09
 - [data-lead](rol/data-lead/data-lead.md) — Data Lead: datos, ML, analítica · 🏷️ data · 📅 2026-07-09
 - [ux-ui-lead](rol/ux-ui-lead/ux-ui-lead.md) — UX/UI Lead: research, diseño, prototipado · 🏷️ ux-ui · 📅 2026-07-09
