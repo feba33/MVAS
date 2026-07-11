@@ -32,6 +32,8 @@ TAXONOMY = {
         ("banca-sistema-financiero", "Sistema financiero / banca (Banxico, CNBV, banca múltiple, Sofipos)"),
         ("pensiones-afore", "Sistema de pensiones (AFORE, CONSAR, SAR, SIEFOREs)"),
         ("telecomunicaciones", "Telecomunicaciones (IFT, sector telecom, banda ancha, despacho)"),
+        ("inversion-extranjera", "Inversión extranjera directa (IMMEX, maquiladora, regulación de IED)"),
+        ("sector-manufacturero", "Sector manufacturero (industria, exportación, cadenas)"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -41,6 +43,7 @@ TAXONOMY = {
         ("sector-tecnologia", "Sector tecnológico (Big Tech, antitrust, IA, CHIPS Act)"),
         ("vivienda-real-estate", "Vivienda y mercado inmobiliario (Fannie/Freddie Mac, FHA/HUD, MBS)"),
         ("energia", "Energía (DOE, FERC, grid, oil & gas, renovables, nuclear)"),
+        ("agricultura", "Agricultura (USDA, Farm Bill, subsidios, comercio agrícola)"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -49,6 +52,7 @@ TAXONOMY = {
         ("sector-bancario", "Sector bancario (Big Six, OSFI)"),
         ("recursos-naturales", "Recursos naturales (NRCan, energía, minerales, bosques)"),
         ("comercio-exterior", "Comercio exterior (Global Affairs Canada, export, USMCA, aranceles)"),
+        ("inmigracion", "Inmigración (IRCC, permisos de trabajo, residentes permanentes)"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -199,6 +203,17 @@ NEW_NODES = [
     ("rol/data-analyst", "Data Analyst — análisis de datos, reporting, BI"),
     ("rol/board-member", "Board Member / Consejero — consejo de administración, gobierno"),
     ("rol/auditor-interno", "Auditor Interno — internal audit, aseguramiento, riesgo"),
+    # Round 11 — extensiones en capas generales (dominio/rol) + sustrato NA (deepening). Sin nuevos países.
+    ("dominio/banca", "Banca: comercial, múltiple, digital, regulación prudencial, Basilea"),
+    ("dominio/capital-riesgo", "Capital de riesgo / Venture Capital / Private Equity: fundraising, ciclo, term sheets"),
+    ("dominio/cadena-suministro", "Cadena de suministro / Supply Chain: procurement, logística, inventario, riesgo"),
+    ("dominio/consultoria", "Consultoría de gestión: estrategia, operaciones, big four, modelos de entrega"),
+    ("dominio/servicios-profesionales", "Servicios profesionales: firmas, facturación, utilización, práctica"),
+    ("rol/chief-compliance-officer", "CCO — Chief Compliance Officer"),
+    ("rol/treasurer", "Treasurer — Tesorero corporativo: liquidez, financiamiento, riesgo de tasa/divisa"),
+    ("rol/chief-investment-officer", "CIO — Chief Investment Officer (inversiones, portafolio, activos)"),
+    ("rol/head-of-research", "Head of Research / R&D — I+D, pipeline, innovación técnica"),
+    ("rol/chief-digital-officer", "CDO — Chief Digital Officer (transformación digital, canales digitales)"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

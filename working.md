@@ -33,10 +33,10 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   (T-MEC/USMCA, IMMEX) y `sustrato/estados-unidos/controles-exportacion.md` (EAR/ITAR). CBCA ya cubierto
   en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
-- **Iteración actual:** 125 — Round 10 en curso (cola de 13 temas; ver LOG ITER 125 abajo).
+- **Iteración actual:** 129 — Round 11 en curso (cola de 14 temas; ver LOG ITER 129 abajo).
 - **Temas completados:** 194 (181 previos + Round 10: 13/13 en iter 128).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** Round 10 en curso (13 temas: 3 sustrato NA + 5 dominio + 5 rol). `gap_analysis.py` (post-Round 9) = 0 → extendida taxonomía para Round 10 (3 deepenings NA + 10 nodos nuevos). ALCANCE sustrato = solo Norteamérica (sin nuevos países no-NA). NO agregar países fuera de Norteamérica.
+- **Siguiente paso:** Round 11 en curso (14 temas: 4 sustrato NA deepening + 5 dominio + 5 rol). gap_analysis.py (post-Round 10) = 0 → extendida taxonomía para Round 11 (4 deepenings NA + 10 nodos nuevos). ALCANCE sustrato = solo Norteamérica (sin nuevos países no-NA). NO agregar países fuera de Norteamérica.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 ### Sustrato
@@ -739,6 +739,31 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - Reference-only (URL en frontmatter; sin raw/). Cross-refs a contabilidad, gobierno-corporativo, cfo, ceo, chief-risk-officer, analitica-negocio, gestion-cambio.
 - **Próxima tarea (iter 129):** Ejecutar `scripts/gap_analysis.py`. Si 0 huecos → extender taxonomía (deepenings sustrato NA + nuevos nodos dominio/rol) para Round 11 y abrir cola.
   canada/comercio-exterior.
+
+### [2026-07-11] Round 11 — ITER 129 | gap_analysis extendido (taxonomía Round 11) + apertura de cola
+- gap_analysis.py (post-Round 10) = 0 huecos, 0 nodos nuevos → se **EXTENDIÓ** `scripts/gap_analysis.py` con 14 temas para Round 11:
+  - sustrato NA deepening (4): mexico/inversion-extranjera, mexico/sector-manufacturero, estados-unidos/agricultura, canada/inmigracion.
+  - dominio nuevos (5): banca, capital-riesgo, cadena-suministro, consultoria, servicios-profesionales.
+  - rol nuevos (5): chief-compliance-officer, treasurer, chief-investment-officer, head-of-research, chief-digital-officer.
+- ALCANCE respetado: sustrato = solo Norteamérica (sin nuevos países).
+- Abierta cola Round 11 (14 temas: sustrato x4, dominio x5, rol x5).
+- **Próxima tarea (iter 130):** LOOP 1 (sustrato NA deepening) — inversion-extranjera, sector-manufacturero, agricultura, inmigracion (iter 130).
+
+## COLA ROUND 11 (14 temas — gap_analysis extendido, Round 10 completa)
+- [ ] sustrato/mexico/inversion-extranjera — IED (IMMEX, maquiladora, regulación)
+- [ ] sustrato/mexico/sector-manufacturero — Manufactura MX (industria, exportación)
+- [ ] sustrato/estados-unidos/agricultura — USDA, Farm Bill, subsidios
+- [ ] sustrato/canada/inmigracion — IRCC, permisos de trabajo
+- [ ] dominio/banca — Banca (comercial, múltiple, digital, Basilea)
+- [ ] dominio/capital-riesgo — VC / Private Equity (fundraising, ciclo)
+- [ ] dominio/cadena-suministro — Supply Chain (procurement, logística)
+- [ ] dominio/consultoria — Consultoría de gestión (estrategia, big four)
+- [ ] dominio/servicios-profesionales — Servicios profesionales (firmas, utilización)
+- [ ] rol/chief-compliance-officer — CCO (Chief Compliance Officer)
+- [ ] rol/treasurer — Treasurer (liquidez, financiamiento, riesgo tasa/divisa)
+- [ ] rol/chief-investment-officer — CIO inversiones (portafolio, activos)
+- [ ] rol/head-of-research — Head of Research / R&D (I+D, pipeline)
+- [ ] rol/chief-digital-officer — CDO digital (transformación digital)
 
 ### [2026-07-11] Round 10 — ITER 127 | LOOP 2 (dominio) — 5 ingests (nuevos nodos)
 - 5 nodos `dominio/` creados con superstructura completa (README, index, log, raw/):
