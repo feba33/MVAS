@@ -62,3 +62,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-11] ingest | Vivienda y mercado inmobiliario de EE.UU.
 - Fuente: Wikipedia (en, Housing in the United States; Fannie Mae) + FHFA — reference-only.
 - Página: `vivienda-real-estate.md`. Homeownership ~64% (2017); GSEs Fannie Mae (1938) y Freddie Mac securitizan hipotecas en MBS; FHA (bajo HUD) asegura hipotecas; FHFA regula. Cross-ref irs (mortgage interest deduction), bankruptcy (foreclosure), dominio/inmobiliario.
+
+## [2026-07-11] ingest | Energía en Estados Unidos (DOE/FERC/EIA)
+- Fuentes: EIA (eia.gov), DOE (energy.gov), FERC (ferc.gov) — reference-only.
+- Página: `energia.md`. EIA (estadística DOE), DOE (política/confiabilidad de grid, informe julio 2025), FERC (regula electricidad/gas interestatal, licencia hydro, PURPA); mix: gas, nuclear ~20%, eólica/solar; mayor productor de petróleo y gas; retos de red por demanda de IA/data centers. Cross-ref sector-tecnologia, dominio/energia.

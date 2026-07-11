@@ -79,3 +79,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-11] ingest | Sistema de pensiones de México (AFORE / CONSAR / SAR)
 - Fuente: Wikipedia (en, Afore) + CONSAR (gob.mx) — reference-only.
 - Página: `pensiones-afore.md`. AFORE administran cuentas individuales de retiro; CONSAR (SHCP) las regula; SAR desde 1997 (sustituye reparto); aportaciones trabajador+patrón+gobierno vía SIEFOREs; AUM ~MX$8.3 billones (23.8% PIB) y >70% cobertura formal (Consar 2025). Cross-ref regimen-fiscal, banca-sistema-financiero, dominio/finanzas.
+
+## [2026-07-11] ingest | Telecomunicaciones en México (IFT→CRT, LMTR 2025)
+- Fuentes: Ríosferrer (análisis LMTR 2025), IFT (comunicado banda ancha fija) — reference-only.
+- Página: `telecomunicaciones.md`. Reforma constitucional 2024 elimina el IFT; Ley en Materia de Telecomunicaciones y Radiodifusión (LMTR) aprobada 01-07-2025 abroga la LFTR 2014; CRT sustituye al IFT como órgano desconcentrado de la ATDT (5 comisionados); espectro, concesiones, conectividad; crecimiento de banda ancha fija vía fibra. Cross-ref regulacion-ia, dominio/telecomunicaciones.

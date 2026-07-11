@@ -14,3 +14,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [salud](salud.md) — Salud/healthcare Canadá: Canada Health Act, Health Canada, medicare single-payer, CADTH/CDA · 🏷️ canada,healthcare,salud,medicare,canada-health-act,health-canada,cadth · 📅 2026-07-11
 - [sector-bancario](sector-bancario.md) — Sector bancario Canadá: Big Six (RBC, TD, Scotiabank, BMO, CIBC, National Bank), OSFI, Bank of Canada · 🏷️ canada,big-six,osfi,bank-of-canada,cdic,banca · 📅 2026-07-11
 - [recursos-naturales](recursos-naturales.md) — Recursos naturales Canadá: NRCan, energía, minerales, bosques · 🏷️ canada,recursos-naturales,nrcan,energia,minerales,bosques · 📅 2026-07-11
+- [comercio-exterior](comercio-exterior.md) — Comercio exterior Canadá: Global Affairs Canada, CUSMA, aranceles 2025-26 · 🏷️ canada,comercio-exterior,cusma,usmca,global-affairs-canada,aranceles · 📅 2026-07-11

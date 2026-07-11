@@ -312,3 +312,12 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - 13 temas ingestados cubriendo las 3 capas (LOOP 1 sustrato, LOOP 2 dominio, LOOP 3 rol).
 - Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo nuevo.
 - Alcance respetado: sustrato = solo Norteamérica; NO se agregaron países fuera de NA.
+
+## [2026-07-11] ingest | Round 10 — LOOP 1 (sustrato NA) — 3 ingests
+- Gap analysis (iter 124) = 0 → extendida taxonomía Round 10 (iter 125): 3 deepenings NA + 10 nodos nuevos.
+- 3 temas sustrato (deepening de nodos NA existentes):
+  - `sustrato/mexico/telecomunicaciones.md` — IFT eliminado (reforma 2024); LMTR aprobada 01-07-2025 abroga LFTR 2014; CRT sustituye al IFT bajo la ATDT; espectro, concesiones, conectividad.
+  - `sustrato/estados-unidos/energia.md` — DOE (política/confiabilidad grid), FERC (electricidad/gas interestatal, licencia hydro, PURPA), EIA (estadística); mix gas/nuclear~20%/renovables; mayor productor de petróleo y gas.
+  - `sustrato/canada/comercio-exterior.md` — Global Affairs Canada + CUSMA; aranceles EE.UU. 2025-26 (35% sobre algunos bienes), Canadá elimina retaliación sobre bienes CUSMA desde 01-09-2025; revisión CUSMA julio 2026.
+- Reference-only (URL en frontmatter; sin raw/). Alcance respetado: sustrato = solo Norteamérica.
+- Siguiente: LOOP 2 (dominio) — analitica-negocio, gobierno-corporativo, ia-generativa, cultura-organizacional, gestion-cambio (iter 127).

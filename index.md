@@ -32,6 +32,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [energia](sustrato/mexico/energia.md) — Sector energético México: CFE, PEMEX, SENER/CRE, reforma 2013, renovables · 🏷️ mexico,energia,pemex,cfe,sener,reforma-energetica · 📅 2026-07-11
 - [banca-sistema-financiero](sustrato/mexico/banca-sistema-financiero.md) — Sistema financiero México: Banxico, CNBV, banca múltiple, Sofipos, SPEI · 🏷️ mexico,banxico,cnbv,banca,sofipos,sistema-financiero · 📅 2026-07-11
 - [pensiones-afore](sustrato/mexico/pensiones-afore.md) — Sistema de pensiones México: AFORE, CONSAR, SAR, SIEFOREs · 🏷️ mexico,pensiones,afore,consar,sar,retiro · 📅 2026-07-11
+- [telecomunicaciones](sustrato/mexico/telecomunicaciones.md) — Telecomunicaciones México: IFT→CRT (LMTR 2025), espectro, banda ancha fija · 🏷️ mexico,telecomunicaciones,ift,crt,lmtr,espectro,banda-ancha · 📅 2026-07-11
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -48,6 +49,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [salud](sustrato/estados-unidos/salud.md) — Salud/healthcare EE.UU.: FDA, CMS, HIPAA, Medicare-Medicaid, ACA · 🏷️ eeuu,healthcare,salud,fda,cms,hipaa,medicare,medicaid · 📅 2026-07-11
 - [sector-tecnologia](sustrato/estados-unidos/sector-tecnologia.md) — Sector tecnológico EE.UU.: Big Tech, antitrust, IA, CHIPS Act, privacidad · 🏷️ eeuu,big-tech,antitrust,ia,chips-act,privacidad · 📅 2026-07-11
 - [vivienda-real-estate](sustrato/estados-unidos/vivienda-real-estate.md) — Vivienda EE.UU.: homeownership, Fannie/Freddie Mac, FHA/HUD, MBS · 🏷️ eeuu,vivienda,housing,hipotecas,fannie-mae,fha · 📅 2026-07-11
+- [energia](sustrato/estados-unidos/energia.md) — Energía EE.UU.: DOE, FERC, EIA, grid, oil&gas, renovables, nuclear · 🏷️ eeuu,energia,doe,ferc,eia,grid,oil-gas,renovables,nuclear · 📅 2026-07-11
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -58,6 +60,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [salud](sustrato/canada/salud.md) — Salud/healthcare Canadá: Canada Health Act, Health Canada, medicare single-payer, CADTH/CDA · 🏷️ canada,healthcare,salud,medicare,canada-health-act,health-canada,cadth · 📅 2026-07-11
 - [sector-bancario](sustrato/canada/sector-bancario.md) — Sector bancario Canadá: Big Six (RBC, TD, Scotiabank, BMO, CIBC, National Bank), OSFI, Bank of Canada · 🏷️ canada,big-six,osfi,bank-of-canada,cdic,banca · 📅 2026-07-11
 - [recursos-naturales](sustrato/canada/recursos-naturales.md) — Recursos naturales Canadá: NRCan, energía, minerales, bosques · 🏷️ canada,recursos-naturales,nrcan,energia,minerales,bosques · 📅 2026-07-11
+- [comercio-exterior](sustrato/canada/comercio-exterior.md) — Comercio exterior Canadá: Global Affairs Canada, CUSMA, aranceles 2025-26 · 🏷️ canada,comercio-exterior,cusma,usmca,global-affairs-canada,aranceles · 📅 2026-07-11
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09

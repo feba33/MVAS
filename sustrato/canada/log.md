@@ -39,3 +39,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-11] ingest | Recursos naturales de Canadá (NRCan)
 - Fuente: Wikipedia (en, Natural Resources Canada) + Canada.ca — reference-only.
 - Página: `recursos-naturales.md`. NRCan (depto federal, 1994): energía, minerales/metales, bosques, ciencias de la Tierra, cartografía; base económica (oilsands, uranio, bosques, hidro). Cross-ref dominio/mineria, dominio/energia, sector-bancario, dominio/agronegocios.
+
+## [2026-07-11] ingest | Comercio exterior de Canadá (Global Affairs Canada / CUSMA)
+- Fuentes: Global Affairs Canada (CUSMA), Baker McKenzie (aranceles 2025), EDC — reference-only.
+- Página: `comercio-exterior.md`. GAC lidera política comercial + TCS; CUSMA (nombre canadiense de USMCA/T-MEC); aranceles EE.UU. 2025-26 (35% sobre algunos bienes, promedio 5.6%); Canadá elimina retaliación sobre bienes CUSMA desde 01-09-2025 pero mantiene sobre acero/aluminio/autos; revisión CUSMA julio 2026. Cross-ref recursos-naturales, dominio/comercio-internacional.

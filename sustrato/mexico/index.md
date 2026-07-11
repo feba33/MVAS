@@ -19,3 +19,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [energia](energia.md) — Sector energético México: CFE, PEMEX, SENER/CRE, reforma 2013, renovables · 🏷️ mexico,energia,pemex,cfe,sener,reforma-energetica · 📅 2026-07-11
 - [banca-sistema-financiero](banca-sistema-financiero.md) — Sistema financiero México: Banxico, CNBV, banca múltiple, Sofipos, SPEI · 🏷️ mexico,banxico,cnbv,banca,sofipos,sistema-financiero · 📅 2026-07-11
 - [pensiones-afore](pensiones-afore.md) — Sistema de pensiones México: AFORE, CONSAR, SAR, SIEFOREs · 🏷️ mexico,pensiones,afore,consar,sar,retiro · 📅 2026-07-11
+- [telecomunicaciones](telecomunicaciones.md) — Telecomunicaciones México: IFT→CRT (LMTR 2025), espectro, banda ancha fija · 🏷️ mexico,telecomunicaciones,ift,crt,lmtr,espectro,banda-ancha · 📅 2026-07-11
