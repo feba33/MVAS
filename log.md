@@ -405,3 +405,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   - `dominio/calidad/` — Gestión de la calidad: ISO 9001:2015, TQM, Six Sigma (DMAIC), Lean, herramientas (PDCA, FMEA, SPC, Pareto); GMP en industrias reguladas.
 - Reference-only (URL en frontmatter; sin raw/). Cross-refs a biotecnologia, salud, energia, manufactura, operaciones, consultoria, auditor-interno, gestion-riesgos.
 - **Round 13 (3/8 temas).** Cola restante: dominio/gestion-riesgos + rol x4 (chief-revenue-officer, chief-communications-officer, chief-analytics-officer, head-of-innovation). Próxima tarea (iter 137): dominio/gestion-riesgos.
+
+## [2026-07-12] ingest | Round 13 — ITER 137 | 5 nodos nuevos (1 dominio + 4 rol) — CIERRA ROUND 13
+- 5 nodos creados con superstructura completa (README, index, log, raw/), cubriendo dominio + rol:
+  - `dominio/gestion-riesgos/` — ERM: ISO 31000, COSO 2017, categorías de riesgo, riesgo operativo, continuidad/resiliencia.
+  - `rol/chief-revenue-officer/` — CRO: dueño de todos los ingresos (ventas+marketing+CS), RevOps, reporta a CEO.
+  - `rol/chief-communications-officer/` — CCO: comunicaciones, PR, reputación, asesor del CEO (Arthur Page Society).
+  - `rol/chief-analytics-officer/` — CAO: analítica y aporte a decisiones operativas; vs CIO/CDO.
+  - `rol/head-of-innovation/` — Head of Innovation: gestión de innovación, labs, corporate venturing, ISO 56000.
+- Reference-only (URL en frontmatter; sin raw/). Cross-refs a finanzas/riesgo-financiero, chief-risk-officer, calidad, ciberseguridad-gobierno, consultoria, auditor-interno, compliance-officer, board-member; ventas, marketing, vp-sales, cmo, chief-client-officer, head-of-growth, founder-ceo, cfo; relaciones-publicas, experiencia-cliente; chief-data-officer, data-scientist, data-analyst, analitica-negocio, ia-generativa, cio, chief-digital-officer; innovacion, estrategia, chief-product-officer, head-of-research, emprendimiento, chief-strategy-officer.
+- **Round 13 COMPLETA (8/8 temas: dominio x4 + rol x4).** Cola Round 13 VACÍA → reabastecimiento (gap_analysis.py) para Round 14.

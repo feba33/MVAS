@@ -314,6 +314,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [semiconductores](dominio/semiconductores/semiconductores.md) — Semiconductores/chips: diseño (fabless), foundry, IDM, OSAT, CHIPS Act · 🏷️ semiconductores,chips,foundry,diseno,chips-act · 📅 2026-07-12
 ### dominio/calidad
 - [calidad](dominio/calidad/calidad.md) — Gestión de la calidad: ISO 9001, TQM, Six Sigma, Lean · 🏷️ calidad,quality-management,iso-9001,tqm,six-sigma,lean,mejora-continua,gmp · 📅 2026-07-12
+### dominio/gestion-riesgos
+- [gestion-riesgos](dominio/gestion-riesgos/gestion-riesgos.md) — ERM: ISO 31000, COSO 2017, riesgo operativo, continuidad · 🏷️ gestion-riesgos,erm,iso-31000,coso,riesgo-operativo,continuidad,resiliencia · 📅 2026-07-12
 ### dominio/farmaceutica
 - [farmaceutica](dominio/farmaceutica/farmaceutica.md) — Industria farmacéutica: I+D, FDA/EMA, patentes, cadena de frío · 🏷️ farmaceutica,pharma,fda,ema,patentes,i+d,cdmo,biologicos,cadena-frio · 📅 2026-07-12
 ### dominio/quimica
@@ -383,6 +385,10 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [chief-people-officer](rol/chief-people-officer/chief-people-officer.md) — CPO/CHRO: liderazgo estratégico de RRHH, talento y cultura (C-suite) · 🏷️ chief-people-officer,chro,recursos-humanos,talento,cultura · 📅 2026-07-12
 - [chief-client-officer](rol/chief-client-officer/chief-client-officer.md) — CCO: dueño de la relación y retención del cliente (CX); puente ventas-CS-marketing · 🏷️ chief-client-officer,customer-experience,retencion,cx · 📅 2026-07-12
 - [head-of-operations](rol/head-of-operations/head-of-operations.md) — Head of Operations: lidera operaciones, procesos, eficiencia, calidad, SCM · 🏷️ head-of-operations,operaciones,produccion,eficiencia,calidad · 📅 2026-07-12
+- [chief-revenue-officer](rol/chief-revenue-officer/chief-revenue-officer.md) — CRO: dueño de todos los ingresos (ventas+marketing+CS), RevOps · 🏷️ cro,chief-revenue-officer,ingresos,revenue,ventas,gtm,revops · 📅 2026-07-12
+- [chief-communications-officer](rol/chief-communications-officer/chief-communications-officer.md) — CCO: comunicaciones, PR, reputación, asesor del CEO · 🏷️ cco,chief-communications-officer,comunicacion,relaciones-publicas,reputacion,pr · 📅 2026-07-12
+- [chief-analytics-officer](rol/chief-analytics-officer/chief-analytics-officer.md) — CAO: analítica y aporte a decisiones operativas · 🏷️ cao,chief-analytics-officer,analitica,data-science,business-analytics · 📅 2026-07-12
+- [head-of-innovation](rol/head-of-innovation/head-of-innovation.md) — Head of Innovation: labs, corporate venturing, ISO 56000 · 🏷️ head-of-innovation,innovacion,innovation,labs,corporate-venturing · 📅 2026-07-12
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

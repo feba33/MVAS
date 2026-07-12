@@ -33,10 +33,10 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   (T-MEC/USMCA, IMMEX) y `sustrato/estados-unidos/controles-exportacion.md` (EAR/ITAR). CBCA ya cubierto
   en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
-- **Iteración actual:** 136 — Round 13 EN CURSO (3/8). ITER 136 ingestó 3 nodos `dominio/` nuevos (farmaceutica, quimica, calidad). Restan dominio/gestion-riesgos + 4 roles.
-- **Temas completados:** 224 (Round 12 COMPLETA 13/13 + Round 13 parcial 3/8).
+- **Iteración actual:** 137 — Round 13 COMPLETA (8/8). ITER 137 ingestó 5 nodos nuevos (dominio/gestion-riesgos + 4 roles: chief-revenue-officer, chief-communications-officer, chief-analytics-officer, head-of-innovation).
+- **Temas completados:** 229 (Round 12 COMPLETA 13/13 + Round 13 COMPLETA 8/8).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** Round 13 ABIERTA (8 temas: 3 done / 5 pending). Próxima tarea (iter 137): dominio/gestion-riesgos — ERM (ISO 31000, riesgo operativo, continuidad). Luego 4 roles (chief-revenue-officer, chief-communications-officer, chief-analytics-officer, head-of-innovation). NOTA: cron de investigación sigue PAUSADO; el bucle de reabastecimiento continúa vía esta corrida.
+- **Siguiente paso:** Round 13 CERRADA (8/8). Reabastecimiento: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos → extender taxonomía (deepenings sustrato NA + nuevos nodos dominio/rol) para Round 14 y abrir cola. NOTA: cron de investigación sigue PAUSADO; el bucle de reabastecimiento continúa vía la próxima corrida.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 # COLA ROUND 12 (13 temas — reabastecimiento gap_analysis.py, Round 11 completa)
@@ -59,12 +59,12 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - [x] dominio/farmaceutica — Industria farmacéutica (I+D, FDA/EMA, patentes, cadena frío)
 - [x] dominio/quimica — Industria química (petroquímica, especialidades, REACH/TSCA)
 - [x] dominio/calidad — Gestión de la calidad (ISO 9001, TQM, Six Sigma)
-- [ ] dominio/gestion-riesgos — ERM (ISO 31000, riesgo operativo, continuidad)
+- [x] dominio/gestion-riesgos — ERM (ISO 31000, riesgo operativo, continuidad)
 ### rol/
-- [ ] rol/chief-revenue-officer — CRO (dueño del top-line, ventas+marketing+CS)
-- [ ] rol/chief-communications-officer — CCO (comms, reputación, PR)
-- [ ] rol/chief-analytics-officer — CAO (analítica y ciencia de datos)
-- [ ] rol/head-of-innovation — Head of Innovation (labs, corporate venturing)
+- [x] rol/chief-revenue-officer — CRO (dueño del top-line, ventas+marketing+CS)
+- [x] rol/chief-communications-officer — CCO (comms, reputación, PR)
+- [x] rol/chief-analytics-officer — CAO (analítica y ciencia de datos)
+- [x] rol/head-of-innovation — Head of Innovation (labs, corporate venturing)
 ### Sustrato
 - [x] sustrato/mexico — LFT
 - [x] sustrato/mexico — PROFECO / CONDUSEF
@@ -828,6 +828,16 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
   - `dominio/calidad/` — Gestión de la calidad: ISO 9001:2015, TQM, Six Sigma (DMAIC), Lean; herramientas (PDCA, FMEA, SPC, Pareto); GMP en industrias reguladas.
 - Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo. Alcance sustrato respetado (solo NA; los 3 temas son dominio).
 - **Round 13 (3/8).** Cola restante: dominio/gestion-riesgos + rol x4. Próxima tarea (iter 137): dominio/gestion-riesgos.
+
+### [2026-07-12] Round 13 — ITER 137 | 5 nodos nuevos (1 dominio + 4 rol) — CIERRA ROUND 13
+- gap_analysis.py (post-Round 12) = 0 → taxonomía Round 13 ya abierta en iter 135b. Ejecutada la ingest de 5 nodos nuevos cubriendo dominio + rol:
+  - `dominio/gestion-riesgos/` — ERM: ISO 31000, COSO 2017, categorías de riesgo, riesgo operativo, continuidad/resiliencia.
+  - `rol/chief-revenue-officer/` — CRO: dueño de todos los ingresos (ventas+marketing+CS), RevOps; reporta a CEO; vs CFO/CMO.
+  - `rol/chief-communications-officer/` — CCO: comunicaciones, PR, reputación, asesor del CEO (Arthur Page Society).
+  - `rol/chief-analytics-officer/` — CAO: analítica y aporte a decisiones operativas; vs CIO/CDO.
+  - `rol/head-of-innovation/` — Head of Innovation: gestión de innovación, labs, corporate venturing, ISO 56000.
+- Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo. Alcance sustrato respetado (Round 13 no agregó países; los 5 temas son dominio/rol generales).
+- **Round 13 COMPLETA (8/8 temas: dominio x4 + rol x4).** Cola Round 13 VACÍA → reabastecimiento (gap_analysis.py) para Round 14.
 
 ## COLA ROUND 11 (14 temas — gap_analysis extendido, Round 10 completa)
 - [x] sustrato/mexico/inversion-extranjera — IED (IMMEX, maquiladora, regulación)
