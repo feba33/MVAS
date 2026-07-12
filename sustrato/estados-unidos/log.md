@@ -94,3 +94,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | Comercio exterior de EE.UU. (USTR, política arancelaria)
 - Fuentes: Wikipedia (en) — Office of the U.S. Trade Representative; USTR.gov — reference-only.
 - Página: `comercio-exterior.md`. USTR lidera política comercial de EE.UU.: negociación de acuerdos (USMCA), Sección 301 (China), Sección 232 (acero/aluminio), aranceles y disputas OMC. Cross-ref sustrato/mexico/comercio-exterior, sustrato/canada/comercio-exterior, dominio/comercio-internacional.
+
+## [2026-07-12] ingest | Infraestructura de EE.UU. (IIJA, DOT)
+- Fuentes: Wikipedia (en) — Infrastructure in the United States; transportation.gov — reference-only.
+- Página: `infraestructura.md`. IIJA (2021) comprometió ~USD 1.2 billones para carreteras/puentes, banda ancha, red eléctrica, agua, EVs; DOT/FHWA lideran; ASCE califica ~C. Cross-ref dominio/infraestructura, energia, vivienda-real-estate.

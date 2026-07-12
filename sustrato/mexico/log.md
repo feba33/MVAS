@@ -121,3 +121,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | Agricultura México (SADER, sector agroalimentario)
 - Fuentes: Wikipedia (en) — Agriculture in Mexico; gob.mx/SADER — reference-only.
 - Página: `agricultura.md`. SADER lidera política agropecuaria; México es potencia agroalimentaria (maíz, aguacate, tomate, berries, tequila, cerveza); tratados (USMCA/T-MEC, 14+ TLC); riego y sequía; retos de autosuficiencia alimentaria. Cross-ref comercio-exterior, dominio/agronegocios, dominio/agua.
+
+## [2026-07-12] ingest | Turismo en México (SECTUR, destinos, turismo médico)
+- Fuentes: Wikipedia (en) — Tourism in Mexico; gob.mx/SECTUR — reference-only.
+- Página: `turismo.md`. SECTUR lidera política turística; México es top destino (~8-9% PIB, récord ~51M llegadas 2024); segmentos sol y playa, cultural, turismo médico, MICE; principales mercados EE.UU./Canadá. Cross-ref dominio/turismo, comercio-exterior, transporte.

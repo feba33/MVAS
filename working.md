@@ -38,8 +38,9 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
 - **Iteración actual:** 145 — Round 15 COMPLETA (13/13: sustrato x3 + dominio x5 + rol x5). ITER 143 ingestó sustrato NA (medio-ambiente MX, política monetaria US/CA); ITER 144 ingestó 5 dominios nuevos; ITER 145 ingestó 5 roles nuevos.
 - **Iteración actual:** 149 — Round 17 COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5).
-- **Temas completados (acumulado):** 289 (Rounds 15, 16 y 17 COMPLETAS; 13 temas cada una).
-- **Siguiente paso:** reabastecimiento → ejecutar `python3 scripts/gap_analysis.py`; se esperan 0 gaps (taxonomía agotada para el alcance actual = solo Norteamérica). Si 0 → pausar el bucle de enriquecimiento hasta nueva dirección del usuario, o ampliar taxonomía para Round 18 (nuevos dominios/roles). Cron de investigación `e273fdbbba14` sigue PAUSADO.
+- **Temas completados (acumulado):** 315 (Rounds 15-19 COMPLETAS; 13 temas cada una).
+- **Round 18 COMPLETA** (iter 150, 13/13). **Round 19 COMPLETA** (iter 152, 13/13): gap_analysis.py = 0 huecos en taxonomía previa → extendida con 3 deepenings sustrato NA (mexico→turismo, estados-unidos→infraestructura, canada→energia) + 10 nodos nuevos (dominio: ciudades-inteligentes, healthtech, publicidad, franquicias, eventos; rol: legal-ops, head-of-facilities, head-of-public-affairs, sales-engineer, business-analyst). ALCANCE respetado (sustrato = solo Norteamérica).
+- **Siguiente paso:** ejecutar Round 19 (13 ingests en 3 bucles: LOOP 1 sustrato NA, LOOP 2 dominio x5, LOOP 3 rol x5). Cron de investigación `e273fdbbba14` sigue PAUSADO.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 # COLA ROUND 12 (13 temas — reabastecimiento gap_analysis.py, Round 11 completa)
@@ -1046,3 +1047,36 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
   - `dominio/gestion-cambio/` — Lewin, Kotter 8 pasos, ADKAR (Prosci), McKinsey 7S; ~70% de transformaciones fallan.
 - Reference-only (URL en frontmatter; sin raw/). Cross-refs a finanzas, estrategia, sostenibilidad, rol/board-member, ciso, head-of-people, data-analyst.
 - **Próxima tarea (iter 128):** LOOP 3 (rol) — controller, project-manager, data-analyst, board-member, auditor-interno.
+
+## COLA ROUND 19 (13 temas — COMPLETA ✅)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Turismo (SECTUR, destinos, turismo de sol y playa, turismo médico)
+- [x] sustrato/estados-unidos — Infraestructura (IIJA, DOT, carreteras, puentes, banda ancha)
+- [x] sustrato/canada — Energía (hidro, oil sands, gas, red eléctrica, NRCan)
+### Dominio (nuevos nodos)
+- [x] dominio/ciudades-inteligentes — Smart cities (IoT urbano, movilidad, datos, sostenibilidad)
+- [x] dominio/healthtech — Salud digital (telemedicina, wearables, IA en salud, startups)
+- [x] dominio/publicidad — Publicidad / advertising (medios, programática, agencias, medición)
+- [x] dominio/franquicias — Franquicias / franchising (modelo, royalties, FDD, regulación)
+- [x] dominio/eventos — Industria de eventos / MICE (meetings, incentives, conferences, exhibitions)
+### Rol (nuevos nodos)
+- [x] rol/legal-ops — Legal Operations (eBilling, proveedores, tecnología legal, contratos)
+- [x] rol/head-of-facilities — Head of Facilities / Facilities Management (workplace, FM, ISO 41001)
+- [x] rol/head-of-public-affairs — Head of Public Affairs / Government Relations (lobbying, políticas públicas)
+- [x] rol/sales-engineer — Sales Engineer (pre-venta técnica, demos, POCs)
+- [x] rol/business-analyst — Business Analyst (requisitos, procesos, BPM, puente negocio-TI)
+
+### [2026-07-12] Round 19 — ITER 151 | gap_analysis extendido (taxonomía Round 19) + apertura de cola
+- gap_analysis.py (post-Round 18) = 0 huecos, 0 nodos nuevos → se **EXTENDIÓ** `scripts/gap_analysis.py`
+  (Round 19) con 3 deepenings sustrato NA (mexico→turismo, estados-unidos→infraestructura, canada→energia)
+  + 10 nodos nuevos (dominio: ciudades-inteligentes, healthtech, publicidad, franquicias, eventos; rol:
+  legal-ops, head-of-facilities, head-of-public-affairs, sales-engineer, business-analyst). ALCANCE respetado: sustrato = solo Norteamérica.
+- Re-ejecutado → 13 sugerencias (3 sustrato + 10 nuevos). Abierta cola Round 19 (13 temas).
+- **LOOPs 1-3 ejecutados (iter 152):** sustrato NA (turismo/infraestructura/energía) + 5 dominio + 5 rol = 13 ingests. **Round 19 COMPLETA (13/13).** Temas acumulados: 315. ALCANCE sustrato = solo Norteamérica (respetado).
+
+### [2026-07-12] Round 19 — ITER 152 | LOOPs 1-3 (sustrato + dominio + rol) — 13 ingests COMPLETOS
+- LOOP 1 (sustrato NA): `mexico/turismo.md`, `estados-unidos/infraestructura.md`, `canada/energia.md` (deepenings; append a index/log de nodos existentes).
+- LOOP 2 (dominio, 5 nuevos): `ciudades-inteligentes`, `healthtech`, `publicidad`, `franquicias`, `eventos` (superstructura completa: raw/, README, index, log).
+- LOOP 3 (rol, 5 nuevos): `legal-ops`, `head-of-facilities`, `head-of-public-affairs`, `sales-engineer`, `business-analyst` (superstructura completa).
+- Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia EN + fuentes oficiales gob/SECTUR/DOT/NRCAN; sin raw/).
+- **Próxima tarea (iter 153):** COLA VACÍA → `python3 scripts/gap_analysis.py`; si 0 → reabastecer taxonomía (Round 20: nuevos dominio/rol + deepenings NA) o pausar hasta próximo cron.

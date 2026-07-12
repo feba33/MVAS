@@ -39,6 +39,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [educacion](sustrato/mexico/educacion.md) — Educación México: SEP, sistema educativo, educación superior (UNAM/IPN/ANUIES) · 🏷️ mexico,educacion,sep,sistema-educativo,educacion-superior,anuies,reforma-educativa · 📅 2026-07-12
 - [seguridad-social](sustrato/mexico/seguridad-social.md) — Seguridad social México: IMSS, ISSSTE, seguro social, salud/pensiones laborales · 🏷️ mexico,seguridad-social,imss,issste,seguro-social,salud-laboral,pensiones,sar · 📅 2026-07-12
 - [agricultura](sustrato/mexico/agricultura.md) — Agricultura México: SADER, producción agroalimentaria, seguridad alimentaria, T-MEC, riego, exportaciones · 🏷️ mexico,agricultura,sader,agroalimentario,seguridad-alimentaria,riego,exportaciones-agricolas · 📅 2026-07-12
+- [turismo](sustrato/mexico/turismo.md) — Turismo México: SECTUR, destinos, turismo de sol y playa, turismo médico, PIB ~8-9% · 🏷️ mexico,turismo,sectur,playa,turismo-medico,pib,llegadas-internacionales · 📅 2026-07-12
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -61,6 +62,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [educacion](sustrato/estados-unidos/educacion.md) — Educación EE.UU.: Dept of Education, K-12 (Title I), higher ed (FAFSA, Pell), estatales · 🏷️ eeuu,educacion,department-of-education,k-12,higher-education,fafsa,pell-grant,title-i · 📅 2026-07-12
 - [labor](sustrato/estados-unidos/labor.md) — Trabajo/laboral EE.UU.: DOL, FLSA, OSHA, NLRB, sindicatos · 🏷️ eeuu,trabajo,laboral,dol,flsa,osha,nlrb,salario-minimo,horas-extras · 📅 2026-07-12
 - [comercio-exterior](sustrato/estados-unidos/comercio-exterior.md) — Comercio exterior EE.UU.: USTR, Sección 301, aranceles, acuerdos comerciales, nearshoring · 🏷️ eeuu,comercio-exterior,ustr,seccion-301,aranceles,acuerdos-comerciales,nearshoring · 📅 2026-07-12
+- [infraestructura](sustrato/estados-unidos/infraestructura.md) — Infraestructura EE.UU.: IIJA, DOT, carreteras, puentes, banda ancha, red eléctrica · 🏷️ eeuu,infraestructura,iija,dot,carreteras,puentes,banda-ancha,red-electrica · 📅 2026-07-12
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -77,6 +79,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [educacion](sustrato/canada/educacion.md) — Educación Canadá: provincias (currículo), PSE (universidades/colleges), student aid, bilingüe FR/EN · 🏷️ canada,educacion,provincial,post-secondary,universidades,bilingue,student-aid · 📅 2026-07-12
 - [labor](sustrato/canada/labor.md) — Trabajo/laboral Canadá: Labour Code federal, ESDC, estándares provinciales · 🏷️ canada,trabajo,laboral,labour-code,esdc,estandares-laborales,negociacion-colectiva · 📅 2026-07-12
 - [telecomunicaciones](sustrato/canada/telecomunicaciones.md) — Telecomunicaciones Canadá: CRTC, espectro, banda ancha, Bell/Rogers/Telus, 5G · 🏷️ canada,telecomunicaciones,crtc,espectro,banda-ancha,bell,rogers,telus,5g · 📅 2026-07-12
+- [energia](sustrato/canada/energia.md) — Energía Canadá: hidroeléctrica, oil sands, gas natural, red eléctrica, NRCan, net-zero · 🏷️ canada,energia,hidroelectrica,oil-sands,gas-natural,red-electrica,nrcan,net-zero · 📅 2026-07-12
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -489,6 +492,36 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/chief-pricing-officer
 - [chief-pricing-officer](rol/chief-pricing-officer/chief-pricing-officer.md) — Chief Pricing Officer: estrategia de precios, elasticidad, monetización, discount governance · 🏷️ pricing,precios,elasticidad,monetizacion,packaging,list-price · 📅 2026-07-12
+
+### dominio/ciudades-inteligentes
+- [ciudades-inteligentes](dominio/ciudades-inteligentes/ciudades-inteligentes.md) — Ciudades inteligentes: IoT urbano, movilidad, datos, sostenibilidad, gobernanza · 🏷️ ciudades-inteligentes,smart-city,iot,movilidad,datos-urbanos,sostenibilidad,gobernanza-urbana · 📅 2026-07-12
+
+### dominio/healthtech
+- [healthtech](dominio/healthtech/healthtech.md) — Healthtech / salud digital: telemedicina, wearables, IA en salud, startups, regulación · 🏷️ healthtech,salud-digital,telemedicina,wearables,ia-salud,startups,regulacion-sanitaria · 📅 2026-07-12
+
+### dominio/publicidad
+- [publicidad](dominio/publicidad/publicidad.md) — Publicidad / advertising: medios, programática, agencias, medición, creatividad · 🏷️ publicidad,advertising,medios,programatica,agencias,medicion,creatividad,marketing-digital · 📅 2026-07-12
+
+### dominio/franquicias
+- [franquicias](dominio/franquicias/franquicias.md) — Franquicias / franchising: modelo, royalties, FDD, regulación, expansión · 🏷️ franquicias,franchising,modelo-negocio,royalties,fdd,franquiciante,franquiciatario · 📅 2026-07-12
+
+### dominio/eventos
+- [eventos](dominio/eventos/eventos.md) — Industria de eventos / MICE: meetings, incentives, conferences, exhibitions · 🏷️ eventos,mice,congresos,ferias,reuniones,incentivos,turismo-negocios · 📅 2026-07-12
+
+### rol/legal-ops
+- [legal-ops](rol/legal-ops/legal-ops.md) — Legal Operations: eBilling, proveedores, tecnología legal, gestión de contratos · 🏷️ legal-ops,operaciones-legales,ebilling,proveedores-legales,tecnologia-legal,gestion-contratos · 📅 2026-07-12
+
+### rol/head-of-facilities
+- [head-of-facilities](rol/head-of-facilities/head-of-facilities.md) — Head of Facilities / FM: instalaciones, workplace, servicios, ISO 41001 · 🏷️ facilities,facility-management,workplace,servicios-generales,iso-41001,instalaciones · 📅 2026-07-12
+
+### rol/head-of-public-affairs
+- [head-of-public-affairs](rol/head-of-public-affairs/head-of-public-affairs.md) — Head of Public Affairs / Government Relations: lobbying, políticas, trade assocs · 🏷️ public-affairs,government-relations,lobbying,politicas-publicas,trade-associations,pac · 📅 2026-07-12
+
+### rol/sales-engineer
+- [sales-engineer](rol/sales-engineer/sales-engineer.md) — Sales Engineer: pre-venta técnica, demos, POCs, puente ingeniería-cliente · 🏷️ sales-engineer,pre-venta,demos,poc,soluciones-tecnicas,ventas-tecnicas · 📅 2026-07-12
+
+### rol/business-analyst
+- [business-analyst](rol/business-analyst/business-analyst.md) — Business Analyst: requisitos, procesos, BPM, puente negocio-TI · 🏷️ business-analyst,analisis-negocio,requisitos,bpm,procesos,puente-negocio-ti · 📅 2026-07-12
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

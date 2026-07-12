@@ -28,3 +28,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [labor](labor.md) — Trabajo/laboral EE.UU.: DOL, FLSA, OSHA, NLRB, sindicatos · 🏷️ eeuu,trabajo,laboral,dol,flsa,osha,nlrb,salario-minimo,horas-extras · 📅 2026-07-12
 - [defensa](defensa.md) — Defensa EE.UU.: Department of Defense, Pentágono, presupuesto FY2025 ~USD 850B, industria de defensa · 🏷️ eeuu,defensa,department-of-defense,pentagono,dod,presupuesto,industria-defense · 📅 2026-07-12
 - [comercio-exterior](comercio-exterior.md) — Comercio exterior EE.UU.: USTR, Sección 301, aranceles, acuerdos comerciales, nearshoring · 🏷️ eeuu,comercio-exterior,ustr,seccion-301,aranceles,acuerdos-comerciales,nearshoring · 📅 2026-07-12
+- [infraestructura](infraestructura.md) — Infraestructura EE.UU.: IIJA, DOT, carreteras, puentes, banda ancha, red eléctrica · 🏷️ eeuu,infraestructura,iija,dot,carreteras,puentes,banda-ancha,red-electrica · 📅 2026-07-12

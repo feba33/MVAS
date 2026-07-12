@@ -481,3 +481,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - 5 → rol (nuevos, superstructura recursiva completa): `head-of-revops`, `chief-content-officer`, `head-of-sales-enablement`, `head-of-people-analytics`, `chief-pricing-officer`.
 - **Round 18 COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5).** ALCANCE sustrato = solo Norteamérica (respetado). Reference-only (Wikipedia EN + fuentes oficiales gob/SADER/USTR/CRTC; sin raw/).
 - Próximo: ejecutar `gap_analysis.py`; si 0 → Round 18 cierra; ampliar taxonomía para Round 19 (nuevos dominios/roles/países NA) o pausar enriquecimiento.
+
+## [2026-07-12] ingest | Round 19 — 13 nodos (3 sustrato NA + 5 dominio + 5 rol)
+- 3 → sustrato (deepenings NA): `mexico/turismo.md` (SECTUR, sol y playa, médico, ~51M llegadas 2024), `estados-unidos/infraestructura.md` (IIJA, DOT, banda ancha, grid), `canada/energia.md` (hidro, oil sands, NRCan, net-zero).
+- 5 → dominio (nuevos): `ciudades-inteligentes`, `healthtech`, `publicidad`, `franquicias`, `eventos`.
+- 5 → rol (nuevos): `legal-ops`, `head-of-facilities`, `head-of-public-affairs`, `sales-engineer`, `business-analyst`.
+- Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales gob/SECTUR/DOT/NRCAN; sin raw/).
+- Round 19 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
+

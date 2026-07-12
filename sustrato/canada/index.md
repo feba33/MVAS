@@ -22,3 +22,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [labor](labor.md) — Trabajo/laboral Canadá: Labour Code federal, ESDC, estándares provinciales · 🏷️ canada,trabajo,laboral,labour-code,esdc,estandares-laborales,negociacion-colectiva · 📅 2026-07-12
 - [seguridad-social](seguridad-social.md) — Seguridad social Canadá: CPP, OAS, EI, Canada Health Transfer · 🏷️ canada,seguridad-social,cpp,oas,ei,pension,empleo,salud,esdc · 📅 2026-07-12
 - [telecomunicaciones](telecomunicaciones.md) — Telecomunicaciones Canadá: CRTC, espectro, banda ancha, Bell/Rogers/Telus, 5G · 🏷️ canada,telecomunicaciones,crtc,espectro,banda-ancha,bell,rogers,telus,5g · 📅 2026-07-12
+- [energia](energia.md) — Energía Canadá: hidroeléctrica, oil sands, gas natural, red eléctrica, NRCan, net-zero · 🏷️ canada,energia,hidroelectrica,oil-sands,gas-natural,red-electrica,nrcan,net-zero · 📅 2026-07-12

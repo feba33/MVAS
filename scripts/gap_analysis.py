@@ -40,6 +40,7 @@ TAXONOMY = {
         ("seguridad-social", "Seguridad social México: IMSS, ISSSTE, seguro social, salud y pensiones laborales"),
         ("transporte", "Transporte e infraestructura México: SCT, carreteras, puertos, aeropuertos, fronteras"),
         ("agricultura", "Agricultura México: SADER, sector agroalimentario, autosuficiencia, tratados, cadena de valor"),
+        ("turismo", "Turismo México: SECTUR, destinos, turismo de sol y playa, turismo médico, contribución al PIB"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -56,6 +57,7 @@ TAXONOMY = {
         ("labor", "Trabajo / laboral EE.UU.: DOL, FLSA, OSHA, NLRB, derechos del trabajador, sindicatos"),
         ("defensa", "Defensa / Department of Defense: Pentagon, presupuesto, contratos, industria de defensa"),
         ("comercio-exterior", "Comercio exterior EE.UU.: USTR, política comercial, aranceles, USMCA, Sección 301/232"),
+        ("infraestructura", "Infraestructura EE.UU.: IIJA, DOT, carreteras, puentes, banda ancha, red eléctrica"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -72,6 +74,7 @@ TAXONOMY = {
         ("labor", "Trabajo / laboral Canadá: Labour Code federal, ESDC, estándares provinciales, sindicatos"),
         ("seguridad-social", "Seguridad social Canadá: CPP, OAS, EI, financiamiento de salud provincial"),
         ("telecomunicaciones", "Telecomunicaciones Canadá: CRTC, Bell/Rogers/Telus, 5G, espectro, competencia"),
+        ("energia", "Energía Canadá: hidroeléctrica, oil sands, gas, red eléctrica, NRCan, transición energética"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -308,6 +311,17 @@ NEW_NODES = [
     ("rol/head-of-sales-enablement", "Head of Sales Enablement — capacitación, contenido y herramientas de ventas"),
     ("rol/head-of-people-analytics", "Head of People Analytics — People Analytics/HR Analytics: attrition, engagement, workforce planning"),
     ("rol/chief-pricing-officer", "Chief Pricing Officer — estrategia de precios, elasticidad, monetización"),
+    # Round 19 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings turismo MX, infraestructura US, energía CA; dominio/rol generales).
+    ("dominio/ciudades-inteligentes", "Ciudades inteligentes / smart cities: IoT urbano, movilidad, datos, sostenibilidad, gobernanza"),
+    ("dominio/healthtech", "Healthtech / salud digital: telemedicina, wearables, IA en salud, startups, regulación sanitaria digital"),
+    ("dominio/publicidad", "Publicidad / advertising: medios, programática, agencias, medición, creatividad, CTV/digital"),
+    ("dominio/franquicias", "Franquicias / franchising: modelo, royalties, FDD, regulación, expansión"),
+    ("dominio/eventos", "Industria de eventos / MICE: meetings, incentives, conferences, exhibitions, congresos"),
+    ("rol/legal-ops", "Legal Operations (legal ops): eBilling, proveedores externos, tecnología legal, gestión de contratos a escala"),
+    ("rol/head-of-facilities", "Head of Facilities / Facilities Management: instalaciones, workplace, FM, ISO 41001, servicios generales"),
+    ("rol/head-of-public-affairs", "Head of Public Affairs / Government Relations: relación con gobierno, lobbying legal, políticas públicas, trade associations"),
+    ("rol/sales-engineer", "Sales Engineer: pre-venta técnica, demos, POCs, puente ingeniería-cliente; vs solutions-architect y AE"),
+    ("rol/business-analyst", "Business Analyst: requisitos, procesos, BPM, puente negocio-TI; vs data-analyst y product-manager"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}
