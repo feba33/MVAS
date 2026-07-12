@@ -302,6 +302,16 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [consultoria](dominio/consultoria/consultoria.md) — Consultoría de gestión: estrategia, operaciones, M&A, tecnología; MBB/Big Four · 🏷️ consultoria,management-consulting,estrategia,mbb,big-four,operaciones,mandd,proyectos · 📅 2026-07-11
 ### dominio/servicios-profesionales
 - [servicios-profesionales](dominio/servicios-profesionales/servicios-profesionales.md) — Servicios profesionales: derecho, contabilidad, arquitectura, ingeniería; partnership · 🏷️ servicios-profesionales,professional-services,firmas,bufetes,contabilidad,arquitectura,ingenieria,utilizacion · 📅 2026-07-11
+### dominio/alimentos-bebidas
+- [alimentos-bebidas](dominio/alimentos-bebidas/alimentos-bebidas.md) — Alimentos y bebidas (F&B): cadena de suministro, seguridad alimentaria (FSMA/HACCP), mercado global · 🏷️ alimentos-bebidas,food-and-beverage,seguridad-alimentaria,fsma,cadena-suministro · 📅 2026-07-12
+### dominio/moda
+- [moda](dominio/moda/moda.md) — Moda/apparel: mercado global (~USD 1.44T 2026), cadena de valor, sostenibilidad, retail omnicanal · 🏷️ moda,apparel,retail-moda,cadena-suministro-moda,marca · 📅 2026-07-12
+### dominio/espacio
+- [espacio](dominio/espacio/espacio.md) — Economía espacial: upstream (lanzadores/satélites), downstream (EO, GNSS, satcom), NewSpace · 🏷️ espacio,space-economy,satelites,lanzamiento,newspace · 📅 2026-07-12
+### dominio/agua
+- [agua](dominio/agua/agua.md) — Agua y saneamiento: utilities públicas, potabilización, tratamiento, escasez, regulación · 🏷️ agua,water-industry,saneamiento,utilities,regulacion-agua · 📅 2026-07-12
+### dominio/semiconductores
+- [semiconductores](dominio/semiconductores/semiconductores.md) — Semiconductores/chips: diseño (fabless), foundry, IDM, OSAT, CHIPS Act · 🏷️ semiconductores,chips,foundry,diseno,chips-act · 📅 2026-07-12
 
 ### rol/
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
@@ -362,6 +372,11 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [chief-investment-officer](rol/chief-investment-officer/chief-investment-officer.md) — CIO de inversiones: estrategia de inversión, asset allocation, portafolio · 🏷️ chief-investment-officer,cio,inversiones,portafolio,asset-allocation,fiduciario,gestora-activos · 📅 2026-07-11
 - [head-of-research](rol/head-of-research/head-of-research.md) — Head of Research / I+D: estrategia de investigación, pipeline, IP · 🏷️ head-of-research,research,desarrollo,i+d,innovacion,pipeline,ciencia · 📅 2026-07-11
 - [chief-digital-officer](rol/chief-digital-officer/chief-digital-officer.md) — CDO: estrategia y transformación digital, experiencia de cliente, e-commerce · 🏷️ chief-digital-officer,cdo,transformacion-digital,experiencia-cliente,estrategia-digital,ecommerce,datos · 📅 2026-07-11
+- [chief-strategy-officer](rol/chief-strategy-officer/chief-strategy-officer.md) — CSO: dueño de la estrategia corporativa, M&A, transformación; reporta al CEO · 🏷️ chief-strategy-officer,cso,estrategia,ma,transformacion · 📅 2026-07-12
+- [chief-privacy-officer](rol/chief-privacy-officer/chief-privacy-officer.md) — CPO: gestión de riesgos de privacidad (GDPR/CPRA/LGPD); distinto de DPO · 🏷️ chief-privacy-officer,privacidad,proteccion-datos,gdpr,cpra · 📅 2026-07-12
+- [chief-people-officer](rol/chief-people-officer/chief-people-officer.md) — CPO/CHRO: liderazgo estratégico de RRHH, talento y cultura (C-suite) · 🏷️ chief-people-officer,chro,recursos-humanos,talento,cultura · 📅 2026-07-12
+- [chief-client-officer](rol/chief-client-officer/chief-client-officer.md) — CCO: dueño de la relación y retención del cliente (CX); puente ventas-CS-marketing · 🏷️ chief-client-officer,customer-experience,retencion,cx · 📅 2026-07-12
+- [head-of-operations](rol/head-of-operations/head-of-operations.md) — Head of Operations: lidera operaciones, procesos, eficiencia, calidad, SCM · 🏷️ head-of-operations,operaciones,produccion,eficiencia,calidad · 📅 2026-07-12
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

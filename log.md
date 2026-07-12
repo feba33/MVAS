@@ -382,3 +382,18 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 ## [2026-07-12] ingest | Round 12 — ITER 134 | sustrato/canada transporte (LOOP 1) — 1 ingest
 - 1 tema sustrato (deepening de nodo NA existente): `sustrato/canada/transporte.md` — Transport Canada (depto federal carretera/ferrocarril/marítimo/aéreo, desde 1935/36; reorg 1994 privatizó CN y descentralizó puertos/aeropuertos); ferrocarril 49,422 km (solo 129 km eléctricos), dos Class I (CN, CPKC — única que conecta CA-US-MX), Via Rail (corona) pasajeros; Port of Vancouver (mayor de Canadá, 4º NA, 170+ economías); aviación civil regulada por TC, ATC por NAV CANADA. Reference-only.
 - **Round 12 LOOP 1 sustrato NA COMPLETO (3/3).** Restan 10 temas Round 12 (dominio x5, rol x5). Próxima tarea (iter 135): dominio/alimentos-bebidas (LOOP 2 dominio).
+
+## [2026-07-12] ingest | Round 12 — ITER 135 | LOOP 2 (dominio x5) + LOOP 3 (rol x5) — 10 nodos nuevos
+- 10 nodos creados con superstructura completa (README, index, log, raw/) cubriendo dominio y rol:
+  - `dominio/alimentos-bebidas/` — F&B: cadena de suministro, seguridad alimentaria (FSMA/HACCP), mercado global.
+  - `dominio/moda/` — Apparel/fashion: mercado ~USD 1.44T (2026)→1.68T (2031), cadena de valor, sostenibilidad.
+  - `dominio/espacio/` — Space economy: upstream (lanzadores/satélites), downstream (EO, GNSS, satcom), NewSpace.
+  - `dominio/agua/` — Agua y saneamiento: utilities públicas, potabilización, tratamiento, escasez, regulación.
+  - `dominio/semiconductores/` — Semiconductores/chips: fabless, foundry, IDM, OSAT, CHIPS Act, cadena global.
+  - `rol/chief-strategy-officer/` — CSO: estrategia corporativa, M&A, transformación; reporta al CEO.
+  - `rol/chief-privacy-officer/` — CPO: riesgos de privacidad (GDPR/CPRA/LGPD); distinto de DPO.
+  - `rol/chief-people-officer/` — CPO/CHRO: liderazgo estratégico de RRHH, talento y cultura (C-suite).
+  - `rol/chief-client-officer/` — CCO: dueño de la relación y retención del cliente (CX).
+  - `rol/head-of-operations/` — Head of Operations: procesos, eficiencia, calidad, SCM.
+- Reference-only (URL en frontmatter; sin raw/). Cross-refs a logistica, retail, sostenibilidad, estrategia, operaciones, juridico, ciso, etc.
+- **Round 12 COMPLETA (13/13 temas en 3 bucles: LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5).** Todas las capas cubiertas. Cola Round 12 VACÍA → reabastecimiento (gap_analysis.py) para Round 13.

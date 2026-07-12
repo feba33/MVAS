@@ -33,26 +33,26 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   (T-MEC/USMCA, IMMEX) y `sustrato/estados-unidos/controles-exportacion.md` (EAR/ITAR). CBCA ya cubierto
   en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
-- **Iteración actual:** 134 — Round 12 ABIERTA (13 temas). ITER 134 ingestó sustrato/canada/transporte (LOOP 1 sustrato NA COMPLETO 3/3). Próxima tarea (iter 135): dominio/alimentos-bebidas (LOOP 2 dominio, 5/5 pendientes).
-- **Temas completados:** 211 (Round 11 14/14 + Round 12: ITER 132 mexico/sat, ITER 133 estados-unidos/inmigracion, ITER 134 canada/transporte).
+- **Iteración actual:** 135 — Round 12 COMPLETA (13/13). ITER 135 ingestó LOOP 2 (dominio x5: alimentos-bebidas, moda, espacio, agua, semiconductores) + LOOP 3 (rol x5: chief-strategy-officer, chief-privacy-officer, chief-people-officer, chief-client-officer, head-of-operations). Todas las capas cubiertas (sustrato en LOOP 1, iter 132-134).
+- **Temas completados:** 221 (Round 12 COMPLETA: 13/13 — sustrato x3 + dominio x5 + rol x5).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** Round 12 ABIERTA (13 temas, 3/13 hecho: mexico/sat, estados-unidos/inmigracion, canada/transporte — LOOP 1 sustrato NA COMPLETO): 5 dominio (alimentos-bebidas, moda, espacio, agua, semiconductores) + 5 rol (chief-strategy-officer, chief-privacy-officer, chief-people-officer, chief-client-officer, head-of-operations) restantes. ALCANCE sustrato = solo Norteamérica (sin nuevos países no-NA). Próxima tarea (iter 135): dominio/alimentos-bebidas (F&B: industria, regulación, cadena, marca).
+- **Siguiente paso:** Round 12 COMPLETA → reabastecimiento para Round 13: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos, extender taxonomía (deepenings sustrato NA + nuevos nodos dominio/rol, sin países no-NA) y abrir cola. NOTA: cron de investigación sigue PAUSADO; el bucle continúa vía esta corrida de reabastecimiento.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 # COLA ROUND 12 (13 temas — reabastecimiento gap_analysis.py, Round 11 completa)
 - [x] sustrato/mexico/sat — SAT / sistema tributario (ISR, IVA)
 - [x] sustrato/estados-unidos/inmigracion — USCIS, H-1B, H-2A, green card
 - [x] sustrato/canada/transporte — Transport Canada, ferrocarriles, aviación, puertos
-- [ ] dominio/alimentos-bebidas — F&B (industria, regulación, cadena, marca)
-- [ ] dominio/moda — Moda / apparel & retail fashion
-- [ ] dominio/espacio — Space economy (satélites, lanzamiento, downstream)
-- [ ] dominio/agua — Agua y saneamiento (infra, regulación, escasez)
-- [ ] dominio/semiconductores — Semiconductores / chips (fabs, diseño, CHIPS Act)
-- [ ] rol/chief-strategy-officer — CSO (estrategia corporativa)
-- [ ] rol/chief-privacy-officer — DPO (privacidad, GDPR, CPRA)
-- [ ] rol/chief-people-officer — CHRO (talento, cultura, RRHH)
-- [ ] rol/chief-client-officer — Chief Client Officer (CX, retención)
-- [ ] rol/head-of-operations — Head of Operations
+- [x] dominio/alimentos-bebidas — F&B (industria, regulación, cadena, marca)
+- [x] dominio/moda — Moda / apparel & retail fashion
+- [x] dominio/espacio — Space economy (satélites, lanzamiento, downstream)
+- [x] dominio/agua — Agua y saneamiento (infra, regulación, escasez)
+- [x] dominio/semiconductores — Semiconductores / chips (fabs, diseño, CHIPS Act)
+- [x] rol/chief-strategy-officer — CSO (estrategia corporativa)
+- [x] rol/chief-privacy-officer — DPO (privacidad, GDPR, CPRA)
+- [x] rol/chief-people-officer — CHRO (talento, cultura, RRHH)
+- [x] rol/chief-client-officer — Chief Client Officer (CX, retención)
+- [x] rol/head-of-operations — Head of Operations
 ### Sustrato
 - [x] sustrato/mexico — LFT
 - [x] sustrato/mexico — PROFECO / CONDUSEF
@@ -797,6 +797,13 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 ### [2026-07-12] Round 12 — ITER 134 | sustrato/canada transporte (LOOP 1) — 1 ingest
 - 1 tema sustrato (deepening de nodo NA existente): `sustrato/canada/transporte.md` — Transport Canada (depto federal carretera/ferrocarril/marítimo/aéreo; reorg 1994 privatizó CN y descentralizó puertos/aeropuertos); ferrocarril 49,422 km (129 km eléctricos), dos Class I (CN, CPKC — única CA-US-MX), Via Rail (corona) pasajeros; Port of Vancouver (mayor de Canadá, 4º NA, 170+ economías); aviación civil por TC, ATC por NAV CANADA. Reference-only (URL en frontmatter; sin raw/).
 - **Round 12 LOOP 1 sustrato NA COMPLETO (3/3).** Restan 10 temas Round 12 (dominio x5, rol x5). Próxima tarea (iter 135): dominio/alimentos-bebidas (LOOP 2 dominio).
+
+### [2026-07-12] Round 12 — ITER 135 | LOOP 2 (dominio x5) + LOOP 3 (rol x5) — 10 ingests
+- 10 temas ingestados cubriendo dominio (x5) + rol (x5). **Round 12 COMPLETA (13/13)**. Cola Round 12 VACÍA.
+  - [dominio] `dominio/alimentos-bebidas/` (F&B: cadena, FSMA/HACCP, mercado), `dominio/moda/` (apparel, ~USD 1.44T 2026), `dominio/espacio/` (space economy: upstream/downstream), `dominio/agua/` (utilities, escasez), `dominio/semiconductores/` (chips: fabless/foundry/CHIPS Act).
+  - [rol] `rol/chief-strategy-officer/` (CSO), `rol/chief-privacy-officer/` (CPO privacidad, vs DPO), `rol/chief-people-officer/` (CPO/CHRO), `rol/chief-client-officer/` (CCO, CX/retención), `rol/head-of-operations/` (Ops).
+- Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo nuevo. Alcance sustrato respetado (Round 12 no agregó países; LOOP 1 fueron deepenings NA).
+- **Siguiente paso (iter 136 / Round 13):** reabastecimiento — ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos, extender taxonomía y abrir cola Round 13.
 
 ## COLA ROUND 11 (14 temas — gap_analysis extendido, Round 10 completa)
 - [x] sustrato/mexico/inversion-extranjera — IED (IMMEX, maquiladora, regulación)
