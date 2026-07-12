@@ -95,3 +95,9 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | SAT — Servicio de Administración Tributaria (sustrato/mexico)
 - Fuentes: Wikipedia ES (Servicio de Administración Tributaria) + SAT oficial + gobierno.com.mx (CFDI 4.0/e.firma) — reference-only.
 - Página: `sat.md`. Órgano desconcentrado de la SHCP (Ley del SAT, 1997); máxima autoridad fiscal; administra RFC, CFF, CFDI 4.0 (e.firma, CIEC, Buzón Tributario, Mi Contabilidad); recauda ISR/IVA/IEPS/aranceles y cuotas IMSS-ISSSTE; carga tributaria baja (~13-14% PIB). Complementa `regimen-fiscal.md`.
+
+## [2026-07-12] ingest | Pemex niega fracking en la Huasteca Potosina (sustrato/mexico)
+- Fuente: El Financiero (2026-07-11) — reference-only (URL en frontmatter, sin raw/).
+- Página: `pemex-fracking-huasteca.md`. Pemex desmiente que un permiso de explosivos en San Antonio, SLP, implique fracking en la Huasteca Potosina; reitera su postura frente a la polémica ambiental/social de la región.
+- Discernimiento: sustrato/mexico (energía/hidrocarburos) + cross-ref energia.md. Certeza alta.
+- Gate de relevancia: el ítem tiene ángulo de sector energético (Pemex, hidrocarburos, fracking) → ingerido. Los otros 4 ítems del scrape (mundial deportes, fuga Cereso Hermosillo, tiroteo en velorio Michoacán, operativos de seguridad Uruapan) se filtraron por gate de relevancia (coyuntura deportiva/criminal/seguridad sin ángulo legal-corporativo-técnico).
