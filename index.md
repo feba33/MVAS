@@ -403,6 +403,11 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [chief-communications-officer](rol/chief-communications-officer/chief-communications-officer.md) — CCO: comunicaciones, PR, reputación, asesor del CEO · 🏷️ cco,chief-communications-officer,comunicacion,relaciones-publicas,reputacion,pr · 📅 2026-07-12
 - [chief-analytics-officer](rol/chief-analytics-officer/chief-analytics-officer.md) — CAO: analítica y aporte a decisiones operativas · 🏷️ cao,chief-analytics-officer,analitica,data-science,business-analytics · 📅 2026-07-12
 - [head-of-innovation](rol/head-of-innovation/head-of-innovation.md) — Head of Innovation: labs, corporate venturing, ISO 56000 · 🏷️ head-of-innovation,innovacion,innovation,labs,corporate-venturing · 📅 2026-07-12
+- [program-manager](rol/program-manager/program-manager.md) — Program Manager: gobierna portafolio de proyectos alineados a estrategia · 🏷️ program-manager,program-management,pgmp,pmo,beneficios,gobernanza · 📅 2026-07-12
+- [solutions-architect](rol/solutions-architect/solutions-architect.md) — Solutions Architect: diseña solución IT que soporta el negocio (pre-sales) · 🏷️ solutions-architect,arquitectura-soluciones,presales,nube,integracion · 📅 2026-07-12
+- [investor-relations](rol/investor-relations/investor-relations.md) — Investor Relations: puente empresa-mercado financiero (NIRI) · 🏷️ investor-relations,ir,relacion-inversionistas,earnings,divulgacion,capital-markets · 📅 2026-07-12
+- [regulatory-affairs](rol/regulatory-affairs/regulatory-affairs.md) — Regulatory Affairs: cumplimiento regulatorio y aprobación de productos · 🏷️ regulatory-affairs,cumplimiento-regulatorio,fda,ema,aprobaciones,calidad · 📅 2026-07-12
+- [actuario](rol/actuario/actuario.md) — Actuario: mide/gestiona riesgo e incertidumbre (seguros, pensiones) · 🏷️ actuario,actuarial-science,riesgo,seguros,pensiones,soa,cas,solvencia-ii · 📅 2026-07-12
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

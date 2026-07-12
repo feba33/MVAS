@@ -431,3 +431,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   - `dominio/geopolitica/geopolitica.md` — geopolítica/geoeconomía para negocios: sanciones, bloques comerciales, nacionalismo de recursos, friend-shoring/nearshoring, riesgo país.
   - `dominio/inteligencia-competitiva/inteligencia-competitiva.md` — CI process (SCIP), fuentes, línea legal vs espionaje industrial, contrainteligencia.
 - Reference-only (Wikipedia EN; URL en frontmatter; sin raw/). Cola Round 14: 8/13. Cross-ref sustrato (comercio exterior, controles de exportación, antitrust, privacidad).
+
+## [2026-07-12] ingest | Round 14 LOOP 3 — 5 nodos de rol nuevos
+- 5 → rol (nuevos):
+  - `rol/program-manager/program-manager.md` — gobierna portafolio de proyectos alineados a estrategia (≠ project mgmt); PgMP/PMI; PMO.
+  - `rol/solutions-architect/solutions-architect.md` — diseña solución IT que soporta el negocio; puente ventas-ingeniería/cliente (pre-sales); nube, TOGAF.
+  - `rol/investor-relations/investor-relations.md` — IR: puente empresa-mercado financiero (def. NIRI); earnings, divulgación, valoración justa.
+  - `rol/regulatory-affairs/regulatory-affairs.md` — RA: cumplimiento regulatorio y aprobación de productos (farma/dispositivos/alimentos/fintech); FDA/EMA.
+  - `rol/actuario/actuario.md` — mide/gestiona riesgo e incertidumbre (seguros, pensiones); SOA/CAS/IFoA; Solvencia II.
+- **Round 14 COMPLETA (13/13: sustrato x3 + dominio x5 + rol x5).** Reference-only (Wikipedia EN; sin raw/).
+- Próximo: ejecutar `gap_analysis.py` → 0 gaps esperados; reabastecimiento cerrado.
