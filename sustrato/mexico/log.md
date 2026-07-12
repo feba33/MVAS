@@ -113,3 +113,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | Seguridad social México (IMSS, ISSSTE, regímenes)
 - Fuentes: Wikipedia (es) — IMSS; Gob.mx IMSS; Wikipedia (es) — ISSSTE — reference-only.
 - Página: `seguridad-social.md`. Art. 123 Constitución (Apartados A/B). IMSS (LSS 1943) cubre sector privado: enfermedad/maternidad, riesgos de trabajo, invalidez/vida, retiro (SAR/AFORE 1997), guarderías. ISSSTE (Ley 2007) sector público federal; regímenes especiales ISSFAM/PEMEX/CFE/SB. INSABI (2019) descontinuado 2023 → IMSS-Bienestar. Financiamiento por cuotas obrero-patronales. Cross-ref sustrato/mexico/pensiones-afore, sustrato/mexico/sat, sustrato/mexico/lft, dominio/salud, rol/head-of-people.
+
+## [2026-07-12] ingest | Transporte e infraestructura México (SICT)
+- Fuentes: Wikipedia (en) — Secretariat of Infrastructure, Communications and Transportation; gob.mx/sct — reference-only.
+- Página: `transporte.md`. SICT (antes SCT) regula carreteras/puertos/aeropuertos/ferrocarriles; red carretera ~377k km; APIs (Manzanillo, Lázaro Cárdenas, Veracruz); CPKC conecta CA-US-MX; AICM/AIFA; ~28 cruces fronterizos. Certeza alta. Cross-ref comercio-exterior, sector-manufacturero, dominio/transporte, dominio/logistica.

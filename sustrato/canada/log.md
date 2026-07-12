@@ -63,3 +63,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | Trabajo / laboral Canadá (Labour Code federal, ESDC)
 - Fuentes: Wikipedia (en) — Canadian labour and employment law; Canada.ca (ESDC) — reference-only.
 - Página: `labor.md`. División federal/provincial: Labour Code federal (ESDC) solo sectores federales; cada provincia su Employment Standards. Part I estándares: 48h/sem, salario mínimo federal, horas extras 1.5×, vacaciones 2+ sem, licencias. Part II salud/seguridad (CSBST). Negociación colectiva vía CIRB; huelga/lockout regulados. Sin at-will (indemnización por despido). Cross-ref sustrato/mexico/lft, sustrato/estados-unidos/labor, dominio/leyes/derecho-laboral, rol/head-of-people.
+
+## [2026-07-12] ingest | Seguridad social Canadá (CPP, OAS, EI, salud)
+- Fuentes: Canada.ca (CPP/EI explained); Wikipedia (en) — Canada Pension Plan / Old Age Security — reference-only.
+- Página: `seguridad-social.md`. Tres pilares (CPP contributivo ~5.95%, OAS residencial ~$727-800/mes + GIS, EI ~55% hasta 45 semanas); salud vía Canada Health Act + Canada Health Transfer a provincias. Administrado por ESDC/Service Canada. Cross-ref impuestos (CRA), salud, labor.

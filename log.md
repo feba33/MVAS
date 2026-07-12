@@ -461,3 +461,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - 5 → rol (nuevos, superstructura recursiva completa): `chief-security-officer` (CSO), `chief-learning-officer` (CLO), `chief-quality-officer` (CQO), `head-of-partnerships`, `chief-experience-officer` (CXO).
 - **Round 16 COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5).** ALCANCE sustrato = solo Norteamérica (respetado). Reference-only (Wikipedia EN + fuentes oficiales gob/SAT/BoC/Fed/ASIS/ATD/ASQ; sin raw/).
 - Próximo: ejecutar `gap_analysis.py`; si 0 → Round 16 cierra; ampliar taxonomía para Round 17 (nuevos dominios/roles/países NA) o pausar enriquecimiento.
+
+## [2026-07-12] ingest | Round 17 — ITER 148 | 13 ingests (3 loops: sustrato NA + dominio + rol)
+- 3 → sustrato (deepenings, solo NA):
+  - `sustrato/mexico/transporte.md` — SICT (antes SCT): carreteras ~377k km, APIs (Manzanillo/Lázaro Cárdenas/Veracruz), CPKC (CA-US-MX), AICM/AIFA, ~28 cruces fronterizos.
+  - `sustrato/estados-unidos/defensa.md` — DoD (1947/Pentágono), presupuesto FY2025 ~USD 849.8B, primes (Lockheed/RTX/Boeing/Northrop/GD/L3Harris), DARPA, FMS, Goldwater-Nichols.
+  - `sustrato/canada/seguridad-social.md` — CPP (contributivo ~5.95%), OAS (residencial ~$727-800/mes + GIS), EI (~55% hasta 45 semanas), Canada Health Transfer a provincias.
+- 5 → dominio (nuevos, superstructura recursiva completa): `redes-sociales`, `deportes`, `entretenimiento`, `juegos-videojuegos`, `economia-circular`.
+- 5 → rol (nuevos, superstructura recursiva completa): `chief-ai-officer` (CAIO), `chief-design-officer` (CDO design), `chief-transformation-officer`, `chief-ethics-officer`, `chief-knowledge-officer` (CKO).
+- **Round 17 COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5).** ALCANCE sustrato = solo Norteamérica (respetado). Reference-only (Wikipedia EN + fuentes oficiales gob/SICT/DoD/Canada.ca/Statista; sin raw/).
+- Próximo: ejecutar `gap_analysis.py`; si 0 → Round 17 cierra; ampliar taxonomía para Round 18 (nuevos dominios/roles/países NA) o pausar enriquecimiento.

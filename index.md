@@ -353,6 +353,21 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [infraestructura](dominio/infraestructura/infraestructura.md) — Infraestructura: transporte/energética/agua/digital/social; APP/PPP, concesiones · 🏷️ infraestructura,app,ppp,concesiones,obra-publica,green-bonds · 📅 2026-07-12
 - [seguridad-corporativa](dominio/seguridad-corporativa/seguridad-corporativa.md) — Seguridad corporativa: física, crisis, resiliencia, BCP/DR · 🏷️ seguridad-corporativa,crisis,resiliencia,bcp,continuidad,physical-security · 📅 2026-07-12
 
+### dominio/redes-sociales
+- [redes-sociales](dominio/redes-sociales/redes-sociales.md) — Redes sociales: plataformas, algoritmos, monetización, regulación, marketing · 🏷️ redes-sociales,social-media,plataformas,algoritmos,monetizacion,regulacion,marketing-digital · 📅 2026-07-12
+
+### dominio/deportes
+- [deportes](dominio/deportes/deportes.md) — Industria del deporte: media rights, patrocinios, ligas, eSports, mercado · 🏷️ deportes,sports-industry,media-rights,patrocinios,ligas,esports,mercado · 📅 2026-07-12
+
+### dominio/entretenimiento
+- [entretenimiento](dominio/entretenimiento/entretenimiento.md) — Industria del entretenimiento: film, música, streaming, industrias creativas · 🏷️ entretenimiento,entertainment,film,musica,streaming,industrias-creativas · 📅 2026-07-12
+
+### dominio/juegos-videojuegos
+- [juegos-videojuegos](dominio/juegos-videojuegos/juegos-videojuegos.md) — Industria de videojuegos: consolas, mobile, PC, eSports, monetización · 🏷️ juegos-videojuegos,gaming,consolas,mobile,pc,esports,monetizacion · 📅 2026-07-12
+
+### dominio/economia-circular
+- [economia-circular](dominio/economia-circular/economia-circular.md) — Economía circular: modelos de negocio circulares, reciclaje, diseño para circularidad · 🏷️ economia-circular,circular-economy,sostenibilidad,reciclaje,diseno,residuos,esg · 📅 2026-07-12
+
 ### rol/
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
 - [controller](rol/controller/controller.md) — Controller (controlador financiero): reporting, cierre, GAAP, SOX · 🏷️ controller,contraloria,reporting,gaap,sox · 📅 2026-07-11
@@ -436,6 +451,11 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [chief-quality-officer](rol/chief-quality-officer/chief-quality-officer.md) — CQO: calidad y excelencia operativa, mejora continua (Six Sigma/Lean), ISO 9001 · 🏷️ cqo,chief-quality-officer,calidad,excelencia-operativa,mejora-continua,six-sigma · 📅 2026-07-12
 - [head-of-partnerships](rol/head-of-partnerships/head-of-partnerships.md) — Head of Partnerships: alianzas estratégicas, canales, ecosistema, co-ventures · 🏷️ head-of-partnerships,alianzas,canales,ecosistema,co-venture,business-development · 📅 2026-07-12
 - [chief-experience-officer](rol/chief-experience-officer/chief-experience-officer.md) — CXO: experiencia de cliente + empleado + marca, integrada · 🏷️ cxo,chief-experience-officer,experiencia-cliente,employee-experience,marca,cxo · 📅 2026-07-12
+- [chief-ai-officer](rol/chief-ai-officer/chief-ai-officer.md) — CAIO: estrategia de IA, gobernanza, adopción, ética de IA · 🏷️ chief-ai-officer,caio,ia,gobernanza-ia,etica-ia,genai · 📅 2026-07-12
+- [chief-design-officer](rol/chief-design-officer/chief-design-officer.md) — CDO (design): liderazgo ejecutivo de diseño, experiencia, marca · 🏷️ chief-design-officer,cdo-design,diseno,ux,experiencia,marca · 📅 2026-07-12
+- [chief-transformation-officer](rol/chief-transformation-officer/chief-transformation-officer.md) — Chief Transformation Officer: transformación digital/organizacional, cambio de modelo de negocio · 🏷️ chief-transformation-officer,transformacion,cambio-organizacional,estrategia,digital · 📅 2026-07-12
+- [chief-ethics-officer](rol/chief-ethics-officer/chief-ethics-officer.md) — Chief Ethics Officer: ética, integridad, conducta, cultura · 🏷️ chief-ethics-officer,etica-corporativa,integridad,conducta,compliance · 📅 2026-07-12
+- [chief-knowledge-officer](rol/chief-knowledge-officer/chief-knowledge-officer.md) — CKO: gestión del conocimiento, captura, organización, aprendizaje organizacional · 🏷️ chief-knowledge-officer,cko,knowledge-management,aprendizaje-organizacional,intranet · 📅 2026-07-12
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

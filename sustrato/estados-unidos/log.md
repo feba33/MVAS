@@ -86,3 +86,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | Trabajo / laboral EE.UU. (DOL, FLSA, OSHA, NLRB)
 - Fuentes: Wikipedia (en) — U.S. Department of Labor; FLSA; NLRB — reference-only.
 - Página: `labor.md`. DOL (1913): WHD/OSHA/EBSA/BLS; NLRB y EEOC independientes. FLSA (1938): salario mínimo federal $7.25 (2009), horas extras 1.5×>40h, exempt/non-exempt. OSHA (1970). NLRA (1935)/NLRB negociación colectiva; Taft-Hartley (1947). Title VII/EEOC antidiscriminación. Employee vs contractor; AB5 California. At-will (ver empleo-at-will). Cross-ref sustrato/mexico/lft, sustrato/canada/labor, dominio/leyes/derecho-laboral, rol/head-of-people, rol/chief-compliance-officer.
+
+## [2026-07-12] ingest | Defensa EE.UU. (Department of Defense)
+- Fuentes: Wikipedia (en) — United States Department of Defense; DoD Comptroller FY2025 — reference-only.
+- Página: `defensa.md`. DoD (1947, National Security Act), Pentágono, mayor empleador del mundo (~1.3M activos); ramas Army/Navy(incl. Marines)/Air Force/Space Force/Coast Guard; presupuesto FY2025 ~USD 849.8B; primes (Lockheed Martin, RTX, Boeing, Northrop Grumman, General Dynamics, L3Harris); DARPA; FMS; Goldwater-Nichols 1986. Cross-ref controles-exportacion (ITAR), dominio/defensa-seguridad, dominio/aeroespacial, dominio/espacio.

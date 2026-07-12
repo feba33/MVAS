@@ -38,6 +38,7 @@ TAXONOMY = {
         ("educacion", "Educación México: SEP, sistema educativo, reformas, educación superior (UNAM/IPN/tecnológicos), ANUIES"),
         ("medio-ambiente", "Medio ambiente (SEMARNAT, LGEEPA, cambio climático, ESG México, economía circular)"),
         ("seguridad-social", "Seguridad social México: IMSS, ISSSTE, seguro social, salud y pensiones laborales"),
+        ("transporte", "Transporte e infraestructura México: SCT, carreteras, puertos, aeropuertos, fronteras"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -52,6 +53,7 @@ TAXONOMY = {
         ("educacion", "Educación EE.UU.: Dept of Education, K-12 (Title I), higher ed (FAFSA, Pell, acreditación), estatales"),
         ("politica-monetaria", "Política monetaria (Federal Reserve, FOMC, tasa de fondos federales, balance, dual mandate)"),
         ("labor", "Trabajo / laboral EE.UU.: DOL, FLSA, OSHA, NLRB, derechos del trabajador, sindicatos"),
+        ("defensa", "Defensa / Department of Defense: Pentagon, presupuesto, contratos, industria de defensa"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -66,6 +68,7 @@ TAXONOMY = {
         ("educacion", "Educación Canadá: provincias (currículo), PSE (universidades/colleges), student aid, bilingüe FR/EN"),
         ("politica-monetaria", "Política monetaria (Bank of Canada, tasa de política, inflation targeting 2% CPI)"),
         ("labor", "Trabajo / laboral Canadá: Labour Code federal, ESDC, estándares provinciales, sindicatos"),
+        ("seguridad-social", "Seguridad social Canadá: CPP, OAS, EI, financiamiento de salud provincial"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -280,6 +283,17 @@ NEW_NODES = [
     ("rol/chief-quality-officer", "CQO — Chief Quality Officer (calidad, excelencia operativa, mejora continua)"),
     ("rol/head-of-partnerships", "Head of Partnerships — alianzas estratégicas, canales, ecosistema, co-ventures"),
     ("rol/chief-experience-officer", "CXO — Chief Experience Officer (experiencia de cliente + empleado + marca)"),
+    # Round 17 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings en transporte MX, defensa US, seguridad-social CA; dominio/rol generales).
+    ("dominio/redes-sociales", "Redes sociales: plataformas, algoritmos, monetización, regulación, marketing social"),
+    ("dominio/deportes", "Industria del deporte: derechos de medios, patrocinios, ligas, mercado global, eSports"),
+    ("dominio/entretenimiento", "Entretenimiento: filmed entertainment, streaming, música, industrias creativas"),
+    ("dominio/juegos-videojuegos", "Industria de videojuegos: consolas, mobile, PC, eSports, modelos de monetización"),
+    ("dominio/economia-circular", "Economía circular: modelos de negocio circulares, reciclaje, diseño para circularidad, residuos"),
+    ("rol/chief-ai-officer", "CAIO — Chief AI Officer (estrategia de IA, gobernanza, adopción, ética de IA)"),
+    ("rol/chief-design-officer", "Chief Design Officer — liderazgo de diseño a nivel ejecutivo, experiencia, marca"),
+    ("rol/chief-transformation-officer", "Chief Transformation Officer — lidera transformación digital/organizacional"),
+    ("rol/chief-ethics-officer", "Chief Ethics Officer / Chief Integrity Officer (ética, cumplimiento ético, conducta)"),
+    ("rol/chief-knowledge-officer", "CKO — Chief Knowledge Officer (gestión del conocimiento, KM, aprendizaje organizacional)"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

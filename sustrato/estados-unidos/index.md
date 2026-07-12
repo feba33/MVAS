@@ -26,3 +26,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [educacion](educacion.md) — Educación EE.UU.: Dept of Education, K-12 (Title I), higher ed (FAFSA, Pell), estatales · 🏷️ eeuu,educacion,department-of-education,k-12,higher-education,fafsa,pell-grant,title-i · 📅 2026-07-12
 - [politica-monetaria](politica-monetaria.md) — Política monetaria EE.UU.: Federal Reserve, FOMC, tasa de fondos federales, dual mandate · 🏷️ eeuu,politica-monetaria,federal-reserve,fed,fomc,tasa-fondos-federales,inflacion,empleo · 📅 2026-07-12
 - [labor](labor.md) — Trabajo/laboral EE.UU.: DOL, FLSA, OSHA, NLRB, sindicatos · 🏷️ eeuu,trabajo,laboral,dol,flsa,osha,nlrb,salario-minimo,horas-extras · 📅 2026-07-12
+- [defensa](defensa.md) — Defensa EE.UU.: Department of Defense, Pentágono, presupuesto FY2025 ~USD 850B, industria de defensa · 🏷️ eeuu,defensa,department-of-defense,pentagono,dod,presupuesto,industria-defensa · 📅 2026-07-12

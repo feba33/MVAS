@@ -37,9 +37,9 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - **Temas completados:** 229 (Round 12 COMPLETA 13/13 + Round 13 COMPLETA 8/8).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
 - **Iteración actual:** 145 — Round 15 COMPLETA (13/13: sustrato x3 + dominio x5 + rol x5). ITER 143 ingestó sustrato NA (medio-ambiente MX, política monetaria US/CA); ITER 144 ingestó 5 dominios nuevos; ITER 145 ingestó 5 roles nuevos.
-- **Iteración actual:** 146 — Round 16 COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5).
-- **Temas completados:** 276 (Round 15 COMPLETA 13/13 + Round 16 COMPLETA 13/13).
-- **Siguiente paso:** re-ejecutar `python3 scripts/gap_analysis.py`; si 0 → Round 16 cierra el reabastecimiento; ampliar taxonomía para Round 17 (nuevos dominios/roles/países NA) o pausar.
+- **Iteración actual:** 149 — Round 17 COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5).
+- **Temas completados (acumulado):** 289 (Rounds 15, 16 y 17 COMPLETAS; 13 temas cada una).
+- **Siguiente paso:** reabastecimiento → ejecutar `python3 scripts/gap_analysis.py`; se esperan 0 gaps (taxonomía agotada para el alcance actual = solo Norteamérica). Si 0 → pausar el bucle de enriquecimiento hasta nueva dirección del usuario, o ampliar taxonomía para Round 18 (nuevos dominios/roles). Cron de investigación `e273fdbbba14` sigue PAUSADO.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 # COLA ROUND 12 (13 temas — reabastecimiento gap_analysis.py, Round 11 completa)
@@ -898,6 +898,15 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - Reference-only (Wikipedia EN + fuentes oficiales gob/SAT/BoC/Fed/ASIS/ATD/ASQ; sin raw/). Total ingest Round 16 = 13 (3 págs sustrato + 10 nodos nuevos).
 - **Próxima tarea (iter 148+):** re-ejecutar `python3 scripts/gap_analysis.py` → 0 gaps; si 0, Round 16 cierra el reabastecimiento → ampliar taxonomía (Round 17) o pausar. Alcance sustrato sigue = solo Norteamérica.
 
+### [2026-07-12] Round 17 — ITER 148 | gap_analysis extendido (taxonomía Round 17) + apertura de cola
+- gap_analysis.py (post-Round 16) = 0 huecos, 0 nodos nuevos → se **EXTENDIÓ** `scripts/gap_analysis.py`
+  (Round 17) con 3 deepenings sustrato NA (mexico→transporte, estados-unidos→defensa, canada→seguridad-social)
+  + 10 nodos nuevos (dominio: redes-sociales, deportes, entretenimiento, juegos-videojuegos, economia-circular;
+  rol: chief-ai-officer, chief-design-officer, chief-transformation-officer, chief-ethics-officer,
+  chief-knowledge-officer). ALCANCE respetado: sustrato = solo Norteamérica.
+- Re-ejecutado → 13 sugerencias (3 sustrato + 10 nuevos). Abierta cola Round 17 (13 temas).
+- **Próxima tarea (iter 149+):** LOOP 1 (sustrato NA) — mexico/transporte, estados-unidos/defensa, canada/seguridad-social.
+
 ## COLA ROUND 14 (CERRADA — 13/13 COMPLETA)
 - Todos los temas [x]. Reabastecimiento post-Round 13 finalizado.
 
@@ -936,6 +945,35 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - [x] rol/chief-quality-officer — CQO (calidad, excelencia operativa, mejora continua)
 - [x] rol/head-of-partnerships — Head of Partnerships (alianzas estratégicas, canales, co-ventures)
 - [x] rol/chief-experience-officer — CXO (experiencia de cliente + empleado + marca)
+
+## COLA ROUND 17 (gap_analysis.py iter 148 → taxonomía extendida; sustrato solo NA) — COMPLETA 13/13
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Transporte e infraestructura (SICT, carreteras, puertos, aeropuertos, fronteras) — done iter 149
+- [x] sustrato/estados-unidos — Defensa / Department of Defense (Pentagon, presupuesto FY2025, industria de defensa) — done iter 149
+- [x] sustrato/canada — Seguridad social (CPP, OAS, EI, Canada Health Transfer) — done iter 149
+### Dominio (nuevos nodos)
+- [x] dominio/redes-sociales — Redes sociales (plataformas, algoritmos, monetización, regulación, marketing) — done iter 149
+- [x] dominio/deportes — Industria del deporte (derechos de medios, patrocinios, ligas, mercado global, eSports) — done iter 149
+- [x] dominio/entretenimiento — Entretenimiento (filmed entertainment, streaming, música, industrias creativas) — done iter 149
+- [x] dominio/juegos-videojuegos — Videojuegos / eSports (consolas, mobile, PC, modelos de monetización) — done iter 149
+- [x] dominio/economia-circular — Economía circular (modelos de negocio circulares, reciclaje, diseño para circularidad, residuos) — done iter 149
+### Rol (nuevos nodos)
+- [x] rol/chief-ai-officer — CAIO (Chief AI Officer) — done iter 149
+- [x] rol/chief-design-officer — Chief Design Officer — done iter 149
+- [x] rol/chief-transformation-officer — Chief Transformation Officer — done iter 149
+- [x] rol/chief-ethics-officer — Chief Ethics Officer / Chief Integrity Officer — done iter 149
+- [x] rol/chief-knowledge-officer — CKO (Chief Knowledge Officer) — done iter 149
+
+### [2026-07-12] Round 17 — ITER 149 | COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5)
+- LOOP 1 (sustrato NA): 3 páginas en nodos existentes (index/log nodos + raíz actualizados):
+  - `sustrato/mexico/transporte.md` — SICT (antes SCT); carreteras ~377k km; APIs (Manzanillo/Lázaro Cárdenas/Veracruz); CPKC (única CA-US-MX); AICM/AIFA; ~28 cruces fronterizos.
+  - `sustrato/estados-unidos/defensa.md` — DoD (1947/Pentágono), presupuesto FY2025 ~USD 849.8B, primes (Lockheed/RTX/Boeing/Northrop/GD/L3Harris), DARPA, FMS, Goldwater-Nichols.
+  - `sustrato/canada/seguridad-social.md` — CPP (contributivo ~5.95%), OAS (residencial ~$727-800/mes + GIS), EI (~55% hasta 45 sem), Canada Health Transfer.
+- LOOP 2 (dominio): 5 nodos nuevos con superstructura completa (README/index/log/raw/README + página): `redes-sociales`, `deportes`, `entretenimiento`, `juegos-videojuegos`, `economia-circular`.
+- LOOP 3 (rol): 5 nodos nuevos con superstructura completa: `chief-ai-officer` (CAIO), `chief-design-officer` (CDO design), `chief-transformation-officer`, `chief-ethics-officer`, `chief-knowledge-officer` (CKO).
+- Reference-only (Wikipedia EN + fuentes oficiales gob/SICT/DoD Comptroller/Canada.ca/Statista; sin raw/). Alcance sustrato = solo Norteamérica (respetado).
+- **Round 17 COMPLETA (13/13).** Cola Round 17 VACÍA.
+- **Próxima tarea (iter 150+):** reabastecimiento → ejecutar `python3 scripts/gap_analysis.py`; se esperan 0 gaps. Si 0, el bucle de enriquecimiento llega a estado estable (taxonomía agotada para el alcance actual). Opciones: (a) PAUSAR hasta nueva dirección del usuario o (b) ampliar taxonomía para Round 18 (nuevos dominios/roles/países NA). Cron de investigación `e273fdbbba14` sigue PAUSADO salvo que el usuario lo reanude.
 
 ## COLA ROUND 14 (gap_analysis.py iter 138 → taxonomía extendida; sustrato solo NA)
 ### Sustrato (deepening nodos NA existentes)
