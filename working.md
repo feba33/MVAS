@@ -36,8 +36,8 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - **Iteración actual:** 137 — Round 13 COMPLETA (8/8). ITER 137 ingestó 5 nodos nuevos (dominio/gestion-riesgos + 4 roles: chief-revenue-officer, chief-communications-officer, chief-analytics-officer, head-of-innovation).
 - **Temas completados:** 229 (Round 12 COMPLETA 13/13 + Round 13 COMPLETA 8/8).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Iteración actual:** 139 — Round 14 EN CURSO. LOOP 1 sustrato NA (educación mx/us/ca) COMPLETO (3/13). gap_analysis.py (iter 138) extendido: 3 deepenings + 10 nodos nuevos (dominio x5, rol x5). Próximo: LOOP 2 dominio x5.
-- **Temas completados:** 240 (Round 13 COMPLETA 8/8 + 3 de Round 14 ingestados).
+- **Iteración actual:** 140 — Round 14 EN CURSO. LOOP 1 sustrato NA (3/13) + LOOP 2 dominio x5 (8/13) COMPLETOS. gap_analysis.py (iter 138) extendido: 3 deepenings + 10 nodos nuevos (dominio x5, rol x5). Próximo: LOOP 3 rol x5.
+- **Temas completados:** 245 (Round 13 COMPLETA 8/8 + 8 de Round 14 ingestados).
 - **Siguiente paso:** Ejecutar LOOPs 1-3 de Round 14 (sustrato educación NA, dominio x5, rol x5). Cron de investigación sigue PAUSADO; el bucle de reabastecimiento continúa vía esta corrida.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
@@ -853,17 +853,21 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - 3 temas sustrato (deepening de nodos NA existentes): `sustrato/mexico/educacion.md`, `sustrato/estados-unidos/educacion.md`, `sustrato/canada/educacion.md` (sistemas educativos de Norteamérica: SEP / Dept of Ed federal + estados / competencia provincial; K-12, superior, bilingüe FR/EN). Cola Round 14: 3/13.
 - **Próxima tarea (iter 140):** LOOP 2 (dominio x5 nuevos): blockchain, etica-ia, pricing, geopolitica, inteligencia-competitiva.
 
+### [2026-07-12] Round 14 — ITER 140 | LOOP 2 (dominio x5) — 5 ingests (blockchain, etica-ia, pricing, geopolitica, inteligencia-competitiva)
+- 5 temas dominio (nuevos nodos): `dominio/blockchain/`, `dominio/etica-ia/`, `dominio/pricing/`, `dominio/geopolitica/`, `dominio/inteligencia-competitiva/` (cada uno con superstructura: raw/, index.md, log.md, README.md, <slug>.md). Cola Round 14: 8/13.
+- **Próxima tarea (iter 141):** LOOP 3 (rol x5 nuevos): program-manager, solutions-architect, investor-relations, regulatory-affairs, actuario.
+
 ## COLA ROUND 14 (gap_analysis.py iter 138 → taxonomía extendida; sustrato solo NA)
 ### Sustrato (deepening nodos NA existentes)
 - [x] sustrato/mexico — Educación (SEP, sistema educativo, educación superior) — done iter 139
 - [x] sustrato/estados-unidos — Educación (Dept of Education, K-12, higher ed, FAFSA) — done iter 139
 - [x] sustrato/canada — Educación (provincias, PSE, student aid, bilingüe) — done iter 139
 ### Dominio (nuevos nodos)
-- [ ] dominio/blockchain — Blockchain & web3 (consenso, smart contracts, DAOs, tokens)
-- [ ] dominio/etica-ia — Ética de la IA / IA responsable (fairness, sesgo, EU AI Act)
-- [ ] dominio/pricing — Estrategia de precios (value-based, dinámico, psicológico)
-- [ ] dominio/geopolitica — Geopolítica de negocios / geoeconomía
-- [ ] dominio/inteligencia-competitiva — Inteligencia competitiva / market intelligence
+- [x] dominio/blockchain — Blockchain & web3 (consenso, smart contracts, DAOs, tokens) — done iter 140
+- [x] dominio/etica-ia — Ética de la IA / IA responsable (fairness, sesgo, EU AI Act) — done iter 140
+- [x] dominio/pricing — Pricing (estrategias, elasticidad, dynamic pricing) — done iter 140
+- [x] dominio/geopolitica — Geopolítica/geoeconomía (sanciones, bloques, supply chain) — done iter 140
+- [x] dominio/inteligencia-competitiva — Inteligencia competitiva (CI process, fuentes, ética) — done iter 140
 ### Rol (nuevos nodos)
 - [ ] rol/program-manager — Program Manager (PMO, portafolio)
 - [ ] rol/solutions-architect — Solutions Architect

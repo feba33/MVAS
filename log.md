@@ -422,3 +422,12 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   - `sustrato/estados-unidos/educacion.md` — sin sistema nacional; 50+ estatales + Dept of Education (1980, ~$250B 2024); K-12 (Title I/IDEA/ESSA), higher ed (Pell/FAFSA, deuda ~$1.7B).
   - `sustrato/canada/educacion.md` — competencia provincial (s.93 1867); PSE pública; bilingüe EN/FR; OCDE 2022 país más educado; ~5.3% PIB.
 - Reference-only (URL en frontmatter; sin raw/). Alcance respetado: sustrato = solo Norteamérica. Cross-ref dominio/educacion.
+
+## [2026-07-12] ingest | Round 14 LOOP 2 — 5 nodos de dominio nuevos
+- 5 → dominio (nuevos):
+  - `dominio/blockchain/blockchain.md` — ledger distribuido, consenso PoW/PoS, smart contracts, DAOs, DeFi, tokens; retos de escalabilidad y regulación (MiCA/SEC).
+  - `dominio/etica-ia/etica-ia.md` — ética de la IA / IA responsable; EU AI Act (en vigor 1 ago 2024, 4 niveles de riesgo + GPAI); gobernanza (NIST AI RMF, ISO 42001).
+  - `dominio/pricing/pricing.md` — estrategias (cost-plus, value-based, penetration, skimming, dynamic, freemium), elasticidad, discriminación de precios, límites antitrust.
+  - `dominio/geopolitica/geopolitica.md` — geopolítica/geoeconomía para negocios: sanciones, bloques comerciales, nacionalismo de recursos, friend-shoring/nearshoring, riesgo país.
+  - `dominio/inteligencia-competitiva/inteligencia-competitiva.md` — CI process (SCIP), fuentes, línea legal vs espionaje industrial, contrainteligencia.
+- Reference-only (Wikipedia EN; URL en frontmatter; sin raw/). Cola Round 14: 8/13. Cross-ref sustrato (comercio exterior, controles de exportación, antitrust, privacidad).

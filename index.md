@@ -324,6 +324,17 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/quimica
 - [quimica](dominio/quimica/quimica.md) — Industria química: petroquímica, especialidades, REACH/TSCA · 🏷️ quimica,chemical-industry,petroquimica,especialidades,reach,tsca,fine-chemicals,esg · 📅 2026-07-12
 
+### dominio/blockchain
+- [blockchain](dominio/blockchain/blockchain.md) — Blockchain/Web3: ledger distribuido, consenso, smart contracts, DAOs, DeFi, tokens · 🏷️ blockchain,distributed-ledger,consensus,smart-contracts,web3,crypto,defi,tokens · 📅 2026-07-12
+### dominio/etica-ia
+- [etica-ia](dominio/etica-ia/etica-ia.md) — Ética de la IA / IA responsable: EU AI Act, fairness, gobernanza · 🏷️ etica-ia,ai-ethics,responsible-ai,eu-ai-act,fairness,gobernanza · 📅 2026-07-12
+### dominio/geopolitica
+- [geopolitica](dominio/geopolitica/geopolitica.md) — Geopolítica/geoeconomía para negocios: sanciones, bloques, supply chain · 🏷️ geopolitica,geoeconomia,riesgo-pais,sanciones,bloques-comerciales,supply-chain · 📅 2026-07-12
+### dominio/inteligencia-competitiva
+- [inteligencia-competitiva](dominio/inteligencia-competitiva/inteligencia-competitiva.md) — Inteligencia competitiva: CI process, fuentes, límites éticos/legales · 🏷️ inteligencia-competitiva,competitive-intelligence,market-intelligence,trade-secrets · 📅 2026-07-12
+### dominio/pricing
+- [pricing](dominio/pricing/pricing.md) — Pricing: estrategias, elasticidad, dynamic pricing · 🏷️ pricing,fijacion-precios,estrategias-precio,elasticidad,dynamic-pricing · 📅 2026-07-12
+
 ### rol/
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
 - [controller](rol/controller/controller.md) — Controller (controlador financiero): reporting, cierre, GAAP, SOX · 🏷️ controller,contraloria,reporting,gaap,sox · 📅 2026-07-11
