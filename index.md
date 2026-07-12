@@ -54,6 +54,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [vivienda-real-estate](sustrato/estados-unidos/vivienda-real-estate.md) — Vivienda EE.UU.: homeownership, Fannie/Freddie Mac, FHA/HUD, MBS · 🏷️ eeuu,vivienda,housing,hipotecas,fannie-mae,fha · 📅 2026-07-11
 - [energia](sustrato/estados-unidos/energia.md) — Energía EE.UU.: DOE, FERC, EIA, grid, oil&gas, renovables, nuclear · 🏷️ eeuu,energia,doe,ferc,eia,grid,oil-gas,renovables,nuclear · 📅 2026-07-11
 - [agricultura](sustrato/estados-unidos/agricultura.md) — Agricultura EE.UU.: USDA, Farm Bill, subsidios, exportador neto · 🏷️ eeuu,agricultura,usda,farm-bill,subsidios,exportacion-agricola · 📅 2026-07-11
+- [inmigracion](sustrato/estados-unidos/inmigracion.md) — Inmigración EE.UU.: USCIS, H-1B, H-2A, green card, sistema de visas · 🏷️ eeuu,inmigracion,uscis,visas,h1b,h2a,green-card,dhs · 📅 2026-07-12
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -66,6 +67,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [recursos-naturales](sustrato/canada/recursos-naturales.md) — Recursos naturales Canadá: NRCan, energía, minerales, bosques · 🏷️ canada,recursos-naturales,nrcan,energia,minerales,bosques · 📅 2026-07-11
 - [comercio-exterior](sustrato/canada/comercio-exterior.md) — Comercio exterior Canadá: Global Affairs Canada, CUSMA, aranceles 2025-26 · 🏷️ canada,comercio-exterior,cusma,usmca,global-affairs-canada,aranceles · 📅 2026-07-11
 - [inmigracion](sustrato/canada/inmigracion.md) — Inmigración Canadá: IRCC, IRPA, Express Entry, PNP, permisos de trabajo/estudio · 🏷️ canada,inmigracion,ircc,irpa,express-entry,permisos-trabajo,residencia-permanente · 📅 2026-07-11
+- [transporte](sustrato/canada/transporte.md) — Transporte Canadá: Transport Canada, ferrocarriles (CN/CPKC/Via), puertos (Vancouver), aviación · 🏷️ canada,transporte,transport-canada,ferrocarriles,puertos,aviacion,cn,cpkc · 📅 2026-07-12
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09

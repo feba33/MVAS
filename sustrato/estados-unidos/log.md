@@ -70,3 +70,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-11] ingest | Agricultura de EE.UU. (USDA, Farm Bill, subsidios)
 - Fuentes: Wikipedia (Agriculture in the United States; United States Department of Agriculture) — reference-only.
 - Página: `agricultura.md`. 2.04M granjas, ~900M acres; Corn Belt/Wheat Belt/California; USDA (Sec. Rollins, ~71% presupuesto a SNAP/nutrición, Forest Service); Farm Bill (~cada 5 años: commodities, seguro de cultivo, conservación, nutrición); subsidios/price supports/loan programs; exportador neto de alimentos; mano de obra migrante. Cross-ref energia, dominio/agronegocios.
+
+## [2026-07-12] ingest | Inmigración en EE.UU. (USCIS, H-1B, H-2A, green card)
+- Fuentes: Wikipedia (en) — reference-only.
+- Página: `inmigracion.md`. USCIS (agencia DHS, sucesora del INS desde Homeland Security Act 2002; ICE y CBP son los otros dos componentes); green card/LPR (~12.8M en 2024, ~9M elegibles a ciudadanía; vías familia/empleo/EB-1-2-3/diversity/refugiado; ajuste de estatus o procesamiento consular; ciudadanía tras 1-5 años); H-1B (nonimmigrant specialty occupation, cap 65k+20k master's=85k, patrocinio empleador, prevailing wage, 3+3 años, dual intent, lottery); H-2A (agrícola temporal, sin cap anual, empleador paga vivienda/comida/transporte, DOL Wage & Hour audita); VWP (42 países, ESTA, 90 días). Relevancia USMCA/TN para profesionistas MX/CA. Cross-ref sustrato/canada/inmigracion, sustrato/mexico/regimen-fiscal, empleo-at-will, dominio/comercio-internacional, dominio/agronegocios.

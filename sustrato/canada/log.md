@@ -47,3 +47,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-11] ingest | Inmigración de Canadá (IRCC / IRPA / Express Entry)
 - Fuentes: Wikipedia (en, Immigration to Canada; IRPA) + Canada.ca (IRCC) — reference-only.
 - Página: `inmigracion.md`. IRPA 2001; IRCC; Express Entry (CRS) + PNP; TFWP (LMIA/ESDC) vs IMP (exenciones CUSMA/CETA); study permits + PGWP; doble ciudadanía; niveles >400k/año.
+
+## [2026-07-12] ingest | Transporte en Canadá (Transport Canada, ferrocarriles, puertos, aviación)
+- Fuentes: Wikipedia (en) — reference-only.
+- Página: `transporte.md`. Transport Canada (depto federal: carretera/ferrocarril/marítimo/aéreo; desde 1935/1936; reorganización 1994 privatizó CN y traspasó Coast Guard/puertos/aeropuertos a locales); ferrocarril 49,422 km (solo 129 km electrificados), dos Class I (CN, CPKC — esta última conecta CA-US-MX), Via Rail (corona) para pasajeros; Port of Vancouver (mayor de Canadá, 4º NA, 170+ economías); aviación civil regulada por TC, ATC por NAV CANADA. Cross-ref comercio-exterior, recursos-naturales, dominio/transporte, dominio/logistica.

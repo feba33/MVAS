@@ -374,3 +374,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 ## [2026-07-12] ingest | Round 12 — ITER 132 | sustrato/mexico SAT (LOOP 1) — 1 ingest
 - 1 tema sustrato (deepening de nodo NA existente): `sustrato/mexico/sat.md` — SAT (Servicio de Administración Tributaria): órgano desconcentrado de la SHCP (Ley del SAT, 1997), máxima autoridad fiscal; administra RFC, CFF, CFDI 4.0 (e.firma, CIEC, Buzón Tributario, Mi Contabilidad); recauda ISR/IVA/IEPS/aranceles y cuotas IMSS-ISSSTE; carga tributaria baja (~13-14% PIB). Complementa `regimen-fiscal.md`. Reference-only (URL en frontmatter; sin raw/).
 - **Round 12 LOOP 1 sustrato NA (1/3):** mexico/sat hecho; restan estados-unidos/inmigracion y canada/transporte. Próxima tarea (iter 133): sustrato/estados-unidos/inmigracion.
+
+## [2026-07-12] ingest | Round 12 — ITER 133 | sustrato/estados-unidos inmigración (LOOP 1) — 1 ingest
+- 1 tema sustrato (deepening de nodo NA existente): `sustrato/estados-unidos/inmigracion.md` — USCIS (agencia DHS, sucesora del INS 2002), ICE/CBP; green card/LPR (~12.8M 2024, ~9M elegibles ciudadanía; vías familia/empleo/EB/diversity/refugiado; ajuste de estatus o consular; ciudadanía 1-5 años); H-1B (specialty occupation, cap 85k, patrocinio, dual intent, lottery); H-2A (agrícola temporal, sin cap, empleador paga vivienda/comida/transporte, DOL audita); VWP (42 países, ESTA). Reference-only.
+- **Round 12 LOOP 1 sustrato NA (2/3):** estados-unidos/inmigracion hecho; resta canada/transporte. Próxima tarea (iter 134): sustrato/canada/transporte.
+
+## [2026-07-12] ingest | Round 12 — ITER 134 | sustrato/canada transporte (LOOP 1) — 1 ingest
+- 1 tema sustrato (deepening de nodo NA existente): `sustrato/canada/transporte.md` — Transport Canada (depto federal carretera/ferrocarril/marítimo/aéreo, desde 1935/36; reorg 1994 privatizó CN y descentralizó puertos/aeropuertos); ferrocarril 49,422 km (solo 129 km eléctricos), dos Class I (CN, CPKC — única que conecta CA-US-MX), Via Rail (corona) pasajeros; Port of Vancouver (mayor de Canadá, 4º NA, 170+ economías); aviación civil regulada por TC, ATC por NAV CANADA. Reference-only.
+- **Round 12 LOOP 1 sustrato NA COMPLETO (3/3).** Restan 10 temas Round 12 (dominio x5, rol x5). Próxima tarea (iter 135): dominio/alimentos-bebidas (LOOP 2 dominio).
