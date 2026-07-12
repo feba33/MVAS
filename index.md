@@ -37,6 +37,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [sector-manufacturero](sustrato/mexico/sector-manufacturero.md) — Manufactura MX: maquiladora, IMMEX, exportación · 🏷️ mexico,manufactura,maquiladora,immex,exportacion,nearshoring · 📅 2026-07-11
 - [sat](sustrato/mexico/sat.md) — SAT: autoridad fiscal máxima (SHCP), CFF, RFC, CFDI 4.0, sistema tributario federal · 🏷️ sat,shcp,sistema-tributario,recaudacion,rfc,cfdi · 📅 2026-07-12
 - [educacion](sustrato/mexico/educacion.md) — Educación México: SEP, sistema educativo, educación superior (UNAM/IPN/ANUIES) · 🏷️ mexico,educacion,sep,sistema-educativo,educacion-superior,anuies,reforma-educativa · 📅 2026-07-12
+- [seguridad-social](sustrato/mexico/seguridad-social.md) — Seguridad social México: IMSS, ISSSTE, seguro social, salud/pensiones laborales · 🏷️ mexico,seguridad-social,imss,issste,seguro-social,salud-laboral,pensiones,sar · 📅 2026-07-12
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -57,6 +58,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [agricultura](sustrato/estados-unidos/agricultura.md) — Agricultura EE.UU.: USDA, Farm Bill, subsidios, exportador neto · 🏷️ eeuu,agricultura,usda,farm-bill,subsidios,exportacion-agricola · 📅 2026-07-11
 - [inmigracion](sustrato/estados-unidos/inmigracion.md) — Inmigración EE.UU.: USCIS, H-1B, H-2A, green card, sistema de visas · 🏷️ eeuu,inmigracion,uscis,visas,h1b,h2a,green-card,dhs · 📅 2026-07-12
 - [educacion](sustrato/estados-unidos/educacion.md) — Educación EE.UU.: Dept of Education, K-12 (Title I), higher ed (FAFSA, Pell), estatales · 🏷️ eeuu,educacion,department-of-education,k-12,higher-education,fafsa,pell-grant,title-i · 📅 2026-07-12
+- [labor](sustrato/estados-unidos/labor.md) — Trabajo/laboral EE.UU.: DOL, FLSA, OSHA, NLRB, sindicatos · 🏷️ eeuu,trabajo,laboral,dol,flsa,osha,nlrb,salario-minimo,horas-extras · 📅 2026-07-12
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -71,6 +73,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [inmigracion](sustrato/canada/inmigracion.md) — Inmigración Canadá: IRCC, IRPA, Express Entry, PNP, permisos de trabajo/estudio · 🏷️ canada,inmigracion,ircc,irpa,express-entry,permisos-trabajo,residencia-permanente · 📅 2026-07-11
 - [transporte](sustrato/canada/transporte.md) — Transporte Canadá: Transport Canada, ferrocarriles (CN/CPKC/Via), puertos (Vancouver), aviación · 🏷️ canada,transporte,transport-canada,ferrocarriles,puertos,aviacion,cn,cpkc · 📅 2026-07-12
 - [educacion](sustrato/canada/educacion.md) — Educación Canadá: provincias (currículo), PSE (universidades/colleges), student aid, bilingüe FR/EN · 🏷️ canada,educacion,provincial,post-secondary,universidades,bilingue,student-aid · 📅 2026-07-12
+- [labor](sustrato/canada/labor.md) — Trabajo/laboral Canadá: Labour Code federal, ESDC, estándares provinciales · 🏷️ canada,trabajo,laboral,labour-code,esdc,estandares-laborales,negociacion-colectiva · 📅 2026-07-12
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -344,6 +347,11 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [crowdfunding](dominio/crowdfunding/crowdfunding.md) — Crowdfunding: reward/equity/debt, regulación (JOBS Act/Reg CF) · 🏷️ crowdfunding,financiamiento-colectivo,equity,reward,p2p-lending,jobs-act · 📅 2026-07-12
 ### dominio/iot
 - [iot](dominio/iot/iot.md) — IoT/IIoT: capas edge-conectividad-cloud, retos de seguridad/estándares · 🏷️ iot,internet-de-las-cosas,iiot,edge,sensores,conectividad · 📅 2026-07-12
+- [cloud-computing](dominio/cloud-computing/cloud-computing.md) — Cloud computing: IaaS/PaaS/SaaS, hyperscalers, IaC, FinOps · 🏷️ cloud,iaas,paas,saas,finops,multi-cloud,hyperscalers · 📅 2026-07-12
+- [robotica](dominio/robotica/robotica.md) — Robótica: industrial, colaborativa, móvil/logística, IA en robótica · 🏷️ robotica,robots,industrial,cobot,movil,automata · 📅 2026-07-12
+- [realidad-extendida](dominio/realidad-extendida/realidad-extendida.md) — XR: VR/AR/MR, metaverso, casos industriales/retail/salud · 🏷️ xr,vr,ar,mr,metaverso,realidad-aumentada,realidad-virtual · 📅 2026-07-12
+- [infraestructura](dominio/infraestructura/infraestructura.md) — Infraestructura: transporte/energética/agua/digital/social; APP/PPP, concesiones · 🏷️ infraestructura,app,ppp,concesiones,obra-publica,green-bonds · 📅 2026-07-12
+- [seguridad-corporativa](dominio/seguridad-corporativa/seguridad-corporativa.md) — Seguridad corporativa: física, crisis, resiliencia, BCP/DR · 🏷️ seguridad-corporativa,crisis,resiliencia,bcp,continuidad,physical-security · 📅 2026-07-12
 
 ### rol/
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
@@ -423,6 +431,11 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [chief-procurement-officer](rol/chief-procurement-officer/chief-procurement-officer.md) — CPO: sourcing, gestión de proveedores, spend, sostenibilidad en cadena · 🏷️ cpo,chief-procurement-officer,procurement,sourcing,supplier-management,spend,cadena-suministro · 📅 2026-07-12
 - [head-of-tax](rol/head-of-tax/head-of-tax.md) — Head of Tax: fiscalidad corporativa, transfer pricing, BEPS Pillar Two · 🏷️ head-of-tax,tax-director,fiscal,transfer-pricing,beps,compliance-tributario · 📅 2026-07-12
 - [chief-diversity-officer](rol/chief-diversity-officer/chief-diversity-officer.md) — CDO: DEI y pertenencia, equidad en contratación, métricas de representación · 🏷️ cdo,chief-diversity-officer,dei,diversidad,equidad,inclusion,pertenencia · 📅 2026-07-12
+- [chief-security-officer](rol/chief-security-officer/chief-security-officer.md) — CSO: seguridad corporativa (física + crisis + resiliencia), vs CISO · 🏷️ cso,chief-security-officer,seguridad-corporativa,crisis,resiliencia,convergencia · 📅 2026-07-12
+- [chief-learning-officer](rol/chief-learning-officer/chief-learning-officer.md) — CLO: L&D, upskilling/reskilling, academias, cultura de aprendizaje · 🏷️ clo,l&d,upskilling,reskilling,aprendizaje,talento · 📅 2026-07-12
+- [chief-quality-officer](rol/chief-quality-officer/chief-quality-officer.md) — CQO: calidad y excelencia operativa, mejora continua (Six Sigma/Lean), ISO 9001 · 🏷️ cqo,chief-quality-officer,calidad,excelencia-operativa,mejora-continua,six-sigma · 📅 2026-07-12
+- [head-of-partnerships](rol/head-of-partnerships/head-of-partnerships.md) — Head of Partnerships: alianzas estratégicas, canales, ecosistema, co-ventures · 🏷️ head-of-partnerships,alianzas,canales,ecosistema,co-venture,business-development · 📅 2026-07-12
+- [chief-experience-officer](rol/chief-experience-officer/chief-experience-officer.md) — CXO: experiencia de cliente + empleado + marca, integrada · 🏷️ cxo,chief-experience-officer,experiencia-cliente,employee-experience,marca,cxo · 📅 2026-07-12
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

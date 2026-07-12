@@ -37,8 +37,9 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - **Temas completados:** 229 (Round 12 COMPLETA 13/13 + Round 13 COMPLETA 8/8).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
 - **Iteración actual:** 145 — Round 15 COMPLETA (13/13: sustrato x3 + dominio x5 + rol x5). ITER 143 ingestó sustrato NA (medio-ambiente MX, política monetaria US/CA); ITER 144 ingestó 5 dominios nuevos; ITER 145 ingestó 5 roles nuevos.
-- **Temas completados:** 263 (Round 14 COMPLETA 13/13 + Round 15 COMPLETA 13/13).
-- **Siguiente paso:** ejecutar `python3 scripts/gap_analysis.py` → 0 gaps esperados; si hay huecos, abrir Round 16. Alcance sustrato sigue = solo Norteamérica.
+- **Iteración actual:** 146 — Round 16 COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5).
+- **Temas completados:** 276 (Round 15 COMPLETA 13/13 + Round 16 COMPLETA 13/13).
+- **Siguiente paso:** re-ejecutar `python3 scripts/gap_analysis.py`; si 0 → Round 16 cierra el reabastecimiento; ampliar taxonomía para Round 17 (nuevos dominios/roles/países NA) o pausar.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 # COLA ROUND 12 (13 temas — reabastecimiento gap_analysis.py, Round 11 completa)
@@ -881,6 +882,22 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - **Round 15 COMPLETA (13/13: sustrato x3 + dominio x5 + rol x5).** Reference-only (Wikipedia EN + fuentes oficiales gob/SAT/BoC/Fed; sin raw/).
 - Próxima tarea (iter 146+): ejecutar `python3 scripts/gap_analysis.py` → 0 gaps esperados; si hay huecos, abrir Round 16.
 
+### [2026-07-12] Round 16 — ITER 146 | gap_analysis extendido (taxonomía Round 16) + apertura de cola
+- gap_analysis.py (post-Round 15) = 0 huecos, 0 nodos nuevos → se **EXTENDIÓ** `scripts/gap_analysis.py`
+  (Round 16) con 3 deepenings sustrato NA (mexico→seguridad-social, estados-unidos→labor, canada→labor)
+  + 10 nodos nuevos (dominio: cloud-computing, robotica, realidad-extendida, infraestructura, seguridad-corporativa;
+  rol: chief-security-officer, chief-learning-officer, chief-quality-officer, head-of-partnerships, chief-experience-officer).
+  ALCANCE respetado: sustrato = solo Norteamérica.
+- Re-ejecutado → 13 sugerencias (3 sustrato + 10 nuevos). Abierta cola Round 16 (13 temas).
+- **Próxima tarea (iter 147+):** LOOP 1 (sustrato NA deepening) — sustrato/mexico/seguridad-social.md, sustrato/estados-unidos/labor.md, sustrato/canada/labor.md.
+
+### [2026-07-12] Round 16 — ITER 147 | COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5)
+- LOOP 1 (sustrato NA): `sustrato/mexico/seguridad-social.md` (IMSS/ISSSTE), `sustrato/estados-unidos/labor.md` (DOL/FLSA/OSHA/NLRB), `sustrato/canada/labor.md` (Labour Code/ESDC) — 3 páginas en nodos existentes + index/log nodos + raíz.
+- LOOP 2 (dominio): 5 nodos nuevos (superstructura completa: README/index/log/raw/.gitkeep + página) — `cloud-computing`, `robotica`, `realidad-extendida`, `infraestructura`, `seguridad-corporativa`.
+- LOOP 3 (rol): 5 nodos nuevos — `chief-security-officer` (CSO), `chief-learning-officer` (CLO), `chief-quality-officer` (CQO), `head-of-partnerships`, `chief-experience-officer` (CXO).
+- Reference-only (Wikipedia EN + fuentes oficiales gob/SAT/BoC/Fed/ASIS/ATD/ASQ; sin raw/). Total ingest Round 16 = 13 (3 págs sustrato + 10 nodos nuevos).
+- **Próxima tarea (iter 148+):** re-ejecutar `python3 scripts/gap_analysis.py` → 0 gaps; si 0, Round 16 cierra el reabastecimiento → ampliar taxonomía (Round 17) o pausar. Alcance sustrato sigue = solo Norteamérica.
+
 ## COLA ROUND 14 (CERRADA — 13/13 COMPLETA)
 - Todos los temas [x]. Reabastecimiento post-Round 13 finalizado.
 
@@ -901,6 +918,24 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - [x] rol/chief-procurement-officer — CPO (sourcing, supplier management) — done iter 145
 - [x] rol/head-of-tax — Head of Tax / Tax Director (estrategia fiscal, transfer pricing) — done iter 145
 - [x] rol/chief-diversity-officer — CDO Diversity (DEI, equidad, inclusión) — done iter 145
+
+## COLA ROUND 16 (gap_analysis.py iter 146 → taxonomía extendida; sustrato solo NA)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Seguridad social (IMSS, ISSSTE, seguro social, salud/pensiones laborales)
+- [x] sustrato/estados-unidos — Trabajo / laboral (DOL, FLSA, OSHA, NLRB, sindicatos)
+- [x] sustrato/canada — Trabajo / laboral (Labour Code federal, ESDC, estándares provinciales)
+### Dominio (nuevos nodos)
+- [x] dominio/cloud-computing — Cloud computing (IaaS/PaaS/SaaS, hyperscalers, IaC, FinOps)
+- [x] dominio/robotica — Robótica (industrial, colaborativa, logística, móvil)
+- [x] dominio/realidad-extendida — XR (VR/AR/MR, metaverso, casos industriales)
+- [x] dominio/infraestructura — Infraestructura (concesiones, APP/PPP, transporte, energética)
+- [x] dominio/seguridad-corporativa — Seguridad corporativa (física, crisis, resiliencia, continuidad)
+### Rol (nuevos nodos)
+- [x] rol/chief-security-officer — CSO (seguridad corporativa/física, crisis, resiliencia)
+- [x] rol/chief-learning-officer — CLO (L&D, desarrollo de talento, upskilling)
+- [x] rol/chief-quality-officer — CQO (calidad, excelencia operativa, mejora continua)
+- [x] rol/head-of-partnerships — Head of Partnerships (alianzas estratégicas, canales, co-ventures)
+- [x] rol/chief-experience-officer — CXO (experiencia de cliente + empleado + marca)
 
 ## COLA ROUND 14 (gap_analysis.py iter 138 → taxonomía extendida; sustrato solo NA)
 ### Sustrato (deepening nodos NA existentes)

@@ -37,6 +37,7 @@ TAXONOMY = {
         ("sat", "SAT / sistema tributario (ISR, IVA, impuestos federales)"),
         ("educacion", "Educación México: SEP, sistema educativo, reformas, educación superior (UNAM/IPN/tecnológicos), ANUIES"),
         ("medio-ambiente", "Medio ambiente (SEMARNAT, LGEEPA, cambio climático, ESG México, economía circular)"),
+        ("seguridad-social", "Seguridad social México: IMSS, ISSSTE, seguro social, salud y pensiones laborales"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -50,6 +51,7 @@ TAXONOMY = {
         ("inmigracion", "Inmigración EE.UU. (USCIS, H-1B, H-2A, green card, visas)"),
         ("educacion", "Educación EE.UU.: Dept of Education, K-12 (Title I), higher ed (FAFSA, Pell, acreditación), estatales"),
         ("politica-monetaria", "Política monetaria (Federal Reserve, FOMC, tasa de fondos federales, balance, dual mandate)"),
+        ("labor", "Trabajo / laboral EE.UU.: DOL, FLSA, OSHA, NLRB, derechos del trabajador, sindicatos"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -63,6 +65,7 @@ TAXONOMY = {
         ("transporte", "Transporte Canadá (Transport Canada, ferrocarriles, aviación, puertos)"),
         ("educacion", "Educación Canadá: provincias (currículo), PSE (universidades/colleges), student aid, bilingüe FR/EN"),
         ("politica-monetaria", "Política monetaria (Bank of Canada, tasa de política, inflation targeting 2% CPI)"),
+        ("labor", "Trabajo / laboral Canadá: Labour Code federal, ESDC, estándares provinciales, sindicatos"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -266,6 +269,17 @@ NEW_NODES = [
     ("rol/chief-procurement-officer", "CPO — Chief Procurement Officer (sourcing, supplier management, spend)"),
     ("rol/head-of-tax", "Head of Tax / Tax Director — estrategia fiscal, transfer pricing, cumplimiento tributario"),
     ("rol/chief-diversity-officer", "CDO — Chief Diversity Officer (DEI, equidad, inclusión, pertenencia)"),
+    # Round 16 — extensiones en capas generales (dominio/rol) + sustrato NA (deepening). Sin nuevos países.
+    ("dominio/cloud-computing", "Cloud computing: IaaS/PaaS/SaaS, hyperscalers, IaC, FinOps, multi-cloud"),
+    ("dominio/robotica", "Robótica: industrial, colaborativa (cobot), logística, móvil, RPA es distinto"),
+    ("dominio/realidad-extendida", "Realidad extendida (XR): VR/AR/MR, metaverso, casos industriales"),
+    ("dominio/infraestructura", "Infraestructura: concesiones, APP/PPP, transporte, energética, social"),
+    ("dominio/seguridad-corporativa", "Seguridad corporativa: física, crisis, resiliencia, continuidad (vs ciberseguridad)"),
+    ("rol/chief-security-officer", "CSO — Chief Security Officer (seguridad corporativa/física, crisis, resiliencia)"),
+    ("rol/chief-learning-officer", "CLO — Chief Learning Officer (L&D, desarrollo de talento, upskilling)"),
+    ("rol/chief-quality-officer", "CQO — Chief Quality Officer (calidad, excelencia operativa, mejora continua)"),
+    ("rol/head-of-partnerships", "Head of Partnerships — alianzas estratégicas, canales, ecosistema, co-ventures"),
+    ("rol/chief-experience-officer", "CXO — Chief Experience Officer (experiencia de cliente + empleado + marca)"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

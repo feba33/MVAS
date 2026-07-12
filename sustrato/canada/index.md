@@ -19,3 +19,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [transporte](transporte.md) — Transporte Canadá: Transport Canada, ferrocarriles (CN/CPKC/Via), puertos (Vancouver), aviación · 🏷️ canada,transporte,transport-canada,ferrocarriles,puertos,aviacion,cn,cpkc · 📅 2026-07-12
 - [educacion](educacion.md) — Educación Canadá: provincias (currículo), PSE (universidades/colleges), student aid, bilingüe FR/EN · 🏷️ canada,educacion,provincial,post-secondary,universidades,bilingue,student-aid · 📅 2026-07-12
 - [politica-monetaria](politica-monetaria.md) — Política monetaria Canadá: Bank of Canada, tasa de política, inflation targeting 2% · 🏷️ canada,politica-monetaria,bank-of-canada,tasa-politica,inflacion,banco-central · 📅 2026-07-12
+- [labor](labor.md) — Trabajo/laboral Canadá: Labour Code federal, ESDC, estándares provinciales · 🏷️ canada,trabajo,laboral,labour-code,esdc,estandares-laborales,negociacion-colectiva · 📅 2026-07-12

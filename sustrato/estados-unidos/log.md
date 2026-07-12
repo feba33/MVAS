@@ -82,3 +82,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | Política monetaria EE.UU. (Federal Reserve, FOMC, tasa de fondos federales)
 - Fuentes: Federal Reserve (federalreserve.gov/monetarypolicy); Wikipedia (en) — Monetary policy of the United States — reference-only.
 - Página: `politica-monetaria.md`. Fed (1913) banco central; doble mandato (empleo + precios estables, ~2% PCE); FOMC fija federal funds rate; herramientas tasa/balance(QE/QT)/forward guidance/reservas; independencia; ciclos 2008/2020/2022-23. Cross-ref dominio/economia, dominio/banca, sustrato/canada/politica-monetaria, rol/chief-investment-officer.
+
+## [2026-07-12] ingest | Trabajo / laboral EE.UU. (DOL, FLSA, OSHA, NLRB)
+- Fuentes: Wikipedia (en) — U.S. Department of Labor; FLSA; NLRB — reference-only.
+- Página: `labor.md`. DOL (1913): WHD/OSHA/EBSA/BLS; NLRB y EEOC independientes. FLSA (1938): salario mínimo federal $7.25 (2009), horas extras 1.5×>40h, exempt/non-exempt. OSHA (1970). NLRA (1935)/NLRB negociación colectiva; Taft-Hartley (1947). Title VII/EEOC antidiscriminación. Employee vs contractor; AB5 California. At-will (ver empleo-at-will). Cross-ref sustrato/mexico/lft, sustrato/canada/labor, dominio/leyes/derecho-laboral, rol/head-of-people, rol/chief-compliance-officer.

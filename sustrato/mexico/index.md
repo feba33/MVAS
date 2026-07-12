@@ -26,3 +26,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [pemex-fracking-huasteca](pemex-fracking-huasteca.md) — Pemex niega fracking en la Huasteca Potosina y aclara permiso de explosivos · 🏷️ elfinanciero,pemex,energia,fracking,huasteca · 📅 2026-07-12
 - [educacion](educacion.md) — Educación México: SEP, sistema educativo, educación superior (UNAM/IPN/ANUIES) · 🏷️ mexico,educacion,sep,sistema-educativo,educacion-superior,anuies,reforma-educativa · 📅 2026-07-12
 - [medio-ambiente](medio-ambiente.md) — Medio ambiente México: SEMARNAT, LGEEPA, cambio climático, ESG, economía circular · 🏷️ mexico,medio-ambiente,semarnat,lgeepa,cambio-climatico,esg,economia-circular · 📅 2026-07-12
+- [seguridad-social](seguridad-social.md) — Seguridad social México: IMSS, ISSSTE, seguro social, salud/pensiones laborales · 🏷️ mexico,seguridad-social,imss,issste,seguro-social,salud-laboral,pensiones,sar · 📅 2026-07-12

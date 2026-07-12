@@ -109,3 +109,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | Medio ambiente México (SEMARNAT, LGEEPA, cambio climático, ESG)
 - Fuentes: SEMARNAT (gob.mx); Wikipedia (en) — Environmental issues in Mexico — reference-only.
 - Página: `medio-ambiente.md`. SEMARNAT (2000) es autoridad federal; PROFEPA/CONANP/CONAFOR. LGEEPA (1988) es ley mãe; NOM-EMA. Ley General de Cambio Climático (2012) + NDC; Ley de Transición Energética; Ley General de Economía Circular (2023). Criterios ESG (GRI/SASB). Retos: deforestación, escasez hídrica, contaminación. Cross-ref sustrato/mexico/energia, dominio/sostenibilidad, dominio/agua, dominio/mineria, dominio/agronegocios.
+
+## [2026-07-12] ingest | Seguridad social México (IMSS, ISSSTE, regímenes)
+- Fuentes: Wikipedia (es) — IMSS; Gob.mx IMSS; Wikipedia (es) — ISSSTE — reference-only.
+- Página: `seguridad-social.md`. Art. 123 Constitución (Apartados A/B). IMSS (LSS 1943) cubre sector privado: enfermedad/maternidad, riesgos de trabajo, invalidez/vida, retiro (SAR/AFORE 1997), guarderías. ISSSTE (Ley 2007) sector público federal; regímenes especiales ISSFAM/PEMEX/CFE/SB. INSABI (2019) descontinuado 2023 → IMSS-Bienestar. Financiamiento por cuotas obrero-patronales. Cross-ref sustrato/mexico/pensiones-afore, sustrato/mexico/sat, sustrato/mexico/lft, dominio/salud, rol/head-of-people.

@@ -25,3 +25,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [inmigracion](inmigracion.md) — Inmigración EE.UU.: USCIS, H-1B, H-2A, green card, sistema de visas · 🏷️ eeuu,inmigracion,uscis,visas,h1b,h2a,green-card,dhs · 📅 2026-07-12
 - [educacion](educacion.md) — Educación EE.UU.: Dept of Education, K-12 (Title I), higher ed (FAFSA, Pell), estatales · 🏷️ eeuu,educacion,department-of-education,k-12,higher-education,fafsa,pell-grant,title-i · 📅 2026-07-12
 - [politica-monetaria](politica-monetaria.md) — Política monetaria EE.UU.: Federal Reserve, FOMC, tasa de fondos federales, dual mandate · 🏷️ eeuu,politica-monetaria,federal-reserve,fed,fomc,tasa-fondos-federales,inflacion,empleo · 📅 2026-07-12
+- [labor](labor.md) — Trabajo/laboral EE.UU.: DOL, FLSA, OSHA, NLRB, sindicatos · 🏷️ eeuu,trabajo,laboral,dol,flsa,osha,nlrb,salario-minimo,horas-extras · 📅 2026-07-12

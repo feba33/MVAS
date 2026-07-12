@@ -451,3 +451,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - 5 → rol (nuevos): `enterprise-architect`, `head-of-corporate-development`, `chief-procurement-officer`, `head-of-tax`, `chief-diversity-officer` (superstructura recursiva completa).
 - **Round 15 COMPLETA (13/13: sustrato x3 + dominio x5 + rol x5).** Reference-only (Wikipedia EN + fuentes oficiales gob/SAT/BoC/Fed; sin raw/).
 - Próximo: ejecutar `gap_analysis.py` → 0 gaps esperados; reabastecimiento cerrado.
+
+## [2026-07-12] ingest | Round 16 — 13 ingests (3 loops: sustrato NA + dominio + rol)
+- 3 → sustrato (deepenings, solo NA):
+  - `sustrato/mexico/seguridad-social.md` — IMSS, ISSSTE, regímenes, salud/pensiones laborales.
+  - `sustrato/estados-unidos/labor.md` — DOL, FLSA, OSHA, NLRB, sindicatos.
+  - `sustrato/canada/labor.md` — Labour Code federal, ESDC, estándares provinciales.
+- 5 → dominio (nuevos, superstructura recursiva completa): `cloud-computing`, `robotica`, `realidad-extendida`, `infraestructura`, `seguridad-corporativa`.
+- 5 → rol (nuevos, superstructura recursiva completa): `chief-security-officer` (CSO), `chief-learning-officer` (CLO), `chief-quality-officer` (CQO), `head-of-partnerships`, `chief-experience-officer` (CXO).
+- **Round 16 COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5).** ALCANCE sustrato = solo Norteamérica (respetado). Reference-only (Wikipedia EN + fuentes oficiales gob/SAT/BoC/Fed/ASIS/ATD/ASQ; sin raw/).
+- Próximo: ejecutar `gap_analysis.py`; si 0 → Round 16 cierra; ampliar taxonomía para Round 17 (nuevos dominios/roles/países NA) o pausar enriquecimiento.
