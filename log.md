@@ -397,3 +397,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   - `rol/head-of-operations/` — Head of Operations: procesos, eficiencia, calidad, SCM.
 - Reference-only (URL en frontmatter; sin raw/). Cross-refs a logistica, retail, sostenibilidad, estrategia, operaciones, juridico, ciso, etc.
 - **Round 12 COMPLETA (13/13 temas en 3 bucles: LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5).** Todas las capas cubiertas. Cola Round 12 VACÍA → reabastecimiento (gap_analysis.py) para Round 13.
+
+## [2026-07-12] ingest | Round 13 — ITER 136 | dominio x3 (farmaceutica, quimica, calidad) — 3 nodos nuevos
+- 3 nodos `dominio/` creados con superstructura completa (README, index, log, raw/):
+  - `dominio/farmaceutica/` — Industria farmacéutica: I+D/desarrollo (FDA/EMA, 10-15 años, USD 1.3-2.6B, 7-12% aprobación), patentes/Hatch-Waxman, genéricos/biosimilares, cadena de frío, CDMO.
+  - `dominio/quimica/` — Industria química: petroquímica/commodities, especialidades, fine chemicals/API; REACH (UE, precautorio) vs TSCA (EE.UU., Lautenberg 2016); ESG/química verde.
+  - `dominio/calidad/` — Gestión de la calidad: ISO 9001:2015, TQM, Six Sigma (DMAIC), Lean, herramientas (PDCA, FMEA, SPC, Pareto); GMP en industrias reguladas.
+- Reference-only (URL en frontmatter; sin raw/). Cross-refs a biotecnologia, salud, energia, manufactura, operaciones, consultoria, auditor-interno, gestion-riesgos.
+- **Round 13 (3/8 temas).** Cola restante: dominio/gestion-riesgos + rol x4 (chief-revenue-officer, chief-communications-officer, chief-analytics-officer, head-of-innovation). Próxima tarea (iter 137): dominio/gestion-riesgos.

@@ -312,6 +312,12 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [agua](dominio/agua/agua.md) — Agua y saneamiento: utilities públicas, potabilización, tratamiento, escasez, regulación · 🏷️ agua,water-industry,saneamiento,utilities,regulacion-agua · 📅 2026-07-12
 ### dominio/semiconductores
 - [semiconductores](dominio/semiconductores/semiconductores.md) — Semiconductores/chips: diseño (fabless), foundry, IDM, OSAT, CHIPS Act · 🏷️ semiconductores,chips,foundry,diseno,chips-act · 📅 2026-07-12
+### dominio/calidad
+- [calidad](dominio/calidad/calidad.md) — Gestión de la calidad: ISO 9001, TQM, Six Sigma, Lean · 🏷️ calidad,quality-management,iso-9001,tqm,six-sigma,lean,mejora-continua,gmp · 📅 2026-07-12
+### dominio/farmaceutica
+- [farmaceutica](dominio/farmaceutica/farmaceutica.md) — Industria farmacéutica: I+D, FDA/EMA, patentes, cadena de frío · 🏷️ farmaceutica,pharma,fda,ema,patentes,i+d,cdmo,biologicos,cadena-frio · 📅 2026-07-12
+### dominio/quimica
+- [quimica](dominio/quimica/quimica.md) — Industria química: petroquímica, especialidades, REACH/TSCA · 🏷️ quimica,chemical-industry,petroquimica,especialidades,reach,tsca,fine-chemicals,esg · 📅 2026-07-12
 
 ### rol/
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09

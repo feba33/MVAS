@@ -33,10 +33,10 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   (T-MEC/USMCA, IMMEX) y `sustrato/estados-unidos/controles-exportacion.md` (EAR/ITAR). CBCA ya cubierto
   en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
-- **Iteración actual:** 135 — Round 12 COMPLETA (13/13). ITER 135 ingestó LOOP 2 (dominio x5: alimentos-bebidas, moda, espacio, agua, semiconductores) + LOOP 3 (rol x5: chief-strategy-officer, chief-privacy-officer, chief-people-officer, chief-client-officer, head-of-operations). Todas las capas cubiertas (sustrato en LOOP 1, iter 132-134).
-- **Temas completados:** 221 (Round 12 COMPLETA: 13/13 — sustrato x3 + dominio x5 + rol x5).
+- **Iteración actual:** 136 — Round 13 EN CURSO (3/8). ITER 136 ingestó 3 nodos `dominio/` nuevos (farmaceutica, quimica, calidad). Restan dominio/gestion-riesgos + 4 roles.
+- **Temas completados:** 224 (Round 12 COMPLETA 13/13 + Round 13 parcial 3/8).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** Round 13 ABIERTA (8 temas): 4 dominio (farmaceutica, quimica, calidad, gestion-riesgos) + 4 rol (chief-revenue-officer, chief-communications-officer, chief-analytics-officer, head-of-innovation). Próxima tarea (iter 136): dominio/farmaceutica. NOTA: cron de investigación sigue PAUSADO; el bucle de reabastecimiento continúa vía esta corrida (gap_analysis extendido).
+- **Siguiente paso:** Round 13 ABIERTA (8 temas: 3 done / 5 pending). Próxima tarea (iter 137): dominio/gestion-riesgos — ERM (ISO 31000, riesgo operativo, continuidad). Luego 4 roles (chief-revenue-officer, chief-communications-officer, chief-analytics-officer, head-of-innovation). NOTA: cron de investigación sigue PAUSADO; el bucle de reabastecimiento continúa vía esta corrida.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 # COLA ROUND 12 (13 temas — reabastecimiento gap_analysis.py, Round 11 completa)
@@ -56,9 +56,9 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 
 # COLA ROUND 13 (8 temas — reabastecimiento gap_analysis.py, taxonomía ampliada)
 ### dominio/
-- [ ] dominio/farmaceutica — Industria farmacéutica (I+D, FDA/EMA, patentes, cadena frío)
-- [ ] dominio/quimica — Industria química (petroquímica, especialidades, REACH/TSCA)
-- [ ] dominio/calidad — Gestión de la calidad (ISO 9001, TQM, Six Sigma)
+- [x] dominio/farmaceutica — Industria farmacéutica (I+D, FDA/EMA, patentes, cadena frío)
+- [x] dominio/quimica — Industria química (petroquímica, especialidades, REACH/TSCA)
+- [x] dominio/calidad — Gestión de la calidad (ISO 9001, TQM, Six Sigma)
 - [ ] dominio/gestion-riesgos — ERM (ISO 31000, riesgo operativo, continuidad)
 ### rol/
 - [ ] rol/chief-revenue-officer — CRO (dueño del top-line, ventas+marketing+CS)
@@ -820,6 +820,14 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 ### [2026-07-12] Round 12 — ITER 135b | Reabastecimiento → Round 13 (plan)
 - Cola Round 12 VACÍA. `gap_analysis.py` devolvió 0 huecos en nodos existentes → se amplió la taxonomía (NEW_NODES Round 13) con 8 nodos nuevos: 4 dominio (farmaceutica, quimica, calidad, gestion-riesgos) + 4 rol (chief-revenue-officer, chief-communications-officer, chief-analytics-officer, head-of-innovation). Alcance respetado (sustrato = solo NA; los deepenings sustrato/educacion se filtran por ALLOWED_SUSTRATO y ya cubren vía TAXONOMY).
 - Se abrió **COLA ROUND 13 (8 temas)** en working.md (pendientes). Próxima tarea (iter 136): dominio/farmaceutica.
+
+### [2026-07-12] Round 13 — ITER 136 | dominio x3 (farmaceutica, quimica, calidad) — 3 nodos nuevos
+- gap_analysis.py (post-Round 12) = 0 → taxonomía Round 13 ya abierta en iter 135b. Ejecutada la ingest de 3 nodos `dominio/` nuevos:
+  - `dominio/farmaceutica/` — Industria farmacéutica: I+D/desarrollo (FDA/EMA; 10-15 años, USD 1.3-2.6B, 7-12% aprobación), patentes/Hatch-Waxman, genéricos/biosimilares, cadena de frío, CDMO.
+  - `dominio/quimica/` — Industria química: petroquímica/commodities, especialidades, fine chemicals/API; REACH (UE, precautorio) vs TSCA (EE.UU., Lautenberg 2016); ESG/química verde.
+  - `dominio/calidad/` — Gestión de la calidad: ISO 9001:2015, TQM, Six Sigma (DMAIC), Lean; herramientas (PDCA, FMEA, SPC, Pareto); GMP en industrias reguladas.
+- Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo. Alcance sustrato respetado (solo NA; los 3 temas son dominio).
+- **Round 13 (3/8).** Cola restante: dominio/gestion-riesgos + rol x4. Próxima tarea (iter 137): dominio/gestion-riesgos.
 
 ## COLA ROUND 11 (14 temas — gap_analysis extendido, Round 10 completa)
 - [x] sustrato/mexico/inversion-extranjera — IED (IMMEX, maquiladora, regulación)
