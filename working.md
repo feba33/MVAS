@@ -36,7 +36,7 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - **Iteración actual:** 135 — Round 12 COMPLETA (13/13). ITER 135 ingestó LOOP 2 (dominio x5: alimentos-bebidas, moda, espacio, agua, semiconductores) + LOOP 3 (rol x5: chief-strategy-officer, chief-privacy-officer, chief-people-officer, chief-client-officer, head-of-operations). Todas las capas cubiertas (sustrato en LOOP 1, iter 132-134).
 - **Temas completados:** 221 (Round 12 COMPLETA: 13/13 — sustrato x3 + dominio x5 + rol x5).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** Round 12 COMPLETA → reabastecimiento para Round 13: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos, extender taxonomía (deepenings sustrato NA + nuevos nodos dominio/rol, sin países no-NA) y abrir cola. NOTA: cron de investigación sigue PAUSADO; el bucle continúa vía esta corrida de reabastecimiento.
+- **Siguiente paso:** Round 13 ABIERTA (8 temas): 4 dominio (farmaceutica, quimica, calidad, gestion-riesgos) + 4 rol (chief-revenue-officer, chief-communications-officer, chief-analytics-officer, head-of-innovation). Próxima tarea (iter 136): dominio/farmaceutica. NOTA: cron de investigación sigue PAUSADO; el bucle de reabastecimiento continúa vía esta corrida (gap_analysis extendido).
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 # COLA ROUND 12 (13 temas — reabastecimiento gap_analysis.py, Round 11 completa)
@@ -53,6 +53,18 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - [x] rol/chief-people-officer — CHRO (talento, cultura, RRHH)
 - [x] rol/chief-client-officer — Chief Client Officer (CX, retención)
 - [x] rol/head-of-operations — Head of Operations
+
+# COLA ROUND 13 (8 temas — reabastecimiento gap_analysis.py, taxonomía ampliada)
+### dominio/
+- [ ] dominio/farmaceutica — Industria farmacéutica (I+D, FDA/EMA, patentes, cadena frío)
+- [ ] dominio/quimica — Industria química (petroquímica, especialidades, REACH/TSCA)
+- [ ] dominio/calidad — Gestión de la calidad (ISO 9001, TQM, Six Sigma)
+- [ ] dominio/gestion-riesgos — ERM (ISO 31000, riesgo operativo, continuidad)
+### rol/
+- [ ] rol/chief-revenue-officer — CRO (dueño del top-line, ventas+marketing+CS)
+- [ ] rol/chief-communications-officer — CCO (comms, reputación, PR)
+- [ ] rol/chief-analytics-officer — CAO (analítica y ciencia de datos)
+- [ ] rol/head-of-innovation — Head of Innovation (labs, corporate venturing)
 ### Sustrato
 - [x] sustrato/mexico — LFT
 - [x] sustrato/mexico — PROFECO / CONDUSEF
@@ -804,6 +816,10 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
   - [rol] `rol/chief-strategy-officer/` (CSO), `rol/chief-privacy-officer/` (CPO privacidad, vs DPO), `rol/chief-people-officer/` (CPO/CHRO), `rol/chief-client-officer/` (CCO, CX/retención), `rol/head-of-operations/` (Ops).
 - Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo nuevo. Alcance sustrato respetado (Round 12 no agregó países; LOOP 1 fueron deepenings NA).
 - **Siguiente paso (iter 136 / Round 13):** reabastecimiento — ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos, extender taxonomía y abrir cola Round 13.
+
+### [2026-07-12] Round 12 — ITER 135b | Reabastecimiento → Round 13 (plan)
+- Cola Round 12 VACÍA. `gap_analysis.py` devolvió 0 huecos en nodos existentes → se amplió la taxonomía (NEW_NODES Round 13) con 8 nodos nuevos: 4 dominio (farmaceutica, quimica, calidad, gestion-riesgos) + 4 rol (chief-revenue-officer, chief-communications-officer, chief-analytics-officer, head-of-innovation). Alcance respetado (sustrato = solo NA; los deepenings sustrato/educacion se filtran por ALLOWED_SUSTRATO y ya cubren vía TAXONOMY).
+- Se abrió **COLA ROUND 13 (8 temas)** en working.md (pendientes). Próxima tarea (iter 136): dominio/farmaceutica.
 
 ## COLA ROUND 11 (14 temas — gap_analysis extendido, Round 10 completa)
 - [x] sustrato/mexico/inversion-extranjera — IED (IMMEX, maquiladora, regulación)

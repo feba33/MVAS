@@ -229,6 +229,15 @@ NEW_NODES = [
     ("rol/chief-people-officer", "CHRO — Chief People Officer (talento, cultura, RRHH)"),
     ("rol/chief-client-officer", "Chief Client Officer (CX, retención, cuentas)"),
     ("rol/head-of-operations", "Head of Operations (operaciones, entrega, eficiencia)"),
+    # Round 13 — reabastecimiento (alcance: sustrato solo Norteamérica; dominio/rol generales). Taxonomía ampliada.
+    ("dominio/farmaceutica", "Industria farmacéutica: I+D, FDA/EMA, patentes, cadena de frío, precios, genéricos"),
+    ("dominio/quimica", "Industria química: petroquímica, especialidades, REACH/TSCA, seguridad de procesos"),
+    ("dominio/calidad", "Gestión de la calidad: ISO 9001, TQM, Six Sigma, auditorías de calidad"),
+    ("dominio/gestion-riesgos", "Gestión de riesgos empresariales (ERM): ISO 31000, riesgo operativo, continuidad de negocio"),
+    ("rol/chief-revenue-officer", "CRO — Chief Revenue Officer (dueño del top-line, ventas+marketing+CS)"),
+    ("rol/chief-communications-officer", "CCO — Chief Communications Officer (comms internas/externas, reputación, PR)"),
+    ("rol/chief-analytics-officer", "CAO — Chief Analytics Officer (función de analítica y ciencia de datos)"),
+    ("rol/head-of-innovation", "Head of Innovation — gestión de la innovación, labs, corporate venturing"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}
