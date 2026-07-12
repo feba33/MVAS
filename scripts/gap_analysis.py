@@ -35,6 +35,7 @@ TAXONOMY = {
         ("inversion-extranjera", "Inversión extranjera directa (IMMEX, maquiladora, regulación de IED)"),
         ("sector-manufacturero", "Sector manufacturero (industria, exportación, cadenas)"),
         ("sat", "SAT / sistema tributario (ISR, IVA, impuestos federales)"),
+        ("educacion", "Educación México: SEP, sistema educativo, reformas, educación superior (UNAM/IPN/tecnológicos), ANUIES"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -46,6 +47,7 @@ TAXONOMY = {
         ("energia", "Energía (DOE, FERC, grid, oil & gas, renovables, nuclear)"),
         ("agricultura", "Agricultura (USDA, Farm Bill, subsidios, comercio agrícola)"),
         ("inmigracion", "Inmigración EE.UU. (USCIS, H-1B, H-2A, green card, visas)"),
+        ("educacion", "Educación EE.UU.: Dept of Education, K-12 (Title I), higher ed (FAFSA, Pell, acreditación), estatales"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -57,6 +59,7 @@ TAXONOMY = {
         ("inmigracion", "Inmigración (IRCC, permisos de trabajo, residentes permanentes)"),
         ("impuestos", "Impuestos Canadá (CRA, T1, GST/HST, tributario federal)"),
         ("transporte", "Transporte Canadá (Transport Canada, ferrocarriles, aviación, puertos)"),
+        ("educacion", "Educación Canadá: provincias (currículo), PSE (universidades/colleges), student aid, bilingüe FR/EN"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -238,6 +241,17 @@ NEW_NODES = [
     ("rol/chief-communications-officer", "CCO — Chief Communications Officer (comms internas/externas, reputación, PR)"),
     ("rol/chief-analytics-officer", "CAO — Chief Analytics Officer (función de analítica y ciencia de datos)"),
     ("rol/head-of-innovation", "Head of Innovation — gestión de la innovación, labs, corporate venturing"),
+    # Round 14 — reabastecimiento (alcance: sustrato solo Norteamérica: sustrato NA deepening en educación; dominio/rol generales).
+    ("dominio/blockchain", "Blockchain & web3: consenso, contratos inteligentes, DAOs, tokens, criptoactivos, DeFi"),
+    ("dominio/etica-ia", "Ética de la IA / IA responsable: fairness, sesgo, transparencia, gobernanza, EU AI Act"),
+    ("dominio/pricing", "Estrategia de precios: value-based, dinámico, psicológico, elasticidad, bundling"),
+    ("dominio/geopolitica", "Geopolítica de negocios / geoeconomía: riesgo macro, sanciones, bloques comerciales, soberanía"),
+    ("dominio/inteligencia-competitiva", "Inteligencia competitiva / market intelligence: vigilancia, benchmarking, CI legal"),
+    ("rol/program-manager", "Program Manager — gestiona múltiples proyectos/PMO, dependencias, portafolio"),
+    ("rol/solutions-architect", "Solutions Architect — arquitectura de solución, pre-venta, puente técnico-negocio"),
+    ("rol/investor-relations", "Investor Relations — relación con inversionistas, disclosure, earnings, ESG reporting"),
+    ("rol/regulatory-affairs", "Regulatory Affairs / Asuntos regulatorios — relación con reguladores, aprobaciones, compliance técnico"),
+    ("rol/actuario", "Actuario — modelado actuarial, riesgo, seguros/pensiones, certificación (SOA/CAS/AAA)"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

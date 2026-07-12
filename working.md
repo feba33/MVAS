@@ -36,7 +36,9 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - **Iteración actual:** 137 — Round 13 COMPLETA (8/8). ITER 137 ingestó 5 nodos nuevos (dominio/gestion-riesgos + 4 roles: chief-revenue-officer, chief-communications-officer, chief-analytics-officer, head-of-innovation).
 - **Temas completados:** 229 (Round 12 COMPLETA 13/13 + Round 13 COMPLETA 8/8).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** Round 13 CERRADA (8/8). Reabastecimiento: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos → extender taxonomía (deepenings sustrato NA + nuevos nodos dominio/rol) para Round 14 y abrir cola. NOTA: cron de investigación sigue PAUSADO; el bucle de reabastecimiento continúa vía la próxima corrida.
+- **Iteración actual:** 138 — Round 14 ABIERTA (reabastecimiento post-Round 13). gap_analysis.py (iter 138) extendido: 3 deepenings sustrato NA (educacion mx/us/ca) + 10 nodos nuevos (dominio x5: blockchain, etica-ia, pricing, geopolitica, inteligencia-competitiva; rol x5: program-manager, solutions-architect, investor-relations, regulatory-affairs, actuario). Cola Round 14 = 13 temas.
+- **Temas completados:** 237 (Round 13 COMPLETA 8/8 + 13 de Round 14 en progreso).
+- **Siguiente paso:** Ejecutar LOOPs 1-3 de Round 14 (sustrato educación NA, dominio x5, rol x5). Cron de investigación sigue PAUSADO; el bucle de reabastecimiento continúa vía esta corrida.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 # COLA ROUND 12 (13 temas — reabastecimiento gap_analysis.py, Round 11 completa)
@@ -838,6 +840,32 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
   - `rol/head-of-innovation/` — Head of Innovation: gestión de innovación, labs, corporate venturing, ISO 56000.
 - Reference-only (URL en frontmatter; sin raw/). Superstructura completa en cada nodo. Alcance sustrato respetado (Round 13 no agregó países; los 5 temas son dominio/rol generales).
 - **Round 13 COMPLETA (8/8 temas: dominio x4 + rol x4).** Cola Round 13 VACÍA → reabastecimiento (gap_analysis.py) para Round 14.
+
+### [2026-07-12] Round 14 — ITER 138 | gap_analysis extendido (taxonomía Round 14) + apertura de cola
+- gap_analysis.py (post-Round 13) = 0 huecos, 0 nodos nuevos → se **EXTENDIÓ** `scripts/gap_analysis.py`
+  (Round 14) con 3 deepenings sustrato NA (mexico/estados-unidos/canada → educacion) + 10 nodos nuevos
+  (dominio: blockchain, etica-ia, pricing, geopolitica, inteligencia-competitiva; rol: program-manager,
+  solutions-architect, investor-relations, regulatory-affairs, actuario). ALCANCE respetado: sustrato = solo Norteamérica.
+- Abierta cola Round 14 (13 temas: sustrato x3, dominio x5, rol x5).
+- **Próxima tarea (iter 139+):** LOOP 1 (sustrato NA educación) — sustrato/mexico/educacion.md, sustrato/estados-unidos/educacion.md, sustrato/canada/educacion.md.
+
+## COLA ROUND 14 (gap_analysis.py iter 138 → taxonomía extendida; sustrato solo NA)
+### Sustrato (deepening nodos NA existentes)
+- [ ] sustrato/mexico — Educación (SEP, sistema educativo, educación superior)
+- [ ] sustrato/estados-unidos — Educación (Dept of Education, K-12, higher ed, FAFSA)
+- [ ] sustrato/canada — Educación (provincias, PSE, student aid, bilingüe)
+### Dominio (nuevos nodos)
+- [ ] dominio/blockchain — Blockchain & web3 (consenso, smart contracts, DAOs, tokens)
+- [ ] dominio/etica-ia — Ética de la IA / IA responsable (fairness, sesgo, EU AI Act)
+- [ ] dominio/pricing — Estrategia de precios (value-based, dinámico, psicológico)
+- [ ] dominio/geopolitica — Geopolítica de negocios / geoeconomía
+- [ ] dominio/inteligencia-competitiva — Inteligencia competitiva / market intelligence
+### Rol (nuevos nodos)
+- [ ] rol/program-manager — Program Manager (PMO, portafolio)
+- [ ] rol/solutions-architect — Solutions Architect
+- [ ] rol/investor-relations — Investor Relations
+- [ ] rol/regulatory-affairs — Regulatory Affairs / Asuntos regulatorios
+- [ ] rol/actuario — Actuario (seguros/pensiones, certificación)
 
 ## COLA ROUND 11 (14 temas — gap_analysis extendido, Round 10 completa)
 - [x] sustrato/mexico/inversion-extranjera — IED (IMMEX, maquiladora, regulación)
