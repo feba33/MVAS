@@ -38,7 +38,7 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
 - **Iteración actual:** 141 — Round 14 COMPLETA (13/13: sustrato x3 + dominio x5 + rol x5). Reabastecimiento post-Round 13 cerró con 0 gaps en gap_analysis.py. Próximo: gap_analysis.py para Round 15 o cierre del ciclo.
 - **Temas completados:** 250 (Round 13 COMPLETA 8/8 + 13 de Round 14 ingestados).
-- **Siguiente paso:** Ejecutar LOOPs 1-3 de Round 14 (sustrato educación NA, dominio x5, rol x5). Cron de investigación sigue PAUSADO; el bucle de reabastecimiento continúa vía esta corrida.
+- **Siguiente paso:** Round 14 COMPLETA (13/13) y `gap_analysis.py` reporta **0 gaps**. Para continuar el reabastecimiento, ampliar la taxonomía en `scripts/gap_analysis.py` y abrir Round 15, o dejar el ciclo cerrado. Cron de investigación sigue PAUSADO.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 # COLA ROUND 12 (13 temas — reabastecimiento gap_analysis.py, Round 11 completa)
