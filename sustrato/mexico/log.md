@@ -91,3 +91,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-11] ingest | Sector manufacturero de México (maquiladora)
 - Fuentes: American Industries Group (maquiladora 2026), Wikipedia (Maquiladora) — reference-only.
 - Página: `sector-manufacturero.md`. Maquila: importa-ensambla-exporta bajo IMMEX; >USD$300B exportados 2024, ~6,800 ops; ~48% empleo fronterizo; salario ~$4.5-5/h; acceso USMCA libre de arancel, 3-5 días a EE.UU.; clústeres (auto, aeroespacial, médica, electrónica). Cross-ref inversion-extranjera, comercio-exterior, energia.
+
+## [2026-07-12] ingest | SAT — Servicio de Administración Tributaria (sustrato/mexico)
+- Fuentes: Wikipedia ES (Servicio de Administración Tributaria) + SAT oficial + gobierno.com.mx (CFDI 4.0/e.firma) — reference-only.
+- Página: `sat.md`. Órgano desconcentrado de la SHCP (Ley del SAT, 1997); máxima autoridad fiscal; administra RFC, CFF, CFDI 4.0 (e.firma, CIEC, Buzón Tributario, Mi Contabilidad); recauda ISR/IVA/IEPS/aranceles y cuotas IMSS-ISSSTE; carga tributaria baja (~13-14% PIB). Complementa `regimen-fiscal.md`.

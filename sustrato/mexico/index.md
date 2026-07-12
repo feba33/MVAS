@@ -21,4 +21,5 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [pensiones-afore](pensiones-afore.md) — Sistema de pensiones México: AFORE, CONSAR, SAR, SIEFOREs · 🏷️ mexico,pensiones,afore,consar,sar,retiro · 📅 2026-07-11
 - [telecomunicaciones](telecomunicaciones.md) — Telecomunicaciones México: IFT→CRT (LMTR 2025), espectro, banda ancha fija · 🏷️ mexico,telecomunicaciones,ift,crt,lmtr,espectro,banda-ancha · 📅 2026-07-11
 - [inversion-extranjera](inversion-extranjera.md) — IED en México: LIE, sectores reservados, IMMEX/maquila, nearshoring · 🏷️ mexico,inversion-extranjera,ied,immex,maquiladora,lie · 📅 2026-07-11
-- [sector-manufacturero](sector-manufacturero.md) — Manufactura MX: maquiladora, IMMEX, exportación, nearshoring · 🏷️ mexico,manufactura,maquiladora,immex,exportacion,nearshoring · 📅 2026-07-11
+- [sector-manufacturero](sustrato/mexico/sector-manufacturero.md) — Manufactura MX: maquiladora, IMMEX, exportación · 🏷️ mexico,manufactura,maquiladora,immex,exportacion,nearshoring · 📅 2026-07-11
+- [sat](sustrato/mexico/sat.md) — SAT: autoridad fiscal máxima (SHCP), CFF, RFC, CFDI 4.0, sistema tributario federal · 🏷️ sat,shcp,sistema-tributario,recaudacion,rfc,cfdi · 📅 2026-07-12

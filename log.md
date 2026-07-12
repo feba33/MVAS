@@ -370,3 +370,7 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   - `rol/chief-digital-officer/` — CDO: estrategia y transformación digital, CX, e-commerce, datos; vs CIO/Chief Data Officer.
 - Reference-only (URL en frontmatter; sin raw/). Cross-refs a cfo, cio, cto, cmo, compliance-officer, finanzas. **LOOP 3 rol COMPLETO (5/5).**
 - **Round 11 COMPLETO (14/14 temas en 3 bucles: LOOP 1 sustrato NA, LOOP 2 dominio x5, LOOP 3 rol x5).** Cola Round 11 VACÍA → reabastecimiento (gap_analysis.py).
+
+## [2026-07-12] ingest | Round 12 — ITER 132 | sustrato/mexico SAT (LOOP 1) — 1 ingest
+- 1 tema sustrato (deepening de nodo NA existente): `sustrato/mexico/sat.md` — SAT (Servicio de Administración Tributaria): órgano desconcentrado de la SHCP (Ley del SAT, 1997), máxima autoridad fiscal; administra RFC, CFF, CFDI 4.0 (e.firma, CIEC, Buzón Tributario, Mi Contabilidad); recauda ISR/IVA/IEPS/aranceles y cuotas IMSS-ISSSTE; carga tributaria baja (~13-14% PIB). Complementa `regimen-fiscal.md`. Reference-only (URL en frontmatter; sin raw/).
+- **Round 12 LOOP 1 sustrato NA (1/3):** mexico/sat hecho; restan estados-unidos/inmigracion y canada/transporte. Próxima tarea (iter 133): sustrato/estados-unidos/inmigracion.

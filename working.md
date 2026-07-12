@@ -33,14 +33,14 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
   (T-MEC/USMCA, IMMEX) y `sustrato/estados-unidos/controles-exportacion.md` (EAR/ITAR). CBCA ya cubierto
   en `corporativo.md` (no se duplicó). Siguiente paso sugerido: dominio/seguros, dominio/energia, etc. (Round 5 pendiente).
 - **Plan:** Round 5 — tras Round 4 COMPLETO, `scripts/gap_analysis.py` (iter 114) agotó la taxonomía; se extendió la taxonomía con 10 nodos nuevos sugeridos (sustrato/ecuador, sustrato/portugal, dominio/seguros, dominio/energia, dominio/inmobiliario, dominio/retail, dominio/manufactura, rol/cio, rol/coo, rol/cmo). Cola Round 5 = 10 temas (sustrato x2, dominio x5, rol x3).
-- **Iteración actual:** 131 — Round 11 COMPLETA (14/14 en 3 bucles). Reabastecimiento ejecutado: gap_analysis.py extendida → **Round 12 ABIERTA (13 temas)**. Próxima tarea (iter 132): sustrato/mexico/sat (Sistema tributario).
-- **Temas completados:** 208 (197 previos + Round 11 LOOP 2/3: 11/14 en iter 131; Round 11 total 14/14).
+- **Iteración actual:** 132 — Round 12 ABIERTA (13 temas). ITER 132 ingestó sustrato/mexico/sat (SAT). Próxima tarea (iter 133): sustrato/estados-unidos/inmigracion (USCIS, H-1B, H-2A, green card) — LOOP 1 sustrato NA de Round 12 (2/3 pendientes).
+- **Temas completados:** 209 (Round 11 14/14 + Round 12 ITER 132: sustrato/mexico/sat).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Siguiente paso:** Round 12 ABIERTA (13 temas): 3 sustrato NA (mexico/sat, estados-unidos/inmigracion, canada/transporte) + 5 dominio (alimentos-bebidas, moda, espacio, agua, semiconductores) + 5 rol (chief-strategy-officer, chief-privacy-officer, chief-people-officer, chief-client-officer, head-of-operations). ALCANCE sustrato = solo Norteamérica (sin nuevos países no-NA). Próxima tarea (iter 132): sustrato/mexico/sat (Sistema tributario mexicano) — abre LOOP 1 sustrato NA de Round 12.
+- **Siguiente paso:** Round 12 ABIERTA (13 temas, 1/13 hecho: mexico/sat): 2 sustrato NA restantes (estados-unidos/inmigracion, canada/transporte) + 5 dominio (alimentos-bebidas, moda, espacio, agua, semiconductores) + 5 rol (chief-strategy-officer, chief-privacy-officer, chief-people-officer, chief-client-officer, head-of-operations). ALCANCE sustrato = solo Norteamérica (sin nuevos países no-NA). Próxima tarea (iter 133): sustrato/estados-unidos/inmigracion (USCIS, H-1B, H-2A, green card).
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 # COLA ROUND 12 (13 temas — reabastecimiento gap_analysis.py, Round 11 completa)
-- [ ] sustrato/mexico/sat — SAT / sistema tributario (ISR, IVA)
+- [x] sustrato/mexico/sat — SAT / sistema tributario (ISR, IVA)
 - [ ] sustrato/estados-unidos/inmigracion — USCIS, H-1B, H-2A, green card
 - [ ] sustrato/canada/transporte — Transport Canada, ferrocarriles, aviación, puertos
 - [ ] dominio/alimentos-bebidas — F&B (industria, regulación, cadena, marca)
@@ -784,6 +784,11 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
   - NEW_NODES (Round 12): +5 `dominio/` (alimentos-bebidas, moda, espacio, agua, semiconductores) +5 `rol/` (chief-strategy-officer, chief-privacy-officer, chief-people-officer, chief-client-officer, head-of-operations).
 - Verificado: gap_analysis.py ahora reporta 3 sustrato + 10 nodos nuevos = **13 huecos**. Cola Round 12 ABIERTA (13 temas). ALCANCE sustrato = solo Norteamérica.
 - Próxima tarea (iter 132): sustrato/mexico/sat (Sistema tributario mexicano) — abre LOOP 1 sustrato NA de Round 12.
+
+### [2026-07-12] Round 12 — ITER 132 | sustrato/mexico SAT (LOOP 1) — 1 ingest
+- 1 tema sustrato (deepening de nodo NA existente): `sustrato/mexico/sat.md` — SAT (Servicio de Administración Tributaria): órgano desconcentrado de la SHCP (Ley del SAT, 1997), máxima autoridad fiscal; administra RFC, CFF, CFDI 4.0 (e.firma, CIEC, Buzón Tributario, Mi Contabilidad); recauda ISR/IVA/IEPS/aranceles y cuotas IMSS-ISSSTE; carga tributaria baja (~13-14% PIB). Complementa `regimen-fiscal.md`. Reference-only (URL en frontmatter; sin raw/).
+- **Round 12 LOOP 1 sustrato NA (1/3):** mexico/sat hecho; restan estados-unidos/inmigracion y canada/transporte. Próxima tarea (iter 133): sustrato/estados-unidos/inmigracion.
+- **Próxima tarea (iter 133):** sustrato/estados-unidos/inmigracion (USCIS, H-1B, H-2A, green card).
 
 ## COLA ROUND 11 (14 temas — gap_analysis extendido, Round 10 completa)
 - [x] sustrato/mexico/inversion-extranjera — IED (IMMEX, maquiladora, regulación)

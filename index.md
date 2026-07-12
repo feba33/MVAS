@@ -35,6 +35,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [telecomunicaciones](sustrato/mexico/telecomunicaciones.md) — Telecomunicaciones México: IFT→CRT (LMTR 2025), espectro, banda ancha fija · 🏷️ mexico,telecomunicaciones,ift,crt,lmtr,espectro,banda-ancha · 📅 2026-07-11
 - [inversion-extranjera](sustrato/mexico/inversion-extranjera.md) — IED en México: LIE, IMMEX/maquila, nearshoring · 🏷️ mexico,inversion-extranjera,ied,immex,maquiladora,lie · 📅 2026-07-11
 - [sector-manufacturero](sustrato/mexico/sector-manufacturero.md) — Manufactura MX: maquiladora, IMMEX, exportación · 🏷️ mexico,manufactura,maquiladora,immex,exportacion,nearshoring · 📅 2026-07-11
+- [sat](sustrato/mexico/sat.md) — SAT: autoridad fiscal máxima (SHCP), CFF, RFC, CFDI 4.0, sistema tributario federal · 🏷️ sat,shcp,sistema-tributario,recaudacion,rfc,cfdi · 📅 2026-07-12
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
