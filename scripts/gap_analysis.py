@@ -39,6 +39,7 @@ TAXONOMY = {
         ("medio-ambiente", "Medio ambiente (SEMARNAT, LGEEPA, cambio climático, ESG México, economía circular)"),
         ("seguridad-social", "Seguridad social México: IMSS, ISSSTE, seguro social, salud y pensiones laborales"),
         ("transporte", "Transporte e infraestructura México: SCT, carreteras, puertos, aeropuertos, fronteras"),
+        ("agricultura", "Agricultura México: SADER, sector agroalimentario, autosuficiencia, tratados, cadena de valor"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -54,6 +55,7 @@ TAXONOMY = {
         ("politica-monetaria", "Política monetaria (Federal Reserve, FOMC, tasa de fondos federales, balance, dual mandate)"),
         ("labor", "Trabajo / laboral EE.UU.: DOL, FLSA, OSHA, NLRB, derechos del trabajador, sindicatos"),
         ("defensa", "Defensa / Department of Defense: Pentagon, presupuesto, contratos, industria de defensa"),
+        ("comercio-exterior", "Comercio exterior EE.UU.: USTR, política comercial, aranceles, USMCA, Sección 301/232"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -69,6 +71,7 @@ TAXONOMY = {
         ("politica-monetaria", "Política monetaria (Bank of Canada, tasa de política, inflation targeting 2% CPI)"),
         ("labor", "Trabajo / laboral Canadá: Labour Code federal, ESDC, estándares provinciales, sindicatos"),
         ("seguridad-social", "Seguridad social Canadá: CPP, OAS, EI, financiamiento de salud provincial"),
+        ("telecomunicaciones", "Telecomunicaciones Canadá: CRTC, Bell/Rogers/Telus, 5G, espectro, competencia"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -294,6 +297,17 @@ NEW_NODES = [
     ("rol/chief-transformation-officer", "Chief Transformation Officer — lidera transformación digital/organizacional"),
     ("rol/chief-ethics-officer", "Chief Ethics Officer / Chief Integrity Officer (ética, cumplimiento ético, conducta)"),
     ("rol/chief-knowledge-officer", "CKO — Chief Knowledge Officer (gestión del conocimiento, KM, aprendizaje organizacional)"),
+    # Round 18 — extensiones en capas generales (dominio/rol) + sustrato NA (deepening). Sin nuevos países.
+    ("dominio/energias-renovables", "Energías renovables: solar, eólica, almacenamiento, hidrógeno, políticas de descarbonización"),
+    ("dominio/finanzas-publicas", "Finanzas públicas: deuda soberana, política fiscal, presupuestos, multilaterales"),
+    ("dominio/economia-digital", "Economía digital / plataformas: mercados de dos lados, gig economy, CBDC"),
+    ("dominio/gobierno-de-datos", "Gobierno de datos: DAMA/DCAM, calidad, linaje, privacidad by design"),
+    ("dominio/propiedad-intelectual", "Propiedad intelectual: patentes, marcas, derechos de autor, secretos comerciales, licencias"),
+    ("rol/head-of-revops", "Head of RevOps — operaciones de ingresos: alinear ventas+marketing+CS, datos, proceso, tech stack"),
+    ("rol/chief-content-officer", "Chief Content Officer — estrategia de contenido, editorial, narrativa de marca"),
+    ("rol/head-of-sales-enablement", "Head of Sales Enablement — capacitación, contenido y herramientas de ventas"),
+    ("rol/head-of-people-analytics", "Head of People Analytics — People Analytics/HR Analytics: attrition, engagement, workforce planning"),
+    ("rol/chief-pricing-officer", "Chief Pricing Officer — estrategia de precios, elasticidad, monetización"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

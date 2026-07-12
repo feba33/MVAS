@@ -117,3 +117,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | Transporte e infraestructura México (SICT)
 - Fuentes: Wikipedia (en) — Secretariat of Infrastructure, Communications and Transportation; gob.mx/sct — reference-only.
 - Página: `transporte.md`. SICT (antes SCT) regula carreteras/puertos/aeropuertos/ferrocarriles; red carretera ~377k km; APIs (Manzanillo, Lázaro Cárdenas, Veracruz); CPKC conecta CA-US-MX; AICM/AIFA; ~28 cruces fronterizos. Certeza alta. Cross-ref comercio-exterior, sector-manufacturero, dominio/transporte, dominio/logistica.
+
+## [2026-07-12] ingest | Agricultura México (SADER, sector agroalimentario)
+- Fuentes: Wikipedia (en) — Agriculture in Mexico; gob.mx/SADER — reference-only.
+- Página: `agricultura.md`. SADER lidera política agropecuaria; México es potencia agroalimentaria (maíz, aguacate, tomate, berries, tequila, cerveza); tratados (USMCA/T-MEC, 14+ TLC); riego y sequía; retos de autosuficiencia alimentaria. Cross-ref comercio-exterior, dominio/agronegocios, dominio/agua.

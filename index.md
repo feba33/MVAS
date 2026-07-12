@@ -38,6 +38,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [sat](sustrato/mexico/sat.md) — SAT: autoridad fiscal máxima (SHCP), CFF, RFC, CFDI 4.0, sistema tributario federal · 🏷️ sat,shcp,sistema-tributario,recaudacion,rfc,cfdi · 📅 2026-07-12
 - [educacion](sustrato/mexico/educacion.md) — Educación México: SEP, sistema educativo, educación superior (UNAM/IPN/ANUIES) · 🏷️ mexico,educacion,sep,sistema-educativo,educacion-superior,anuies,reforma-educativa · 📅 2026-07-12
 - [seguridad-social](sustrato/mexico/seguridad-social.md) — Seguridad social México: IMSS, ISSSTE, seguro social, salud/pensiones laborales · 🏷️ mexico,seguridad-social,imss,issste,seguro-social,salud-laboral,pensiones,sar · 📅 2026-07-12
+- [agricultura](sustrato/mexico/agricultura.md) — Agricultura México: SADER, producción agroalimentaria, seguridad alimentaria, T-MEC, riego, exportaciones · 🏷️ mexico,agricultura,sader,agroalimentario,seguridad-alimentaria,riego,exportaciones-agricolas · 📅 2026-07-12
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -59,6 +60,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [inmigracion](sustrato/estados-unidos/inmigracion.md) — Inmigración EE.UU.: USCIS, H-1B, H-2A, green card, sistema de visas · 🏷️ eeuu,inmigracion,uscis,visas,h1b,h2a,green-card,dhs · 📅 2026-07-12
 - [educacion](sustrato/estados-unidos/educacion.md) — Educación EE.UU.: Dept of Education, K-12 (Title I), higher ed (FAFSA, Pell), estatales · 🏷️ eeuu,educacion,department-of-education,k-12,higher-education,fafsa,pell-grant,title-i · 📅 2026-07-12
 - [labor](sustrato/estados-unidos/labor.md) — Trabajo/laboral EE.UU.: DOL, FLSA, OSHA, NLRB, sindicatos · 🏷️ eeuu,trabajo,laboral,dol,flsa,osha,nlrb,salario-minimo,horas-extras · 📅 2026-07-12
+- [comercio-exterior](sustrato/estados-unidos/comercio-exterior.md) — Comercio exterior EE.UU.: USTR, Sección 301, aranceles, acuerdos comerciales, nearshoring · 🏷️ eeuu,comercio-exterior,ustr,seccion-301,aranceles,acuerdos-comerciales,nearshoring · 📅 2026-07-12
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -74,6 +76,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [transporte](sustrato/canada/transporte.md) — Transporte Canadá: Transport Canada, ferrocarriles (CN/CPKC/Via), puertos (Vancouver), aviación · 🏷️ canada,transporte,transport-canada,ferrocarriles,puertos,aviacion,cn,cpkc · 📅 2026-07-12
 - [educacion](sustrato/canada/educacion.md) — Educación Canadá: provincias (currículo), PSE (universidades/colleges), student aid, bilingüe FR/EN · 🏷️ canada,educacion,provincial,post-secondary,universidades,bilingue,student-aid · 📅 2026-07-12
 - [labor](sustrato/canada/labor.md) — Trabajo/laboral Canadá: Labour Code federal, ESDC, estándares provinciales · 🏷️ canada,trabajo,laboral,labour-code,esdc,estandares-laborales,negociacion-colectiva · 📅 2026-07-12
+- [telecomunicaciones](sustrato/canada/telecomunicaciones.md) — Telecomunicaciones Canadá: CRTC, espectro, banda ancha, Bell/Rogers/Telus, 5G · 🏷️ canada,telecomunicaciones,crtc,espectro,banda-ancha,bell,rogers,telus,5g · 📅 2026-07-12
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -368,6 +371,21 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/economia-circular
 - [economia-circular](dominio/economia-circular/economia-circular.md) — Economía circular: modelos de negocio circulares, reciclaje, diseño para circularidad · 🏷️ economia-circular,circular-economy,sostenibilidad,reciclaje,diseno,residuos,esg · 📅 2026-07-12
 
+### dominio/energias-renovables
+- [energias-renovables](dominio/energias-renovables/energias-renovables.md) — Energías renovables: solar, eólica, almacenamiento, hidrógeno verde, descarbonización · 🏷️ energia-renovable,solar,eolica,almacenamiento,hidrogeno-verde,descarbonizacion,lcoe · 📅 2026-07-12
+
+### dominio/finanzas-publicas
+- [finanzas-publicas](dominio/finanzas-publicas/finanzas-publicas.md) — Finanzas públicas: presupuesto, deuda soberana, política fiscal, multilaterales · 🏷️ finanzas-publicas,presupuesto,deuda-soberana,politica-fiscal,fmi,bid · 📅 2026-07-12
+
+### dominio/economia-digital
+- [economia-digital](dominio/economia-digital/economia-digital.md) — Economía digital: plataformas, mercados de dos lados, gig economy, CBDC · 🏷️ economia-digital,plataformas,mercado-dos-lados,gig-economy,cbdc,comercio-electronico · 📅 2026-07-12
+
+### dominio/gobierno-de-datos
+- [gobierno-de-datos](dominio/gobierno-de-datos/gobierno-de-datos.md) — Gobierno de datos: DAMA/DCAM, calidad, linaje, privacidad by design · 🏷️ gobierno-de-datos,data-governance,dama,dcam,calidad-datos,linaje,catalogo-datos · 📅 2026-07-12
+
+### dominio/propiedad-intelectual
+- [propiedad-intelectual](dominio/propiedad-intelectual/propiedad-intelectual.md) — Propiedad intelectual: patentes, marcas, derechos de autor, licencias · 🏷️ propiedad-intelectual,patentes,marcas,derechos-autor,secretos-comerciales,licencias · 📅 2026-07-12
+
 ### rol/
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
 - [controller](rol/controller/controller.md) — Controller (controlador financiero): reporting, cierre, GAAP, SOX · 🏷️ controller,contraloria,reporting,gaap,sox · 📅 2026-07-11
@@ -456,6 +474,21 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [chief-transformation-officer](rol/chief-transformation-officer/chief-transformation-officer.md) — Chief Transformation Officer: transformación digital/organizacional, cambio de modelo de negocio · 🏷️ chief-transformation-officer,transformacion,cambio-organizacional,estrategia,digital · 📅 2026-07-12
 - [chief-ethics-officer](rol/chief-ethics-officer/chief-ethics-officer.md) — Chief Ethics Officer: ética, integridad, conducta, cultura · 🏷️ chief-ethics-officer,etica-corporativa,integridad,conducta,compliance · 📅 2026-07-12
 - [chief-knowledge-officer](rol/chief-knowledge-officer/chief-knowledge-officer.md) — CKO: gestión del conocimiento, captura, organización, aprendizaje organizacional · 🏷️ chief-knowledge-officer,cko,knowledge-management,aprendizaje-organizacional,intranet · 📅 2026-07-12
+
+### rol/head-of-revops
+- [head-of-revops](rol/head-of-revops/head-of-revops.md) — Head of RevOps: alinear ventas+marketing+CS, datos, proceso, tech stack · 🏷️ revops,ingresos,ventas,marketing,customer-success,operaciones · 📅 2026-07-12
+
+### rol/chief-content-officer
+- [chief-content-officer](rol/chief-content-officer/chief-content-officer.md) — Chief Content Officer: estrategia de contenido, editorial, narrativa de marca · 🏷️ content-officer,contenido,editorial,marca,narrativa,storytelling · 📅 2026-07-12
+
+### rol/head-of-sales-enablement
+- [head-of-sales-enablement](rol/head-of-sales-enablement/head-of-sales-enablement.md) — Head of Sales Enablement: capacitación, contenido, herramientas de ventas · 🏷️ sales-enablement,ventas,capacitacion,playbooks,onboarding · 📅 2026-07-12
+
+### rol/head-of-people-analytics
+- [head-of-people-analytics](rol/head-of-people-analytics/head-of-people-analytics.md) — Head of People Analytics: attrition, engagement, workforce planning, pay equity · 🏷️ people-analytics,hr-analytics,attrition,engagement,workforce-planning,dei · 📅 2026-07-12
+
+### rol/chief-pricing-officer
+- [chief-pricing-officer](rol/chief-pricing-officer/chief-pricing-officer.md) — Chief Pricing Officer: estrategia de precios, elasticidad, monetización, discount governance · 🏷️ pricing,precios,elasticidad,monetizacion,packaging,list-price · 📅 2026-07-12
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

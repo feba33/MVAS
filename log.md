@@ -471,3 +471,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - 5 → rol (nuevos, superstructura recursiva completa): `chief-ai-officer` (CAIO), `chief-design-officer` (CDO design), `chief-transformation-officer`, `chief-ethics-officer`, `chief-knowledge-officer` (CKO).
 - **Round 17 COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5).** ALCANCE sustrato = solo Norteamérica (respetado). Reference-only (Wikipedia EN + fuentes oficiales gob/SICT/DoD/Canada.ca/Statista; sin raw/).
 - Próximo: ejecutar `gap_analysis.py`; si 0 → Round 17 cierra; ampliar taxonomía para Round 18 (nuevos dominios/roles/países NA) o pausar enriquecimiento.
+
+## [2026-07-12] ingest | Round 18 — 13 ingests (3 loops: sustrato NA + dominio + rol)
+- 3 → sustrato (deepenings, solo NA):
+  - `sustrato/mexico/agricultura.md` — SADER, producción agroalimentaria, seguridad alimentaria, T-MEC, riego, exportaciones.
+  - `sustrato/estados-unidos/comercio-exterior.md` — USTR, Sección 301, aranceles, acuerdos comerciales, nearshoring.
+  - `sustrato/canada/telecomunicaciones.md` — CRTC, espectro, banda ancha, Bell/Rogers/Telus, 5G.
+- 5 → dominio (nuevos, superstructura recursiva completa): `energias-renovables`, `finanzas-publicas`, `economia-digital`, `gobierno-de-datos`, `propiedad-intelectual`.
+- 5 → rol (nuevos, superstructura recursiva completa): `head-of-revops`, `chief-content-officer`, `head-of-sales-enablement`, `head-of-people-analytics`, `chief-pricing-officer`.
+- **Round 18 COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5).** ALCANCE sustrato = solo Norteamérica (respetado). Reference-only (Wikipedia EN + fuentes oficiales gob/SADER/USTR/CRTC; sin raw/).
+- Próximo: ejecutar `gap_analysis.py`; si 0 → Round 18 cierra; ampliar taxonomía para Round 19 (nuevos dominios/roles/países NA) o pausar enriquecimiento.

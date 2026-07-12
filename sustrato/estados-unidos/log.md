@@ -90,3 +90,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | Defensa EE.UU. (Department of Defense)
 - Fuentes: Wikipedia (en) — United States Department of Defense; DoD Comptroller FY2025 — reference-only.
 - Página: `defensa.md`. DoD (1947, National Security Act), Pentágono, mayor empleador del mundo (~1.3M activos); ramas Army/Navy(incl. Marines)/Air Force/Space Force/Coast Guard; presupuesto FY2025 ~USD 849.8B; primes (Lockheed Martin, RTX, Boeing, Northrop Grumman, General Dynamics, L3Harris); DARPA; FMS; Goldwater-Nichols 1986. Cross-ref controles-exportacion (ITAR), dominio/defensa-seguridad, dominio/aeroespacial, dominio/espacio.
+
+## [2026-07-12] ingest | Comercio exterior de EE.UU. (USTR, política arancelaria)
+- Fuentes: Wikipedia (en) — Office of the U.S. Trade Representative; USTR.gov — reference-only.
+- Página: `comercio-exterior.md`. USTR lidera política comercial de EE.UU.: negociación de acuerdos (USMCA), Sección 301 (China), Sección 232 (acero/aluminio), aranceles y disputas OMC. Cross-ref sustrato/mexico/comercio-exterior, sustrato/canada/comercio-exterior, dominio/comercio-internacional.

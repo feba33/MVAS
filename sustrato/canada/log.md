@@ -67,3 +67,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | Seguridad social Canadá (CPP, OAS, EI, salud)
 - Fuentes: Canada.ca (CPP/EI explained); Wikipedia (en) — Canada Pension Plan / Old Age Security — reference-only.
 - Página: `seguridad-social.md`. Tres pilares (CPP contributivo ~5.95%, OAS residencial ~$727-800/mes + GIS, EI ~55% hasta 45 semanas); salud vía Canada Health Act + Canada Health Transfer a provincias. Administrado por ESDC/Service Canada. Cross-ref impuestos (CRA), salud, labor.
+
+## [2026-07-12] ingest | Telecomunicaciones de Canadá (CRTC, mercado)
+- Fuentes: Wikipedia (en) — CRTC; ISED (Canada.ca) — reference-only.
+- Página: `telecomunicaciones.md`. CRTC regula radiodifusión y telecomunicaciones; Big 3 (Bell, Rogers, Telus); espectro, 5G, política de competencia e ISED. Cross-ref sustrato/canada/recursos-naturales, dominio/telecomunicaciones.

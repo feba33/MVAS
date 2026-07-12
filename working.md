@@ -973,7 +973,35 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - LOOP 3 (rol): 5 nodos nuevos con superstructura completa: `chief-ai-officer` (CAIO), `chief-design-officer` (CDO design), `chief-transformation-officer`, `chief-ethics-officer`, `chief-knowledge-officer` (CKO).
 - Reference-only (Wikipedia EN + fuentes oficiales gob/SICT/DoD Comptroller/Canada.ca/Statista; sin raw/). Alcance sustrato = solo Norteamérica (respetado).
 - **Round 17 COMPLETA (13/13).** Cola Round 17 VACÍA.
-- **Próxima tarea (iter 150+):** reabastecimiento → ejecutar `python3 scripts/gap_analysis.py`; se esperan 0 gaps. Si 0, el bucle de enriquecimiento llega a estado estable (taxonomía agotada para el alcance actual). Opciones: (a) PAUSAR hasta nueva dirección del usuario o (b) ampliar taxonomía para Round 18 (nuevos dominios/roles/países NA). Cron de investigación `e273fdbbba14` sigue PAUSADO salvo que el usuario lo reanude.
+
+## COLA ROUND 18 (gap_analysis.py iter 150 → taxonomía extendida; sustrato solo NA) — COMPLETA 13/13
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Agricultura (SADER, producción agroalimentaria, seguridad alimentaria, T-MEC, riego, exportaciones) — done iter 150
+- [x] sustrato/estados-unidos — Comercio exterior (USTR, Sección 301, aranceles, acuerdos comerciales, nearshoring) — done iter 150
+- [x] sustrato/canada — Telecomunicaciones (CRTC, espectro, banda ancha, Bell/Rogers/Telus, 5G) — done iter 150
+### Dominio (nuevos nodos)
+- [x] dominio/energias-renovables — Energías renovables (solar, eólica, almacenamiento, hidrógeno verde, descarbonización)
+- [x] dominio/finanzas-publicas — Finanzas públicas (presupuesto, deuda soberana, política fiscal, multilaterales)
+- [x] dominio/economia-digital — Economía digital (plataformas, mercados de dos lados, gig economy, CBDC)
+- [x] dominio/gobierno-de-datos — Gobierno de datos (DAMA/DCAM, calidad, linaje, privacidad by design)
+- [x] dominio/propiedad-intelectual — Propiedad intelectual (patentes, marcas, derechos de autor, licencias)
+### Rol (nuevos nodos)
+- [x] rol/head-of-revops — Head of RevOps (RevOps, alinear ventas+marketing+CS)
+- [x] rol/chief-content-officer — Chief Content Officer (contenido, editorial, narrativa)
+- [x] rol/head-of-sales-enablement — Head of Sales Enablement (capacitación, playbooks)
+- [x] rol/head-of-people-analytics — Head of People Analytics (attrition, engagement, DEI)
+- [x] rol/chief-pricing-officer — Chief Pricing Officer (estrategia de precios, elasticidad)
+
+### [2026-07-12] Round 18 — ITER 150 | COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5)
+- LOOP 1 (sustrato NA): 3 páginas en nodos existentes (index/log nodos + raíz actualizados):
+  - `sustrato/mexico/agricultura.md` — SADER; potencia agroalimentaria (maíz, aguacate, tomate, berries, tequila, cerveza); USMCA/T-MEC, 14+ TLC; riego/sequía; autosuficiencia alimentaria.
+  - `sustrato/estados-unidos/comercio-exterior.md` — USTR; USMCA, Sección 301 (China), Sección 232 (acero/aluminio), aranceles, OMC.
+  - `sustrato/canada/telecomunicaciones.md` — CRTC; Big 3 (Bell/Rogers/Telus); espectro, 5G, ISED.
+- LOOP 2 (dominio): 5 nodos nuevos con superstructura completa: `energias-renovables`, `finanzas-publicas`, `economia-digital`, `gobierno-de-datos`, `propiedad-intelectual`.
+- LOOP 3 (rol): 5 nodos nuevos con superstructura completa: `head-of-revops`, `chief-content-officer`, `head-of-sales-enablement`, `head-of-people-analytics`, `chief-pricing-officer`.
+- Reference-only (Wikipedia EN + fuentes oficiales gob/SADER/USTR/CRTC; sin raw/). Alcance sustrato = solo Norteamérica (respetado).
+- **Round 18 COMPLETA (13/13).** Cola Round 18 VACÍA.
+- **Próxima tarea (iter 151+):** reabastecimiento → ejecutar `python3 scripts/gap_analysis.py`; se esperan 0 gaps (Round 18 ya cubrió la taxonomía extendida). Si 0, el bucle de enriquecimiento llega a estado estable (taxonomía agotada para el alcance actual de Norteamérica). Opciones: (a) PAUSAR hasta nueva dirección del usuario o (b) ampliar taxonomía para Round 19 (nuevos dominios/roles/países NA). Cron de investigación `e273fdbbba14` sigue PAUSADO salvo que el usuario lo reanude.
 
 ## COLA ROUND 14 (gap_analysis.py iter 138 → taxonomía extendida; sustrato solo NA)
 ### Sustrato (deepening nodos NA existentes)
