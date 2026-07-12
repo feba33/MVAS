@@ -36,6 +36,7 @@ TAXONOMY = {
         ("sector-manufacturero", "Sector manufacturero (industria, exportación, cadenas)"),
         ("sat", "SAT / sistema tributario (ISR, IVA, impuestos federales)"),
         ("educacion", "Educación México: SEP, sistema educativo, reformas, educación superior (UNAM/IPN/tecnológicos), ANUIES"),
+        ("medio-ambiente", "Medio ambiente (SEMARNAT, LGEEPA, cambio climático, ESG México, economía circular)"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -48,6 +49,7 @@ TAXONOMY = {
         ("agricultura", "Agricultura (USDA, Farm Bill, subsidios, comercio agrícola)"),
         ("inmigracion", "Inmigración EE.UU. (USCIS, H-1B, H-2A, green card, visas)"),
         ("educacion", "Educación EE.UU.: Dept of Education, K-12 (Title I), higher ed (FAFSA, Pell, acreditación), estatales"),
+        ("politica-monetaria", "Política monetaria (Federal Reserve, FOMC, tasa de fondos federales, balance, dual mandate)"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -60,6 +62,7 @@ TAXONOMY = {
         ("impuestos", "Impuestos Canadá (CRA, T1, GST/HST, tributario federal)"),
         ("transporte", "Transporte Canadá (Transport Canada, ferrocarriles, aviación, puertos)"),
         ("educacion", "Educación Canadá: provincias (currículo), PSE (universidades/colleges), student aid, bilingüe FR/EN"),
+        ("politica-monetaria", "Política monetaria (Bank of Canada, tasa de política, inflation targeting 2% CPI)"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -252,6 +255,17 @@ NEW_NODES = [
     ("rol/investor-relations", "Investor Relations — relación con inversionistas, disclosure, earnings, ESG reporting"),
     ("rol/regulatory-affairs", "Regulatory Affairs / Asuntos regulatorios — relación con reguladores, aprobaciones, compliance técnico"),
     ("rol/actuario", "Actuario — modelado actuarial, riesgo, seguros/pensiones, certificación (SOA/CAS/AAA)"),
+    # Round 15 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings en medio-ambiente MX y política monetaria US/CA; dominio/rol generales).
+    ("dominio/automatizacion", "Automatización / RPA / hyperautomation / BPA: IA agentes, intelligent automation, low-code"),
+    ("dominio/insurtech", "Insurtech: modelos de negocio, telematics, IA en seguros, distribución digital"),
+    ("dominio/legaltech", "Legaltech: contract lifecycle management, e-discovery, IA legal, regulatory tech"),
+    ("dominio/crowdfunding", "Crowdfunding: reward/equity/debt/crowdlending, plataformas, regulación"),
+    ("dominio/iot", "Internet de las Cosas (IoT): industrias, edge, seguridad, IIoT"),
+    ("rol/enterprise-architect", "Enterprise Architect — arquitectura empresarial (TOGAF, alineación TI-negocio)"),
+    ("rol/head-of-corporate-development", "Head of Corporate Development — M&A, BD corporativo, asignación de capital"),
+    ("rol/chief-procurement-officer", "CPO — Chief Procurement Officer (sourcing, supplier management, spend)"),
+    ("rol/head-of-tax", "Head of Tax / Tax Director — estrategia fiscal, transfer pricing, cumplimiento tributario"),
+    ("rol/chief-diversity-officer", "CDO — Chief Diversity Officer (DEI, equidad, inclusión, pertenencia)"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

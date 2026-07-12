@@ -334,6 +334,16 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [inteligencia-competitiva](dominio/inteligencia-competitiva/inteligencia-competitiva.md) — Inteligencia competitiva: CI process, fuentes, límites éticos/legales · 🏷️ inteligencia-competitiva,competitive-intelligence,market-intelligence,trade-secrets · 📅 2026-07-12
 ### dominio/pricing
 - [pricing](dominio/pricing/pricing.md) — Pricing: estrategias, elasticidad, dynamic pricing · 🏷️ pricing,fijacion-precios,estrategias-precio,elasticidad,dynamic-pricing · 📅 2026-07-12
+### dominio/automatizacion
+- [automatizacion](dominio/automatizacion/automatizacion.md) — Automatización/RPA/hyperautomation/IA agentes: eficiencia, retos de gobernanza · 🏷️ automatizacion,rpa,bpa,hyperautomation,ia-agentes,low-code,eficiencia · 📅 2026-07-12
+### dominio/insurtech
+- [insurtech](dominio/insurtech/insurtech.md) — Insurtech: telematics, IA en underwriting/reclamos, paramétrico, embedded · 🏷️ insurtech,seguros,fintech,telematics,underwriting,parametrica · 📅 2026-07-12
+### dominio/legaltech
+- [legaltech](dominio/legaltech/legaltech.md) — Legaltech: CLM, e-discovery, research, IA generativa en contratos · 🏷️ legaltech,contratos,e-discovery,ia-legal,clm · 📅 2026-07-12
+### dominio/crowdfunding
+- [crowdfunding](dominio/crowdfunding/crowdfunding.md) — Crowdfunding: reward/equity/debt, regulación (JOBS Act/Reg CF) · 🏷️ crowdfunding,financiamiento-colectivo,equity,reward,p2p-lending,jobs-act · 📅 2026-07-12
+### dominio/iot
+- [iot](dominio/iot/iot.md) — IoT/IIoT: capas edge-conectividad-cloud, retos de seguridad/estándares · 🏷️ iot,internet-de-las-cosas,iiot,edge,sensores,conectividad · 📅 2026-07-12
 
 ### rol/
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
@@ -408,6 +418,11 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [investor-relations](rol/investor-relations/investor-relations.md) — Investor Relations: puente empresa-mercado financiero (NIRI) · 🏷️ investor-relations,ir,relacion-inversionistas,earnings,divulgacion,capital-markets · 📅 2026-07-12
 - [regulatory-affairs](rol/regulatory-affairs/regulatory-affairs.md) — Regulatory Affairs: cumplimiento regulatorio y aprobación de productos · 🏷️ regulatory-affairs,cumplimiento-regulatorio,fda,ema,aprobaciones,calidad · 📅 2026-07-12
 - [actuario](rol/actuario/actuario.md) — Actuario: mide/gestiona riesgo e incertidumbre (seguros, pensiones) · 🏷️ actuario,actuarial-science,riesgo,seguros,pensiones,soa,cas,solvencia-ii · 📅 2026-07-12
+- [enterprise-architect](rol/enterprise-architect/enterprise-architect.md) — Enterprise Architect: alineación negocio-TI, TOGAF, dominios BA/DT/App/Tech · 🏷️ enterprise-architect,arquitectura-empresarial,togaf,zachman,arquimate,estrategia-ti · 📅 2026-07-12
+- [head-of-corporate-development](rol/head-of-corporate-development/head-of-corporate-development.md) — Head of Corporate Development: M&A, alianzas, asignación de capital · 🏷️ corporate-development,head-of-corp-dev,mandd,alianzas,asignacion-capital,crecimiento · 📅 2026-07-12
+- [chief-procurement-officer](rol/chief-procurement-officer/chief-procurement-officer.md) — CPO: sourcing, gestión de proveedores, spend, sostenibilidad en cadena · 🏷️ cpo,chief-procurement-officer,procurement,sourcing,supplier-management,spend,cadena-suministro · 📅 2026-07-12
+- [head-of-tax](rol/head-of-tax/head-of-tax.md) — Head of Tax: fiscalidad corporativa, transfer pricing, BEPS Pillar Two · 🏷️ head-of-tax,tax-director,fiscal,transfer-pricing,beps,compliance-tributario · 📅 2026-07-12
+- [chief-diversity-officer](rol/chief-diversity-officer/chief-diversity-officer.md) — CDO: DEI y pertenencia, equidad en contratación, métricas de representación · 🏷️ cdo,chief-diversity-officer,dei,diversidad,equidad,inclusion,pertenencia · 📅 2026-07-12
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

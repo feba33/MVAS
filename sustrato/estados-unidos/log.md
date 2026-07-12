@@ -78,3 +78,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | Educación en Estados Unidos (estados + Dept of Education)
 - Fuentes: Wikipedia (en) — Education in the United States; U.S. Department of Education (ed.gov) — reference-only.
 - Página: `educacion.md`. Sin sistema nacional unificado: 50+ sistemas estatales + territorios + Bureau of Indian Education + DoD schools; estándares a nivel estatal. Compulsoria (edad varía por estado). Tres niveles: elementary/middle/high. Rol federal: U.S. Dept of Education (1980, gabinete), ~$250B federales 2024 (total ~$1.3T, mayoría estatal/local). K-12: distritos locales, financiamiento vía impuestos prediales (desigualdad), Title I, IDEA, ESSA, Common Core. Higher ed: públicas/privadas/for-profit, acreditación regional, Pell Grants/FAFSA/préstamos federales; deuda estudiantil (~$1.7B) es flashpoint. Cross-ref dominio/educacion, finanzas (préstamos), empleo-at-will.
+
+## [2026-07-12] ingest | Política monetaria EE.UU. (Federal Reserve, FOMC, tasa de fondos federales)
+- Fuentes: Federal Reserve (federalreserve.gov/monetarypolicy); Wikipedia (en) — Monetary policy of the United States — reference-only.
+- Página: `politica-monetaria.md`. Fed (1913) banco central; doble mandato (empleo + precios estables, ~2% PCE); FOMC fija federal funds rate; herramientas tasa/balance(QE/QT)/forward guidance/reservas; independencia; ciclos 2008/2020/2022-23. Cross-ref dominio/economia, dominio/banca, sustrato/canada/politica-monetaria, rol/chief-investment-officer.

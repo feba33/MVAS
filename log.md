@@ -441,3 +441,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   - `rol/actuario/actuario.md` — mide/gestiona riesgo e incertidumbre (seguros, pensiones); SOA/CAS/IFoA; Solvencia II.
 - **Round 14 COMPLETA (13/13: sustrato x3 + dominio x5 + rol x5).** Reference-only (Wikipedia EN; sin raw/).
 - Próximo: ejecutar `gap_analysis.py` → 0 gaps esperados; reabastecimiento cerrado.
+
+## [2026-07-12] ingest | Round 15 — 13 ingests (3 loops: sustrato + dominio + rol)
+- 3 → sustrato (deepenings, solo NA):
+  - `sustrato/mexico/medio-ambiente.md` — SEMARNAT, LGEEPA, cambio climático, ESG, economía circular.
+  - `sustrato/estados-unidos/politica-monetaria.md` — Federal Reserve, FOMC, tasa de fondos federales, dual mandate.
+  - `sustrato/canada/politica-monetaria.md` — Bank of Canada, tasa de política, inflation targeting 2%.
+- 5 → dominio (nuevos): `automatizacion`, `insurtech`, `legaltech`, `crowdfunding`, `iot` (superstructura recursiva completa).
+- 5 → rol (nuevos): `enterprise-architect`, `head-of-corporate-development`, `chief-procurement-officer`, `head-of-tax`, `chief-diversity-officer` (superstructura recursiva completa).
+- **Round 15 COMPLETA (13/13: sustrato x3 + dominio x5 + rol x5).** Reference-only (Wikipedia EN + fuentes oficiales gob/SAT/BoC/Fed; sin raw/).
+- Próximo: ejecutar `gap_analysis.py` → 0 gaps esperados; reabastecimiento cerrado.

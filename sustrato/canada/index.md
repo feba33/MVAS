@@ -18,3 +18,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [inmigracion](inmigracion.md) — Inmigración Canadá: IRCC, IRPA, Express Entry, PNP, permisos de trabajo/estudio · 🏷️ canada,inmigracion,ircc,irpa,express-entry,permisos-trabajo,residencia-permanente · 📅 2026-07-11
 - [transporte](transporte.md) — Transporte Canadá: Transport Canada, ferrocarriles (CN/CPKC/Via), puertos (Vancouver), aviación · 🏷️ canada,transporte,transport-canada,ferrocarriles,puertos,aviacion,cn,cpkc · 📅 2026-07-12
 - [educacion](educacion.md) — Educación Canadá: provincias (currículo), PSE (universidades/colleges), student aid, bilingüe FR/EN · 🏷️ canada,educacion,provincial,post-secondary,universidades,bilingue,student-aid · 📅 2026-07-12
+- [politica-monetaria](politica-monetaria.md) — Política monetaria Canadá: Bank of Canada, tasa de política, inflation targeting 2% · 🏷️ canada,politica-monetaria,bank-of-canada,tasa-politica,inflacion,banco-central · 📅 2026-07-12

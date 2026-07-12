@@ -36,9 +36,9 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - **Iteración actual:** 137 — Round 13 COMPLETA (8/8). ITER 137 ingestó 5 nodos nuevos (dominio/gestion-riesgos + 4 roles: chief-revenue-officer, chief-communications-officer, chief-analytics-officer, head-of-innovation).
 - **Temas completados:** 229 (Round 12 COMPLETA 13/13 + Round 13 COMPLETA 8/8).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Iteración actual:** 141 — Round 14 COMPLETA (13/13: sustrato x3 + dominio x5 + rol x5). Reabastecimiento post-Round 13 cerró con 0 gaps en gap_analysis.py. Próximo: gap_analysis.py para Round 15 o cierre del ciclo.
-- **Temas completados:** 250 (Round 13 COMPLETA 8/8 + 13 de Round 14 ingestados).
-- **Siguiente paso:** Round 14 COMPLETA (13/13) y `gap_analysis.py` reporta **0 gaps**. Para continuar el reabastecimiento, ampliar la taxonomía en `scripts/gap_analysis.py` y abrir Round 15, o dejar el ciclo cerrado. Cron de investigación sigue PAUSADO.
+- **Iteración actual:** 145 — Round 15 COMPLETA (13/13: sustrato x3 + dominio x5 + rol x5). ITER 143 ingestó sustrato NA (medio-ambiente MX, política monetaria US/CA); ITER 144 ingestó 5 dominios nuevos; ITER 145 ingestó 5 roles nuevos.
+- **Temas completados:** 263 (Round 14 COMPLETA 13/13 + Round 15 COMPLETA 13/13).
+- **Siguiente paso:** ejecutar `python3 scripts/gap_analysis.py` → 0 gaps esperados; si hay huecos, abrir Round 16. Alcance sustrato sigue = solo Norteamérica.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
 # COLA ROUND 12 (13 temas — reabastecimiento gap_analysis.py, Round 11 completa)
@@ -862,8 +862,45 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - **ROUND 14 COMPLETA (13/13):** sustrato x3 (educación NA) + dominio x5 + rol x5. Cola Round 14 vacía.
 - **Próximo paso:** ejecutar `python3 scripts/gap_analysis.py` → se esperan 0 gaps; si hay nuevos, abrir Round 15. El cron de investigación `e273fdbbba14` sigue PAUSADO.
 
+### [2026-07-12] Round 15 — ITER 142 | gap_analysis extendido (taxonomía Round 15) + apertura de cola
+- gap_analysis.py (post-Round 14) = 0 huecos, 0 nodos nuevos → se **EXTENDIÓ** `scripts/gap_analysis.py`
+  (Round 15) con 3 deepenings sustrato NA (mexico→medio-ambiente, estados-unidos→politica-monetaria,
+  canada→politica-monetaria) + 10 nodos nuevos (dominio: automatizacion, insurtech, legaltech, crowdfunding,
+  iot; rol: enterprise-architect, head-of-corporate-development, chief-procurement-officer, head-of-tax,
+  chief-diversity-officer). ALCANCE respetado: sustrato = solo Norteamérica.
+- Re-ejecutado → 13 sugerencias (3 sustrato + 10 nuevos). Abierta cola Round 15 (13 temas).
+- **Próxima tarea (iter 143+):** LOOP 1 (sustrato NA) — medio-ambiente MX, política monetaria US, política monetaria CA.
+
+### [2026-07-12] Round 15 — ITER 143-145 | 13 ingests (3 loops: sustrato + dominio + rol)
+- ITER 143 (LOOP 1, sustrato NA): 3 deepenings en nodos existentes:
+  - `sustrato/mexico/medio-ambiente.md` — SEMARNAT, LGEEPA, cambio climático, ESG, economía circular.
+  - `sustrato/estados-unidos/politica-monetaria.md` — Federal Reserve, FOMC, tasa de fondos federales, dual mandate.
+  - `sustrato/canada/politica-monetaria.md` — Bank of Canada, tasa de política, inflation targeting 2%.
+- ITER 144 (LOOP 2, dominio): 5 nodos nuevos con superstructura completa: `automatizacion`, `insurtech`, `legaltech`, `crowdfunding`, `iot`.
+- ITER 145 (LOOP 3, rol): 5 nodos nuevos con superstructura completa: `enterprise-architect`, `head-of-corporate-development`, `chief-procurement-officer`, `head-of-tax`, `chief-diversity-officer`.
+- **Round 15 COMPLETA (13/13: sustrato x3 + dominio x5 + rol x5).** Reference-only (Wikipedia EN + fuentes oficiales gob/SAT/BoC/Fed; sin raw/).
+- Próxima tarea (iter 146+): ejecutar `python3 scripts/gap_analysis.py` → 0 gaps esperados; si hay huecos, abrir Round 16.
+
 ## COLA ROUND 14 (CERRADA — 13/13 COMPLETA)
 - Todos los temas [x]. Reabastecimiento post-Round 13 finalizado.
+
+## COLA ROUND 15 (gap_analysis.py iter 142 → taxonomía extendida; sustrato solo NA) — COMPLETA 13/13
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Medio ambiente (SEMARNAT, LGEEPA, cambio climático, ESG México) — done iter 143
+- [x] sustrato/estados-unidos — Política monetaria (Federal Reserve, FOMC, tasa de fondos federales) — done iter 143
+- [x] sustrato/canada — Política monetaria (Bank of Canada, tasa de política, inflation targeting) — done iter 143
+### Dominio (nuevos nodos)
+- [x] dominio/automatizacion — Automatización / RPA / hyperautomation / IA agentes — done iter 144
+- [x] dominio/insurtech — Insurtech (modelos, telematics, IA en seguros) — done iter 144
+- [x] dominio/legaltech — Legaltech (CLM, e-discovery, IA legal) — done iter 144
+- [x] dominio/crowdfunding — Crowdfunding (reward/equity/debt, regulación) — done iter 144
+- [x] dominio/iot — Internet de las Cosas (IIoT, edge, seguridad) — done iter 144
+### Rol (nuevos nodos)
+- [x] rol/enterprise-architect — Enterprise Architect (TOGAF, arquitectura empresarial) — done iter 145
+- [x] rol/head-of-corporate-development — Corp Dev (M&A, asignación de capital) — done iter 145
+- [x] rol/chief-procurement-officer — CPO (sourcing, supplier management) — done iter 145
+- [x] rol/head-of-tax — Head of Tax / Tax Director (estrategia fiscal, transfer pricing) — done iter 145
+- [x] rol/chief-diversity-officer — CDO Diversity (DEI, equidad, inclusión) — done iter 145
 
 ## COLA ROUND 14 (gap_analysis.py iter 138 → taxonomía extendida; sustrato solo NA)
 ### Sustrato (deepening nodos NA existentes)

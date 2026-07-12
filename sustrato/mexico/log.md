@@ -105,3 +105,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | Educación en México (SEP, sistema educativo, educación superior)
 - Fuentes: Wikipedia (en) — Education in Mexico; Scholaro (Mexico Education System); SEP — reference-only.
 - Página: `educacion.md`. SEP (1921, Vasconcelos) fija política/curriculo; educación básica (preescolar 1 año obligatorio + primaria 1-6 + secundaria 7-9 obligatoria) y media superior (bachillerato 10-12); superior (UNAM, IPN, UAM, TecNM, ITESM, ANUIES; licenciatura/maestría/doctorado/TSU). Reformas 2013 (eval. docente) y 2019 (roll-back). ~36M estudiantes; ~3% PIB; retos equidad/calidad (PISA). Cross-ref dominio/educacion, lft (docente), regimen-fiscal (gasto).
+
+## [2026-07-12] ingest | Medio ambiente México (SEMARNAT, LGEEPA, cambio climático, ESG)
+- Fuentes: SEMARNAT (gob.mx); Wikipedia (en) — Environmental issues in Mexico — reference-only.
+- Página: `medio-ambiente.md`. SEMARNAT (2000) es autoridad federal; PROFEPA/CONANP/CONAFOR. LGEEPA (1988) es ley mãe; NOM-EMA. Ley General de Cambio Climático (2012) + NDC; Ley de Transición Energética; Ley General de Economía Circular (2023). Criterios ESG (GRI/SASB). Retos: deforestación, escasez hídrica, contaminación. Cross-ref sustrato/mexico/energia, dominio/sostenibilidad, dominio/agua, dominio/mineria, dominio/agronegocios.
