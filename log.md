@@ -415,3 +415,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
   - `rol/head-of-innovation/` — Head of Innovation: gestión de innovación, labs, corporate venturing, ISO 56000.
 - Reference-only (URL en frontmatter; sin raw/). Cross-refs a finanzas/riesgo-financiero, chief-risk-officer, calidad, ciberseguridad-gobierno, consultoria, auditor-interno, compliance-officer, board-member; ventas, marketing, vp-sales, cmo, chief-client-officer, head-of-growth, founder-ceo, cfo; relaciones-publicas, experiencia-cliente; chief-data-officer, data-scientist, data-analyst, analitica-negocio, ia-generativa, cio, chief-digital-officer; innovacion, estrategia, chief-product-officer, head-of-research, emprendimiento, chief-strategy-officer.
 - **Round 13 COMPLETA (8/8 temas: dominio x4 + rol x4).** Cola Round 13 VACÍA → reabastecimiento (gap_analysis.py) para Round 14.
+
+## [2026-07-12] ingest | Educación en Norteamérica (sustrato NA deepening — LOOP 1 Round 14)
+- 3 → sustrato (deepening de nodos NA existentes), cubriendo las 3 jurisdicciones:
+  - `sustrato/mexico/educacion.md` — SEP (1921), educación básica/media superior, superior (UNAM/IPN/TecNM/ANUIES), reformas 2013/2019, ~36M estudiantes, ~3% PIB.
+  - `sustrato/estados-unidos/educacion.md` — sin sistema nacional; 50+ estatales + Dept of Education (1980, ~$250B 2024); K-12 (Title I/IDEA/ESSA), higher ed (Pell/FAFSA, deuda ~$1.7B).
+  - `sustrato/canada/educacion.md` — competencia provincial (s.93 1867); PSE pública; bilingüe EN/FR; OCDE 2022 país más educado; ~5.3% PIB.
+- Reference-only (URL en frontmatter; sin raw/). Alcance respetado: sustrato = solo Norteamérica. Cross-ref dominio/educacion.

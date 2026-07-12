@@ -101,3 +101,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 - Página: `pemex-fracking-huasteca.md`. Pemex desmiente que un permiso de explosivos en San Antonio, SLP, implique fracking en la Huasteca Potosina; reitera su postura frente a la polémica ambiental/social de la región.
 - Discernimiento: sustrato/mexico (energía/hidrocarburos) + cross-ref energia.md. Certeza alta.
 - Gate de relevancia: el ítem tiene ángulo de sector energético (Pemex, hidrocarburos, fracking) → ingerido. Los otros 4 ítems del scrape (mundial deportes, fuga Cereso Hermosillo, tiroteo en velorio Michoacán, operativos de seguridad Uruapan) se filtraron por gate de relevancia (coyuntura deportiva/criminal/seguridad sin ángulo legal-corporativo-técnico).
+
+## [2026-07-12] ingest | Educación en México (SEP, sistema educativo, educación superior)
+- Fuentes: Wikipedia (en) — Education in Mexico; Scholaro (Mexico Education System); SEP — reference-only.
+- Página: `educacion.md`. SEP (1921, Vasconcelos) fija política/curriculo; educación básica (preescolar 1 año obligatorio + primaria 1-6 + secundaria 7-9 obligatoria) y media superior (bachillerato 10-12); superior (UNAM, IPN, UAM, TecNM, ITESM, ANUIES; licenciatura/maestría/doctorado/TSU). Reformas 2013 (eval. docente) y 2019 (roll-back). ~36M estudiantes; ~3% PIB; retos equidad/calidad (PISA). Cross-ref dominio/educacion, lft (docente), regimen-fiscal (gasto).

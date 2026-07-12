@@ -23,3 +23,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [energia](energia.md) — Energía EE.UU.: DOE, FERC, EIA, grid, oil&gas, renovables, nuclear · 🏷️ eeuu,energia,doe,ferc,eia,grid,oil-gas,renovables,nuclear · 📅 2026-07-11
 - [agricultura](agricultura.md) — Agricultura EE.UU.: USDA, Farm Bill, subsidios, exportador neto · 🏷️ eeuu,agricultura,usda,farm-bill,subsidios,exportacion-agricola · 📅 2026-07-11
 - [inmigracion](inmigracion.md) — Inmigración EE.UU.: USCIS, H-1B, H-2A, green card, sistema de visas · 🏷️ eeuu,inmigracion,uscis,visas,h1b,h2a,green-card,dhs · 📅 2026-07-12
+- [educacion](educacion.md) — Educación EE.UU.: Dept of Education, K-12 (Title I), higher ed (FAFSA, Pell), estatales · 🏷️ eeuu,educacion,department-of-education,k-12,higher-education,fafsa,pell-grant,title-i · 📅 2026-07-12

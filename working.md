@@ -36,8 +36,8 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - **Iteración actual:** 137 — Round 13 COMPLETA (8/8). ITER 137 ingestó 5 nodos nuevos (dominio/gestion-riesgos + 4 roles: chief-revenue-officer, chief-communications-officer, chief-analytics-officer, head-of-innovation).
 - **Temas completados:** 229 (Round 12 COMPLETA 13/13 + Round 13 COMPLETA 8/8).
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
-- **Iteración actual:** 138 — Round 14 ABIERTA (reabastecimiento post-Round 13). gap_analysis.py (iter 138) extendido: 3 deepenings sustrato NA (educacion mx/us/ca) + 10 nodos nuevos (dominio x5: blockchain, etica-ia, pricing, geopolitica, inteligencia-competitiva; rol x5: program-manager, solutions-architect, investor-relations, regulatory-affairs, actuario). Cola Round 14 = 13 temas.
-- **Temas completados:** 237 (Round 13 COMPLETA 8/8 + 13 de Round 14 en progreso).
+- **Iteración actual:** 139 — Round 14 EN CURSO. LOOP 1 sustrato NA (educación mx/us/ca) COMPLETO (3/13). gap_analysis.py (iter 138) extendido: 3 deepenings + 10 nodos nuevos (dominio x5, rol x5). Próximo: LOOP 2 dominio x5.
+- **Temas completados:** 240 (Round 13 COMPLETA 8/8 + 3 de Round 14 ingestados).
 - **Siguiente paso:** Ejecutar LOOPs 1-3 de Round 14 (sustrato educación NA, dominio x5, rol x5). Cron de investigación sigue PAUSADO; el bucle de reabastecimiento continúa vía esta corrida.
 
 ## COLA DE TEMAS ([x] done / [ ] pending)
@@ -849,11 +849,15 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - Abierta cola Round 14 (13 temas: sustrato x3, dominio x5, rol x5).
 - **Próxima tarea (iter 139+):** LOOP 1 (sustrato NA educación) — sustrato/mexico/educacion.md, sustrato/estados-unidos/educacion.md, sustrato/canada/educacion.md.
 
+### [2026-07-12] Round 14 — ITER 139 | LOOP 1 (sustrato NA) — 3 ingests (educación mx/us/ca)
+- 3 temas sustrato (deepening de nodos NA existentes): `sustrato/mexico/educacion.md`, `sustrato/estados-unidos/educacion.md`, `sustrato/canada/educacion.md` (sistemas educativos de Norteamérica: SEP / Dept of Ed federal + estados / competencia provincial; K-12, superior, bilingüe FR/EN). Cola Round 14: 3/13.
+- **Próxima tarea (iter 140):** LOOP 2 (dominio x5 nuevos): blockchain, etica-ia, pricing, geopolitica, inteligencia-competitiva.
+
 ## COLA ROUND 14 (gap_analysis.py iter 138 → taxonomía extendida; sustrato solo NA)
 ### Sustrato (deepening nodos NA existentes)
-- [ ] sustrato/mexico — Educación (SEP, sistema educativo, educación superior)
-- [ ] sustrato/estados-unidos — Educación (Dept of Education, K-12, higher ed, FAFSA)
-- [ ] sustrato/canada — Educación (provincias, PSE, student aid, bilingüe)
+- [x] sustrato/mexico — Educación (SEP, sistema educativo, educación superior) — done iter 139
+- [x] sustrato/estados-unidos — Educación (Dept of Education, K-12, higher ed, FAFSA) — done iter 139
+- [x] sustrato/canada — Educación (provincias, PSE, student aid, bilingüe) — done iter 139
 ### Dominio (nuevos nodos)
 - [ ] dominio/blockchain — Blockchain & web3 (consenso, smart contracts, DAOs, tokens)
 - [ ] dominio/etica-ia — Ética de la IA / IA responsable (fairness, sesgo, EU AI Act)

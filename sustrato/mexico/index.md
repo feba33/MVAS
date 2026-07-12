@@ -23,4 +23,5 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [inversion-extranjera](inversion-extranjera.md) — IED en México: LIE, sectores reservados, IMMEX/maquila, nearshoring · 🏷️ mexico,inversion-extranjera,ied,immex,maquiladora,lie · 📅 2026-07-11
 - [sector-manufacturero](sustrato/mexico/sector-manufacturero.md) — Manufactura MX: maquiladora, IMMEX, exportación · 🏷️ mexico,manufactura,maquiladora,immex,exportacion,nearshoring · 📅 2026-07-11
 - [sat](sustrato/mexico/sat.md) — SAT: autoridad fiscal máxima (SHCP), CFF, RFC, CFDI 4.0, sistema tributario federal · 🏷️ sat,shcp,sistema-tributario,recaudacion,rfc,cfdi · 📅 2026-07-12
-- [pemex-fracking-huasteca](pemex-fracking-huasteca.md) — Pemex niega fracking en Huasteca Potosina y aclara permiso de explosivos · 🏷️ elfinanciero,pemex,energia,fracking,huasteca · 📅 2026-07-12
+- [pemex-fracking-huasteca](pemex-fracking-huasteca.md) — Pemex niega fracking en la Huasteca Potosina y aclara permiso de explosivos · 🏷️ elfinanciero,pemex,energia,fracking,huasteca · 📅 2026-07-12
+- [educacion](educacion.md) — Educación México: SEP, sistema educativo, educación superior (UNAM/IPN/ANUIES) · 🏷️ mexico,educacion,sep,sistema-educativo,educacion-superior,anuies,reforma-educativa · 📅 2026-07-12
