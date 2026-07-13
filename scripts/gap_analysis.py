@@ -41,6 +41,7 @@ TAXONOMY = {
         ("transporte", "Transporte e infraestructura México: SCT, carreteras, puertos, aeropuertos, fronteras"),
         ("agricultura", "Agricultura México: SADER, sector agroalimentario, autosuficiencia, tratados, cadena de valor"),
         ("turismo", "Turismo México: SECTUR, destinos, turismo de sol y playa, turismo médico, contribución al PIB"),
+        ("mineria", "Minería México: CAMIMEX, plata/oro/cobre, regulación minera, contribución al PIB"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -58,6 +59,7 @@ TAXONOMY = {
         ("defensa", "Defensa / Department of Defense: Pentagon, presupuesto, contratos, industria de defensa"),
         ("comercio-exterior", "Comercio exterior EE.UU.: USTR, política comercial, aranceles, USMCA, Sección 301/232"),
         ("infraestructura", "Infraestructura EE.UU.: IIJA, DOT, carreteras, puentes, banda ancha, red eléctrica"),
+        ("seguridad-social", "Seguridad social EE.UU.: SSA, Social Security, Medicare, Medicaid, SSI, SNAP"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -75,6 +77,7 @@ TAXONOMY = {
         ("seguridad-social", "Seguridad social Canadá: CPP, OAS, EI, financiamiento de salud provincial"),
         ("telecomunicaciones", "Telecomunicaciones Canadá: CRTC, Bell/Rogers/Telus, 5G, espectro, competencia"),
         ("energia", "Energía Canadá: hidroeléctrica, oil sands, gas, red eléctrica, NRCan, transición energética"),
+        ("medio-ambiente", "Medio ambiente Canadá: Environment and Climate Change Canada (ECCC), climate change, net-zero, regulación"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -322,6 +325,17 @@ NEW_NODES = [
     ("rol/head-of-public-affairs", "Head of Public Affairs / Government Relations: relación con gobierno, lobbying legal, políticas públicas, trade associations"),
     ("rol/sales-engineer", "Sales Engineer: pre-venta técnica, demos, POCs, puente ingeniería-cliente; vs solutions-architect y AE"),
     ("rol/business-analyst", "Business Analyst: requisitos, procesos, BPM, puente negocio-TI; vs data-analyst y product-manager"),
+    # Round 20 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings seguridad-social US, medio-ambiente CA, minería MX; dominio/rol generales).
+    ("dominio/aviacion", "Aviación comercial: aerolíneas, aeropuertos, OEM (Airbus/Boeing), MRO, regulación FAA/EASA/ICAO"),
+    ("dominio/maritimo", "Sector marítimo: navieras, puertos, logística portuaria, comercio marítimo, regulación OMI/flag states"),
+    ("dominio/seguridad-nacional", "Seguridad nacional: inteligencia, contrainteligencia, infraestructura crítica, amenazas híbridas"),
+    ("dominio/ciberdefensa", "Ciberdefensa: SOC nacional, threat intel, operaciones ofensivas/defensivas, vs ciberseguridad corporativa"),
+    ("dominio/auditoria-gubernamental", "Auditoría pública / rendición de cuentas: entes fiscalizadores (ASF, GAO), auditabilidad del gasto"),
+    ("rol/vp-product", "VP of Product — dueño de la org de producto, estrategia-a-entrega; vs CPO y Product Manager"),
+    ("rol/chief-commercial-officer", "Chief Commercial Officer — estrategia comercial, ingresos, GTM, ventas+marketing+bizdev"),
+    ("rol/chief-medical-officer", "Chief Medical Officer — liderazgo clínico/médico (salud/biotech); distinto de CMO de marketing"),
+    ("rol/vp-operations", "VP of Operations — escala la función de operaciones; vs COO"),
+    ("rol/head-of-engineering", "Head of Engineering — dirige managers de ingeniería; vs VP Eng y CTO"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

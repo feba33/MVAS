@@ -125,3 +125,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | Turismo en México (SECTUR, destinos, turismo médico)
 - Fuentes: Wikipedia (en) — Tourism in Mexico; gob.mx/SECTUR — reference-only.
 - Página: `turismo.md`. SECTUR lidera política turística; México es top destino (~8-9% PIB, récord ~51M llegadas 2024); segmentos sol y playa, cultural, turismo médico, MICE; principales mercados EE.UU./Canadá. Cross-ref dominio/turismo, comercio-exterior, transporte.
+
+## [2026-07-13] ingest | Minería México (SGM, CAMIMEX)
+- Fuentes: Wikipedia (en) — Mining in Mexico; gob.mx/SGM — reference-only.
+- Página: `mineria.md`. Sector estratégico (2.4% PIB 2023, ~350k empleos); mayor productor mundial de plata; CAMIMEX; Ley Minera (concesiones 50 años); mayoría capital extranjero; reforma 2023 prioriza interés nacional; litio reservado al Estado. Cross-ref sustrato/mexico/energia, dominio/mineria, sustrato/canada/recursos-naturales.

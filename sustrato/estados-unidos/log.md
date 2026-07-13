@@ -98,3 +98,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | Infraestructura de EE.UU. (IIJA, DOT)
 - Fuentes: Wikipedia (en) — Infrastructure in the United States; transportation.gov — reference-only.
 - Página: `infraestructura.md`. IIJA (2021) comprometió ~USD 1.2 billones para carreteras/puentes, banda ancha, red eléctrica, agua, EVs; DOT/FHWA lideran; ASCE califica ~C. Cross-ref dominio/infraestructura, energia, vivienda-real-estate.
+
+## [2026-07-13] ingest | Seguridad social EE.UU. (SSA, Medicare, Medicaid)
+- Fuentes: SSA.gov; Wikipedia (en) — Social Security (United States), Medicare, Medicaid — reference-only.
+- Página: `seguridad-social.md`. OASDI (Social Security Act 1935, FICA/SECA), Medicare (65+), Medicaid (bajos ingresos, expandido por ACA), SSI, SNAP; Trust Funds con agotamiento proyectado ~2033-2035. Cross-ref salud, irs, politica-monetaria, dominio/salud, dominio/finanzas-publicas.

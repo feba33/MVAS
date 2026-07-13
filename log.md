@@ -489,3 +489,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales gob/SECTUR/DOT/NRCAN; sin raw/).
 - Round 19 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
 
+## [2026-07-13] ingest | Round 20 — 13 nodos (3 sustrato NA + 5 dominio + 5 rol)
+- 3 → sustrato (deepenings NA):
+  - `sustrato/mexico/mineria.md` — CAMIMEX, plata/oro/cobre, Ley Minera, PIB ~2.4%.
+  - `sustrato/estados-unidos/seguridad-social.md` — SSA/OASDI, Medicare, Medicaid, SSI, SNAP.
+  - `sustrato/canada/medio-ambiente.md` — ECCC, cambio climático, net-zero.
+- 5 → dominio (nuevos): `aviacion`, `maritimo`, `seguridad-nacional`, `ciberdefensa`, `auditoria-gubernamental`.
+- 5 → rol (nuevos): `vp-product`, `chief-commercial-officer`, `chief-medical-officer`, `vp-operations`, `head-of-engineering`.
+- Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales gob/SSA/Canada.ca/CAMIMEX/IMO/CISA/GAO/ASF; sin raw/).
+- Round 20 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
+

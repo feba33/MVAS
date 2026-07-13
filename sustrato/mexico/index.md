@@ -5,6 +5,7 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 
 ## Páginas
 <!-- Hermes añade aquí cada página de mexico con su resumen. -->
+- [mineria](mineria.md) — Minería México: CAMIMEX, plata/oro/cobre, Ley Minera, PIB ~2.4% · 🏷️ mexico,mineria,camimex,plata,oro,cobre,zinc,regulacion-minera · 📅 2026-07-13
 
 - [lgsm](lgsm.md) — Ley General de Sociedades Mercantiles: 7 tipos de sociedad y reformas · 🏷️ lgsm,sociedades-mercantiles,derecho-corporativo · 📅 2026-07-09
 - [codigo-de-comercio](codigo-de-comercio.md) — Código de Comercio: actos de comercio, contratos, títulos de crédito · 🏷️ codigo-de-comercio,contratos-mercantiles,comerciantes · 📅 2026-07-09

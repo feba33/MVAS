@@ -38,7 +38,9 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
 - **Iteración actual:** 145 — Round 15 COMPLETA (13/13: sustrato x3 + dominio x5 + rol x5). ITER 143 ingestó sustrato NA (medio-ambiente MX, política monetaria US/CA); ITER 144 ingestó 5 dominios nuevos; ITER 145 ingestó 5 roles nuevos.
 - **Iteración actual:** 149 — Round 17 COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5).
-- **Temas completados (acumulado):** 315 (Rounds 15-19 COMPLETAS; 13 temas cada una).
+- **Temas completados (acumulado):** 328 (Rounds 15-20 COMPLETAS; 13 temas cada una).
+- **Iteración actual:** 153 — Round 20 COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5).
+- **Round 20 COMPLETA** (iter 153, 13/13): gap_analysis.py = 0 huecos → extendida taxonomía con 3 deepenings sustrato NA (mexico→mineria, estados-unidos→seguridad-social, canada→medio-ambiente) + 10 nodos nuevos (dominio: aviacion, maritimo, seguridad-nacional, ciberdefensa, auditoria-gubernamental; rol: vp-product, chief-commercial-officer, chief-medical-officer, vp-operations, head-of-engineering). ALCANCE respetado (sustrato = solo Norteamérica).
 - **Round 18 COMPLETA** (iter 150, 13/13). **Round 19 COMPLETA** (iter 152, 13/13): gap_analysis.py = 0 huecos en taxonomía previa → extendida con 3 deepenings sustrato NA (mexico→turismo, estados-unidos→infraestructura, canada→energia) + 10 nodos nuevos (dominio: ciudades-inteligentes, healthtech, publicidad, franquicias, eventos; rol: legal-ops, head-of-facilities, head-of-public-affairs, sales-engineer, business-analyst). ALCANCE respetado (sustrato = solo Norteamérica).
 - **Siguiente paso:** ejecutar Round 19 (13 ingests en 3 bucles: LOOP 1 sustrato NA, LOOP 2 dominio x5, LOOP 3 rol x5). Cron de investigación `e273fdbbba14` sigue PAUSADO.
 
@@ -1080,3 +1082,36 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - LOOP 3 (rol, 5 nuevos): `legal-ops`, `head-of-facilities`, `head-of-public-affairs`, `sales-engineer`, `business-analyst` (superstructura completa).
 - Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia EN + fuentes oficiales gob/SECTUR/DOT/NRCAN; sin raw/).
 - **Próxima tarea (iter 153):** COLA VACÍA → `python3 scripts/gap_analysis.py`; si 0 → reabastecer taxonomía (Round 20: nuevos dominio/rol + deepenings NA) o pausar hasta próximo cron.
+
+## COLA ROUND 20 (13 temas — COMPLETA ✅)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Minería (SGM, CAMIMEX, plata/oro/cobre, Ley Minera, PIB ~2.4%)
+- [x] sustrato/estados-unidos — Seguridad social (SSA/OASDI, Medicare, Medicaid, SSI, SNAP)
+- [x] sustrato/canada — Medio ambiente (ECCC, net-zero, cambio climático, precio al carbono)
+### Dominio (nuevos nodos)
+- [x] dominio/aviacion — Aviación comercial (FAA, EASA, ICAO, aerolíneas, MRO)
+- [x] dominio/maritimo — Sector marítimo y puertos (OMI, navieras, logística portuaria)
+- [x] dominio/seguridad-nacional — Seguridad nacional (inteligencia, defensa, infraestructura crítica)
+- [x] dominio/ciberdefensa — Ciberdefensa estatal (CISA, US Cyber Command, SOC/CSIRT)
+- [x] dominio/auditoria-gubernamental — Auditoría pública (GAO, ASF, OAG, ISSAI)
+### Rol (nuevos nodos)
+- [x] rol/vp-product — VP of Product (estrategia de portafolio, org de producto)
+- [x] rol/chief-commercial-officer — Chief Commercial Officer (estrategia comercial e ingresos)
+- [x] rol/chief-medical-officer — Chief Medical Officer (liderazgo clínico; no es CMO marketing)
+- [x] rol/vp-operations — VP of Operations (operaciones a escala, eficiencia)
+- [x] rol/head-of-engineering — Head of Engineering (managers de ingeniería, entrega)
+
+### [2026-07-13] Round 20 — ITER 153 | gap_analysis extendido (taxonomía Round 20) + apertura de cola
+- gap_analysis.py (post-Round 19) = 0 huecos → se **EXTENDIÓ** `scripts/gap_analysis.py` (Round 20) con 3 deepenings sustrato NA (mexico→mineria, estados-unidos→seguridad-social, canada→medio-ambiente) + 10 nodos nuevos (dominio: aviacion, maritimo, seguridad-nacional, ciberdefensa, auditoria-gubernamental; rol: vp-product, chief-commercial-officer, chief-medical-officer, vp-operations, head-of-engineering). ALCANCE respetado: sustrato = solo Norteamérica.
+- Re-ejecutado → 13 sugerencias. Abierta cola Round 20 (13 temas).
+- **LOOPs 1-3 ejecutados (iter 153):** sustrato NA (mineria/seguridad-social/medio-ambiente) + 5 dominio + 5 rol = 13 ingests. **Round 20 COMPLETA (13/13).** Temas acumulados: 328. ALCANCE sustrato = solo Norteamérica (respetado).
+
+### [2026-07-13] Round 20 — ITER 153 | LOOPs 1-3 (sustrato + dominio + rol) — 13 ingests COMPLETOS
+- LOOP 1 (sustrato NA): `mexico/mineria.md`, `estados-unidos/seguridad-social.md`, `canada/medio-ambiente.md` (deepenings; append a index/log de nodos existentes).
+- LOOP 2 (dominio, 5 nuevos): `aviacion`, `maritimo`, `seguridad-nacional`, `ciberdefensa`, `auditoria-gubernamental` (superstructura completa: raw/, README, index, log).
+- LOOP 3 (rol, 5 nuevos): `vp-product`, `chief-commercial-officer`, `chief-medical-officer`, `vp-operations`, `head-of-engineering` (superstructura completa).
+- Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia EN + fuentes oficiales gob/SSA/Canada.ca/CAMIMEX/IMO/CISA/GAO/ASF; sin raw/).
+
+## LOG DE RONDAS
+### [2026-07-13] Ronda 20: +13 (3 sustrato NA + 5 dominio + 5 rol); COMPLETA.
+- **Próxima tarea (iter 154):** COLA VACÍA → `python3 scripts/gap_analysis.py`; si 0 → reabastecer taxonomía (Round 21: nuevos dominio/rol + deepenings NA) o pausar hasta próximo cron.

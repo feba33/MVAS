@@ -40,6 +40,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [seguridad-social](sustrato/mexico/seguridad-social.md) — Seguridad social México: IMSS, ISSSTE, seguro social, salud/pensiones laborales · 🏷️ mexico,seguridad-social,imss,issste,seguro-social,salud-laboral,pensiones,sar · 📅 2026-07-12
 - [agricultura](sustrato/mexico/agricultura.md) — Agricultura México: SADER, producción agroalimentaria, seguridad alimentaria, T-MEC, riego, exportaciones · 🏷️ mexico,agricultura,sader,agroalimentario,seguridad-alimentaria,riego,exportaciones-agricolas · 📅 2026-07-12
 - [turismo](sustrato/mexico/turismo.md) — Turismo México: SECTUR, destinos, turismo de sol y playa, turismo médico, PIB ~8-9% · 🏷️ mexico,turismo,sectur,playa,turismo-medico,pib,llegadas-internacionales · 📅 2026-07-12
+- [mineria](sustrato/mexico/mineria.md) — Minería México: CAMIMEX, plata/oro/cobre, Ley Minera, PIB ~2.4% · 🏷️ mexico,mineria,camimex,plata,oro,cobre,zinc,regulacion-minera · 📅 2026-07-13
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -63,6 +64,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [labor](sustrato/estados-unidos/labor.md) — Trabajo/laboral EE.UU.: DOL, FLSA, OSHA, NLRB, sindicatos · 🏷️ eeuu,trabajo,laboral,dol,flsa,osha,nlrb,salario-minimo,horas-extras · 📅 2026-07-12
 - [comercio-exterior](sustrato/estados-unidos/comercio-exterior.md) — Comercio exterior EE.UU.: USTR, Sección 301, aranceles, acuerdos comerciales, nearshoring · 🏷️ eeuu,comercio-exterior,ustr,seccion-301,aranceles,acuerdos-comerciales,nearshoring · 📅 2026-07-12
 - [infraestructura](sustrato/estados-unidos/infraestructura.md) — Infraestructura EE.UU.: IIJA, DOT, carreteras, puentes, banda ancha, red eléctrica · 🏷️ eeuu,infraestructura,iija,dot,carreteras,puentes,banda-ancha,red-electrica · 📅 2026-07-12
+- [seguridad-social](sustrato/estados-unidos/seguridad-social.md) — Seguridad social EE.UU.: SSA/OASDI, Medicare, Medicaid, SSI, SNAP · 🏷️ eeuu,seguridad-social,social-security,medicare,medicaid,ssa,ssi,snap · 📅 2026-07-13
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -80,6 +82,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [labor](sustrato/canada/labor.md) — Trabajo/laboral Canadá: Labour Code federal, ESDC, estándares provinciales · 🏷️ canada,trabajo,laboral,labour-code,esdc,estandares-laborales,negociacion-colectiva · 📅 2026-07-12
 - [telecomunicaciones](sustrato/canada/telecomunicaciones.md) — Telecomunicaciones Canadá: CRTC, espectro, banda ancha, Bell/Rogers/Telus, 5G · 🏷️ canada,telecomunicaciones,crtc,espectro,banda-ancha,bell,rogers,telus,5g · 📅 2026-07-12
 - [energia](sustrato/canada/energia.md) — Energía Canadá: hidroeléctrica, oil sands, gas natural, red eléctrica, NRCan, net-zero · 🏷️ canada,energia,hidroelectrica,oil-sands,gas-natural,red-electrica,nrcan,net-zero · 📅 2026-07-12
+- [medio-ambiente](sustrato/canada/medio-ambiente.md) — Medio ambiente Canadá: ECCC, cambio climático, net-zero, precio al carbono · 🏷️ canada,medio-ambiente,cambio-climatico,eccc,net-zero,politica-climatica · 📅 2026-07-13
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -508,6 +511,21 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/eventos
 - [eventos](dominio/eventos/eventos.md) — Industria de eventos / MICE: meetings, incentives, conferences, exhibitions · 🏷️ eventos,mice,congresos,ferias,reuniones,incentivos,turismo-negocios · 📅 2026-07-12
 
+### dominio/aviacion
+- [aviacion](dominio/aviacion/aviacion.md) — Aviación comercial: aerolíneas, aeropuertos, OEM (Airbus/Boeing), MRO, regulación FAA/EASA/ICAO · 🏷️ aviacion,aerolineas,aeropuertos,mro,faa,easa,icao,transporte-aereo · 📅 2026-07-13
+
+### dominio/maritimo
+- [maritimo](dominio/maritimo/maritimo.md) — Sector marítimo y puertos: navieras, puertos, logística portuaria, OMI · 🏷️ maritimo,shipping,puertos,navieras,logistica,omi,comercio-internacional · 📅 2026-07-13
+
+### dominio/seguridad-nacional
+- [seguridad-nacional](dominio/seguridad-nacional/seguridad-nacional.md) — Seguridad nacional: inteligencia, defensa, infraestructura crítica, amenazas · 🏷️ seguridad-nacional,inteligencia,defensa,infraestructura-critica,amenazas,estado · 📅 2026-07-13
+
+### dominio/ciberdefensa
+- [ciberdefensa](dominio/ciberdefensa/ciberdefensa.md) — Ciberdefensa estatal: SOC/CSIRT, threat intel, CISA/US Cyber Command · 🏷️ ciberdefensa,cyber-defense,threat-intel,soc-nacional,ciberseguridad,estado-nacion · 📅 2026-07-13
+
+### dominio/auditoria-gubernamental
+- [auditoria-gubernamental](dominio/auditoria-gubernamental/auditoria-gubernamental.md) — Auditoría pública: GAO/ASF/OAG, ISSAI, rendición de cuentas · 🏷️ auditoria-publica,rendicion-cuentas,fiscalizacion,asf,gao,gasto-publico · 📅 2026-07-13
+
 ### rol/legal-ops
 - [legal-ops](rol/legal-ops/legal-ops.md) — Legal Operations: eBilling, proveedores, tecnología legal, gestión de contratos · 🏷️ legal-ops,operaciones-legales,ebilling,proveedores-legales,tecnologia-legal,gestion-contratos · 📅 2026-07-12
 
@@ -522,6 +540,21 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/business-analyst
 - [business-analyst](rol/business-analyst/business-analyst.md) — Business Analyst: requisitos, procesos, BPM, puente negocio-TI · 🏷️ business-analyst,analisis-negocio,requisitos,bpm,procesos,puente-negocio-ti · 📅 2026-07-12
+
+### rol/vp-product
+- [vp-product](rol/vp-product/vp-product.md) — VP of Product: lidera org de producto y estrategia de portafolio · 🏷️ vp-product,producto,product-management,liderazgo,estrategia-producto · 📅 2026-07-13
+
+### rol/chief-commercial-officer
+- [chief-commercial-officer](rol/chief-commercial-officer/chief-commercial-officer.md) — Chief Commercial Officer: estrategia comercial e ingresos end-to-end · 🏷️ cco,chief-commercial-officer,comercial,ingresos,gtm,ventas,marketing · 📅 2026-07-13
+
+### rol/chief-medical-officer
+- [chief-medical-officer](rol/chief-medical-officer/chief-medical-officer.md) — Chief Medical Officer: máximo líder clínico (salud/biotech); no es CMO marketing · 🏷️ cmo-medico,chief-medical-officer,medico,salud,biotech,clinico · 📅 2026-07-13
+
+### rol/vp-operations
+- [vp-operations](rol/vp-operations/vp-operations.md) — VP of Operations: operaciones a escala, eficiencia y escalado · 🏷️ vp-operations,operaciones,ops,eficiencia,escalado,supply-chain · 📅 2026-07-13
+
+### rol/head-of-engineering
+- [head-of-engineering](rol/head-of-engineering/head-of-engineering.md) — Head of Engineering: managers de ingeniería y entrega técnica · 🏷️ head-of-engineering,ingenieria,liderazgo,engineering-management,equipos · 📅 2026-07-13
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

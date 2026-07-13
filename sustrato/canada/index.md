@@ -5,6 +5,7 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 
 ## Páginas
 <!-- Hermes añade aquí cada página de canada con su resumen. -->
+- [medio-ambiente](medio-ambiente.md) — Medio ambiente Canadá: ECCC, cambio climático, net-zero, precio al carbono · 🏷️ canada,medio-ambiente,cambio-climatico,eccc,net-zero,politica-climatica,biodiversidad · 📅 2026-07-13
 
 - [corporativo](corporativo.md) — Derecho corporativo Canadá: CBCA (federal/provincial) · 🏷️ canada,cbca,derecho-corporativo · 📅 2026-07-09
 - [privacidad](privacidad.md) — Privacidad Canadá: PIPEDA (protección de datos sector privado) · 🏷️ canada,pipeda,privacidad,proteccion-datos · 📅 2026-07-09

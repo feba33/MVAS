@@ -75,3 +75,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-12] ingest | Energía de Canadá (NRCan, hidro, oil sands)
 - Fuentes: Wikipedia (en) — Energy in Canada; nrcan.gc.ca — reference-only.
 - Página: `energia.md`. Electricidad ~60% hidro; oil sands (Alberta) = 2/3 producción; gas natural/LNG; NRCan + provincias; net-zero 2050. Cross-ref recursos-naturales, dominio/energia, energias-renovables.
+
+## [2026-07-13] ingest | Medio ambiente Canadá (ECCC, net-zero)
+- Fuentes: Canada.ca (ECCC); Wikipedia (en) — Environment and Climate Change Canada, Climate change in Canada — reference-only.
+- Página: `medio-ambiente.md`. ECCC; calentamiento 1.7°C en tierra; 11.° emisor CO2 (2022); París −40-45% 2030; Net-Zero Emissions Accountability Act; precio al carbono. Cross-ref energia, recursos-naturales, dominio/energias-renovables, dominio/economia-circular.
