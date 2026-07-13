@@ -34,3 +34,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [propiedad-intelectual](propiedad-intelectual.md) — Propiedad intelectual EE.UU.: USPTO, AIA 2011, US Copyright Office, Lanham Act · 🏷️ eeuu,propiedad-intelectual,uspto,patentes,marcas,derechos-de-autor · 📅 2026-07-13
 - [telecomunicaciones](telecomunicaciones.md) — Telecomunicaciones EE.UU.: FCC, banda ancha, 5G, espectro, subastas, net neutrality · 🏷️ eeuu,telecomunicaciones,fcc,banda-ancha,5g,espectro,subastas · 📅 2026-07-13
 - [medio-ambiente](medio-ambiente.md) — Medio ambiente EE.UU.: EPA, Clean Air/Water Act, NEPA, cambio climático · 🏷️ eeuu,medio-ambiente,epa,clean-air-act,clean-water-act,nepa,cambio-climatico · 📅 2026-07-13
+- [sistema-financiero](sistema-financiero.md) — Sistema financiero EE.UU.: Fed, OCC, FDIC, dual banking, Dodd-Frank · 🏷️ eeuu,sistema-financiero,federal-reserve,occ,fdic,dodd-frank,banca,regulacion-prudencial · 📅 2026-07-13

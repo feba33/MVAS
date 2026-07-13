@@ -49,6 +49,8 @@ TAXONOMY = {
         ("salud", "Salud / sistema de salud México: Secretaría de Salud, IMSS/INSABI, Cofepris, seguro popular, cobertura"),
         # Round 24 — deepening NA (política monetaria por país).
         ("politica-monetaria", "Política monetaria México: Banxico, tasa de referencia, inflation targeting, Junta de Gobierno, tipo de cambio USD/MXN"),
+        # Round 25 — deepening NA (seguridad pública por país).
+        ("seguridad-publica", "Seguridad pública México: Guardia Nacional, SSP, Fiscalía General de la República (FGR), crimen organizado"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -74,6 +76,8 @@ TAXONOMY = {
         ("telecomunicaciones", "Telecomunicaciones EE.UU.: FCC, banda ancha, 5G, espectro, competencia, net neutrality"),
         # Round 24 — deepening NA (medio ambiente por país).
         ("medio-ambiente", "Medio ambiente EE.UU.: EPA, Clean Air/Water Act, NEPA, climate policy, descarbonización, emisiones vehiculares"),
+        # Round 25 — deepening NA (sistema financiero por país).
+        ("sistema-financiero", "Sistema financiero EE.UU.: Federal Reserve, OCC, FDIC, banca comercial, Dodd-Frank, regulación prudencial"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -99,6 +103,8 @@ TAXONOMY = {
         ("agricultura", "Agricultura Canadá: Agriculture and Agri-Food Canada (AAFC), supply management, granos, ganadería"),
         # Round 24 — deepening NA (defensa por país).
         ("defensa", "Defensa Canadá: Department of National Defence (DND), Canadian Armed Forces (CAF), NORAD, procurement, política industrial de defensa"),
+        # Round 25 — deepening NA (infraestructura por país).
+        ("infraestructura", "Infraestructura Canadá: Infrastructure Canada, transporte, banda ancha, vivienda, planificación de capital"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -401,6 +407,17 @@ NEW_NODES = [
     ("rol/supply-chain-manager", "Supply Chain Manager — planificación de demanda/oferta, sourcing, logística, inventario, resiliencia de cadena"),
     ("rol/hr-business-partner", "HR Business Partner (HRBP) — socio de negocio de RRHH por unidad, people analytics, talento, cultura"),
     ("rol/channel-manager", "Channel Manager — gestión de canales de venta (partner/reseller/distributor), ecología de canal, incentivos"),
+    # Round 25 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings seguridad-publica MX, sistema-financiero US, infraestructura CA; dominio/rol generales).
+    ("dominio/proptech", "PropTech: tecnología inmobiliaria, smart buildings, plataformas de marketplaces, proptech/construcción, proptech financiero"),
+    ("dominio/regtech", "RegTech: tecnología regulatoria, automatización de cumplimiento, AML/KYC, reporting regulatorio, supervisor tech"),
+    ("dominio/nanotecnologia", "Nanotecnología: materiales a nanoescala, nanomedicina, electrónica, aplicaciones industriales y riesgos"),
+    ("dominio/derecho-de-la-competencia", "Derecho de la competencia / antitrust: control de concentraciones, carteles, abuso de dominancia, autoridades (COFECE/FTC/EC/Competition Bureau)"),
+    ("dominio/microfinanzas", "Microfinanzas: microcrédito, inclusión financiera, microseguros, instituciones de microfinanzas (IMF), impacto social"),
+    ("rol/engineering-manager", "Engineering Manager — liderazgo de personas + técnico, entrega de equipos de ingeniería; vs Tech Lead/Head of Engineering"),
+    ("rol/creative-director", "Creative Director — visión creativa de marca/producto, dirección de arte, campañas, contenido; vs Design Lead/CDO"),
+    ("rol/site-reliability-engineer", "Site Reliability Engineer (SRE) — fiabilidad, SLO/error budget, operaciones de software; vs DevOps/Platform Engineer"),
+    ("rol/vp-human-resources", "VP of Human Resources — lidera función RRHH a nivel ejecutivo; vs CHRO/Head of People"),
+    ("rol/managing-director", "Managing Director — dueño de P&L de una unidad de negocio/país; vs CEO/General Manager"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

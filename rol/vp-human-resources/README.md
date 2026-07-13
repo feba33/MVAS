@@ -1,4 +1,4 @@
-# engineering-manager (entidad de rol)
+# vp-human-resources (entidad de rol)
 
 Sub-wiki auto-contenido dentro de `rol/`. Arquitectura LLM Wiki recursiva.
 
@@ -9,4 +9,4 @@ Sub-wiki auto-contenido dentro de `rol/`. Arquitectura LLM Wiki recursiva.
 - páginas con YAML frontmatter.
 
 ## Convenciones
-- `capa: rol`, `tema: engineering-manager`.
+- `capa: rol`, `tema: vp-human-resources`.

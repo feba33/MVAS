@@ -95,3 +95,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Defensa Canadá (DND/CAF, NORAD)
 - Fuentes: canada.ca (National Defence); Wikipedia EN — Canadian Armed Forces (reference-only; sin raw/).
 - Página: `defensa.md`. DND/CAF (fuerza unificada 1968); NORAD (binacional 1958); OTAN; política "Strong, Secure, Engaged" (2017); procurement (F-35, fragatas). Cross-ref sustrato/estados-unidos/defensa, dominio/defensa-seguridad, dominio/aeroespacial.
+
+## [2026-07-13] ingest | Infraestructura Canadá (Infrastructure Canada)
+- Fuentes: infrastructure.gc.ca; Wikipedia (en) — Infrastructure Canada — reference-only (sin raw/).
+- Página: `infraestructura.md`. Infrastructure Canada (INFC); Plan de Infraestructura de Canadá (2016–2027, ~CAD 180B+); transporte público, agua, vivienda, banda ancha; Canadian Infrastructure Bank. Cross-ref sustrato/canada/transporte, sustrato/canada/telecomunicaciones, dominio/infraestructura, dominio/construccion.

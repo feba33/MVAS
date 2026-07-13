@@ -1,6 +1,6 @@
-# engineering-manager (entidad de rol)
+# regtech (entidad de dominio)
 
-Sub-wiki auto-contenido dentro de `rol/`. Arquitectura LLM Wiki recursiva.
+Sub-wiki auto-contenido dentro de `dominio/`. Arquitectura LLM Wiki recursiva.
 
 ## Superstructura
 - `raw/` — fuentes (inmutables).
@@ -9,4 +9,4 @@ Sub-wiki auto-contenido dentro de `rol/`. Arquitectura LLM Wiki recursiva.
 - páginas con YAML frontmatter.
 
 ## Convenciones
-- `capa: rol`, `tema: engineering-manager`.
+- `capa: dominio`, `tema: regtech`.

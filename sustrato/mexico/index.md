@@ -35,3 +35,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [propiedad-intelectual](propiedad-intelectual.md) — Propiedad intelectual México: IMPI, LPI (Ley 27/2020), derechos de autor, T-MEC cap.20 · 🏷️ mexico,propiedad-intelectual,impi,patentes,marcas,derechos-de-autor · 📅 2026-07-13
 - [salud](salud.md) — Salud/sistema de salud México: Secretaría de Salud, IMSS/IMSS-Bienestar, ISSSTE, Cofepris · 🏷️ mexico,salud,sistema-de-salud,secretaria-de-salud,imss,issste,cofepris,seguro-popular · 📅 2026-07-13
 - [politica-monetaria](politica-monetaria.md) — Política monetaria México: Banxico, tasa objetivo, meta 3%, Junta de Gobierno · 🏷️ mexico,politica-monetaria,banxico,inflacion,tasa-de-interes,banco-central · 📅 2026-07-13
+- [seguridad-publica](seguridad-publica.md) — Seguridad pública México: Guardia Nacional, SSP, FGR, delincuencia organizada · 🏷️ mexico,seguridad-publica,guardia-nacional,ssp,fgr,delincuencia-organizada · 📅 2026-07-13

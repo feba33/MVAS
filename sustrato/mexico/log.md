@@ -145,3 +145,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Política monetaria México (Banxico)
 - Fuentes: banxico.org.mx (anuncios de política monetaria, Programa Monetario 2026); El Universal (reference-only; sin raw/).
 - Página: `politica-monetaria.md`. Banxico (autonomía constitucional 1993), mandato de estabilidad de precios; meta 3% ±1pp; tasa objetivo (interbancaria a 1 día); Junta de Gobierno (5); ciclo de flexibilización 2024–2026. Cross-ref sustrato/estados-unidos/politica-monetaria, sustrato/canada/politica-monetaria, dominio/finanzas, sustrato/mexico/finanzas-publicas.
+
+## [2026-07-13] ingest | Seguridad pública México (Guardia Nacional, SSP, FGR)
+- Fuentes: Wikipedia (es) — Seguridad pública en México; gob.mx (Guardia Nacional), gob.mx/fgr — reference-only (sin raw/).
+- Página: `seguridad-publica.md`. Art. 21 Constitucional; Guardia Nacional (Ley 2019, SSPC, con Sedena/Semar); FGR (órgano constitucional autónomo, antes PGR); retos de violencia y delincuencia organizada. Cross-ref sustrato/mexico/seguridad-social, dominio/defensa-seguridad, dominio/seguridad-corporativa.

@@ -550,3 +550,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales gob/banxico.org.mx/epa.gov/canada.ca/COSO/ISO/OSHA/GDPR; sin raw/).
 - Round 24 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
 
+## [2026-07-13] ingest | Round 25 — 13 ingests COMPLETOS (3 sustrato NA + 5 dominio + 5 rol)
+- 3 → sustrato (deepenings NA, solo Norteamérica):
+  - `sustrato/mexico/seguridad-publica.md` — Guardia Nacional, SSP, FGR, delincuencia organizada.
+  - `sustrato/estados-unidos/sistema-financiero.md` — Fed, OCC, FDIC, dual banking, Dodd-Frank.
+  - `sustrato/canada/infraestructura.md` — Infrastructure Canada, vivienda, banda ancha.
+- 5 → dominio (nuevos): `proptech`, `regtech`, `nanotecnologia`, `derecho-de-la-competencia`, `microfinanzas`.
+- 5 → rol (nuevos): `engineering-manager`, `creative-director`, `site-reliability-engineer`, `vp-human-resources`, `managing-director`.
+- Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales gob/guardianacional/gob.mx/fgr/infrastructure.gc.ca/federalreserve.gov; sin raw/).
+- Round 25 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
+

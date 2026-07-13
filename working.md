@@ -1231,3 +1231,33 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - [x] rol/supply-chain-manager — Supply Chain Manager (planificación, sourcing, logística, resiliencia)
 - [x] rol/hr-business-partner — HR Business Partner (HRBP, people analytics, talento)
 - [x] rol/channel-manager — Channel Manager (canales partner/reseller/distributor)
+
+## COLA ROUND 25 (13 temas — COMPLETA ✅)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Seguridad pública (Guardia Nacional, SSP, FGR)
+- [x] sustrato/estados-unidos — Sistema financiero (Fed, OCC, FDIC, Dodd-Frank)
+- [x] sustrato/canada — Infraestructura (Infrastructure Canada, vivienda, banda ancha)
+### Dominio (nuevos nodos)
+- [x] dominio/proptech — PropTech (tecnología inmobiliaria)
+- [x] dominio/regtech — RegTech (tecnología regulatoria)
+- [x] dominio/nanotecnologia — Nanotecnología (materiales a nanoescala)
+- [x] dominio/derecho-de-la-competencia — Derecho de la competencia / antitrust
+- [x] dominio/microfinanzas — Microfinanzas (inclusión financiera)
+### Rol (nuevos nodos)
+- [x] rol/engineering-manager — Engineering Manager (EM)
+- [x] rol/creative-director — Creative Director
+- [x] rol/site-reliability-engineer — Site Reliability Engineer (SRE)
+- [x] rol/vp-human-resources — VP of Human Resources (VP HR)
+- [x] rol/managing-director — Managing Director (MD)
+
+## LOG DE RONDAS (continuación)
+### [2026-07-13] Ronda 25: +13 (3 sustrato NA + 5 dominio + 5 rol); COMPLETA.
+
+### [2026-07-13] Round 25 — ITER 160 | gap_analysis extendido (taxonomía Round 25) + 13 ingests COMPLETOS
+- gap_analysis.py (post-Round 24) = 0 huecos → se **EXTENDIÓ** `scripts/gap_analysis.py` (Round 25) con 3 deepenings sustrato NA (mexico→seguridad-publica, estados-unidos→sistema-financiero, canada→infraestructura) + 10 nodos nuevos (dominio: proptech, regtech, nanotecnologia, derecho-de-la-competencia, microfinanzas; rol: engineering-manager, creative-director, site-reliability-engineer, vp-human-resources, managing-director). ALCANCE respetado: sustrato = solo Norteamérica.
+- LOOP 1 (sustrato NA): `mexico/seguridad-publica.md`, `estados-unidos/sistema-financiero.md`, `canada/infraestructura.md` (deepenings; append a index/log de nodos existentes).
+- LOOP 2 (dominio, 5 nuevos): `proptech`, `regtech`, `nanotecnologia`, `derecho-de-la-competencia`, `microfinanzas` (superstructura completa: raw/, README, index, log).
+- LOOP 3 (rol, 5 nuevos): `engineering-manager`, `creative-director`, `site-reliability-engineer`, `vp-human-resources`, `managing-director` (superstructura completa).
+- Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia EN + fuentes oficiales gob/guardianacional/gob.mx/fgr/infrastructure.gc.ca/federalreserve.gov; sin raw/).
+- **Round 25 COMPLETA (13/13).** Temas acumulados: 393. ALCANCE sustrato = solo Norteamérica (respetado).
+- **Próxima tarea (iter 161):** COLA VACÍA → `python3 scripts/gap_analysis.py`; si 0 → reabastecer taxonomía (Round 26: nuevos dominio/rol + deepenings NA) o pausar hasta próximo cron.

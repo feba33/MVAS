@@ -45,6 +45,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [propiedad-intelectual](sustrato/mexico/propiedad-intelectual.md) — Propiedad intelectual México: IMPI, LPI (Ley 27/2020), derechos de autor, T-MEC cap.20 · 🏷️ mexico,propiedad-intelectual,impi,patentes,marcas,derechos-de-autor · 📅 2026-07-13
 - [salud](sustrato/mexico/salud.md) — Salud/sistema de salud México: Secretaría de Salud, IMSS/IMSS-Bienestar, ISSSTE, Cofepris · 🏷️ mexico,salud,sistema-de-salud,secretaria-de-salud,imss,issste,cofepris,seguro-popular · 📅 2026-07-13
 - [politica-monetaria](sustrato/mexico/politica-monetaria.md) — Política monetaria México: Banxico, tasa objetivo, meta 3%, Junta de Gobierno · 🏷️ mexico,politica-monetaria,banxico,inflacion,tasa-de-interes,banco-central · 📅 2026-07-13
+- [seguridad-publica](sustrato/mexico/seguridad-publica.md) — Seguridad pública México: Guardia Nacional, SSP, FGR, delincuencia organizada · 🏷️ mexico,seguridad-publica,guardia-nacional,ssp,fgr,delincuencia-organizada · 📅 2026-07-13
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -73,6 +74,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [propiedad-intelectual](sustrato/estados-unidos/propiedad-intelectual.md) — Propiedad intelectual EE.UU.: USPTO, AIA 2011, US Copyright Office, Lanham Act · 🏷️ eeuu,propiedad-intelectual,uspto,patentes,marcas,derechos-de-autor · 📅 2026-07-13
 - [telecomunicaciones](sustrato/estados-unidos/telecomunicaciones.md) — Telecomunicaciones EE.UU.: FCC, banda ancha, 5G, espectro, subastas, net neutrality · 🏷️ eeuu,telecomunicaciones,fcc,banda-ancha,5g,espectro,subastas · 📅 2026-07-13
 - [medio-ambiente](sustrato/estados-unidos/medio-ambiente.md) — Medio ambiente EE.UU.: EPA, Clean Air/Water Act, NEPA, cambio climático · 🏷️ eeuu,medio-ambiente,epa,clean-air-act,clean-water-act,nepa,cambio-climatico · 📅 2026-07-13
+- [sistema-financiero](sustrato/estados-unidos/sistema-financiero.md) — Sistema financiero EE.UU.: Fed, OCC, FDIC, dual banking, Dodd-Frank · 🏷️ eeuu,sistema-financiero,federal-reserve,occ,fdic,dodd-frank,banca,regulacion-prudencial · 📅 2026-07-13
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -95,6 +97,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [propiedad-intelectual](sustrato/canada/propiedad-intelectual.md) — Propiedad intelectual Canadá: CIPO/ISED, Patent Act, Trade-marks Act, Copyright Act · 🏷️ canada,propiedad-intelectual,cipo,patentes,marcas,derechos-de-autor · 📅 2026-07-13
 - [agricultura](sustrato/canada/agricultura.md) — Agricultura Canadá: AAFC, supply management (lácteos/aves/huevos), granos, CUSMA/CETA/CPTPP · 🏷️ canada,agricultura,agri-food,aafc,supply-management,granos,tratados-comerciales · 📅 2026-07-13
 - [defensa](sustrato/canada/defensa.md) — Defensa Canadá: DND/CAF, NORAD, OTAN, procurement · 🏷️ canada,defensa,dnd,caf,norad,otan,procurement · 📅 2026-07-13
+- [infraestructura](sustrato/canada/infraestructura.md) — Infraestructura Canadá: Infrastructure Canada, transporte, banda ancha, vivienda · 🏷️ canada,infraestructura,infrastructure-canada,vivienda,banda-ancha,transporte-publico,plan-de-infraestructura · 📅 2026-07-13
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -677,6 +680,36 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/channel-manager
 - [channel-manager](rol/channel-manager/channel-manager.md) — Channel Manager: gestión de canales de venta (partner/reseller/distributor), ecología de canal, incentivos · 🏷️ channel-manager,canales-de-venta,partner,reseller,distribuidor,incentivos · 📅 2026-07-13
+
+### dominio/proptech
+- [[dominio/proptech|PropTech — tecnología inmobiliaria (smart buildings, marketplaces, construcción, proptech financiero)]]
+
+### dominio/regtech
+- [[dominio/regtech|RegTech — tecnología regulatoria (AML/KYC, reporting, SupTech)]]
+
+### dominio/nanotecnologia
+- [[dominio/nanotecnologia|Nanotecnología — materiales a nanoescala, nanomedicina, nanoelectrónica, riesgos]]
+
+### dominio/derecho-de-la-competencia
+- [[dominio/derecho-de-la-competencia|Derecho de la competencia / antitrust — control de concentraciones, carteles, abuso de dominancia]]
+
+### dominio/microfinanzas
+- [[dominio/microfinanzas|Microfinanzas — microcrédito, inclusión financiera, microseguros, IMF]]
+
+### rol/engineering-manager
+- [[rol/engineering-manager|Engineering Manager (EM) — liderazgo de personas + entrega de ingeniería; vs Tech Lead/Head of Engineering]]
+
+### rol/creative-director
+- [[rol/creative-director|Creative Director — visión creativa de marca/producto, dirección de arte; vs Design Lead/CDO]]
+
+### rol/site-reliability-engineer
+- [[rol/site-reliability-engineer|Site Reliability Engineer (SRE) — fiabilidad, SLO/error budget, operaciones; vs DevOps/Platform]]
+
+### rol/vp-human-resources
+- [[rol/vp-human-resources|VP of Human Resources — lidera función RRHH a nivel ejecutivo; vs CHRO/Head of People]]
+
+### rol/managing-director
+- [[rol/managing-director|Managing Director (MD) — dueño de P&L de una unidad de negocio/país; vs CEO/General Manager]]
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

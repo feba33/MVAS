@@ -118,3 +118,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Medio ambiente EE.UU. (EPA)
 - Fuentes: epa.gov (Laws and Executive Orders; NEPA); Wikipedia EN (reference-only; sin raw/).
 - Página: `medio-ambiente.md`. EPA (1970); CAA/CWA/SDWA/RCRA/CERCLA/TSCA; NEPA (EIS, CEQ); regulación de GEI; estándares estatales (CARB). Cross-ref sustrato/mexico/medio-ambiente, sustrato/canada/medio-ambiente, dominio/derecho-ambiental, dominio/energias-renovables.
+
+## [2026-07-13] ingest | Sistema financiero EE.UU. (Fed, OCC, FDIC, Dodd-Frank)
+- Fuentes: Wikipedia (en) — Banking in the United States; federalreserve.gov; Cornell LII (Dodd-Frank Title III) — reference-only (sin raw/).
+- Página: `sistema-financiero.md`. Dual banking (OCC federal / estatal); Fed (supervisión + política monetaria); OCC (national banks); FDIC (depósitos); Dodd-Frank (CFPB, FSOC, OLA, Volcker, abolió OTS). Basilea III/CCAR. Cross-ref sustrato/mexico/banca-sistema-financiero, dominio/banca, dominio/finanzas.
