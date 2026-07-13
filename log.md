@@ -560,3 +560,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales gob/guardianacional/gob.mx/fgr/infrastructure.gc.ca/federalreserve.gov; sin raw/).
 - Round 25 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
 
+## [2026-07-13] ingest | Round 26 — 13 ingests COMPLETOS (3 sustrato NA + 5 dominio + 5 rol)
+- 3 → sustrato (deepenings NA, solo Norteamérica):
+  - `sustrato/mexico/poder-judicial.md` — PJF, SCJN, reforma judicial 2024-2025 (elección popular de jueces/ministros, SCJN 11→9, presidencia rotativa, fin del CJF).
+  - `sustrato/estados-unidos/poder-judicial.md` — Artículo III: SCOTUS (9), 13 Courts of Appeals, 94 District Courts; DOJ es poder ejecutivo.
+  - `sustrato/canada/poder-judicial.md` — Supreme Court of Canada, cortes provinciales, Carta de Derechos (s.24), comités asesores desde 2016.
+- 5 → dominio (nuevos): `etica-empresarial`, `compensacion-beneficios`, `transformacion-digital`, `finanzas-cuantitativas`, `relaciones-laborales`.
+- 5 → rol (nuevos): `head-of-talent`, `head-of-sales-ops`, `head-of-marketing-ops`, `head-of-it`, `chief-brand-officer`.
+- Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN; fuentes oficiales gob.mx/oaj, uscourts.gov, scc-csc.ca; sin raw/).
+- Round 26 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
+

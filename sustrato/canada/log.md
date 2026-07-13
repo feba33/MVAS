@@ -99,3 +99,6 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Infraestructura Canadá (Infrastructure Canada)
 - Fuentes: infrastructure.gc.ca; Wikipedia (en) — Infrastructure Canada — reference-only (sin raw/).
 - Página: `infraestructura.md`. Infrastructure Canada (INFC); Plan de Infraestructura de Canadá (2016–2027, ~CAD 180B+); transporte público, agua, vivienda, banda ancha; Canadian Infrastructure Bank. Cross-ref sustrato/canada/transporte, sustrato/canada/telecomunicaciones, dominio/infraestructura, dominio/construccion.
+## [2026-07-13] ingest | Poder Judicial de Canadá (SCC, Carta)
+- Fuentes: Wikipedia (en) Judiciary of Canada — reference-only (sin raw/).
+- Página: `poder-judicial.md`. SCC (9, nombramiento por Gobernador en Consejo); cortes federales y provinciales; Carta de Derechos (s.24); comités asesores desde 2016. Cross-ref sustrato/canada/seguridad-social, dominio/arbitraje, dominio/derecho-internacional.

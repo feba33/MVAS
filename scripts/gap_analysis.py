@@ -51,6 +51,8 @@ TAXONOMY = {
         ("politica-monetaria", "Política monetaria México: Banxico, tasa de referencia, inflation targeting, Junta de Gobierno, tipo de cambio USD/MXN"),
         # Round 25 — deepening NA (seguridad pública por país).
         ("seguridad-publica", "Seguridad pública México: Guardia Nacional, SSP, Fiscalía General de la República (FGR), crimen organizado"),
+        # Round 26 — deepening NA (poder judicial por país).
+        ("poder-judicial", "Poder judicial México: PJF, Suprema Corte (SCJN), Consejo de la Judicatura (CJF), reforma judicial 2024-2025, juicios orales"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -78,6 +80,8 @@ TAXONOMY = {
         ("medio-ambiente", "Medio ambiente EE.UU.: EPA, Clean Air/Water Act, NEPA, climate policy, descarbonización, emisiones vehiculares"),
         # Round 25 — deepening NA (sistema financiero por país).
         ("sistema-financiero", "Sistema financiero EE.UU.: Federal Reserve, OCC, FDIC, banca comercial, Dodd-Frank, regulación prudencial"),
+        # Round 26 — deepening NA (poder judicial por país).
+        ("poder-judicial", "Poder judicial EE.UU.: federal judiciary (SCOTUS, Courts of Appeals, District Courts, Article III), DOJ, nombramientos, federal vs state"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -105,6 +109,8 @@ TAXONOMY = {
         ("defensa", "Defensa Canadá: Department of National Defence (DND), Canadian Armed Forces (CAF), NORAD, procurement, política industrial de defensa"),
         # Round 25 — deepening NA (infraestructura por país).
         ("infraestructura", "Infraestructura Canadá: Infrastructure Canada, transporte, banda ancha, vivienda, planificación de capital"),
+        # Round 26 — deepening NA (poder judicial por país).
+        ("poder-judicial", "Poder judicial Canadá: Supreme Court of Canada, cortes provinciales/territoriales, nombramiento, Carta de Derechos y Libertades"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -418,6 +424,17 @@ NEW_NODES = [
     ("rol/site-reliability-engineer", "Site Reliability Engineer (SRE) — fiabilidad, SLO/error budget, operaciones de software; vs DevOps/Platform Engineer"),
     ("rol/vp-human-resources", "VP of Human Resources — lidera función RRHH a nivel ejecutivo; vs CHRO/Head of People"),
     ("rol/managing-director", "Managing Director — dueño de P&L de una unidad de negocio/país; vs CEO/General Manager"),
+    # Round 26 — reabastecimiento (alcance: sustrato solo Norteamérica: deepening poder-judicial MX/US/CA; dominio/rol generales).
+    ("dominio/etica-empresarial", "Ética empresarial / corporate ethics: códigos de conducta, programas de ética y compliance, anticorrupción, transparencia, cultura ética"),
+    ("dominio/compensacion-beneficios", "Compensación y beneficios / total rewards: salario, variable pay, beneficios, equity, pensiones, filosofía de recompensa, bandas salariales"),
+    ("dominio/transformacion-digital", "Transformación digital: adopción de tecnología, roadmap digital, reingeniería de procesos, cultura digital, habilitadores (cloud, data, IA)"),
+    ("dominio/finanzas-cuantitativas", "Finanzas cuantitativas / quantitative finance: modelado estocástico, pricing de derivados, riesgo de mercado, quants, matemáticas financieras"),
+    ("dominio/relaciones-laborales", "Relaciones laborales / industrial relations: sindicatos, contratación colectiva, huelgas, relación empresa-trabajador-representación, negociación colectiva"),
+    ("rol/head-of-talent", "Head of Talent — estrategia de talento, employer brand, adquisición de talento, movilidad; vs reclutador/people-lead"),
+    ("rol/head-of-sales-ops", "Head of Sales Operations — analítica de ventas, compensación de ventas, tooling/CRM, forecast; vs sales-lead/vp-sales"),
+    ("rol/head-of-marketing-ops", "Head of Marketing Operations — martech, analítica de marketing, ops de campaña, presupuesto; vs marketing-manager/cmo"),
+    ("rol/head-of-it", "Head of IT / IT Director — operación de TI interna, infraestructura, soporte, seguridad de TI; vs CIO/CTO"),
+    ("rol/chief-brand-officer", "Chief Brand Officer — estrategia de marca a nivel ejecutivo, identidad, posicionamiento, brand equity; vs brand-manager/cmo"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

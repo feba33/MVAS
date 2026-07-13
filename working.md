@@ -1261,3 +1261,51 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia EN + fuentes oficiales gob/guardianacional/gob.mx/fgr/infrastructure.gc.ca/federalreserve.gov; sin raw/).
 - **Round 25 COMPLETA (13/13).** Temas acumulados: 393. ALCANCE sustrato = solo Norteamérica (respetado).
 - **Próxima tarea (iter 161):** COLA VACÍA → `python3 scripts/gap_analysis.py`; si 0 → reabastecer taxonomía (Round 26: nuevos dominio/rol + deepenings NA) o pausar hasta próximo cron.
+
+## COLA ROUND 26 (13 temas — COMPLETA ✅)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Poder Judicial (PJF, SCJN, reforma judicial 2024-2025)
+- [x] sustrato/estados-unidos — Poder Judicial (federal judiciary, SCOTUS, Art. III, DOJ)
+- [x] sustrato/canada — Poder Judicial (Supreme Court of Canada, Carta, cortes provinciales)
+### Dominio (nuevos nodos)
+- [x] dominio/etica-empresarial — Ética empresarial / corporate ethics
+- [x] dominio/compensacion-beneficios — Compensación y beneficios / total rewards
+- [x] dominio/transformacion-digital — Transformación digital
+- [x] dominio/finanzas-cuantitativas — Finanzas cuantitativas / quantitative finance
+- [x] dominio/relaciones-laborales — Relaciones laborales / industrial relations
+### Rol (nuevos nodos)
+- [x] rol/head-of-talent — Head of Talent
+- [x] rol/head-of-sales-ops — Head of Sales Operations
+- [x] rol/head-of-marketing-ops — Head of Marketing Operations
+- [x] rol/head-of-it — Head of IT / IT Director
+- [x] rol/chief-brand-officer — Chief Brand Officer (CBO)
+
+## LOG DE RONDAS
+### [2026-07-13] Ronda 26: +13 (3 sustrato NA + 5 dominio + 5 rol); COMPLETA.
+
+### [2026-07-13] Round 26 — ITER 161 | gap_analysis extendido (taxonomía Round 26) + 13 ingests COMPLETOS
+- gap_analysis.py (post-Round 25) = 0 huecos → se **EXTENDIÓ** `scripts/gap_analysis.py` (Round 26) con 3 deepenings sustrato NA (mexico→poder-judicial, estados-unidos→poder-judicial, canada→poder-judicial) + 10 nodos nuevos (dominio: etica-empresarial, compensacion-beneficios, transformacion-digital, finanzas-cuantitativas, relaciones-laborales; rol: head-of-talent, head-of-sales-ops, head-of-marketing-ops, head-of-it, chief-brand-officer). ALCANCE respetado: sustrato = solo Norteamérica.
+- LOOP 1 (sustrato NA): `mexico/poder-judicial.md`, `estados-unidos/poder-judicial.md`, `canada/poder-judicial.md` (deepenings; append a index/log de nodos existentes).
+- LOOP 2 (dominio, 5 nuevos): `etica-empresarial`, `compensacion-beneficios`, `transformacion-digital`, `finanzas-cuantitativas`, `relaciones-laborales` (superstructura completa: raw/, README, index, log).
+- LOOP 3 (rol, 5 nuevos): `head-of-talent`, `head-of-sales-ops`, `head-of-marketing-ops`, `head-of-it`, `chief-brand-officer` (superstructura completa).
+- Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia EN + fuentes oficiales gob/oaj.gob.mx/justiciaabierta/uscourts.gov/scc-csc.ca; sin raw/). México poder-judicial usa fuentes vivas de la reforma 2024-2025.
+- **Round 26 COMPLETA (13/13).** Temas acumulados: 406. ALCANCE sustrato = solo Norteamérica (respetado).
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+- **Tópicos ingeridos (acumulado): 406** (post-Round 26; +13 = 3 deepenings NA + 5 dominio + 5 rol)
+- **Rondas:** 26 completas (Round 1..26), cada una +13 ingests.
+- **Nodos sustrato (NA):** México 49 (+poder-judicial), EE.UU. 38 (+poder-judicial), Canadá 32 (+poder-judicial). Deepenings NA completas.
+- **Nodos dominio:** ~75 (Round 26 +5 nuevos).
+- **Nodos rol:** ~65 (Round 26 +5 nuevos).
+- **Organización:** 1 (ejemplo-empresa / NovaTech).
+- **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
+
+## 🚦 ESTADO
+- **Iteración actual:** 161 (Round 26 COMPLETA).
+- **Última acción:** 13 ingests (3 sustrato NA poder-judicial + 5 dominio + 5 rol).
+- **Bloqueos:** ninguno.
+- **Cola:** vacía (Round 26 fue el último lote planificado).
+
+## ▶️ PRÓXIMA TAREA
+- `python3 scripts/gap_analysis.py`; si 0 huecos → reabastecer taxonomía (Round 27: nuevos dominio/rol + deepenings NA) y continuar el ciclo; si hay sugerencias → ingerirlas.
+- ALCANCE sustrato = solo Norteamérica (MX/US/CA) se mantiene salvo indicación contraria.

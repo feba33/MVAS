@@ -46,6 +46,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [salud](sustrato/mexico/salud.md) — Salud/sistema de salud México: Secretaría de Salud, IMSS/IMSS-Bienestar, ISSSTE, Cofepris · 🏷️ mexico,salud,sistema-de-salud,secretaria-de-salud,imss,issste,cofepris,seguro-popular · 📅 2026-07-13
 - [politica-monetaria](sustrato/mexico/politica-monetaria.md) — Política monetaria México: Banxico, tasa objetivo, meta 3%, Junta de Gobierno · 🏷️ mexico,politica-monetaria,banxico,inflacion,tasa-de-interes,banco-central · 📅 2026-07-13
 - [seguridad-publica](sustrato/mexico/seguridad-publica.md) — Seguridad pública México: Guardia Nacional, SSP, FGR, delincuencia organizada · 🏷️ mexico,seguridad-publica,guardia-nacional,ssp,fgr,delincuencia-organizada · 📅 2026-07-13
+- [poder-judicial](sustrato/mexico/poder-judicial.md) — Poder Judicial México: PJF, SCJN, reforma judicial 2024-2025, juicios orales, Consejo Judicatura · 🏷️ mexico,poder-judicial,scjn,reforma-judicial,consejo-judicatura,juicio-oral,estado-de-derecho · 📅 2026-07-13
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -75,6 +76,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [telecomunicaciones](sustrato/estados-unidos/telecomunicaciones.md) — Telecomunicaciones EE.UU.: FCC, banda ancha, 5G, espectro, subastas, net neutrality · 🏷️ eeuu,telecomunicaciones,fcc,banda-ancha,5g,espectro,subastas · 📅 2026-07-13
 - [medio-ambiente](sustrato/estados-unidos/medio-ambiente.md) — Medio ambiente EE.UU.: EPA, Clean Air/Water Act, NEPA, cambio climático · 🏷️ eeuu,medio-ambiente,epa,clean-air-act,clean-water-act,nepa,cambio-climatico · 📅 2026-07-13
 - [sistema-financiero](sustrato/estados-unidos/sistema-financiero.md) — Sistema financiero EE.UU.: Fed, OCC, FDIC, dual banking, Dodd-Frank · 🏷️ eeuu,sistema-financiero,federal-reserve,occ,fdic,dodd-frank,banca,regulacion-prudencial · 📅 2026-07-13
+- [poder-judicial](sustrato/estados-unidos/poder-judicial.md) — Poder Judicial EE.UU.: federal judiciary (SCOTUS, Courts of Appeals, District Courts, Art. III), DOJ · 🏷️ eeuu,poder-judicial,supremecourt,federal-courts,article-iii,doj,estado-de-derecho · 📅 2026-07-13
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -98,6 +100,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [agricultura](sustrato/canada/agricultura.md) — Agricultura Canadá: AAFC, supply management (lácteos/aves/huevos), granos, CUSMA/CETA/CPTPP · 🏷️ canada,agricultura,agri-food,aafc,supply-management,granos,tratados-comerciales · 📅 2026-07-13
 - [defensa](sustrato/canada/defensa.md) — Defensa Canadá: DND/CAF, NORAD, OTAN, procurement · 🏷️ canada,defensa,dnd,caf,norad,otan,procurement · 📅 2026-07-13
 - [infraestructura](sustrato/canada/infraestructura.md) — Infraestructura Canadá: Infrastructure Canada, transporte, banda ancha, vivienda · 🏷️ canada,infraestructura,infrastructure-canada,vivienda,banda-ancha,transporte-publico,plan-de-infraestructura · 📅 2026-07-13
+- [poder-judicial](sustrato/canada/poder-judicial.md) — Poder Judicial Canadá: Supreme Court, cortes provinciales, Carta de Derechos, nombramiento · 🏷️ canada,poder-judicial,supreme-court,charter,nombramiento-judicial,estado-de-derecho · 📅 2026-07-13
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -713,3 +716,33 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09
+
+### dominio/etica-empresarial
+- [[dominio/etica-empresarial|Ética empresarial / corporate ethics — códigos de conducta, compliance, anticorrupción, transparencia]]
+
+### dominio/compensacion-beneficios
+- [[dominio/compensacion-beneficios|Compensación y beneficios / total rewards — salario, variable pay, beneficios, equity, pensiones]]
+
+### dominio/transformacion-digital
+- [[dominio/transformacion-digital|Transformación digital — adopción de tecnología, roadmap, BPR, cultura digital]]
+
+### dominio/finanzas-cuantitativas
+- [[dominio/finanzas-cuantitativas|Finanzas cuantitativas / quantitative finance — modelado estocástico, pricing de derivados, riesgo]]
+
+### dominio/relaciones-laborales
+- [[dominio/relaciones-laborales|Relaciones laborales / industrial relations — sindicatos, contratación colectiva, huelgas]]
+
+### rol/head-of-talent
+- [[rol/head-of-talent|Head of Talent — estrategia de talento, employer brand, adquisición de talento; vs People/recruiter]]
+
+### rol/head-of-sales-ops
+- [[rol/head-of-sales-ops|Head of Sales Operations — analítica de ventas, comp, tooling/CRM, forecast; vs sales-lead/vp-sales]]
+
+### rol/head-of-marketing-ops
+- [[rol/head-of-marketing-ops|Head of Marketing Operations — martech, analítica, ops de campaña; vs marketing-manager/cmo]]
+
+### rol/head-of-it
+- [[rol/head-of-it|Head of IT / IT Director — operación de TI interna, infraestructura, soporte; vs CIO/CTO]]
+
+### rol/chief-brand-officer
+- [[rol/chief-brand-officer|Chief Brand Officer — estrategia de marca ejecutiva, identidad, posicionamiento; vs brand-manager/cmo]]

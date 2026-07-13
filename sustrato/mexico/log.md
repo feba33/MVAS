@@ -149,3 +149,6 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Seguridad pública México (Guardia Nacional, SSP, FGR)
 - Fuentes: Wikipedia (es) — Seguridad pública en México; gob.mx (Guardia Nacional), gob.mx/fgr — reference-only (sin raw/).
 - Página: `seguridad-publica.md`. Art. 21 Constitucional; Guardia Nacional (Ley 2019, SSPC, con Sedena/Semar); FGR (órgano constitucional autónomo, antes PGR); retos de violencia y delincuencia organizada. Cross-ref sustrato/mexico/seguridad-social, dominio/defensa-seguridad, dominio/seguridad-corporativa.
+## [2026-07-13] ingest | Poder Judicial de México (PJF, SCJN, reforma judicial 2024-2025)
+- Fuentes: OAJ (PJF) reformaPJF; Justicia Abierta — reference-only (sin raw/).
+- Página: `poder-judicial.md`. PJF (SCJN, TEPJF, tribunales de circuito, juzgados de distrito); reforma constitucional 15-09-2024 (elección popular de jueces/ministros, SCJN 11→9, presidencia rotativa, fin del CJF). Cross-ref sustrato/mexico/inversion-extranjera, sustrato/mexico/seguridad-publica, dominio/derecho-internacional.

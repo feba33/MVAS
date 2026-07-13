@@ -36,3 +36,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [salud](salud.md) — Salud/sistema de salud México: Secretaría de Salud, IMSS/IMSS-Bienestar, ISSSTE, Cofepris · 🏷️ mexico,salud,sistema-de-salud,secretaria-de-salud,imss,issste,cofepris,seguro-popular · 📅 2026-07-13
 - [politica-monetaria](politica-monetaria.md) — Política monetaria México: Banxico, tasa objetivo, meta 3%, Junta de Gobierno · 🏷️ mexico,politica-monetaria,banxico,inflacion,tasa-de-interes,banco-central · 📅 2026-07-13
 - [seguridad-publica](seguridad-publica.md) — Seguridad pública México: Guardia Nacional, SSP, FGR, delincuencia organizada · 🏷️ mexico,seguridad-publica,guardia-nacional,ssp,fgr,delincuencia-organizada · 📅 2026-07-13
+- [poder-judicial](poder-judicial.md) — Poder Judicial México: PJF, SCJN, reforma judicial 2024-2025, juicios orales, Consejo Judicatura · 🏷️ mexico,poder-judicial,scjn,reforma-judicial,consejo-judicatura,juicio-oral,estado-de-derecho · 📅 2026-07-13

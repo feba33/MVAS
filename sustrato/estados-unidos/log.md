@@ -122,3 +122,6 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Sistema financiero EE.UU. (Fed, OCC, FDIC, Dodd-Frank)
 - Fuentes: Wikipedia (en) — Banking in the United States; federalreserve.gov; Cornell LII (Dodd-Frank Title III) — reference-only (sin raw/).
 - Página: `sistema-financiero.md`. Dual banking (OCC federal / estatal); Fed (supervisión + política monetaria); OCC (national banks); FDIC (depósitos); Dodd-Frank (CFPB, FSOC, OLA, Volcker, abolió OTS). Basilea III/CCAR. Cross-ref sustrato/mexico/banca-sistema-financiero, dominio/banca, dominio/finanzas.
+## [2026-07-13] ingest | Poder Judicial de EE.UU. (federal judiciary, SCOTUS)
+- Fuentes: Wikipedia (en) United States federal judiciary — reference-only (sin raw/).
+- Página: `poder-judicial.md`. Artículo III: SCOTUS (9), 13 Courts of Appeals, 94 District Courts; jueces vitalicios; DOJ es poder ejecutivo; cortes federal vs estatales. Cross-ref sustrato/estados-unidos/antitrust, sustrato/estados-unidos/bankruptcy, dominio/derecho-internacional.
