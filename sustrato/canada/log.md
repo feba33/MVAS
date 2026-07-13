@@ -83,3 +83,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Finanzas públicas de Canadá (Dept of Finance)
 - Fuentes: Wikipedia EN — Department of Finance Canada; canada.ca/department-finance (reference-only; sin raw/).
 - Página: `finanzas-publicas.md`. Department of Finance, presupuesto federal anual, PBO (2015), deuda/PIB (~30% pre-COVID, ~45% 2020-21), haciendas provinciales. Cross-ref sustrato/canada/politica-monetaria, sustrato/canada/impuestos, dominio/finanzas-publicas.
+
+## [2026-07-13] ingest | Propiedad intelectual Canadá (CIPO/ISED)
+- Fuentes: ic.gc.ca (CIPO); Wikipedia EN — Intellectual property (reference-only; sin raw/).
+- Página: `propiedad-intelectual.md`. CIPO (ISED): Patent Act, Trade-marks Act (reforma 2019, Protocolo de Madrid), Copyright Act (vida+50). Cross-ref dominio/propiedad-intelectual, sustrato/canada/recursos-naturales.

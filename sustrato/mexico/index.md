@@ -32,3 +32,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [agricultura](agricultura.md) — Agricultura México: SADER, producción agroalimentaria, seguridad alimentaria, T-MEC, riego, exportaciones · 🏷️ mexico,agricultura,sader,agroalimentario,seguridad-alimentaria,riego,exportaciones-agricolas · 📅 2026-07-12
 - [turismo](turismo.md) — Turismo México: SECTUR, destinos, turismo de sol y playa, turismo médico, PIB ~8-9% · 🏷️ mexico,turismo,sectur,playa,turismo-medico,pib,llegadas-internacionales · 📅 2026-07-12
 - [finanzas-publicas](finanzas-publicas.md) — Finanzas públicas México: SHCP, PEF, deuda pública, política fiscal · 🏷️ mexico,finanzas-publicas,shcp,presupuesto-federal,deuda-publica,politica-fiscal · 📅 2026-07-13
+- [propiedad-intelectual](propiedad-intelectual.md) — Propiedad intelectual México: IMPI, LPI (Ley 27/2020), derechos de autor, T-MEC cap.20 · 🏷️ mexico,propiedad-intelectual,impi,patentes,marcas,derechos-de-autor · 📅 2026-07-13

@@ -25,3 +25,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [telecomunicaciones](telecomunicaciones.md) — Telecomunicaciones Canadá: CRTC, espectro, banda ancha, Bell/Rogers/Telus, 5G · 🏷️ canada,telecomunicaciones,crtc,espectro,banda-ancha,bell,rogers,telus,5g · 📅 2026-07-12
 - [energia](energia.md) — Energía Canadá: hidroeléctrica, oil sands, gas natural, red eléctrica, NRCan, net-zero · 🏷️ canada,energia,hidroelectrica,oil-sands,gas-natural,red-electrica,nrcan,net-zero · 📅 2026-07-12
 - [finanzas-publicas](finanzas-publicas.md) — Finanzas públicas Canadá: Dept of Finance, presupuesto federal, deuda/PIB, PBO · 🏷️ canada,finanzas-publicas,department-of-finance,presupuesto-federal,deuda-publica,pbo · 📅 2026-07-13
+- [propiedad-intelectual](propiedad-intelectual.md) — Propiedad intelectual Canadá: CIPO/ISED, Patent Act, Trade-marks Act, Copyright Act · 🏷️ canada,propiedad-intelectual,cipo,patentes,marcas,derechos-de-autor · 📅 2026-07-13

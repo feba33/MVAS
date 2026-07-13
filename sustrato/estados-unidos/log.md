@@ -106,3 +106,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Finanzas públicas de EE.UU. (Treasury)
 - Fuentes: Wikipedia EN — United States Department of the Treasury; fiscal.treasury.gov (reference-only; sin raw/).
 - Página: `finanzas-publicas.md`. Treasury, presupuesto federal, déficit estructural, deuda nacional >USD$36B, debt ceiling, gasto mandatorio (entitlements). Cross-ref sustrato/estados-unidos/seguridad-social, sustrato/estados-unidos/politica-monetaria, dominio/finanzas-publicas.
+
+## [2026-07-13] ingest | Propiedad intelectual EE.UU. (USPTO, AIA)
+- Fuentes: uspto.gov; Wikipedia EN — America Invents Act (reference-only; sin raw/).
+- Página: `propiedad-intelectual.md`. USPTO (patentes/marcas), US Copyright Office (Biblioteca del Congreso); Patent Act 1952 + AIA 2011 (first-inventor-to-file, IPR); Lanham Act (marcas); Copyright Act 1976 (fair use). Cross-ref dominio/propiedad-intelectual, sustrato/estados-unidos/sector-tecnologia.

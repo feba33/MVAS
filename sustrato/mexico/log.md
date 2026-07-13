@@ -133,3 +133,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Finanzas públicas de México (SHCP, PEF)
 - Fuentes: Wikipedia EN — Secretariat of Finance and Public Credit; gob.mx/hacienda (reference-only; sin raw/).
 - Página: `finanzas-publicas.md`. SHCP, Presupuesto de Egresos de la Federación (PEF), deuda pública ~50% PIB, carga tributaria baja (~13-14% PIB). Cross-ref sustrato/mexico/sat, sustrato/mexico/regimen-fiscal, dominio/finanzas-publicas.
+
+## [2026-07-13] ingest | Propiedad intelectual México (IMPI, LPI)
+- Fuentes: gob.mx/impi; Wikipedia EN — Intellectual property (reference-only; sin raw/).
+- Página: `propiedad-intelectual.md`. IMPI (SE/Economía) registra patentes/marcas/secretos industriales; INDAUTOR (SEP) los derechos de autor; LPI "Ley 27" (2020) y LFDA; T-MEC cap.20. Cross-ref dominio/propiedad-intelectual, sustrato/mexico/inversion-extranjera.

@@ -43,6 +43,8 @@ TAXONOMY = {
         ("turismo", "Turismo México: SECTUR, destinos, turismo de sol y playa, turismo médico, contribución al PIB"),
         ("mineria", "Minería México: CAMIMEX, plata/oro/cobre, regulación minera, contribución al PIB"),
         ("finanzas-publicas", "Finanzas públicas México: SHCP, Presupuesto de Egresos, deuda pública, política fiscal"),
+        # Round 22 — deepening NA (propiedad intelectual por país).
+        ("propiedad-intelectual", "Propiedad intelectual México: IMPI, Ley Federal del Derecho de Autor, patentes/marcas, tratados"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -62,6 +64,8 @@ TAXONOMY = {
         ("infraestructura", "Infraestructura EE.UU.: IIJA, DOT, carreteras, puentes, banda ancha, red eléctrica"),
         ("seguridad-social", "Seguridad social EE.UU.: SSA, Social Security, Medicare, Medicaid, SSI, SNAP"),
         ("finanzas-publicas", "Finanzas públicas EE.UU.: Treasury, presupuesto federal, deuda nacional, debt ceiling"),
+        # Round 22 — deepening NA (propiedad intelectual por país).
+        ("propiedad-intelectual", "Propiedad intelectual EE.UU.: USPTO, Patent Act, America Invents Act, US Copyright Office"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -81,6 +85,8 @@ TAXONOMY = {
         ("energia", "Energía Canadá: hidroeléctrica, oil sands, gas, red eléctrica, NRCan, transición energética"),
         ("medio-ambiente", "Medio ambiente Canadá: Environment and Climate Change Canada (ECCC), climate change, net-zero, regulación"),
         ("finanzas-publicas", "Finanzas públicas Canadá: Department of Finance, presupuesto federal, deuda/PIB, PBO"),
+        # Round 22 — deepening NA (propiedad intelectual por país).
+        ("propiedad-intelectual", "Propiedad intelectual Canadá: CIPO, Patent Act, Trade-marks Act, Copyright Act"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -350,6 +356,17 @@ NEW_NODES = [
     ("rol/fp-and-a-manager", "FP&A Manager: planificación, presupuesto, forecast, análisis de variaciones"),
     ("rol/product-designer", "Product Designer / UX: diseña experiencias de producto"),
     ("rol/account-manager", "Account Manager: relación post-venta, retención, crecimiento de cuenta"),
+    # Round 22 — reabastecimiento (alcance: sustrato solo Norteamérica: deepening IP MX/US/CA; dominio/rol generales).
+    ("dominio/arbitraje", "Arbitraje: comercial e de inversión (UNCITRAL/CIADI, laudo, tratados de protección de inversiones)"),
+    ("dominio/tributacion-internacional", "Tributación internacional: BEPS/OCDE, tratados, precios de transferencia, paraísos fiscales, doble tributación"),
+    ("dominio/derecho-internacional", "Derecho internacional público: tratados, costumbre, CJI, derecho de la OMC, derechos humanos"),
+    ("dominio/ingenieria", "Ingeniería: disciplinas (civil/mecánica/sistemas/industrial), gestión de ingeniería, estándares"),
+    ("dominio/contabilidad-forense", "Contabilidad forense: fraude, litigios, auditoría forense, evidencia, fraud examination"),
+    ("rol/chairman", "Chairman / Presidente del Consejo: liderazgo de la junta, gobernanza, independencia del consejo"),
+    ("rol/partner", "Partner / Socio: equity partner en firmas de servicios profesionales, profit sharing, governance"),
+    ("rol/staff-engineer", "Staff/Principal Engineer: ladder IC senior, arquitectura técnica, influencia sin autoridad"),
+    ("rol/delivery-manager", "Delivery Manager: entrega de servicios/proyectos, calidad y satisfacción del cliente, operación"),
+    ("rol/engagement-manager", "Engagement Manager: consultoría, cuenta + entrega, equipo y margen del proyecto"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

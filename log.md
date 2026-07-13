@@ -509,3 +509,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales gob/hacienda/Treasury/NRC/FDA/EPA/MRS/OWASP/NNGroup/Salesforce; sin raw/).
 - Round 21 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
 
+## [2026-07-13] ingest | Round 22 — 13 nodos (3 sustrato NA + 5 dominio + 5 rol)
+- 3 → sustrato (deepenings NA, solo Norteamérica):
+  - `sustrato/mexico/propiedad-intelectual.md` — IMPI (Ley 27/2020), INDAUTOR, T-MEC cap.20.
+  - `sustrato/estados-unidos/propiedad-intelectual.md` — USPTO, AIA 2011, US Copyright Office, Lanham Act.
+  - `sustrato/canada/propiedad-intelectual.md` — CIPO/ISED, Patent Act, Trade-marks Act.
+- 5 → dominio (nuevos): `arbitraje`, `tributacion-internacional`, `derecho-internacional`, `ingenieria`, `contabilidad-forense`.
+- 5 → rol (nuevos): `chairman`, `partner`, `staff-engineer`, `delivery-manager`, `engagement-manager`.
+- Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales gob/IMPI/USPTO/CIPO/OCDE/INCOSE/ACFE/staffeng; sin raw/).
+- Round 22 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
+

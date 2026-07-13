@@ -42,6 +42,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [turismo](sustrato/mexico/turismo.md) — Turismo México: SECTUR, destinos, turismo de sol y playa, turismo médico, PIB ~8-9% · 🏷️ mexico,turismo,sectur,playa,turismo-medico,pib,llegadas-internacionales · 📅 2026-07-12
 - [mineria](sustrato/mexico/mineria.md) — Minería México: CAMIMEX, plata/oro/cobre, Ley Minera, PIB ~2.4% · 🏷️ mexico,mineria,camimex,plata,oro,cobre,zinc,regulacion-minera · 📅 2026-07-13
 - [finanzas-publicas](sustrato/mexico/finanzas-publicas.md) — Finanzas públicas México: SHCP, PEF, deuda pública, política fiscal · 🏷️ mexico,finanzas-publicas,shcp,presupuesto-federal,deuda-publica,politica-fiscal · 📅 2026-07-13
+- [propiedad-intelectual](sustrato/mexico/propiedad-intelectual.md) — Propiedad intelectual México: IMPI, LPI (Ley 27/2020), derechos de autor, T-MEC cap.20 · 🏷️ mexico,propiedad-intelectual,impi,patentes,marcas,derechos-de-autor · 📅 2026-07-13
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -67,6 +68,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [infraestructura](sustrato/estados-unidos/infraestructura.md) — Infraestructura EE.UU.: IIJA, DOT, carreteras, puentes, banda ancha, red eléctrica · 🏷️ eeuu,infraestructura,iija,dot,carreteras,puentes,banda-ancha,red-electrica · 📅 2026-07-12
 - [seguridad-social](sustrato/estados-unidos/seguridad-social.md) — Seguridad social EE.UU.: SSA/OASDI, Medicare, Medicaid, SSI, SNAP · 🏷️ eeuu,seguridad-social,social-security,medicare,medicaid,ssa,ssi,snap · 📅 2026-07-13
 - [finanzas-publicas](sustrato/estados-unidos/finanzas-publicas.md) — Finanzas públicas EE.UU.: Treasury, presupuesto federal, deuda nacional, techo de deuda · 🏷️ eeuu,finanzas-publicas,treasury,presupuesto-federal,deuda-nacional,debt-ceiling · 📅 2026-07-13
+- [propiedad-intelectual](sustrato/estados-unidos/propiedad-intelectual.md) — Propiedad intelectual EE.UU.: USPTO, AIA 2011, US Copyright Office, Lanham Act · 🏷️ eeuu,propiedad-intelectual,uspto,patentes,marcas,derechos-de-autor · 📅 2026-07-13
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -86,6 +88,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [energia](sustrato/canada/energia.md) — Energía Canadá: hidroeléctrica, oil sands, gas natural, red eléctrica, NRCan, net-zero · 🏷️ canada,energia,hidroelectrica,oil-sands,gas-natural,red-electrica,nrcan,net-zero · 📅 2026-07-12
 - [medio-ambiente](sustrato/canada/medio-ambiente.md) — Medio ambiente Canadá: ECCC, cambio climático, net-zero, precio al carbono · 🏷️ canada,medio-ambiente,cambio-climatico,eccc,net-zero,politica-climatica · 📅 2026-07-13
 - [finanzas-publicas](sustrato/canada/finanzas-publicas.md) — Finanzas públicas Canadá: Dept of Finance, presupuesto federal, deuda/PIB, PBO · 🏷️ canada,finanzas-publicas,department-of-finance,presupuesto-federal,deuda-publica,pbo · 📅 2026-07-13
+- [propiedad-intelectual](sustrato/canada/propiedad-intelectual.md) — Propiedad intelectual Canadá: CIPO/ISED, Patent Act, Trade-marks Act, Copyright Act · 🏷️ canada,propiedad-intelectual,cipo,patentes,marcas,derechos-de-autor · 📅 2026-07-13
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -544,6 +547,21 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/derecho-ambiental
 - [derecho-ambiental](dominio/derecho-ambiental/derecho-ambiental.md) — Derecho ambiental: NEPA, LGEEPA, CEPA, ESG · 🏷️ derecho-ambiental,environmental-law,nepa,lgeepa,cepa,esg · 📅 2026-07-13
 
+### dominio/arbitraje
+- [arbitraje](dominio/arbitraje/arbitraje.md) — Arbitraje: comercial (tribunal, reglas AAA/ICC/LCIA) e inversión (CIADI/UNCITRAL, ISDS) · 🏷️ arbitraje,dispute-resolution,ciadi,uncitral,laudo,new-york-convention · 📅 2026-07-13
+
+### dominio/tributacion-internacional
+- [tributacion-internacional](dominio/tributacion-internacional/tributacion-internacional.md) — Fiscalidad internacional: residencia vs fuente, CDI, BEPS/OCDE, precios de transferencia · 🏷️ tributacion-internacional,bei,beps,transfer-pricing,doble-tributacion,ocde · 📅 2026-07-13
+
+### dominio/derecho-internacional
+- [derecho-internacional](dominio/derecho-internacional/derecho-internacional.md) — Derecho internacional público: tratados, costumbre, CIJ, OMC, derechos humanos · 🏷️ derecho-internacional,tratados,costumbre,cij,omc,derechos-humanos · 📅 2026-07-13
+
+### dominio/ingenieria
+- [ingenieria](dominio/ingenieria/ingenieria.md) — Ingeniería: disciplinas (civil/mecánica/sistemas/industrial), colegiación, ingeniería de sistemas, estándares · 🏷️ ingenieria,disciplinas,systems-engineering,estandares,licencia · 📅 2026-07-13
+
+### dominio/contabilidad-forense
+- [contabilidad-forense](dominio/contabilidad-forense/contabilidad-forense.md) — Contabilidad forense: fraude, litigios, auditoría forense, evidencia (ACFE CFE) · 🏷️ contabilidad-forense,fraude,litigios,auditoria-forense,evidencia,acfe · 📅 2026-07-13
+
 ### rol/legal-ops
 - [legal-ops](rol/legal-ops/legal-ops.md) — Legal Operations: eBilling, proveedores, tecnología legal, gestión de contratos · 🏷️ legal-ops,operaciones-legales,ebilling,proveedores-legales,tecnologia-legal,gestion-contratos · 📅 2026-07-12
 
@@ -588,6 +606,21 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/account-manager
 - [account-manager](rol/account-manager/account-manager.md) — Account Manager: relación post-venta, retención, crecimiento de cuenta · 🏷️ account-manager,key-account,retencion,renewals,ventas · 📅 2026-07-13
+
+### rol/chairman
+- [chairman](rol/chairman/chairman.md) — Chairman / Presidente del Consejo: liderazgo de la junta, gobernanza, supervisión del CEO · 🏷️ chairman,board-of-directors,gobernanza,consejo · 📅 2026-07-13
+
+### rol/partner
+- [partner](rol/partner/partner.md) — Partner / Socio: equity partner en firmas de servicios (abogacía, consultoría, auditoría, VC), profit sharing · 🏷️ partner,socio,equity-partner,firmas-servicios,gobernanza · 📅 2026-07-13
+
+### rol/staff-engineer
+- [staff-engineer](rol/staff-engineer/staff-engineer.md) — Staff/Principal Engineer: ladder IC senior, arquitectura técnica, influencia sin autoridad · 🏷️ staff-engineer,principal-engineer,ic-ladder,arquitectura,tech-leadership · 📅 2026-07-13
+
+### rol/delivery-manager
+- [delivery-manager](rol/delivery-manager/delivery-manager.md) — Delivery Manager: entrega de servicios/proyectos, satisfacción del cliente, calidad, operación · 🏷️ delivery-manager,project-delivery,client-satisfaction,operaciones,slas · 📅 2026-07-13
+
+### rol/engagement-manager
+- [engagement-manager](rol/engagement-manager/engagement-manager.md) — Engagement Manager: consultoría, dueño de la cuenta/engagement, equipo y margen · 🏷️ engagement-manager,consultoria,account-management,margen,equipo · 📅 2026-07-13
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09
