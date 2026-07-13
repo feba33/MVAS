@@ -48,6 +48,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [seguridad-publica](sustrato/mexico/seguridad-publica.md) — Seguridad pública México: Guardia Nacional, SSP, FGR, delincuencia organizada · 🏷️ mexico,seguridad-publica,guardia-nacional,ssp,fgr,delincuencia-organizada · 📅 2026-07-13
 - [poder-judicial](sustrato/mexico/poder-judicial.md) — Poder Judicial México: PJF, SCJN, reforma judicial 2024-2025, juicios orales, Consejo Judicatura · 🏷️ mexico,poder-judicial,scjn,reforma-judicial,consejo-judicatura,juicio-oral,estado-de-derecho · 📅 2026-07-13
 - [relaciones-exteriores](sustrato/mexico/relaciones-exteriores.md) — Relaciones exteriores México: SRE, política exterior, diplomacia, no intervención · 🏷️ mexico,relaciones-exteriores,sre,diplomacia,no-intervencion · 📅 2026-07-13
+- [economia](sustrato/mexico/economia.md) — Economía de México: PIB, INEGI, Banxico, sectores, informalidad, comercio exterior · 🏷️ economia-mexico,pib,inegi,banxico,sectores,comercio-exterior,informalidad · 📅 2026-07-13
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -79,6 +80,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [sistema-financiero](sustrato/estados-unidos/sistema-financiero.md) — Sistema financiero EE.UU.: Fed, OCC, FDIC, dual banking, Dodd-Frank · 🏷️ eeuu,sistema-financiero,federal-reserve,occ,fdic,dodd-frank,banca,regulacion-prudencial · 📅 2026-07-13
 - [poder-judicial](sustrato/estados-unidos/poder-judicial.md) — Poder Judicial EE.UU.: federal judiciary (SCOTUS, Courts of Appeals, District Courts, Art. III), DOJ · 🏷️ eeuu,poder-judicial,supremecourt,federal-courts,article-iii,doj,estado-de-derecho · 📅 2026-07-13
 - [seguridad-nacional](sustrato/estados-unidos/seguridad-nacional.md) — Seguridad nacional EE.UU.: DHS, FBI, Intelligence Community, homeland security, ciber · 🏷️ eeuu,seguridad-nacional,dhs,fbi,inteligencia,homeland-security,ciberseguridad-nacional · 📅 2026-07-13
+- [ciencia-e-innovacion](sustrato/estados-unidos/ciencia-e-innovacion.md) — Ciencia e innovación EE.UU.: NSF, DOE labs, NIH, CHIPS Act, ecosistema de I+D · 🏷️ eeuu,ciencia,innovacion,nsf,doe-labs,nih,chips-act · 📅 2026-07-13
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -104,6 +106,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [infraestructura](sustrato/canada/infraestructura.md) — Infraestructura Canadá: Infrastructure Canada, transporte, banda ancha, vivienda · 🏷️ canada,infraestructura,infrastructure-canada,vivienda,banda-ancha,transporte-publico,plan-de-infraestructura · 📅 2026-07-13
 - [poder-judicial](sustrato/canada/poder-judicial.md) — Poder Judicial Canadá: Supreme Court, cortes provinciales, Carta de Derechos, nombramiento · 🏷️ canada,poder-judicial,supreme-court,charter,nombramiento-judicial,estado-de-derecho · 📅 2026-07-13
 - [ciencia-e-innovacion](sustrato/canada/ciencia-e-innovacion.md) — Ciencia e innovación Canadá: NRC, ISED, políticas de CTI, IA/ML · 🏷️ canada,ciencia,innovacion,nrc,ised,investigacion,politica-de-ciencia · 📅 2026-07-13
+- [demografia-poblacion](sustrato/canada/demografia-poblacion.md) — Demografía y población Canadá: Statistics Canada, censo, inmigración, estructura por edad · 🏷️ canada,demografia,poblacion,statistics-canada,censo,inmigracion,envejecimiento · 📅 2026-07-13
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -769,3 +772,32 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [[rol/benefits-manager|Benefits Manager — beneficios y compensación, pensiones, salud, total rewards; vs head-of-people]]
 ### rol/consultor
 - [[rol/consultor|Consultor / Management Consultant — asesoría de gestión (estrategia/operaciones); vs chief-strategy-officer]]
+### dominio/aduanas
+- [aduanas](dominio/aduanas/aduanas.md) — Aduanas / despacho aduanero: aranceles, HS codes, valoración, OMA, SIAVI/ACE/CARM · 🏷️ aduanas,aranceles,hs-codes,despacho-aduanero,comercio-exterior · 📅 2026-07-13
+
+### dominio/finanzas-sostenibles
+- [finanzas-sostenibles](dominio/finanzas-sostenibles/finanzas-sostenibles.md) — Finanzas sostenibles / green & sustainable finance: bonos verdes, taxonomía climática, ESG, IFRS S1/S2 · 🏷️ finanzas-sostenibles,green-finance,esg,bonos-verdes,taxonomia-climatica · 📅 2026-07-13
+
+### dominio/cadena-de-valor
+- [cadena-de-valor](dominio/cadena-de-valor/cadena-de-valor.md) — Cadena de valor (Porter): primarias + soporte, ventaja competitiva, análisis de costo/valor · 🏷️ cadena-de-valor,ventaja-competitiva,porter,actividades-primarias · 📅 2026-07-13
+
+### dominio/inteligencia-de-mercado
+- [inteligencia-de-mercado](dominio/inteligencia-de-mercado/inteligencia-de-mercado.md) — Inteligencia de mercado: market sizing (TAM/SAM/SOM), tendencias, VoC, estudios · 🏷️ inteligencia-de-mercado,market-sizing,tam-sam-som,voice-of-customer · 📅 2026-07-13
+
+### dominio/clima-organizacional
+- [clima-organizacional](dominio/clima-organizacional/clima-organizacional.md) — Clima organizacional: engagement, encuestas, satisfacción; vs cultura · 🏷️ clima-organizacional,engagement,clima-de-seguridad,clima-de-innovacion,cultura · 📅 2026-07-13
+
+### rol/software-engineer
+- [software-engineer](rol/software-engineer/software-engineer.md) — Software Engineer: diseño/código, SDLC, testing, agile, arquitectura; ladder IC · 🏷️ software-engineer,ingenieria-de-software,desarrollo,testing,agile · 📅 2026-07-13
+
+### rol/prompt-engineer
+- [prompt-engineer](rol/prompt-engineer/prompt-engineer.md) — Prompt Engineer: diseño de prompts para LLMs, evaluación de modelos, GenAI · 🏷️ prompt-engineer,llm,genai,prompting,evaluacion-de-modelos · 📅 2026-07-13
+
+### rol/fractional-executive
+- [fractional-executive](rol/fractional-executive/fractional-executive.md) — Ejecutivo fraccionario / Fractional CXO: liderazgo part-time por retainer, advisory, scale-ups · 🏷️ fractional-executive,cxo,part-time,scale-up,advisory · 📅 2026-07-13
+
+### rol/head-of-customer-experience
+- [head-of-customer-experience](rol/head-of-customer-experience/head-of-customer-experience.md) — Head of CX: journey, VoC, NPS/CSAT, operación de experiencia · 🏷️ head-of-cx,customer-experience,voc,nps,csat,journey · 📅 2026-07-13
+
+### rol/category-manager
+- [category-manager](rol/category-manager/category-manager.md) — Category Manager: gestión de categoría (retail/compras), assortment, pricing, P&L · 🏷️ category-manager,gestion-de-categoria,retail,compras,assortment · 📅 2026-07-13

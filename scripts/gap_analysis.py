@@ -55,6 +55,8 @@ TAXONOMY = {
         ("poder-judicial", "Poder judicial México: PJF, Suprema Corte (SCJN), Consejo de la Judicatura (CJF), reforma judicial 2024-2025, juicios orales"),
         # Round 27 — deepening NA (relaciones exteriores).
         ("relaciones-exteriores", "Relaciones exteriores México: SRE, política exterior, diplomacia, tratados, cooperación internacional, ONU/OEA"),
+        # Round 28 — deepening NA (economía MX).
+        ("economia", "Economía México: PIB, INEGI, Banxico, sectores (manufactura, servicios, petróleo), informalidad, comercio exterior, perspectivas macro"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -86,6 +88,8 @@ TAXONOMY = {
         ("poder-judicial", "Poder judicial EE.UU.: federal judiciary (SCOTUS, Courts of Appeals, District Courts, Article III), DOJ, nombramientos, federal vs state"),
         # Round 27 — deepening NA (seguridad nacional).
         ("seguridad-nacional", "Seguridad nacional EE.UU.: DHS, FBI, intelligence community (ODNI/CIA/NSA), homeland security, ciberseguridad nacional, contrainterligencia"),
+        # Round 28 — deepening NA (ciencia e innovación US).
+        ("ciencia-e-innovacion", "Ciencia e innovación EE.UU.: NSF, DOE national labs, NIH, I+D, CHIPS Act, ecosistema de investigación y desarrollo"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -117,6 +121,8 @@ TAXONOMY = {
         ("poder-judicial", "Poder judicial Canadá: Supreme Court of Canada, cortes provinciales/territoriales, nombramiento, Carta de Derechos y Libertades"),
         # Round 27 — deepening NA (ciencia e innovación).
         ("ciencia-e-innovacion", "Ciencia e innovación Canadá: NRC, ISED, Innovation, Science and Economic Development, políticas de CTI, investigación federal"),
+        # Round 28 — deepening NA (demografía/población CA).
+        ("demografia-poblacion", "Demografía y población Canadá: Statistics Canada, censo, crecimiento impulsado por inmigración, estructura por edad, densidad"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -452,6 +458,17 @@ NEW_NODES = [
     ("rol/change-manager", "Change Manager — gestión del cambio organizacional, ADKAR/Prosci, gestión de impacts, adopción; vs chief-transformation-officer"),
     ("rol/benefits-manager", "Benefits Manager — gestión de beneficios y compensación, pensiones, seguros de salud, bienestar, total rewards; vs head-of-people"),
     ("rol/consultor", "Consultor / Management Consultant — asesoría de gestión, estrategia/operaciones, entregables, firms; vs chief-* y head-of-*"),
+    # Round 28 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings economia MX, ciencia-e-innovacion US, demografia-poblacion CA; dominio/rol generales).
+    ("dominio/aduanas", "Aduanas / despacho aduanero: aranceles, valoración en aduana, OMA, SIAVI, clasificación arancelaria, import/export"),
+    ("dominio/finanzas-sostenibles", "Finanzas sostenibles / green & sustainable finance: bonos verdes, taxonomía climática (UE/ICMA), ESG investing, IFRS S1/S2"),
+    ("dominio/cadena-de-valor", "Cadena de valor (Porter): actividades primarias y de soporte, ventaja competitiva, análisis de costo/valor"),
+    ("dominio/inteligencia-de-mercado", "Inteligencia de mercado: market sizing (TAM/SAM/SOM), tendencias, voice of customer, estudios de mercado"),
+    ("dominio/clima-organizacional", "Clima organizacional: engagement, encuestas, satisfacción, cultura percibida; vs cultura-organizacional (valores profundos)"),
+    ("rol/software-engineer", "Software Engineer — ingeniería de software: diseño/codificación, clean code, testing, agile, arquitectura de software"),
+    ("rol/prompt-engineer", "Prompt Engineer — diseño de prompts para LLMs, evaluación de modelos, ingeniería de IA generativa; vs ml-engineer/data-scientist"),
+    ("rol/fractional-executive", "Ejecutivo fraccionario / Fractional CXO — liderazgo part-time por retainer, advisory, scale-ups; vs founder-ceo/consultor"),
+    ("rol/head-of-customer-experience", "Head of Customer Experience (CX) — journey, VoC, NPS/CSAT, operación de CX; vs chief-experience-officer y customer-success-lead"),
+    ("rol/category-manager", "Category Manager — gestión de categoría (retail/compras): assortment, pricing, proveedores, P&L de categoría; vs supply-chain-manager"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

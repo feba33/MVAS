@@ -129,3 +129,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Seguridad Nacional de EE.UU. (DHS, FBI, IC)
 - Fuentes: DHS (dhs.gov); Wikipedia (en) United States national security — reference-only (sin raw/).
 - Página: `seguridad-nacional.md`. NSC coordina la política; DHS (2002) lidera homeland security (CISA, CBP, FEMA, TSA); FBI = inteligencia doméstica; Intelligence Community de 18 agencias bajo ODNI (CIA, NSA); US Cyber Command. Cross-ref sustrato/estados-unidos/defensa, dominio/seguridad-nacional, dominio/ciberdefensa.
+
+## [2026-07-13] ingest | Ciencia e innovación EE.UU. (NSF, CHIPS Act)
+- Fuentes: NSF (chips), Congress.gov H.R.4346 — reference-only (sin raw/).
+- Página: `ciencia-e-innovacion.md`. Ecosistema federal de I+D (NSF, DOE labs, NIH); CHIPS and Science Act 2022 (~US$280B); I+D ~3% PIB. Cross-ref sector-tecnologia, educacion, dominio/investigacion-desarrollo.

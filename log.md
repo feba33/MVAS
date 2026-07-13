@@ -580,3 +580,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales sre.gob.mx, dhs.gov, nrc-cnrc.gc.ca, ised-isde.canada.ca, opengovpartnership.org, iea.org; sin raw/).
 - Round 27 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
 
+## [2026-07-13] ingest | Round 28 — 13 ingests COMPLETOS (3 sustrato NA + 5 dominio + 5 rol)
+- 3 → sustrato (deepenings NA, solo Norteamérica):
+  - `sustrato/mexico/economia.md` — PIB, INEGI, Banxico; sectores (primarias 3.2% / secundarias 31.5% / terciarias 59.8%); informalidad ~25-27% PIB.
+  - `sustrato/estados-unidos/ciencia-e-innovacion.md` — NSF, DOE labs, NIH; CHIPS and Science Act 2022 (~US$280B); I+D ~3% PIB.
+  - `sustrato/canada/demografia-poblacion.md` — Statistics Canada: 41.5M (2025), crecimiento por inmigración (435,421 en 2024-25), TFR 1.25.
+- 5 → dominio (nuevos): `aduanas`, `finanzas-sostenibles`, `cadena-de-valor`, `inteligencia-de-mercado`, `clima-organizacional`.
+- 5 → rol (nuevos): `software-engineer`, `prompt-engineer`, `fractional-executive`, `head-of-customer-experience`, `category-manager`.
+- Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales inegi.org.mx, banxico.org.mx, nsf.gov, statcan.gc.ca, wcoomd.org, icmagroup.org; sin raw/).
+- Round 28 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado). Taxonomía extendida en gap_analysis.py (Round 28) tras 0 gaps en Round 27.
+

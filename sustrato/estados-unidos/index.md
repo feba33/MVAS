@@ -37,3 +37,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [sistema-financiero](sistema-financiero.md) — Sistema financiero EE.UU.: Fed, OCC, FDIC, dual banking, Dodd-Frank · 🏷️ eeuu,sistema-financiero,federal-reserve,occ,fdic,dodd-frank,banca,regulacion-prudencial · 📅 2026-07-13
 - [poder-judicial](poder-judicial.md) — Poder Judicial EE.UU.: federal judiciary (SCOTUS, Courts of Appeals, District Courts, Art. III), DOJ · 🏷️ eeuu,poder-judicial,supremecourt,federal-courts,article-iii,doj,estado-de-derecho · 📅 2026-07-13
 - [seguridad-nacional](seguridad-nacional.md) — Seguridad nacional EE.UU.: DHS, FBI, Intelligence Community, homeland security, ciber · 🏷️ eeuu,seguridad-nacional,dhs,fbi,inteligencia,homeland-security,ciberseguridad-nacional · 📅 2026-07-13
+- [ciencia-e-innovacion](ciencia-e-innovacion.md) — Ciencia e innovación EE.UU.: NSF, DOE labs, NIH, CHIPS Act, ecosistema de I+D · 🏷️ eeuu,ciencia,innovacion,nsf,doe-labs,nih,chips-act · 📅 2026-07-13

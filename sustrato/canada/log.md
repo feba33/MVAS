@@ -106,3 +106,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Ciencia e Innovación de Canadá (NRC, ISED)
 - Fuentes: NRC (nrc-cnrc.gc.ca); ISED (ised-isde.canada.ca); Wikipedia (en) Science and technology in Canada — reference-only (sin raw/).
 - Página: `ciencia-e-innovacion.md`. NRC (I+D federal); ISED (política de ciencia e innovación); tri-council (NSERC/CIHR/SSHRC), CFI; liderazgo global en IA (Vector/Mila/Amii); crédito SR&ED. Cross-ref sustrato/canada/energia, dominio/innovacion, dominio/energias-renovables.
+
+## [2026-07-13] ingest | Demografía y población de Canadá (Statistics Canada)
+- Fuentes: Statistics Canada (censo) — reference-only (sin raw/).
+- Página: `demografia-poblacion.md`. Población 41.5M en 2025; crecimiento por inmigración (435,421 en 2024-25); TFR 1.25 (mínimo histórico); urbana y concentrada. Cross-ref inmigracion, salud, seguridad-social.
