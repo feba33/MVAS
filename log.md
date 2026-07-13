@@ -515,6 +515,14 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - sustrato/estados-unidos/telecomunicaciones.md (FCC, 5G/C-band, espectro, net neutrality).
 - sustrato/canada/agricultura.md (AAFC, supply management, granos, CUSMA/CETA/CPTPP).
 - Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (gob/Wikipedia/fcc/AAFC; sin raw/).
+
+## [2026-07-13] ingest | Round 23 — LOOP 2 (dominio x5 ingest COMPLETOS)
+- dominio/dispositivos-medicos.md (FDA 510(k)/PMA/De Novo, COFEPRIS, Health Canada, MDR, ISO 13485).
+- dominio/computacion-cuantica.md (qubits, NISQ, algoritmos, casos).
+- dominio/investigacion-operaciones.md (optimización, colas, simulación).
+- dominio/teoria-de-juegos.md (Nash, subastas, negocio).
+- dominio/gobierno-de-ti.md (COBIT, alineación TI-negocio).
+- Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (FDA/COFEPRIS/Health Canada/Wikipedia/ISACA/INFORMS; sin raw/).
 - 3 → sustrato (deepenings NA, solo Norteamérica):
   - `sustrato/mexico/propiedad-intelectual.md` — IMPI (Ley 27/2020), INDAUTOR, T-MEC cap.20.
   - `sustrato/estados-unidos/propiedad-intelectual.md` — USPTO, AIA 2011, US Copyright Office, Lanham Act.

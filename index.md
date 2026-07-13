@@ -564,7 +564,16 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/contabilidad-forense
 - [contabilidad-forense](dominio/contabilidad-forense/contabilidad-forense.md) — Contabilidad forense: fraude, litigios, auditoría forense, evidencia (ACFE CFE) · 🏷️ contabilidad-forense,fraude,litigios,auditoria-forense,evidencia,acfe · 📅 2026-07-13
-
+### dominio/dispositivos-medicos
+- [dispositivos-medicos](dominio/dispositivos-medicos/dispositivos-medicos.md) — Dispositivos médicos: regulación FDA 510(k)/PMA/De Novo, COFEPRIS, Health Canada, MDR UE, ISO 13485 · 🏷️ dispositivos-medicos,regulacion-dispositivos,fda,cofepris,health-canada,mdr,iso-13485 · 📅 2026-07-13
+### dominio/computacion-cuantica
+- [computacion-cuantica](dominio/computacion-cuantica/computacion-cuantica.md) — Computación cuántica: qubits, NISQ, algoritmos (Shor/Grover), casos (química/optimización/finanzas) · 🏷️ computacion-cuantica,qubits,nisq,algoritmos,cuantica · 📅 2026-07-13
+### dominio/investigacion-operaciones
+- [investigacion-operaciones](dominio/investigacion-operaciones/investigacion-operaciones.md) — Investigación de operaciones: optimización, programación lineal/entera, teoría de colas, simulación · 🏷️ investigacion-operaciones,optimizacion,programacion-lineal,colas,simulacion · 📅 2026-07-13
+### dominio/teoria-de-juegos
+- [teoria-de-juegos](dominio/teoria-de-juegos/teoria-de-juegos.md) — Teoría de juegos: equilibrio de Nash, dilema del prisionero, subastas, aplicaciones de negocio · 🏷️ teoria-de-juegos,nash,subastas,estrategia,negociacion · 📅 2026-07-13
+### dominio/gobierno-de-ti
+- [gobierno-de-ti](dominio/gobierno-de-ti/gobierno-de-ti.md) — Gobierno de TI: COBIT (ISACA), alineación TI-negocio, valor, riesgo de TI, ISO/IEC 38500 · 🏷️ gobierno-de-ti,cobit,isaca,alineacion,riesgo-ti · 📅 2026-07-13
 ### rol/legal-ops
 - [legal-ops](rol/legal-ops/legal-ops.md) — Legal Operations: eBilling, proveedores, tecnología legal, gestión de contratos · 🏷️ legal-ops,operaciones-legales,ebilling,proveedores-legales,tecnologia-legal,gestion-contratos · 📅 2026-07-12
 
