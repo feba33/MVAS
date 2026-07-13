@@ -499,3 +499,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales gob/SSA/Canada.ca/CAMIMEX/IMO/CISA/GAO/ASF; sin raw/).
 - Round 20 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
 
+## [2026-07-13] ingest | Round 21 — 13 nodos (3 sustrato NA + 5 dominio + 5 rol)
+- 3 → sustrato (deepenings NA, finanzas públicas):
+  - `sustrato/mexico/finanzas-publicas.md` — SHCP, PEF, deuda ~50% PIB, carga tributaria baja.
+  - `sustrato/estados-unidos/finanzas-publicas.md` — Treasury, deuda >USD$36B, debt ceiling, entitlements.
+  - `sustrato/canada/finanzas-publicas.md` — Dept of Finance, PBO, deuda/PIB (~30-45%).
+- 5 → dominio (nuevos): `seguridad-alimentaria`, `derecho-penal`, `energia-nuclear`, `ciencias-materiales`, `derecho-ambiental`.
+- 5 → rol (nuevos): `ml-engineer`, `security-engineer`, `fp-and-a-manager`, `product-designer`, `account-manager`.
+- Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales gob/hacienda/Treasury/NRC/FDA/EPA/MRS/OWASP/NNGroup/Salesforce; sin raw/).
+- Round 21 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
+

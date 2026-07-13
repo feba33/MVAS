@@ -79,3 +79,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Medio ambiente Canadá (ECCC, net-zero)
 - Fuentes: Canada.ca (ECCC); Wikipedia (en) — Environment and Climate Change Canada, Climate change in Canada — reference-only.
 - Página: `medio-ambiente.md`. ECCC; calentamiento 1.7°C en tierra; 11.° emisor CO2 (2022); París −40-45% 2030; Net-Zero Emissions Accountability Act; precio al carbono. Cross-ref energia, recursos-naturales, dominio/energias-renovables, dominio/economia-circular.
+
+## [2026-07-13] ingest | Finanzas públicas de Canadá (Dept of Finance)
+- Fuentes: Wikipedia EN — Department of Finance Canada; canada.ca/department-finance (reference-only; sin raw/).
+- Página: `finanzas-publicas.md`. Department of Finance, presupuesto federal anual, PBO (2015), deuda/PIB (~30% pre-COVID, ~45% 2020-21), haciendas provinciales. Cross-ref sustrato/canada/politica-monetaria, sustrato/canada/impuestos, dominio/finanzas-publicas.

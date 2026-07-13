@@ -31,3 +31,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [transporte](transporte.md) — Transporte e infraestructura México: SICT, carreteras, puertos, ferrocarriles, aeropuertos · 🏷️ mexico,transporte,infraestructura,sict,sct,carreteras,puertos,aeropuertos,ferrocarriles · 📅 2026-07-12
 - [agricultura](agricultura.md) — Agricultura México: SADER, producción agroalimentaria, seguridad alimentaria, T-MEC, riego, exportaciones · 🏷️ mexico,agricultura,sader,agroalimentario,seguridad-alimentaria,riego,exportaciones-agricolas · 📅 2026-07-12
 - [turismo](turismo.md) — Turismo México: SECTUR, destinos, turismo de sol y playa, turismo médico, PIB ~8-9% · 🏷️ mexico,turismo,sectur,playa,turismo-medico,pib,llegadas-internacionales · 📅 2026-07-12
+- [finanzas-publicas](finanzas-publicas.md) — Finanzas públicas México: SHCP, PEF, deuda pública, política fiscal · 🏷️ mexico,finanzas-publicas,shcp,presupuesto-federal,deuda-publica,politica-fiscal · 📅 2026-07-13

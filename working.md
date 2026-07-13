@@ -38,9 +38,10 @@ enriquecen. Si `gap_analysis.py` sugiere un país fuera de Norteamérica, ignora
 - **Cronjob investigación:** `e273fdbbba14` (PAUSADO)
 - **Iteración actual:** 145 — Round 15 COMPLETA (13/13: sustrato x3 + dominio x5 + rol x5). ITER 143 ingestó sustrato NA (medio-ambiente MX, política monetaria US/CA); ITER 144 ingestó 5 dominios nuevos; ITER 145 ingestó 5 roles nuevos.
 - **Iteración actual:** 149 — Round 17 COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5).
-- **Temas completados (acumulado):** 328 (Rounds 15-20 COMPLETAS; 13 temas cada una).
-- **Iteración actual:** 153 — Round 20 COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5).
+- **Temas completados (acumulado):** 341 (Rounds 15-21 COMPLETAS; 13 temas cada una).
+- **Iteración actual:** 154 — Round 21 COMPLETA (13/13: sustrato NA x3 + dominio x5 + rol x5).
 - **Round 20 COMPLETA** (iter 153, 13/13): gap_analysis.py = 0 huecos → extendida taxonomía con 3 deepenings sustrato NA (mexico→mineria, estados-unidos→seguridad-social, canada→medio-ambiente) + 10 nodos nuevos (dominio: aviacion, maritimo, seguridad-nacional, ciberdefensa, auditoria-gubernamental; rol: vp-product, chief-commercial-officer, chief-medical-officer, vp-operations, head-of-engineering). ALCANCE respetado (sustrato = solo Norteamérica).
+- **Round 21 COMPLETA** (iter 154, 13/13): gap_analysis.py = 0 huecos → extendida taxonomía con 3 deepenings sustrato NA (mexico→finanzas-publicas, estados-unidos→finanzas-publicas, canada→finanzas-publicas) + 10 nodos nuevos (dominio: seguridad-alimentaria, derecho-penal, energia-nuclear, ciencias-materiales, derecho-ambiental; rol: ml-engineer, security-engineer, fp-and-a-manager, product-designer, account-manager). ALCANCE respetado (sustrato = solo Norteamérica).
 - **Round 18 COMPLETA** (iter 150, 13/13). **Round 19 COMPLETA** (iter 152, 13/13): gap_analysis.py = 0 huecos en taxonomía previa → extendida con 3 deepenings sustrato NA (mexico→turismo, estados-unidos→infraestructura, canada→energia) + 10 nodos nuevos (dominio: ciudades-inteligentes, healthtech, publicidad, franquicias, eventos; rol: legal-ops, head-of-facilities, head-of-public-affairs, sales-engineer, business-analyst). ALCANCE respetado (sustrato = solo Norteamérica).
 - **Siguiente paso:** ejecutar Round 19 (13 ingests en 3 bucles: LOOP 1 sustrato NA, LOOP 2 dominio x5, LOOP 3 rol x5). Cron de investigación `e273fdbbba14` sigue PAUSADO.
 
@@ -1101,6 +1102,32 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - [x] rol/vp-operations — VP of Operations (operaciones a escala, eficiencia)
 - [x] rol/head-of-engineering — Head of Engineering (managers de ingeniería, entrega)
 
+## COLA ROUND 21 (13 temas — COMPLETA ✅)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Finanzas públicas (SHCP, PEF, deuda pública ~50% PIB)
+- [x] sustrato/estados-unidos — Finanzas públicas (Treasury, deuda nacional >USD$36B, debt ceiling)
+- [x] sustrato/canada — Finanzas públicas (Dept of Finance, PBO, deuda/PIB ~30-45%)
+### Dominio (nuevos nodos)
+- [x] dominio/seguridad-alimentaria — Seguridad alimentaria (HACCP, FSMA, Codex, COFEPRIS/SENASICA)
+- [x] dominio/derecho-penal — Derecho penal (delitos, white-collar crime, responsabilidad corporativa)
+- [x] dominio/energia-nuclear — Energía nuclear (fisión, SMR, NRC/CNSC/IAEA, residuos)
+- [x] dominio/ciencias-materiales — Ciencias de materiales (metales, polímeros, compuestos, semiconductores)
+- [x] dominio/derecho-ambiental — Derecho ambiental (NEPA, LGEEPA, CEPA, ESG)
+### Rol (nuevos nodos)
+- [x] rol/ml-engineer — ML Engineer (entrena/despliega modelos en producción, MLOps)
+- [x] rol/security-engineer — Security Engineer (AppSec, cloud security, threat modeling)
+- [x] rol/fp-and-a-manager — FP&A Manager (planificación, presupuesto, forecast, variaciones)
+- [x] rol/product-designer — Product Designer / UX (diseña experiencias de producto)
+- [x] rol/account-manager — Account Manager (relación post-venta, retención, crecimiento)
+
+### [2026-07-13] Round 21 — ITER 154 | gap_analysis extendido (taxonomía Round 21) + 13 ingests COMPLETOS
+- gap_analysis.py (post-Round 20) = 0 huecos → se **EXTENDIÓ** `scripts/gap_analysis.py` (Round 21) con 3 deepenings sustrato NA (mexico→finanzas-publicas, estados-unidos→finanzas-publicas, canada→finanzas-publicas) + 10 nodos nuevos (dominio: seguridad-alimentaria, derecho-penal, energia-nuclear, ciencias-materiales, derecho-ambiental; rol: ml-engineer, security-engineer, fp-and-a-manager, product-designer, account-manager). ALCANCE respetado: sustrato = solo Norteamérica.
+- LOOP 1 (sustrato NA): `mexico/finanzas-publicas.md`, `estados-unidos/finanzas-publicas.md`, `canada/finanzas-publicas.md` (deepenings; append a index/log de nodos existentes).
+- LOOP 2 (dominio, 5 nuevos): `seguridad-alimentaria`, `derecho-penal`, `energia-nuclear`, `ciencias-materiales`, `derecho-ambiental` (superstructura completa: raw/, README, index, log).
+- LOOP 3 (rol, 5 nuevos): `ml-engineer`, `security-engineer`, `fp-and-a-manager`, `product-designer`, `account-manager` (superstructura completa).
+- Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia EN + fuentes oficiales gob/hacienda/Treasury/NRC/FDA/EPA/MRS/OWASP/NNGroup/Salesforce; sin raw/).
+- **Round 21 COMPLETA (13/13).** Temas acumulados: 341. ALCANCE sustrato = solo Norteamérica (respetado).
+
 ### [2026-07-13] Round 20 — ITER 153 | gap_analysis extendido (taxonomía Round 20) + apertura de cola
 - gap_analysis.py (post-Round 19) = 0 huecos → se **EXTENDIÓ** `scripts/gap_analysis.py` (Round 20) con 3 deepenings sustrato NA (mexico→mineria, estados-unidos→seguridad-social, canada→medio-ambiente) + 10 nodos nuevos (dominio: aviacion, maritimo, seguridad-nacional, ciberdefensa, auditoria-gubernamental; rol: vp-product, chief-commercial-officer, chief-medical-officer, vp-operations, head-of-engineering). ALCANCE respetado: sustrato = solo Norteamérica.
 - Re-ejecutado → 13 sugerencias. Abierta cola Round 20 (13 temas).
@@ -1114,4 +1141,5 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 
 ## LOG DE RONDAS
 ### [2026-07-13] Ronda 20: +13 (3 sustrato NA + 5 dominio + 5 rol); COMPLETA.
-- **Próxima tarea (iter 154):** COLA VACÍA → `python3 scripts/gap_analysis.py`; si 0 → reabastecer taxonomía (Round 21: nuevos dominio/rol + deepenings NA) o pausar hasta próximo cron.
+### [2026-07-13] Ronda 21: +13 (3 sustrato NA + 5 dominio + 5 rol); COMPLETA.
+- **Próxima tarea (iter 155):** COLA VACÍA → `python3 scripts/gap_analysis.py`; si 0 → reabastecer taxonomía (Round 22: nuevos dominio/rol + deepenings NA) o pausar hasta próximo cron.

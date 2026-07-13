@@ -41,6 +41,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [agricultura](sustrato/mexico/agricultura.md) — Agricultura México: SADER, producción agroalimentaria, seguridad alimentaria, T-MEC, riego, exportaciones · 🏷️ mexico,agricultura,sader,agroalimentario,seguridad-alimentaria,riego,exportaciones-agricolas · 📅 2026-07-12
 - [turismo](sustrato/mexico/turismo.md) — Turismo México: SECTUR, destinos, turismo de sol y playa, turismo médico, PIB ~8-9% · 🏷️ mexico,turismo,sectur,playa,turismo-medico,pib,llegadas-internacionales · 📅 2026-07-12
 - [mineria](sustrato/mexico/mineria.md) — Minería México: CAMIMEX, plata/oro/cobre, Ley Minera, PIB ~2.4% · 🏷️ mexico,mineria,camimex,plata,oro,cobre,zinc,regulacion-minera · 📅 2026-07-13
+- [finanzas-publicas](sustrato/mexico/finanzas-publicas.md) — Finanzas públicas México: SHCP, PEF, deuda pública, política fiscal · 🏷️ mexico,finanzas-publicas,shcp,presupuesto-federal,deuda-publica,politica-fiscal · 📅 2026-07-13
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -65,6 +66,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [comercio-exterior](sustrato/estados-unidos/comercio-exterior.md) — Comercio exterior EE.UU.: USTR, Sección 301, aranceles, acuerdos comerciales, nearshoring · 🏷️ eeuu,comercio-exterior,ustr,seccion-301,aranceles,acuerdos-comerciales,nearshoring · 📅 2026-07-12
 - [infraestructura](sustrato/estados-unidos/infraestructura.md) — Infraestructura EE.UU.: IIJA, DOT, carreteras, puentes, banda ancha, red eléctrica · 🏷️ eeuu,infraestructura,iija,dot,carreteras,puentes,banda-ancha,red-electrica · 📅 2026-07-12
 - [seguridad-social](sustrato/estados-unidos/seguridad-social.md) — Seguridad social EE.UU.: SSA/OASDI, Medicare, Medicaid, SSI, SNAP · 🏷️ eeuu,seguridad-social,social-security,medicare,medicaid,ssa,ssi,snap · 📅 2026-07-13
+- [finanzas-publicas](sustrato/estados-unidos/finanzas-publicas.md) — Finanzas públicas EE.UU.: Treasury, presupuesto federal, deuda nacional, techo de deuda · 🏷️ eeuu,finanzas-publicas,treasury,presupuesto-federal,deuda-nacional,debt-ceiling · 📅 2026-07-13
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -83,6 +85,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [telecomunicaciones](sustrato/canada/telecomunicaciones.md) — Telecomunicaciones Canadá: CRTC, espectro, banda ancha, Bell/Rogers/Telus, 5G · 🏷️ canada,telecomunicaciones,crtc,espectro,banda-ancha,bell,rogers,telus,5g · 📅 2026-07-12
 - [energia](sustrato/canada/energia.md) — Energía Canadá: hidroeléctrica, oil sands, gas natural, red eléctrica, NRCan, net-zero · 🏷️ canada,energia,hidroelectrica,oil-sands,gas-natural,red-electrica,nrcan,net-zero · 📅 2026-07-12
 - [medio-ambiente](sustrato/canada/medio-ambiente.md) — Medio ambiente Canadá: ECCC, cambio climático, net-zero, precio al carbono · 🏷️ canada,medio-ambiente,cambio-climatico,eccc,net-zero,politica-climatica · 📅 2026-07-13
+- [finanzas-publicas](sustrato/canada/finanzas-publicas.md) — Finanzas públicas Canadá: Dept of Finance, presupuesto federal, deuda/PIB, PBO · 🏷️ canada,finanzas-publicas,department-of-finance,presupuesto-federal,deuda-publica,pbo · 📅 2026-07-13
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -526,6 +529,21 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/auditoria-gubernamental
 - [auditoria-gubernamental](dominio/auditoria-gubernamental/auditoria-gubernamental.md) — Auditoría pública: GAO/ASF/OAG, ISSAI, rendición de cuentas · 🏷️ auditoria-publica,rendicion-cuentas,fiscalizacion,asf,gao,gasto-publico · 📅 2026-07-13
 
+### dominio/seguridad-alimentaria
+- [seguridad-alimentaria](dominio/seguridad-alimentaria/seguridad-alimentaria.md) — Seguridad alimentaria: HACCP, FSMA, Codex, COFEPRIS/SENASICA · 🏷️ seguridad-alimentaria,food-safety,haccp,fsma,codex,cofepris · 📅 2026-07-13
+
+### dominio/derecho-penal
+- [derecho-penal](dominio/derecho-penal/derecho-penal.md) — Derecho penal: delitos, white-collar crime, responsabilidad corporativa · 🏷️ derecho-penal,criminal-law,white-collar-crime,fraude,compliance-penal · 📅 2026-07-13
+
+### dominio/energia-nuclear
+- [energia-nuclear](dominio/energia-nuclear/energia-nuclear.md) — Energía nuclear: fisión, SMR, NRC/CNSC/IAEA, residuos · 🏷️ energia-nuclear,nuclear,fision,smr,nrc,cnsc,iaea · 📅 2026-07-13
+
+### dominio/ciencias-materiales
+- [ciencias-materiales](dominio/ciencias-materiales/ciencias-materiales.md) — Ciencias de materiales: metales, polímeros, compuestos, semiconductores · 🏷️ ciencias-materiales,materials-science,polimeros,compuestos,semiconductores · 📅 2026-07-13
+
+### dominio/derecho-ambiental
+- [derecho-ambiental](dominio/derecho-ambiental/derecho-ambiental.md) — Derecho ambiental: NEPA, LGEEPA, CEPA, ESG · 🏷️ derecho-ambiental,environmental-law,nepa,lgeepa,cepa,esg · 📅 2026-07-13
+
 ### rol/legal-ops
 - [legal-ops](rol/legal-ops/legal-ops.md) — Legal Operations: eBilling, proveedores, tecnología legal, gestión de contratos · 🏷️ legal-ops,operaciones-legales,ebilling,proveedores-legales,tecnologia-legal,gestion-contratos · 📅 2026-07-12
 
@@ -555,6 +573,21 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-engineering
 - [head-of-engineering](rol/head-of-engineering/head-of-engineering.md) — Head of Engineering: managers de ingeniería y entrega técnica · 🏷️ head-of-engineering,ingenieria,liderazgo,engineering-management,equipos · 📅 2026-07-13
+
+### rol/ml-engineer
+- [ml-engineer](rol/ml-engineer/ml-engineer.md) — ML Engineer: entrena/despliega modelos en producción (MLOps) · 🏷️ ml-engineer,machine-learning,mlops,data-science,produccion · 📅 2026-07-13
+
+### rol/security-engineer
+- [security-engineer](rol/security-engineer/security-engineer.md) — Security Engineer: AppSec, cloud security, threat modeling · 🏷️ security-engineer,appsec,cloud-security,threat-modeling,ciberseguridad · 📅 2026-07-13
+
+### rol/fp-and-a-manager
+- [fp-and-a-manager](rol/fp-and-a-manager/fp-and-a-manager.md) — FP&A Manager: planificación, presupuesto, forecast, análisis de variaciones · 🏷️ fp-and-a-manager,fpa,planificacion-financiera,presupuesto,forecast,analisis-financiero · 📅 2026-07-13
+
+### rol/product-designer
+- [product-designer](rol/product-designer/product-designer.md) — Product Designer / UX: diseña experiencias de producto · 🏷️ product-designer,ux,user-experience,diseno-producto,figma · 📅 2026-07-13
+
+### rol/account-manager
+- [account-manager](rol/account-manager/account-manager.md) — Account Manager: relación post-venta, retención, crecimiento de cuenta · 🏷️ account-manager,key-account,retencion,renewals,ventas · 📅 2026-07-13
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

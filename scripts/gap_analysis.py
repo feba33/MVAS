@@ -42,6 +42,7 @@ TAXONOMY = {
         ("agricultura", "Agricultura México: SADER, sector agroalimentario, autosuficiencia, tratados, cadena de valor"),
         ("turismo", "Turismo México: SECTUR, destinos, turismo de sol y playa, turismo médico, contribución al PIB"),
         ("mineria", "Minería México: CAMIMEX, plata/oro/cobre, regulación minera, contribución al PIB"),
+        ("finanzas-publicas", "Finanzas públicas México: SHCP, Presupuesto de Egresos, deuda pública, política fiscal"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -60,6 +61,7 @@ TAXONOMY = {
         ("comercio-exterior", "Comercio exterior EE.UU.: USTR, política comercial, aranceles, USMCA, Sección 301/232"),
         ("infraestructura", "Infraestructura EE.UU.: IIJA, DOT, carreteras, puentes, banda ancha, red eléctrica"),
         ("seguridad-social", "Seguridad social EE.UU.: SSA, Social Security, Medicare, Medicaid, SSI, SNAP"),
+        ("finanzas-publicas", "Finanzas públicas EE.UU.: Treasury, presupuesto federal, deuda nacional, debt ceiling"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -78,6 +80,7 @@ TAXONOMY = {
         ("telecomunicaciones", "Telecomunicaciones Canadá: CRTC, Bell/Rogers/Telus, 5G, espectro, competencia"),
         ("energia", "Energía Canadá: hidroeléctrica, oil sands, gas, red eléctrica, NRCan, transición energética"),
         ("medio-ambiente", "Medio ambiente Canadá: Environment and Climate Change Canada (ECCC), climate change, net-zero, regulación"),
+        ("finanzas-publicas", "Finanzas públicas Canadá: Department of Finance, presupuesto federal, deuda/PIB, PBO"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -336,6 +339,17 @@ NEW_NODES = [
     ("rol/chief-medical-officer", "Chief Medical Officer — liderazgo clínico/médico (salud/biotech); distinto de CMO de marketing"),
     ("rol/vp-operations", "VP of Operations — escala la función de operaciones; vs COO"),
     ("rol/head-of-engineering", "Head of Engineering — dirige managers de ingeniería; vs VP Eng y CTO"),
+    # Round 21 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings finanzas-públicas MX/US/CA; dominio/rol generales).
+    ("dominio/seguridad-alimentaria", "Seguridad alimentaria: HACCP, FSMA, Codex, COFEPRIS/SENASICA"),
+    ("dominio/derecho-penal", "Derecho penal: delitos, white-collar crime, responsabilidad corporativa"),
+    ("dominio/energia-nuclear", "Energía nuclear: fisión, SMR, NRC/CNSC/IAEA, residuos"),
+    ("dominio/ciencias-materiales", "Ciencias de materiales: metales, polímeros, compuestos, semiconductores"),
+    ("dominio/derecho-ambiental", "Derecho ambiental: NEPA, LGEEPA, CEPA, ESG"),
+    ("rol/ml-engineer", "ML Engineer: entrena/despliega modelos en producción (MLOps)"),
+    ("rol/security-engineer", "Security Engineer: AppSec, cloud security, threat modeling"),
+    ("rol/fp-and-a-manager", "FP&A Manager: planificación, presupuesto, forecast, análisis de variaciones"),
+    ("rol/product-designer", "Product Designer / UX: diseña experiencias de producto"),
+    ("rol/account-manager", "Account Manager: relación post-venta, retención, crecimiento de cuenta"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

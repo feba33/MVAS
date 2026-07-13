@@ -129,3 +129,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Minería México (SGM, CAMIMEX)
 - Fuentes: Wikipedia (en) — Mining in Mexico; gob.mx/SGM — reference-only.
 - Página: `mineria.md`. Sector estratégico (2.4% PIB 2023, ~350k empleos); mayor productor mundial de plata; CAMIMEX; Ley Minera (concesiones 50 años); mayoría capital extranjero; reforma 2023 prioriza interés nacional; litio reservado al Estado. Cross-ref sustrato/mexico/energia, dominio/mineria, sustrato/canada/recursos-naturales.
+
+## [2026-07-13] ingest | Finanzas públicas de México (SHCP, PEF)
+- Fuentes: Wikipedia EN — Secretariat of Finance and Public Credit; gob.mx/hacienda (reference-only; sin raw/).
+- Página: `finanzas-publicas.md`. SHCP, Presupuesto de Egresos de la Federación (PEF), deuda pública ~50% PIB, carga tributaria baja (~13-14% PIB). Cross-ref sustrato/mexico/sat, sustrato/mexico/regimen-fiscal, dominio/finanzas-publicas.

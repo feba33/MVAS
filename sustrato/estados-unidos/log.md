@@ -101,4 +101,8 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 
 ## [2026-07-13] ingest | Seguridad social EE.UU. (SSA, Medicare, Medicaid)
 - Fuentes: SSA.gov; Wikipedia (en) — Social Security (United States), Medicare, Medicaid — reference-only.
-- Página: `seguridad-social.md`. OASDI (Social Security Act 1935, FICA/SECA), Medicare (65+), Medicaid (bajos ingresos, expandido por ACA), SSI, SNAP; Trust Funds con agotamiento proyectado ~2033-2035. Cross-ref salud, irs, politica-monetaria, dominio/salud, dominio/finanzas-publicas.
+- Página: `seguridad-social.md`. OASDI (Social Security Act 1935, FICA/SECA), Medicare (65+), Medicaid (bajos ingresos, expandido por ACA), SSI, SNAP; Trust Funds con agotamiento proyectado ~2033-2035. Cross-ref salud, irs, politica-monetaria, dominio/finanzas-publicas.
+
+## [2026-07-13] ingest | Finanzas públicas de EE.UU. (Treasury)
+- Fuentes: Wikipedia EN — United States Department of the Treasury; fiscal.treasury.gov (reference-only; sin raw/).
+- Página: `finanzas-publicas.md`. Treasury, presupuesto federal, déficit estructural, deuda nacional >USD$36B, debt ceiling, gasto mandatorio (entitlements). Cross-ref sustrato/estados-unidos/seguridad-social, sustrato/estados-unidos/politica-monetaria, dominio/finanzas-publicas.
