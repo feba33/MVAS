@@ -45,6 +45,8 @@ TAXONOMY = {
         ("finanzas-publicas", "Finanzas públicas México: SHCP, Presupuesto de Egresos, deuda pública, política fiscal"),
         # Round 22 — deepening NA (propiedad intelectual por país).
         ("propiedad-intelectual", "Propiedad intelectual México: IMPI, Ley Federal del Derecho de Autor, patentes/marcas, tratados"),
+        # Round 23 — deepening NA (salud por país).
+        ("salud", "Salud / sistema de salud México: Secretaría de Salud, IMSS/INSABI, Cofepris, seguro popular, cobertura"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -66,6 +68,8 @@ TAXONOMY = {
         ("finanzas-publicas", "Finanzas públicas EE.UU.: Treasury, presupuesto federal, deuda nacional, debt ceiling"),
         # Round 22 — deepening NA (propiedad intelectual por país).
         ("propiedad-intelectual", "Propiedad intelectual EE.UU.: USPTO, Patent Act, America Invents Act, US Copyright Office"),
+        # Round 23 — deepening NA (telecomunicaciones por país).
+        ("telecomunicaciones", "Telecomunicaciones EE.UU.: FCC, banda ancha, 5G, espectro, competencia, net neutrality"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -87,6 +91,8 @@ TAXONOMY = {
         ("finanzas-publicas", "Finanzas públicas Canadá: Department of Finance, presupuesto federal, deuda/PIB, PBO"),
         # Round 22 — deepening NA (propiedad intelectual por país).
         ("propiedad-intelectual", "Propiedad intelectual Canadá: CIPO, Patent Act, Trade-marks Act, Copyright Act"),
+        # Round 23 — deepening NA (agricultura por país).
+        ("agricultura", "Agricultura Canadá: Agriculture and Agri-Food Canada (AAFC), supply management, granos, ganadería"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -367,6 +373,17 @@ NEW_NODES = [
     ("rol/staff-engineer", "Staff/Principal Engineer: ladder IC senior, arquitectura técnica, influencia sin autoridad"),
     ("rol/delivery-manager", "Delivery Manager: entrega de servicios/proyectos, calidad y satisfacción del cliente, operación"),
     ("rol/engagement-manager", "Engagement Manager: consultoría, cuenta + entrega, equipo y margen del proyecto"),
+    # Round 23 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings salud MX, telecom US, agricultura CA; dominio/rol generales).
+    ("dominio/dispositivos-medicos", "Dispositivos médicos: regulación FDA 510(k)/PMA, COFEPRIS, Health Canada, MDR UE, calidad/QA"),
+    ("dominio/computacion-cuantica", "Computación cuántica: qubits (supuesta/fotónica/iones atrapados), algoritmos, ventajas, casos empresariales"),
+    ("dominio/investigacion-operaciones", "Investigación de operaciones (OR): optimización, programación lineal/entera, teoría de colas, simulación, cadena"),
+    ("dominio/teoria-de-juegos", "Teoría de juegos: decisiones estratégicas, equilibrio de Nash, dilema del prisionero, subastas, aplicaciones de negocio"),
+    ("dominio/gobierno-de-ti", "Gobierno de TI: COBIT, alineación TI-negocio, gestión de riesgo de TI, comités, value of IT"),
+    ("rol/platform-engineer", "Platform Engineer — construye plataformas internas, golden paths, DevEx; vs SRE/DevOps"),
+    ("rol/cloud-architect", "Cloud Architect — diseña arquitecturas cloud (IaaS/PaaS), multi-cloud, well-architected, costo/seguridad"),
+    ("rol/research-scientist", "Research Scientist — investigación aplicada/básica, publicación, transferencia a producto, R&D"),
+    ("rol/technical-program-manager", "Technical Program Manager (TPM) — coordina programas técnicos cross-funcionales, planning, riesgos"),
+    ("rol/community-manager", "Community Manager — gestiona comunidad de usuarios/marca, redes sociales, advocacia, eventos"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}
