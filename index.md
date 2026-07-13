@@ -634,5 +634,16 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol/engagement-manager
 - [engagement-manager](rol/engagement-manager/engagement-manager.md) — Engagement Manager: consultoría, dueño de la cuenta/engagement, equipo y margen · 🏷️ engagement-manager,consultoria,account-management,margen,equipo · 📅 2026-07-13
 
+### rol/platform-engineer
+- [platform-engineer](rol/platform-engineer/platform-engineer.md) — Platform Engineer: plataformas internas, golden paths, Developer Experience (IDP) · 🏷️ platform-engineer,plataforma-interna,devops,developer-experience,golden-paths · 📅 2026-07-13
+### rol/cloud-architect
+- [cloud-architect](rol/cloud-architect/cloud-architect.md) — Cloud Architect: arquitecturas cloud, multi-cloud, well-architected, costos/FinOps · 🏷️ cloud-architect,arquitectura-cloud,multi-cloud,well-architected,costos · 📅 2026-07-13
+### rol/research-scientist
+- [research-scientist](rol/research-scientist/research-scientist.md) — Research Scientist: R&D, publicación, ciencia aplicada/básica, transferencia · 🏷️ research-scientist,investigacion,rd,publicacion,ciencia · 📅 2026-07-13
+### rol/technical-program-manager
+- [technical-program-manager](rol/technical-program-manager/technical-program-manager.md) — Technical Program Manager (TPM): programas técnicos cross-funcionales, entrega, riesgo · 🏷️ technical-program-manager,tpm,programas,entrega-cross-funcional,riesgo · 📅 2026-07-13
+### rol/community-manager
+- [community-manager](rol/community-manager/community-manager.md) — Community Manager: comunidad, redes sociales, advocacía de marca, engagement · 🏷️ community-manager,comunidad,redes-sociales,advocacia,engagement · 📅 2026-07-13
+
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

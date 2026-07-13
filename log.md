@@ -523,6 +523,14 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - dominio/teoria-de-juegos.md (Nash, subastas, negocio).
 - dominio/gobierno-de-ti.md (COBIT, alineación TI-negocio).
 - Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (FDA/COFEPRIS/Health Canada/Wikipedia/ISACA/INFORMS; sin raw/).
+
+## [2026-07-13] ingest | Round 23 — LOOP 3 (rol x5 ingest COMPLETOS)
+- rol/platform-engineer.md (IDP, golden paths, DevEx).
+- rol/cloud-architect.md (arquitecturas cloud, well-architected, FinOps).
+- rol/research-scientist.md (R&D, publicación, transferencia).
+- rol/technical-program-manager.md (TPM, programas cross-funcionales).
+- rol/community-manager.md (comunidad, redes sociales, advocacía).
+- Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia/Backstage/AWS/Nature/Hootsuite; sin raw/).
 - 3 → sustrato (deepenings NA, solo Norteamérica):
   - `sustrato/mexico/propiedad-intelectual.md` — IMPI (Ley 27/2020), INDAUTOR, T-MEC cap.20.
   - `sustrato/estados-unidos/propiedad-intelectual.md` — USPTO, AIA 2011, US Copyright Office, Lanham Act.
