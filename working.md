@@ -1291,45 +1291,49 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia EN + fuentes oficiales gob/oaj.gob.mx/justiciaabierta/uscourts.gov/scc-csc.ca; sin raw/). México poder-judicial usa fuentes vivas de la reforma 2024-2025.
 - **Round 26 COMPLETA (13/13).** Temas acumulados: 406. ALCANCE sustrato = solo Norteamérica (respetado).
 
-## COLA ROUND 27 (gap_analysis.py iter 162 → taxonomía extendida; sustrato solo NA) — EN CURSO
+## COLA ROUND 27 (gap_analysis.py iter 162 → taxonomía extendida; sustrato solo NA) — COMPLETA ✅
 ### Sustrato (deepening nodos NA existentes)
-- [ ] sustrato/mexico — Relaciones exteriores (SRE, política exterior, diplomacia, tratados)
-- [ ] sustrato/estados-unidos — Seguridad nacional (DHS, FBI, inteligencia, homeland security)
-- [ ] sustrato/canada — Ciencia e innovación (NRC, ISED, políticas de CTI)
+- [x] sustrato/mexico — Relaciones exteriores (SRE, política exterior, diplomacia, tratados)
+- [x] sustrato/estados-unidos — Seguridad nacional (DHS, FBI, inteligencia, homeland security)
+- [x] sustrato/canada — Ciencia e innovación (NRC, ISED, políticas de CTI)
 ### Dominio (nuevos nodos)
-- [ ] dominio/electromovilidad — Electromovilidad (EV, baterías, carga, V2G)
-- [ ] dominio/comercio-electronico — Comercio electrónico / e-commerce
-- [ ] dominio/outsourcing — Outsourcing / offshoring (BPO, nearshoring)
-- [ ] dominio/gobierno-abierto — Gobierno abierto (transparencia, datos abiertos)
-- [ ] dominio/economia-comportamental — Economía conductual / behavioral economics
+- [x] dominio/electromovilidad — Electromovilidad (EV, baterías, carga, V2G)
+- [x] dominio/comercio-electronico — Comercio electrónico / e-commerce
+- [x] dominio/outsourcing — Outsourcing / offshoring (BPO, nearshoring)
+- [x] dominio/gobierno-abierto — Gobierno abierto (transparencia, datos abiertos)
+- [x] dominio/economia-comportamental — Economía conductual / behavioral economics
 ### Rol (nuevos nodos)
-- [ ] rol/technical-writer — Technical Writer (documentación)
-- [ ] rol/portfolio-manager — Portfolio Manager (carteras de inversión)
-- [ ] rol/change-manager — Change Manager (gestión del cambio)
-- [ ] rol/benefits-manager — Benefits Manager (beneficios/compensación)
-- [ ] rol/consultor — Consultor / Management Consultant
+- [x] rol/technical-writer — Technical Writer (documentación)
+- [x] rol/portfolio-manager — Portfolio Manager (carteras de inversión)
+- [x] rol/change-manager — Change Manager (gestión del cambio)
+- [x] rol/benefits-manager — Benefits Manager (beneficios/compensación)
+- [x] rol/consultor — Consultor / Management Consultant
 
 ### [2026-07-13] Round 27 — ITER 162 | gap_analysis extendido (taxonomía Round 27) + apertura de cola
 - gap_analysis.py (post-Round 26) = 0 huecos → se **EXTENDIÓ** `scripts/gap_analysis.py` (Round 27) con 3 deepenings sustrato NA (mexico→relaciones-exteriores, estados-unidos→seguridad-nacional, canada→ciencia-e-innovacion) + 10 nodos nuevos (dominio: electromovilidad, comercio-electronico, outsourcing, gobierno-abierto, economia-comportamental; rol: technical-writer, portfolio-manager, change-manager, benefits-manager, consultor). ALCANCE respetado: sustrato = solo Norteamérica.
 - Re-ejecutado → 13 sugerencias (3 sustrato + 10 nuevos). Abierta cola Round 27 (13 temas).
-- **Próxima tarea (iter 162):** LOOP 1 (sustrato NA) — relaciones-exteriores, seguridad-nacional, ciencia-e-innovacion; luego LOOP 2 (dominio x5), LOOP 3 (rol x5).
+### [2026-07-13] Round 27 — ITER 162 | 13 ingests COMPLETOS (3 sustrato NA + 5 dominio + 5 rol)
+- 3 → sustrato (deepenings NA): `relaciones-exteriores` (MX/SRE), `seguridad-nacional` (US/DHS-FBI-IC), `ciencia-e-innovacion` (CA/NRC-ISED).
+- 5 → dominio (nuevos): `electromovilidad`, `comercio-electronico`, `outsourcing`, `gobierno-abierto`, `economia-comportamental`.
+- 5 → rol (nuevos): `technical-writer`, `portfolio-manager`, `change-manager`, `benefits-manager`, `consultor`.
+- Superstructura recursiva completa (raw/, README, index, log) en los 10 nodos nuevos + 3 páginas sustrato. Reference-only (Wikipedia EN + fuentes oficiales; sin raw/).
+- **Round 27 COMPLETA (13/13).** ALCANCE sustrato = solo Norteamérica (respetado).
 
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-- **Tópicos ingeridos (acumulado): 406** (post-Round 26; Round 27 EN CURSO — 0/13 ingestados aún)
-- **Rondas:** 26 completas + Round 27 EN CURSO.
-- **Nodos sustrato (NA):** México 49, EE.UU. 38, Canadá 32. Deepenings NA en curso (Round 27).
-- **Nodos dominio:** ~75 → ~80 (Round 27 +5 nuevos previstos).
-- **Nodos rol:** ~65 → ~70 (Round 27 +5 nuevos previstos).
+- **Tópicos ingeridos (acumulado): 419** (Round 27: +13 = 3 deepenings NA + 5 dominio + 5 rol)
+- **Rondas:** 27 completas (Round 1..27), cada una +13 ingests.
+- **Nodos sustrato (NA):** México 50 (+relaciones-exteriores), EE.UU. 39 (+seguridad-nacional), Canadá 33 (+ciencia-e-innovacion). Deepenings NA completas.
+- **Nodos dominio:** ~80 (Round 27 +5 nuevos).
+- **Nodos rol:** ~70 (Round 27 +5 nuevos).
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
 
 ## 🚦 ESTADO
-- **Iteración actual:** 162 (Round 27 EN CURSO — 0/13 ingestados).
-- **Última acción:** gap_analysis.py extendido (Round 27) + cola abierta.
+- **Iteración actual:** 162 (Round 27 COMPLETA).
+- **Última acción:** 13 ingests (3 sustrato NA + 5 dominio + 5 rol).
 - **Bloqueos:** ninguno.
-- **Cola:** Round 27 ABIERTA (13 temas pending).
+- **Cola:** Round 27 COMPLETA (13/13). Siguiente: gap_analysis re-extend para Round 28 o reabastecer.
 
 ## ▶️ PRÓXIMA TAREA
-- Ejecutar LOOP 1 (sustrato NA): sustrato/mexico/relaciones-exteriores, sustrato/estados-unidos/seguridad-nacional, sustrato/canada/ciencia-e-innovacion.
-- Luego LOOP 2 (dominio x5) y LOOP 3 (rol x5). Marcar cola Round 27 [x], actualizar progreso, commit+push.
-- ALCANCE sustrato = solo Norteamérica (MX/US/CA) se mantiene.
+- `python3 scripts/gap_analysis.py`; si 0 huecos → reabastecer taxonomía (Round 28: nuevos dominio/rol + deepenings NA) y continuar el ciclo; si hay sugerencias → ingerirlas.
+- ALCANCE sustrato = solo Norteamérica (MX/US/CA) se mantiene salvo indicación contraria.
