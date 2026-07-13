@@ -540,3 +540,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales gob/IMPI/USPTO/CIPO/OCDE/INCOSE/ACFE/staffeng; sin raw/).
 - Round 22 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
 
+## [2026-07-13] ingest | Round 24 — 13 ingests COMPLETOS (3 sustrato NA + 5 dominio + 5 rol)
+- 3 → sustrato (deepenings NA, solo Norteamérica):
+  - `sustrato/mexico/politica-monetaria.md` — Banxico: autonomía 1993, meta 3%±1pp, tasa objetivo, Junta de Gobierno.
+  - `sustrato/estados-unidos/medio-ambiente.md` — EPA, CAA/CWA/NEPA, regulación de GEI.
+  - `sustrato/canada/defensa.md` — DND/CAF, NORAD, OTAN, procurement.
+- 5 → dominio (nuevos): `derecho-administrativo`, `control-interno`, `seguridad-y-salud-ocupacional`, `proteccion-de-datos`, `gestion-de-activos`.
+- 5 → rol (nuevos): `vp-finance`, `devops-engineer`, `supply-chain-manager`, `hr-business-partner`, `channel-manager`.
+- Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales gob/banxico.org.mx/epa.gov/canada.ca/COSO/ISO/OSHA/GDPR; sin raw/).
+- Round 24 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
+

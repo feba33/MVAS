@@ -114,3 +114,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 - Fuentes: fcc.gov; digital-strategy.ec.europa.eu (C-band 5G 2026); Wikipedia EN — Telecommunications in the United States (reference-only; sin raw/).
 - Página: `telecomunicaciones.md`. FCC, banda ancha, 5G/C-band, espectro, net neutrality. Cross-ref sustrato/mexico/telecomunicaciones, sustrato/canada/telecomunicaciones, dominio/ciberseguridad.
 - Página: `propiedad-intelectual.md`. USPTO (patentes/marcas), US Copyright Office (Biblioteca del Congreso); Patent Act 1952 + AIA 2011 (first-inventor-to-file, IPR); Lanham Act (marcas); Copyright Act 1976 (fair use). Cross-ref dominio/propiedad-intelectual, sustrato/estados-unidos/sector-tecnologia.
+
+## [2026-07-13] ingest | Medio ambiente EE.UU. (EPA)
+- Fuentes: epa.gov (Laws and Executive Orders; NEPA); Wikipedia EN (reference-only; sin raw/).
+- Página: `medio-ambiente.md`. EPA (1970); CAA/CWA/SDWA/RCRA/CERCLA/TSCA; NEPA (EIS, CEQ); regulación de GEI; estándares estatales (CARB). Cross-ref sustrato/mexico/medio-ambiente, sustrato/canada/medio-ambiente, dominio/derecho-ambiental, dominio/energias-renovables.

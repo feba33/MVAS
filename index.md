@@ -44,6 +44,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [finanzas-publicas](sustrato/mexico/finanzas-publicas.md) — Finanzas públicas México: SHCP, PEF, deuda pública, política fiscal · 🏷️ mexico,finanzas-publicas,shcp,presupuesto-federal,deuda-publica,politica-fiscal · 📅 2026-07-13
 - [propiedad-intelectual](sustrato/mexico/propiedad-intelectual.md) — Propiedad intelectual México: IMPI, LPI (Ley 27/2020), derechos de autor, T-MEC cap.20 · 🏷️ mexico,propiedad-intelectual,impi,patentes,marcas,derechos-de-autor · 📅 2026-07-13
 - [salud](sustrato/mexico/salud.md) — Salud/sistema de salud México: Secretaría de Salud, IMSS/IMSS-Bienestar, ISSSTE, Cofepris · 🏷️ mexico,salud,sistema-de-salud,secretaria-de-salud,imss,issste,cofepris,seguro-popular · 📅 2026-07-13
+- [politica-monetaria](sustrato/mexico/politica-monetaria.md) — Política monetaria México: Banxico, tasa objetivo, meta 3%, Junta de Gobierno · 🏷️ mexico,politica-monetaria,banxico,inflacion,tasa-de-interes,banco-central · 📅 2026-07-13
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -71,6 +72,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [finanzas-publicas](sustrato/estados-unidos/finanzas-publicas.md) — Finanzas públicas EE.UU.: Treasury, presupuesto federal, deuda nacional, techo de deuda · 🏷️ eeuu,finanzas-publicas,treasury,presupuesto-federal,deuda-nacional,debt-ceiling · 📅 2026-07-13
 - [propiedad-intelectual](sustrato/estados-unidos/propiedad-intelectual.md) — Propiedad intelectual EE.UU.: USPTO, AIA 2011, US Copyright Office, Lanham Act · 🏷️ eeuu,propiedad-intelectual,uspto,patentes,marcas,derechos-de-autor · 📅 2026-07-13
 - [telecomunicaciones](sustrato/estados-unidos/telecomunicaciones.md) — Telecomunicaciones EE.UU.: FCC, banda ancha, 5G, espectro, subastas, net neutrality · 🏷️ eeuu,telecomunicaciones,fcc,banda-ancha,5g,espectro,subastas · 📅 2026-07-13
+- [medio-ambiente](sustrato/estados-unidos/medio-ambiente.md) — Medio ambiente EE.UU.: EPA, Clean Air/Water Act, NEPA, cambio climático · 🏷️ eeuu,medio-ambiente,epa,clean-air-act,clean-water-act,nepa,cambio-climatico · 📅 2026-07-13
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -92,6 +94,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [finanzas-publicas](sustrato/canada/finanzas-publicas.md) — Finanzas públicas Canadá: Dept of Finance, presupuesto federal, deuda/PIB, PBO · 🏷️ canada,finanzas-publicas,department-of-finance,presupuesto-federal,deuda-publica,pbo · 📅 2026-07-13
 - [propiedad-intelectual](sustrato/canada/propiedad-intelectual.md) — Propiedad intelectual Canadá: CIPO/ISED, Patent Act, Trade-marks Act, Copyright Act · 🏷️ canada,propiedad-intelectual,cipo,patentes,marcas,derechos-de-autor · 📅 2026-07-13
 - [agricultura](sustrato/canada/agricultura.md) — Agricultura Canadá: AAFC, supply management (lácteos/aves/huevos), granos, CUSMA/CETA/CPTPP · 🏷️ canada,agricultura,agri-food,aafc,supply-management,granos,tratados-comerciales · 📅 2026-07-13
+- [defensa](sustrato/canada/defensa.md) — Defensa Canadá: DND/CAF, NORAD, OTAN, procurement · 🏷️ canada,defensa,dnd,caf,norad,otan,procurement · 📅 2026-07-13
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -644,6 +647,36 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [technical-program-manager](rol/technical-program-manager/technical-program-manager.md) — Technical Program Manager (TPM): programas técnicos cross-funcionales, entrega, riesgo · 🏷️ technical-program-manager,tpm,programas,entrega-cross-funcional,riesgo · 📅 2026-07-13
 ### rol/community-manager
 - [community-manager](rol/community-manager/community-manager.md) — Community Manager: comunidad, redes sociales, advocacía de marca, engagement · 🏷️ community-manager,comunidad,redes-sociales,advocacia,engagement · 📅 2026-07-13
+
+### dominio/derecho-administrativo
+- [derecho-administrativo](dominio/derecho-administrativo/derecho-administrativo.md) — Derecho administrativo: permisos, licencias, procedimientos, sanciones, revisión judicial · 🏷️ derecho-administrativo,regulatory-law,permisos,licencias,sanciones,revicion-judicial · 📅 2026-07-13
+
+### dominio/control-interno
+- [control-interno](dominio/control-interno/control-interno.md) — Control interno: COSO 2013, ICFR, SOX 404, monitoreo, aseguramiento de operaciones · 🏷️ control-interno,coso,icfr,sox-404,auditoria,riesgo,gobierno · 📅 2026-07-13
+
+### dominio/seguridad-y-salud-ocupacional
+- [seguridad-y-salud-ocupacional](dominio/seguridad-y-salud-ocupacional/seguridad-y-salud-ocupacional.md) — Seguridad y salud ocupacional: ISO 45001, OSHA/CSST, prevención de riesgos, bienestar laboral · 🏷️ ohs,seguridad-laboral,salud-ocupacional,iso-45001,osha,prevencion-riesgos,bienestar · 📅 2026-07-13
+
+### dominio/proteccion-de-datos
+- [proteccion-de-datos](dominio/proteccion-de-datos/proteccion-de-datos.md) — Protección de datos/privacidad transversal: GDPR/CCPA/CPRA/LGPD/PIPL, derechos ARCO, privacy by design · 🏷️ proteccion-de-datos,privacidad,gdpr,ccpa,cpra,lgpd,pipl,privacy-by-design · 📅 2026-07-13
+
+### dominio/gestion-de-activos
+- [gestion-de-activos](dominio/gestion-de-activos/gestion-de-activos.md) — Gestión de activos: fondos, AUM, gestión de inversión, industria financiera · 🏷️ gestion-de-activos,asset-management,wealth-management,fondos,aum,inversion · 📅 2026-07-13
+
+### rol/vp-finance
+- [vp-finance](rol/vp-finance/vp-finance.md) — VP of Finance: reporta al CFO, lidera FP&A/controller/treasury, planeación financiera · 🏷️ vp-finance,finanzas,fp-and-a,controller,treasurer,cfo,planeacion-financiera · 📅 2026-07-13
+
+### rol/devops-engineer
+- [devops-engineer](rol/devops-engineer/devops-engineer.md) — DevOps Engineer: CI/CD, infraestructura como código, pipelines, observabilidad, colaboración Dev+Ops · 🏷️ devops,ci-cd,infraestructura-como-codigo,pipelines,observabilidad,sre,plataforma · 📅 2026-07-13
+
+### rol/supply-chain-manager
+- [supply-chain-manager](rol/supply-chain-manager/supply-chain-manager.md) — Supply Chain Manager: planificación de demanda/oferta, sourcing, logística, inventario, resiliencia · 🏷️ supply-chain,cadena-de-suministro,procurement,logistica,inventario,resiliencia · 📅 2026-07-13
+
+### rol/hr-business-partner
+- [hr-business-partner](rol/hr-business-partner/hr-business-partner.md) — HR Business Partner: socio de negocio de RRHH por unidad, people analytics, talento, cultura · 🏷️ hrbp,recursos-humanos,people-analytics,talento,cultura,partner · 📅 2026-07-13
+
+### rol/channel-manager
+- [channel-manager](rol/channel-manager/channel-manager.md) — Channel Manager: gestión de canales de venta (partner/reseller/distributor), ecología de canal, incentivos · 🏷️ channel-manager,canales-de-venta,partner,reseller,distribuidor,incentivos · 📅 2026-07-13
 
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09

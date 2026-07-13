@@ -141,3 +141,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 - Fuentes: gob.mx/salud; gob.mx/insabi; Cofepris (reference-only; sin raw/).
 - Página: `salud.md`. Ssa, IMSS, ISSSTE, INSABI→IMSS-Bienestar, Cofepris. Cross-ref sustrato/mexico/seguridad-social, dominio/salud, dominio/farmaceutica, dominio/dispositivos-medicos.
 - Página: `propiedad-intelectual.md`. IMPI (SE/Economía) registra patentes/marcas/secretos industriales; INDAUTOR (SEP) los derechos de autor; LPI "Ley 27" (2020) y LFDA; T-MEC cap.20. Cross-ref dominio/propiedad-intelectual, sustrato/mexico/inversion-extranjera.
+
+## [2026-07-13] ingest | Política monetaria México (Banxico)
+- Fuentes: banxico.org.mx (anuncios de política monetaria, Programa Monetario 2026); El Universal (reference-only; sin raw/).
+- Página: `politica-monetaria.md`. Banxico (autonomía constitucional 1993), mandato de estabilidad de precios; meta 3% ±1pp; tasa objetivo (interbancaria a 1 día); Junta de Gobierno (5); ciclo de flexibilización 2024–2026. Cross-ref sustrato/estados-unidos/politica-monetaria, sustrato/canada/politica-monetaria, dominio/finanzas, sustrato/mexico/finanzas-publicas.

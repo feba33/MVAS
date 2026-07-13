@@ -91,3 +91,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 - Fuentes: agriculture.canada.ca; Wikipedia EN — Agriculture in Canada (reference-only; sin raw/).
 - Página: `agricultura.md`. AAFC, supply management (lácteos/aves/huevos), granos, CUSMA/CETA/CPTPP. Cross-ref sustrato/mexico/agricultura, sustrato/estados-unidos/agricultura, dominio/agronegocios.
 - Página: `propiedad-intelectual.md`. CIPO (ISED): Patent Act, Trade-marks Act (reforma 2019, Protocolo de Madrid), Copyright Act (vida+50). Cross-ref dominio/propiedad-intelectual, sustrato/canada/recursos-naturales.
+
+## [2026-07-13] ingest | Defensa Canadá (DND/CAF, NORAD)
+- Fuentes: canada.ca (National Defence); Wikipedia EN — Canadian Armed Forces (reference-only; sin raw/).
+- Página: `defensa.md`. DND/CAF (fuerza unificada 1968); NORAD (binacional 1958); OTAN; política "Strong, Secure, Engaged" (2017); procurement (F-35, fragatas). Cross-ref sustrato/estados-unidos/defensa, dominio/defensa-seguridad, dominio/aeroespacial.
