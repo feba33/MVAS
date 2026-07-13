@@ -43,6 +43,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [mineria](sustrato/mexico/mineria.md) — Minería México: CAMIMEX, plata/oro/cobre, Ley Minera, PIB ~2.4% · 🏷️ mexico,mineria,camimex,plata,oro,cobre,zinc,regulacion-minera · 📅 2026-07-13
 - [finanzas-publicas](sustrato/mexico/finanzas-publicas.md) — Finanzas públicas México: SHCP, PEF, deuda pública, política fiscal · 🏷️ mexico,finanzas-publicas,shcp,presupuesto-federal,deuda-publica,politica-fiscal · 📅 2026-07-13
 - [propiedad-intelectual](sustrato/mexico/propiedad-intelectual.md) — Propiedad intelectual México: IMPI, LPI (Ley 27/2020), derechos de autor, T-MEC cap.20 · 🏷️ mexico,propiedad-intelectual,impi,patentes,marcas,derechos-de-autor · 📅 2026-07-13
+- [salud](sustrato/mexico/salud.md) — Salud/sistema de salud México: Secretaría de Salud, IMSS/IMSS-Bienestar, ISSSTE, Cofepris · 🏷️ mexico,salud,sistema-de-salud,secretaria-de-salud,imss,issste,cofepris,seguro-popular · 📅 2026-07-13
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -69,6 +70,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [seguridad-social](sustrato/estados-unidos/seguridad-social.md) — Seguridad social EE.UU.: SSA/OASDI, Medicare, Medicaid, SSI, SNAP · 🏷️ eeuu,seguridad-social,social-security,medicare,medicaid,ssa,ssi,snap · 📅 2026-07-13
 - [finanzas-publicas](sustrato/estados-unidos/finanzas-publicas.md) — Finanzas públicas EE.UU.: Treasury, presupuesto federal, deuda nacional, techo de deuda · 🏷️ eeuu,finanzas-publicas,treasury,presupuesto-federal,deuda-nacional,debt-ceiling · 📅 2026-07-13
 - [propiedad-intelectual](sustrato/estados-unidos/propiedad-intelectual.md) — Propiedad intelectual EE.UU.: USPTO, AIA 2011, US Copyright Office, Lanham Act · 🏷️ eeuu,propiedad-intelectual,uspto,patentes,marcas,derechos-de-autor · 📅 2026-07-13
+- [telecomunicaciones](sustrato/estados-unidos/telecomunicaciones.md) — Telecomunicaciones EE.UU.: FCC, banda ancha, 5G, espectro, subastas, net neutrality · 🏷️ eeuu,telecomunicaciones,fcc,banda-ancha,5g,espectro,subastas · 📅 2026-07-13
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -89,6 +91,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [medio-ambiente](sustrato/canada/medio-ambiente.md) — Medio ambiente Canadá: ECCC, cambio climático, net-zero, precio al carbono · 🏷️ canada,medio-ambiente,cambio-climatico,eccc,net-zero,politica-climatica · 📅 2026-07-13
 - [finanzas-publicas](sustrato/canada/finanzas-publicas.md) — Finanzas públicas Canadá: Dept of Finance, presupuesto federal, deuda/PIB, PBO · 🏷️ canada,finanzas-publicas,department-of-finance,presupuesto-federal,deuda-publica,pbo · 📅 2026-07-13
 - [propiedad-intelectual](sustrato/canada/propiedad-intelectual.md) — Propiedad intelectual Canadá: CIPO/ISED, Patent Act, Trade-marks Act, Copyright Act · 🏷️ canada,propiedad-intelectual,cipo,patentes,marcas,derechos-de-autor · 📅 2026-07-13
+- [agricultura](sustrato/canada/agricultura.md) — Agricultura Canadá: AAFC, supply management (lácteos/aves/huevos), granos, CUSMA/CETA/CPTPP · 🏷️ canada,agricultura,agri-food,aafc,supply-management,granos,tratados-comerciales · 📅 2026-07-13
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09

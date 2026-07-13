@@ -1143,9 +1143,9 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 
 ## COLA ROUND 23 (13 temas — EN CURSO)
 ### Sustrato (deepening nodos NA existentes)
-- [ ] sustrato/mexico — Salud / sistema de salud (Secretaría de Salud, IMSS/INSABI, Cofepris)
-- [ ] sustrato/estados-unidos — Telecomunicaciones (FCC, banda ancha, 5G, espectro)
-- [ ] sustrato/canada — Agricultura (AAFC, supply management, granos)
+- [x] sustrato/mexico — Salud / sistema de salud (Secretaría de Salud, IMSS/INSABI, Cofepris)
+- [x] sustrato/estados-unidos — Telecomunicaciones (FCC, banda ancha, 5G, espectro)
+- [x] sustrato/canada — Agricultura (AAFC, supply management, granos)
 ### Dominio (nuevos nodos)
 - [ ] dominio/dispositivos-medicos — Dispositivos médicos (FDA 510(k)/PMA, COFEPRIS, Health Canada, MDR)
 - [ ] dominio/computacion-cuantica — Computación cuántica (qubits, algoritmos, casos)
@@ -1189,7 +1189,8 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 ### [2026-07-13] Round 23 — ITER 157 | gap_analysis extendido (taxonomía Round 23) + apertura de cola
 - gap_analysis.py (post-Round 22) = 0 huecos → se **EXTENDIÓ** `scripts/gap_analysis.py` (Round 23) con 3 deepenings sustrato NA (mexico→salud, estados-unidos→telecomunicaciones, canada→agricultura) + 10 nodos nuevos (dominio: dispositivos-medicos, computacion-cuantica, investigacion-operaciones, teoria-de-juegos, gobierno-de-ti; rol: platform-engineer, cloud-architect, research-scientist, technical-program-manager, community-manager). ALCANCE respetado: sustrato = solo Norteamérica.
 - Re-ejecutado → 13 sugerencias (3 sustrato + 10 nuevos). Abierta cola Round 23 (13 temas).
-- **Próxima tarea (iter 157):** LOOP 1 (sustrato NA) — mexico/salud, estados-unidos/telecomunicaciones, canada/agricultura.
+- **LOOP 1 (sustrato NA) COMPLETO:** sustrato/mexico/salud, sustrato/estados-unidos/telecomunicaciones, sustrato/canada/agricultura (deepenings; +index/log nodos + root).
+- **Próxima tarea (iter 157):** LOOP 2 (dominio x5): dispositivos-medicos, computacion-cuantica, investigacion-operaciones, teoria-de-juegos, gobierno-de-ti.
 
 ## LOG DE RONDAS
 ### [2026-07-13] Ronda 20: +13 (3 sustrato NA + 5 dominio + 5 rol); COMPLETA.

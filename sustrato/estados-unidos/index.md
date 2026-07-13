@@ -32,3 +32,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [infraestructura](infraestructura.md) — Infraestructura EE.UU.: IIJA, DOT, carreteras, puentes, banda ancha, red eléctrica · 🏷️ eeuu,infraestructura,iija,dot,carreteras,puentes,banda-ancha,red-electrica · 📅 2026-07-12
 - [finanzas-publicas](finanzas-publicas.md) — Finanzas públicas EE.UU.: Treasury, presupuesto federal, deuda nacional, techo de deuda · 🏷️ eeuu,finanzas-publicas,treasury,presupuesto-federal,deuda-nacional,debt-ceiling · 📅 2026-07-13
 - [propiedad-intelectual](propiedad-intelectual.md) — Propiedad intelectual EE.UU.: USPTO, AIA 2011, US Copyright Office, Lanham Act · 🏷️ eeuu,propiedad-intelectual,uspto,patentes,marcas,derechos-de-autor · 📅 2026-07-13
+- [telecomunicaciones](telecomunicaciones.md) — Telecomunicaciones EE.UU.: FCC, banda ancha, 5G, espectro, subastas, net neutrality · 🏷️ eeuu,telecomunicaciones,fcc,banda-ancha,5g,espectro,subastas · 📅 2026-07-13

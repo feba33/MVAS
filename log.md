@@ -510,6 +510,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Round 21 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
 
 ## [2026-07-13] ingest | Round 22 — 13 nodos (3 sustrato NA + 5 dominio + 5 rol)
+## [2026-07-13] ingest | Round 23 — LOOP 1 (sustrato NA x3 ingest COMPLETOS)
+- sustrato/mexico/salud.md (Sistema Nacional de Salud: Ssa, IMSS, ISSSTE, IMSS-Bienestar, Cofepris).
+- sustrato/estados-unidos/telecomunicaciones.md (FCC, 5G/C-band, espectro, net neutrality).
+- sustrato/canada/agricultura.md (AAFC, supply management, granos, CUSMA/CETA/CPTPP).
+- Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (gob/Wikipedia/fcc/AAFC; sin raw/).
 - 3 → sustrato (deepenings NA, solo Norteamérica):
   - `sustrato/mexico/propiedad-intelectual.md` — IMPI (Ley 27/2020), INDAUTOR, T-MEC cap.20.
   - `sustrato/estados-unidos/propiedad-intelectual.md` — USPTO, AIA 2011, US Copyright Office, Lanham Act.

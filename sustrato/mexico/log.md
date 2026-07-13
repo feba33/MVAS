@@ -136,4 +136,8 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 
 ## [2026-07-13] ingest | Propiedad intelectual México (IMPI, LPI)
 - Fuentes: gob.mx/impi; Wikipedia EN — Intellectual property (reference-only; sin raw/).
+
+## [2026-07-13] ingest | Salud México (Sistema Nacional de Salud)
+- Fuentes: gob.mx/salud; gob.mx/insabi; Cofepris (reference-only; sin raw/).
+- Página: `salud.md`. Ssa, IMSS, ISSSTE, INSABI→IMSS-Bienestar, Cofepris. Cross-ref sustrato/mexico/seguridad-social, dominio/salud, dominio/farmaceutica, dominio/dispositivos-medicos.
 - Página: `propiedad-intelectual.md`. IMPI (SE/Economía) registra patentes/marcas/secretos industriales; INDAUTOR (SEP) los derechos de autor; LPI "Ley 27" (2020) y LFDA; T-MEC cap.20. Cross-ref dominio/propiedad-intelectual, sustrato/mexico/inversion-extranjera.

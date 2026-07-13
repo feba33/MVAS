@@ -86,4 +86,8 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 
 ## [2026-07-13] ingest | Propiedad intelectual Canadá (CIPO/ISED)
 - Fuentes: ic.gc.ca (CIPO); Wikipedia EN — Intellectual property (reference-only; sin raw/).
+
+## [2026-07-13] ingest | Agricultura Canadá (AAFC)
+- Fuentes: agriculture.canada.ca; Wikipedia EN — Agriculture in Canada (reference-only; sin raw/).
+- Página: `agricultura.md`. AAFC, supply management (lácteos/aves/huevos), granos, CUSMA/CETA/CPTPP. Cross-ref sustrato/mexico/agricultura, sustrato/estados-unidos/agricultura, dominio/agronegocios.
 - Página: `propiedad-intelectual.md`. CIPO (ISED): Patent Act, Trade-marks Act (reforma 2019, Protocolo de Madrid), Copyright Act (vida+50). Cross-ref dominio/propiedad-intelectual, sustrato/canada/recursos-naturales.

@@ -26,3 +26,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [energia](energia.md) — Energía Canadá: hidroeléctrica, oil sands, gas natural, red eléctrica, NRCan, net-zero · 🏷️ canada,energia,hidroelectrica,oil-sands,gas-natural,red-electrica,nrcan,net-zero · 📅 2026-07-12
 - [finanzas-publicas](finanzas-publicas.md) — Finanzas públicas Canadá: Dept of Finance, presupuesto federal, deuda/PIB, PBO · 🏷️ canada,finanzas-publicas,department-of-finance,presupuesto-federal,deuda-publica,pbo · 📅 2026-07-13
 - [propiedad-intelectual](propiedad-intelectual.md) — Propiedad intelectual Canadá: CIPO/ISED, Patent Act, Trade-marks Act, Copyright Act · 🏷️ canada,propiedad-intelectual,cipo,patentes,marcas,derechos-de-autor · 📅 2026-07-13
+- [agricultura](agricultura.md) — Agricultura Canadá: AAFC, supply management (lácteos/aves/huevos), granos, CUSMA/CETA/CPTPP · 🏷️ canada,agricultura,agri-food,aafc,supply-management,granos,tratados-comerciales · 📅 2026-07-13

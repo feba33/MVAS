@@ -33,3 +33,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [turismo](turismo.md) — Turismo México: SECTUR, destinos, turismo de sol y playa, turismo médico, PIB ~8-9% · 🏷️ mexico,turismo,sectur,playa,turismo-medico,pib,llegadas-internacionales · 📅 2026-07-12
 - [finanzas-publicas](finanzas-publicas.md) — Finanzas públicas México: SHCP, PEF, deuda pública, política fiscal · 🏷️ mexico,finanzas-publicas,shcp,presupuesto-federal,deuda-publica,politica-fiscal · 📅 2026-07-13
 - [propiedad-intelectual](propiedad-intelectual.md) — Propiedad intelectual México: IMPI, LPI (Ley 27/2020), derechos de autor, T-MEC cap.20 · 🏷️ mexico,propiedad-intelectual,impi,patentes,marcas,derechos-de-autor · 📅 2026-07-13
+- [salud](salud.md) — Salud/sistema de salud México: Secretaría de Salud, IMSS/IMSS-Bienestar, ISSSTE, Cofepris · 🏷️ mexico,salud,sistema-de-salud,secretaria-de-salud,imss,issste,cofepris,seguro-popular · 📅 2026-07-13

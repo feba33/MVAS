@@ -109,4 +109,8 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 
 ## [2026-07-13] ingest | Propiedad intelectual EE.UU. (USPTO, AIA)
 - Fuentes: uspto.gov; Wikipedia EN — America Invents Act (reference-only; sin raw/).
+
+## [2026-07-13] ingest | Telecomunicaciones EE.UU. (FCC)
+- Fuentes: fcc.gov; digital-strategy.ec.europa.eu (C-band 5G 2026); Wikipedia EN — Telecommunications in the United States (reference-only; sin raw/).
+- Página: `telecomunicaciones.md`. FCC, banda ancha, 5G/C-band, espectro, net neutrality. Cross-ref sustrato/mexico/telecomunicaciones, sustrato/canada/telecomunicaciones, dominio/ciberseguridad.
 - Página: `propiedad-intelectual.md`. USPTO (patentes/marcas), US Copyright Office (Biblioteca del Congreso); Patent Act 1952 + AIA 2011 (first-inventor-to-file, IPR); Lanham Act (marcas); Copyright Act 1976 (fair use). Cross-ref dominio/propiedad-intelectual, sustrato/estados-unidos/sector-tecnologia.
