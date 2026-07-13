@@ -47,6 +47,8 @@ TAXONOMY = {
         ("propiedad-intelectual", "Propiedad intelectual México: IMPI, Ley Federal del Derecho de Autor, patentes/marcas, tratados"),
         # Round 23 — deepening NA (salud por país).
         ("salud", "Salud / sistema de salud México: Secretaría de Salud, IMSS/INSABI, Cofepris, seguro popular, cobertura"),
+        # Round 24 — deepening NA (política monetaria por país).
+        ("politica-monetaria", "Política monetaria México: Banxico, tasa de referencia, inflation targeting, Junta de Gobierno, tipo de cambio USD/MXN"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -70,6 +72,8 @@ TAXONOMY = {
         ("propiedad-intelectual", "Propiedad intelectual EE.UU.: USPTO, Patent Act, America Invents Act, US Copyright Office"),
         # Round 23 — deepening NA (telecomunicaciones por país).
         ("telecomunicaciones", "Telecomunicaciones EE.UU.: FCC, banda ancha, 5G, espectro, competencia, net neutrality"),
+        # Round 24 — deepening NA (medio ambiente por país).
+        ("medio-ambiente", "Medio ambiente EE.UU.: EPA, Clean Air/Water Act, NEPA, climate policy, descarbonización, emisiones vehiculares"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -93,6 +97,8 @@ TAXONOMY = {
         ("propiedad-intelectual", "Propiedad intelectual Canadá: CIPO, Patent Act, Trade-marks Act, Copyright Act"),
         # Round 23 — deepening NA (agricultura por país).
         ("agricultura", "Agricultura Canadá: Agriculture and Agri-Food Canada (AAFC), supply management, granos, ganadería"),
+        # Round 24 — deepening NA (defensa por país).
+        ("defensa", "Defensa Canadá: Department of National Defence (DND), Canadian Armed Forces (CAF), NORAD, procurement, política industrial de defensa"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -383,7 +389,18 @@ NEW_NODES = [
     ("rol/cloud-architect", "Cloud Architect — diseña arquitecturas cloud (IaaS/PaaS), multi-cloud, well-architected, costo/seguridad"),
     ("rol/research-scientist", "Research Scientist — investigación aplicada/básica, publicación, transferencia a producto, R&D"),
     ("rol/technical-program-manager", "Technical Program Manager (TPM) — coordina programas técnicos cross-funcionales, planning, riesgos"),
-    ("rol/community-manager", "Community Manager — gestiona comunidad de usuarios/marca, redes sociales, advocacia, eventos"),
+    ("rol/community-manager", "Community Manager — gestiona comunidad de usuarios/marca, redes sociales, advocasia, eventos"),
+    # Round 24 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings politica-monetaria MX, medio-ambiente US, defensa CA; dominio/rol generales).
+    ("dominio/derecho-administrativo", "Derecho administrativo / regulatory law: permisos, licencias, procedimientos administrativos, sanciones, revisión judicial"),
+    ("dominio/control-interno", "Control interno: COSO 2013, ICFR, SOX 404, monitoreo, aseguramiento de operaciones"),
+    ("dominio/seguridad-y-salud-ocupacional", "Seguridad y salud ocupacional (OHS): ISO 45001, OSHA/CSST, prevención de riesgos, bienestar laboral"),
+    ("dominio/proteccion-de-datos", "Protección de datos / privacidad como disciplina transversal: GDPR/CCPA/CPRA/LGPD/PIPL, derechos ARCO, transferencias, privacy by design"),
+    ("dominio/gestion-de-activos", "Gestión de activos / asset & wealth management: fondos, AUM, gestión de inversión, industria financiera"),
+    ("rol/vp-finance", "VP of Finance — reporta al CFO, lidera FP&A/controller/treasury, planeación financiera"),
+    ("rol/devops-engineer", "DevOps Engineer — CI/CD, infraestructura como código, pipelines, observabilidad, colaboración Dev+Ops"),
+    ("rol/supply-chain-manager", "Supply Chain Manager — planificación de demanda/oferta, sourcing, logística, inventario, resiliencia de cadena"),
+    ("rol/hr-business-partner", "HR Business Partner (HRBP) — socio de negocio de RRHH por unidad, people analytics, talento, cultura"),
+    ("rol/channel-manager", "Channel Manager — gestión de canales de venta (partner/reseller/distributor), ecología de canal, incentivos"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

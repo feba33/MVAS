@@ -1200,4 +1200,27 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 ### [2026-07-13] Ronda 21: +13 (3 sustrato NA + 5 dominio + 5 rol); COMPLETA.
 ### [2026-07-13] Ronda 22: +13 (3 sustrato NA + 5 dominio + 5 rol); COMPLETA.
 ### [2026-07-13] Ronda 23: +13 (3 sustrato NA + 5 dominio + 5 rol); COMPLETA.
-- **Próxima tarea (iter 158):** COLA VACÍA → `python3 scripts/gap_analysis.py`; si 0 → reabastecer taxonomía (Round 24) o pausar hasta próximo cron.
+### [2026-07-13] Ronda 24: +13 (3 sustrato NA + 5 dominio + 5 rol); EN CURSO (iter 158).
+
+### [2026-07-13] Round 24 — ITER 158 | gap_analysis extendido (taxonomía Round 24) + apertura de cola
+- gap_analysis.py (post-Round 23) = 0 huecos → se **EXTENDIÓ** `scripts/gap_analysis.py` (Round 24) con 3 deepenings sustrato NA (mexico→politica-monetaria, estados-unidos→medio-ambiente, canada→defensa) + 10 nodos nuevos (dominio: derecho-administrativo, control-interno, seguridad-y-salud-ocupacional, proteccion-de-datos, gestion-de-activos; rol: vp-finance, devops-engineer, supply-chain-manager, hr-business-partner, channel-manager). ALCANCE respetado: sustrato = solo Norteamérica.
+- Re-ejecutado → 13 sugerencias (3 sustrato + 10 nuevos). Abierta cola Round 24 (13 temas).
+- **Próxima tarea (iter 158):** LOOP 1 (sustrato NA deepening) — sustrato/mexico/politica-monetaria, sustrato/estados-unidos/medio-ambiente, sustrato/canada/defensa.
+
+## COLA ROUND 24 (gap_analysis.py iter 158 → taxonomía extendida; sustrato solo NA)
+### Sustrato (deepening nodos NA existentes)
+- [ ] sustrato/mexico — Política monetaria (Banxico, tasa de referencia, inflation targeting, Junta de Gobierno)
+- [ ] sustrato/estados-unidos — Medio ambiente (EPA, Clean Air/Water Act, NEPA, climate policy)
+- [ ] sustrato/canada — Defensa (DND/CAF, NORAD, procurement, política industrial de defensa)
+### Dominio (nuevos nodos)
+- [ ] dominio/derecho-administrativo — Derecho administrativo / regulatory law (permisos, licencias, sanciones, revisión judicial)
+- [ ] dominio/control-interno — Control interno (COSO 2013, ICFR, SOX 404, monitoreo)
+- [ ] dominio/seguridad-y-salud-ocupacional — Seguridad y salud ocupacional (ISO 45001, OSHA/CSST, bienestar)
+- [ ] dominio/proteccion-de-datos — Protección de datos / privacidad transversal (GDPR/CCPA/CPRA/LGPD/PIPL)
+- [ ] dominio/gestion-de-activos — Gestión de activos / asset & wealth management
+### Rol (nuevos nodos)
+- [ ] rol/vp-finance — VP of Finance (reporta a CFO, lidera FP&A/controller/treasury)
+- [ ] rol/devops-engineer — DevOps Engineer (CI/CD, IaC, pipelines, observabilidad)
+- [ ] rol/supply-chain-manager — Supply Chain Manager (planificación, sourcing, logística, resiliencia)
+- [ ] rol/hr-business-partner — HR Business Partner (HRBP, people analytics, talento)
+- [ ] rol/channel-manager — Channel Manager (canales partner/reseller/distributor)
