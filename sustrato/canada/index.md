@@ -30,3 +30,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [defensa](defensa.md) — Defensa Canadá: DND/CAF, NORAD, OTAN, procurement · 🏷️ canada,defensa,dnd,caf,norad,otan,procurement · 📅 2026-07-13
 - [infraestructura](infraestructura.md) — Infraestructura Canadá: Infrastructure Canada, transporte, banda ancha, vivienda · 🏷️ canada,infraestructura,infrastructure-canada,vivienda,banda-ancha,transporte-publico,plan-de-infraestructura · 📅 2026-07-13
 - [poder-judicial](poder-judicial.md) — Poder Judicial Canadá: Supreme Court, cortes provinciales, Carta de Derechos, nombramiento · 🏷️ canada,poder-judicial,supreme-court,charter,nombramiento-judicial,estado-de-derecho · 📅 2026-07-13
+- [ciencia-e-innovacion](ciencia-e-innovacion.md) — Ciencia e innovación Canadá: NRC, ISED, políticas de CTI, IA/ML · 🏷️ canada,ciencia,innovacion,nrc,ised,investigacion,politica-de-ciencia · 📅 2026-07-13

@@ -102,3 +102,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Poder Judicial de Canadá (SCC, Carta)
 - Fuentes: Wikipedia (en) Judiciary of Canada — reference-only (sin raw/).
 - Página: `poder-judicial.md`. SCC (9, nombramiento por Gobernador en Consejo); cortes federales y provinciales; Carta de Derechos (s.24); comités asesores desde 2016. Cross-ref sustrato/canada/seguridad-social, dominio/arbitraje, dominio/derecho-internacional.
+
+## [2026-07-13] ingest | Ciencia e Innovación de Canadá (NRC, ISED)
+- Fuentes: NRC (nrc-cnrc.gc.ca); ISED (ised-isde.canada.ca); Wikipedia (en) Science and technology in Canada — reference-only (sin raw/).
+- Página: `ciencia-e-innovacion.md`. NRC (I+D federal); ISED (política de ciencia e innovación); tri-council (NSERC/CIHR/SSHRC), CFI; liderazgo global en IA (Vector/Mila/Amii); crédito SR&ED. Cross-ref sustrato/canada/energia, dominio/innovacion, dominio/energias-renovables.

@@ -125,3 +125,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Poder Judicial de EE.UU. (federal judiciary, SCOTUS)
 - Fuentes: Wikipedia (en) United States federal judiciary — reference-only (sin raw/).
 - Página: `poder-judicial.md`. Artículo III: SCOTUS (9), 13 Courts of Appeals, 94 District Courts; jueces vitalicios; DOJ es poder ejecutivo; cortes federal vs estatales. Cross-ref sustrato/estados-unidos/antitrust, sustrato/estados-unidos/bankruptcy, dominio/derecho-internacional.
+
+## [2026-07-13] ingest | Seguridad Nacional de EE.UU. (DHS, FBI, IC)
+- Fuentes: DHS (dhs.gov); Wikipedia (en) United States national security — reference-only (sin raw/).
+- Página: `seguridad-nacional.md`. NSC coordina la política; DHS (2002) lidera homeland security (CISA, CBP, FEMA, TSA); FBI = inteligencia doméstica; Intelligence Community de 18 agencias bajo ODNI (CIA, NSA); US Cyber Command. Cross-ref sustrato/estados-unidos/defensa, dominio/seguridad-nacional, dominio/ciberdefensa.

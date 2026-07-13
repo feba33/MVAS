@@ -570,3 +570,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN; fuentes oficiales gob.mx/oaj, uscourts.gov, scc-csc.ca; sin raw/).
 - Round 26 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
 
+## [2026-07-13] ingest | Round 27 — 13 ingests COMPLETOS (3 sustrato NA + 5 dominio + 5 rol)
+- 3 → sustrato (deepenings NA, solo Norteamérica):
+  - `sustrato/mexico/relaciones-exteriores.md` — SRE, política exterior, diplomacia, doctrina Estrada, red consular masiva.
+  - `sustrato/estados-unidos/seguridad-nacional.md` — DHS, FBI, Intelligence Community (ODNI/CIA/NSA), homeland security, US Cyber Command.
+  - `sustrato/canada/ciencia-e-innovacion.md` — NRC, ISED, tri-council (NSERC/CIHR/SSHRC), CFI, liderazgo en IA/ML.
+- 5 → dominio (nuevos): `electromovilidad`, `comercio-electronico`, `outsourcing`, `gobierno-abierto`, `economia-comportamental`.
+- 5 → rol (nuevos): `technical-writer`, `portfolio-manager`, `change-manager`, `benefits-manager`, `consultor`.
+- Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales sre.gob.mx, dhs.gov, nrc-cnrc.gc.ca, ised-isde.canada.ca, opengovpartnership.org, iea.org; sin raw/).
+- Round 27 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado).
+

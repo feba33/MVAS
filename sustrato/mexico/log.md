@@ -152,3 +152,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Poder Judicial de México (PJF, SCJN, reforma judicial 2024-2025)
 - Fuentes: OAJ (PJF) reformaPJF; Justicia Abierta — reference-only (sin raw/).
 - Página: `poder-judicial.md`. PJF (SCJN, TEPJF, tribunales de circuito, juzgados de distrito); reforma constitucional 15-09-2024 (elección popular de jueces/ministros, SCJN 11→9, presidencia rotativa, fin del CJF). Cross-ref sustrato/mexico/inversion-extranjera, sustrato/mexico/seguridad-publica, dominio/derecho-internacional.
+
+## [2026-07-13] ingest | Relaciones Exteriores de México (SRE, política exterior)
+- Fuentes: SRE (gob.mx); Wikipedia (en) Foreign relations of Mexico — reference-only (sin raw/).
+- Página: `relaciones-exteriores.md`. SRE ejecuta la política exterior del Presidente (Art. 89); red consular masiva (protección de nacionales en el exterior); doctrina Estrada / no intervención; ejes proximidad (USMCA/T-MEC), América Latina, multilateralismo (ONU/OEA). Cross-ref sustrato/mexico/comercio-exterior, sustrato/mexico/inversion-extranjera, dominio/comercio-internacional.

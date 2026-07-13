@@ -47,6 +47,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [politica-monetaria](sustrato/mexico/politica-monetaria.md) — Política monetaria México: Banxico, tasa objetivo, meta 3%, Junta de Gobierno · 🏷️ mexico,politica-monetaria,banxico,inflacion,tasa-de-interes,banco-central · 📅 2026-07-13
 - [seguridad-publica](sustrato/mexico/seguridad-publica.md) — Seguridad pública México: Guardia Nacional, SSP, FGR, delincuencia organizada · 🏷️ mexico,seguridad-publica,guardia-nacional,ssp,fgr,delincuencia-organizada · 📅 2026-07-13
 - [poder-judicial](sustrato/mexico/poder-judicial.md) — Poder Judicial México: PJF, SCJN, reforma judicial 2024-2025, juicios orales, Consejo Judicatura · 🏷️ mexico,poder-judicial,scjn,reforma-judicial,consejo-judicatura,juicio-oral,estado-de-derecho · 📅 2026-07-13
+- [relaciones-exteriores](sustrato/mexico/relaciones-exteriores.md) — Relaciones exteriores México: SRE, política exterior, diplomacia, no intervención · 🏷️ mexico,relaciones-exteriores,sre,diplomacia,no-intervencion · 📅 2026-07-13
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -77,6 +78,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [medio-ambiente](sustrato/estados-unidos/medio-ambiente.md) — Medio ambiente EE.UU.: EPA, Clean Air/Water Act, NEPA, cambio climático · 🏷️ eeuu,medio-ambiente,epa,clean-air-act,clean-water-act,nepa,cambio-climatico · 📅 2026-07-13
 - [sistema-financiero](sustrato/estados-unidos/sistema-financiero.md) — Sistema financiero EE.UU.: Fed, OCC, FDIC, dual banking, Dodd-Frank · 🏷️ eeuu,sistema-financiero,federal-reserve,occ,fdic,dodd-frank,banca,regulacion-prudencial · 📅 2026-07-13
 - [poder-judicial](sustrato/estados-unidos/poder-judicial.md) — Poder Judicial EE.UU.: federal judiciary (SCOTUS, Courts of Appeals, District Courts, Art. III), DOJ · 🏷️ eeuu,poder-judicial,supremecourt,federal-courts,article-iii,doj,estado-de-derecho · 📅 2026-07-13
+- [seguridad-nacional](sustrato/estados-unidos/seguridad-nacional.md) — Seguridad nacional EE.UU.: DHS, FBI, Intelligence Community, homeland security, ciber · 🏷️ eeuu,seguridad-nacional,dhs,fbi,inteligencia,homeland-security,ciberseguridad-nacional · 📅 2026-07-13
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -101,6 +103,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [defensa](sustrato/canada/defensa.md) — Defensa Canadá: DND/CAF, NORAD, OTAN, procurement · 🏷️ canada,defensa,dnd,caf,norad,otan,procurement · 📅 2026-07-13
 - [infraestructura](sustrato/canada/infraestructura.md) — Infraestructura Canadá: Infrastructure Canada, transporte, banda ancha, vivienda · 🏷️ canada,infraestructura,infrastructure-canada,vivienda,banda-ancha,transporte-publico,plan-de-infraestructura · 📅 2026-07-13
 - [poder-judicial](sustrato/canada/poder-judicial.md) — Poder Judicial Canadá: Supreme Court, cortes provinciales, Carta de Derechos, nombramiento · 🏷️ canada,poder-judicial,supreme-court,charter,nombramiento-judicial,estado-de-derecho · 📅 2026-07-13
+- [ciencia-e-innovacion](sustrato/canada/ciencia-e-innovacion.md) — Ciencia e innovación Canadá: NRC, ISED, políticas de CTI, IA/ML · 🏷️ canada,ciencia,innovacion,nrc,ised,investigacion,politica-de-ciencia · 📅 2026-07-13
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -731,6 +734,16 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/relaciones-laborales
 - [[dominio/relaciones-laborales|Relaciones laborales / industrial relations — sindicatos, contratación colectiva, huelgas]]
+### dominio/electromovilidad
+- [[dominio/electromovilidad|Electromovilidad — vehículos eléctricos, baterías, carga, V2G, política e incentivos (IRA/ZEV)]]
+### dominio/comercio-electronico
+- [[dominio/comercio-electronico|Comercio electrónico / e-commerce — marketplaces, D2C, omnicanal, pagos, fulfillment, retención]]
+### dominio/outsourcing
+- [[dominio/outsourcing|Outsourcing / subcontratación — ITO/BPO/KPO, offshoring/nearshoring, modelos de entrega]]
+### dominio/gobierno-abierto
+- [[dominio/gobierno-abierto|Gobierno abierto / open government — transparencia, datos abiertos, participación, civic tech]]
+### dominio/economia-comportamental
+- [[dominio/economia-comportamental|Economía conductual / behavioral economics — sesgos, heurísticas, nudge, prospect theory]]
 
 ### rol/head-of-talent
 - [[rol/head-of-talent|Head of Talent — estrategia de talento, employer brand, adquisición de talento; vs People/recruiter]]
@@ -745,4 +758,14 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [[rol/head-of-it|Head of IT / IT Director — operación de TI interna, infraestructura, soporte; vs CIO/CTO]]
 
 ### rol/chief-brand-officer
-- [[rol/chief-brand-officer|Chief Brand Officer — estrategia de marca ejecutiva, identidad, posicionamiento; vs brand-manager/cmo]]
+- [[rol/chief-brand-officer|Chief Brand Officer — estrategia de marca ejecutiva, identidad, posicionamiento, brand equity; vs brand-manager/cmo]]
+### rol/technical-writer
+- [[rol/technical-writer|Technical Writer — documentación técnica, docs-as-code, API docs, knowledge base; vs ux-writing/content]]
+### rol/portfolio-manager
+- [[rol/portfolio-manager|Portfolio Manager — gestión de carteras de inversión, asset allocation, riesgo; vs financial-analyst/CIO]]
+### rol/change-manager
+- [[rol/change-manager|Change Manager — gestión del cambio organizacional, ADKAR/Prosci, adopción; vs chief-transformation-officer]]
+### rol/benefits-manager
+- [[rol/benefits-manager|Benefits Manager — beneficios y compensación, pensiones, salud, total rewards; vs head-of-people]]
+### rol/consultor
+- [[rol/consultor|Consultor / Management Consultant — asesoría de gestión (estrategia/operaciones); vs chief-strategy-officer]]
