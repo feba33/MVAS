@@ -1291,21 +1291,45 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia EN + fuentes oficiales gob/oaj.gob.mx/justiciaabierta/uscourts.gov/scc-csc.ca; sin raw/). México poder-judicial usa fuentes vivas de la reforma 2024-2025.
 - **Round 26 COMPLETA (13/13).** Temas acumulados: 406. ALCANCE sustrato = solo Norteamérica (respetado).
 
+## COLA ROUND 27 (gap_analysis.py iter 162 → taxonomía extendida; sustrato solo NA) — EN CURSO
+### Sustrato (deepening nodos NA existentes)
+- [ ] sustrato/mexico — Relaciones exteriores (SRE, política exterior, diplomacia, tratados)
+- [ ] sustrato/estados-unidos — Seguridad nacional (DHS, FBI, inteligencia, homeland security)
+- [ ] sustrato/canada — Ciencia e innovación (NRC, ISED, políticas de CTI)
+### Dominio (nuevos nodos)
+- [ ] dominio/electromovilidad — Electromovilidad (EV, baterías, carga, V2G)
+- [ ] dominio/comercio-electronico — Comercio electrónico / e-commerce
+- [ ] dominio/outsourcing — Outsourcing / offshoring (BPO, nearshoring)
+- [ ] dominio/gobierno-abierto — Gobierno abierto (transparencia, datos abiertos)
+- [ ] dominio/economia-comportamental — Economía conductual / behavioral economics
+### Rol (nuevos nodos)
+- [ ] rol/technical-writer — Technical Writer (documentación)
+- [ ] rol/portfolio-manager — Portfolio Manager (carteras de inversión)
+- [ ] rol/change-manager — Change Manager (gestión del cambio)
+- [ ] rol/benefits-manager — Benefits Manager (beneficios/compensación)
+- [ ] rol/consultor — Consultor / Management Consultant
+
+### [2026-07-13] Round 27 — ITER 162 | gap_analysis extendido (taxonomía Round 27) + apertura de cola
+- gap_analysis.py (post-Round 26) = 0 huecos → se **EXTENDIÓ** `scripts/gap_analysis.py` (Round 27) con 3 deepenings sustrato NA (mexico→relaciones-exteriores, estados-unidos→seguridad-nacional, canada→ciencia-e-innovacion) + 10 nodos nuevos (dominio: electromovilidad, comercio-electronico, outsourcing, gobierno-abierto, economia-comportamental; rol: technical-writer, portfolio-manager, change-manager, benefits-manager, consultor). ALCANCE respetado: sustrato = solo Norteamérica.
+- Re-ejecutado → 13 sugerencias (3 sustrato + 10 nuevos). Abierta cola Round 27 (13 temas).
+- **Próxima tarea (iter 162):** LOOP 1 (sustrato NA) — relaciones-exteriores, seguridad-nacional, ciencia-e-innovacion; luego LOOP 2 (dominio x5), LOOP 3 (rol x5).
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-- **Tópicos ingeridos (acumulado): 406** (post-Round 26; +13 = 3 deepenings NA + 5 dominio + 5 rol)
-- **Rondas:** 26 completas (Round 1..26), cada una +13 ingests.
-- **Nodos sustrato (NA):** México 49 (+poder-judicial), EE.UU. 38 (+poder-judicial), Canadá 32 (+poder-judicial). Deepenings NA completas.
-- **Nodos dominio:** ~75 (Round 26 +5 nuevos).
-- **Nodos rol:** ~65 (Round 26 +5 nuevos).
+- **Tópicos ingeridos (acumulado): 406** (post-Round 26; Round 27 EN CURSO — 0/13 ingestados aún)
+- **Rondas:** 26 completas + Round 27 EN CURSO.
+- **Nodos sustrato (NA):** México 49, EE.UU. 38, Canadá 32. Deepenings NA en curso (Round 27).
+- **Nodos dominio:** ~75 → ~80 (Round 27 +5 nuevos previstos).
+- **Nodos rol:** ~65 → ~70 (Round 27 +5 nuevos previstos).
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
 
 ## 🚦 ESTADO
-- **Iteración actual:** 161 (Round 26 COMPLETA).
-- **Última acción:** 13 ingests (3 sustrato NA poder-judicial + 5 dominio + 5 rol).
+- **Iteración actual:** 162 (Round 27 EN CURSO — 0/13 ingestados).
+- **Última acción:** gap_analysis.py extendido (Round 27) + cola abierta.
 - **Bloqueos:** ninguno.
-- **Cola:** vacía (Round 26 fue el último lote planificado).
+- **Cola:** Round 27 ABIERTA (13 temas pending).
 
 ## ▶️ PRÓXIMA TAREA
-- `python3 scripts/gap_analysis.py`; si 0 huecos → reabastecer taxonomía (Round 27: nuevos dominio/rol + deepenings NA) y continuar el ciclo; si hay sugerencias → ingerirlas.
-- ALCANCE sustrato = solo Norteamérica (MX/US/CA) se mantiene salvo indicación contraria.
+- Ejecutar LOOP 1 (sustrato NA): sustrato/mexico/relaciones-exteriores, sustrato/estados-unidos/seguridad-nacional, sustrato/canada/ciencia-e-innovacion.
+- Luego LOOP 2 (dominio x5) y LOOP 3 (rol x5). Marcar cola Round 27 [x], actualizar progreso, commit+push.
+- ALCANCE sustrato = solo Norteamérica (MX/US/CA) se mantiene.

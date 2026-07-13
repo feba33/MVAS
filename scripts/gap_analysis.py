@@ -53,6 +53,8 @@ TAXONOMY = {
         ("seguridad-publica", "Seguridad pública México: Guardia Nacional, SSP, Fiscalía General de la República (FGR), crimen organizado"),
         # Round 26 — deepening NA (poder judicial por país).
         ("poder-judicial", "Poder judicial México: PJF, Suprema Corte (SCJN), Consejo de la Judicatura (CJF), reforma judicial 2024-2025, juicios orales"),
+        # Round 27 — deepening NA (relaciones exteriores).
+        ("relaciones-exteriores", "Relaciones exteriores México: SRE, política exterior, diplomacia, tratados, cooperación internacional, ONU/OEA"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -82,6 +84,8 @@ TAXONOMY = {
         ("sistema-financiero", "Sistema financiero EE.UU.: Federal Reserve, OCC, FDIC, banca comercial, Dodd-Frank, regulación prudencial"),
         # Round 26 — deepening NA (poder judicial por país).
         ("poder-judicial", "Poder judicial EE.UU.: federal judiciary (SCOTUS, Courts of Appeals, District Courts, Article III), DOJ, nombramientos, federal vs state"),
+        # Round 27 — deepening NA (seguridad nacional).
+        ("seguridad-nacional", "Seguridad nacional EE.UU.: DHS, FBI, intelligence community (ODNI/CIA/NSA), homeland security, ciberseguridad nacional, contrainterligencia"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -111,6 +115,8 @@ TAXONOMY = {
         ("infraestructura", "Infraestructura Canadá: Infrastructure Canada, transporte, banda ancha, vivienda, planificación de capital"),
         # Round 26 — deepening NA (poder judicial por país).
         ("poder-judicial", "Poder judicial Canadá: Supreme Court of Canada, cortes provinciales/territoriales, nombramiento, Carta de Derechos y Libertades"),
+        # Round 27 — deepening NA (ciencia e innovación).
+        ("ciencia-e-innovacion", "Ciencia e innovación Canadá: NRC, ISED, Innovation, Science and Economic Development, políticas de CTI, investigación federal"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -435,6 +441,17 @@ NEW_NODES = [
     ("rol/head-of-marketing-ops", "Head of Marketing Operations — martech, analítica de marketing, ops de campaña, presupuesto; vs marketing-manager/cmo"),
     ("rol/head-of-it", "Head of IT / IT Director — operación de TI interna, infraestructura, soporte, seguridad de TI; vs CIO/CTO"),
     ("rol/chief-brand-officer", "Chief Brand Officer — estrategia de marca a nivel ejecutivo, identidad, posicionamiento, brand equity; vs brand-manager/cmo"),
+    # Round 27 — reabastecimiento (alcance: sustrato solo Norteamérica: deepening relaciones-exteriores MX, seguridad-nacional US, ciencia-e-innovacion CA; dominio/rol generales).
+    ("dominio/electromovilidad", "Electromovilidad: vehículos eléctricos (EV), baterías, cargadores, movilidad eléctrica, autos eléctricos, V2G"),
+    ("dominio/comercio-electronico", "Comercio electrónico / e-commerce: marketplaces, D2C, omnicanal digital, fulfillment, pagos en línea, retención online"),
+    ("dominio/outsourcing", "Outsourcing / subcontratación y offshoring: BPO, nearshoring, modelo de entrega, gestión de proveedores, ITO/BPO/KPO"),
+    ("dominio/gobierno-abierto", "Gobierno abierto / open government: transparencia, datos abiertos, participación ciudadana, civic tech, rendición de cuentas"),
+    ("dominio/economia-comportamental", "Economía conductual / behavioral economics: sesgos cognitivos, heurísticas, nudge, decisiones económicas, economía y psicología"),
+    ("rol/technical-writer", "Technical Writer — documentación técnica, manuals, knowledge base, docs-as-code, API docs; vs content/customer-success"),
+    ("rol/portfolio-manager", "Portfolio Manager — gestión de carteras de inversión, asset allocation, riesgo, rendimiento, gestión de activos"),
+    ("rol/change-manager", "Change Manager — gestión del cambio organizacional, ADKAR/Prosci, gestión de impacts, adopción; vs chief-transformation-officer"),
+    ("rol/benefits-manager", "Benefits Manager — gestión de beneficios y compensación, pensiones, seguros de salud, bienestar, total rewards; vs head-of-people"),
+    ("rol/consultor", "Consultor / Management Consultant — asesoría de gestión, estrategia/operaciones, entregables, firms; vs chief-* y head-of-*"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}
