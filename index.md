@@ -49,6 +49,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [poder-judicial](sustrato/mexico/poder-judicial.md) — Poder Judicial México: PJF, SCJN, reforma judicial 2024-2025, juicios orales, Consejo Judicatura · 🏷️ mexico,poder-judicial,scjn,reforma-judicial,consejo-judicatura,juicio-oral,estado-de-derecho · 📅 2026-07-13
 - [relaciones-exteriores](sustrato/mexico/relaciones-exteriores.md) — Relaciones exteriores México: SRE, política exterior, diplomacia, no intervención · 🏷️ mexico,relaciones-exteriores,sre,diplomacia,no-intervencion · 📅 2026-07-13
 - [economia](sustrato/mexico/economia.md) — Economía de México: PIB, INEGI, Banxico, sectores, informalidad, comercio exterior · 🏷️ economia-mexico,pib,inegi,banxico,sectores,comercio-exterior,informalidad · 📅 2026-07-13
+- [demografia-poblacion](sustrato/mexico/demografia-poblacion.md) — Demografía y población México: INEGI, CONAPO, censo, estructura por edad, migración, remesas · 🏷️ demografia-mexico,poblacion,inegi,conapo,migracion,estructura-por-edad,urbanizacion,remesas · 📅 2026-07-13
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -81,6 +82,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [poder-judicial](sustrato/estados-unidos/poder-judicial.md) — Poder Judicial EE.UU.: federal judiciary (SCOTUS, Courts of Appeals, District Courts, Art. III), DOJ · 🏷️ eeuu,poder-judicial,supremecourt,federal-courts,article-iii,doj,estado-de-derecho · 📅 2026-07-13
 - [seguridad-nacional](sustrato/estados-unidos/seguridad-nacional.md) — Seguridad nacional EE.UU.: DHS, FBI, Intelligence Community, homeland security, ciber · 🏷️ eeuu,seguridad-nacional,dhs,fbi,inteligencia,homeland-security,ciberseguridad-nacional · 📅 2026-07-13
 - [ciencia-e-innovacion](sustrato/estados-unidos/ciencia-e-innovacion.md) — Ciencia e innovación EE.UU.: NSF, DOE labs, NIH, CHIPS Act, ecosistema de I+D · 🏷️ eeuu,ciencia,innovacion,nsf,doe-labs,nih,chips-act · 📅 2026-07-13
+- [demografia-poblacion](sustrato/estados-unidos/demografia-poblacion.md) — Demografía y población EE.UU.: Census Bureau, estructura por edad, migración, diversidad, Sun Belt · 🏷️ eeuu,demografia,poblacion,census-bureau,inmigracion,diversidad,envejecimiento · 📅 2026-07-13
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -107,6 +109,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [poder-judicial](sustrato/canada/poder-judicial.md) — Poder Judicial Canadá: Supreme Court, cortes provinciales, Carta de Derechos, nombramiento · 🏷️ canada,poder-judicial,supreme-court,charter,nombramiento-judicial,estado-de-derecho · 📅 2026-07-13
 - [ciencia-e-innovacion](sustrato/canada/ciencia-e-innovacion.md) — Ciencia e innovación Canadá: NRC, ISED, políticas de CTI, IA/ML · 🏷️ canada,ciencia,innovacion,nrc,ised,investigacion,politica-de-ciencia · 📅 2026-07-13
 - [demografia-poblacion](sustrato/canada/demografia-poblacion.md) — Demografía y población Canadá: Statistics Canada, censo, inmigración, estructura por edad · 🏷️ canada,demografia,poblacion,statistics-canada,censo,inmigracion,envejecimiento · 📅 2026-07-13
+- [seguridad-publica](sustrato/canada/seguridad-publica.md) — Seguridad pública Canadá: Public Safety Canada, RCMP, CBSA, gestión de emergencias, fronteras · 🏷️ canada,seguridad-publica,public-safety-canada,rcmp,cbsa,policia,gestion-de-emergencias · 📅 2026-07-13
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -801,3 +804,33 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/category-manager
 - [category-manager](rol/category-manager/category-manager.md) — Category Manager: gestión de categoría (retail/compras), assortment, pricing, P&L · 🏷️ category-manager,gestion-de-categoria,retail,compras,assortment · 📅 2026-07-13
+
+### dominio/i-d
+- [i-d](dominio/i-d/i-d.md) — I+D / Investigación y Desarrollo: función empresarial y sector, intensidad, open innovation, pipelines · 🏷️ i-d,investigacion-desarrollo,innovacion,rd,transferencia-tecnologica,open-innovation · 📅 2026-07-13
+
+### dominio/compras
+- [compras](dominio/compras/compras.md) — Compras / Procurement & Strategic Sourcing: sourcing estratégico, P2P, gestión de proveedores, spend · 🏷️ compras,procurement,strategic-sourcing,p2p,gestion-de-proveedores,spend · 📅 2026-07-13
+
+### dominio/juego-azar
+- [juego-azar](dominio/juego-azar/juego-azar.md) — Industria del juego y apuestas: casinos, loterías, apuestas deportivas, iGaming, regulación · 🏷️ juego-azar,gambling,casinos,loterias,apuestas-deportivas,igaming · 📅 2026-07-13
+
+### dominio/tercer-sector
+- [tercer-sector](dominio/tercer-sector/tercer-sector.md) — Tercer sector / ONG: organizaciones sin fines de lucro, fundaciones, filantropía, impacto social · 🏷️ tercer-sector,nonprofit,ong,fundaciones,filantropia,sociedad-civil · 📅 2026-07-13
+
+### dominio/servicios-ambientales
+- [servicios-ambientales](dominio/servicios-ambientales/servicios-ambientales.md) — Servicios ambientales: residuos, agua, remediación, reciclaje, economía circular · 🏷️ servicios-ambientales,gestion-de-residuos,tratamiento-de-agua,remediacion,reciclaje · 📅 2026-07-13
+
+### rol/country-manager
+- [country-manager](rol/country-manager/country-manager.md) — Country Manager: dueño del P&L de un país/subsidiaria, operaciones locales, relación con HQ · 🏷️ country-manager,gestion-de-pais,pl-de-pais,subsidiaria,operaciones-locales · 📅 2026-07-13
+
+### rol/regional-director
+- [regional-director](rol/regional-director/regional-director.md) — Regional Director: dueño del P&L regional, coordina subsidiarias de varios países · 🏷️ regional-director,gestion-regional,pl-regional,multi-pais,subsidiarias · 📅 2026-07-13
+
+### rol/data-architect
+- [data-architect](rol/data-architect/data-architect.md) — Data Architect: modelado de datos, arquitectura, gobierno técnico, calidad/linaje · 🏷️ data-architect,arquitectura-de-datos,modelado-de-datos,gobierno-de-datos,calidad-de-datos · 📅 2026-07-13
+
+### rol/network-engineer
+- [network-engineer](rol/network-engineer/network-engineer.md) — Network Engineer: diseño/operación de redes, conectividad, routing/seguridad de red · 🏷️ network-engineer,redes,lan-wan,routing,switching,seguridad-de-red · 📅 2026-07-13
+
+### rol/dba
+- [dba](rol/dba/dba.md) — Database Administrator (DBA): administración de DBMS, backup/recovery, rendimiento, seguridad · 🏷️ dba,base-de-datos,administracion-de-bases-de-datos,backup-recovery,rendimiento · 📅 2026-07-13

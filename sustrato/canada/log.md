@@ -110,3 +110,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Demografía y población de Canadá (Statistics Canada)
 - Fuentes: Statistics Canada (censo) — reference-only (sin raw/).
 - Página: `demografia-poblacion.md`. Población 41.5M en 2025; crecimiento por inmigración (435,421 en 2024-25); TFR 1.25 (mínimo histórico); urbana y concentrada. Cross-ref inmigracion, salud, seguridad-social.
+
+## [2026-07-13] ingest | Seguridad pública de Canadá (Public Safety Canada)
+- Fuentes: Public Safety Canada (publicsafety.gc.ca), Wikipedia EN — Law enforcement in Canada, RCMP — reference-only (sin raw/).
+- Página: `seguridad-publica.md`. Public Safety Canada coordina policía/fronteras/correcciones/emergencias; RCMP (policía federal), CBSA (fronteras). Cross-ref poder-judicial, defensa, seguridad-nacional, inmigracion.

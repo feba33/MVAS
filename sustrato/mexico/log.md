@@ -160,3 +160,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Economía de México (PIB, INEGI, Banxico)
 - Fuentes: INEGI (temas/pib), Banco de México (informe trimestral ene-mar 2025) — reference-only (sin raw/).
 - Página: `economia.md`. 2ª economía de LatAm; estructura por sectores (primarias 3.2%, secundarias 31.5%, terciarias 59.8% en 2024); PIB bajo crecimiento Q1 2025; informalidad ~25-27% PIB; comercio ~80% a EE.UU. Cross-ref finanzas-publicas, politica-monetaria, comercio-exterior.
+
+## [2026-07-13] ingest | Demografía y población de México (INEGI/CONAPO)
+- Fuentes: INEGI (temas/estructura), CONAPO (gob.mx/conapo) — reference-only (sin raw/).
+- Página: `demografia-poblacion.md`. ~128-130M hab; TFR ~1.6-1.9; remesas récord (~USD 60-65B); urbanización ~80%. Cross-ref economia, seguridad-social, politica-monetaria.

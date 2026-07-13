@@ -133,3 +133,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Ciencia e innovación EE.UU. (NSF, CHIPS Act)
 - Fuentes: NSF (chips), Congress.gov H.R.4346 — reference-only (sin raw/).
 - Página: `ciencia-e-innovacion.md`. Ecosistema federal de I+D (NSF, DOE labs, NIH); CHIPS and Science Act 2022 (~US$280B); I+D ~3% PIB. Cross-ref sector-tecnologia, educacion, dominio/investigacion-desarrollo.
+
+## [2026-07-13] ingest | Demografía y población de EE.UU. (Census Bureau)
+- Fuentes: U.S. Census Bureau (census.gov), Wikipedia EN — Demographics of the United States — reference-only (sin raw/).
+- Página: `demografia-poblacion.md`. ~340M hab; crecimiento por inmigración; TFR ~1.6-1.7; envejecimiento; diversidad. Cross-ref inmigracion, seguridad-social, economia.

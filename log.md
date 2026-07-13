@@ -590,3 +590,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Superstructura recursiva completa en los 10 nodos nuevos (raw/, README, index, log). Reference-only (Wikipedia EN + fuentes oficiales inegi.org.mx, banxico.org.mx, nsf.gov, statcan.gc.ca, wcoomd.org, icmagroup.org; sin raw/).
 - Round 28 COMPLETA (13/13). ALCANCE sustrato = solo Norteamérica (respetado). Taxonomía extendida en gap_analysis.py (Round 28) tras 0 gaps en Round 27.
 
+## [2026-07-13] ingest | Round 29 — Reabastecimiento continuo (3 deepenings NA + 10 nodos nuevos)
+- gap_analysis.py → 0 gaps en Round 28 (taxonomía Round 28 completa). Extendida taxonomía para Round 29 (3 deepenings NA + 10 nodos nuevos).
+- Alcance sustrato: solo Norteamérica (respetado). Deepenings: sustrato/mexico/demografia-poblacion, sustrato/estados-unidos/demografia-poblacion, sustrato/canada/seguridad-publica.
+- 10 nodos nuevos: dominio/i-d, dominio/compras, dominio/juego-azar, dominio/tercer-sector, dominio/servicios-ambientales, rol/country-manager, rol/regional-director, rol/data-architect, rol/network-engineer, rol/dba.
+- Total Round 29: 13 temas ingestados (3 sustrato + 10 nodos). Fuentes: Wikipedia EN + oficiales de gobierno (reference-only; sin raw/).
+- Índice de progreso: 445 tópicos en 164 iteraciones.
+

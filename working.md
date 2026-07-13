@@ -1345,21 +1345,28 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - [x] rol/head-of-customer-experience — Head of Customer Experience (CX)
 - [x] rol/category-manager — Category Manager (retail/compras)
 
+## 2026-07-13 — Iter 164 · Round 29 (13/13) · COMPLETA
+- gap_analysis.py → 0 gaps en Round 28. Extendí taxonomía (3 deepenings NA + 10 nodos nuevos) en scripts/gap_analysis.py.
+- Deepenings NA: sustrato/mexico/demografia-poblacion, sustrato/estados-unidos/demografia-poblacion, sustrato/canada/seguridad-publica.
+- 10 nodos nuevos: dominio/i-d, dominio/compras, dominio/juego-azar, dominio/tercer-sector, dominio/servicios-ambientales, rol/country-manager, rol/regional-director, rol/data-architect, rol/network-engineer, rol/dba.
+- Index/log raíz + nodos actualizados. Reference-only (Wikipedia EN + oficiales de gobierno; sin raw/).
+- Próxima: gap_analysis.py; si 0 gaps → extender taxonomía Round 30; si hay gaps → reabrir Round 29.
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-- **Tópicos ingeridos (acumulado): 432** (Round 28: +13 = 3 deepenings NA + 5 dominio + 5 rol)
-- **Rondas:** 28 completas (Round 1..28), cada una +13 ingests.
-- **Nodos sustrato (NA):** México 51 (+economia), EE.UU. 40 (+ciencia-e-innovacion), Canadá 34 (+demografia-poblacion). Deepenings NA completas.
-- **Nodos dominio:** ~85 (Round 28 +5 nuevos).
-- **Nodos rol:** ~75 (Round 28 +5 nuevos).
+- **Tópicos ingeridos (acumulado): 445** (Round 29: +13 = 3 deepenings NA + 5 dominio + 5 rol)
+- **Rondas:** 29 completas (Round 1..29), cada una +13 ingests.
+- **Nodos sustrato (NA):** México 52 (+demografia-poblacion), EE.UU. 41 (+demografia-poblacion), Canadá 35 (+seguridad-publica). Deepenings NA completas.
+- **Nodos dominio:** ~90 (Round 29 +5 nuevos).
+- **Nodos rol:** ~80 (Round 29 +5 nuevos).
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
 
 ## 🚦 ESTADO
-- **Iteración actual:** 163 (Round 28 COMPLETA).
-- **Última acción:** Round 28: 13 ingests (3 sustrato NA + 5 dominio + 5 rol).
+- **Iteración actual:** 164 (Round 29 COMPLETA).
+- **Última acción:** Round 29: 13 ingests (3 sustrato NA + 5 dominio + 5 rol).
 - **Bloqueos:** ninguno.
-- **Cola:** Round 28 COMPLETA (13/13). Siguiente: reabastecer — gap_analysis.py reporta 0 gaps tras la extensión de Round 28; reabrir taxonomía para Round 29.
+- **Cola:** Round 29 COMPLETA (13/13). Siguiente: reabastecer — gap_analysis.py reporta 0 gaps tras la extensión de Round 29; extender taxonomía para Round 30.
 
 ## ▶️ PRÓXIMA TAREA
-- `python3 scripts/gap_analysis.py`; si 0 huecos → reabastecer taxonomía (Round 29: nuevos dominio/rol + deepenings NA) y continuar el ciclo; si hay sugerencias → ingerirlas.
+- `python3 scripts/gap_analysis.py`; si 0 huecos → reabastecer taxonomía (Round 30: nuevos dominio/rol + deepenings NA) y continuar el ciclo; si hay sugerencias → ingerirlas.
 - ALCANCE sustrato = solo Norteamérica (MX/US/CA) se mantiene salvo indicación contraria.

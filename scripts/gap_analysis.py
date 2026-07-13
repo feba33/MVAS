@@ -57,6 +57,8 @@ TAXONOMY = {
         ("relaciones-exteriores", "Relaciones exteriores México: SRE, política exterior, diplomacia, tratados, cooperación internacional, ONU/OEA"),
         # Round 28 — deepening NA (economía MX).
         ("economia", "Economía México: PIB, INEGI, Banxico, sectores (manufactura, servicios, petróleo), informalidad, comercio exterior, perspectivas macro"),
+        # Round 29 — deepening NA (demografía MX).
+        ("demografia-poblacion", "Demografía y población México: INEGI, CONAPO, censo, estructura por edad, migración interna/internacional, crecimiento, densidad"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -90,6 +92,8 @@ TAXONOMY = {
         ("seguridad-nacional", "Seguridad nacional EE.UU.: DHS, FBI, intelligence community (ODNI/CIA/NSA), homeland security, ciberseguridad nacional, contrainterligencia"),
         # Round 28 — deepening NA (ciencia e innovación US).
         ("ciencia-e-innovacion", "Ciencia e innovación EE.UU.: NSF, DOE national labs, NIH, I+D, CHIPS Act, ecosistema de investigación y desarrollo"),
+        # Round 29 — deepening NA (demografía US).
+        ("demografia-poblacion", "Demografía y población EE.UU.: Census Bureau, estructura por edad, migración, diversidad, proyecciones, densidad"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -123,6 +127,8 @@ TAXONOMY = {
         ("ciencia-e-innovacion", "Ciencia e innovación Canadá: NRC, ISED, Innovation, Science and Economic Development, políticas de CTI, investigación federal"),
         # Round 28 — deepening NA (demografía/población CA).
         ("demografia-poblacion", "Demografía y población Canadá: Statistics Canada, censo, crecimiento impulsado por inmigración, estructura por edad, densidad"),
+        # Round 29 — deepening NA (seguridad pública CA).
+        ("seguridad-publica", "Seguridad pública Canadá: Public Safety Canada, RCMP, CBSA, gestión de emergencias, policía, fronteras, crimen"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -469,6 +475,17 @@ NEW_NODES = [
     ("rol/fractional-executive", "Ejecutivo fraccionario / Fractional CXO — liderazgo part-time por retainer, advisory, scale-ups; vs founder-ceo/consultor"),
     ("rol/head-of-customer-experience", "Head of Customer Experience (CX) — journey, VoC, NPS/CSAT, operación de CX; vs chief-experience-officer y customer-success-lead"),
     ("rol/category-manager", "Category Manager — gestión de categoría (retail/compras): assortment, pricing, proveedores, P&L de categoría; vs supply-chain-manager"),
+    # Round 29 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings demografia MX/US, seguridad-publica CA; dominio/rol generales).
+    ("dominio/i-d", "I+D / Investigación y Desarrollo: función empresarial y sector, intensidad de I+D, open innovation, pipelines, labs, transferencia tecnológica"),
+    ("dominio/compras", "Compras / Procurement & Strategic Sourcing: sourcing estratégico, P2P, gestión de proveedores, categorías, ahorro, riesgo de suministro"),
+    ("dominio/juego-azar", "Industria del juego y apuestas (gambling & betting): casinos, loterías, apuestas deportivas online, regulación, juego responsable; vs videojuegos"),
+    ("dominio/tercer-sector", "Tercer sector / organizaciones sin fines de lucro: ONG, fundaciones, asociaciones, filantropía, gobernanza, impacto social"),
+    ("dominio/servicios-ambientales", "Servicios ambientales: gestión de residuos, tratamiento de agua, remediación, reciclaje, economía circular como industria"),
+    ("rol/country-manager", "Country Manager — P&L de un país/subsidiaria, operaciones locales, relación con HQ; vs regional-director y managing-director"),
+    ("rol/regional-director", "Regional Director — gestión de múltiples países/regiones, P&L regional, coordinación de subsidiarias; vs country-manager y vp-operations"),
+    ("rol/data-architect", "Data Architect — modelado de datos, arquitectura de información, gobierno técnico de datos, calidad/linaje; vs data-engineer y chief-data-officer"),
+    ("rol/network-engineer", "Network Engineer — diseño/operación de redes, conectividad, routing/seguridad de red, LAN/WAN/SD-WAN; vs cloud-architect y security-engineer"),
+    ("rol/dba", "Database Administrator (DBA) — administración de bases de datos, backup/recovery, rendimiento, seguridad de datos; vs data-engineer"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}
