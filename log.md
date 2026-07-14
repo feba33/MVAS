@@ -656,3 +656,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - gap_analysis.py extendido para Round 38 (3 deepenings NA + 10 nodos nuevos); cola de 13 abierta en working.md.
 - Ingestados en esta iteración (3/13): sustrato/mexico/sector-servicios, dominio/marketing-digital (nodo nuevo), rol/head-of-customer-success (nodo nuevo).
 - Índice de progreso: 552 tópicos en 173 iteraciones (Round 38 en progreso, 10 pendientes).
+
+## [2026-07-14] ingest | Round 38 (iter 174, +3 = 6/13) — 2 deepenings NA + 1 nodo dominio
+- Tema 1 (deepening NA): `sustrato/estados-unidos/proteccion-consumidor.md` — FTC/CFPB/CPSC/State AGs.
+- Tema 2 (deepening NA): `sustrato/canada/sector-servicios.md` — ~70% PIB, ~75% empleo.
+- Tema 3 (nodo nuevo dominio): `dominio/diversidad-equidad-inclusion/` (superstructura completa + página DEI).
+- Alcance sustrato respetado (solo Norteamérica). Reference-only (Wikipedia EN + ftc.gov/cfpb.gov/cpsc.gov/statcan.gc.ca/eeoc.gov; sin raw/).
+- Índice de progreso: 555 tópicos en 174 iteraciones (Round 38 en progreso, 7 pendientes).

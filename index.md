@@ -99,6 +99,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [elecciones](sustrato/estados-unidos/elecciones.md) — Elecciones EE.UU.: Electoral College, FEC, primarias, midterms, derechos de voto · 🏷️ estados-unidos,elecciones,electoral-college,fec,voto,primarias,midterms,sistema-electoral · 📅 2026-07-14
 - [seguridad-publica](sustrato/estados-unidos/seguridad-publica.md) — Seguridad pública EE.UU.: law enforcement, FBI, DOJ, policía estatal/local, reforma policial · 🏷️ eeuu,seguridad-publica,law-enforcement,fbi,doj,policia,reforma-policial · 📅 2026-07-14
 - [estados](sustrato/estados-unidos/estados.md) — Estados de EE.UU. / federalismo: 50 estados, Commerce Clause, Supremacy Clause, state law, regulación subnacional · 🏷️ estados-unidos,estados,federalismo,commerce-clause,state-law,regulacion-subnacional · 📅 2026-07-14
+- [proteccion-consumidor](sustrato/estados-unidos/proteccion-consumidor.md) — Protección al consumidor EE.UU.: FTC (FTC Act 1914), CFPB (Dodd-Frank), CPSC (CPSC Act 1972), estado (AGs) · 🏷️ eeuu,proteccion-consumidor,ftc,cfpb,cpsc,consumidor,ftc-act · 📅 2026-07-14
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -134,6 +135,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [cultura](sustrato/canada/cultura.md) — Cultura Canadá: Canadian Heritage, industrias culturales, Ley de Radiodifusión, bilingüismo · 🏷️ canada,cultura,canadian-heritage,industrias-culturales,bilingue,identidad,multiculturalismo · 📅 2026-07-14
 - [vivienda](sustrato/canada/vivienda.md) — Vivienda Canadá: CMHC, Estrategia Nacional de Vivienda, asequibilidad, crisis de vivienda · 🏷️ canada,vivienda,cmhc,asequibilidad,estrategia-nacional-vivienda,crisis-vivienda · 📅 2026-07-14
 - [pueblos-indigenas](sustrato/canada/pueblos-indigenas.md) — Pueblos indígenas de Canadá: First Nations, Inuit, Métis; Constitución s.35, tratados, UNDRIP, duty to consult · 🏷️ canada,pueblos-indigenas,first-nations,inuit,metis,seccion-35,undrip,duty-to-consult · 📅 2026-07-14
+- [sector-servicios](sustrato/canada/sector-servicios.md) — Sector servicios Canadá: ~70% del PIB y ~75% del empleo; finanzas, inmobiliario, retail, salud, público, TI · 🏷️ canada,sector-servicios,servicios,pib,empleo,economia · 📅 2026-07-14
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -1089,6 +1091,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 -
 ### dominio/marketing-digital
 - [marketing-digital](dominio/marketing-digital/marketing-digital.md) — Marketing digital: SEO/SEM, performance, social paid, email automation, CRO, atribución · 🏷️ marketing-digital,seo,sem,performance-marketing,social-media-marketing,email-marketing,atribucion,inbound · 📅 2026-07-14
+
+### dominio/diversidad-equidad-inclusion
+- [diversidad-equidad-inclusion](dominio/diversidad-equidad-inclusion/diversidad-equidad-inclusion.md) — Diversidad, equidad e inclusión (DEI): marcos organizacionales, dimensiones, capacitación, controversia · 🏷️ dei,diversidad,equidad,inclusion,capital-humano,cultura-organizacional · 📅 2026-07-14
 
 ### rol/head-of-customer-success
 - [head-of-customer-success](rol/head-of-customer-success/head-of-customer-success.md) — Head of Customer Success: lidera la org de CS, retención/expansión, operación de cuentas · 🏷️ head-of-customer-success,customer-success,retencion,liderazgo,saas,nrr · 📅 2026-07-14

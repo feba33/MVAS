@@ -144,3 +144,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Pueblos indígenas de Canadá
 - Fuentes: Justice Canada (s.35) + Crown-Indigenous Relations (Canada.ca) — reference-only.
 - Página: `pueblos-indigenas.md`. First Nations/Inuit/Métis; Constitución s.35, tratados, UNDRIP (Ley 2021), duty to consult, impacto en recursos/energía/infra. Complementa `mineria`/`energia`. Confianza alta.
+
+## [2026-07-14] ingest | Sector servicios Canadá
+- Fuentes: Wikipedia (EN) Economy of Canada; statcan.gc.ca — reference-only (sin raw/).
+- Página: `sector-servicios.md`. Sector servicios domina la economía: ~70% del PIB y ~75% del empleo; finanzas, inmobiliario, retail, salud, administración pública, TI; déficit en comercio de servicios; liberalizado en CUSMA/CETA/CPTPP. Cross-ref economia, sector-manufacturero, dominio/servicios-profesionales, dominio/retail, dominio/finanzas. Confianza alta.

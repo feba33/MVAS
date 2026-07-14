@@ -164,6 +164,10 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 - Fuentes: SBA (sba.gov), EXIM (exim.gov), DFC (dfc.gov) + Wikipedia EN (Development bank) — reference-only.
 - Página: `banca-desarrollo.md`. Agencias de fomento: SBA (PyMEs, garantías 7(a)/504), EXIM Bank (ECA, exportaciones), DFC (ex-OPIC, desarrollo intl), USDA Rural Development. Complementa `sistema-financiero`. Confianza alta.
 
+## [2026-07-14] ingest | Protección al consumidor EE.UU. (FTC/CFPB/CPSC)
+- Fuentes: Wikipedia (EN) Consumer protection; ftc.gov; consumerfinance.gov; cpsc.gov — reference-only (sin raw/).
+- Página: `proteccion-consumidor.md`. FTC (FTC Act 1914, Sec.5 unfair/deceptive), CFPB (Dodd-Frank 2010, sector financiero, >$21B devueltos), CPSC (CPSC Act 1972, seguridad de productos/recalls); State AGs; TILA/FCRA/Magnuson-Moss. Cross-ref sustrato/mexico/profeco-condusef, dominio/proteccion-de-datos, dominio/derecho-del-consumidor, rol/chief-compliance-officer. Confianza alta.
+
 ## [2026-07-14] ingest | Estados de EE.UU. (federalismo)
 - Fuentes: Cornell Law (Commerce Clause) + USA.gov (State Governments) — reference-only.
 - Página: `estados.md`. 50 estados + DC; Commerce Clause y Supremacy Clause; state law, police powers, regulación subnacional (licencias, sales tax, seguros, labor). Complementa `poder-judicial`/`sistema-financiero`. Confianza alta.

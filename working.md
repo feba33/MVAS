@@ -1532,10 +1532,10 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 ## 📋 COLA — Round 38 (abierta: 3/13 completados; próxima iteración retoma aquí)
 Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuevos.
 - [x] sustrato/mexico/sector-servicios — Sector servicios México (~60% PIB)
-- [ ] sustrato/estados-unidos/proteccion-consumidor — Protección al consumidor EE.UU. (FTC/CFPB/CPSC)
-- [ ] sustrato/canada/sector-servicios — Sector servicios Canadá (~70% PIB)
+- [x] sustrato/estados-unidos/proteccion-consumidor — Protección al consumidor EE.UU. (FTC/CFPB/CPSC)
+- [x] sustrato/canada/sector-servicios — Sector servicios Canadá (~70% PIB)
 - [x] dominio/marketing-digital — NODO NUEVO: SEO/SEM, performance, atribución
-- [ ] dominio/diversidad-equidad-inclusion — NODO NUEVO: DEI
+- [x] dominio/diversidad-equidad-inclusion — NODO NUEVO: DEI
 - [ ] dominio/bienestar-laboral — NODO NUEVO: employee wellbeing
 - [ ] dominio/gestion-del-talento — NODO NUEVO: talent management
 - [ ] dominio/customer-success — NODO NUEVO: disciplina CS
@@ -1546,21 +1546,21 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [ ] rol/quality-manager — NODO NUEVO: calidad ISO 9001
 
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-- **Tópicos ingeridos (acumulado): 552** (Round 38 PARCIAL: +3 = 1 deepening NA + 1 dominio + 1 rol; 10 pendientes).
-- **Rondas:** 37 completas (Round 1..37) + Round 38 en progreso (3/13).
+- **Tópicos ingeridos (acumulado): 555** (Round 38: +6 = 3 deepenings NA + 2 dominio + 1 rol; 7 pendientes).
+- **Rondas:** 37 completas (Round 1..37) + Round 38 en progreso (6/13).
 - **Nodos sustrato (NA):** México 59 (+sector-servicios), EE.UU. 47 (+estados), Canadá 41 (+pueblos-indigenas).
-- **Nodos dominio:** ~131 (Round 38 +1 nuevo: marketing-digital).
+- **Nodos dominio:** ~132 (Round 38 +2 nuevos: marketing-digital, diversidad-equidad-inclusion).
 - **Nodos rol:** ~121 (Round 38 +1 nuevo: head-of-customer-success).
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
-- **Iteraciones totales:** 173.
+- **Iteraciones totales:** 174.
 
 ## 🚦 ESTADO
-- **Iteración actual:** 173 (Round 38 en progreso — 3/13 ingestados; 10 pendientes).
-- **Última acción:** Round 38 iniciada — gap_analysis extendido (3 NA deepenings + 10 nodos) e ingestados 3/13: sustrato/mexico/sector-servicios, dominio/marketing-digital (nuevo), rol/head-of-customer-success (nuevo).
+- **Iteración actual:** 174 (Round 38 en progreso — 6/13 ingestados; 7 pendientes).
+- **Última acción:** Round 38 iter 174 — gap_analysis extendido (3 NA + 10 nodos); ingestados 3/13: estados-unidos/proteccion-consumidor, canada/sector-servicios (deepenings NA) + dominio/diversidad-equidad-inclusion (nuevo nodo). Acumulado 6/13.
 - **Bloqueos:** ninguno.
-- **Cola:** Round 38 ABIERTA (3/13). Próxima: continuar ingest (2 deepenings NA + 8 nodos nuevos).
+- **Cola:** Round 38 ABIERTA (6/13). Próxima: continuar ingest (7 nodos nuevos pendientes).
 
 ## ▶️ PRÓXIMA TAREA
-- Continuar ingest de Round 38 (10 pendientes en la COLA Round 38 arriba): 2 deepenings NA (estados-unidos/proteccion-consumidor, canada/sector-servicios) + 8 nodos nuevos (5 dominio + 3 rol). Mantener alcance NA.
+- Continuar ingest de Round 38 (7 pendientes en la COLA Round 38 arriba): los 7 nodos nuevos restantes — dominio/bienestar-laboral, dominio/gestion-del-talento, dominio/customer-success, rol/payroll-manager, rol/data-governance-lead, rol/investment-banker, rol/quality-manager. Mantener alcance NA.
 - Tras vaciar, re-correr `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía para Round 39.

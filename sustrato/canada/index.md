@@ -42,3 +42,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [cultura](cultura.md) — Cultura Canadá: Canadian Heritage, industrias culturales, Ley de Radiodifusión, bilingüismo · 🏷️ canada,cultura,canadian-heritage,industrias-culturales,bilingue,identidad,multiculturalismo · 📅 2026-07-14
 - [vivienda](vivienda.md) — Vivienda Canadá: CMHC, Estrategia Nacional de Vivienda, asequibilidad, crisis de vivienda · 🏷️ canada,vivienda,cmhc,asequibilidad,estrategia-nacional-vivienda,crisis-vivienda · 📅 2026-07-14
 - [banca-desarrollo](banca-desarrollo.md) — Banca de desarrollo Canadá: BDC, EDC, FCC (Crown corps); PyMEs, exportaciones, agrícola · 🏷️ canada,banca-desarrollo,bdc,edc,fcc,corona,segundo-piso · 📅 2026-07-14
+- [sector-servicios](sector-servicios.md) — Sector servicios Canadá: ~70% del PIB y ~75% del empleo; finanzas, inmobiliario, retail, salud, público, TI · 🏷️ canada,sector-servicios,servicios,pib,empleo,economia · 📅 2026-07-14
