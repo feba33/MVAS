@@ -148,3 +148,6 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Transporte EE.UU.
 - Fuentes: Wikipedia (EN) + DOT — reference-only (sin raw/).
 - Página: `transporte.md`.
+## [2026-07-14] ingest | Sistema tributario federal de EE.UU.
+- Fuentes: IRS + Wikipedia (EN) — reference-only (sin raw/).
+- Página: `impuestos.md`.

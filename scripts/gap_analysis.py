@@ -65,6 +65,8 @@ TAXONOMY = {
         ("ciencia-e-innovacion", "Ciencia e innovación México: CONAHCYT, SNCTI, I+D, nearshoring de conocimiento"),
         # Round 32 — deepening NA (competitividad MX).
         ("competitividad", "Competitividad México: IMCO, WEF, Doing Business (hist.), clústeres, facilitación de negocios, ranking global"),
+        # Round 33 — deepening NA (gobierno federal MX).
+        ("gobierno-federal", "Gobierno federal de México: federalismo, Poder Ejecutivo (Presidente y secretarías de Estado), Congreso de la Unión (Cámara de Diputados y Senado), división de poderes; vs poder-judicial"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -106,6 +108,8 @@ TAXONOMY = {
         ("relaciones-exteriores", "Relaciones exteriores EE.UU.: Department of State, diplomacia, tratados, USAID, soft power"),
         # Round 32 — deepening NA (transporte US).
         ("transporte", "Transporte EE.UU.: DOT, FAA, FHWA, FRA, USCG; modos carretero/ferroviario/aéreo/marítimo, infraestructura de transporte"),
+        # Round 33 — deepening NA (impuestos federales US).
+        ("impuestos", "Sistema tributario federal EE.UU.: IRS, Internal Revenue Code, federal income tax, payroll (FICA), corporate tax, estate/gift; vs finanzas-publicas"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -147,6 +151,8 @@ TAXONOMY = {
         ("economia", "Economía de Canadá: PIB, sectores, recursos, comercio, Bank of Canada, CAD, G7"),
         # Round 32 — deepening NA (sector manufacturero CA).
         ("sector-manufacturero", "Sector manufacturero Canadá: Ontario (auto), Quebec (aeroespacial), Alberta (petroquímica), empleo, exportación"),
+        # Round 33 — deepening NA (elecciones CA).
+        ("elecciones", "Sistema electoral Canadá: Elections Canada, democracia, voto, Cámara de los Comunes, Senado, provincias, reforma electoral"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -537,6 +543,17 @@ NEW_NODES = [
     ("rol/compliance-manager", "Compliance Manager — operacionaliza el programa de cumplimiento (monitoreo, AML/KYC, reportes, controles); vs compliance-officer/chief-compliance-officer"),
     ("rol/sales-manager", "Sales Manager — lidera equipo de ventas IC, cuotas, coaching, pipeline; vs sales-lead/vp-sales/account-executive"),
     ("rol/field-marketing-manager", "Field Marketing Manager — marketing regional/eventos, campañas locales, ABM táctico; vs marketing-manager/head-of-marketing-ops/demand-generation"),
+    # Round 33 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings gobierno-federal MX, impuestos US, elecciones CA; dominio/rol generales).
+    ("dominio/inteligencia-artificial", "Inteligencia artificial: historia, tipos (ANI/AGI/ASI), machine learning/deep learning, aplicaciones empresariales, riesgos; vs ia-generativa/etica-ia/gobierno-de-ia"),
+    ("dominio/derecho-civil", "Derecho civil: personas, familia, obligaciones, bienes, sucesiones, contratos civiles; vs leyes/derecho-contratos (mercantil)"),
+    ("dominio/cosmetica", "Industria cosmética / belleza: mercado global, regulación (FDA/COFEPRIS/EU), supply chain, marcas, D2C; vs alimentos-bebidas/moda"),
+    ("dominio/empaque", "Industria del empaque / packaging: materiales (plástico/papel/metal/vidrio), sostenibilidad, regulación, cadena de valor; vs manufactura"),
+    ("dominio/textil", "Industria textil / confección: cadena (fibra-hilo-tejido-confección), mercado, sostenibilidad, nearshoring; vs moda (retail)"),
+    ("rol/accountant", "Accountant / Contador: contabilidad financiera, conciliación, estados financieros, impuestos operativos, cierre; vs controller/financial-analyst"),
+    ("rol/team-lead", "Team Lead / Líder de equipo técnico: supervisión directa de IC, mentoring, entrega de equipo; vs engineering-manager/tech-lead"),
+    ("rol/content-manager", "Content Manager: estrategia de contenido, calendario editorial, producción y distribución; vs chief-content-officer/marketing-manager"),
+    ("rol/it-manager", "IT Manager: operación de TI, infraestructura, soporte, proveedores; vs head-of-it/ciso"),
+    ("rol/head-of-design", "Head of Design: lidera la organización de diseño (producto/brand/UX), cartera y equipo; vs design-lead/chief-design-officer"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

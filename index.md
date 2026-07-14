@@ -53,6 +53,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 - [infraestructura](sustrato/mexico/infraestructura.md) — Infraestructura México: transporte (SICT), energía (CFE/PEMEX), agua (CONAGUA), vivienda, inversión · 🏷️ mexico,infraestructura,sict,cfe,conagua,transporte,energia,agua · 📅 2026-07-14
 - [ciencia-e-innovacion](sustrato/mexico/ciencia-e-innovacion.md) — Ciencia e innovación México: CONAHCYT, SNCTI, I+D, nearshoring de conocimiento · 🏷️ mexico,ciencia,innovacion,conahcyt,sncti,i-d,nearshoring · 📅 2026-07-14
+- [competitividad](sustrato/mexico/competitividad.md) — Competitividad México: IMCO, WEF, Doing Business, clústeres, facilitación de negocios · 🏷️ mexico,competitividad,imco,wef,facilitacion-negocios,clusteres · 📅 2026-07-14
+- [gobierno-federal](sustrato/mexico/gobierno-federal.md) — Gobierno federal de México: federalismo, Poderes Ejecutivo/Legislativo, secretarías, Congreso de la Unión · 🏷️ mexico,gobierno-federal,federalismo,poder-ejecutivo,congreso,secretarias,division-poderes · 📅 2026-07-14
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -89,6 +91,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 - [sector-manufacturero](sustrato/estados-unidos/sector-manufacturero.md) — Sector manufacturero EE.UU.: 2º mayor del mundo, USD$2.9T (2024), 12.76M empleos, CHIPS/IRA, reshoring · 🏷️ eeuu,manufactura,manufacturing,chips-act,ira,reshoring,semiconductores · 📅 2026-07-14
 - [relaciones-exteriores](sustrato/estados-unidos/relaciones-exteriores.md) — Relaciones exteriores EE.UU.: Department of State, diplomacia, tratados, USAID, soft power · 🏷️ eeuu,relaciones-exteriores,departamento-de-estado,diplomacia,tratados,usaid,soft-power · 📅 2026-07-14
+- [transporte](sustrato/estados-unidos/transporte.md) — Transporte EE.UU.: DOT, FAA, FHWA, FRA, USCG; modos carretero/ferroviario/aéreo/marítimo · 🏷️ estados-unidos,transporte,dot,faa,fhwa,fra,uscoastguard,infraestructura · 📅 2026-07-14
+- [impuestos](sustrato/estados-unidos/impuestos.md) — Sistema tributario federal EE.UU.: IRS, Internal Revenue Code, federal income tax, FICA, corporate 21% · 🏷️ estados-unidos,impuestos,irs,internal-revenue-code,federal-income-tax,fica,corporate-tax · 📅 2026-07-14
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -116,8 +120,10 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [ciencia-e-innovacion](sustrato/canada/ciencia-e-innovacion.md) — Ciencia e innovación Canadá: NRC, ISED, políticas de CTI, IA/ML · 🏷️ canada,ciencia,innovacion,nrc,ised,investigacion,politica-de-ciencia · 📅 2026-07-13
 - [demografia-poblacion](sustrato/canada/demografia-poblacion.md) — Demografía y población Canadá: Statistics Canada, censo, inmigración, estructura por edad · 🏷️ canada,demografia,poblacion,statistics-canada,censo,inmigracion,envejecimiento · 📅 2026-07-13
 - [seguridad-publica](sustrato/canada/seguridad-publica.md) — Seguridad pública Canadá: Public Safety Canada, RCMP, CBSA, gestión de emergencias, fronteras · 🏷️ canada,seguridad-publica,public-safety-canada,rcmp,cbsa,policia,gestion-de-emergencias · 📅 2026-07-13
+- [sector-manufacturero](sustrato/canada/sector-manufacturero.md) — Sector manufacturero Canadá: Ontario (auto), Quebec (aeroespacial), Alberta (petroquímica), empleo · 🏷️ canada,sector-manufacturero,automotriz,aeroespacial,petroquimica,empleo · 📅 2026-07-14
+- [elecciones](sustrato/canada/elecciones.md) — Sistema electoral Canadá: Elections Canada, democracia, voto, Cámara de los Comunes, Senado · 🏷️ canada,elecciones,elections-canada,democracia,voto,camara-comunes,senado · 📅 2026-07-14
 
-- [relaciones-exteriores](sustrato/canada/relaciones-exteriores.md) — Relaciones exteriores Canadá: Global Affairs Canada, middle power, multilateral, paz, comercio · 🏷️ canada,relaciones-exteriores,global-affairs-canada,middle-power,multilateralismo,comercio-exterior · 📅 2026-07-14
+- [relaciones-exteriores](sustrato/canada/relaciones-exteriores.md) — Relaciones exteriores Canadá: Global Affairs Canada, middle power, multilateral, paz, comercio · 🏷️ canada, relaciones-exteriores, global-affairs-canada, middle-power, multilateralismo, comercio-exterior · 📅 2026-07-14
 - [economia](sustrato/canada/economia.md) — Economía de Canadá: PIB, servicios ~70%, recursos, comercio (CUSMA), Bank of Canada, CAD, G7 · 🏷️ canada,economia,pib,recursos-naturales,comercio,bank-of-canada,cad,g7 · 📅 2026-07-14
 
 ### sustrato/brasil
@@ -923,4 +929,34 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/field-marketing-manager
 - [field-marketing-manager](rol/field-marketing-manager/field-marketing-manager.md) — Field Marketing Manager: regional/eventos, campañas, ABM; vs marketing-manager · 🏷️ field-marketing-manager,field-marketing,eventos,abm,marketing-b2b · 📅 2026-07-14
+
+### dominio/inteligencia-artificial
+- [inteligencia-artificial](dominio/inteligencia-artificial/inteligencia-artificial.md) — Inteligencia artificial: historia, tipos (ANI/AGI), ML/deep learning, aplicaciones empresariales; vs ia-generativa/etica-ia · 🏷️ inteligencia-artificial,ia,machine-learning,deep-learning,agi,nlp,computer-vision,gobernanza · 📅 2026-07-14
+
+### dominio/derecho-civil
+- [derecho-civil](dominio/derecho-civil/derecho-civil.md) — Derecho civil: personas, familia, obligaciones, bienes, sucesiones, contratos civiles; vs derecho-contratos · 🏷️ derecho-civil,derecho-privado,codigo-civil,obligaciones,familia,sucesiones,bienes,contratos-civiles · 📅 2026-07-14
+
+### dominio/cosmetica
+- [cosmetica](dominio/cosmetica/cosmetica.md) — Industria cosmética: mercado global, regulación (FDA/COFEPRIS/EU), cadena, D2C; vs alimentos-bebidas/moda · 🏷️ cosmetica,belleza,skincare,makeup,fragancia,regulacion-cosmetica,cadena-valor,d2c · 📅 2026-07-14
+
+### dominio/empaque
+- [empaque](dominio/empaque/empaque.md) — Industria del empaque: materiales, sostenibilidad, regulación, cadena de valor; vs manufactura · 🏷️ empaque,packaging,materiales,plastico,carton,metal,vidrio,sostenibilidad,etiquetado · 📅 2026-07-14
+
+### dominio/textil
+- [textil](dominio/textil/textil.md) — Industria textil/confección: cadena (fibra-hilo-tejido), mercado, sostenibilidad, nearshoring; vs moda · 🏷️ textil,confeccion,cadena-textil,fibra,tejido,moda,sostenibilidad,nearshoring · 📅 2026-07-14
+
+### rol/accountant
+- [accountant](rol/accountant/accountant.md) — Accountant / Contador: contabilidad financiera, conciliación, estados, impuestos operativos; vs controller/financial-analyst · 🏷️ accountant,contador,contabilidad-financiera,conciliacion,estados-financieros,cierre,impuestos · 📅 2026-07-14
+
+### rol/team-lead
+- [team-lead](rol/team-lead/team-lead.md) — Team Lead: supervisión directa de IC, mentoring, entrega de equipo; vs engineering-manager/tech-lead · 🏷️ team-lead,liderazgo,supervision,mentoring,entrega,equipo,ic · 📅 2026-07-14
+
+### rol/content-manager
+- [content-manager](rol/content-manager/content-manager.md) — Content Manager: estrategia de contenido, calendario editorial, producción/distribución; vs chief-content-officer · 🏷️ content-manager,contenido,editorial,seo,distribucion,marketing-contenidos · 📅 2026-07-14
+
+### rol/it-manager
+- [it-manager](rol/it-manager/it-manager.md) — IT Manager: operación de TI, infraestructura, soporte, proveedores; vs head-of-it/ciso · 🏷️ it-manager,operacion-ti,infraestructura,soporte,proveedores,help-desk · 📅 2026-07-14
+
+### rol/head-of-design
+- [head-of-design](rol/head-of-design/head-of-design.md) — Head of Design: lidera org de diseño (producto/brand/UX), cartera, equipo; vs design-lead/chief-design-officer · 🏷️ head-of-design,diseno,liderazgo,producto,marca,ux,cartera · 📅 2026-07-14
 

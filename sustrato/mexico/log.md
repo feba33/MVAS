@@ -187,3 +187,6 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Competitividad México
 - Fuentes: Wikipedia (EN) + IMCO — reference-only (sin raw/).
 - Página: `competitividad.md`.
+## [2026-07-14] ingest | Gobierno federal de México
+- Fuentes: Wikipedia (EN) + gob.mx — reference-only (sin raw/).
+- Página: `gobierno-federal.md`.
