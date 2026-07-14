@@ -873,4 +873,14 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/learning-manager
 - [learning-manager](rol/learning-manager/learning-manager.md) — Learning & Development Manager (L&D): capacitación y desarrollo del talento, diseño instruccional, upskilling · 🏷️ learning-manager,ld,capacitacion,desarrollo-talento,upskilling,diseno-instruccional · 📅 2026-07-14
+### dominio/derechos-humanos
+- [derechos-humanos](dominio/derechos-humanos/derechos-humanos.md) — Derechos humanos: marco internacional (ONU), constitucionales, empresariales (UNGP), debido proceso · 🏷️ derechos-humanos,ddhh,onu,tratados,debido-proceso,no-discriminacion,empresas-ddhh · 📅 2026-07-14
+### dominio/comportamiento-del-consumidor
+- [comportamiento-del-consumidor](dominio/comportamiento-del-consumidor/comportamiento-del-consumidor.md) — Comportamiento del consumidor: psicología, buyer journey, factores, nudge; vs marketing/economía conductual · 🏷️ comportamiento-del-consumidor,psicologia,journey,motivacion,nudge,decision · 📅 2026-07-14
+### dominio/trabajo-remoto
+- [trabajo-remoto](dominio/trabajo-remoto/trabajo-remoto.md) — Trabajo remoto / teletrabajo: modelos, política, herramientas, productividad, legal laboral · 🏷️ trabajo-remoto,teletrabajo,hybrid-work,distribucion-equipos,productividad,derecho-desconexion · 📅 2026-07-14
+### dominio/desarrollo-organizacional
+- [desarrollo-organizacional](dominio/desarrollo-organizacional/desarrollo-organizacional.md) — Desarrollo organizacional (OD): diagnóstico, intervenciones, cambio planeado, adult learning · 🏷️ desarrollo-organizacional,od,cambio-planeado,diagnostico,intervenciones,adult-learning · 📅 2026-07-14
+### dominio/inteligencia-emocional
+- [inteligencia-emocional](dominio/inteligencia-emocional/inteligencia-emocional.md) — Inteligencia emocional (EQ): autoconciencia, regulación, empatía, habilidades sociales; liderazgo y equipos · 🏷️ inteligencia-emocional,eq,autoconciencia,regulacion,empatia,liderazgo,equipos · 📅 2026-07-14
 
