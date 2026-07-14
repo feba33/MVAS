@@ -75,6 +75,8 @@ TAXONOMY = {
         ("banca-desarrollo", "Banca de desarrollo México: NAFIN (hoy Banco Nacional de Comercio Exterior), BANCOMEXT, Banobras, SHF, Banco del Bienestar, Bansefi; banca de segundo piso, fomento productivo, PyMEs, infraestructura; vs sustrato/mexico/banca-sistema-financiero"),
         # Round 37 — deepening NA (entidades federativas MX).
         ("entidades-federativas", "Entidades federativas de México / estados: gobiernos estatales, gobernadores, congresos locales, coordinación fiscal (Sistema Nacional de Coordinación Fiscal), impuestos estatales (IEPS estatal, ISN, predial), permisos y regulación subnacional; vs gobierno-federal"),
+        # Round 38 — deepening NA (sector servicios por país).
+        ("sector-servicios", "Sector servicios México: comercio, turismo, financiero, telecom, transporte, gobierno; peso en el PIB, informalidad, productividad; vs economia/trabajo"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -126,6 +128,8 @@ TAXONOMY = {
         ("banca-desarrollo", "Banca de desarrollo EE.UU.: SBA (Small Business Administration), DFC (Development Finance Corporation, antes OPIC), EXIM Bank (Export-Import Bank), USDA Rural Development; crédito a PyMEs, exportaciones, desarrollo; vs sustrato/estados-unidos/sistema-financiero"),
         # Round 37 — deepening NA (estados US).
         ("estados", "Estados de EE.UU. / federalismo: gobiernos estatales, poderes estatales, división federal-state (Commerce Clause, Supremacy Clause), state law, regulación subnacional, federalismo estadounidense; vs poder-judicial"),
+        # Round 38 — deepening NA (protección al consumidor por país).
+        ("proteccion-consumidor", "Protección al consumidor EE.UU.: FTC, CFPB, CPSC, fiscales estatales (AG), engaño, privacidad, reembolsos; vs derecho-del-consumidor"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -177,6 +181,8 @@ TAXONOMY = {
         ("banca-desarrollo", "Banca de desarrollo Canadá: BDC (Business Development Bank of Canada), EDC (Export Development Canada), FCC (Farm Credit Canada); financiamiento a PyMEs, exportaciones, agronegocio; vs sustrato/canada/sector-bancario"),
         # Round 37 — deepening NA (pueblos indígenas CA).
         ("pueblos-indigenas", "Pueblos indígenas de Canadá: First Nations, Inuit, Métis; tratados, Constitución s.35, UNDRIP, duty to consult, autogobierno, impacto en recursos/energía/infra; vs derechos-humanos"),
+        # Round 38 — deepening NA (sector servicios por país).
+        ("sector-servicios", "Sector servicios Canadá: comercio minorista, financiero, salud, educación, TIC, gobierno, turismo; peso en el PIB, productividad, empleo; vs economia/trabajo"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -622,6 +628,17 @@ NEW_NODES = [
     ("rol/credit-analyst", "Credit Analyst / Analista de crédito: evaluación de riesgo de crédito, scoring, capacidad de pago, estructuración; vs financial-analyst/underwriter"),
     ("rol/mlops-engineer", "MLOps Engineer — despliega, monitoriza y opera modelos ML en producción (CI/CD para ML, feature store, model registry, observabilidad); vs ml-engineer/ai-engineer"),
     ("rol/deal-desk", "Deal Desk — pricing y aprobaciones de ventas, descuentos, estructuración de propuestas, quote-to-cash; vs sales-manager/head-of-sales-ops"),
+    # Round 38 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings sector-servicios MX/CA + proteccion-consumidor US; dominio/rol generales).
+    ("dominio/marketing-digital", "Marketing digital: SEO/SEM, performance, social paid, email automation, CRO, analytics, atribución; vs publicidad/demand-generation/marketing"),
+    ("dominio/diversidad-equidad-inclusion", "Diversidad, Equidad e Inclusión (DEI): estrategia de inclusión, equidad salarial, pertenencia, métricas; vs chief-diversity-officer/tercer-sector"),
+    ("dominio/bienestar-laboral", "Bienestar laboral / employee wellbeing: salud física/mental, beneficios de bienestar, equilibrio, engagement; vs salud-mental/compensacion-beneficios"),
+    ("dominio/gestion-del-talento", "Gestión del talento / talent management: atracción, desarrollo, retención, sucesión, movilidad interna; vs recursos-humanos/desarrollo-organizacional/head-of-talent"),
+    ("dominio/customer-success", "Customer Success (como disciplina): health score, renovaciones, expansión, adopción, modelo de ingresos recurrente; vs experiencia-cliente/customer-success-lead"),
+    ("rol/head-of-customer-success", "Head of Customer Success — lidera la org de CS, estrategia de retención/expansión, operación de cuentas; vs customer-success-lead/customer-success-manager"),
+    ("rol/payroll-manager", "Payroll Manager — gestión de nómina, impuestos laborales, cumplimiento de pago, sistemas de payroll; vs bookkeeper/controller/benefits-manager"),
+    ("rol/data-governance-lead", "Data Governance Lead — calidad, linaje, política y cumplimiento de datos, privacidad by design; vs data-architect/chief-data-officer/gobierno-de-datos"),
+    ("rol/investment-banker", "Investment Banker — M&A, underwriting (ECM/DCM), sales & trading en banca de inversión; vs banca-de-inversion/chief-investment-officer"),
+    ("rol/quality-manager", "Quality Manager — gestión de la calidad operativa, ISO 9001, auditorías, mejora continua; vs chief-quality-officer/calidad"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

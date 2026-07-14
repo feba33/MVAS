@@ -651,3 +651,8 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - 10 nodos nuevos: dominio/centros-de-datos, dominio/economia-social, dominio/finanzas-descentralizadas, dominio/investigacion-clinica, dominio/derecho-del-consumidor, rol/copywriter, rol/underwriter, rol/credit-analyst, rol/mlops-engineer, rol/deal-desk.
 - Total Round 37: 13 temas ingestados (3 sustrato + 10 nodos). Fuentes: Wikipedia EN + oficiales de gobierno (reference-only; sin raw/).
 - Índice de progreso: 549 tópicos en 172 iteraciones.
+
+## [2026-07-14] ingest | Round 38 (parcial, 3/13) — Reabastecimiento continuo
+- gap_analysis.py extendido para Round 38 (3 deepenings NA + 10 nodos nuevos); cola de 13 abierta en working.md.
+- Ingestados en esta iteración (3/13): sustrato/mexico/sector-servicios, dominio/marketing-digital (nodo nuevo), rol/head-of-customer-success (nodo nuevo).
+- Índice de progreso: 552 tópicos en 173 iteraciones (Round 38 en progreso, 10 pendientes).

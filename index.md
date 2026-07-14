@@ -57,7 +57,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [gobierno-federal](sustrato/mexico/gobierno-federal.md) — Gobierno federal de México: federalismo, Poderes Ejecutivo/Legislativo, secretarías, Congreso de la Unión · 🏷️ mexico,gobierno-federal,federalismo,poder-ejecutivo,congreso,secretarias,division-poderes · 📅 2026-07-14
 - [trabajo](sustrato/mexico/trabajo.md) — Trabajo / mercado laboral México: STPS, empleo, salario mínimo, outsourcing 2021, informalidad · 🏷️ mexico,trabajo,stps,empleo,salario-minimo,outsourcing,informalidad,mercado-laboral · 📅 2026-07-14
 - [vivienda](sustrato/mexico/vivienda.md) — Vivienda México: INFONAVIT, SHF, FOVISSSTE, crédito hipotecario, déficit habitacional · 🏷️ mexico,vivienda,infonavit,shf,fovissste,credito-hipotecario,deficit-habitacional · 📅 2026-07-14
-- [entidades-federativas](sustrato/mexico/entidades-federativas.md) — Entidades federativas de México: 32 estados, coordinación fiscal (SNCF/LCF), participaciones y aportaciones, impuestos estatales (ISN/predial) · 🏷️ mexico,entidades-federativas,estados,coordinacion-fiscal,federalismo,impuestos-estatales · 📅 2026-07-14
+-- [sector-servicios](sustrato/mexico/sector-servicios.md) — Sector servicios México: ~60% del PIB (comercio, turismo, financiero, transporte, gobierno), alta informalidad · 🏷️ mexico,sector-servicios,pib,comercio,turismo,servicios-financieros,informalidad · 📅 2026-07-14
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -1086,5 +1086,10 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [mlops-engineer](rol/mlops-engineer/mlops-engineer.md) — MLOps Engineer: despliegue y operación de modelos ML en producción (CI/CD, monitoreo) · 🏷️ mlops-engineer,mlops,machine-learning,despliegue,produccion,observabilidad,devops · 📅 2026-07-14
 
 ### rol/deal-desk
-- [deal-desk](rol/deal-desk/deal-desk.md) — Deal Desk: pricing y aprobaciones de ventas, estructuración de propuestas, quote-to-cash · 🏷️ deal-desk,pricing,descuentos,aprobaciones,quote-to-cash,ventas,propuestas · 📅 2026-07-14
+-
+### dominio/marketing-digital
+- [marketing-digital](dominio/marketing-digital/marketing-digital.md) — Marketing digital: SEO/SEM, performance, social paid, email automation, CRO, atribución · 🏷️ marketing-digital,seo,sem,performance-marketing,social-media-marketing,email-marketing,atribucion,inbound · 📅 2026-07-14
+
+### rol/head-of-customer-success
+- [head-of-customer-success](rol/head-of-customer-success/head-of-customer-success.md) — Head of Customer Success: lidera la org de CS, retención/expansión, operación de cuentas · 🏷️ head-of-customer-success,customer-success,retencion,liderazgo,saas,nrr · 📅 2026-07-14
 
