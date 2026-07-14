@@ -37,3 +37,5 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [economia](economia.md) — Economía de Canadá: PIB, servicios ~70%, recursos, comercio (CUSMA), Bank of Canada, CAD, G7 · 🏷️ canada,economia,pib,recursos-naturales,comercio,bank-of-canada,cad,g7 · 📅 2026-07-14
 - [sector-manufacturero](sector-manufacturero.md) — Sector manufacturero Canadá: Ontario (auto), Quebec (aeroespacial), Alberta (petroquímica), empleo · 🏷️ canada,sector-manufacturero,automotriz,aeroespacial,petroquimica,empleo · 📅 2026-07-14
 - [elecciones](elecciones.md) — Sistema electoral Canadá: Elections Canada, democracia, voto, Cámara de los Comunes, Senado · 🏷️ canada,elecciones,elections-canada,democracia,voto,camara-comunes,senado · 📅 2026-07-14
+
+- [cultura](cultura.md) — Cultura Canadá: Canadian Heritage, industrias culturales, Ley de Radiodifusión, bilingüismo · 🏷️ canada,cultura,canadian-heritage,industrias-culturales,bilingue,identidad,multiculturalismo · 📅 2026-07-14

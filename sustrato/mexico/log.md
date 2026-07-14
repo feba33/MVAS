@@ -190,3 +190,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Gobierno federal de México
 - Fuentes: Wikipedia (EN) + gob.mx — reference-only (sin raw/).
 - Página: `gobierno-federal.md`.
+
+## [2026-07-14] ingest | Trabajo / mercado laboral México
+- Fuente: web/URL citada en frontmatter (reference-only; sin raw/).
+- Página: `sustrato/mexico/trabajo.md`.

@@ -128,3 +128,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Sistema electoral de Canadá
 - Fuentes: Wikipedia (EN) + Elections Canada — reference-only (sin raw/).
 - Página: `elecciones.md`.
+
+## [2026-07-14] ingest | Cultura de Canadá
+- Fuente: web/URL citada en frontmatter (reference-only; sin raw/).
+- Página: `sustrato/canada/cultura.md`.

@@ -43,3 +43,5 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [relaciones-exteriores](relaciones-exteriores.md) — Relaciones exteriores EE.UU.: Department of State, diplomacia, tratados, USAID, soft power · 🏷️ eeuu,relaciones-exteriores,departamento-de-estado,diplomacia,tratados,usaid,soft-power · 📅 2026-07-14
 - [transporte](transporte.md) — Transporte EE.UU.: DOT, FAA, FHWA, FRA, USCG; modos carretero/ferroviario/aéreo/marítimo · 🏷️ estados-unidos,transporte,dot,faa,fhwa,fra,uscoastguard,infraestructura · 📅 2026-07-14
 - [impuestos](impuestos.md) — Sistema tributario federal EE.UU.: IRS, Internal Revenue Code, federal income tax, FICA, corporate 21% · 🏷️ estados-unidos,impuestos,irs,internal-revenue-code,federal-income-tax,fica,corporate-tax · 📅 2026-07-14
+
+- [elecciones](elecciones.md) — Elecciones EE.UU.: Electoral College, FEC, primarias, midterms, derechos de voto · 🏷️ estados-unidos,elecciones,electoral-college,fec,voto,primarias,midterms,sistema-electoral · 📅 2026-07-14

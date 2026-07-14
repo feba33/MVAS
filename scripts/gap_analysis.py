@@ -67,6 +67,8 @@ TAXONOMY = {
         ("competitividad", "Competitividad México: IMCO, WEF, Doing Business (hist.), clústeres, facilitación de negocios, ranking global"),
         # Round 33 — deepening NA (gobierno federal MX).
         ("gobierno-federal", "Gobierno federal de México: federalismo, Poder Ejecutivo (Presidente y secretarías de Estado), Congreso de la Unión (Cámara de Diputados y Senado), división de poderes; vs poder-judicial"),
+        # Round 34 — deepening NA (trabajo MX).
+        ("trabajo", "Trabajo / mercado laboral México: STPS, empleo, salario mínimo, outsourcing/subscontratación (Ley 2021), seguridad social asociada, productividad, informalidad; vs derecho-laboral/seguridad-social"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -110,6 +112,8 @@ TAXONOMY = {
         ("transporte", "Transporte EE.UU.: DOT, FAA, FHWA, FRA, USCG; modos carretero/ferroviario/aéreo/marítimo, infraestructura de transporte"),
         # Round 33 — deepening NA (impuestos federales US).
         ("impuestos", "Sistema tributario federal EE.UU.: IRS, Internal Revenue Code, federal income tax, payroll (FICA), corporate tax, estate/gift; vs finanzas-publicas"),
+        # Round 34 — deepening NA (elecciones US).
+        ("elecciones", "Sistema electoral EE.UU.: Constitución, Electoral College, voto popular, FEC, derechos de voto, primarias, midterms, ciclo electoral, votación por correo; vs poder-judicial"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -153,6 +157,8 @@ TAXONOMY = {
         ("sector-manufacturero", "Sector manufacturero Canadá: Ontario (auto), Quebec (aeroespacial), Alberta (petroquímica), empleo, exportación"),
         # Round 33 — deepening NA (elecciones CA).
         ("elecciones", "Sistema electoral Canadá: Elections Canada, democracia, voto, Cámara de los Comunes, Senado, provincias, reforma electoral"),
+        # Round 34 — deepening NA (cultura CA).
+        ("cultura", "Cultura Canadá: Canadian Heritage, industrias culturales (radiodifusión, cine, música, libros), Ley de Radiodifusión, políticas bilingües (FR/EN), identidad y diversidad; vs turismo/medios-comunicacion"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -554,6 +560,17 @@ NEW_NODES = [
     ("rol/content-manager", "Content Manager: estrategia de contenido, calendario editorial, producción y distribución; vs chief-content-officer/marketing-manager"),
     ("rol/it-manager", "IT Manager: operación de TI, infraestructura, soporte, proveedores; vs head-of-it/ciso"),
     ("rol/head-of-design", "Head of Design: lidera la organización de diseño (producto/brand/UX), cartera y equipo; vs design-lead/chief-design-officer"),
+    # Round 34 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings trabajo MX, elecciones US, cultura CA; dominio/rol generales).
+    ("dominio/salud-mental", "Salud mental: bienestar psicológico, psiquiatría/psicología clínica, prevención, salud mental en el trabajo, políticas de salud mental, destigmatización; vs salud/salud-publica"),
+    ("dominio/gamificacion", "Gamificación: mecánicas de juego (puntos, badges, leaderboards, bucles de progreso) aplicadas a producto, aprendizaje, marketing y engagement; vs comportamiento-del-consumidor/economia-comportamental"),
+    ("dominio/urbanismo", "Urbanismo / planeación urbana: zonificación, uso de suelo, movilidad, vivienda, infraestructura urbana, sostenibilidad, smart cities; vs ciudades-inteligentes/movilidad-urbana"),
+    ("dominio/arquitectura", "Arquitectura: diseño del entorno construido, arquitectura sostenible/verde, AEC, códigos, BIM; vs construccion"),
+    ("dominio/biometria", "Biometría: reconocimiento facial/huella/iris/voice, identidad digital, autenticación, privacidad y regulación (GDPR/bans), aplicaciones (fronteras, fintech); vs proteccion-de-datos"),
+    ("rol/chief-administrative-officer", "CAO — Chief Administrative Officer: lidera funciones administrativas (facilities, legal ops, RH operativo, procurement, IT interna), backbone operativo; vs COO/CFO"),
+    ("rol/head-of-data-science", "Head of Data Science — lidera equipos de ciencia de datos, estrategia de modelado/ML, embed en producto y decisiones; vs data-scientist/chief-analytics-officer/chief-data-officer"),
+    ("rol/head-of-employer-branding", "Head of Employer Branding — marca empleadora, talent brand, recruitment marketing, propuesta de valor al empleado; vs head-of-talent/reclutador/head-of-people"),
+    ("rol/director-of-operations", "Director of Operations — liderazgo operativo de nivel medio/alto, ejecución de procesos y P&L de operaciones; vs head-of-operations/vp-operations/coo"),
+    ("rol/head-of-communications", "Head of Communications — comms funcional (internas/externas, medios, crisis), ejecución de relaciones públicas; vs chief-communications-officer/relaciones-publicas"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

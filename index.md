@@ -55,6 +55,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [ciencia-e-innovacion](sustrato/mexico/ciencia-e-innovacion.md) — Ciencia e innovación México: CONAHCYT, SNCTI, I+D, nearshoring de conocimiento · 🏷️ mexico,ciencia,innovacion,conahcyt,sncti,i-d,nearshoring · 📅 2026-07-14
 - [competitividad](sustrato/mexico/competitividad.md) — Competitividad México: IMCO, WEF, Doing Business, clústeres, facilitación de negocios · 🏷️ mexico,competitividad,imco,wef,facilitacion-negocios,clusteres · 📅 2026-07-14
 - [gobierno-federal](sustrato/mexico/gobierno-federal.md) — Gobierno federal de México: federalismo, Poderes Ejecutivo/Legislativo, secretarías, Congreso de la Unión · 🏷️ mexico,gobierno-federal,federalismo,poder-ejecutivo,congreso,secretarias,division-poderes · 📅 2026-07-14
+- [trabajo](sustrato/mexico/trabajo.md) — Trabajo / mercado laboral México: STPS, empleo, salario mínimo, outsourcing 2021, informalidad · 🏷️ mexico,trabajo,stps,empleo,salario-minimo,outsourcing,informalidad,mercado-laboral · 📅 2026-07-14
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -93,6 +94,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [relaciones-exteriores](sustrato/estados-unidos/relaciones-exteriores.md) — Relaciones exteriores EE.UU.: Department of State, diplomacia, tratados, USAID, soft power · 🏷️ eeuu,relaciones-exteriores,departamento-de-estado,diplomacia,tratados,usaid,soft-power · 📅 2026-07-14
 - [transporte](sustrato/estados-unidos/transporte.md) — Transporte EE.UU.: DOT, FAA, FHWA, FRA, USCG; modos carretero/ferroviario/aéreo/marítimo · 🏷️ estados-unidos,transporte,dot,faa,fhwa,fra,uscoastguard,infraestructura · 📅 2026-07-14
 - [impuestos](sustrato/estados-unidos/impuestos.md) — Sistema tributario federal EE.UU.: IRS, Internal Revenue Code, federal income tax, FICA, corporate 21% · 🏷️ estados-unidos,impuestos,irs,internal-revenue-code,federal-income-tax,fica,corporate-tax · 📅 2026-07-14
+- [elecciones](sustrato/estados-unidos/elecciones.md) — Elecciones EE.UU.: Electoral College, FEC, primarias, midterms, derechos de voto · 🏷️ estados-unidos,elecciones,electoral-college,fec,voto,primarias,midterms,sistema-electoral · 📅 2026-07-14
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -125,6 +127,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 - [relaciones-exteriores](sustrato/canada/relaciones-exteriores.md) — Relaciones exteriores Canadá: Global Affairs Canada, middle power, multilateral, paz, comercio · 🏷️ canada, relaciones-exteriores, global-affairs-canada, middle-power, multilateralismo, comercio-exterior · 📅 2026-07-14
 - [economia](sustrato/canada/economia.md) — Economía de Canadá: PIB, servicios ~70%, recursos, comercio (CUSMA), Bank of Canada, CAD, G7 · 🏷️ canada,economia,pib,recursos-naturales,comercio,bank-of-canada,cad,g7 · 📅 2026-07-14
+- [cultura](sustrato/canada/cultura.md) — Cultura Canadá: Canadian Heritage, industrias culturales, Ley de Radiodifusión, bilingüismo · 🏷️ canada,cultura,canadian-heritage,industrias-culturales,bilingue,identidad,multiculturalismo · 📅 2026-07-14
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -959,4 +962,33 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-design
 - [head-of-design](rol/head-of-design/head-of-design.md) — Head of Design: lidera org de diseño (producto/brand/UX), cartera, equipo; vs design-lead/chief-design-officer · 🏷️ head-of-design,diseno,liderazgo,producto,marca,ux,cartera · 📅 2026-07-14
+### dominio/salud-mental
+- [salud-mental](dominio/salud-mental/salud-mental.md) — Salud mental: bienestar, OMS, prevención, salud en el trabajo, destigmatización · 🏷️ salud-mental,bienestar,psicologia,psiquiatria,prevencion,salud-en-el-trabajo,destigmatizacion · 📅 2026-07-14
+
+### dominio/gamificacion
+- [gamificacion](dominio/gamificacion/gamificacion.md) — Gamificación: mecánicas de juego (puntos/badges/leaderboards) en contextos no lúdicos; engagement · 🏷️ gamificacion,engagement,puntos,badges,leaderboards,producto,aprendizaje,marketing · 📅 2026-07-14
+
+### dominio/urbanismo
+- [urbanismo](dominio/urbanismo/urbanismo.md) — Urbanismo: zonificación, uso de suelo, movilidad, vivienda, sostenibilidad · 🏷️ urbanismo,planeacion-urbana,zonificacion,uso-de-suelo,movilidad,vivienda,infraestructura-urbana,sostenibilidad · 📅 2026-07-14
+
+### dominio/arquitectura
+- [arquitectura](dominio/arquitectura/arquitectura.md) — Arquitectura: diseño del entorno construido, sostenible, AEC, BIM, códigos · 🏷️ arquitectura,diseno-construido,sostenible,aec,codigos,bim,construccion · 📅 2026-07-14
+
+### dominio/biometria
+- [biometria](dominio/biometria/biometria.md) — Biometría: huella/rostro/iris/voice, identidad, autenticación, privacidad · 🏷️ biometria,autenticacion,identidad,huella,rostro,iris,privacidad,reconocimiento-facial · 📅 2026-07-14
+
+### rol/chief-administrative-officer
+- [chief-administrative-officer](rol/chief-administrative-officer/chief-administrative-officer.md) — CAO: lidera funciones administrativas (facilities, legal ops, RH, procurement, IT interna) · 🏷️ chief-administrative-officer,cao,administracion,operaciones,facilities,legal-ops,rh-operativo,procurement · 📅 2026-07-14
+
+### rol/head-of-data-science
+- [head-of-data-science](rol/head-of-data-science/head-of-data-science.md) — Head of Data Science: lidera equipos DS, estrategia de modelado/ML, embed en producto · 🏷️ head-of-data-science,data-science,liderazgo,machine-learning,modelado,equipos · 📅 2026-07-14
+
+### rol/head-of-employer-branding
+- [head-of-employer-branding](rol/head-of-employer-branding/head-of-employer-branding.md) — Head of Employer Branding: marca empleadora, talent brand, recruitment marketing, EVP · 🏷️ head-of-employer-branding,employer-branding,marca-empleadora,talent-brand,recruitment-marketing,retencion · 📅 2026-07-14
+
+### rol/director-of-operations
+- [director-of-operations](rol/director-of-operations/director-of-operations.md) — Director of Operations: liderazgo operativo, ejecución de procesos y P&L de operaciones · 🏷️ director-of-operations,operations,operaciones,procesos,pl,ejecucion · 📅 2026-07-14
+
+### rol/head-of-communications
+- [head-of-communications](rol/head-of-communications/head-of-communications.md) — Head of Communications: comms internas/externas, medios, crisis, relaciones públicas · 🏷️ head-of-communications,communications,relaciones-publicas,medios,crisis,marca,interna · 📅 2026-07-14
 

@@ -46,3 +46,5 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [imss-registros-patrones](imss-registros-patrones.md) — Caen registros de patrones IMSS y se desacelera el salario real (mercado laboral) · 🏷️ elfinanciero,imss,empleo,seguridad-social,salario-real,mercado-laboral · 📅 2026-07-14
 - [competitividad](competitividad.md) — Competitividad México: IMCO, WEF, Doing Business, clústeres, facilitación de negocios · 🏷️ mexico,competitividad,imco,wef,facilitacion-negocios,clusteres · 📅 2026-07-14
 - [gobierno-federal](gobierno-federal.md) — Gobierno federal de México: federalismo, Poderes Ejecutivo/Legislativo, secretarías, Congreso de la Unión · 🏷️ mexico,gobierno-federal,federalismo,poder-ejecutivo,congreso,secretarias,division-poderes · 📅 2026-07-14
+
+- [trabajo](trabajo.md) — Trabajo / mercado laboral México: STPS, empleo, salario mínimo, outsourcing 2021, informalidad · 🏷️ mexico,trabajo,stps,empleo,salario-minimo,outsourcing,informalidad,mercado-laboral · 📅 2026-07-14

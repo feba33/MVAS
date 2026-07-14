@@ -151,3 +151,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Sistema tributario federal de EE.UU.
 - Fuentes: IRS + Wikipedia (EN) — reference-only (sin raw/).
 - Página: `impuestos.md`.
+
+## [2026-07-14] ingest | Elecciones en Estados Unidos
+- Fuente: web/URL citada en frontmatter (reference-only; sin raw/).
+- Página: `sustrato/estados-unidos/elecciones.md`.
