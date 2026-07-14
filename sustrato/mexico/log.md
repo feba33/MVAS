@@ -172,3 +172,15 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Ciencia e innovación en México (CONAHCYT, SNCTI)
 - Fuentes: Wikipedia (es) — Ciencia y tecnología en México; CONAHCYT (conahcyt.gob.mx) — reference-only (sin raw/).
 - Página: `ciencia-e-innovacion.md`. SNCTI (LCeTyI 2019); I+D ~0.3-0.4% PIB (bajo vs OCDE); reforma 2024 (fideicomisos); brain drain; nearshoring de conocimiento. Cross-ref sustrato/estados-unidos/ciencia-e-innovacion, sustrato/canada/ciencia-e-innovacion, dominio/i-d.
+
+## [2026-07-14] ingest | Durazo atrae inversión de Singapur a Sonora (El Financiero)
+- Fuente: El Financiero (2026-07-13) — reference-only (URL en frontmatter, sin raw/).
+- Página: `durazo-inversion-singapur.md`. El gobernador Durazo captó el interés de una misión de Singapur para proyectos de IED en Sonora, en la dinámica de nearshoring.
+- Discernimiento: sustrato/mexico (inversión extranjera / economía estatal) + cross-ref inversion-extranjera.md, infraestructura.md. Certeza alta.
+- Gate de relevancia: ángulo de inversión extranjera / nearshoring → ingerido. Los otros 3 ítems del scrape (Mundial 2026 odds, desgarro aórtico de Lindsey Graham, desaprobación de Samuel García 58% NL) se filtraron por gate de relevancia (coyuntura deportiva/salud/criminal-política sin ángulo legal-corporativo-técnico).
+
+## [2026-07-14] ingest | Caen registros de patrones ante el IMSS; se desacelera el salario real (El Financiero)
+- Fuente: El Financiero (2026-07-13) — reference-only (URL en frontmatter, sin raw/).
+- Página: `imss-registros-patrones.md`. El IMSS reportó caída drástica de registros de patrones y desaceleración del salario real en 2026; economistas prevén recuperación del empleo formal.
+- Discernimiento: sustrato/mexico (mercado laboral / seguridad social) + cross-ref seguridad-social.md, economia.md, politica-monetaria.md. Certeza alta.
+- Gate de relevancia: indicador económico/laboral con efecto sobre decisiones (empleo formal, recaudación, consumo) → ingerido.
