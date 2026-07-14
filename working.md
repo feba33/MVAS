@@ -1511,21 +1511,40 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - [x] rol/ux-researcher
 - [x] rol/economist
 
+## COLA ROUND 37 (13 temas — gap_analysis.py iter 172 → taxonomía extendida; sustrato solo NA) — COMPLETA ✅
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Entidades federativas / estados (coordinación fiscal, gobiernos estatales)
+- [x] sustrato/estados-unidos — Estados / federalismo (gobiernos estatales, state law)
+- [x] sustrato/canada — Pueblos indígenas (First Nations, Inuit, Métis, duty to consult)
+### Dominio (nuevos nodos)
+- [x] dominio/centros-de-datos — Data centers (Tier, colocation, sostenibilidad)
+- [x] dominio/economia-social — Economía social y solidaria
+- [x] dominio/finanzas-descentralizadas — DeFi
+- [x] dominio/investigacion-clinica — Ensayos clínicos
+- [x] dominio/derecho-del-consumidor — Derecho del consumidor
+### Rol (nuevos nodos)
+- [x] rol/copywriter — Copywriter / Redactor
+- [x] rol/underwriter — Underwriter / Suscriptor
+- [x] rol/credit-analyst — Credit Analyst
+- [x] rol/mlops-engineer — MLOps Engineer
+- [x] rol/deal-desk — Deal Desk
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-- **Tópicos ingeridos (acumulado): 536** (Round 36: +13 = 3 deepenings NA + 5 dominio + 5 rol)
-- **Rondas:** 36 completas (Round 1..36), cada una +13 ingests.
-- **Nodos sustrato (NA):** México 57 (+banca-desarrollo), EE.UU. 46 (+banca-desarrollo), Canadá 40 (+banca-desarrollo). Deepenings NA completas.
-- **Nodos dominio:** ~125 (Round 36 +5 nuevos: banca-de-inversion, mercados-emergentes, contratacion-publica, it-service-management, modelos-de-negocio).
-- **Nodos rol:** ~115 (Round 36 +5 nuevos: developer-advocate, security-architect, analytics-engineer, ux-researcher, economist).
+- **Tópicos ingeridos (acumulado): 549** (Round 37: +13 = 3 deepenings NA + 5 dominio + 5 rol)
+- **Rondas:** 37 completas (Round 1..37), cada una +13 ingests.
+- **Nodos sustrato (NA):** México 58 (+entidades-federativas), EE.UU. 47 (+estados), Canadá 41 (+pueblos-indigenas). Deepenings NA completas.
+- **Nodos dominio:** ~130 (Round 37 +5 nuevos: centros-de-datos, economia-social, finanzas-descentralizadas, investigacion-clinica, derecho-del-consumidor).
+- **Nodos rol:** ~120 (Round 37 +5 nuevos: copywriter, underwriter, credit-analyst, mlops-engineer, deal-desk).
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
+- **Iteraciones totales:** 172.
 
 ## 🚦 ESTADO
-- **Iteración actual:** 171 (Round 36 COMPLETA).
-- **Última acción:** Round 36: 13 ingests (3 sustrato NA + 5 dominio + 5 rol).
+- **Iteración actual:** 172 (Round 37 COMPLETA).
+- **Última acción:** Round 37: 13 ingests (3 sustrato NA + 5 dominio + 5 rol).
 - **Bloqueos:** ninguno.
-- **Cola:** Round 36 COMPLETA (13/13). Siguiente: reabastecer — gap_analysis.py reporta 0 gaps tras la extensión de Round 36; extender taxonomía para Round 37.
+- **Cola:** Round 37 COMPLETA (13/13). Siguiente: reabastecer — gap_analysis.py reporta 0 gaps tras la extensión de Round 37; extender taxonomía para Round 38.
 
 ## ▶️ PRÓXIMA TAREA
-- `python3 scripts/gap_analysis.py`; si 0 huecos → reabastecer taxonomía (Round 37: nuevos dominio/rol + deepenings NA) y continuar el ciclo.
+- `python3 scripts/gap_analysis.py`; si 0 huecos → reabastecer taxonomía (Round 38: nuevos dominio/rol + deepenings NA) y continuar el ciclo.
 - ALCANCE sustrato = solo Norteamérica (MX/US/CA) se mantiene salvo indicación contraria.

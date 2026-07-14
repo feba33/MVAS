@@ -163,3 +163,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Banca de desarrollo de EE.UU.
 - Fuentes: SBA (sba.gov), EXIM (exim.gov), DFC (dfc.gov) + Wikipedia EN (Development bank) — reference-only.
 - Página: `banca-desarrollo.md`. Agencias de fomento: SBA (PyMEs, garantías 7(a)/504), EXIM Bank (ECA, exportaciones), DFC (ex-OPIC, desarrollo intl), USDA Rural Development. Complementa `sistema-financiero`. Confianza alta.
+
+## [2026-07-14] ingest | Estados de EE.UU. (federalismo)
+- Fuentes: Cornell Law (Commerce Clause) + USA.gov (State Governments) — reference-only.
+- Página: `estados.md`. 50 estados + DC; Commerce Clause y Supremacy Clause; state law, police powers, regulación subnacional (licencias, sales tax, seguros, labor). Complementa `poder-judicial`/`sistema-financiero`. Confianza alta.

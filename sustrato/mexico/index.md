@@ -5,6 +5,7 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 
 ## Páginas
 <!-- Hermes añade aquí cada página de mexico con su resumen. -->
+- [entidades-federativas](entidades-federativas.md) — Entidades federativas de México: 32 estados, coordinación fiscal (SNCF/LCF), participaciones y aportaciones, impuestos estatales (ISN/predial), permisos subnacionales · 🏷️ mexico,entidades-federativas,estados,coordinacion-fiscal,federalismo,impuestos-estatales · 📅 2026-07-14
 - [mineria](mineria.md) — Minería México: CAMIMEX, plata/oro/cobre, Ley Minera, PIB ~2.4% · 🏷️ mexico,mineria,camimex,plata,oro,cobre,zinc,regulacion-minera · 📅 2026-07-13
 
 - [lgsm](lgsm.md) — Ley General de Sociedades Mercantiles: 7 tipos de sociedad y reformas · 🏷️ lgsm,sociedades-mercantiles,derecho-corporativo · 📅 2026-07-09

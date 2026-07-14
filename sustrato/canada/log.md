@@ -140,3 +140,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Banca de desarrollo de Canadá
 - Fuentes: BDC (bdc.ca), EDC (edc.ca), FCC (fcc.ca) + Wikipedia EN (Development bank) — reference-only.
 - Página: `banca-desarrollo.md`. Crown corporations: BDC (PyMEs, capital/asesoría), EDC (ECA, exportaciones, FinDev Canada), FCC (agrícola). Complementa `sector-bancario`. Confianza alta.
+
+## [2026-07-14] ingest | Pueblos indígenas de Canadá
+- Fuentes: Justice Canada (s.35) + Crown-Indigenous Relations (Canada.ca) — reference-only.
+- Página: `pueblos-indigenas.md`. First Nations/Inuit/Métis; Constitución s.35, tratados, UNDRIP (Ley 2021), duty to consult, impacto en recursos/energía/infra. Complementa `mineria`/`energia`. Confianza alta.

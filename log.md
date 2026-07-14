@@ -644,3 +644,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - 10 nodos nuevos: dominio/banca-de-inversion, dominio/mercados-emergentes, dominio/contratacion-publica, dominio/it-service-management, dominio/modelos-de-negocio, rol/developer-advocate, rol/security-architect, rol/analytics-engineer, rol/ux-researcher, rol/economist.
 - Total Round 36: 13 temas ingestados (3 sustrato + 10 nodos). Fuentes: Wikipedia EN + oficiales de gobierno (reference-only; sin raw/).
 - Índice de progreso: 536 tópicos en 171 iteraciones.
+
+## [2026-07-14] ingest | Round 37 — Reabastecimiento continuo (3 deepenings NA + 10 nodos nuevos)
+- gap_analysis.py → 0 gaps en Round 36. Extendida taxonomía para Round 37 (3 deepenings NA + 10 nodos nuevos).
+- Alcance sustrato: solo Norteamérica (respetado). Deepenings: sustrato/mexico/entidades-federativas, sustrato/estados-unidos/estados, sustrato/canada/pueblos-indigenas.
+- 10 nodos nuevos: dominio/centros-de-datos, dominio/economia-social, dominio/finanzas-descentralizadas, dominio/investigacion-clinica, dominio/derecho-del-consumidor, rol/copywriter, rol/underwriter, rol/credit-analyst, rol/mlops-engineer, rol/deal-desk.
+- Total Round 37: 13 temas ingestados (3 sustrato + 10 nodos). Fuentes: Wikipedia EN + oficiales de gobierno (reference-only; sin raw/).
+- Índice de progreso: 549 tópicos en 172 iteraciones.

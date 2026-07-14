@@ -73,6 +73,8 @@ TAXONOMY = {
         ("vivienda", "Vivienda México: INFONAVIT, SHF, FOVISSSTE, mercado inmobiliario, déficit habitacional, política de vivienda, crédito hipotecario; vs sustrato/estados-unidos/vivienda-real-estate"),
         # Round 36 — deepening NA (banca de desarrollo MX).
         ("banca-desarrollo", "Banca de desarrollo México: NAFIN (hoy Banco Nacional de Comercio Exterior), BANCOMEXT, Banobras, SHF, Banco del Bienestar, Bansefi; banca de segundo piso, fomento productivo, PyMEs, infraestructura; vs sustrato/mexico/banca-sistema-financiero"),
+        # Round 37 — deepening NA (entidades federativas MX).
+        ("entidades-federativas", "Entidades federativas de México / estados: gobiernos estatales, gobernadores, congresos locales, coordinación fiscal (Sistema Nacional de Coordinación Fiscal), impuestos estatales (IEPS estatal, ISN, predial), permisos y regulación subnacional; vs gobierno-federal"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -122,6 +124,8 @@ TAXONOMY = {
         ("seguridad-publica", "Seguridad pública EE.UU.: law enforcement, DOJ (Civil Rights Division, OPD), FBI, policía estatal/local, crimen, reforma policial, armas de fuego; vs seguridad-nacional (homeland/intel)"),
         # Round 36 — deepening NA (banca de desarrollo US).
         ("banca-desarrollo", "Banca de desarrollo EE.UU.: SBA (Small Business Administration), DFC (Development Finance Corporation, antes OPIC), EXIM Bank (Export-Import Bank), USDA Rural Development; crédito a PyMEs, exportaciones, desarrollo; vs sustrato/estados-unidos/sistema-financiero"),
+        # Round 37 — deepening NA (estados US).
+        ("estados", "Estados de EE.UU. / federalismo: gobiernos estatales, poderes estatales, división federal-state (Commerce Clause, Supremacy Clause), state law, regulación subnacional, federalismo estadounidense; vs poder-judicial"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -171,6 +175,8 @@ TAXONOMY = {
         ("vivienda", "Vivienda Canadá: CMHC, Estrategia Nacional de Vivienda (2017), asequibilidad, Fondo Nacional de Vivienda, crisis de vivienda, provincias/municipios; vs sustrato/estados-unidos/vivienda-real-estate"),
         # Round 36 — deepening NA (banca de desarrollo CA).
         ("banca-desarrollo", "Banca de desarrollo Canadá: BDC (Business Development Bank of Canada), EDC (Export Development Canada), FCC (Farm Credit Canada); financiamiento a PyMEs, exportaciones, agronegocio; vs sustrato/canada/sector-bancario"),
+        # Round 37 — deepening NA (pueblos indígenas CA).
+        ("pueblos-indigenas", "Pueblos indígenas de Canadá: First Nations, Inuit, Métis; tratados, Constitución s.35, UNDRIP, duty to consult, autogobierno, impacto en recursos/energía/infra; vs derechos-humanos"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -605,6 +611,17 @@ NEW_NODES = [
     ("rol/analytics-engineer", "Analytics Engineer — transforma datos en modelos de confianza (dbt/SQL), puente data-eng y data-science; vs data-engineer (pipelines) y data-analyst (análisis)"),
     ("rol/ux-researcher", "UX Researcher — investigación de usuarios, métodos cualitativos/cuantitativos, usabilidad, descubrimiento; vs product-designer/design-lead/head-of-design"),
     ("rol/economist", "Economist — macro/micro, política económica, forecasting, análisis de mercado; vs dominio/economia y data-scientist"),
+    # Round 37 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings entidades-federativas MX, estados US, pueblos-indigenas CA; dominio/rol generales).
+    ("dominio/centros-de-datos", "Centros de datos (data centers): infraestructura TI, siting, power/cooling, estándares Tier (Uptime Institute), colocation, hyperscalers, sostenibilidad energética; vs cloud-computing/infraestructura"),
+    ("dominio/economia-social", "Economía social y solidaria: cooperativas, mutuales, empresas sociales, tercer sector económico, comercio justo, finanzas éticas; vs tercer-sector/pymes"),
+    ("dominio/finanzas-descentralizadas", "Finanzas descentralizadas (DeFi): protocolos on-chain, DEX, lending/staking, stablecoins, yield, riesgo inteligente, regulación (SEC/ MiCA); vs fintech/blockchain"),
+    ("dominio/investigacion-clinica", "Investigación clínica / ensayos clínicos: fases I-IV, FDA/EMA/COFEPRIS, CROs, protocolo, consentimiento, farmacovigilancia; vs salud/farmaceutica"),
+    ("dominio/derecho-del-consumidor", "Derecho del consumidor: protección al consumidor como disciplina (engaño, prácticas comerciales, garantías, recursos), agencias, vs profeco-condusef (MX)"),
+    ("rol/copywriter", "Copywriter / Redactor: redacción publicitaria y de contenido, UX writing, tono de marca, conversión; vs content-manager/chief-content-officer"),
+    ("rol/underwriter", "Underwriter / Suscriptor: evaluación de riesgo y suscripción (seguros, crédito, préstamos), pricing de riesgo, límites; vs actuario/seguros"),
+    ("rol/credit-analyst", "Credit Analyst / Analista de crédito: evaluación de riesgo de crédito, scoring, capacidad de pago, estructuración; vs financial-analyst/underwriter"),
+    ("rol/mlops-engineer", "MLOps Engineer — despliega, monitoriza y opera modelos ML en producción (CI/CD para ML, feature store, model registry, observabilidad); vs ml-engineer/ai-engineer"),
+    ("rol/deal-desk", "Deal Desk — pricing y aprobaciones de ventas, descuentos, estructuración de propuestas, quote-to-cash; vs sales-manager/head-of-sales-ops"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

@@ -5,6 +5,7 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 
 ## Páginas
 <!-- Hermes añade aquí cada página de estados-unidos con su resumen. -->
+- [estados](estados.md) — Estados de EE.UU. / federalismo: 50 estados, Commerce Clause, Supremacy Clause, state law, police powers, regulación subnacional · 🏷️ estados-unidos,estados,federalismo,commerce-clause,state-law,regulacion-subnacional · 📅 2026-07-14
 - [seguridad-social](seguridad-social.md) — Seguridad social EE.UU.: SSA/OASDI, Medicare, Medicaid, SSI, SNAP, FICA · 🏷️ eeuu,seguridad-social,social-security,medicare,medicaid,ssa,ssi,snap,fica · 📅 2026-07-13
 
 - [delaware-gcl](delaware-gcl.md) — Delaware General Corporation Law: DGCL, paraíso societario de EE.UU. · 🏷️ delaware,dgcl,corporate-law,incorporacion · 📅 2026-07-09

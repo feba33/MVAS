@@ -57,6 +57,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [gobierno-federal](sustrato/mexico/gobierno-federal.md) — Gobierno federal de México: federalismo, Poderes Ejecutivo/Legislativo, secretarías, Congreso de la Unión · 🏷️ mexico,gobierno-federal,federalismo,poder-ejecutivo,congreso,secretarias,division-poderes · 📅 2026-07-14
 - [trabajo](sustrato/mexico/trabajo.md) — Trabajo / mercado laboral México: STPS, empleo, salario mínimo, outsourcing 2021, informalidad · 🏷️ mexico,trabajo,stps,empleo,salario-minimo,outsourcing,informalidad,mercado-laboral · 📅 2026-07-14
 - [vivienda](sustrato/mexico/vivienda.md) — Vivienda México: INFONAVIT, SHF, FOVISSSTE, crédito hipotecario, déficit habitacional · 🏷️ mexico,vivienda,infonavit,shf,fovissste,credito-hipotecario,deficit-habitacional · 📅 2026-07-14
+- [entidades-federativas](sustrato/mexico/entidades-federativas.md) — Entidades federativas de México: 32 estados, coordinación fiscal (SNCF/LCF), participaciones y aportaciones, impuestos estatales (ISN/predial) · 🏷️ mexico,entidades-federativas,estados,coordinacion-fiscal,federalismo,impuestos-estatales · 📅 2026-07-14
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -97,6 +98,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [impuestos](sustrato/estados-unidos/impuestos.md) — Sistema tributario federal EE.UU.: IRS, Internal Revenue Code, federal income tax, FICA, corporate 21% · 🏷️ estados-unidos,impuestos,irs,internal-revenue-code,federal-income-tax,fica,corporate-tax · 📅 2026-07-14
 - [elecciones](sustrato/estados-unidos/elecciones.md) — Elecciones EE.UU.: Electoral College, FEC, primarias, midterms, derechos de voto · 🏷️ estados-unidos,elecciones,electoral-college,fec,voto,primarias,midterms,sistema-electoral · 📅 2026-07-14
 - [seguridad-publica](sustrato/estados-unidos/seguridad-publica.md) — Seguridad pública EE.UU.: law enforcement, FBI, DOJ, policía estatal/local, reforma policial · 🏷️ eeuu,seguridad-publica,law-enforcement,fbi,doj,policia,reforma-policial · 📅 2026-07-14
+- [estados](sustrato/estados-unidos/estados.md) — Estados de EE.UU. / federalismo: 50 estados, Commerce Clause, Supremacy Clause, state law, regulación subnacional · 🏷️ estados-unidos,estados,federalismo,commerce-clause,state-law,regulacion-subnacional · 📅 2026-07-14
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -131,6 +133,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [economia](sustrato/canada/economia.md) — Economía de Canadá: PIB, servicios ~70%, recursos, comercio (CUSMA), Bank of Canada, CAD, G7 · 🏷️ canada,economia,pib,recursos-naturales,comercio,bank-of-canada,cad,g7 · 📅 2026-07-14
 - [cultura](sustrato/canada/cultura.md) — Cultura Canadá: Canadian Heritage, industrias culturales, Ley de Radiodifusión, bilingüismo · 🏷️ canada,cultura,canadian-heritage,industrias-culturales,bilingue,identidad,multiculturalismo · 📅 2026-07-14
 - [vivienda](sustrato/canada/vivienda.md) — Vivienda Canadá: CMHC, Estrategia Nacional de Vivienda, asequibilidad, crisis de vivienda · 🏷️ canada,vivienda,cmhc,asequibilidad,estrategia-nacional-vivienda,crisis-vivienda · 📅 2026-07-14
+- [pueblos-indigenas](sustrato/canada/pueblos-indigenas.md) — Pueblos indígenas de Canadá: First Nations, Inuit, Métis; Constitución s.35, tratados, UNDRIP, duty to consult · 🏷️ canada,pueblos-indigenas,first-nations,inuit,metis,seccion-35,undrip,duty-to-consult · 📅 2026-07-14
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -1054,4 +1057,34 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/economist
 - [economist](rol/economist/economist.md) — Economist: macro/micro, política económica, forecasting, econometría · 🏷️ economist,economia,macroeconomia,microeconomia,politica-economica,forecasting · 📅 2026-07-14
+
+### dominio/centros-de-datos
+- [centros-de-datos](dominio/centros-de-datos/centros-de-datos.md) — Centros de datos: infraestructura TI, estándares Tier (Uptime), colocation, hiperscala, sostenibilidad energética · 🏷️ centros-de-datos,data-center,tier,colocation,hiperscala,sostenibilidad · 📅 2026-07-14
+
+### dominio/economia-social
+- [economia-social](dominio/economia-social/economia-social.md) — Economía social y solidaria: cooperativas, mutuales, empresas sociales, principios democráticos · 🏷️ economia-social,economia-solidaria,cooperativas,mutuales,empresas-sociales,tercer-sector · 📅 2026-07-14
+
+### dominio/finanzas-descentralizadas
+- [finanzas-descentralizadas](dominio/finanzas-descentralizadas/finanzas-descentralizadas.md) — DeFi: servicios financieros on-chain vía contratos inteligentes, DEX, staking, riesgos y regulación · 🏷️ defi,finanzas-descentralizadas,blockchain,contratos-inteligentes,dex,staking,stablecoins · 📅 2026-07-14
+
+### dominio/investigacion-clinica
+- [investigacion-clinica](dominio/investigacion-clinica/investigacion-clinica.md) — Ensayos clínicos: fases I–IV, FDA/EMA/COFEPRIS, CROs, consentimiento, farmacovigilancia · 🏷️ investigacion-clinica,ensayos-clinicos,fases,fda,ema,cro,farmacovigilancia · 📅 2026-07-14
+
+### dominio/derecho-del-consumidor
+- [derecho-del-consumidor](dominio/derecho-del-consumidor/derecho-del-consumidor.md) — Derecho del consumidor: protección contra prácticas desleales, garantías, agencias (FTC/PROFECO) · 🏷️ derecho-del-consumidor,proteccion-consumidor,practicas-comerciales,garantias,engano,agencias · 📅 2026-07-14
+
+### rol/copywriter
+- [copywriter](rol/copywriter/copywriter.md) — Copywriter / Redactor: texto persuasivo para publicidad y marketing, UX writing, conversión · 🏷️ copywriter,redactor,copywriting,contenido,marketing,ux-writing,marca · 📅 2026-07-14
+
+### rol/underwriter
+- [underwriter](rol/underwriter/underwriter.md) — Underwriter / Suscriptor: evaluación y asunción de riesgo en seguros, crédito y emisión de valores · 🏷️ underwriter,suscriptor,underwriting,riesgo,seguros,credito,suscripcion · 📅 2026-07-14
+
+### rol/credit-analyst
+- [credit-analyst](rol/credit-analyst/credit-analyst.md) — Credit Analyst: evaluación de riesgo de crédito, scoring, capacidad de pago, estructuración · 🏷️ credit-analyst,analista-credito,riesgo-credito,scoring,capacidad-pago,financiamiento · 📅 2026-07-14
+
+### rol/mlops-engineer
+- [mlops-engineer](rol/mlops-engineer/mlops-engineer.md) — MLOps Engineer: despliegue y operación de modelos ML en producción (CI/CD, monitoreo) · 🏷️ mlops-engineer,mlops,machine-learning,despliegue,produccion,observabilidad,devops · 📅 2026-07-14
+
+### rol/deal-desk
+- [deal-desk](rol/deal-desk/deal-desk.md) — Deal Desk: pricing y aprobaciones de ventas, estructuración de propuestas, quote-to-cash · 🏷️ deal-desk,pricing,descuentos,aprobaciones,quote-to-cash,ventas,propuestas · 📅 2026-07-14
 
