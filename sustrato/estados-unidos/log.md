@@ -145,3 +145,6 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Relaciones exteriores de EE.UU. (Department of State)
 - Fuentes: Wikipedia (EN) — Foreign relations of the United States; state.gov — reference-only (sin raw/).
 - Página: `relaciones-exteriores.md`. Department of State (1789); tratados (Senado Art. II); USAID; diplomacia vs defensa/comercio/seguridad-nacional. Cross-ref sustrato/mexico/relaciones-exteriores, sustrato/canada/relaciones-exteriores, dominio/derecho-internacional.
+## [2026-07-14] ingest | Transporte EE.UU.
+- Fuentes: Wikipedia (EN) + DOT — reference-only (sin raw/).
+- Página: `transporte.md`.

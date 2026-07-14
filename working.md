@@ -1396,21 +1396,47 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - [x] rol/social-media-manager — Social Media Manager (canales, comunidad, métricas)
 - [x] rol/plant-manager — Plant Manager (operaciones de planta, P&L)
 
+## COLA ROUND 32 (13 temas — gap_analysis.py iter 167 → taxonomía extendida; sustrato solo NA) — COMPLETA (13/13)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Competitividad (IMCO, WEF, Doing Business, clústeres, facilitación de negocios)
+- [x] sustrato/estados-unidos — Transporte (DOT, FAA, FHWA, FRA, USCG; modos carretero/ferroviario/aéreo/marítimo)
+- [x] sustrato/canada — Sector manufacturero (Ontario auto, Quebec aeroespacial, Alberta petroquímica)
+### Dominio (nuevos nodos)
+- [x] dominio/metodologias-agiles — Metodologías ágiles (Scrum, Kanban, SAFe, Lean, XP)
+- [x] dominio/gobierno-de-ia — Gobierno de IA (EU AI Act, NIST AI RMF, ISO 42001)
+- [x] dominio/ciencia-de-datos — Ciencia de datos (CRISP-DM, modelado, ML aplicado)
+- [x] dominio/derecho-concursal — Derecho concursal / insolvencia (Chapter 11/15 US, LCM MX, BIA/CCAA CA)
+- [x] dominio/mercados-de-carbono — Mercados de carbono (ETS/cap-and-trade, bonos, precios)
+### Rol (nuevos nodos)
+- [x] rol/ai-engineer — AI Engineer (productos/agentes de IA, RAG, evals; vs ml-engineer)
+- [x] rol/customer-success-manager — Customer Success Manager (salud de cuenta, retención/expansión)
+- [x] rol/compliance-manager — Compliance Manager (AML/KYC, controles, monitorización)
+- [x] rol/sales-manager — Sales Manager (equipo IC, cuotas, coaching, pipeline)
+- [x] rol/field-marketing-manager — Field Marketing Manager (regional/eventos, ABM táctico)
+
+## LOG DE ITERACIONES (Round 32)
+### [2026-07-14] ingest | Round 32 — Reabastecimiento continuo (3 deepenings NA + 10 nodos nuevos)
+- gap_analysis.py → 0 gaps en Round 31. Extendida taxonomía para Round 32 (3 deepenings NA + 10 nodos nuevos).
+- Alcance sustrato: solo Norteamérica (respetado). Deepenings: sustrato/mexico/competitividad, sustrato/estados-unidos/transporte, sustrato/canada/sector-manufacturero.
+- 10 nodos nuevos: dominio/metodologias-agiles, dominio/gobierno-de-ia, dominio/ciencia-de-datos, dominio/derecho-concursal, dominio/mercados-de-carbono, rol/ai-engineer, rol/customer-success-manager, rol/compliance-manager, rol/sales-manager, rol/field-marketing-manager.
+- Total Round 32: 13 temas ingestados (3 sustrato + 10 nodos). Fuentes: Wikipedia EN + oficiales de gobierno (reference-only; sin raw/).
+- Índice de progreso: 484 tópicos en 167 iteraciones.
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-- **Tópicos ingeridos (acumulado): 471** (Round 31: +13 = 3 deepenings NA + 5 dominio + 5 rol)
-- **Rondas:** 31 completas (Round 1..31), cada una +13 ingests.
-- **Nodos sustrato (NA):** México 52 (+demografia-poblacion), EE.UU. 41 (+demografia-poblacion), Canadá 35 (+seguridad-publica). Deepenings NA completas.
-- **Nodos dominio:** ~100 (Round 31 +5 nuevos).
-- **Nodos rol:** ~90 (Round 31 +5 nuevos).
+- **Tópicos ingeridos (acumulado): 484** (Round 32: +13 = 3 deepenings NA + 5 dominio + 5 rol)
+- **Rondas:** 32 completas (Round 1..32), cada una +13 ingests.
+- **Nodos sustrato (NA):** México 53 (+competitividad), EE.UU. 42 (+transporte), Canadá 36 (+sector-manufacturero). Deepenings NA completas.
+- **Nodos dominio:** ~105 (Round 32 +5 nuevos).
+- **Nodos rol:** ~95 (Round 32 +5 nuevos).
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
 
 ## 🚦 ESTADO
-- **Iteración actual:** 166 (Round 31 COMPLETA).
-- **Última acción:** Round 31: 13 ingests (3 sustrato NA + 5 dominio + 5 rol).
+- **Iteración actual:** 167 (Round 32 COMPLETA).
+- **Última acción:** Round 32: 13 ingests (3 sustrato NA + 5 dominio + 5 rol).
 - **Bloqueos:** ninguno.
-- **Cola:** Round 31 COMPLETA (13/13). Siguiente: reabastecer — gap_analysis.py reporta 0 gaps tras la extensión de Round 31; extender taxonomía para Round 32.
+- **Cola:** Round 32 COMPLETA (13/13). Siguiente: reabastecer — gap_analysis.py reporta 0 gaps tras la extensión de Round 32; extender taxonomía para Round 33.
 
 ## ▶️ PRÓXIMA TAREA
-- `python3 scripts/gap_analysis.py`; si 0 huecos → reabastecer taxonomía (Round 32: nuevos dominio/rol + deepenings NA) y continuar el ciclo.
+- `python3 scripts/gap_analysis.py`; si 0 huecos → reabastecer taxonomía (Round 33: nuevos dominio/rol + deepenings NA) y continuar el ciclo.
 - ALCANCE sustrato = solo Norteamérica (MX/US/CA) se mantiene salvo indicación contraria.

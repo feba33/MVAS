@@ -894,3 +894,33 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol/plant-manager
 - [plant-manager](rol/plant-manager/plant-manager.md) — Plant Manager: opera planta de manufactura, P&L de planta, seguridad/calidad/productividad; vs head-of-operations/vp-operations · 🏷️ plant-manager,manufactura,operaciones,planta,lean,seguridad,calidad · 📅 2026-07-14
 
+### dominio/metodologias-agiles
+- [metodologias-agiles](dominio/metodologias-agiles/metodologias-agiles.md) — Metodologías ágiles: Scrum, Kanban, SAFe, Lean, XP; frameworks de entrega, ceremonies, roles; vs waterfall · 🏷️ metodologias-agiles,agile,scrum,kanban,safe,lean,xp,entrega · 📅 2026-07-14
+
+### dominio/gobierno-de-ia
+- [gobierno-de-ia](dominio/gobierno-de-ia/gobierno-de-ia.md) — Gobierno de IA: EU AI Act, NIST AI RMF, ISO 42001, model risk; vs etica-ia/ia-generativa · 🏷️ gobierno-de-ia,ai-governance,eu-ai-act,nist-ai-rmf,iso-42001,riesgo-ia · 📅 2026-07-14
+
+### dominio/ciencia-de-datos
+- [ciencia-de-datos](dominio/ciencia-de-datos/ciencia-de-datos.md) — Ciencia de datos: CRISP-DM, modelado predictivo, ML, Python/R; vs estadistica/analitica-negocio · 🏷️ ciencia-de-datos,data-science,crisp-dm,machine-learning,analitica · 📅 2026-07-14
+
+### dominio/derecho-concursal
+- [derecho-concursal](dominio/derecho-concursal/derecho-concursal.md) — Derecho concursal / insolvencia: reestructura y liquidación (Chapter 11/15, LCM, BIA/CCAA) · 🏷️ derecho-concursal,insolvencia,reestructura,quiebra,bankruptcy · 📅 2026-07-14
+
+### dominio/mercados-de-carbono
+- [mercados-de-carbono](dominio/mercados-de-carbono/mercados-de-carbono.md) — Mercados de carbono: ETS/cap-and-trade, bonos, precios, verificación; vs finanzas-sostenibles · 🏷️ mercados-de-carbono,ets,cap-and-trade,bonos-de-carbono,precio-carbono · 📅 2026-07-14
+
+### rol/ai-engineer
+- [ai-engineer](rol/ai-engineer/ai-engineer.md) — AI Engineer: construye productos/agentes de IA (RAG, evals); vs ml-engineer · 🏷️ ai-engineer,ingenieria-ia,llm,rag,agentes,mlops · 📅 2026-07-14
+
+### rol/customer-success-manager
+- [customer-success-manager](rol/customer-success-manager/customer-success-manager.md) — Customer Success Manager (CSM): salud de cuenta, retención/expansión; vs customer-success-lead · 🏷️ customer-success-manager,customer-success,retencion,onboarding,nrr · 📅 2026-07-14
+
+### rol/compliance-manager
+- [compliance-manager](rol/compliance-manager/compliance-manager.md) — Compliance Manager: AML/KYC, controles, monitorización; vs compliance-officer/CCO · 🏷️ compliance-manager,cumplimiento,aml,kyc,controles,regulatorio · 📅 2026-07-14
+
+### rol/sales-manager
+- [sales-manager](rol/sales-manager/sales-manager.md) — Sales Manager: lidera equipo IC, cuotas, coaching, pipeline; vs sales-lead/vp-sales · 🏷️ sales-manager,ventas,equipo-ventas,cuotas,pipeline · 📅 2026-07-14
+
+### rol/field-marketing-manager
+- [field-marketing-manager](rol/field-marketing-manager/field-marketing-manager.md) — Field Marketing Manager: regional/eventos, campañas, ABM; vs marketing-manager · 🏷️ field-marketing-manager,field-marketing,eventos,abm,marketing-b2b · 📅 2026-07-14
+

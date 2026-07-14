@@ -63,6 +63,8 @@ TAXONOMY = {
         ("infraestructura", "Infraestructura México: transporte (SICT), energía (CFE/PEMEX), agua (CONAGUA), vivienda, inversión"),
         # Round 31 — deepening NA (ciencia e innovación MX).
         ("ciencia-e-innovacion", "Ciencia e innovación México: CONAHCYT, SNCTI, I+D, nearshoring de conocimiento"),
+        # Round 32 — deepening NA (competitividad MX).
+        ("competitividad", "Competitividad México: IMCO, WEF, Doing Business (hist.), clústeres, facilitación de negocios, ranking global"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -102,6 +104,8 @@ TAXONOMY = {
         ("sector-manufacturero", "Sector manufacturero EE.UU.: manufactura, CHIPS Act, IRA, reshoring, empleo, subsectores"),
         # Round 31 — deepening NA (relaciones exteriores US).
         ("relaciones-exteriores", "Relaciones exteriores EE.UU.: Department of State, diplomacia, tratados, USAID, soft power"),
+        # Round 32 — deepening NA (transporte US).
+        ("transporte", "Transporte EE.UU.: DOT, FAA, FHWA, FRA, USCG; modos carretero/ferroviario/aéreo/marítimo, infraestructura de transporte"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -141,6 +145,8 @@ TAXONOMY = {
         ("relaciones-exteriores", "Relaciones exteriores Canadá: Global Affairs Canada, multilateralismo, paz, comercio, diplomacia"),
         # Round 31 — deepening NA (economía CA).
         ("economia", "Economía de Canadá: PIB, sectores, recursos, comercio, Bank of Canada, CAD, G7"),
+        # Round 32 — deepening NA (sector manufacturero CA).
+        ("sector-manufacturero", "Sector manufacturero Canadá: Ontario (auto), Quebec (aeroespacial), Alberta (petroquímica), empleo, exportación"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -520,6 +526,17 @@ NEW_NODES = [
     ("rol/account-director", "Account Director — dueño de relación estratégica de cuenta grande, retención/expansión; vs account-manager/account-executive"),
     ("rol/social-media-manager", "Social Media Manager — gestión de canales sociales, contenido, comunidad, métricas; vs community-manager/redes-sociales"),
     ("rol/plant-manager", "Plant Manager — opera planta de manufactura, P&L de planta, seguridad/calidad/prod; vs head-of-operations/vp-operations"),
+    # Round 32 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings competitividad MX, transporte US, sector-manufacturero CA; dominio/rol generales).
+    ("dominio/metodologias-agiles", "Metodologías ágiles: Scrum, Kanban, SAFe, Lean, XP; frameworks de entrega, ceremonies, roles; vs waterfall"),
+    ("dominio/gobierno-de-ia", "Gobierno de IA / AI governance: regulación, riesgo, frameworks (EU AI Act, NIST AI RMF, ISO/IEC 42001), model risk; vs etica-ia/ia-generativa"),
+    ("dominio/ciencia-de-datos", "Ciencia de datos (data science): ciclo CRISP-DM, modelado predictivo, ML aplicado, herramientas (Python/R); vs estadistica/analitica-negocio"),
+    ("dominio/derecho-concursal", "Derecho concursal / insolvencia: reestructura y liquidación empresarial (Chapter 11/15 US, LCM MX, BIA CA); vs sustrato/bankruptcy"),
+    ("dominio/mercados-de-carbono", "Mercados de carbono: cap-and-trade/ETS, bonos de carbono, precios de carbono, verificación, mercados voluntarios; vs finanzas-sostenibles/medio-ambiente"),
+    ("rol/ai-engineer", "AI Engineer — construye productos/agentes de IA sobre modelos (vs ml-engineer que entrena); prompt/API, RAG, evals, MLOps de producto"),
+    ("rol/customer-success-manager", "Customer Success Manager (CSM) — gestión de cuenta post-venta, onboarding, salud de cuenta, retención/expansión; vs customer-success-lead"),
+    ("rol/compliance-manager", "Compliance Manager — operacionaliza el programa de cumplimiento (monitoreo, AML/KYC, reportes, controles); vs compliance-officer/chief-compliance-officer"),
+    ("rol/sales-manager", "Sales Manager — lidera equipo de ventas IC, cuotas, coaching, pipeline; vs sales-lead/vp-sales/account-executive"),
+    ("rol/field-marketing-manager", "Field Marketing Manager — marketing regional/eventos, campañas locales, ABM táctico; vs marketing-manager/head-of-marketing-ops/demand-generation"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

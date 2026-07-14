@@ -44,3 +44,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [infraestructura](infraestructura.md) — Infraestructura México: transporte (SICT), energía (CFE/PEMEX), agua (CONAGUA), vivienda, inversión · 🏷️ mexico, infraestructura, sict, cfe, conagua, transporte, energia, agua · 📅 2026-07-14
 - [durazo-inversion-singapur](durazo-inversion-singapur.md) — Durazo atrae IED de Singapur a Sonora (nearshoring, promoción estatal) · 🏷️ elfinanciero,sonora,inversion-extranjera,singapur,durazo,nearshoring · 📅 2026-07-14
 - [imss-registros-patrones](imss-registros-patrones.md) — Caen registros de patrones IMSS y se desacelera el salario real (mercado laboral) · 🏷️ elfinanciero,imss,empleo,seguridad-social,salario-real,mercado-laboral · 📅 2026-07-14
+- [competitividad](competitividad.md) — Competitividad México: IMCO, WEF, Doing Business, clústeres, facilitación de negocios · 🏷️ mexico,competitividad,imco,wef,facilitacion-negocios,clusteres · 📅 2026-07-14

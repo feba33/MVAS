@@ -184,3 +184,6 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 - Página: `imss-registros-patrones.md`. El IMSS reportó caída drástica de registros de patrones y desaceleración del salario real en 2026; economistas prevén recuperación del empleo formal.
 - Discernimiento: sustrato/mexico (mercado laboral / seguridad social) + cross-ref seguridad-social.md, economia.md, politica-monetaria.md. Certeza alta.
 - Gate de relevancia: indicador económico/laboral con efecto sobre decisiones (empleo formal, recaudación, consumo) → ingerido.
+## [2026-07-14] ingest | Competitividad México
+- Fuentes: Wikipedia (EN) + IMCO — reference-only (sin raw/).
+- Página: `competitividad.md`.
