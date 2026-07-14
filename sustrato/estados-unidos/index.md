@@ -45,3 +45,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [impuestos](impuestos.md) — Sistema tributario federal EE.UU.: IRS, Internal Revenue Code, federal income tax, FICA, corporate 21% · 🏷️ estados-unidos,impuestos,irs,internal-revenue-code,federal-income-tax,fica,corporate-tax · 📅 2026-07-14
 
 - [elecciones](elecciones.md) — Elecciones EE.UU.: Electoral College, FEC, primarias, midterms, derechos de voto · 🏷️ estados-unidos,elecciones,electoral-college,fec,voto,primarias,midterms,sistema-electoral · 📅 2026-07-14
+- [seguridad-publica](seguridad-publica.md) — Seguridad pública EE.UU.: law enforcement, FBI, DOJ, policía estatal/local, reforma policial · 🏷️ eeuu,seguridad-publica,law-enforcement,fbi,doj,policia,reforma-policial · 📅 2026-07-14

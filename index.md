@@ -56,6 +56,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [competitividad](sustrato/mexico/competitividad.md) — Competitividad México: IMCO, WEF, Doing Business, clústeres, facilitación de negocios · 🏷️ mexico,competitividad,imco,wef,facilitacion-negocios,clusteres · 📅 2026-07-14
 - [gobierno-federal](sustrato/mexico/gobierno-federal.md) — Gobierno federal de México: federalismo, Poderes Ejecutivo/Legislativo, secretarías, Congreso de la Unión · 🏷️ mexico,gobierno-federal,federalismo,poder-ejecutivo,congreso,secretarias,division-poderes · 📅 2026-07-14
 - [trabajo](sustrato/mexico/trabajo.md) — Trabajo / mercado laboral México: STPS, empleo, salario mínimo, outsourcing 2021, informalidad · 🏷️ mexico,trabajo,stps,empleo,salario-minimo,outsourcing,informalidad,mercado-laboral · 📅 2026-07-14
+- [vivienda](sustrato/mexico/vivienda.md) — Vivienda México: INFONAVIT, SHF, FOVISSSTE, crédito hipotecario, déficit habitacional · 🏷️ mexico,vivienda,infonavit,shf,fovissste,credito-hipotecario,deficit-habitacional · 📅 2026-07-14
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -95,6 +96,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [transporte](sustrato/estados-unidos/transporte.md) — Transporte EE.UU.: DOT, FAA, FHWA, FRA, USCG; modos carretero/ferroviario/aéreo/marítimo · 🏷️ estados-unidos,transporte,dot,faa,fhwa,fra,uscoastguard,infraestructura · 📅 2026-07-14
 - [impuestos](sustrato/estados-unidos/impuestos.md) — Sistema tributario federal EE.UU.: IRS, Internal Revenue Code, federal income tax, FICA, corporate 21% · 🏷️ estados-unidos,impuestos,irs,internal-revenue-code,federal-income-tax,fica,corporate-tax · 📅 2026-07-14
 - [elecciones](sustrato/estados-unidos/elecciones.md) — Elecciones EE.UU.: Electoral College, FEC, primarias, midterms, derechos de voto · 🏷️ estados-unidos,elecciones,electoral-college,fec,voto,primarias,midterms,sistema-electoral · 📅 2026-07-14
+- [seguridad-publica](sustrato/estados-unidos/seguridad-publica.md) — Seguridad pública EE.UU.: law enforcement, FBI, DOJ, policía estatal/local, reforma policial · 🏷️ eeuu,seguridad-publica,law-enforcement,fbi,doj,policia,reforma-policial · 📅 2026-07-14
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -128,6 +130,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [relaciones-exteriores](sustrato/canada/relaciones-exteriores.md) — Relaciones exteriores Canadá: Global Affairs Canada, middle power, multilateral, paz, comercio · 🏷️ canada, relaciones-exteriores, global-affairs-canada, middle-power, multilateralismo, comercio-exterior · 📅 2026-07-14
 - [economia](sustrato/canada/economia.md) — Economía de Canadá: PIB, servicios ~70%, recursos, comercio (CUSMA), Bank of Canada, CAD, G7 · 🏷️ canada,economia,pib,recursos-naturales,comercio,bank-of-canada,cad,g7 · 📅 2026-07-14
 - [cultura](sustrato/canada/cultura.md) — Cultura Canadá: Canadian Heritage, industrias culturales, Ley de Radiodifusión, bilingüismo · 🏷️ canada,cultura,canadian-heritage,industrias-culturales,bilingue,identidad,multiculturalismo · 📅 2026-07-14
+- [vivienda](sustrato/canada/vivienda.md) — Vivienda Canadá: CMHC, Estrategia Nacional de Vivienda, asequibilidad, crisis de vivienda · 🏷️ canada,vivienda,cmhc,asequibilidad,estrategia-nacional-vivienda,crisis-vivienda · 📅 2026-07-14
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -991,4 +994,34 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-communications
 - [head-of-communications](rol/head-of-communications/head-of-communications.md) — Head of Communications: comms internas/externas, medios, crisis, relaciones públicas · 🏷️ head-of-communications,communications,relaciones-publicas,medios,crisis,marca,interna · 📅 2026-07-14
+
+### dominio/edtech
+- [edtech](dominio/edtech/edtech.md) — EdTech / tecnología educativa: LMS, tutoría IA, mercado global, modelos B2B/B2G · 🏷️ edtech,educacion,tecnologia-educativa,lms,e-learning,tutor-ia · 📅 2026-07-14
+
+### dominio/foodtech
+- [foodtech](dominio/foodtech/foodtech.md) — FoodTech: alt-proteínas, agricultura vertical, delivery tech, trazabilidad · 🏷️ foodtech,tecnologia-alimentaria,alt-proteinas,agricultura-vertical,delivery,trazabilidad · 📅 2026-07-14
+
+### dominio/deep-tech
+- [deep-tech](dominio/deep-tech/deep-tech.md) — Deep tech: empresas de ciencia/técnica profunda, IP, capital especializado · 🏷️ deep-tech,hard-tech,innovacion,ip,capital-riesgo · 📅 2026-07-14
+
+### dominio/pymes
+- [pymes](dominio/pymes/pymes.md) — PyMEs: segmento empresarial, financiamiento, productividad, políticas públicas · 🏷️ pymes,smes,mipymes,financiamiento,productividad,digitalizacion · 📅 2026-07-14
+
+### dominio/impresion-3d
+- [impresion-3d](dominio/impresion-3d/impresion-3d.md) — Impresión 3D / manufactura aditiva: FDM/SLA/SLS/SLM, prototipado, on-demand · 🏷️ impresion-3d,manufactura-aditiva,prototipado,produccion-on-demand · 📅 2026-07-14
+
+### rol/chief-innovation-officer
+- [chief-innovation-officer](rol/chief-innovation-officer/chief-innovation-officer.md) — Chief Innovation Officer (CINO): innovación corporativa, pipelines, cultura · 🏷️ cino,chief-innovation-officer,innovacion,r-d,corporate-venturing · 📅 2026-07-14
+
+### rol/system-administrator
+- [system-administrator](rol/system-administrator/system-administrator.md) — System Administrator (SysAdmin): infraestructura TI, servidores, redes, backups · 🏷️ sysadmin,system-administrator,infraestructura-ti,servidores,redes · 📅 2026-07-14
+
+### rol/risk-manager
+- [risk-manager](rol/risk-manager/risk-manager.md) — Risk Manager: gestión de riesgo operativo/empresarial (ERM), mitigación, continuidad · 🏷️ risk-manager,gestion-riesgo,erm,mitigacion,continuidad · 📅 2026-07-14
+
+### rol/sales-development-representative
+- [sales-development-representative](rol/sales-development-representative/sales-development-representative.md) — Sales Development Representative (SDR): prospección y calificación B2B, outbound · 🏷️ sdr,sales-development-representative,prospeccion,lead-generation,outbound · 📅 2026-07-14
+
+### rol/bookkeeper
+- [bookkeeper](rol/bookkeeper/bookkeeper.md) — Bookkeeper / tenedor de libros: registro contable, conciliaciones, A/P y A/R · 🏷️ bookkeeper,tenedor-de-libros,contabilidad,registro,conciliacion · 📅 2026-07-14
 

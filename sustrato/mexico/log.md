@@ -194,3 +194,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Trabajo / mercado laboral México
 - Fuente: web/URL citada en frontmatter (reference-only; sin raw/).
 - Página: `sustrato/mexico/trabajo.md`.
+
+## [2026-07-14] ingest | Vivienda México
+- Fuente: web/URL citada en frontmatter (reference-only; sin raw/).
+- Página: `sustrato/mexico/vivienda.md`.

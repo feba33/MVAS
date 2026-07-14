@@ -69,6 +69,8 @@ TAXONOMY = {
         ("gobierno-federal", "Gobierno federal de México: federalismo, Poder Ejecutivo (Presidente y secretarías de Estado), Congreso de la Unión (Cámara de Diputados y Senado), división de poderes; vs poder-judicial"),
         # Round 34 — deepening NA (trabajo MX).
         ("trabajo", "Trabajo / mercado laboral México: STPS, empleo, salario mínimo, outsourcing/subscontratación (Ley 2021), seguridad social asociada, productividad, informalidad; vs derecho-laboral/seguridad-social"),
+        # Round 35 — deepening NA (vivienda MX).
+        ("vivienda", "Vivienda México: INFONAVIT, SHF, FOVISSSTE, mercado inmobiliario, déficit habitacional, política de vivienda, crédito hipotecario; vs sustrato/estados-unidos/vivienda-real-estate"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -114,6 +116,8 @@ TAXONOMY = {
         ("impuestos", "Sistema tributario federal EE.UU.: IRS, Internal Revenue Code, federal income tax, payroll (FICA), corporate tax, estate/gift; vs finanzas-publicas"),
         # Round 34 — deepening NA (elecciones US).
         ("elecciones", "Sistema electoral EE.UU.: Constitución, Electoral College, voto popular, FEC, derechos de voto, primarias, midterms, ciclo electoral, votación por correo; vs poder-judicial"),
+        # Round 35 — deepening NA (seguridad pública US).
+        ("seguridad-publica", "Seguridad pública EE.UU.: law enforcement, DOJ (Civil Rights Division, OPD), FBI, policía estatal/local, crimen, reforma policial, armas de fuego; vs seguridad-nacional (homeland/intel)"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -159,6 +163,8 @@ TAXONOMY = {
         ("elecciones", "Sistema electoral Canadá: Elections Canada, democracia, voto, Cámara de los Comunes, Senado, provincias, reforma electoral"),
         # Round 34 — deepening NA (cultura CA).
         ("cultura", "Cultura Canadá: Canadian Heritage, industrias culturales (radiodifusión, cine, música, libros), Ley de Radiodifusión, políticas bilingües (FR/EN), identidad y diversidad; vs turismo/medios-comunicacion"),
+        # Round 35 — deepening NA (vivienda CA).
+        ("vivienda", "Vivienda Canadá: CMHC, Estrategia Nacional de Vivienda (2017), asequibilidad, Fondo Nacional de Vivienda, crisis de vivienda, provincias/municipios; vs sustrato/estados-unidos/vivienda-real-estate"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -571,6 +577,17 @@ NEW_NODES = [
     ("rol/head-of-employer-branding", "Head of Employer Branding — marca empleadora, talent brand, recruitment marketing, propuesta de valor al empleado; vs head-of-talent/reclutador/head-of-people"),
     ("rol/director-of-operations", "Director of Operations — liderazgo operativo de nivel medio/alto, ejecución de procesos y P&L de operaciones; vs head-of-operations/vp-operations/coo"),
     ("rol/head-of-communications", "Head of Communications — comms funcional (internas/externas, medios, crisis), ejecución de relaciones públicas; vs chief-communications-officer/relaciones-publicas"),
+    # Round 35 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings vivienda MX, seguridad-publica US, vivienda CA; dominio/rol generales).
+    ("dominio/edtech", "EdTech / tecnología educativa: plataformas de aprendizaje, LMS, contenido digital, tutoría IA, mercado global, modelos freemium/B2B/B2G; vs educacion"),
+    ("dominio/foodtech", "FoodTech: tecnología alimentaria (alt-proteínas, agricultura vertical, fermentación, delivery tech, trazabilidad), cadena de valor de alimentos, startups; vs agrotech/alimentos-bebidas"),
+    ("dominio/deep-tech", "Deep tech: empresas basadas en avances científicos/técnicos profundos (materiales avanzados, fotónica, espacio, biotech, computación), ciclos largos, IP, capital de riesgo especializado; vs innovacion/startups"),
+    ("dominio/pymes", "PyMEs / small and medium enterprises: segmento de empresas, acceso a financiamiento, productividad, digitalización, políticas públicas de apoyo, encadenamientos; vs emprendimiento/empresa-familiar"),
+    ("dominio/impresion-3d", "Impresión 3D / manufactura aditiva: tecnologías (FDM/SLA/SLS/SLM), prototipado rápido, producción on-demand, aplicaciones médica/aeroespacial, vs manufactura tradicional; vs manufactura"),
+    ("rol/chief-innovation-officer", "Chief Innovation Officer (CINO) — lidera la innovación corporativa, pipelines de innovación, corporate/venture/client, cultura innovadora; vs head-of-innovation/chief-technology-officer"),
+    ("rol/system-administrator", "System Administrator (SysAdmin) — administra infraestructura TI (servidores, redes, SO, backups, seguridad básica), operación estable; vs network-engineer/dba/cloud-architect"),
+    ("rol/risk-manager", "Risk Manager — gestiona riesgo operativo/empresarial (ERM), identificación/mitigación/monitoreo, continuidad, reporta a CRO; vs chief-risk-officer/compliance-manager"),
+    ("rol/sales-development-representative", "Sales Development Representative (SDR) — prospección y calificación de leads (B2B), outbound, pasa a AE; vs account-executive/sales-lead"),
+    ("rol/bookkeeper", "Bookkeeper / tenedor de libros — registro contable operativo (diario/mayor, conciliaciones, cuentas por pagar/cobrar), base para accountant/controller; vs accountant/contador"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

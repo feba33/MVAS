@@ -1467,21 +1467,43 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - [x] rol/director-of-operations
 - [x] rol/head-of-communications
 
+## [2026-07-14] ingest | Round 35 — Reabastecimiento continuo (3 deepenings NA + 10 nodos nuevos)
+- gap_analysis.py → 0 gaps en Round 34. Extendida taxonomía para Round 35 (3 deepenings NA + 10 nodos nuevos).
+- Alcance sustrato: solo Norteamérica (respetado). Deepenings: sustrato/mexico/vivienda, sustrato/estados-unidos/seguridad-publica, sustrato/canada/vivienda.
+- 10 nodos nuevos: dominio/edtech, dominio/foodtech, dominio/deep-tech, dominio/pymes, dominio/impresion-3d, rol/chief-innovation-officer, rol/system-administrator, rol/risk-manager, rol/sales-development-representative, rol/bookkeeper.
+- Total Round 35: 13 temas ingestados (3 sustrato + 10 nodos). Fuentes: Wikipedia EN + oficiales de gobierno (reference-only; sin raw/).
+- Índice de progreso: 523 tópicos en 170 iteraciones.
+
+## ✅ COLA ROUND 35 — COMPLETA (13/13)
+- [x] sustrato/mexico/vivienda
+- [x] sustrato/estados-unidos/seguridad-publica
+- [x] sustrato/canada/vivienda
+- [x] dominio/edtech
+- [x] dominio/foodtech
+- [x] dominio/deep-tech
+- [x] dominio/pymes
+- [x] dominio/impresion-3d
+- [x] rol/chief-innovation-officer
+- [x] rol/system-administrator
+- [x] rol/risk-manager
+- [x] rol/sales-development-representative
+- [x] rol/bookkeeper
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-- **Tópicos ingeridos (acumulado): 510** (Round 34: +13 = 3 deepenings NA + 5 dominio + 5 rol)
-- **Rondas:** 34 completas (Round 1..34), cada una +13 ingests.
-- **Nodos sustrato (NA):** México 55 (+trabajo), EE.UU. 44 (+elecciones), Canadá 38 (+cultura). Deepenings NA completas.
-- **Nodos dominio:** ~115 (Round 34 +5 nuevos).
-- **Nodos rol:** ~105 (Round 34 +5 nuevos).
+- **Tópicos ingeridos (acumulado): 523** (Round 35: +13 = 3 deepenings NA + 5 dominio + 5 rol)
+- **Rondas:** 35 completas (Round 1..35), cada una +13 ingests.
+- **Nodos sustrato (NA):** México 56 (+vivienda), EE.UU. 45 (+seguridad-publica), Canadá 39 (+vivienda). Deepenings NA completas.
+- **Nodos dominio:** ~120 (Round 35 +5 nuevos).
+- **Nodos rol:** ~110 (Round 35 +5 nuevos).
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
 
 ## 🚦 ESTADO
-- **Iteración actual:** 169 (Round 34 COMPLETA).
-- **Última acción:** Round 34: 13 ingests (3 sustrato NA + 5 dominio + 5 rol).
+- **Iteración actual:** 170 (Round 35 COMPLETA).
+- **Última acción:** Round 35: 13 ingests (3 sustrato NA + 5 dominio + 5 rol).
 - **Bloqueos:** ninguno.
-- **Cola:** Round 34 COMPLETA (13/13). Siguiente: reabastecer — gap_analysis.py reporta 0 gaps tras la extensión de Round 34; extender taxonomía para Round 35.
+- **Cola:** Round 35 COMPLETA (13/13). Siguiente: reabastecer — gap_analysis.py reporta 0 gaps tras la extensión de Round 35; extender taxonomía para Round 36.
 
 ## ▶️ PRÓXIMA TAREA
-- `python3 scripts/gap_analysis.py`; si 0 huecos → reabastecer taxonomía (Round 35: nuevos dominio/rol + deepenings NA) y continuar el ciclo.
+- `python3 scripts/gap_analysis.py`; si 0 huecos → reabastecer taxonomía (Round 36: nuevos dominio/rol + deepenings NA) y continuar el ciclo.
 - ALCANCE sustrato = solo Norteamérica (MX/US/CA) se mantiene salvo indicación contraria.

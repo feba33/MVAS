@@ -630,3 +630,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - 10 nodos nuevos: dominio/salud-mental, dominio/gamificacion, dominio/urbanismo, dominio/arquitectura, dominio/biometria, rol/chief-administrative-officer, rol/head-of-data-science, rol/head-of-employer-branding, rol/director-of-operations, rol/head-of-communications.
 - Total Round 34: 13 temas ingestados (3 sustrato + 10 nodos). Fuentes: Wikipedia EN + oficiales de gobierno (reference-only; sin raw/).
 - Índice de progreso: 510 tópicos en 169 iteraciones.
+
+## [2026-07-14] ingest | Round 35 — Reabastecimiento continuo (3 deepenings NA + 10 nodos nuevos)
+- gap_analysis.py → 0 gaps en Round 34. Extendida taxonomía para Round 35 (3 deepenings NA + 10 nodos nuevos).
+- Alcance sustrato: solo Norteamérica (respetado). Deepenings: sustrato/mexico/vivienda, sustrato/estados-unidos/seguridad-publica, sustrato/canada/vivienda.
+- 10 nodos nuevos: dominio/edtech, dominio/foodtech, dominio/deep-tech, dominio/pymes, dominio/impresion-3d, rol/chief-innovation-officer, rol/system-administrator, rol/risk-manager, rol/sales-development-representative, rol/bookkeeper.
+- Total Round 35: 13 temas ingestados (3 sustrato + 10 nodos). Fuentes: Wikipedia EN + oficiales de gobierno (reference-only; sin raw/).
+- Índice de progreso: 523 tópicos en 170 iteraciones.

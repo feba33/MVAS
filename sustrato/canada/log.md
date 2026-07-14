@@ -132,3 +132,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Cultura de Canadá
 - Fuente: web/URL citada en frontmatter (reference-only; sin raw/).
 - Página: `sustrato/canada/cultura.md`.
+
+## [2026-07-14] ingest | Vivienda Canadá
+- Fuente: web/URL citada en frontmatter (reference-only; sin raw/).
+- Página: `sustrato/canada/vivienda.md`.

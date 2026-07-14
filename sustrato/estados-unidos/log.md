@@ -155,3 +155,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Elecciones en Estados Unidos
 - Fuente: web/URL citada en frontmatter (reference-only; sin raw/).
 - Página: `sustrato/estados-unidos/elecciones.md`.
+
+## [2026-07-14] ingest | Seguridad pública EE.UU.
+- Fuente: web/URL citada en frontmatter (reference-only; sin raw/).
+- Página: `sustrato/estados-unidos/seguridad-publica.md`.

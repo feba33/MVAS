@@ -39,3 +39,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [elecciones](elecciones.md) — Sistema electoral Canadá: Elections Canada, democracia, voto, Cámara de los Comunes, Senado · 🏷️ canada,elecciones,elections-canada,democracia,voto,camara-comunes,senado · 📅 2026-07-14
 
 - [cultura](cultura.md) — Cultura Canadá: Canadian Heritage, industrias culturales, Ley de Radiodifusión, bilingüismo · 🏷️ canada,cultura,canadian-heritage,industrias-culturales,bilingue,identidad,multiculturalismo · 📅 2026-07-14
+- [vivienda](vivienda.md) — Vivienda Canadá: CMHC, Estrategia Nacional de Vivienda, asequibilidad, crisis de vivienda · 🏷️ canada,vivienda,cmhc,asequibilidad,estrategia-nacional-vivienda,crisis-vivienda · 📅 2026-07-14
