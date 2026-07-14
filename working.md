@@ -1377,6 +1377,24 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - Index/log raíz + nodos actualizados. Reference-only (Wikipedia EN + oficiales de gobierno; sin raw/).
 - Próxima: gap_analysis.py; si 0 gaps → extender taxonomía Round 31; si hay gaps → reabrir Round 30.
 
+## COLA ROUND 31 (13 temas — gap_analysis.py iter 166 → taxonomía extendida; sustrato solo NA) — EN CURSO
+### Sustrato (deepening nodos NA existentes)
+- [ ] sustrato/mexico — Ciencia e innovación (CONAHCYT, SNCTI, I+D, nearshoring de conocimiento)
+- [ ] sustrato/estados-unidos — Relaciones exteriores (Department of State, diplomacia, tratados, USAID)
+- [ ] sustrato/canada — Economía (PIB, sectores, recursos, comercio, Bank of Canada)
+### Dominio (nuevos nodos)
+- [ ] dominio/derechos-humanos — Derechos humanos (marco internacional, constitucional, empresariales)
+- [ ] dominio/comportamiento-del-consumidor — Comportamiento del consumidor (psicología, journey, nudge)
+- [ ] dominio/trabajo-remoto — Trabajo remoto / teletrabajo (políticas, herramientas, legal)
+- [ ] dominio/desarrollo-organizacional — Desarrollo organizacional (OD, diagnóstico, intervenciones)
+- [ ] dominio/inteligencia-emocional — Inteligencia emocional (EQ, liderazgo, equipos)
+### Rol (nuevos nodos)
+- [ ] rol/agile-coach — Agile Coach (transformación ágil, coaching a líderes)
+- [ ] rol/devsecops-engineer — DevSecOps Engineer (security as code, shift-left)
+- [ ] rol/account-director — Account Director (cuentas estratégicas, retención/expansión)
+- [ ] rol/social-media-manager — Social Media Manager (canales, comunidad, métricas)
+- [ ] rol/plant-manager — Plant Manager (operaciones de planta, P&L)
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
 - **Tópicos ingeridos (acumulado): 458** (Round 30: +13 = 3 deepenings NA + 5 dominio + 5 rol)
 - **Rondas:** 30 completas (Round 1..30), cada una +13 ingests.

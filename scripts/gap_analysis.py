@@ -61,6 +61,8 @@ TAXONOMY = {
         ("demografia-poblacion", "Demografía y población México: INEGI, CONAPO, censo, estructura por edad, migración interna/internacional, crecimiento, densidad"),
         # Round 30 — deepening NA (infraestructura MX).
         ("infraestructura", "Infraestructura México: transporte (SICT), energía (CFE/PEMEX), agua (CONAGUA), vivienda, inversión"),
+        # Round 31 — deepening NA (ciencia e innovación MX).
+        ("ciencia-e-innovacion", "Ciencia e innovación México: CONAHCYT, SNCTI, I+D, nearshoring de conocimiento"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -98,6 +100,8 @@ TAXONOMY = {
         ("demografia-poblacion", "Demografía y población EE.UU.: Census Bureau, estructura por edad, migración, diversidad, proyecciones, densidad"),
         # Round 30 — deepening NA (sector manufacturero US).
         ("sector-manufacturero", "Sector manufacturero EE.UU.: manufactura, CHIPS Act, IRA, reshoring, empleo, subsectores"),
+        # Round 31 — deepening NA (relaciones exteriores US).
+        ("relaciones-exteriores", "Relaciones exteriores EE.UU.: Department of State, diplomacia, tratados, USAID, soft power"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -135,6 +139,8 @@ TAXONOMY = {
         ("seguridad-publica", "Seguridad pública Canadá: Public Safety Canada, RCMP, CBSA, gestión de emergencias, policía, fronteras, crimen"),
         # Round 30 — deepening NA (relaciones exteriores CA).
         ("relaciones-exteriores", "Relaciones exteriores Canadá: Global Affairs Canada, multilateralismo, paz, comercio, diplomacia"),
+        # Round 31 — deepening NA (economía CA).
+        ("economia", "Economía de Canadá: PIB, sectores, recursos, comercio, Bank of Canada, CAD, G7"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -503,6 +509,17 @@ NEW_NODES = [
     ("rol/procurement-manager", "Procurement Manager / jefe de compras: abastecimiento, sourcing, negociación, gestión de proveedores, P2P"),
     ("rol/executive-assistant", "Executive Assistant / asistente ejecutivo: soporte directo a ejecutivo senior (agenda, documentos, gatekeeping)"),
     ("rol/learning-manager", "Learning & Development Manager (L&D): capacitación y desarrollo del talento, diseño instruccional, upskilling"),
+    # Round 31 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings ciencia-e-innovacion MX, relaciones-exteriores US, economia CA; dominio/rol generales).
+    ("dominio/derechos-humanos", "Derechos humanos: marco internacional (ONU/ONU-DH), constitucionales, empresariales (UNGP), debido proceso"),
+    ("dominio/comportamiento-del-consumidor", "Comportamiento del consumidor: psicología del consumidor, journey, factores, nudge; vs marketing/economia-comportamental"),
+    ("dominio/trabajo-remoto", "Trabajo remoto / remote & hybrid work: teletrabajo, política, herramientas, productividad, legal laboral"),
+    ("dominio/desarrollo-organizacional", "Desarrollo organizacional (OD): diagnóstico, intervenciones, cambio planeado, adult learning; vs gestion-cambio/cultura"),
+    ("dominio/inteligencia-emocional", "Inteligencia emocional (EQ): autoconciencia, regulación, empatía, habilidades sociales; liderazgo y equipos"),
+    ("rol/agile-coach", "Agile Coach — facilita transformación ágil a nivel org, coaching a líderes/equipos; vs scrum-master/chief-transformation-officer"),
+    ("rol/devsecops-engineer", "DevSecOps Engineer — security as code, shift-left, SAST/DAST, supply chain (SBOM); vs devops-engineer/security-engineer"),
+    ("rol/account-director", "Account Director — dueño de relación estratégica de cuenta grande, retención/expansión; vs account-manager/account-executive"),
+    ("rol/social-media-manager", "Social Media Manager — gestión de canales sociales, contenido, comunidad, métricas; vs community-manager/redes-sociales"),
+    ("rol/plant-manager", "Plant Manager — opera planta de manufactura, P&L de planta, seguridad/calidad/prod; vs head-of-operations/vp-operations"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}
