@@ -883,4 +883,14 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [desarrollo-organizacional](dominio/desarrollo-organizacional/desarrollo-organizacional.md) — Desarrollo organizacional (OD): diagnóstico, intervenciones, cambio planeado, adult learning · 🏷️ desarrollo-organizacional,od,cambio-planeado,diagnostico,intervenciones,adult-learning · 📅 2026-07-14
 ### dominio/inteligencia-emocional
 - [inteligencia-emocional](dominio/inteligencia-emocional/inteligencia-emocional.md) — Inteligencia emocional (EQ): autoconciencia, regulación, empatía, habilidades sociales; liderazgo y equipos · 🏷️ inteligencia-emocional,eq,autoconciencia,regulacion,empatia,liderazgo,equipos · 📅 2026-07-14
+### rol/agile-coach
+- [agile-coach](rol/agile-coach/agile-coach.md) — Agile Coach: facilita transformación ágil a nivel org, coaching a líderes/equipos; vs scrum-master/chief-transformation-officer · 🏷️ agile-coach,agile,scrum,transformacion-agil,coaching,kanban,safe · 📅 2026-07-14
+### rol/devsecops-engineer
+- [devsecops-engineer](rol/devsecops-engineer/devsecops-engineer.md) — DevSecOps Engineer: security as code, shift-left, SAST/DAST, supply chain (SBOM); vs devops-engineer/security-engineer · 🏷️ devsecops-engineer,devsecops,security-as-code,shift-left,sast,dast,sbom · 📅 2026-07-14
+### rol/account-director
+- [account-director](rol/account-director/account-director.md) — Account Director: dueño de relación estratégica de cuenta grande, retención/expansión; vs account-manager/account-executive · 🏷️ account-director,cuentas-estrategicas,retention,expansion,key-account,relacion-cliente · 📅 2026-07-14
+### rol/social-media-manager
+- [social-media-manager](rol/social-media-manager/social-media-manager.md) — Social Media Manager: gestión de canales sociales, contenido, comunidad, métricas; vs community-manager/redes-sociales · 🏷️ social-media-manager,redes-sociales,contenido,comunidad,engagement,marketing-digital · 📅 2026-07-14
+### rol/plant-manager
+- [plant-manager](rol/plant-manager/plant-manager.md) — Plant Manager: opera planta de manufactura, P&L de planta, seguridad/calidad/productividad; vs head-of-operations/vp-operations · 🏷️ plant-manager,manufactura,operaciones,planta,lean,seguridad,calidad · 📅 2026-07-14
 

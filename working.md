@@ -1200,7 +1200,8 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 ### [2026-07-13] Ronda 21: +13 (3 sustrato NA + 5 dominio + 5 rol); COMPLETA.
 ### [2026-07-13] Ronda 22: +13 (3 sustrato NA + 5 dominio + 5 rol); COMPLETA.
 ### [2026-07-13] Ronda 23: +13 (3 sustrato NA + 5 dominio + 5 rol); COMPLETA.
-### [2026-07-13] Ronda 24: +13 (3 sustrato NA + 5 dominio + 5 rol); COMPLETA (iter 159).
+### [2026-07-13] Ronda 26: +13 (3 sustrato NA + 10 nodos) — COMPLETA (iter 162)
+### [2026-07-14] Ronda 31: +13 (3 sustrato NA + 10 nodos) — COMPLETA (iter 166)
 
 ### [2026-07-13] Round 24 — ITER 158 | gap_analysis extendido (taxonomía Round 24) + apertura de cola
 - gap_analysis.py (post-Round 23) = 0 huecos → se **EXTENDIÓ** `scripts/gap_analysis.py` (Round 24) con 3 deepenings sustrato NA + 10 nodos nuevos. ALCANCE respetado: sustrato = solo Norteamérica.
@@ -1377,39 +1378,39 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - Index/log raíz + nodos actualizados. Reference-only (Wikipedia EN + oficiales de gobierno; sin raw/).
 - Próxima: gap_analysis.py; si 0 gaps → extender taxonomía Round 31; si hay gaps → reabrir Round 30.
 
-## COLA ROUND 31 (13 temas — gap_analysis.py iter 166 → taxonomía extendida; sustrato solo NA) — EN CURSO
+## COLA ROUND 31 (13 temas — gap_analysis.py iter 166 → taxonomía extendida; sustrato solo NA) — COMPLETA (13/13)
 ### Sustrato (deepening nodos NA existentes)
-- [ ] sustrato/mexico — Ciencia e innovación (CONAHCYT, SNCTI, I+D, nearshoring de conocimiento)
-- [ ] sustrato/estados-unidos — Relaciones exteriores (Department of State, diplomacia, tratados, USAID)
-- [ ] sustrato/canada — Economía (PIB, sectores, recursos, comercio, Bank of Canada)
+- [x] sustrato/mexico — Ciencia e innovación (CONAHCYT, SNCTI, I+D, nearshoring de conocimiento)
+- [x] sustrato/estados-unidos — Relaciones exteriores (Department of State, diplomacia, tratados, USAID)
+- [x] sustrato/canada — Economía (PIB, sectores, recursos, comercio, Bank of Canada)
 ### Dominio (nuevos nodos)
-- [ ] dominio/derechos-humanos — Derechos humanos (marco internacional, constitucional, empresariales)
-- [ ] dominio/comportamiento-del-consumidor — Comportamiento del consumidor (psicología, journey, nudge)
-- [ ] dominio/trabajo-remoto — Trabajo remoto / teletrabajo (políticas, herramientas, legal)
-- [ ] dominio/desarrollo-organizacional — Desarrollo organizacional (OD, diagnóstico, intervenciones)
-- [ ] dominio/inteligencia-emocional — Inteligencia emocional (EQ, liderazgo, equipos)
+- [x] dominio/derechos-humanos — Derechos humanos (marco internacional, constitucional, empresariales)
+- [x] dominio/comportamiento-del-consumidor — Comportamiento del consumidor (psicología, journey, nudge)
+- [x] dominio/trabajo-remoto — Trabajo remoto / teletrabajo (políticas, herramientas, legal)
+- [x] dominio/desarrollo-organizacional — Desarrollo organizacional (OD, diagnóstico, intervenciones)
+- [x] dominio/inteligencia-emocional — Inteligencia emocional (EQ, liderazgo, equipos)
 ### Rol (nuevos nodos)
-- [ ] rol/agile-coach — Agile Coach (transformación ágil, coaching a líderes)
-- [ ] rol/devsecops-engineer — DevSecOps Engineer (security as code, shift-left)
-- [ ] rol/account-director — Account Director (cuentas estratégicas, retención/expansión)
-- [ ] rol/social-media-manager — Social Media Manager (canales, comunidad, métricas)
-- [ ] rol/plant-manager — Plant Manager (operaciones de planta, P&L)
+- [x] rol/agile-coach — Agile Coach (transformación ágil, coaching a líderes)
+- [x] rol/devsecops-engineer — DevSecOps Engineer (security as code, shift-left)
+- [x] rol/account-director — Account Director (cuentas estratégicas, retención/expansión)
+- [x] rol/social-media-manager — Social Media Manager (canales, comunidad, métricas)
+- [x] rol/plant-manager — Plant Manager (operaciones de planta, P&L)
 
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-- **Tópicos ingeridos (acumulado): 458** (Round 30: +13 = 3 deepenings NA + 5 dominio + 5 rol)
-- **Rondas:** 30 completas (Round 1..30), cada una +13 ingests.
+- **Tópicos ingeridos (acumulado): 471** (Round 31: +13 = 3 deepenings NA + 5 dominio + 5 rol)
+- **Rondas:** 31 completas (Round 1..31), cada una +13 ingests.
 - **Nodos sustrato (NA):** México 52 (+demografia-poblacion), EE.UU. 41 (+demografia-poblacion), Canadá 35 (+seguridad-publica). Deepenings NA completas.
-- **Nodos dominio:** ~95 (Round 30 +5 nuevos).
-- **Nodos rol:** ~85 (Round 30 +5 nuevos).
+- **Nodos dominio:** ~100 (Round 31 +5 nuevos).
+- **Nodos rol:** ~90 (Round 31 +5 nuevos).
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
 
 ## 🚦 ESTADO
-- **Iteración actual:** 165 (Round 30 COMPLETA).
-- **Última acción:** Round 30: 13 ingests (3 sustrato NA + 5 dominio + 5 rol).
+- **Iteración actual:** 166 (Round 31 COMPLETA).
+- **Última acción:** Round 31: 13 ingests (3 sustrato NA + 5 dominio + 5 rol).
 - **Bloqueos:** ninguno.
-- **Cola:** Round 30 COMPLETA (13/13). Siguiente: reabastecer — gap_analysis.py reporta 0 gaps tras la extensión de Round 30; extender taxonomía para Round 31.
+- **Cola:** Round 31 COMPLETA (13/13). Siguiente: reabastecer — gap_analysis.py reporta 0 gaps tras la extensión de Round 31; extender taxonomía para Round 32.
 
 ## ▶️ PRÓXIMA TAREA
-- `python3 scripts/gap_analysis.py`; si 0 huecos → reabastecer taxonomía (Round 31: nuevos dominio/rol + deepenings NA) y continuar el ciclo; si hay sugerencias → ingerirlas.
+- `python3 scripts/gap_analysis.py`; si 0 huecos → reabastecer taxonomía (Round 32: nuevos dominio/rol + deepenings NA) y continuar el ciclo.
 - ALCANCE sustrato = solo Norteamérica (MX/US/CA) se mantiene salvo indicación contraria.

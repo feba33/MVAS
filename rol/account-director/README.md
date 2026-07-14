@@ -1,4 +1,4 @@
-# agile-coach (entidad de rol)
+# account-director (entidad de rol)
 
 Sub-wiki auto-contenido dentro de `rol/`. Arquitectura LLM Wiki recursiva.
 
@@ -9,4 +9,4 @@ Sub-wiki auto-contenido dentro de `rol/`. Arquitectura LLM Wiki recursiva.
 - páginas con YAML frontmatter.
 
 ## Convenciones
-- `capa: rol`, `tema: agile-coach`.
+- `capa: rol`, `tema: account-director`.
