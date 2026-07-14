@@ -168,3 +168,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Infraestructura de México
 - Fuentes: Wikipedia (EN) + fuentes oficiales de gobierno — reference-only (sin raw/).
 - Página: `infraestructura.md`.
+
+## [2026-07-14] ingest | Ciencia e innovación en México (CONAHCYT, SNCTI)
+- Fuentes: Wikipedia (es) — Ciencia y tecnología en México; CONAHCYT (conahcyt.gob.mx) — reference-only (sin raw/).
+- Página: `ciencia-e-innovacion.md`. SNCTI (LCeTyI 2019); I+D ~0.3-0.4% PIB (bajo vs OCDE); reforma 2024 (fideicomisos); brain drain; nearshoring de conocimiento. Cross-ref sustrato/estados-unidos/ciencia-e-innovacion, sustrato/canada/ciencia-e-innovacion, dominio/i-d.

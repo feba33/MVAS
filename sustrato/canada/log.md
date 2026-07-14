@@ -118,3 +118,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Relaciones exteriores de Canadá
 - Fuentes: Wikipedia (EN) + fuentes oficiales de gobierno — reference-only (sin raw/).
 - Página: `relaciones-exteriores.md`.
+
+## [2026-07-14] ingest | Economía de Canadá
+- Fuentes: Wikipedia (EN) — Economy of Canada; statcan.gc.ca — reference-only (sin raw/).
+- Página: `economia.md`. PIB ~CAD$2.1-2.9T; servicios ~70%; recursos; comercio ~75% a EE.UU. (CUSMA); Bank of Canada; CAD; G7. Cross-ref sustrato/mexico/economia, dominio/economia, dominio/finanzas-publicas.

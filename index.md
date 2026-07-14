@@ -52,6 +52,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [demografia-poblacion](sustrato/mexico/demografia-poblacion.md) — Demografía y población México: INEGI, CONAPO, censo, estructura por edad, migración, remesas · 🏷️ demografia-mexico,poblacion,inegi,conapo,migracion,estructura-por-edad,urbanizacion,remesas · 📅 2026-07-13
 
 - [infraestructura](sustrato/mexico/infraestructura.md) — Infraestructura México: transporte (SICT), energía (CFE/PEMEX), agua (CONAGUA), vivienda, inversión · 🏷️ mexico,infraestructura,sict,cfe,conagua,transporte,energia,agua · 📅 2026-07-14
+- [ciencia-e-innovacion](sustrato/mexico/ciencia-e-innovacion.md) — Ciencia e innovación México: CONAHCYT, SNCTI, I+D, nearshoring de conocimiento · 🏷️ mexico,ciencia,innovacion,conahcyt,sncti,i-d,nearshoring · 📅 2026-07-14
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -87,6 +88,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [demografia-poblacion](sustrato/estados-unidos/demografia-poblacion.md) — Demografía y población EE.UU.: Census Bureau, estructura por edad, migración, diversidad, Sun Belt · 🏷️ eeuu,demografia,poblacion,census-bureau,inmigracion,diversidad,envejecimiento · 📅 2026-07-13
 
 - [sector-manufacturero](sustrato/estados-unidos/sector-manufacturero.md) — Sector manufacturero EE.UU.: 2º mayor del mundo, USD$2.9T (2024), 12.76M empleos, CHIPS/IRA, reshoring · 🏷️ eeuu,manufactura,manufacturing,chips-act,ira,reshoring,semiconductores · 📅 2026-07-14
+- [relaciones-exteriores](sustrato/estados-unidos/relaciones-exteriores.md) — Relaciones exteriores EE.UU.: Department of State, diplomacia, tratados, USAID, soft power · 🏷️ eeuu,relaciones-exteriores,departamento-de-estado,diplomacia,tratados,usaid,soft-power · 📅 2026-07-14
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -116,6 +118,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [seguridad-publica](sustrato/canada/seguridad-publica.md) — Seguridad pública Canadá: Public Safety Canada, RCMP, CBSA, gestión de emergencias, fronteras · 🏷️ canada,seguridad-publica,public-safety-canada,rcmp,cbsa,policia,gestion-de-emergencias · 📅 2026-07-13
 
 - [relaciones-exteriores](sustrato/canada/relaciones-exteriores.md) — Relaciones exteriores Canadá: Global Affairs Canada, middle power, multilateral, paz, comercio · 🏷️ canada,relaciones-exteriores,global-affairs-canada,middle-power,multilateralismo,comercio-exterior · 📅 2026-07-14
+- [economia](sustrato/canada/economia.md) — Economía de Canadá: PIB, servicios ~70%, recursos, comercio (CUSMA), Bank of Canada, CAD, G7 · 🏷️ canada,economia,pib,recursos-naturales,comercio,bank-of-canada,cad,g7 · 📅 2026-07-14
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
