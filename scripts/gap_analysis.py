@@ -71,6 +71,8 @@ TAXONOMY = {
         ("trabajo", "Trabajo / mercado laboral México: STPS, empleo, salario mínimo, outsourcing/subscontratación (Ley 2021), seguridad social asociada, productividad, informalidad; vs derecho-laboral/seguridad-social"),
         # Round 35 — deepening NA (vivienda MX).
         ("vivienda", "Vivienda México: INFONAVIT, SHF, FOVISSSTE, mercado inmobiliario, déficit habitacional, política de vivienda, crédito hipotecario; vs sustrato/estados-unidos/vivienda-real-estate"),
+        # Round 36 — deepening NA (banca de desarrollo MX).
+        ("banca-desarrollo", "Banca de desarrollo México: NAFIN (hoy Banco Nacional de Comercio Exterior), BANCOMEXT, Banobras, SHF, Banco del Bienestar, Bansefi; banca de segundo piso, fomento productivo, PyMEs, infraestructura; vs sustrato/mexico/banca-sistema-financiero"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -118,6 +120,8 @@ TAXONOMY = {
         ("elecciones", "Sistema electoral EE.UU.: Constitución, Electoral College, voto popular, FEC, derechos de voto, primarias, midterms, ciclo electoral, votación por correo; vs poder-judicial"),
         # Round 35 — deepening NA (seguridad pública US).
         ("seguridad-publica", "Seguridad pública EE.UU.: law enforcement, DOJ (Civil Rights Division, OPD), FBI, policía estatal/local, crimen, reforma policial, armas de fuego; vs seguridad-nacional (homeland/intel)"),
+        # Round 36 — deepening NA (banca de desarrollo US).
+        ("banca-desarrollo", "Banca de desarrollo EE.UU.: SBA (Small Business Administration), DFC (Development Finance Corporation, antes OPIC), EXIM Bank (Export-Import Bank), USDA Rural Development; crédito a PyMEs, exportaciones, desarrollo; vs sustrato/estados-unidos/sistema-financiero"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -165,6 +169,8 @@ TAXONOMY = {
         ("cultura", "Cultura Canadá: Canadian Heritage, industrias culturales (radiodifusión, cine, música, libros), Ley de Radiodifusión, políticas bilingües (FR/EN), identidad y diversidad; vs turismo/medios-comunicacion"),
         # Round 35 — deepening NA (vivienda CA).
         ("vivienda", "Vivienda Canadá: CMHC, Estrategia Nacional de Vivienda (2017), asequibilidad, Fondo Nacional de Vivienda, crisis de vivienda, provincias/municipios; vs sustrato/estados-unidos/vivienda-real-estate"),
+        # Round 36 — deepening NA (banca de desarrollo CA).
+        ("banca-desarrollo", "Banca de desarrollo Canadá: BDC (Business Development Bank of Canada), EDC (Export Development Canada), FCC (Farm Credit Canada); financiamiento a PyMEs, exportaciones, agronegocio; vs sustrato/canada/sector-bancario"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -588,6 +594,17 @@ NEW_NODES = [
     ("rol/risk-manager", "Risk Manager — gestiona riesgo operativo/empresarial (ERM), identificación/mitigación/monitoreo, continuidad, reporta a CRO; vs chief-risk-officer/compliance-manager"),
     ("rol/sales-development-representative", "Sales Development Representative (SDR) — prospección y calificación de leads (B2B), outbound, pasa a AE; vs account-executive/sales-lead"),
     ("rol/bookkeeper", "Bookkeeper / tenedor de libros — registro contable operativo (diario/mayor, conciliaciones, cuentas por pagar/cobrar), base para accountant/controller; vs accountant/contador"),
+    # Round 36 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings banca-desarrollo MX/US/CA; dominio/rol generales).
+    ("dominio/banca-de-inversion", "Banca de inversión (investment banking): advisory M&A, suscripción/underwriting (ECM/DCM), sales & trading, bulge bracket vs boutiques; vs capital-riesgo/mercados-capitales"),
+    ("dominio/mercados-emergentes", "Mercados emergentes (emerging markets): clasificación (MSCI/FTSE), BRICS, riesgo país, inversión, volatilidad, frontera; vs economia/finanzas"),
+    ("dominio/contratacion-publica", "Contratación pública / public procurement: licitaciones, bids, procurement law, e-procurement, WTO GPA, compras gubernamentales; vs compras (empresarial)"),
+    ("dominio/it-service-management", "IT Service Management (ITSM): ITIL v4, service desk, incident/problem/change, SLA/OLA, SIAM, puente a DevOps/SRE; vs plataforma-sre/gobierno-de-ti"),
+    ("dominio/modelos-de-negocio", "Modelos de negocio: Business Model Canvas, subscription, freemium, platform/marketplace, razor-and-blades, circular, innovación de modelo; vs estrategia/emprendimiento"),
+    ("rol/developer-advocate", "Developer Advocate / DevRel — puente ingeniería-comunidad: developer relations, evangelism, docs, comunidad técnica; vs solutions-architect/sales-engineer"),
+    ("rol/security-architect", "Security Architect — diseña arquitectura de seguridad, threat modeling a nivel sistema, zerotrust; vs security-engineer (implementa) y ciso (ejecutivo)"),
+    ("rol/analytics-engineer", "Analytics Engineer — transforma datos en modelos de confianza (dbt/SQL), puente data-eng y data-science; vs data-engineer (pipelines) y data-analyst (análisis)"),
+    ("rol/ux-researcher", "UX Researcher — investigación de usuarios, métodos cualitativos/cuantitativos, usabilidad, descubrimiento; vs product-designer/design-lead/head-of-design"),
+    ("rol/economist", "Economist — macro/micro, política económica, forecasting, análisis de mercado; vs dominio/economia y data-scientist"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

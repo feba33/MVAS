@@ -49,3 +49,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 
 - [trabajo](trabajo.md) — Trabajo / mercado laboral México: STPS, empleo, salario mínimo, outsourcing 2021, informalidad · 🏷️ mexico,trabajo,stps,empleo,salario-minimo,outsourcing,informalidad,mercado-laboral · 📅 2026-07-14
 - [vivienda](vivienda.md) — Vivienda México: INFONAVIT, SHF, FOVISSSTE, crédito hipotecario, déficit habitacional · 🏷️ mexico,vivienda,infonavit,shf,fovissste,credito-hipotecario,deficit-habitacional · 📅 2026-07-14
+- [banca-desarrollo](banca-desarrollo.md) — Banca de desarrollo México: NAFIN/Bancomext, Banobras, SHF, Banco del Bienestar; segundo piso, PyMEs, infraestructura · 🏷️ mexico,banca-desarrollo,nafin,bancomext,banobras,shf,segundo-piso · 📅 2026-07-14

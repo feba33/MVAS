@@ -136,3 +136,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Vivienda Canadá
 - Fuente: web/URL citada en frontmatter (reference-only; sin raw/).
 - Página: `sustrato/canada/vivienda.md`.
+
+## [2026-07-14] ingest | Banca de desarrollo de Canadá
+- Fuentes: BDC (bdc.ca), EDC (edc.ca), FCC (fcc.ca) + Wikipedia EN (Development bank) — reference-only.
+- Página: `banca-desarrollo.md`. Crown corporations: BDC (PyMEs, capital/asesoría), EDC (ECA, exportaciones, FinDev Canada), FCC (agrícola). Complementa `sector-bancario`. Confianza alta.

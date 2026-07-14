@@ -198,3 +198,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Vivienda México
 - Fuente: web/URL citada en frontmatter (reference-only; sin raw/).
 - Página: `sustrato/mexico/vivienda.md`.
+
+## [2026-07-14] ingest | Banca de desarrollo de México
+- Fuente: Banobras (banobras.gob.mx) + Wikipedia EN (Development bank) — reference-only.
+- Página: `banca-desarrollo.md`. Banca de desarrollo (segundo piso): NAFIN/Bancomext, Banobras (infraestructura/subnacional), SHF (vivienda), Banco del Bienestar (inclusión). Complementa `banca-sistema-financiero`. Confianza alta.

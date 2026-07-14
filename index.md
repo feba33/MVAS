@@ -1025,3 +1025,33 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol/bookkeeper
 - [bookkeeper](rol/bookkeeper/bookkeeper.md) — Bookkeeper / tenedor de libros: registro contable, conciliaciones, A/P y A/R · 🏷️ bookkeeper,tenedor-de-libros,contabilidad,registro,conciliacion · 📅 2026-07-14
 
+### dominio/banca-de-inversion
+- [banca-de-inversion](dominio/banca-de-inversion/banca-de-inversion.md) — Banca de inversión: advisory M&A, underwriting ECM/DCM, sales&trading, bulge bracket vs boutiques · 🏷️ banca-de-inversion,investment-banking,m-a,underwriting,capital-markets,bulge-bracket,boutiques · 📅 2026-07-14
+
+### dominio/mercados-emergentes
+- [mercados-emergentes](dominio/mercados-emergentes/mercados-emergentes.md) — Mercados emergentes (EM): BRICS, riesgo país, inversión, frontier markets · 🏷️ mercados-emergentes,emerging-markets,brics,riesgo-pais,inversion,frontera · 📅 2026-07-14
+
+### dominio/contratacion-publica
+- [contratacion-publica](dominio/contratacion-publica/contratacion-publica.md) — Contratación pública: licitaciones, tenders, GPA-OMC, e-procurement · 🏷️ contratacion-publica,public-procurement,licitaciones,tenders,gobierno,compras · 📅 2026-07-14
+
+### dominio/it-service-management
+- [it-service-management](dominio/it-service-management/it-service-management.md) — ITSM: diseño/entrega de servicios TI (ITIL, SLA, incident/change), enfoque en cliente · 🏷️ it-service-management,itsm,itil,sla,servicios-ti,gestion-servicios · 📅 2026-07-14
+
+### dominio/modelos-de-negocio
+- [modelos-de-negocio](dominio/modelos-de-negocio/modelos-de-negocio.md) — Modelos de negocio: valor, Business Model Canvas, suscripción, freemium, plataforma · 🏷️ modelos-de-negocio,business-model,canvas,suscripcion,freemium,plataforma · 📅 2026-07-14
+
+### rol/developer-advocate
+- [developer-advocate](rol/developer-advocate/developer-advocate.md) — Developer Advocate (DevRel): puente ingeniería-comunidad, docs, evangelismo, DX · 🏷️ developer-advocate,devrel,developer-relations,evangelismo,comunidad-desarrolladores · 📅 2026-07-14
+
+### rol/security-architect
+- [security-architect](rol/security-architect/security-architect.md) — Security Architect: arquitectura de seguridad, threat modeling, Zero Trust, NIST · 🏷️ security-architect,ciberseguridad,arquitectura-seguridad,threat-modeling,zero-trust · 📅 2026-07-14
+
+### rol/analytics-engineer
+- [analytics-engineer](rol/analytics-engineer/analytics-engineer.md) — Analytics Engineer: modelado de datos en warehouse (dbt), puente DE-DS · 🏷️ analytics-engineer,data-modeling,dbt,sql,warehouse,analytics · 📅 2026-07-14
+
+### rol/ux-researcher
+- [ux-researcher](rol/ux-researcher/ux-researcher.md) — UX Researcher: investiga conducta/necesidades de usuario (entrevistas, usabilidad) · 🏷️ ux-researcher,ux-research,usabilidad,user-research,design,product · 📅 2026-07-14
+
+### rol/economist
+- [economist](rol/economist/economist.md) — Economist: macro/micro, política económica, forecasting, econometría · 🏷️ economist,economia,macroeconomia,microeconomia,politica-economica,forecasting · 📅 2026-07-14
+

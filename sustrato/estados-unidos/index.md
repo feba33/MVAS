@@ -46,3 +46,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 
 - [elecciones](elecciones.md) — Elecciones EE.UU.: Electoral College, FEC, primarias, midterms, derechos de voto · 🏷️ estados-unidos,elecciones,electoral-college,fec,voto,primarias,midterms,sistema-electoral · 📅 2026-07-14
 - [seguridad-publica](seguridad-publica.md) — Seguridad pública EE.UU.: law enforcement, FBI, DOJ, policía estatal/local, reforma policial · 🏷️ eeuu,seguridad-publica,law-enforcement,fbi,doj,policia,reforma-policial · 📅 2026-07-14
+- [banca-desarrollo](banca-desarrollo.md) — Banca de desarrollo EE.UU.: SBA, EXIM Bank, DFC (ex-OPIC), USDA Rural Development; PyMEs, exportaciones · 🏷️ eeuu,banca-desarrollo,sba,exim,dfc,usda,segundo-piso · 📅 2026-07-14
