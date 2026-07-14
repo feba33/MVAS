@@ -114,3 +114,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Seguridad pública de Canadá (Public Safety Canada)
 - Fuentes: Public Safety Canada (publicsafety.gc.ca), Wikipedia EN — Law enforcement in Canada, RCMP — reference-only (sin raw/).
 - Página: `seguridad-publica.md`. Public Safety Canada coordina policía/fronteras/correcciones/emergencias; RCMP (policía federal), CBSA (fronteras). Cross-ref poder-judicial, defensa, seguridad-nacional, inmigracion.
+
+## [2026-07-14] ingest | Relaciones exteriores de Canadá
+- Fuentes: Wikipedia (EN) + fuentes oficiales de gobierno — reference-only (sin raw/).
+- Página: `relaciones-exteriores.md`.

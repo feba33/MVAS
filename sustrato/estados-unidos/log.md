@@ -137,3 +137,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Demografía y población de EE.UU. (Census Bureau)
 - Fuentes: U.S. Census Bureau (census.gov), Wikipedia EN — Demographics of the United States — reference-only (sin raw/).
 - Página: `demografia-poblacion.md`. ~340M hab; crecimiento por inmigración; TFR ~1.6-1.7; envejecimiento; diversidad. Cross-ref inmigracion, seguridad-social, economia.
+
+## [2026-07-14] ingest | Sector manufacturero de EE.UU.
+- Fuentes: Wikipedia (EN) + fuentes oficiales de gobierno — reference-only (sin raw/).
+- Página: `sector-manufacturero.md`.

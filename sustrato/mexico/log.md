@@ -164,3 +164,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-13] ingest | Demografía y población de México (INEGI/CONAPO)
 - Fuentes: INEGI (temas/estructura), CONAPO (gob.mx/conapo) — reference-only (sin raw/).
 - Página: `demografia-poblacion.md`. ~128-130M hab; TFR ~1.6-1.9; remesas récord (~USD 60-65B); urbanización ~80%. Cross-ref economia, seguridad-social, politica-monetaria.
+
+## [2026-07-14] ingest | Infraestructura de México
+- Fuentes: Wikipedia (EN) + fuentes oficiales de gobierno — reference-only (sin raw/).
+- Página: `infraestructura.md`.

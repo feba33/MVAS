@@ -59,6 +59,8 @@ TAXONOMY = {
         ("economia", "Economía México: PIB, INEGI, Banxico, sectores (manufactura, servicios, petróleo), informalidad, comercio exterior, perspectivas macro"),
         # Round 29 — deepening NA (demografía MX).
         ("demografia-poblacion", "Demografía y población México: INEGI, CONAPO, censo, estructura por edad, migración interna/internacional, crecimiento, densidad"),
+        # Round 30 — deepening NA (infraestructura MX).
+        ("infraestructura", "Infraestructura México: transporte (SICT), energía (CFE/PEMEX), agua (CONAGUA), vivienda, inversión"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -94,6 +96,8 @@ TAXONOMY = {
         ("ciencia-e-innovacion", "Ciencia e innovación EE.UU.: NSF, DOE national labs, NIH, I+D, CHIPS Act, ecosistema de investigación y desarrollo"),
         # Round 29 — deepening NA (demografía US).
         ("demografia-poblacion", "Demografía y población EE.UU.: Census Bureau, estructura por edad, migración, diversidad, proyecciones, densidad"),
+        # Round 30 — deepening NA (sector manufacturero US).
+        ("sector-manufacturero", "Sector manufacturero EE.UU.: manufactura, CHIPS Act, IRA, reshoring, empleo, subsectores"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -129,6 +133,8 @@ TAXONOMY = {
         ("demografia-poblacion", "Demografía y población Canadá: Statistics Canada, censo, crecimiento impulsado por inmigración, estructura por edad, densidad"),
         # Round 29 — deepening NA (seguridad pública CA).
         ("seguridad-publica", "Seguridad pública Canadá: Public Safety Canada, RCMP, CBSA, gestión de emergencias, policía, fronteras, crimen"),
+        # Round 30 — deepening NA (relaciones exteriores CA).
+        ("relaciones-exteriores", "Relaciones exteriores Canadá: Global Affairs Canada, multilateralismo, paz, comercio, diplomacia"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -486,6 +492,17 @@ NEW_NODES = [
     ("rol/data-architect", "Data Architect — modelado de datos, arquitectura de información, gobierno técnico de datos, calidad/linaje; vs data-engineer y chief-data-officer"),
     ("rol/network-engineer", "Network Engineer — diseño/operación de redes, conectividad, routing/seguridad de red, LAN/WAN/SD-WAN; vs cloud-architect y security-engineer"),
     ("rol/dba", "Database Administrator (DBA) — administración de bases de datos, backup/recovery, rendimiento, seguridad de datos; vs data-engineer"),
+    # Round 30 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings infraestructura MX, sector-manufacturero US, relaciones-exteriores CA; dominio/rol generales).
+    ("dominio/salud-publica", "Salud pública: prevención, epidemiología, determinantes, sistemas de salud poblacional, OMS/OPS"),
+    ("dominio/derecho-tributario", "Derecho tributario: potestad del Estado, impuestos, procedimiento, controversias, defensa"),
+    ("dominio/agrotech", "AgTech / tecnología agrícola: agricultura de precisión, IoT, biotec, maquinaria conectada, decision support"),
+    ("dominio/movilidad-urbana", "Movilidad urbana sostenible: modos, última milla, MaaS, impacto CO2, planeación urbana"),
+    ("dominio/gestion-del-conocimiento", "Gestión del conocimiento (KM): crear, capturar, compartir y aplicar conocimiento organizacional"),
+    ("rol/paralegal", "Paralegal / asistente legal: soporte legal (investigación, redacción, casos) bajo supervisión de abogado"),
+    ("rol/wealth-manager", "Wealth Manager / asesor de patrimonio: asesoría integral a HNW/UHNW (inversión, sucesión, fiscal)"),
+    ("rol/procurement-manager", "Procurement Manager / jefe de compras: abastecimiento, sourcing, negociación, gestión de proveedores, P2P"),
+    ("rol/executive-assistant", "Executive Assistant / asistente ejecutivo: soporte directo a ejecutivo senior (agenda, documentos, gatekeeping)"),
+    ("rol/learning-manager", "Learning & Development Manager (L&D): capacitación y desarrollo del talento, diseño instruccional, upskilling"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

@@ -51,6 +51,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [economia](sustrato/mexico/economia.md) — Economía de México: PIB, INEGI, Banxico, sectores, informalidad, comercio exterior · 🏷️ economia-mexico,pib,inegi,banxico,sectores,comercio-exterior,informalidad · 📅 2026-07-13
 - [demografia-poblacion](sustrato/mexico/demografia-poblacion.md) — Demografía y población México: INEGI, CONAPO, censo, estructura por edad, migración, remesas · 🏷️ demografia-mexico,poblacion,inegi,conapo,migracion,estructura-por-edad,urbanizacion,remesas · 📅 2026-07-13
 
+- [infraestructura](sustrato/mexico/infraestructura.md) — Infraestructura México: transporte (SICT), energía (CFE/PEMEX), agua (CONAGUA), vivienda, inversión · 🏷️ mexico,infraestructura,sict,cfe,conagua,transporte,energia,agua · 📅 2026-07-14
+
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
 - [llc](sustrato/estados-unidos/llc.md) — LLC: híbrido paso-through + responsabilidad limitada · 🏷️ llc · 📅 2026-07-09
@@ -84,6 +86,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [ciencia-e-innovacion](sustrato/estados-unidos/ciencia-e-innovacion.md) — Ciencia e innovación EE.UU.: NSF, DOE labs, NIH, CHIPS Act, ecosistema de I+D · 🏷️ eeuu,ciencia,innovacion,nsf,doe-labs,nih,chips-act · 📅 2026-07-13
 - [demografia-poblacion](sustrato/estados-unidos/demografia-poblacion.md) — Demografía y población EE.UU.: Census Bureau, estructura por edad, migración, diversidad, Sun Belt · 🏷️ eeuu,demografia,poblacion,census-bureau,inmigracion,diversidad,envejecimiento · 📅 2026-07-13
 
+- [sector-manufacturero](sustrato/estados-unidos/sector-manufacturero.md) — Sector manufacturero EE.UU.: 2º mayor del mundo, USD$2.9T (2024), 12.76M empleos, CHIPS/IRA, reshoring · 🏷️ eeuu,manufactura,manufacturing,chips-act,ira,reshoring,semiconductores · 📅 2026-07-14
+
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
 - [privacidad](sustrato/canada/privacidad.md) — Privacidad Canadá: PIPEDA · 🏷️ canada,pipeda,privacidad · 📅 2026-07-09
@@ -110,6 +114,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [ciencia-e-innovacion](sustrato/canada/ciencia-e-innovacion.md) — Ciencia e innovación Canadá: NRC, ISED, políticas de CTI, IA/ML · 🏷️ canada,ciencia,innovacion,nrc,ised,investigacion,politica-de-ciencia · 📅 2026-07-13
 - [demografia-poblacion](sustrato/canada/demografia-poblacion.md) — Demografía y población Canadá: Statistics Canada, censo, inmigración, estructura por edad · 🏷️ canada,demografia,poblacion,statistics-canada,censo,inmigracion,envejecimiento · 📅 2026-07-13
 - [seguridad-publica](sustrato/canada/seguridad-publica.md) — Seguridad pública Canadá: Public Safety Canada, RCMP, CBSA, gestión de emergencias, fronteras · 🏷️ canada,seguridad-publica,public-safety-canada,rcmp,cbsa,policia,gestion-de-emergencias · 📅 2026-07-13
+
+- [relaciones-exteriores](sustrato/canada/relaciones-exteriores.md) — Relaciones exteriores Canadá: Global Affairs Canada, middle power, multilateral, paz, comercio · 🏷️ canada,relaciones-exteriores,global-affairs-canada,middle-power,multilateralismo,comercio-exterior · 📅 2026-07-14
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -834,3 +840,34 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/dba
 - [dba](rol/dba/dba.md) — Database Administrator (DBA): administración de DBMS, backup/recovery, rendimiento, seguridad · 🏷️ dba,base-de-datos,administracion-de-bases-de-datos,backup-recovery,rendimiento · 📅 2026-07-13
+
+### dominio/salud-publica
+- [salud-publica](dominio/salud-publica/salud-publica.md) — Salud pública: prevención, epidemiología, determinantes, sistemas de salud poblacional · 🏷️ salud-publica,epidemiologia,prevencion,salud-poblacional,salud-publica-derecho,oms · 📅 2026-07-14
+
+### dominio/derecho-tributario
+- [derecho-tributario](dominio/derecho-tributario/derecho-tributario.md) — Derecho tributario: potestad del Estado, impuestos, procedimiento, controversias, defensa · 🏷️ derecho-tributario,impuestos,derecho-publico,tributario,fiscalidad,controversias · 📅 2026-07-14
+
+### dominio/agrotech
+- [agrotech](dominio/agrotech/agrotech.md) — AgTech: agricultura de precisión, IoT, biotec, maquinaria conectada, decision support · 🏷️ agrotech,agricultura-de-precision,iot-agricola,biotecnologia-agricola,maquinaria-conectada,agronegocios · 📅 2026-07-14
+
+### dominio/movilidad-urbana
+- [movilidad-urbana](dominio/movilidad-urbana/movilidad-urbana.md) — Movilidad urbana sostenible: modos, última milla, MaaS, impacto CO2, planeación urbana · 🏷️ movilidad-urbana,transporte-sostenible,ultima-milla,maas,micromovilidad,planeacion-urbana · 📅 2026-07-14
+
+### dominio/gestion-del-conocimiento
+- [gestion-del-conocimiento](dominio/gestion-del-conocimiento/gestion-del-conocimiento.md) — Gestión del conocimiento (KM): crear, capturar, compartir y aplicar conocimiento organizacional · 🏷️ gestion-del-conocimiento,km,aprendizaje-organizacional,comunidades-de-practica,knowledge-management · 📅 2026-07-14
+
+### rol/paralegal
+- [paralegal](rol/paralegal/paralegal.md) — Paralegal: soporte legal (investigación, redacción, casos) bajo supervisión de abogado · 🏷️ paralegal,asistente-legal,soporte-legal,investigacion-legal,legal-ops · 📅 2026-07-14
+
+### rol/wealth-manager
+- [wealth-manager](rol/wealth-manager/wealth-manager.md) — Wealth Manager: asesoría patrimonial integral a HNW/UHNW (inversión, sucesión, fiscal) · 🏷️ wealth-manager,asesoria-patrimonial,hnw,planificacion-patrimonial,sucesion,gestion-de-activos · 📅 2026-07-14
+
+### rol/procurement-manager
+- [procurement-manager](rol/procurement-manager/procurement-manager.md) — Procurement Manager: abastecimiento, sourcing, negociación, gestión de proveedores, P2P · 🏷️ procurement-manager,compras,abastecimiento,sourcing,gestion-de-proveedores,p2p · 📅 2026-07-14
+
+### rol/executive-assistant
+- [executive-assistant](rol/executive-assistant/executive-assistant.md) — Executive Assistant: soporte directo a ejecutivo senior (agenda, documentos, gatekeeping) · 🏷️ executive-assistant,asistente-ejecutivo,soporte-ejecutivo,administracion,gatekeeping · 📅 2026-07-14
+
+### rol/learning-manager
+- [learning-manager](rol/learning-manager/learning-manager.md) — Learning & Development Manager (L&D): capacitación y desarrollo del talento, diseño instruccional, upskilling · 🏷️ learning-manager,ld,capacitacion,desarrollo-talento,upskilling,diseno-instruccional · 📅 2026-07-14
+

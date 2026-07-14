@@ -1352,21 +1352,46 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - Index/log raíz + nodos actualizados. Reference-only (Wikipedia EN + oficiales de gobierno; sin raw/).
 - Próxima: gap_analysis.py; si 0 gaps → extender taxonomía Round 30; si hay gaps → reabrir Round 29.
 
+## COLA ROUND 30 (13 temas — COMPLETA ✅)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Infraestructura (SICT transporte, CFE/PEMEX energía, CONAGUA agua, vivienda, inversión) — done iter 165
+- [x] sustrato/estados-unidos — Sector manufacturero (2º mayor del mundo, USD$2.9T 2024, CHIPS/IRA, reshoring) — done iter 165
+- [x] sustrato/canada — Relaciones exteriores (Global Affairs Canada, multilateralismo, paz, comercio) — done iter 165
+### Dominio (nuevos nodos)
+- [x] dominio/salud-publica — Salud pública (prevención, epidemiología, sistemas poblacionales)
+- [x] dominio/derecho-tributario — Derecho tributario (potestad, impuestos, procedimiento, controversias)
+- [x] dominio/agrotech — AgTech (agricultura de precisión, IoT, biotec)
+- [x] dominio/movilidad-urbana — Movilidad urbana sostenible (modos, última milla, MaaS)
+- [x] dominio/gestion-del-conocimiento — Gestión del conocimiento (KM)
+### Rol (nuevos nodos)
+- [x] rol/paralegal — Paralegal / asistente legal
+- [x] rol/wealth-manager — Wealth Manager (asesoría patrimonial HNW/UHNW)
+- [x] rol/procurement-manager — Procurement Manager (abastecimiento, sourcing)
+- [x] rol/executive-assistant — Executive Assistant (soporte a ejecutivo senior)
+- [x] rol/learning-manager — Learning & Development Manager (L&D)
+
+## 2026-07-14 — Iter 165 · Round 30 (13/13) · COMPLETA
+- gap_analysis.py → 0 gaps en Round 29. Extendí taxonomía (3 deepenings NA + 10 nodos nuevos) en scripts/gap_analysis.py.
+- Deepenings NA: sustrato/mexico/infraestructura, sustrato/estados-unidos/sector-manufacturero, sustrato/canada/relaciones-exteriores.
+- 10 nodos nuevos: dominio/salud-publica, dominio/derecho-tributario, dominio/agrotech, dominio/movilidad-urbana, dominio/gestion-del-conocimiento, rol/paralegal, rol/wealth-manager, rol/procurement-manager, rol/executive-assistant, rol/learning-manager.
+- Index/log raíz + nodos actualizados. Reference-only (Wikipedia EN + oficiales de gobierno; sin raw/).
+- Próxima: gap_analysis.py; si 0 gaps → extender taxonomía Round 31; si hay gaps → reabrir Round 30.
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-- **Tópicos ingeridos (acumulado): 445** (Round 29: +13 = 3 deepenings NA + 5 dominio + 5 rol)
-- **Rondas:** 29 completas (Round 1..29), cada una +13 ingests.
+- **Tópicos ingeridos (acumulado): 458** (Round 30: +13 = 3 deepenings NA + 5 dominio + 5 rol)
+- **Rondas:** 30 completas (Round 1..30), cada una +13 ingests.
 - **Nodos sustrato (NA):** México 52 (+demografia-poblacion), EE.UU. 41 (+demografia-poblacion), Canadá 35 (+seguridad-publica). Deepenings NA completas.
-- **Nodos dominio:** ~90 (Round 29 +5 nuevos).
-- **Nodos rol:** ~80 (Round 29 +5 nuevos).
+- **Nodos dominio:** ~95 (Round 30 +5 nuevos).
+- **Nodos rol:** ~85 (Round 30 +5 nuevos).
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
 
 ## 🚦 ESTADO
-- **Iteración actual:** 164 (Round 29 COMPLETA).
-- **Última acción:** Round 29: 13 ingests (3 sustrato NA + 5 dominio + 5 rol).
+- **Iteración actual:** 165 (Round 30 COMPLETA).
+- **Última acción:** Round 30: 13 ingests (3 sustrato NA + 5 dominio + 5 rol).
 - **Bloqueos:** ninguno.
-- **Cola:** Round 29 COMPLETA (13/13). Siguiente: reabastecer — gap_analysis.py reporta 0 gaps tras la extensión de Round 29; extender taxonomía para Round 30.
+- **Cola:** Round 30 COMPLETA (13/13). Siguiente: reabastecer — gap_analysis.py reporta 0 gaps tras la extensión de Round 30; extender taxonomía para Round 31.
 
 ## ▶️ PRÓXIMA TAREA
-- `python3 scripts/gap_analysis.py`; si 0 huecos → reabastecer taxonomía (Round 30: nuevos dominio/rol + deepenings NA) y continuar el ciclo; si hay sugerencias → ingerirlas.
+- `python3 scripts/gap_analysis.py`; si 0 huecos → reabastecer taxonomía (Round 31: nuevos dominio/rol + deepenings NA) y continuar el ciclo; si hay sugerencias → ingerirlas.
 - ALCANCE sustrato = solo Norteamérica (MX/US/CA) se mantiene salvo indicación contraria.
