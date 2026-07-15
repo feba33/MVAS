@@ -83,6 +83,8 @@ TAXONOMY = {
         ("fronteras", "Fronteras de México: frontera norte con EE.UU. (3,155 km, 14 cruces oficiales, TMEC/USMCA, aduanas, maquiladoras, Programa Frontera Norte, Plan Frontera Sur/control migratorio sur), migración, comercio transfronterizo, seguridad; vs relaciones-exteriores/comercio-exterior"),
         # Round 41 — deepening NA (agua por país).
         ("agua", "Agua y recursos hídricos México: CONAGUA, SEMARNAT, sequía, infraestructura hídrica, presas, agua potable/saneamiento, cuencas, retos de escasez"),
+        # Round 42 — deepening NA (gobierno digital por país).
+        ("gobierno-digital", "Gobierno digital de México: Gob.mx, Agenda Digital Nacional, México Digital, INEGI (datos abiertos), e.firma, identidad digital, servicios digitales ciudadanos; vs gobierno-federal/relaciones-institucionales"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -142,6 +144,8 @@ TAXONOMY = {
         ("fronteras", "Fronteras de EE.UU.: frontera sur con México (CBP/USBP, muros, puertos de entrada) y frontera norte con Canadá (puertos de entrada, comercio USMCA), aduanas (CBP/OEA), migración, seguridad fronteriza; vs inmigracion/seguridad-nacional"),
         # Round 41 — deepening NA (agua por país).
         ("agua", "Agua y recursos hídricos EE.UU.: EPA Office of Water, Clean Water Act, Safe Drinking Water Act, sequía del Oeste, río Colorado, USGS, infraestructura de agua"),
+        # Round 42 — deepening NA (gobierno digital por país).
+        ("gobierno-digital", "Gobierno digital EE.UU.: US Digital Service, 18F, Login.gov, cloud.gov, federal IT modernization (FITARA), e-gov, identidad digital federal; vs poder-judicial/seguridad-nacional"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -201,6 +205,8 @@ TAXONOMY = {
         ("fronteras", "Fronteras de Canadá: frontera terrestre más larga del mundo con EE.UU. (8,891 km incl. Alaska), CBSA, puertos de entrada, comercio USMCA, cruces (Windsor-Detroit, Peace Bridge), migración y seguridad; vs relaciones-exteriores/comercio-exterior"),
         # Round 41 — deepening NA (agua por país).
         ("agua", "Agua y recursos hídricos Canadá: agua dulce/Grandes Lagos, gestión de cuencas, ECCC agua, First Nations (agua potable), infraestructura hídrica"),
+        # Round 42 — deepening NA (gobierno digital por país).
+        ("gobierno-digital", "Gobierno digital Canadá: Canadian Digital Service (CDS), GC digital standards, Service Canada en línea, identidad digital federada, GC Forms, digital gov; vs gobierno-federal/relaciones-institucionales"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -690,6 +696,17 @@ NEW_NODES = [
     ("rol/equity-research-analyst", "Equity Research Analyst — análisis de acciones, ratings (buy/hold/sell), modelos financieros, informes de cobertura, sell-side; vs economist/portfolio-manager"),
     ("rol/security-analyst", "Security Analyst — SOC/monitorización de amenazas, triaje de alertas, análisis de vulnerabilidades; vs penetration-tester/security-engineer/security-architect"),
     ("rol/corporate-secretary", "Corporate Secretary / Company Secretary — actas de consejo/junta, gobierno corporativo, cumplimiento de estatutos, relación con accionistas; vs chief-administrative-officer/board-member"),
+    # Round 42 — extensiones en capas generales (dominio/rol) + sustrato NA (deepening). Sin nuevos países.
+    ("dominio/ciberseguridad", "Ciberseguridad: threat landscape, frameworks (NIST CSF, MITRE ATT&CK), operaciones (SOC, Blue/Red Team), gestión de riesgo, vs ciberdefensa estatal/seguridad-corporativa"),
+    ("dominio/almacenamiento", "Almacenamiento / warehousing & fulfillment: DC ops, WMS, inventario, cross-docking, última milla, automatización de almacén; vs cadena-suministro/logistica-inversa"),
+    ("dominio/experiencia-de-empleado", "Experiencia del empleado (EX): journey del empleado, espacio/facilities, herramientas/IT, bienestar, cultura, vs clima-organizacional/bienestar-laboral"),
+    ("dominio/relaciones-institucionales", "Relaciones institucionales: gobierno, reguladores, asociaciones industriales, stakeholder management, vs relaciones-publicas/comunicacion-corporativa"),
+    ("dominio/servicios-financieros", "Servicios financieros: bancos, aseguradoras, gestores de activos, fintechs, banca múltiple, regulación prudencial, vs banca/seguros/fintech"),
+    ("rol/head-of-strategy", "Head of Strategy — lidera la estrategia corporativa (planificación, M&A screening, inteligencia competitiva), reporta a CSO/CEO; vs chief-strategy-officer"),
+    ("rol/head-of-developer-experience", "Head of Developer Experience (DevEx) — plataforma interna, golden paths, satisfacción de desarrolladores, documentación/tooling; vs platform-engineer/sre"),
+    ("rol/head-of-medical-affairs", "Head of Medical Affairs — puente ciencia-clínica-negocio (farmacéutica/biotech), MSLs, evidencia médica, KOLs; vs chief-medical-officer"),
+    ("rol/head-of-threat-intelligence", "Head of Threat Intelligence — CTI, inteligencia de amenazas, IOC/ATT&CK mapping, apoyo a SOC/IR; vs security-analyst/penetration-tester"),
+    ("rol/head-of-talent-mobility", "Head of Talent Mobility — movilidad interna, asignaciones, promoción interna, sucesión de talento, vs head-of-talent/gestion-del-talento"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

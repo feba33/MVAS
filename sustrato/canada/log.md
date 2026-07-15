@@ -159,4 +159,8 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 
 ## [2026-07-15] ingest | Agua y recursos hídricos de Canadá
 - Fuentes: Wikipedia (EN) Water supply and sanitation in Canada + ECCC (canada.ca) — reference-only (sin raw/).
-- Página: agua.md. ~20% del agua dulce superficial mundial, Grandes Lagos, ECCC/Canada Water Agency, primacía provincial, First Nations (advisores de ebullición), cuencas compartidas (Columbia/Saint Lawrence). Cross-ref recursos-naturales, medio-ambiente. Confianza alta.
+- Página: agua.md. ~20% del agua dulce superficial mundial, Grandes Lagos, ECCC/Canada Water Agency, primacía provincial, First Nations (avisos de ebullición), cuencas compartidas (Columbia/Saint Lawrence). Cross-ref recursos-naturales, medio-ambiente. Confianza alta.
+
+## [2026-07-15] ingest | Gobierno digital de Canadá
+- Fuentes: Wikipedia (EN) E-government in Canada + Canada.ca / CDS — reference-only (sin raw/).
+- Página: gobierno-digital.md. Canadian Digital Service (CDS), GC digital standards, Service Canada en línea, identidad digital federada. Cross-ref gobierno-federal, relaciones-institucionales. Confianza alta.

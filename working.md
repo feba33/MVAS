@@ -1603,6 +1603,7 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - LOOP 3 (rol, 5 nuevos): `principal-engineer`, `talent-acquisition-manager`, `compensation-manager`, `financial-planner`, `general-manager` (superstructura completa).
 - Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia EN + SRE/CBP/CBSA/SEC/CFP/SHRM/WorldatWork/McKinsey/HBR; sin raw/).
 - **Round 41 COMPLETA (13/13).** Tópicos acumulados: 601. ALCANCE sustrato = solo Norteamérica (respetado).
+- **Round 42 COMPLETA (13/13).** Tópicos acumulados: 614. ALCANCE sustrato = solo Norteamérica (respetado). gap_analysis.py = 0 huecos en nodos existentes → taxonomía extendida (3 deepenings NA gobierno-digital + 10 nodos nuevos dominio/rol).
 
 ## ✅ COLA ROUND 41 — COMPLETA (13/13)
 ### Sustrato (deepening nodos NA existentes)
@@ -1622,22 +1623,40 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] rol/security-analyst — Security Analyst (SOC, monitorización amenazas, triaje alertas)
 - [x] rol/corporate-secretary — Corporate Secretary (gobierno corporativo, actas consejo, estatutos)
 
+## ✅ COLA ROUND 42 — COMPLETA (13/13)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Gobierno digital (Gob.mx, Agenda Digital, INEGI datos abiertos, e.firma, identidad digital)
+- [x] sustrato/estados-unidos — Gobierno digital (US Digital Service, 18F, Login.gov, FITARA, cloud.gov)
+- [x] sustrato/canada — Gobierno digital (Canadian Digital Service, GC standards, Service Canada, identidad federada)
+### Dominio (nuevos nodos)
+- [x] dominio/ciberseguridad — Ciberseguridad (NIST CSF, MITRE ATT&CK, SOC, zero trust)
+- [x] dominio/almacenamiento — Almacenamiento / warehousing & fulfillment (WMS, inventario, cross-docking)
+- [x] dominio/experiencia-de-empleado — Experiencia del empleado (EX, journey, eNPS)
+- [x] dominio/relaciones-institucionales — Relaciones institucionales (gobierno, reguladores, stakeholders)
+- [x] dominio/servicios-financieros — Servicios financieros (banca, seguros, gestión de activos, fintech, Basilea)
+### Rol (nuevos nodos)
+- [x] rol/head-of-strategy — Head of Strategy (estrategia corporativa, M&A screening)
+- [x] rol/head-of-developer-experience — Head of Developer Experience (DevEx, plataforma interna, golden paths)
+- [x] rol/head-of-medical-affairs — Head of Medical Affairs (MSLs, evidencia médica, KOLs)
+- [x] rol/head-of-threat-intelligence — Head of Threat Intelligence (CTI, ATT&CK, SOC/IR)
+- [x] rol/head-of-talent-mobility — Head of Talent Mobility (movilidad interna, sucesión)
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 601** (Round 41: +13 = 3 deepenings NA + 10 nodos nuevos). |
+| **Tópicos ingeridos (acumulado): 614** (Round 41: 601 + Round 42: +13 = 3 deepenings NA gobierno-digital + 10 nodos nuevos). |
 | **Rondas:** 41 completas (Round 1..41). |
 | **Nodos sustrato (NA):** México 62 (+agua), EE.UU. 50 (+agua), Canadá 44 (+agua). |
-| **Nodos dominio:** ~150 (Round 41 +5 nuevos: musica, cleantech, nutricion, metaverso, periodismo). |
-| **Nodos rol:** ~140 (Round 41 +5 nuevos: office-manager, esg-manager, equity-research-analyst, security-analyst, corporate-secretary). |
+| **Nodos dominio:** ~155 (Round 42 +5 nuevos: ciberseguridad, almacenamiento, experiencia-de-empleado, relaciones-institucionales, servicios-financieros). |
+| **Nodos rol:** ~145 (Round 42 +5 nuevos: head-of-strategy, head-of-developer-experience, head-of-medical-affairs, head-of-threat-intelligence, head-of-talent-mobility). |
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
-| **Iteraciones totales:** 178.
+| **Iteraciones totales:** 179.
 
 ## 🚦 ESTADO
-- **Iteración actual:** 178 (Round 41 COMPLETA — 13/13 ingestados).
-- **Última ação:** Round 41 iter 178 — 3 deepenings sustrato NA (agua MX/US/CA) + 10 nodos nuevos (5 dominio + 5 rol) ingestados; Round 41 COMPLETA (13/13). Tópicos acumulados: 601.
+- **Iteración actual:** 179 (Round 42 COMPLETA — 13/13 ingestados).
+- **Última ação:** Round 42 iter 179 — 3 deepenings sustrato NA (gobierno-digital MX/US/CA) + 10 nodos nuevos (5 dominio + 5 rol) ingestados; Round 42 COMPLETA (13/13). Tópicos acumulados: 614.
 - **Bloqueos:** ninguno.
-- **Cola:** Round 41 CERRADA (13/13). Próxima: `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía (Round 42), ou pausar até o próximo cron.
+- **Cola:** Round 42 CERRADA (13/13). gap_analysis.py reportó 0 huecos en nodos existentes (taxonomía extendida en Round 42). Taxonomía agotada para el alcance actual (solo Norteamérica). Próxima: PAUSAR até nova dirección do usuário (o próximo cron) — sin nuevos países/alcance.
 
 ## ▶️ PRÓXIMA TAREA
-- Round 41 COMPLETA (13/13). Siguiente paso de reabastecimiento: ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 gaps → extender taxonomía (3 deepenings NA + 10 nodos nuevos) para Round 42, ou pausar hasta el próximo cron. Mantener alcance sustrato = solo Norteamérica.
-- Tras vaciar, re-correr `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía para Round 42.
+- Round 42 COMPLETA (13/13). gap_analysis.py = 0 huecos → taxonomía extinta para o alcance atual (solo Norteamérica). Reabastecimiento em estado estable.
+- PRÓXIMA TAREA: PAUSAR até nova direção do usuário (ou próximo cron). Não ampliar países/alcance sem indicação. Se o usuário definir novo alcance (p.ex. novos países ou novos domínios), reabrir gap_analysis com a taxonomía estendida e rodar Round 43.

@@ -183,3 +183,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-15] ingest | Agua y recursos hídricos de EE.UU.
 - Fuentes: Wikipedia (EN) Water supply and sanitation in the United States + EPA Office of Water (epa.gov) — reference-only (sin raw/).
 - Página: agua.md. EPA Clean Water Act (1972) + Safe Drinking Water Act (1974), state primacy, ~50k sistemas, río Colorado (Compacto 1922; Lake Mead/Powell en sequía), USGS. Cross-ref medio-ambiente, infraestructura. Confianza alta.
+
+## [2026-07-15] ingest | Gobierno digital de EE.UU.
+- Fuentes: Wikipedia (EN) E-government in the United States + USDS/18F (whitehouse.gov) — reference-only (sin raw/).
+- Página: gobierno-digital.md. US Digital Service, 18F, Login.gov, FITARA (2014), IDEA Act (2018), cloud.gov. Cross-ref poder-judicial, seguridad-nacional. Confianza alta.

@@ -222,3 +222,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-15] ingest | Agua y recursos hídricos de México
 - Fuentes: Wikipedia (EN) Water supply and sanitation in Mexico + CONAGUA (gob.mx) — reference-only (sin raw/).
 - Página: agua.md. CONAGUA/SEMRNAT, cuencas (13 regiones/37 cuencas), ~4,500 presas, cobertura potable ~96% urbana, riego ~76% del agua concesionada; estrés hídrico norte y río Bravo (IBWC/CILA). Cross-ref infraestructura, medio-ambiente. Confianza alta.
+
+## [2026-07-15] ingest | Gobierno digital de México
+- Fuentes: Wikipedia (EN/ES) E-government in Mexico + Gob.mx / Agenda Digital — reference-only (sin raw/).
+- Página: gobierno-digital.md. Gob.mx, CEDN, datos.gob.mx (INEGI), e.firma, Cl@ve; trámites en línea. Cross-ref gobierno-federal, relaciones-institucionales. Confianza alta.

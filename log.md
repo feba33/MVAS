@@ -694,3 +694,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - 5 nodos rol nuevos: `rol/office-manager/`, `rol/esg-manager/`, `rol/equity-research-analyst/`, `rol/security-analyst/`, `rol/corporate-secretary/` (superstructura completa + página cada uno).
 - Reference-only (Wikipedia EN + CONAGUA/EPA/ECCC/IFPI/IEA/WHO/Matthew Ball/Reuters/SHRM/GRI/CFA/CompTIA/ICSA; sin raw/).
 - **Round 41 COMPLETA (13/13).** Índice de progreso: 601 tópicos en 178 iteraciones.
+
+## [2026-07-15] ingest | Round 42 — 13 nodos (3 deepenings NA + 10 nuevos)
+- 3 sustrato (gobierno-digital): MX (Gob.mx, Agenda Digital, INEGI, e.firma), US (USDS, 18F, Login.gov, FITARA), CA (CDS, GC standards, Service Canada).
+- 5 dominio nuevos: ciberseguridad, almacenamiento, experiencia-de-empleado, relaciones-institucionales, servicios-financieros.
+- 5 rol nuevos: head-of-strategy, head-of-developer-experience, head-of-medical-affairs, head-of-threat-intelligence, head-of-talent-mobility.
+- Reference-only: Wikipedia (EN/ES) + sitios oficiales (gob.mx, whitehouse/USDS, Canada.ca, NIST, MITRE) — sin raw/.
+- gap_analysis.py → 13 sugerencias (0 huecos en nodos existentes); extendida la taxonomía para Round 42.
+- **Round 42 COMPLETA (13/13).** Índice de progreso: 614 tópicos en 179 iteraciones.

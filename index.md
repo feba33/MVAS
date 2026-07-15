@@ -1216,4 +1216,30 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [security-analyst](rol/security-analyst/security-analyst.md) — Security Analyst: SOC, monitorización de amenazas, triaje de alertas, vulnerabilidades · 🏷️ security-analyst,soc,monitorizacion-amenazas,triaje-alertas,vulnerabilidades,respuesta-incidentes · 📅 2026-07-15
 ### rol/corporate-secretary
 - [corporate-secretary](rol/corporate-secretary/corporate-secretary.md) — Corporate Secretary: gobierno corporativo, actas de consejo, cumplimiento de estatutos, relación con accionistas · 🏷️ corporate-secretary,gobierno-corporativo,actas-consejo,cumplimiento-estatutos,relacion-accionistas · 📅 2026-07-15
+### sustrato/mexico (deepening R42)
+- [gobierno-digital](sustrato/mexico/gobierno-digital.md) — Gobierno digital México: Gob.mx, Agenda Digital, INEGI datos abiertos, e.firma, identidad digital · 🏷️ mexico,gobierno-digital,e-gobierno,datos-abiertos,efirma,identidad-digital · 📅 2026-07-15
+### sustrato/estados-unidos (deepening R42)
+- [gobierno-digital](sustrato/estados-unidos/gobierno-digital.md) — Gobierno digital EE.UU.: US Digital Service, 18F, Login.gov, FITARA, cloud.gov, e-gov · 🏷️ eeuu,gobierno-digital,usds,18f,login-gov,fitara,e-gov · 📅 2026-07-15
+### sustrato/canada (deepening R42)
+- [gobierno-digital](sustrato/canada/gobierno-digital.md) — Gobierno digital Canadá: Canadian Digital Service (CDS), GC digital standards, Service Canada, identidad federada · 🏷️ canada,gobierno-digital,cds,service-canada,identidad-digital,e-gov · 📅 2026-07-15
+### dominio/ciberseguridad
+- [ciberseguridad](dominio/ciberseguridad/ciberseguridad.md) — Ciberseguridad: threat landscape, NIST CSF/MITRE ATT&CK, SOC Blue/Red Team, gestión de riesgo, zero trust · 🏷️ ciberseguridad,seguridad-cibernetica,nist-csf,mitre-attck,soc,zero-trust,riesgo · 📅 2026-07-15
+### dominio/almacenamiento
+- [almacenamiento](dominio/almacenamiento/almacenamiento.md) — Almacenamiento / warehousing & fulfillment: DC ops, WMS, inventario, cross-docking, última milla · 🏷️ almacenamiento,warehousing,fulfillment,wms,inventario,cross-docking,ultima-milla · 📅 2026-07-15
+### dominio/experiencia-de-empleado
+- [experiencia-de-empleado](dominio/experiencia-de-empleado/experiencia-de-empleado.md) — Experiencia del empleado (EX): journey, facilities/IT, cultura, bienestar, eNPS · 🏷️ experiencia-empleado,ex,employee-experience,enps,journey-empleado,workplace · 📅 2026-07-15
+### dominio/relaciones-institucionales
+- [relaciones-institucionales](dominio/relaciones-institucionales/relaciones-institucionales.md) — Relaciones institucionales: gobierno, reguladores, asociaciones, stakeholder management · 🏷️ relaciones-institucionales,stakeholder-management,cabildeo,relaciones-gobierno,lobbying · 📅 2026-07-15
+### dominio/servicios-financieros
+- [servicios-financieros](dominio/servicios-financieros/servicios-financieros.md) — Servicios financieros: banca, seguros, gestión de activos, fintech, Basilea, open banking · 🏷️ servicios-financieros,banca,seguros,gestion-activos,fintech,basilea,open-banking · 📅 2026-07-15
+### rol/head-of-strategy
+- [head-of-strategy](rol/head-of-strategy/head-of-strategy.md) — Head of Strategy: estrategia corporativa, planificación, M&A screening, inteligencia competitiva · 🏷️ head-of-strategy,estrategia-corporativa,planificacion-estrategica,m-a,inteligencia-competitiva · 📅 2026-07-15
+### rol/head-of-developer-experience
+- [head-of-developer-experience](rol/head-of-developer-experience/head-of-developer-experience.md) — Head of Developer Experience (DevEx): plataforma interna, golden paths, DX metrics · 🏷️ head-of-developer-experience,devex,developer-experience,plataforma-interna,golden-paths · 📅 2026-07-15
+### rol/head-of-medical-affairs
+- [head-of-medical-affairs](rol/head-of-medical-affairs/head-of-medical-affairs.md) — Head of Medical Affairs: puente ciencia-clínica-negocio, MSLs, evidencia médica, KOLs · 🏷️ head-of-medical-affairs,medical-affairs,msl,evidencia-medica,kols,farma · 📅 2026-07-15
+### rol/head-of-threat-intelligence
+- [head-of-threat-intelligence](rol/head-of-threat-intelligence/head-of-threat-intelligence.md) — Head of Threat Intelligence: CTI, inteligencia de amenazas, IOC/ATT&CK, apoyo SOC/IR · 🏷️ head-of-threat-intelligence,cti,cyber-threat-intelligence,ioc,att-ck,soc · 📅 2026-07-15
+### rol/head-of-talent-mobility
+- [head-of-talent-mobility](rol/head-of-talent-mobility/head-of-talent-mobility.md) — Head of Talent Mobility: movilidad interna, asignaciones, promoción, sucesión · 🏷️ head-of-talent-mobility,talent-mobility,movilidad-interna,promocion-interna,sucesion · 📅 2026-07-15
 
