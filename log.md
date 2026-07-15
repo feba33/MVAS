@@ -719,3 +719,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - `dominio/pagamentos/pagamentos.md` — Pagamentos (payment rails): tarjetas, ACH, RTP, FedNow, Pix, SEPA, SPEI, wire/SWIFT, stablecoins.
 - Reference-only: Wikipedia (EN) + sitios oficiales (Banxico, BCB, Fed, EU eur-lex, modelcontextprotocol.io, opentelemetry.io) — sin raw/.
 - **Round 43 en curso (8/13).** Proximo LOOP: rol x5 (head-of-trust-and-safety, head-of-public-policy, head-of-design-ops, head-of-franchise, head-of-ecommerce).
+
+## [2026-07-15] ingest | Round 43 — LOOP 3 (rol x5) — 13/13 (ROUND CERRADO)
+- gap_analysis.py (Round 43): 10 nodos nuevos. LOOP 3 = 5 rol (head-of-trust-and-safety, head-of-public-policy, head-of-design-ops, head-of-franchise, head-of-ecommerce). Modelo CENTRALIZADO (pagina + index/log raiz; SIN per-node raw/index/log, por PITFALL 2026-07-15).
+- `rol/head-of-trust-and-safety/head-of-trust-and-safety.md` — T&S: moderación, política de comunidad, anti-fraude, seguridad de usuario, stack de moderación (humano+ML+reporting).
+- `rol/head-of-public-policy/head-of-public-policy.md` — Public Policy: agenda de políticas públicas, relaciones gobierno, cabildeo/advocacy; vs relaciones-institucionales.
+- `rol/head-of-design-ops/head-of-design-ops.md` — DesignOps: escalar org de diseño, procesos/tooling, design systems, métricas de diseño.
+- `rol/head-of-franchise/head-of-franchise.md` — Franchise: desarrollo/expansión, operación de red, FDD (FTC), unit economics.
+- `rol/head-of-ecommerce/head-of-ecommerce.md` — Ecommerce: P&L digital, marketplace/D2C, conversión, fulfillment.
+- Reference-only: Wikipedia (EN) + sitios oficiales (FTC Franchise Rule, NN/g, T&S PA) — sin raw/.
+- **Round 43 COMPLETA (13/13).** Tópicos acumulados: ~622. Próximo: gap_analysis.py; si 0 → reabastecer taxonomía (Round 44) o pausar hasta próximo cron.

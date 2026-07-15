@@ -1258,6 +1258,21 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol/head-of-talent-mobility
 - [head-of-talent-mobility](rol/head-of-talent-mobility/head-of-talent-mobility.md) — Head of Talent Mobility: movilidad interna, asignaciones, promoción, sucesión · 🏷️ head-of-talent-mobility,talent-mobility,movilidad-interna,promocion-interna,sucesion · 📅 2026-07-15
 
+### rol/head-of-trust-and-safety
+- [head-of-trust-and-safety](rol/head-of-trust-and-safety/head-of-trust-and-safety.md) — Head of Trust & Safety: moderación, policy enforcement, abuso/fraude, seguridad de usuario · 🏷️ head-of-trust-and-safety,trust-and-safety,moderacion,policy,abuso,fraude · 📅 2026-07-15
+
+### rol/head-of-public-policy
+- [head-of-public-policy](rol/head-of-public-policy/head-of-public-policy.md) — Head of Public Policy: políticas públicas, relaciones gobierno, cabildeo, advocacy · 🏷️ head-of-public-policy,public-policy,relaciones-gobierno,cabildeo,advocacy · 📅 2026-07-15
+
+### rol/head-of-design-ops
+- [head-of-design-ops](rol/head-of-design-ops/head-of-design-ops.md) — Head of DesignOps: operaciones de diseño, escalar org de diseño, design systems · 🏷️ head-of-design-ops,design-ops,operaciones-disño,design-systems,escalar-disño · 📅 2026-07-15
+
+### rol/head-of-franchise
+- [head-of-franchise](rol/head-of-franchise/head-of-franchise.md) — Head of Franchise: desarrollo/operación de franquias, FDD, expansión · 🏷️ head-of-franchise,franquicia,franchisor,fdd,expansion · 📅 2026-07-15
+
+### rol/head-of-ecommerce
+- [head-of-ecommerce](rol/head-of-ecommerce/head-of-ecommerce.md) — Head of Ecommerce: P&L de e-commerce, marketplace/D2C, conversión, fulfillment · 🏷️ head-of-ecommerce,ecommerce,comercio-electronico,marketplace,d2c,conversion · 📅 2026-07-15
+
 ### sustrato/mexico (deepening R43)
 - [industria-aeroespacial](sustrato/mexico/industria-aeroespacial.md) — Industria aeroespacial México: ensamble de aeronaves y MRO, clústeres (Querétaro, Baja California), OEMs/Tier-1, FAA/EASA, exportación; vs dominio/aeroespacial · 🏷️ mexico,industria-aeroespacial,querétaro,aerospace,mro,faa,exportacion · 📅 2026-07-15
 
