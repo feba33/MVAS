@@ -59,6 +59,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [vivienda](sustrato/mexico/vivienda.md) — Vivienda México: INFONAVIT, SHF, FOVISSSTE, crédito hipotecario, déficit habitacional · 🏷️ mexico,vivienda,infonavit,shf,fovissste,credito-hipotecario,deficit-habitacional · 📅 2026-07-14
 -- [sector-servicios](sustrato/mexico/sector-servicios.md) — Sector servicios México: ~60% del PIB (comercio, turismo, financiero, transporte, gobierno), alta informalidad · 🏷️ mexico,sector-servicios,pib,comercio,turismo,servicios-financieros,informalidad · 📅 2026-07-14
 - [pobreza-desigualdad](sustrato/mexico/pobreza-desigualdad.md) — Pobreza y desigualdad México: CONEVAL (multidimensional: ingresos + 6 carencias), línea de bienestar, programas sociales (Prospera/adultos mayores), Gini ~0.45; vs seguridad-social/trabajo · 🏷️ mexico,pobreza,desigualdad,coneval,pobreza-multidimensional,programas-sociales,bienestar · 📅 2026-07-15
+- [pueblos-indigenas](sustrato/mexico/pueblos-indigenas.md) — Pueblos indígenas México: Art.2 constitucional, INPI, 68 grupos/11.8M, lenguas nacionales, consulta previa (CPLI); vs derechos-humanos · 🏷️ mexico,pueblos-indigenas,derechos-indigenas,lenguas-originarias,autonomia,inpi,consulta-previa · 📅 2026-07-15
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -102,6 +103,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [estados](sustrato/estados-unidos/estados.md) — Estados de EE.UU. / federalismo: 50 estados, Commerce Clause, Supremacy Clause, state law, regulación subnacional · 🏷️ estados-unidos,estados,federalismo,commerce-clause,state-law,regulacion-subnacional · 📅 2026-07-14
 - [proteccion-consumidor](sustrato/estados-unidos/proteccion-consumidor.md) — Protección al consumidor EE.UU.: FTC (FTC Act 1914), CFPB (Dodd-Frank), CPSC (CPSC Act 1972), estado (AGs) · 🏷️ eeuu,proteccion-consumidor,ftc,cfpb,cpsc,consumidor,ftc-act · 📅 2026-07-14
 - [pobreza-desigualdad](sustrato/estados-unidos/pobreza-desigualdad.md) — Pobreza y desigualdad EE.UU.: Census poverty line, Gini ~0.49, safety net (SNAP/TANF/EITC/Medicaid); vs seguridad-social/labor · 🏷️ eeuu,pobreza,desigualdad,census,gini,safety-net,snap,tanf,eitc · 📅 2026-07-15
+- [pueblos-indigenas](sustrato/estados-unidos/pueblos-indigenas.md) — Pueblos indígenas EE.UU. (Native Americans): tribal sovereignty, 574 tribus, BIA/DOI, trust lands, IGRA; vs derechos-humanos · 🏷️ eeuu,native-americans,tribal-sovereignty,bia,tratados,trust-lands,ncai · 📅 2026-07-15
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -139,6 +141,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [pueblos-indigenas](sustrato/canada/pueblos-indigenas.md) — Pueblos indígenas de Canadá: First Nations, Inuit, Métis; Constitución s.35, tratados, UNDRIP, duty to consult · 🏷️ canada,pueblos-indigenas,first-nations,inuit,metis,seccion-35,undrip,duty-to-consult · 📅 2026-07-14
 - [sector-servicios](sustrato/canada/sector-servicios.md) — Sector servicios Canadá: ~70% del PIB y ~75% del empleo; finanzas, inmobiliario, retail, salud, público, TI · 🏷️ canada,sector-servicios,servicios,pib,empleo,economia · 📅 2026-07-14
 - [pobreza-desigualdad](sustrato/canada/pobreza-desigualdad.md) — Pobreza y desigualdad Canadá: Market Basket Measure (MBM), Canada Poverty Reduction Strategy, Gini ~0.33; vs seguridad-social/labor · 🏷️ canada,pobreza,desigualdad,mbm,reduccion-pobreza,gini,bienestar · 📅 2026-07-15
+- [lenguas-oficiales](sustrato/canada/lenguas-oficiales.md) — Lenguas oficiales Canadá: Official Languages Act 1969/1988/2023, bilingüismo constitucional, Comisionado, servicios FR/EN · 🏷️ canada,lenguas-oficiales,bilingue,official-languages-act,comisionado,frances-ingles,part-vii · 📅 2026-07-15
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09

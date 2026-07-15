@@ -4,6 +4,11 @@ Registro cronológico **append-only**: ingests, queries, lint passes.
 Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 (parseable: `grep "^## \[" log.md | tail -5` → últimas 5 entradas).
 
+## [2026-07-15] ingest | Round 45 LOOP 1 — sustrato NA (3 deepenings): pueblos-indigenas MX/US + lenguas-oficiales CA
+- Creadas: `sustrato/mexico/pueblos-indigenas.md`, `sustrato/estados-unidos/pueblos-indigenas.md`, `sustrato/canada/lenguas-oficiales.md` (modelo centralizado; reference-only Wikipedia ES/EN + sitios oficiales INPI/BIA/NCAI/Commissioner of Official Languages).
+- `scripts/gap_analysis.py` corregido (node_exists reconoce archivos planos + subfolder; slugs observabilidade/pagamentos/rol prefix) — elimina 13 falsos positivos de Round 44. Taxonomía extendida Round 45 (3 deepenings NA + 10 nodos).
+- index.md + log.md + working.md actualizados. Round 45 EN CURSO (3/13).
+
 ## [2026-07-09] setup | Estructura inicial MVAS + patrón LLM Wiki
 - Creado repo MVAS con 4 capas: sustrato / dominio / organización / rol.
 - Integrado patrón LLM Wiki: capa `raw/` (fuentes inmutables), `index.md`,
