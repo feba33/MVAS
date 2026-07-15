@@ -210,3 +210,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-14] ingest | Sector servicios de México
 - Fuentes: INEGI (temas/pib, temas/sectores) — reference-only.
 - Página: `sector-servicios.md`. Terciarias ~59.8% del PIB (2024); comercio, transporte, turismo (CSTM 8.7% PIB 2024, ~2.9M empleos), servicios financieros, gobierno; alta informalidad (>50% empleo). Complementa `economia` y `trabajo`. Confianza alta.
+
+## [2026-07-15] ingest | Pobreza y desigualdad México (CONEVAL)
+- Fuentes: CONEVAL (coneval.org.mx) + Wikipedia EN — reference-only (sin raw/).
+- Página: pobreza-desigualdad.md. CONEVAL mide pobreza multidimensional (ingresos + 6 carencias sociales); ~43.9% en pobreza multidimensional (2022), ~7.1% extrema; Gini ~0.45; Prospera, Pensión para el Bienestar de las Personas Adultas Mayores. Cross-ref seguridad-social, trabajo, economia. Confianza alta.

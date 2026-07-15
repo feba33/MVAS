@@ -170,4 +170,8 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 
 ## [2026-07-14] ingest | Estados de EE.UU. (federalismo)
 - Fuentes: Cornell Law (Commerce Clause) + USA.gov (State Governments) — reference-only.
-- Página: `estados.md`. 50 estados + DC; Commerce Clause y Supremacy Clause; state law, police powers, regulación subnacional (licencias, sales tax, seguros, labor). Complementa `poder-judicial`/`sistema-financiero`. Confianza alta.
+- Página: estados.md. 50 estados + DC; Commerce Clause y Supremacy Clause; state law, police powers, regulación subnacional (licencias, sales tax, seguros, labor). Complementa poder-judicial/sistema-financiero. Confianza alta.
+
+## [2026-07-15] ingest | Pobreza y desigualdad EE.UU. (Census)
+- Fuentes: U.S. Census Bureau (census.gov) + Wikipedia EN — reference-only (sin raw/).
+- Página: pobreza-desigualdad.md. Línea federal de pobreza (FPL); ~11-12% bajo la línea; Gini ~0.49 (alto entre desarrollados); safety net (SNAP/TANF/EITC/Medicaid/SSI) reduce pobreza post-transferencias. Cross-ref seguridad-social, labor, finanzas-publicas. Confianza alta.

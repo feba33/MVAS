@@ -58,6 +58,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [trabajo](sustrato/mexico/trabajo.md) — Trabajo / mercado laboral México: STPS, empleo, salario mínimo, outsourcing 2021, informalidad · 🏷️ mexico,trabajo,stps,empleo,salario-minimo,outsourcing,informalidad,mercado-laboral · 📅 2026-07-14
 - [vivienda](sustrato/mexico/vivienda.md) — Vivienda México: INFONAVIT, SHF, FOVISSSTE, crédito hipotecario, déficit habitacional · 🏷️ mexico,vivienda,infonavit,shf,fovissste,credito-hipotecario,deficit-habitacional · 📅 2026-07-14
 -- [sector-servicios](sustrato/mexico/sector-servicios.md) — Sector servicios México: ~60% del PIB (comercio, turismo, financiero, transporte, gobierno), alta informalidad · 🏷️ mexico,sector-servicios,pib,comercio,turismo,servicios-financieros,informalidad · 📅 2026-07-14
+- [pobreza-desigualdad](sustrato/mexico/pobreza-desigualdad.md) — Pobreza y desigualdad México: CONEVAL (multidimensional: ingresos + 6 carencias), línea de bienestar, programas sociales (Prospera/adultos mayores), Gini ~0.45; vs seguridad-social/trabajo · 🏷️ mexico,pobreza,desigualdad,coneval,pobreza-multidimensional,programas-sociales,bienestar · 📅 2026-07-15
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -100,6 +101,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [seguridad-publica](sustrato/estados-unidos/seguridad-publica.md) — Seguridad pública EE.UU.: law enforcement, FBI, DOJ, policía estatal/local, reforma policial · 🏷️ eeuu,seguridad-publica,law-enforcement,fbi,doj,policia,reforma-policial · 📅 2026-07-14
 - [estados](sustrato/estados-unidos/estados.md) — Estados de EE.UU. / federalismo: 50 estados, Commerce Clause, Supremacy Clause, state law, regulación subnacional · 🏷️ estados-unidos,estados,federalismo,commerce-clause,state-law,regulacion-subnacional · 📅 2026-07-14
 - [proteccion-consumidor](sustrato/estados-unidos/proteccion-consumidor.md) — Protección al consumidor EE.UU.: FTC (FTC Act 1914), CFPB (Dodd-Frank), CPSC (CPSC Act 1972), estado (AGs) · 🏷️ eeuu,proteccion-consumidor,ftc,cfpb,cpsc,consumidor,ftc-act · 📅 2026-07-14
+- [pobreza-desigualdad](sustrato/estados-unidos/pobreza-desigualdad.md) — Pobreza y desigualdad EE.UU.: Census poverty line, Gini ~0.49, safety net (SNAP/TANF/EITC/Medicaid); vs seguridad-social/labor · 🏷️ eeuu,pobreza,desigualdad,census,gini,safety-net,snap,tanf,eitc · 📅 2026-07-15
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -136,6 +138,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [vivienda](sustrato/canada/vivienda.md) — Vivienda Canadá: CMHC, Estrategia Nacional de Vivienda, asequibilidad, crisis de vivienda · 🏷️ canada,vivienda,cmhc,asequibilidad,estrategia-nacional-vivienda,crisis-vivienda · 📅 2026-07-14
 - [pueblos-indigenas](sustrato/canada/pueblos-indigenas.md) — Pueblos indígenas de Canadá: First Nations, Inuit, Métis; Constitución s.35, tratados, UNDRIP, duty to consult · 🏷️ canada,pueblos-indigenas,first-nations,inuit,metis,seccion-35,undrip,duty-to-consult · 📅 2026-07-14
 - [sector-servicios](sustrato/canada/sector-servicios.md) — Sector servicios Canadá: ~70% del PIB y ~75% del empleo; finanzas, inmobiliario, retail, salud, público, TI · 🏷️ canada,sector-servicios,servicios,pib,empleo,economia · 📅 2026-07-14
+- [pobreza-desigualdad](sustrato/canada/pobreza-desigualdad.md) — Pobreza y desigualdad Canadá: Market Basket Measure (MBM), Canada Poverty Reduction Strategy, Gini ~0.33; vs seguridad-social/labor · 🏷️ canada,pobreza,desigualdad,mbm,reduccion-pobreza,gini,bienestar · 📅 2026-07-15
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -1118,4 +1121,34 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/quality-manager
 - [quality-manager](rol/quality-manager/quality-manager.md) — Quality Manager: QMS, ISO 9001, auditorías y CAPA, mejora continua (vs QA/QC) · 🏷️ quality-manager,calidad,iso-9001,gestion-de-la-calidad,auditoria-interna,mejora-continua,manufacturing · 📅 2026-07-15
+
+### dominio/fidelizacion
+- [fidelizacion](dominio/fidelizacion/fidelizacion.md) — Fidelización de clientes: programas de lealtad, retención, churn, CLV · 🏷️ fidelizacion,lealtad,retencion,loyalty-programs,churn,customer-lifetime-value,recompensas · 📅 2026-07-15
+
+### dominio/logistica-inversa
+- [logistica-inversa](dominio/logistica-inversa/logistica-inversa.md) — Logística inversa: devoluciones, reacondicionamiento, reciclaje, economía circular · 🏷️ logistica-inversa,devoluciones,reacondicionamiento,reciclaje,economia-circular,sostenibilidad,rma · 📅 2026-07-15
+
+### dominio/comercio-mayorista
+- [comercio-mayorista](dominio/comercio-mayorista/comercio-mayorista.md) — Comercio mayorista / distribución: B2B, intermediarios, cadena de valor · 🏷️ comercio-mayorista,distribucion,b2b,distribuidores,intermediarios,cadena-de-valor,margenes · 📅 2026-07-15
+
+### dominio/pesca-acuicultura
+- [pesca-acuicultura](dominio/pesca-acuicultura/pesca-acuicultura.md) — Pesca y acuicultura: captura, acuicultura, sostenibilidad, regulación · 🏷️ pesca,acuicultura,captura,sustentabilidad,sobrepesca,seguridad-alimentaria,regulacion-pesquera · 📅 2026-07-15
+
+### dominio/salud-animal
+- [salud-animal](dominio/salud-animal/salud-animal.md) — Salud animal / veterinary: medicina veterinaria, zoonosis, bioseguridad, industria · 🏷️ salud-animal,veterinaria,zoonosis,bioseguridad,bienestar-animal,industria-veterinaria,one-health · 📅 2026-07-15
+
+### rol/hr-generalist
+- [hr-generalist](rol/hr-generalist/hr-generalist.md) — HR Generalist: operaciones de RRHH de extremo a extremo (reclutamiento, nómina, relaciones laborales) · 🏷️ hr-generalist,recursos-humanos,operaciones-rrhh,employee-relations,cumplimiento-laboral,onboarding,nomina · 📅 2026-07-15
+
+### rol/penetration-tester
+- [penetration-tester](rol/penetration-tester/penetration-tester.md) — Penetration Tester / Red Team: pruebas de intrusión, seguridad ofensiva, ethical hacking · 🏷️ penetration-tester,red-team,ethical-hacking,seguridad-ofensiva,vulnerabilidades,oscp,ceh · 📅 2026-07-15
+
+### rol/credit-manager
+- [credit-manager](rol/credit-manager/credit-manager.md) — Credit Manager: política de crédito comercial, cobranza, riesgo de crédito · 🏷️ credit-manager,gestion-credito,riesgo-credito,cobranza,politica-credito,dso · 📅 2026-07-15
+
+### rol/process-engineer
+- [process-engineer](rol/process-engineer/process-engineer.md) — Process Engineer: diseño/mejora de procesos industriales (manufactura, química, fármacos) · 🏷️ process-engineer,ingenieria-de-procesos,manufactura,mejora-continua,six-sigma,procesos-industriales · 📅 2026-07-15
+
+### rol/event-manager
+- [event-manager](rol/event-manager/event-manager.md) — Event Manager: producción y gestión de eventos (MICE), logística, ROI · 🏷️ event-manager,gestion-de-eventos,mice,conferencias,presupuesto,logistica-eventos,roi · 📅 2026-07-15
 

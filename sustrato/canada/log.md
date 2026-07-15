@@ -147,4 +147,8 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 
 ## [2026-07-14] ingest | Sector servicios Canadá
 - Fuentes: Wikipedia (EN) Economy of Canada; statcan.gc.ca — reference-only (sin raw/).
-- Página: `sector-servicios.md`. Sector servicios domina la economía: ~70% del PIB y ~75% del empleo; finanzas, inmobiliario, retail, salud, administración pública, TI; déficit en comercio de servicios; liberalizado en CUSMA/CETA/CPTPP. Cross-ref economia, sector-manufacturero, dominio/servicios-profesionales, dominio/retail, dominio/finanzas. Confianza alta.
+- Página: sector-servicios.md. Sector servicios domina la economía: ~70% del PIB y ~75% del empleo; finanzas, inmobiliario, retail, salud, administración pública, TI; déficit en comercio de servicios; liberalizado en CUSMA/CETA/CPTPP. Cross-ref economia, sector-manufacturero, dominio/servicios-profesionales, dominio/retail, dominio/finanzas. Confianza alta.
+
+## [2026-07-15] ingest | Pobreza y desigualdad Canadá (MBM)
+- Fuentes: ESDC (canada.ca) + Wikipedia EN — reference-only (sin raw/).
+- Página: pobreza-desigualdad.md. Market Basket Measure (MBM) oficial desde 2018; Canada's Poverty Reduction Strategy (Oportunidad para Todos, 2018); tasa ~10.1% (2019); Gini ~0.33 (moderado). Cross-ref seguridad-social, labor, finanzas-publicas. Confianza alta.

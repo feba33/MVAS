@@ -670,3 +670,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - 4 nodos rol nuevos: `rol/payroll-manager/`, `rol/data-governance-lead/`, `rol/investment-banker/`, `rol/quality-manager/` (superstructura completa + página cada uno).
 - Alcance sustrato respetado (solo Norteamérica; Round 38 no agregó países). Reference-only (Wikipedia EN + BLS/OMS/ISO/DAMA/SHRM/Gainsight/CFA; sin raw/).
 - **Round 38 COMPLETA (13/13).** Índice de progreso: 562 tópicos en 175 iteraciones.
+
+## [2026-07-15] ingest | Round 39 (iter 176, +13 = 13/13) — CIERRA Round 39
+- gap_analysis.py → 0 gaps tras Round 38; se EXTENDIÓ `scripts/gap_analysis.py` para Round 39 (3 deepenings sustrato NA + 10 nodos nuevos). Alcance sustrato respetado (solo Norteamérica).
+- 3 deepenings sustrato NA: `sustrato/mexico/pobreza-desigualdad.md`, `sustrato/estados-unidos/pobreza-desigualdad.md`, `sustrato/canada/pobreza-desigualdad.md` (append a index/log de nodos existentes).
+- 5 nodos dominio nuevos: `dominio/fidelizacion/`, `dominio/logistica-inversa/`, `dominio/comercio-mayorista/`, `dominio/pesca-acuicultura/`, `dominio/salud-animal/` (superstructura completa + página cada uno).
+- 5 nodos rol nuevos: `rol/hr-generalist/`, `rol/penetration-tester/`, `rol/credit-manager/`, `rol/process-engineer/`, `rol/event-manager/` (superstructura completa + página cada uno).
+- Reference-only (Wikipedia EN + CONEVAL/Census/ESDC/StatCan/SHRM/OWASP; sin raw/).
+- **Round 39 COMPLETA (13/13).** Índice de progreso: 575 tópicos en 176 iteraciones.

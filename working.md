@@ -1552,22 +1552,48 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - Alcance sustrato respetado (solo Norteamérica; Round 38 no agregó países). Reference-only (Wikipedia EN + BLS/OMS/ISO/DAMA/SHRM/Gainsight/CFA; sin raw/).
 - **Round 38 COMPLETA (13/13).** Tópicos acumulados: 562 en 175 iteraciones.
 
+## ✅ COLA ROUND 39 — COMPLETA (13/13)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Pobreza y desigualdad (CONEVAL, medición multidimensional, programas sociales)
+- [x] sustrato/estados-unidos — Pobreza y desigualdad (Census poverty line, desigualdad, safety net)
+- [x] sustrato/canada — Pobreza y desigualdad (MBM, Canada Poverty Reduction Strategy)
+### Dominio (nuevos nodos)
+- [x] dominio/fidelizacion — Fidelización de clientes (loyalty, retención, programas de recompensas)
+- [x] dominio/logistica-inversa — Logística inversa (devoluciones, economía circular)
+- [x] dominio/comercio-mayorista — Comercio mayorista / distribución (B2B)
+- [x] dominio/pesca-acuicultura — Pesca y acuicultura (industria, sostenibilidad)
+- [x] dominio/salud-animal — Salud animal / veterinary (zoonosis, industria)
+### Rol (nuevos nodos)
+- [x] rol/hr-generalist — HR Generalist (operaciones de RRHH)
+- [x] rol/penetration-tester — Penetration Tester / Red Team (seguridad ofensiva)
+- [x] rol/credit-manager — Credit Manager (crédito, cobranza)
+- [x] rol/process-engineer — Process Engineer (ingeniería de procesos)
+- [x] rol/event-manager — Event Manager (MICE, producción de eventos)
+
+## [2026-07-15] Round 39 — ITER 176 | gap_analysis extendido (taxonomía Round 39) + 13 ingests COMPLETOS
+- gap_analysis.py (post-Round 38) = 0 huecos → se **EXTENDIÓ** `scripts/gap_analysis.py` (Round 39) con 3 deepenings sustrato NA (mexico→pobreza-desigualdad, estados-unidos→pobreza-desigualdad, canada→pobreza-desigualdad) + 10 nodos nuevos (dominio: fidelizacion, logistica-inversa, comercio-mayorista, pesca-acuicultura, salud-animal; rol: hr-generalist, penetration-tester, credit-manager, process-engineer, event-manager). ALCANCE respetado: sustrato = solo Norteamérica.
+- LOOP 1 (sustrato NA): `mexico/pobreza-desigualdad.md`, `estados-unidos/pobreza-desigualdad.md`, `canada/pobreza-desigualdad.md` (deepenings; append a index/log de nodos existentes).
+- LOOP 2 (dominio, 5 nuevos): `fidelizacion`, `logistica-inversa`, `comercio-mayorista`, `pesca-acuicultura`, `salud-animal` (superstructura completa: raw/, README, index, log).
+- LOOP 3 (rol, 5 nuevos): `hr-generalist`, `penetration-tester`, `credit-manager`, `process-engineer`, `event-manager` (superstructura completa).
+- Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia EN + CONEVAL/Census/ESDC/StatCan/SHRM/OWASP; sin raw/).
+- **Round 39 COMPLETA (13/13).** Tópicos acumulados: 575. ALCANCE sustrato = solo Norteamérica (respetado).
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-- **Tópicos ingeridos (acumulado): 562** (Round 38: +13 = 3 deepenings NA + 10 nodos nuevos).
-- **Rondas:** 38 completas (Round 1..38).
-- **Nodos sustrato (NA):** México 59 (+sector-servicios), EE.UU. 47 (+estados), Canadá 41 (+pueblos-indigenas).
-- **Nodos dominio:** ~135 (Round 38 +5 nuevos: marketing-digital, diversidad-equidad-inclusion, bienestar-laboral, gestion-del-talento, customer-success).
-- **Nodos rol:** ~125 (Round 38 +5 nuevos: head-of-customer-success, payroll-manager, data-governance-lead, investment-banker, quality-manager).
+- **Tópicos ingeridos (acumulado): 575** (Round 39: +13 = 3 deepenings NA + 10 nodos nuevos).
+- **Rondas:** 39 completas (Round 1..39).
+- **Nodos sustrato (NA):** México 60 (+pobreza-desigualdad), EE.UU. 48 (+pobreza-desigualdad), Canadá 42 (+pobreza-desigualdad).
+- **Nodos dominio:** ~140 (Round 39 +5 nuevos: fidelizacion, logistica-inversa, comercio-mayorista, pesca-acuicultura, salud-animal).
+- **Nodos rol:** ~130 (Round 39 +5 nuevos: hr-generalist, penetration-tester, credit-manager, process-engineer, event-manager).
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
-- **Iteraciones totales:** 175.
+- **Iteraciones totales:** 176.
 
 ## 🚦 ESTADO
-- **Iteración actual:** 175 (Round 38 COMPLETA — 13/13 ingestados).
-- **Última acción:** Round 38 iter 175 — 7 nodos nuevos (3 dominio + 4 rol) ingestados; Round 38 COMPLETA (13/13). Tópicos acumulados: 562.
+- **Iteración actual:** 176 (Round 39 COMPLETA — 13/13 ingestados).
+- **Última acción:** Round 39 iter 176 — 3 deepenings sustrato NA + 10 nodos nuevos (5 dominio + 5 rol) ingestados; Round 39 COMPLETA (13/13). Tópicos acumulados: 575.
 - **Bloqueos:** ninguno.
-- **Cola:** Round 38 CERRADA (13/13). Próxima: `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía (Round 39).
+- **Cola:** Round 39 CERRADA (13/13). Próxima: `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía (Round 40).
 
 ## ▶️ PRÓXIMA TAREA
-- Round 38 COMPLETA (13/13). Siguiente paso de reabastecimiento: ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 gaps → extender taxonomía (3 deepenings NA + 10 nodos nuevos) para Round 39, o pausar hasta el próximo cron. Mantener alcance sustrato = solo Norteamérica.
-- Tras vaciar, re-correr `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía para Round 39.
+- Round 39 COMPLETA (13/13). Siguiente paso de reabastecimiento: ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 gaps → extender taxonomía (3 deepenings NA + 10 nodos nuevos) para Round 40, o pausar hasta el próximo cron. Mantener alcance sustrato = solo Norteamérica.
+- Tras vaciar, re-correr `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía para Round 40.

@@ -77,6 +77,8 @@ TAXONOMY = {
         ("entidades-federativas", "Entidades federativas de México / estados: gobiernos estatales, gobernadores, congresos locales, coordinación fiscal (Sistema Nacional de Coordinación Fiscal), impuestos estatales (IEPS estatal, ISN, predial), permisos y regulación subnacional; vs gobierno-federal"),
         # Round 38 — deepening NA (sector servicios por país).
         ("sector-servicios", "Sector servicios México: comercio, turismo, financiero, telecom, transporte, gobierno; peso en el PIB, informalidad, productividad; vs economia/trabajo"),
+        # Round 39 — deepening NA (pobreza y desigualdad).
+        ("pobreza-desigualdad", "Pobreza y desigualdad México: CONEVAL (medición multidimensional: ingresos y carencias sociales), líneas de pobreza, programas sociales ( Prospera/atención a adultos mayores), desigualdad de ingreso; vs seguridad-social/trabajo"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -130,6 +132,8 @@ TAXONOMY = {
         ("estados", "Estados de EE.UU. / federalismo: gobiernos estatales, poderes estatales, división federal-state (Commerce Clause, Supremacy Clause), state law, regulación subnacional, federalismo estadounidense; vs poder-judicial"),
         # Round 38 — deepening NA (protección al consumidor por país).
         ("proteccion-consumidor", "Protección al consumidor EE.UU.: FTC, CFPB, CPSC, fiscales estatales (AG), engaño, privacidad, reembolsos; vs derecho-del-consumidor"),
+        # Round 39 — deepening NA (pobreza y desigualdad).
+        ("pobreza-desigualdad", "Pobreza y desigualdad EE.UU.: Census poverty line (federal/state), income inequality (Gini), safety net (SNAP/TANF/earned income tax credit), disparidades raciales; vs seguridad-social/trabajo"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -183,6 +187,8 @@ TAXONOMY = {
         ("pueblos-indigenas", "Pueblos indígenas de Canadá: First Nations, Inuit, Métis; tratados, Constitución s.35, UNDRIP, duty to consult, autogobierno, impacto en recursos/energía/infra; vs derechos-humanos"),
         # Round 38 — deepening NA (sector servicios por país).
         ("sector-servicios", "Sector servicios Canadá: comercio minorista, financiero, salud, educación, TIC, gobierno, turismo; peso en el PIB, productividad, empleo; vs economia/trabajo"),
+        # Round 39 — deepening NA (pobreza y desigualdad).
+        ("pobreza-desigualdad", "Pobreza y desigualdad Canadá: Market Basket Measure (MBM), Canada's Poverty Reduction Strategy, Ontario/Quebec poverty lines, desigualdad de ingreso; vs seguridad-social/trabajo"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -639,6 +645,17 @@ NEW_NODES = [
     ("rol/data-governance-lead", "Data Governance Lead — calidad, linaje, política y cumplimiento de datos, privacidad by design; vs data-architect/chief-data-officer/gobierno-de-datos"),
     ("rol/investment-banker", "Investment Banker — M&A, underwriting (ECM/DCM), sales & trading en banca de inversión; vs banca-de-inversion/chief-investment-officer"),
     ("rol/quality-manager", "Quality Manager — gestión de la calidad operativa, ISO 9001, auditorías, mejora continua; vs chief-quality-officer/calidad"),
+    # Round 39 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings pobreza-desigualdad MX/US/CA; dominio/rol generales).
+    ("dominio/fidelizacion", "Fidelización de clientes / customer loyalty: programas de recompensas, retención, puntos/tiers, churn reduction, lifetime value; vs customer-success/marketing/retail"),
+    ("dominio/logistica-inversa", "Logística inversa: gestión de devoluciones, reposición, reciclaje y reacondicionamiento, economía circular, costo y sostenibilidad; vs logistica/cadena-suministro"),
+    ("dominio/comercio-mayorista", "Comercio mayorista / distribución: B2B, intermediarios, distribuidores, cadena de valor, márgenes de distribución; vs retail/comercio-electronico"),
+    ("dominio/pesca-acuicultura", "Pesca y acuicultura: captura, acuicultura (piscicultura, maricultura), industria, sostenibilidad, cuotas/regulación, seguridad alimentaria; vs agronegocios/alimentos-bebidas"),
+    ("dominio/salud-animal", "Salud animal / veterinary: medicina veterinaria, zoonosis, bioseguridad, industria (vacunas, fármacos veterinarios), bienestar animal; vs salud/farmaceutica"),
+    ("rol/hr-generalist", "HR Generalist — operaciones de RRHH de extremo a extremo (contratación, nómina, beneficios, relaciones laborales, cumplimiento), generalista por unidad; vs people-lead/head-of-people/reclutador"),
+    ("rol/penetration-tester", "Penetration Tester / Red Team — pruebas de intrusión, ethical hacking, simulación de adversario, reporte de vulnerabilidades; vs security-engineer/security-analyst"),
+    ("rol/credit-manager", "Credit Manager — gestión de crédito comercial, políticas de crédito, cobranza, riesgo de crédito, anticipos; vs credit-analyst/underwriter"),
+    ("rol/process-engineer", "Process Engineer — diseño/mejora de procesos industriales (manufactura, química, farmacéutica), rendimiento, calidad, seguridad de procesos; vs quality-manager/manufactura"),
+    ("rol/event-manager", "Event Manager — producción y gestión de eventos (MICE: conferencias, ferias, corporativos), logística, presupuesto, ROI; vs eventos (dominio)"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}
