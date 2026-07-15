@@ -175,3 +175,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-15] ingest | Pobreza y desigualdad EE.UU. (Census)
 - Fuentes: U.S. Census Bureau (census.gov) + Wikipedia EN — reference-only (sin raw/).
 - Página: pobreza-desigualdad.md. Línea federal de pobreza (FPL); ~11-12% bajo la línea; Gini ~0.49 (alto entre desarrollados); safety net (SNAP/TANF/EITC/Medicaid/SSI) reduce pobreza post-transferencias. Cross-ref seguridad-social, labor, finanzas-publicas. Confianza alta.
+
+## [2026-07-15] ingest | Fronteras de Estados Unidos
+- Fuentes: Wikipedia (EN) Mexico–United States border / Canada–United States border + CBP (cbp.gov) — reference-only (sin raw/).
+- Página: fronteras.md. Frontera sur (CBP/USBP, puertos, muros) y norte (Canadá, USMCA, ~8,891 km); aduanas (CBP/OEA), migración y seguridad. Cross-ref inmigracion, seguridad-nacional. Confianza alta.

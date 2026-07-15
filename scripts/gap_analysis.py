@@ -79,6 +79,8 @@ TAXONOMY = {
         ("sector-servicios", "Sector servicios México: comercio, turismo, financiero, telecom, transporte, gobierno; peso en el PIB, informalidad, productividad; vs economia/trabajo"),
         # Round 39 — deepening NA (pobreza y desigualdad).
         ("pobreza-desigualdad", "Pobreza y desigualdad México: CONEVAL (medición multidimensional: ingresos y carencias sociales), líneas de pobreza, programas sociales ( Prospera/atención a adultos mayores), desigualdad de ingreso; vs seguridad-social/trabajo"),
+        # Round 40 — deepening NA (fronteras por país).
+        ("fronteras", "Fronteras de México: frontera norte con EE.UU. (3,155 km, 14 cruces oficiales, TMEC/USMCA, aduanas, maquiladoras, Programa Frontera Norte, Plan Frontera Sur/control migratorio sur), migración, comercio transfronterizo, seguridad; vs relaciones-exteriores/comercio-exterior"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -134,6 +136,8 @@ TAXONOMY = {
         ("proteccion-consumidor", "Protección al consumidor EE.UU.: FTC, CFPB, CPSC, fiscales estatales (AG), engaño, privacidad, reembolsos; vs derecho-del-consumidor"),
         # Round 39 — deepening NA (pobreza y desigualdad).
         ("pobreza-desigualdad", "Pobreza y desigualdad EE.UU.: Census poverty line (federal/state), income inequality (Gini), safety net (SNAP/TANF/earned income tax credit), disparidades raciales; vs seguridad-social/trabajo"),
+        # Round 40 — deepening NA (fronteras por país).
+        ("fronteras", "Fronteras de EE.UU.: frontera sur con México (CBP/USBP, muros, puertos de entrada) y frontera norte con Canadá (puertos de entrada, comercio USMCA), aduanas (CBP/OEA), migración, seguridad fronteriza; vs inmigracion/seguridad-nacional"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -189,6 +193,8 @@ TAXONOMY = {
         ("sector-servicios", "Sector servicios Canadá: comercio minorista, financiero, salud, educación, TIC, gobierno, turismo; peso en el PIB, productividad, empleo; vs economia/trabajo"),
         # Round 39 — deepening NA (pobreza y desigualdad).
         ("pobreza-desigualdad", "Pobreza y desigualdad Canadá: Market Basket Measure (MBM), Canada's Poverty Reduction Strategy, Ontario/Quebec poverty lines, desigualdad de ingreso; vs seguridad-social/trabajo"),
+        # Round 40 — deepening NA (fronteras por país).
+        ("fronteras", "Fronteras de Canadá: frontera terrestre más larga del mundo con EE.UU. (8,891 km incl. Alaska), CBSA, puertos de entrada, comercio USMCA, cruces (Windsor-Detroit, Peace Bridge), migración y seguridad; vs relaciones-exteriores/comercio-exterior"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -656,6 +662,17 @@ NEW_NODES = [
     ("rol/credit-manager", "Credit Manager — gestión de crédito comercial, políticas de crédito, cobranza, riesgo de crédito, anticipos; vs credit-analyst/underwriter"),
     ("rol/process-engineer", "Process Engineer — diseño/mejora de procesos industriales (manufactura, química, farmacéutica), rendimiento, calidad, seguridad de procesos; vs quality-manager/manufactura"),
     ("rol/event-manager", "Event Manager — producción y gestión de eventos (MICE: conferencias, ferias, corporativos), logística, presupuesto, ROI; vs eventos (dominio)"),
+    # Round 40 — reabastecimiento (alcance: sustrato solo Norteamérica: deepening fronteras MX/US/CA; dominio/rol generales).
+    ("dominio/liderazgo", "Liderazgo: teorías (situacional, transformacional, servicial), estilos, liderazgo de equipos, desarrollo de líderes, vs management; aplicado a todas las capas"),
+    ("dominio/mercados-financieros", "Mercados financieros: exchanges, trading, microestructura, liquidez, precio de activos, renta fija/variable, derivados cotizados, regulación de mercados; vs banca/finanzas"),
+    ("dominio/finanzas-personales", "Finanzas personales: presupuesto, ahorro, inversión personal, retiro, endeudamiento, planificación financiera, educación financiera; vs finanzas/gestion-de-activos"),
+    ("dominio/comunicacion-corporativa", "Comunicación corporativa: relaciones con medios, comunicación interna, reputación, crisis, mensaje corporativo; vs relaciones-publicas/head-of-communications"),
+    ("dominio/empresa-familiar", "Empresa familiar: gobierno familiar, protocolo familiar, sucesión, consejo de familia, profesionalización, continuidad; vs gobierno-corporativo/emprendimiento"),
+    ("rol/principal-engineer", "Principal Engineer — ladder IC senior (sobre Staff), autoridad técnica, arquitectura a nivel org, mentoria de elites; vs staff-engineer/engineering-manager"),
+    ("rol/talent-acquisition-manager", "Talent Acquisition Manager — lidera la función de adquisición de talento (equipo de reclutadores, estrategia de sourcing, employer brand, pipeline); vs reclutador/head-of-talent"),
+    ("rol/compensation-manager", "Compensation Manager — diseña estructuras salariales, bandas, job grading, encuestas de mercado, equity; vs benefits-manager/payroll-manager/head-of-people"),
+    ("rol/financial-planner", "Financial Planner / Planificador financiero — asesoría de finanzas personales (CFP), retiro, inversiones, seguros, planeación patrimonial; vs wealth-manager/finanzas-personales"),
+    ("rol/general-manager", "General Manager (GM) — dueño de P&L de una unidad de negocio/país, P&L completo, operación+comercial; vs managing-director/director-of-operations/country-manager"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

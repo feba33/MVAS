@@ -1152,3 +1152,42 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol/event-manager
 - [event-manager](rol/event-manager/event-manager.md) — Event Manager: producción y gestión de eventos (MICE), logística, ROI · 🏷️ event-manager,gestion-de-eventos,mice,conferencias,presupuesto,logistica-eventos,roi · 📅 2026-07-15
 
+### sustrato/mexico (deepening R40)
+- [fronteras](sustrato/mexico/fronteras.md) — Fronteras de México: frontera norte con EE.UU. (T-MEC/USMCA, 14 cruces, maquiladoras, Programa Frontera Norte, Plan Frontera Sur), aduanas, migración; vs relaciones-exteriores/comercio-exterior · 🏷️ mexico,fronteras,frontera-norte,t-mec,usmca,aduanas,migracion,maquiladoras,seguridad-fronteriza · 📅 2026-07-15
+
+### sustrato/estados-unidos (deepening R40)
+- [fronteras](sustrato/estados-unidos/fronteras.md) — Fronteras de EE.UU.: frontera sur (CBP/USBP, muros, puertos) y norte (Canadá, USMCA), aduanas (CBP/OEA), migración, seguridad; vs inmigracion/seguridad-nacional · 🏷️ eeuu,fronteras,frontera-sur,frontera-norte,cbp,usbp,migracion,usmca,aduanas,seguridad-fronteriza · 📅 2026-07-15
+
+### sustrato/canada (deepening R40)
+- [fronteras](sustrato/canada/fronteras.md) — Fronteras de Canadá: frontera terrestre más larga del mundo con EE.UU. (8,891 km), CBSA, puertos de entrada, comercio USMCA, Windsor-Detroit/Peace Bridge; vs relaciones-exteriores/comercio-exterior · 🏷️ canada,fronteras,frontera-eeuu,cbsa,usmca,cruces-fronterizos,migracion,seguridad-fronteriza · 📅 2026-07-15
+
+### dominio/liderazgo
+- [liderazgo](dominio/liderazgo/liderazgo.md) — Liderazgo: teorías (situacional, transformacional, servicial), estilos, desarrollo de líderes, vs management · 🏷️ liderazgo,liderazgo-transformacional,liderazgo-situacional,liderazgo-servicial,desarrollo-liderazgo,management,equipos · 📅 2026-07-15
+
+### dominio/mercados-financieros
+- [mercados-financieros](dominio/mercados-financieros/mercados-financieros.md) — Mercados financieros: exchanges, trading, microestructura, liquidez, activos, regulación (SEC/ESMA/IOSCO) · 🏷️ mercados-financieros,exchanges,trading,microestructura,liquidez,renta-fija,renta-variable,derivados,regulacion-mercados · 📅 2026-07-15
+
+### dominio/finanzas-personales
+- [finanzas-personales](dominio/finanzas-personales/finanzas-personales.md) — Finanzas personales: presupuesto, ahorro, inversión, retiro, deuda, planificación financiera · 🏷️ finanzas-personales,presupuesto,ahorro,inversion,retiro,deuda,planificacion-financiera,educacion-financiera · 📅 2026-07-15
+
+### dominio/comunicacion-corporativa
+- [comunicacion-corporativa](dominio/comunicacion-corporativa/comunicacion-corporativa.md) — Comunicación corporativa: relaciones con medios, interna, reputación, crisis, mensaje corporativo · 🏷️ comunicacion-corporativa,relaciones-medios,comunicacion-interna,reputacion,crisis,stakeholder,pr · 📅 2026-07-15
+
+### dominio/empresa-familiar
+- [empresa-familiar](dominio/empresa-familiar/empresa-familiar.md) — Empresa familiar: gobierno familiar, protocolo, sucesión, consejo de familia, profesionalización · 🏷️ empresa-familiar,gobierno-familiar,protocolo-familiar,sucesion,consejo-familia,profesionalizacion,continuidad · 📅 2026-07-15
+
+### rol/principal-engineer
+- [principal-engineer](rol/principal-engineer/principal-engineer.md) — Principal Engineer: ladder IC senior, autoridad técnica, arquitectura org, mentoria de élite · 🏷️ principal-engineer,ingenieria,ladder-ic,arquitectura,senior,mentoria,tecnologia · 📅 2026-07-15
+
+### rol/talent-acquisition-manager
+- [talent-acquisition-manager](rol/talent-acquisition-manager/talent-acquisition-manager.md) — Talent Acquisition Manager: lidera TA (reclutadores, sourcing, employer brand, pipeline) · 🏷️ talent-acquisition-manager,reclutamiento,sourcing,employer-brand,pipeline,rr-hh,adquisicion-talento · 📅 2026-07-15
+
+### rol/compensation-manager
+- [compensation-manager](rol/compensation-manager/compensation-manager.md) — Compensation Manager: bandas salariales, job grading, encuestas de mercado, equity · 🏷️ compensation-manager,compensacion,bandas-salariales,job-grading,equity,total-rewards,rr-hh · 📅 2026-07-15
+
+### rol/financial-planner
+- [financial-planner](rol/financial-planner/financial-planner.md) — Financial Planner: planificación financiera personal (CFP), retiro, inversiones, seguros · 🏷️ financial-planner,planificador-financiero,finanzas-personales,retiro,inversion,seguros,planificacion-patrimonial · 📅 2026-07-15
+
+### rol/general-manager
+- [general-manager](rol/general-manager/general-manager.md) — General Manager: dueño de P&L de unidad de negocio/país, operación+comercial · 🏷️ general-manager,gm,pl-y-l,unidad-negocio,operaciones,comercial,p-and-l,liderazgo · 📅 2026-07-15
+

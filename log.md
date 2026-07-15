@@ -678,3 +678,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - 5 nodos rol nuevos: `rol/hr-generalist/`, `rol/penetration-tester/`, `rol/credit-manager/`, `rol/process-engineer/`, `rol/event-manager/` (superstructura completa + página cada uno).
 - Reference-only (Wikipedia EN + CONEVAL/Census/ESDC/StatCan/SHRM/OWASP; sin raw/).
 - **Round 39 COMPLETA (13/13).** Índice de progreso: 575 tópicos en 176 iteraciones.
+
+## [2026-07-15] ingest | Round 40 (iter 177, +13 = 13/13) — CIERRA Round 40
+- gap_analysis.py → 0 gaps tras Round 39; se EXTENDIÓ `scripts/gap_analysis.py` para Round 40 (3 deepenings sustrato NA + 10 nodos nuevos). Alcance sustrato respetado (solo Norteamérica).
+- 3 deepenings sustrato NA: `sustrato/mexico/fronteras.md`, `sustrato/estados-unidos/fronteras.md`, `sustrato/canada/fronteras.md` (append a index/log de nodos existentes).
+- 5 nodos dominio nuevos: `dominio/liderazgo/`, `dominio/mercados-financieros/`, `dominio/finanzas-personales/`, `dominio/comunicacion-corporativa/`, `dominio/empresa-familiar/` (superstructura completa + página cada uno).
+- 5 nodos rol nuevos: `rol/principal-engineer/`, `rol/talent-acquisition-manager/`, `rol/compensation-manager/`, `rol/financial-planner/`, `rol/general-manager/` (superstructura completa + página cada uno).
+- Reference-only (Wikipedia EN + SRE/CBP/CBSA/SEC/CFP/SHRM/WorldatWork/McKinsey/HBR; sin raw/).
+- **Round 40 COMPLETA (13/13).** Índice de progreso: 588 tópicos en 177 iteraciones.

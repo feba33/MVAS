@@ -214,3 +214,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-15] ingest | Pobreza y desigualdad México (CONEVAL)
 - Fuentes: CONEVAL (coneval.org.mx) + Wikipedia EN — reference-only (sin raw/).
 - Página: pobreza-desigualdad.md. CONEVAL mide pobreza multidimensional (ingresos + 6 carencias sociales); ~43.9% en pobreza multidimensional (2022), ~7.1% extrema; Gini ~0.45; Prospera, Pensión para el Bienestar de las Personas Adultas Mayores. Cross-ref seguridad-social, trabajo, economia. Confianza alta.
+
+## [2026-07-15] ingest | Fronteras de México
+- Fuentes: Wikipedia (EN) Mexico–United States border + SRE (gob.mx) — reference-only (sin raw/).
+- Página: fronteras.md. Frontera norte con EE.UU. (~3,155 km, 14 cruces, T-MEC/USMCA, maquiladoras, Programa Frontera Norte, Plan Frontera Sur); aduanas (SAT/ANAM), migración y seguridad. Cross-ref relaciones-exteriores, comercio-exterior. Confianza alta.

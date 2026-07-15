@@ -152,3 +152,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-15] ingest | Pobreza y desigualdad Canadá (MBM)
 - Fuentes: ESDC (canada.ca) + Wikipedia EN — reference-only (sin raw/).
 - Página: pobreza-desigualdad.md. Market Basket Measure (MBM) oficial desde 2018; Canada's Poverty Reduction Strategy (Oportunidad para Todos, 2018); tasa ~10.1% (2019); Gini ~0.33 (moderado). Cross-ref seguridad-social, labor, finanzas-publicas. Confianza alta.
+
+## [2026-07-15] ingest | Fronteras de Canadá
+- Fuentes: Wikipedia (EN) Canada–United States border + CBSA (cbsa-asfc.gc.ca) — reference-only (sin raw/).
+- Página: fronteras.md. Frontera terrestre más larga del mundo con EE.UU. (~8,891 km, 119 cruces); CBSA, Windsor-Detroit/Peace Bridge, comercio USMCA. Cross-ref relaciones-exteriores, comercio-exterior. Confianza alta.

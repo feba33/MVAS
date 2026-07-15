@@ -1578,22 +1578,48 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia EN + CONEVAL/Census/ESDC/StatCan/SHRM/OWASP; sin raw/).
 - **Round 39 COMPLETA (13/13).** Tópicos acumulados: 575. ALCANCE sustrato = solo Norteamérica (respetado).
 
+## ✅ COLA ROUND 40 — COMPLETA (13/13)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Fronteras (frontera norte con EE.UU., T-MEC/USMCA, maquiladoras, Plan Frontera Sur, aduanas)
+- [x] sustrato/estados-unidos — Fronteras (frontera sur CBP/USBP, frontera norte Canadá, USMCA, aduanas)
+- [x] sustrato/canada — Fronteras (frontera terrestre más larga del mundo con EE.UU., CBSA, Windsor-Detroit/Peace Bridge)
+### Dominio (nuevos nodos)
+- [x] dominio/liderazgo — Liderazgo (teorías, estilos, desarrollo de líderes)
+- [x] dominio/mercados-financieros — Mercados financieros (exchanges, microestructura, regulación SEC/ESMA/IOSCO)
+- [x] dominio/finanzas-personales — Finanzas personales (presupuesto, inversión, retiro, planificación)
+- [x] dominio/comunicacion-corporativa — Comunicación corporativa (medios, interna, crisis, reputación)
+- [x] dominio/empresa-familiar — Empresa familiar (gobierno familiar, sucesión, protocolo)
+### Rol (nuevos nodos)
+- [x] rol/principal-engineer — Principal Engineer (ladder IC senior, arquitectura org)
+- [x] rol/talent-acquisition-manager — Talent Acquisition Manager (lidera TA, sourcing, employer brand)
+- [x] rol/compensation-manager — Compensation Manager (bandas salariales, job grading, equity)
+- [x] rol/financial-planner — Financial Planner (CFP, retiro, inversiones, seguros)
+- [x] rol/general-manager — General Manager (P&L de unidad de negocio/país)
+
+## [2026-07-15] Round 40 — ITER 177 | gap_analysis extendido (taxonomía Round 40) + 13 ingests COMPLETOS
+- gap_analysis.py (post-Round 39) = 0 huecos → se **EXTENDIÓ** `scripts/gap_analysis.py` (Round 40) con 3 deepenings sustrato NA (mexico→fronteras, estados-unidos→fronteras, canada→fronteras) + 10 nodos nuevos (dominio: liderazgo, mercados-financieros, finanzas-personales, comunicacion-corporativa, empresa-familiar; rol: principal-engineer, talent-acquisition-manager, compensation-manager, financial-planner, general-manager). ALCANCE respetado: sustrato = solo Norteamérica.
+- LOOP 1 (sustrato NA): `mexico/fronteras.md`, `estados-unidos/fronteras.md`, `canada/fronteras.md` (deepenings; append a index/log de nodos existentes).
+- LOOP 2 (dominio, 5 nuevos): `liderazgo`, `mercados-financieros`, `finanzas-personales`, `comunicacion-corporativa`, `empresa-familiar` (superstructura completa: raw/, README, index, log).
+- LOOP 3 (rol, 5 nuevos): `principal-engineer`, `talent-acquisition-manager`, `compensation-manager`, `financial-planner`, `general-manager` (superstructura completa).
+- Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia EN + SRE/CBP/CBSA/SEC/CFP/SHRM/WorldatWork/McKinsey/HBR; sin raw/).
+- **Round 40 COMPLETA (13/13).** Tópicos acumulados: 588. ALCANCE sustrato = solo Norteamérica (respetado).
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-- **Tópicos ingeridos (acumulado): 575** (Round 39: +13 = 3 deepenings NA + 10 nodos nuevos).
-- **Rondas:** 39 completas (Round 1..39).
-- **Nodos sustrato (NA):** México 60 (+pobreza-desigualdad), EE.UU. 48 (+pobreza-desigualdad), Canadá 42 (+pobreza-desigualdad).
-- **Nodos dominio:** ~140 (Round 39 +5 nuevos: fidelizacion, logistica-inversa, comercio-mayorista, pesca-acuicultura, salud-animal).
-- **Nodos rol:** ~130 (Round 39 +5 nuevos: hr-generalist, penetration-tester, credit-manager, process-engineer, event-manager).
+- **Tópicos ingeridos (acumulado): 588** (Round 40: +13 = 3 deepenings NA + 10 nodos nuevos).
+- **Rondas:** 40 completas (Round 1..40).
+- **Nodos sustrato (NA):** México 61 (+fronteras), EE.UU. 49 (+fronteras), Canadá 43 (+fronteras).
+- **Nodos dominio:** ~145 (Round 40 +5 nuevos: liderazgo, mercados-financieros, finanzas-personales, comunicacion-corporativa, empresa-familiar).
+- **Nodos rol:** ~135 (Round 40 +5 nuevos: principal-engineer, talent-acquisition-manager, compensation-manager, financial-planner, general-manager).
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
-- **Iteraciones totales:** 176.
+- **Iteraciones totales:** 177.
 
 ## 🚦 ESTADO
-- **Iteración actual:** 176 (Round 39 COMPLETA — 13/13 ingestados).
-- **Última acción:** Round 39 iter 176 — 3 deepenings sustrato NA + 10 nodos nuevos (5 dominio + 5 rol) ingestados; Round 39 COMPLETA (13/13). Tópicos acumulados: 575.
+- **Iteración actual:** 177 (Round 40 COMPLETA — 13/13 ingestados).
+- **Última acción:** Round 40 iter 177 — 3 deepenings sustrato NA (fronteras MX/US/CA) + 10 nodos nuevos (5 dominio + 5 rol) ingestados; Round 40 COMPLETA (13/13). Tópicos acumulados: 588.
 - **Bloqueos:** ninguno.
-- **Cola:** Round 39 CERRADA (13/13). Próxima: `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía (Round 40).
+- **Cola:** Round 40 CERRADA (13/13). Próxima: `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía (Round 41), o pausar hasta el próximo cron.
 
 ## ▶️ PRÓXIMA TAREA
-- Round 39 COMPLETA (13/13). Siguiente paso de reabastecimiento: ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 gaps → extender taxonomía (3 deepenings NA + 10 nodos nuevos) para Round 40, o pausar hasta el próximo cron. Mantener alcance sustrato = solo Norteamérica.
-- Tras vaciar, re-correr `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía para Round 40.
+- Round 40 COMPLETA (13/13). Siguiente paso de reabastecimiento: ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 gaps → extender taxonomía (3 deepenings NA + 10 nodos nuevos) para Round 41, o pausar hasta el próximo cron. Mantener alcance sustrato = solo Norteamérica.
+- Tras vaciar, re-correr `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía para Round 41.
