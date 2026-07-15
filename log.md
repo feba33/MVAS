@@ -13,6 +13,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Creadas: `dominio/forense-digital/forense-digital.md`, `dominio/auditoria-interna/auditoria-interna.md`, `dominio/politica-publica/politica-publica.md`, `dominio/administracion-publica/administracion-publica.md`, `dominio/ferroviario/ferroviario.md` (modelo centralizado; reference-only Wikipedia EN + sitios oficiales NIST/IIA/FRA/Transport Canada/Britannica).
 - index.md + log.md + working.md actualizados. Round 45 EN CURSO (8/13).
 
+## [2026-07-15] ingest | Round 45 LOOP 3 — rol (5 nuevos): head-of-workforce-planning, head-of-customer-marketing, head-of-incident-response, head-of-business-technology, head-of-manufacturing
+- Creadas: `rol/head-of-workforce-planning.md`, `rol/head-of-customer-marketing.md`, `rol/head-of-incident-response.md`, `rol/head-of-business-technology.md`, `rol/head-of-manufacturing.md` (modelo centralizado; reference-only Wikipedia EN + SHRM/Gartner/NIST/ASCM).
+- **Round 45 COMPLETA (13/13):** 3 sustrato NA deepenings + 5 dominio + 5 rol. Tópicos acumulados: 653. index.md/log.md/working.md actualizados.
+
 ## [2026-07-09] setup | Estructura inicial MVAS + patrón LLM Wiki
 - Creado repo MVAS con 4 capas: sustrato / dominio / organización / rol.
 - Integrado patrón LLM Wiki: capa `raw/` (fuentes inmutables), `index.md`,

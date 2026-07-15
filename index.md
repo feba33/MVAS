@@ -794,6 +794,11 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-it
 - [[rol/head-of-it|Head of IT / IT Director — operación de TI interna, infraestructura, soporte; vs CIO/CTO]]
+- [head-of-business-technology](rol/head-of-business-technology.md) — Head of Business Technology: sistemas empresariales (ERP/CRM), puente negocio-TI, habilitación digital; vs cio/head-of-it · 🏷️ head-of-business-technology,business-technology,erp,crm,sistemas-empresariales,puente-negocio-ti,habilitacion-digital · 📅 2026-07-15
+- [head-of-incident-response](rol/head-of-incident-response.md) — Head of Incident Response: lidera CSIRT/IR, contención, brechas, post-mortem; vs ciso/security-analyst · 🏷️ head-of-incident-response,incident-response,csirt,brecha,contencion,forense,ciberseguridad · 📅 2026-07-15
+- [head-of-workforce-planning](rol/head-of-workforce-planning.md) — Head of Workforce Planning: planeación de fuerza laboral, headcount, org design, people analytics; vs head-of-people/hr-business-partner · 🏷️ head-of-workforce-planning,workforce-planning,headcount,org-design,people-analytics,talent-supply-demand · 📅 2026-07-15
+- [head-of-customer-marketing](rol/head-of-customer-marketing.md) — Head of Customer Marketing: marketing a base instalada, lifecycle, lealtad, advocacía; vs head-of-marketing-ops/demand-gen · 🏷️ head-of-customer-marketing,customer-marketing,lifecycle,retention,loyalty,advocacy,base-instalada · 📅 2026-07-15
+- [head-of-manufacturing](rol/head-of-manufacturing.md) — Head of Manufacturing: red de plantas, excelencia (QCD), calidad/costo/entrega a escala; vs plant-manager/vp-operations · 🏷️ head-of-manufacturing,manufacturing,excelencia-operativa,planta,produccion,calidad-costo-entrega,lean · 📅 2026-07-15
 
 ### rol/chief-brand-officer
 - [[rol/chief-brand-officer|Chief Brand Officer — estrategia de marca ejecutiva, identidad, posicionamiento, brand equity; vs brand-manager/cmo]]

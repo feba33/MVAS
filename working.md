@@ -1711,7 +1711,7 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - Reference-only: Wikipedia (EN/ES) + sitios oficiales (CNSF, NAIC, OSFI, FSRA, ISO, WorldatWork, SHRM, NCSL, Pew, ABB) — sin raw/.
 - **Round 44 COMPLETA (13/13).** Topicos acumulados: 640. ALCANCE sustrato = solo Norteamérica (respetado).
 
-## ✅ COLA ROUND 45 — EN CURSO (3/13)
+## ✅ COLA ROUND 45 — COMPLETA (13/13)
 ### Sustrato (deepening nodos NA existentes)
 - [x] sustrato/mexico/pueblos-indigenas.md — Pueblos indígenas México (Art.2, INPI, 68 grupos, CPLI)
 - [x] sustrato/estados-unidos/pueblos-indigenas.md — Native Americans (tribal sovereignty, BIA, 574 tribus)
@@ -1723,34 +1723,36 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] dominio/administracion-publica — Administración pública (NPM, burocracia)
 - [x] dominio/ferroviario — Industria ferroviaria (FRA/FTA, TTC, señalización)
 ### Rol (nuevos nodos)
-- [ ] rol/head-of-workforce-planning — Workforce Planning (headcount, org design)
-- [ ] rol/head-of-customer-marketing — Customer Marketing (lifecycle, lealtad)
-- [ ] rol/head-of-incident-response — Incident Response (CSIRT, brechas)
-- [ ] rol/head-of-business-technology — Business Technology (ERP/CRM, puente negocio-TI)
-- [ ] rol/head-of-manufacturing — Head of Manufacturing (red de plantas, excelencia)
+- [x] rol/head-of-workforce-planning — Workforce Planning (headcount, org design)
+- [x] rol/head-of-customer-marketing — Customer Marketing (lifecycle, lealtad)
+- [x] rol/head-of-incident-response — Incident Response (CSIRT, brechas)
+- [x] rol/head-of-business-technology — Business Technology (ERP/CRM, puente negocio-TI)
+- [x] rol/head-of-manufacturing — Head of Manufacturing (red de plantas, excelencia)
 
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 648** (Round 44: 640 + Round 45 LOOP 1: +3 + LOOP 2: +5 = 648). |
-| **Rondas:** 44 completas + Round 45 EN CURSO (8/13). |
+| **Tópicos ingeridos (acumulado): 653** (Round 44: 640 + Round 45: +13 = 653). |
+| **Rondas:** 45 completas (Round 1..45). |
 | **Nodos sustrato (NA):** México 64, EE.UU. 52, Canadá 46. |
 | **Nodos dominio:** ~175 (Round 45 +5: forense-digital, auditoria-interna, politica-publica, administracion-publica, ferroviario). |
+| **Nodos rol:** ~165 (Round 45 +5: head-of-workforce-planning, head-of-customer-marketing, head-of-incident-response, head-of-business-technology, head-of-manufacturing). |
 | **Nodos rol:** ~160 (Round 45 +5 pendientes). |
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
 | **Iterações totales:** 183.
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 183 (Round 45 EN CURSO — 8/13 ingestados). |
-| - **Última ação:** Round 45 iter 183 — LOOP 1 (sustrato NA x3) + LOOP 2 (dominio x5: forense-digital, auditoria-interna, politica-publica, administracion-publica, ferroviario) ingestados; modelo centralizado. gap_analysis.py CORREGIDO. Taxonomía extendida Round 45. |
+| - **Iteración actual:** 183 (Round 45 COMPLETA — 13/13 ingestados). |
+| - **Última ação:** Round 45 iter 183 — LOOP 1 (sustrato NA x3) + LOOP 2 (dominio x5) + LOOP 3 (rol x5) ingestados; modelo centralizado. gap_analysis.py CORREGIDO (elimina 13 falsos positivos de Round 44). Taxonomía extendida Round 45 (3 deepenings NA + 10 nodos). |
 - **Bloqueos:** ninguno.
-| - **Cola:** Round 45 EN CURSO (3/13). Pendiente LOOP 2 (dominio x5) + LOOP 3 (rol x5). Próximo: investigar + ingerir dominio + rol. |
+| - **Cola:** Round 45 COMPLETA (13/13). gap_analysis.py reporta 0 huecos reales (taxonomía agotada). Próximo: gap_analysis.py → Round 46 (reabastecer taxonomía) o pausar hasta próximo cron. |
 
 ## ▶️ PRÓXIMA TAREA
-| - Round 45: LOOP 1 COMPLETO (sustrato NA x3). Próximo: LOOP 2 = dominio (forense-digital, auditoria-interna, politica-publica, administracion-publica, ferroviario) + LOOP 3 = rol (head-of-workforce-planning, head-of-customer-marketing, head-of-incident-response, head-of-business-technology, head-of-manufacturing). Sustrato NA = solo Norteamérica (respetado).
-### [2026-07-15] Round 45 — ITER 183 | LOOP 1 COMPLETO (3/13)
+| - Round 45 COMPLETA (13/13). gap_analysis.py corregido + taxonomía extendida. Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 46) o pausar hasta próximo cron. Sustrato NA = solo Norteamérica (respetado).
+### [2026-07-15] Round 45 — ITER 183 | COMPLETA (13/13)
 - gap_analysis.py CORREGIDO (scripts/gap_analysis.py): `node_exists()` reconoce nodos de archivo plano (dominio/foo.md) y subfolder (dominio/foo/foo.md); slugs corregidos observabilidad→observabilidade, pagos→pagamentos, head-of-talent-mobility→rol/head-of-talent-mobility. Esto eliminó 13 falsos positivos de Round 44 (nodos ya ingestados). Luego taxonomía extendida Round 45 (3 deepenings NA: mexico/estados-unidos pueblos-indigenas + canada lenguas-oficiales; +10 nodos nuevos dominio/rol). gap_analysis.py ahora reporta exactamente 13 (3+10).
-- LOOP 1 (sustrato NA, 3/13): sustrato/mexico/pueblos-indigenas.md, sustrato/estados-unidos/pueblos-indigenas.md, sustrato/canada/lenguas-oficiales.md — modelo centralizado (página + index/log raíz; SIN per-node raw/index/log, PITFALL 2026-07-15).
-- Reference-only: Wikipedia (ES/EN) + sitios oficiales (INPI, BIA/NCAI, Commissioner of Official Languages) — sin raw/.
-- Round 45 EN CURSO (3/13). Tópicos acumulados: 643. ALCANCE sustrato = solo Norteamérica (respetado).
-| - Siguiente: LOOP 2 (dominio x5) + LOOP 3 (rol x5).
-- Proximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonimia (Round 45) o pausar até proximo cron.
+- LOOP 1 (sustrato NA, 3/13): sustrato/mexico/pueblos-indigenas.md, sustrato/estados-unidos/pueblos-indigenas.md, sustrato/canada/lenguas-oficiales.md.
+- LOOP 2 (dominio, 5/13): forense-digital, auditoria-interna, politica-publica, administracion-publica, ferroviario.
+- LOOP 3 (rol, 13/13): head-of-workforce-planning, head-of-customer-marketing, head-of-incident-response, head-of-business-technology, head-of-manufacturing.
+- Modelo centralizado (página + index/log raíz; SIN per-node raw/index/log, PITFALL 2026-07-15). Reference-only: Wikipedia (EN/ES) + sitios oficiales (INPI, BIA/NCAI, Commissioner of Official Languages, NIST, IIA, FRA, Transport Canada, SHRM, Gartner, Britannica) — sin raw/.
+- **Round 45 COMPLETA (13/13).** Tópicos acumulados: 653. ALCANCE sustrato = solo Norteamérica (respetado).
+| - Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 46) o pausar hasta próximo cron.
