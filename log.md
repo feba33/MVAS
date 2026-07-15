@@ -9,6 +9,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - `scripts/gap_analysis.py` corregido (node_exists reconoce archivos planos + subfolder; slugs observabilidade/pagamentos/rol prefix) — elimina 13 falsos positivos de Round 44. Taxonomía extendida Round 45 (3 deepenings NA + 10 nodos).
 - index.md + log.md + working.md actualizados. Round 45 EN CURSO (3/13).
 
+## [2026-07-15] ingest | Round 45 LOOP 2 — dominio (5 nuevos): forense-digital, auditoria-interna, politica-publica, administracion-publica, ferroviario
+- Creadas: `dominio/forense-digital/forense-digital.md`, `dominio/auditoria-interna/auditoria-interna.md`, `dominio/politica-publica/politica-publica.md`, `dominio/administracion-publica/administracion-publica.md`, `dominio/ferroviario/ferroviario.md` (modelo centralizado; reference-only Wikipedia EN + sitios oficiales NIST/IIA/FRA/Transport Canada/Britannica).
+- index.md + log.md + working.md actualizados. Round 45 EN CURSO (8/13).
+
 ## [2026-07-09] setup | Estructura inicial MVAS + patrón LLM Wiki
 - Creado repo MVAS con 4 capas: sustrato / dominio / organización / rol.
 - Integrado patrón LLM Wiki: capa `raw/` (fuentes inmutables), `index.md`,

@@ -1717,11 +1717,11 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] sustrato/estados-unidos/pueblos-indigenas.md — Native Americans (tribal sovereignty, BIA, 574 tribus)
 - [x] sustrato/canada/lenguas-oficiales.md — Lenguas oficiales Canadá (Official Languages Act, Comisionado)
 ### Dominio (nuevos nodos)
-- [ ] dominio/forense-digital — Forense digital (evidencia, IR, cadena de custodia)
-- [ ] dominio/auditoria-interna — Auditoría interna (IPPF/IIA, aseguramiento)
-- [ ] dominio/politica-publica — Política pública (ciclo, evidence-based)
-- [ ] dominio/administracion-publica — Administración pública (NPM, burocracia)
-- [ ] dominio/ferroviario — Industria ferroviaria (FRA/FTA, TTC, señalización)
+- [x] dominio/forense-digital — Forense digital (evidencia, IR, cadena de custodia)
+- [x] dominio/auditoria-interna — Auditoría interna (IPPF/IIA, aseguramiento)
+- [x] dominio/politica-publica — Política pública (ciclo, evidence-based)
+- [x] dominio/administracion-publica — Administración pública (NPM, burocracia)
+- [x] dominio/ferroviario — Industria ferroviaria (FRA/FTA, TTC, señalización)
 ### Rol (nuevos nodos)
 - [ ] rol/head-of-workforce-planning — Workforce Planning (headcount, org design)
 - [ ] rol/head-of-customer-marketing — Customer Marketing (lifecycle, lealtad)
@@ -1730,18 +1730,18 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [ ] rol/head-of-manufacturing — Head of Manufacturing (red de plantas, excelencia)
 
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 643** (Round 44: 640 + Round 45 LOOP 1: +3 deepenings NA = 643). |
-| **Rondas:** 44 completas + Round 45 EN CURSO (3/13). |
-| **Nodos sustrato (NA):** México 64 (+pueblos-indigenas), EE.UU. 52 (+pueblos-indigenas), Canadá 46 (+lenguas-oficiales). |
-| **Nodos dominio:** ~170 (Round 45 +5 pendientes). |
+| **Tópicos ingeridos (acumulado): 648** (Round 44: 640 + Round 45 LOOP 1: +3 + LOOP 2: +5 = 648). |
+| **Rondas:** 44 completas + Round 45 EN CURSO (8/13). |
+| **Nodos sustrato (NA):** México 64, EE.UU. 52, Canadá 46. |
+| **Nodos dominio:** ~175 (Round 45 +5: forense-digital, auditoria-interna, politica-publica, administracion-publica, ferroviario). |
 | **Nodos rol:** ~160 (Round 45 +5 pendientes). |
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
 | **Iterações totales:** 183.
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 183 (Round 45 EN CURSO — 3/13 ingestados). |
-| - **Última ação:** Round 45 iter 183 — LOOP 1 (sustrato NA x3: pueblos-indigenas MX/US + lenguas-oficiales CA) ingestados; modelo centralizado. gap_analysis.py CORREGIDO (reconoce nodos planos + slugs observabilidade/pagamentos/rol prefix; Round 44 reportaba 13 falsos positivos). Taxonomía extendida Round 45 (3 deepenings NA + 10 nodos). |
+| - **Iteración actual:** 183 (Round 45 EN CURSO — 8/13 ingestados). |
+| - **Última ação:** Round 45 iter 183 — LOOP 1 (sustrato NA x3) + LOOP 2 (dominio x5: forense-digital, auditoria-interna, politica-publica, administracion-publica, ferroviario) ingestados; modelo centralizado. gap_analysis.py CORREGIDO. Taxonomía extendida Round 45. |
 - **Bloqueos:** ninguno.
 | - **Cola:** Round 45 EN CURSO (3/13). Pendiente LOOP 2 (dominio x5) + LOOP 3 (rol x5). Próximo: investigar + ingerir dominio + rol. |
 
