@@ -175,6 +175,21 @@ MVAS se indexa como colección `mvas` del CLI **QMD** (Node.js, `@tobilu/qmd` po
 - **Skill `qmd`:** instalación, MCP, modelo multilingüe, y el pitfall de NO confundirlo con el paquete PyPI `qmd` (Python), que es OTRO proyecto.
 - Así Hermes salta directo a la página correcta sin recorrer todo el árbol.
 
+## MODO OPERATIVO: retrieval-first + deepen
+En **CADA** pregunta del usuario, antes de responder:
+1. **Orientación:** leer `index.md` raíz (y del nodo si aplica).
+2. **Retrieval:** `qmd query` (lex/vec/intent) sobre la colección `mvas`; si la
+   pregunta es de una dimensión concreta (rol X, actividad Y, org Z), incluir esos
+   términos en `lex:`/`intent:` para aprovechar el frontmatter transversal indexado.
+3. **Evaluar profundidad:** si las páginas recuperadas son `estado: borrador` o
+   `profundidad: 1` en un tema central, HACER research a fondo (≥3 fuentes) y
+   **ARCHIVAR** la respuesta como página profunda nueva (el wiki crece y la próxima
+   vez ya está compilado → ahorro de tokens).
+4. Responder **con citas** a las páginas del wiki.
+
+Esto es la *"conciencia mayor al hacer preguntas"* que busca el usuario: Hermes no
+re-deriva desde cero si el wiki ya lo tiene, y si no, lo construye y lo deja guardado.
+
 ## Referencia técnica
 
 - Repo (privado): https://github.com/feba33/MVAS — clone: `/opt/data/MVAS`
