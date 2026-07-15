@@ -190,6 +190,26 @@ En **CADA** pregunta del usuario, antes de responder:
 Esto es la *"conciencia mayor al hacer preguntas"* que busca el usuario: Hermes no
 re-deriva desde cero si el wiki ya lo tiene, y si no, lo construye y lo deja guardado.
 
+## CONTEXT MANAGEMENT (operar sobre el wiki grande)
+1. **Index-first / progressive disclosure:** ante una tarea, PRIMERO consulta `index.md`
+   (raíz y del nodo) y `esquema.md` §0–§1. No vuelques el wiki.
+2. **Retrieval-aware:** usa QMD híbrido — `lex` para nombres propios/leyes/roles exactos,
+   `vec` para concepto. Recupera SOLO la sección relevante, no el documento entero.
+3. **Token budget:** lee en orden `log.md` → `index.md` → `README.md` (recortado).
+   Nunca leas >N líneas por nodo sin necesidad.
+4. **Compaction:** si la ventana se llena, escribe resumen de sesión en `working.md` y
+   libera detalle (memoria activa vs archivada).
+5. **Caching:** `esquema.md` + guías son estables → candidatos a context cache.
+
+## MEJORA CONTINUA (meta-instrucciones)
+1. Al terminar cada ciclo: **Reflexion** — "¿seguí esquema.md y esta guía? ¿qué faltó?
+   ¿hay patrón repetible?".
+2. Si detectas una regla útil → **propón** edición a `esquema.md`/`GUIA-HERMES.md`,
+   aplícala y regístrala en `log.md` + CHANGELOG de `working.md`.
+3. El **usuario es autoridad final**: cambios estructurales (nuevas capas, promociones
+   grandes) quedan pendientes de su aprobación; cambios de estilo/no-nodo se auto-aplican.
+4. Riesgo de drift: TODO cambio a guías va con bitácora + versión para revertir.
+
 ## Referencia técnica
 
 - Repo (privado): https://github.com/feba33/MVAS — clone: `/opt/data/MVAS`
