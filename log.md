@@ -702,3 +702,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Reference-only: Wikipedia (EN/ES) + sitios oficiales (gob.mx, whitehouse/USDS, Canada.ca, NIST, MITRE) — sin raw/.
 - gap_analysis.py → 13 sugerencias (0 huecos en nodos existentes); extendida la taxonomía para Round 42.
 - **Round 42 COMPLETA (13/13).** Índice de progreso: 614 tópicos en 179 iteraciones.
+
+## [2026-07-15] ingest | Round 43 — ABIERTA (iter 180) — 3/13 ingestados (LOOP 1 sustrato NA)
+| - gap_analysis.py extendido (Round 43): 3 deepenings NA (industria-aeroespacial MX, industria-espacial US, industria-automotriz CA) + 10 nodos nuevos (5 dominio: open-banking, embedded-finance, agentes-ia, observabilidade, pagamentos; 5 rol: head-of-trust-and-safety, head-of-public-policy, head-of-design-ops, head-of-franchise, head-of-ecommerce).
+| - LOOP 1 sustrato NA (3/13): sustrato/mexico/industria-aeroespacial.md, sustrato/estados-unidos/industria-espacial.md, sustrato/canada/industria-automotriz.md — modelo CENTRALIZADO (pagina + index/log raiz; SIN per-node raw/index/log, por PITFALL 2026-07-15).
+| - Reference-only: Wikipedia EN (Aerospace, Querétaro, Space industry, NASA, SpaceX, Automotive industry in Canada, Magna International, Canada-US Auto Pact) + FEMIA; SIN raw/.
+| - Proximo LOOP: dominio (5) + rol (5) da cola Round 43.
+| - **Round 43 en curso (3/13).** Indice de progreso: ~617 topicos en 180 iteraciones.

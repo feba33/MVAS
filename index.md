@@ -1243,3 +1243,12 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol/head-of-talent-mobility
 - [head-of-talent-mobility](rol/head-of-talent-mobility/head-of-talent-mobility.md) — Head of Talent Mobility: movilidad interna, asignaciones, promoción, sucesión · 🏷️ head-of-talent-mobility,talent-mobility,movilidad-interna,promocion-interna,sucesion · 📅 2026-07-15
 
+### sustrato/mexico (deepening R43)
+- [industria-aeroespacial](sustrato/mexico/industria-aeroespacial.md) — Industria aeroespacial México: ensamble de aeronaves y MRO, clústeres (Querétaro, Baja California), OEMs/Tier-1, FAA/EASA, exportación; vs dominio/aeroespacial · 🏷️ mexico,industria-aeroespacial,querétaro,aerospace,mro,faa,exportacion · 📅 2026-07-15
+
+### sustrato/estados-unidos (deepening R43)
+- [industria-espacial](sustrato/estados-unidos/industria-espacial.md) — Industria espacial EE.UU.: NASA, SpaceX, Space Force, FCC (espectro), Artemis, satélites; vs dominio/espacio · 🏷️ eeuu,industria-espacial,nasa,spacex,fcc,artemis,satelites · 📅 2026-07-15
+
+### sustrato/canada (deepening R43)
+- [industria-automotriz](sustrato/canada/industria-automotriz.md) — Industria automotriz Canadá: Ontario (Windsor, Oshawa), OEMs (GM/Ford/Stellantis/Toyota/Honda), Magna, USMCA reglas de origen, EV; vs dominio/automotriz · 🏷️ canada,industria-automotriz,ontario,oem,magna,usmca,ev · 📅 2026-07-15
+

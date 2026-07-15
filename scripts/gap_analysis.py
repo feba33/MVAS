@@ -85,6 +85,8 @@ TAXONOMY = {
         ("agua", "Agua y recursos hídricos México: CONAGUA, SEMARNAT, sequía, infraestructura hídrica, presas, agua potable/saneamiento, cuencas, retos de escasez"),
         # Round 42 — deepening NA (gobierno digital por país).
         ("gobierno-digital", "Gobierno digital de México: Gob.mx, Agenda Digital Nacional, México Digital, INEGI (datos abiertos), e.firma, identidad digital, servicios digitales ciudadanos; vs gobierno-federal/relaciones-institucionales"),
+        # Round 43 — deepening NA (industria aeroespacial MX).
+        ("industria-aeroespacial", "Industria aeroespacial México: ensamble de aeronaves y MRO, clústeres (Querétaro, Baja California, Sonora), OEMs y Tier-1, FAA/EASA, exportación; vs dominio/aeroespacial"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -146,6 +148,8 @@ TAXONOMY = {
         ("agua", "Agua y recursos hídricos EE.UU.: EPA Office of Water, Clean Water Act, Safe Drinking Water Act, sequía del Oeste, río Colorado, USGS, infraestructura de agua"),
         # Round 42 — deepening NA (gobierno digital por país).
         ("gobierno-digital", "Gobierno digital EE.UU.: US Digital Service, 18F, Login.gov, cloud.gov, federal IT modernization (FITARA), e-gov, identidad digital federal; vs poder-judicial/seguridad-nacional"),
+        # Round 43 — deepening NA (industria espacial US).
+        ("industria-espacial", "Industria espacial EE.UU.: NASA, Space Force, comercial (SpaceX/Blue Origin/ULA), FCC (espectro orbital), Artemis, satélites; vs dominio/espacio"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -207,6 +211,8 @@ TAXONOMY = {
         ("agua", "Agua y recursos hídricos Canadá: agua dulce/Grandes Lagos, gestión de cuencas, ECCC agua, First Nations (agua potable), infraestructura hídrica"),
         # Round 42 — deepening NA (gobierno digital por país).
         ("gobierno-digital", "Gobierno digital Canadá: Canadian Digital Service (CDS), GC digital standards, Service Canada en línea, identidad digital federada, GC Forms, digital gov; vs gobierno-federal/relaciones-institucionales"),
+        # Round 43 — deepening NA (industria automotriz CA).
+        ("industria-automotriz", "Industria automotriz Canadá: Ontario (Windsor, Oshawa, Ingersoll), OEMs (GM/Ford/Stellantis/Toyota/Honda), USMCA reglas de origen auto, transición EV; vs dominio/automotriz"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -706,7 +712,18 @@ NEW_NODES = [
     ("rol/head-of-developer-experience", "Head of Developer Experience (DevEx) — plataforma interna, golden paths, satisfacción de desarrolladores, documentación/tooling; vs platform-engineer/sre"),
     ("rol/head-of-medical-affairs", "Head of Medical Affairs — puente ciencia-clínica-negocio (farmacéutica/biotech), MSLs, evidencia médica, KOLs; vs chief-medical-officer"),
     ("rol/head-of-threat-intelligence", "Head of Threat Intelligence — CTI, inteligencia de amenazas, IOC/ATT&CK mapping, apoyo a SOC/IR; vs security-analyst/penetration-tester"),
-    ("rol/head-of-talent-mobility", "Head of Talent Mobility — movilidad interna, asignaciones, promoción interna, sucesión de talento, vs head-of-talent/gestion-del-talento"),
+    ("head-of-talent-mobility", "Head of Talent Mobility — movilidad interna, asignaciones, promoción interna, sucesión de talento, vs head-of-talent/gestion-del-talento"),
+    # Round 43 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings industria aeroespacial MX, industria espacial US, industria automotriz CA; dominio/rol generales).
+    ("dominio/open-banking", "Open banking / open finance: APIs bancarias, PSD2 / Open Banking Standard, Brasil Open Finance, México Ley Fintech/open finance, consent-driven data sharing; vs fintech/servicios-financieros/embedded-finance"),
+    ("dominio/embedded-finance", "Embedded finance / Banking-as-a-Service (BaaS): pagos/seguros/crédito integrados en plataformas no-financieras, infraestructura fintech, Railsr/Treasury Prime; vs fintech/open-banking/pagos"),
+    ("dominio/agentes-ia", "Agentes de IA (agentic AI): asistentes autónomos, orchestration, MCP/tools, enterprise agents, evals/guardrails, agentic workflows; vs ia-generativa/gobierno-de-ia/ai-engineer"),
+    ("dominio/observabilidad", "Observabilidad (observability): OpenTelemetry, métricas/logs/traces, APM, SLO/error budget, vs plataforma-sre/devops-engineer/site-reliability-engineer"),
+    ("dominio/pagos", "Pagos (payments): esquemas y rails (cards, ACH, RTP, PIX, FedNow, SEPA), clearing/settlement, PSPs, pagos instantáneos, regulación; vs fintech/open-banking/embedded-finance"),
+    ("rol/head-of-trust-and-safety", "Head of Trust & Safety — moderación de contenido, seguridad de plataforma, policy enforcement, abuso/fraude, vs ciso/seguridad-corporativa/seguridad-y-salud-ocupacional"),
+    ("rol/head-of-public-policy", "Head of Public Policy — relación con gobierno y políticas públicas, advocacy, regulación anticipada, vs head-of-public-affairs/relaciones-institucionales"),
+    ("rol/head-of-design-ops", "Head of DesignOps — operaciones de diseño, escalar la org de diseño, tooling/procesos, ops de equipo; vs head-of-design/design-lead/creative-director"),
+    ("rol/head-of-franchise", "Head of Franchise — desarrollo y operación de franquicias, FDD, relación con franquiciatarios, expansión; vs franquicias (dominio)/retail"),
+    ("rol/head-of-ecommerce", "Head of Ecommerce — P&L de comercio electrónico, marketplace/D2C, conversión, fulfillment digital, vs comercio-electronico (dominio)/retail/head-of-marketing-ops"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

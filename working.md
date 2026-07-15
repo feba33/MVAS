@@ -1641,22 +1641,40 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] rol/head-of-threat-intelligence — Head of Threat Intelligence (CTI, ATT&CK, SOC/IR)
 - [x] rol/head-of-talent-mobility — Head of Talent Mobility (movilidad interna, sucesión)
 
+## ✅ COLA ROUND 43 — ABIERTA (3/13 ingestados)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Industria aeroespacial (clústeres Querétaro/Baja California, OEMs e Tier-1, FAA/EASA, MRO, exportação)
+- [x] sustrato/estados-unidos — Industria espacial (NASA, SpaceX, Space Force, FCC/espectro, Artemis, satélites)
+- [x] sustrato/canada — Industria automotriz (Ontário, OEMs, Magna, USMCA regras de origem, EV)
+### Dominio (novos nodos)
+- [ ] dominio/open-banking — Open banking / open finance (APIs, PSD2, Brasil Open Finance, Ley Fintech MX)
+- [ ] dominio/embedded-finance — Embedded finance / BaaS (pagamentos/seguros/crédito integrados)
+- [ ] dominio/agentes-ia — Agentes de IA (agentic AI: orquestração, MCP, enterprise agents)
+- [ ] dominio/observabilidade — Observabilidade (OpenTelemetry, métricas/logs/traces, APM, SLO)
+- [ ] dominio/pagamentos — Pagamentos (payments rails: cards, ACH, RTP, PIX, FedNow, SEPA)
+### Rol (novos nodos)
+- [ ] rol/head-of-trust-and-safety — Head of Trust & Safety (moderação, policy enforcement, abuso/fraude)
+- [ ] rol/head-of-public-policy — Head of Public Policy (relação gov + políticas públicas, advocacy)
+- [ ] rol/head-of-design-ops — Head of DesignOps (operações de design, escalar org de design)
+- [ ] rol/head-of-franchise — Head of Franchise (desenvolvimento/operação de franquias, FDD)
+- [ ] rol/head-of-ecommerce — Head of Ecommerce (P&L de e-commerce, marketplace/D2C)
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 614** (Round 41: 601 + Round 42: +13 = 3 deepenings NA gobierno-digital + 10 nodos nuevos). |
-| **Rondas:** 41 completas (Round 1..41). |
-| **Nodos sustrato (NA):** México 62 (+agua), EE.UU. 50 (+agua), Canadá 44 (+agua). |
+| **Tópicos ingeridos (acumulado): 617** (Round 41: 601 + Round 42: +13 + Round 43: +3 = 3 deepenings NA industria-aeroespacial/espacial/automotriz). |
+| **Rondas:** 42 completas (Round 1..42) + Round 43 en curso. |
+| **Nodos sustrato (NA):** México 63 (+agua), EE.UU. 51 (+agua), Canadá 45 (+agua). |
 | **Nodos dominio:** ~155 (Round 42 +5 nuevos: ciberseguridad, almacenamiento, experiencia-de-empleado, relaciones-institucionales, servicios-financieros). |
 | **Nodos rol:** ~145 (Round 42 +5 nuevos: head-of-strategy, head-of-developer-experience, head-of-medical-affairs, head-of-threat-intelligence, head-of-talent-mobility). |
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
-| **Iteraciones totales:** 179.
+| **Iterações totales:** 180.
 
 ## 🚦 ESTADO
-- **Iteración actual:** 179 (Round 42 COMPLETA — 13/13 ingestados).
-- **Última ação:** Round 42 iter 179 — 3 deepenings sustrato NA (gobierno-digital MX/US/CA) + 10 nodos nuevos (5 dominio + 5 rol) ingestados; Round 42 COMPLETA (13/13). Tópicos acumulados: 614.
+| - **Iteración actual:** 180 (Round 43 en curso — 3/13 ingestados).
+| - **Última ação:** Round 43 iter 180 — LOOP 1 sustrato NA (industria-aeroespacial MX, industria-espacial US, industria-automotriz CA) ingestados; modelo centralizado (página + index/log raíz, sem per-node raw/index/log). Round 43 en curso (3/13). Tópicos acumulados: 617.
 - **Bloqueos:** ninguno.
-- **Cola:** Round 42 CERRADA (13/13). gap_analysis.py reportó 0 huecos en nodos existentes (taxonomía extendida en Round 42). Taxonomía agotada para el alcance actual (solo Norteamérica). Próxima: PAUSAR até nova dirección do usuário (o próximo cron) — sin nuevos países/alcance.
+| - **Cola:** Round 43 ABIERTA (13/13 pendientes → 3/13 ingestados). gap_analysis.py extendido com 3 deepenings NA + 10 nodos novos (Round 43). Próxima: continuar ingest (dominio x5 + rol x5).
 
 ## ▶️ PRÓXIMA TAREA
-- Round 42 COMPLETA (13/13). gap_analysis.py = 0 huecos → taxonomía extinta para o alcance atual (solo Norteamérica). Reabastecimiento em estado estable.
-- PRÓXIMA TAREA: PAUSAR até nova direção do usuário (ou próximo cron). Não ampliar países/alcance sem indicação. Se o usuário definir novo alcance (p.ex. novos países ou novos domínios), reabrir gap_analysis com a taxonomía estendida e rodar Round 43.
+| - Round 43 ABIERTA (3/13 ingestados). gap_analysis.py extendido (3 deepenings NA + 10 nodos). Próxima: LOOP 2 = dominio (open-banking, embedded-finance, agentes-ia, observabilidade, pagamentos) + LOOP 3 = rol (head-of-trust-and-safety, head-of-public-policy, head-of-design-ops, head-of-franchise, head-of-ecommerce).
+| - PRÓXIMA TAREA (Round 43): continuar ingest da COLA — LOOP 2 (dominio x5) e LOOP 3 (rol x5). Sustrato NA (industria-aeroespacial MX, industria-espacial US, industria-automotriz CA) CONCLUÍDO em iter 180.
