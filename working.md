@@ -1529,38 +1529,45 @@ COMPLETO — Round 6 finalizado (7/7 temas en 2 bucles: LOOP 1 dominio x4, LOOP 
 - [x] rol/mlops-engineer — MLOps Engineer
 - [x] rol/deal-desk — Deal Desk
 
-## 📋 COLA — Round 38 (abierta: 3/13 completados; próxima iteración retoma aquí)
+## ✅ COLA — Round 38 (COMPLETA 13/13 ✅)
 Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuevos.
 - [x] sustrato/mexico/sector-servicios — Sector servicios México (~60% PIB)
 - [x] sustrato/estados-unidos/proteccion-consumidor — Protección al consumidor EE.UU. (FTC/CFPB/CPSC)
 - [x] sustrato/canada/sector-servicios — Sector servicios Canadá (~70% PIB)
 - [x] dominio/marketing-digital — NODO NUEVO: SEO/SEM, performance, atribución
 - [x] dominio/diversidad-equidad-inclusion — NODO NUEVO: DEI
-- [ ] dominio/bienestar-laboral — NODO NUEVO: employee wellbeing
-- [ ] dominio/gestion-del-talento — NODO NUEVO: talent management
-- [ ] dominio/customer-success — NODO NUEVO: disciplina CS
 - [x] rol/head-of-customer-success — NODO NUEVO: lidera org CS
-- [ ] rol/payroll-manager — NODO NUEVO: nómina
-- [ ] rol/data-governance-lead — NODO NUEVO: gobernanza de datos
-- [ ] rol/investment-banker — NODO NUEVO: M&A/underwriting
-- [ ] rol/quality-manager — NODO NUEVO: calidad ISO 9001
+- [x] dominio/bienestar-laboral — NODO NUEVO: employee wellbeing
+- [x] dominio/gestion-del-talento — NODO NUEVO: talent management
+- [x] dominio/customer-success — NODO NUEVO: disciplina CS
+- [x] rol/payroll-manager — NODO NUEVO: nómina
+- [x] rol/data-governance-lead — NODO NUEVO: gobernanza de datos
+- [x] rol/investment-banker — NODO NUEVO: M&A/underwriting
+- [x] rol/quality-manager — NODO NUEVO: calidad ISO 9001
+
+### [2026-07-15] Round 38 — ITER 175 | 7 nodos nuevos (CIERRA Round 38)
+- gap_analysis.py → 0 gaps previos. Ingestados los 7 nodos nuevos pendientes de la cola Round 38 (3 dominio + 4 rol), completando la ronda 13/13. (Los 6 previos ya ingestados en iter 173-174.)
+- 3 nodos dominio nuevos: `dominio/bienestar-laboral/`, `dominio/gestion-del-talento/`, `dominio/customer-success/` (superstructura completa + página cada uno).
+- 4 nodos rol nuevos: `rol/payroll-manager/`, `rol/data-governance-lead/`, `rol/investment-banker/`, `rol/quality-manager/` (superstructura completa + página cada uno).
+- Alcance sustrato respetado (solo Norteamérica; Round 38 no agregó países). Reference-only (Wikipedia EN + BLS/OMS/ISO/DAMA/SHRM/Gainsight/CFA; sin raw/).
+- **Round 38 COMPLETA (13/13).** Tópicos acumulados: 562 en 175 iteraciones.
 
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-- **Tópicos ingeridos (acumulado): 555** (Round 38: +6 = 3 deepenings NA + 2 dominio + 1 rol; 7 pendientes).
-- **Rondas:** 37 completas (Round 1..37) + Round 38 en progreso (6/13).
+- **Tópicos ingeridos (acumulado): 562** (Round 38: +13 = 3 deepenings NA + 10 nodos nuevos).
+- **Rondas:** 38 completas (Round 1..38).
 - **Nodos sustrato (NA):** México 59 (+sector-servicios), EE.UU. 47 (+estados), Canadá 41 (+pueblos-indigenas).
-- **Nodos dominio:** ~132 (Round 38 +2 nuevos: marketing-digital, diversidad-equidad-inclusion).
-- **Nodos rol:** ~121 (Round 38 +1 nuevo: head-of-customer-success).
+- **Nodos dominio:** ~135 (Round 38 +5 nuevos: marketing-digital, diversidad-equidad-inclusion, bienestar-laboral, gestion-del-talento, customer-success).
+- **Nodos rol:** ~125 (Round 38 +5 nuevos: head-of-customer-success, payroll-manager, data-governance-lead, investment-banker, quality-manager).
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
-- **Iteraciones totales:** 174.
+- **Iteraciones totales:** 175.
 
 ## 🚦 ESTADO
-- **Iteración actual:** 174 (Round 38 en progreso — 6/13 ingestados; 7 pendientes).
-- **Última acción:** Round 38 iter 174 — gap_analysis extendido (3 NA + 10 nodos); ingestados 3/13: estados-unidos/proteccion-consumidor, canada/sector-servicios (deepenings NA) + dominio/diversidad-equidad-inclusion (nuevo nodo). Acumulado 6/13.
+- **Iteración actual:** 175 (Round 38 COMPLETA — 13/13 ingestados).
+- **Última acción:** Round 38 iter 175 — 7 nodos nuevos (3 dominio + 4 rol) ingestados; Round 38 COMPLETA (13/13). Tópicos acumulados: 562.
 - **Bloqueos:** ninguno.
-- **Cola:** Round 38 ABIERTA (6/13). Próxima: continuar ingest (7 nodos nuevos pendientes).
+- **Cola:** Round 38 CERRADA (13/13). Próxima: `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía (Round 39).
 
 ## ▶️ PRÓXIMA TAREA
-- Continuar ingest de Round 38 (7 pendientes en la COLA Round 38 arriba): los 7 nodos nuevos restantes — dominio/bienestar-laboral, dominio/gestion-del-talento, dominio/customer-success, rol/payroll-manager, rol/data-governance-lead, rol/investment-banker, rol/quality-manager. Mantener alcance NA.
+- Round 38 COMPLETA (13/13). Siguiente paso de reabastecimiento: ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 gaps → extender taxonomía (3 deepenings NA + 10 nodos nuevos) para Round 39, o pausar hasta el próximo cron. Mantener alcance sustrato = solo Norteamérica.
 - Tras vaciar, re-correr `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía para Round 39.

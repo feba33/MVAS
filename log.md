@@ -663,3 +663,10 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Tema 3 (nodo nuevo dominio): `dominio/diversidad-equidad-inclusion/` (superstructura completa + página DEI).
 - Alcance sustrato respetado (solo Norteamérica). Reference-only (Wikipedia EN + ftc.gov/cfpb.gov/cpsc.gov/statcan.gc.ca/eeoc.gov; sin raw/).
 - Índice de progreso: 555 tópicos en 174 iteraciones (Round 38 en progreso, 7 pendientes).
+
+## [2026-07-15] ingest | Round 38 (iter 175, +7 = 13/13) — CIERRA Round 38
+- gap_analysis.py → 0 gaps previos. Ingestados los 7 nodos nuevos pendientes de la cola Round 38 (3 dominio + 4 rol), completando la ronda 13/13.
+- 3 nodos dominio nuevos: `dominio/bienestar-laboral/`, `dominio/gestion-del-talento/`, `dominio/customer-success/` (superstructura completa + página cada uno).
+- 4 nodos rol nuevos: `rol/payroll-manager/`, `rol/data-governance-lead/`, `rol/investment-banker/`, `rol/quality-manager/` (superstructura completa + página cada uno).
+- Alcance sustrato respetado (solo Norteamérica; Round 38 no agregó países). Reference-only (Wikipedia EN + BLS/OMS/ISO/DAMA/SHRM/Gainsight/CFA; sin raw/).
+- **Round 38 COMPLETA (13/13).** Índice de progreso: 562 tópicos en 175 iteraciones.

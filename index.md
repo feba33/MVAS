@@ -1098,3 +1098,24 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol/head-of-customer-success
 - [head-of-customer-success](rol/head-of-customer-success/head-of-customer-success.md) — Head of Customer Success: lidera la org de CS, retención/expansión, operación de cuentas · 🏷️ head-of-customer-success,customer-success,retencion,liderazgo,saas,nrr · 📅 2026-07-14
 
+### dominio/bienestar-laboral
+- [bienestar-laboral](dominio/bienestar-laboral/bienestar-laboral.md) — Bienestar laboral: salud física/mental/financiera, modelo JD-R, burnout, eNPS · 🏷️ bienestar-laboral,employee-wellbeing,salud-mental,engagement,capital-humano,cultura-organizacional,seguridad-y-salud-ocupacional · 📅 2026-07-15
+
+### dominio/gestion-del-talento
+- [gestion-del-talento](dominio/gestion-del-talento/gestion-del-talento.md) — Gestión del talento: ciclo atraer-desarrollar-retener-sucesión, workforce planning, matriz 9-box · 🏷️ gestion-del-talento,talent-management,capital-humano,atraccion-talento,desarrollo,retencion,sucesion,recursos-humanos · 📅 2026-07-15
+
+### dominio/customer-success
+- [customer-success](dominio/customer-success/customer-success.md) — Customer Success: disciplina proactiva de retención/expansión (NRR/churn), health score, vs soporte · 🏷️ customer-success,cs,retencion,expansion,nrr,churn,saas,salud-de-cuenta,lifecycle · 📅 2026-07-15
+
+### rol/payroll-manager
+- [payroll-manager](rol/payroll-manager/payroll-manager.md) — Payroll Manager: procesa nómina y asegura cumplimiento laboral/fiscal (ISR/seguridad social) · 🏷️ payroll-manager,nomina,payroll,compensacion,cumplimiento-laboral,cumplimiento-fiscal,rh,finanzas · 📅 2026-07-15
+
+### rol/data-governance-lead
+- [data-governance-lead](rol/data-governance-lead/data-governance-lead.md) — Data Governance Lead: políticas/calidad/linaje de datos (DAMA-DMBOK), GDPR/CCPA, vs CDO/DPO · 🏷️ data-governance-lead,gobernanza-de-datos,calidad-datos,privacidad,compliance,dpo,cdo · 📅 2026-07-15
+
+### rol/investment-banker
+- [investment-banker](rol/investment-banker/investment-banker.md) — Investment Banker: asesoría M&A, ECM/DCM, underwriting y levantamiento de capital · 🏷️ investment-banker,banca-de-inversion,m-a,underwriting,levantamiento-capital,ecm,dcm,finanzas · 📅 2026-07-15
+
+### rol/quality-manager
+- [quality-manager](rol/quality-manager/quality-manager.md) — Quality Manager: QMS, ISO 9001, auditorías y CAPA, mejora continua (vs QA/QC) · 🏷️ quality-manager,calidad,iso-9001,gestion-de-la-calidad,auditoria-interna,mejora-continua,manufacturing · 📅 2026-07-15
+
