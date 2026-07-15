@@ -1232,6 +1232,21 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [relaciones-institucionales](dominio/relaciones-institucionales/relaciones-institucionales.md) — Relaciones institucionales: gobierno, reguladores, asociaciones, stakeholder management · 🏷️ relaciones-institucionales,stakeholder-management,cabildeo,relaciones-gobierno,lobbying · 📅 2026-07-15
 ### dominio/servicios-financieros
 - [servicios-financieros](dominio/servicios-financieros/servicios-financieros.md) — Servicios financieros: banca, seguros, gestión de activos, fintech, Basilea, open banking · 🏷️ servicios-financieros,banca,seguros,gestion-activos,fintech,basilea,open-banking · 📅 2026-07-15
+### dominio/open-banking
+- [open-banking](dominio/open-banking/open-banking.md) — Open Banking/Open Finance: APIs de datos con consentimiento, PSD2, Brasil Open Finance, Ley Fintech MX · 🏷️ open-banking,open-finance,apis,psd2,finanzas,fintech · 📅 2026-07-15
+
+### dominio/embedded-finance
+- [embedded-finance](dominio/embedded-finance/embedded-finance.md) — Embedded finance / BaaS: servicios financieros embebidos (pagos, préstamos, seguros) vía APIs · 🏷️ embedded-finance,baas,pagos,prestamos,seguros,fintech · 📅 2026-07-15
+
+### dominio/agentes-ia
+- [agentes-ia](dominio/agentes-ia/agentes-ia.md) — Agentes de IA (agentic AI): LLMs con herramientas, orquestación, MCP, AgentOps · 🏷️ agentes-ia,agentic-ai,llm,mcp,orchestration,enterprise-ai · 📅 2026-07-15
+
+### dominio/observabilidade
+- [observabilidade](dominio/observabilidade/observabilidade.md) — Observabilidade: OpenTelemetry, MELT (metrics/logs/traces), APM, SLO · 🏷️ observabilidade,opentelemetry,monitoring,apm,slo,devops · 📅 2026-07-15
+
+### dominio/pagamentos
+- [pagamentos](dominio/pagamentos/pagamentos.md) — Pagamentos (payment rails): tarjetas, ACH, RTP, FedNow, Pix, SEPA, SPEI · 🏷️ pagos,payment-rails,tarjetas,ach,rtp,fednow,pix,sepa · 📅 2026-07-15
+
 ### rol/head-of-strategy
 - [head-of-strategy](rol/head-of-strategy/head-of-strategy.md) — Head of Strategy: estrategia corporativa, planificación, M&A screening, inteligencia competitiva · 🏷️ head-of-strategy,estrategia-corporativa,planificacion-estrategica,m-a,inteligencia-competitiva · 📅 2026-07-15
 ### rol/head-of-developer-experience

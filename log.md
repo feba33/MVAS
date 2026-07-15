@@ -709,3 +709,13 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 | - Reference-only: Wikipedia EN (Aerospace, Querétaro, Space industry, NASA, SpaceX, Automotive industry in Canada, Magna International, Canada-US Auto Pact) + FEMIA; SIN raw/.
 | - Proximo LOOP: dominio (5) + rol (5) da cola Round 43.
 | - **Round 43 en curso (3/13).** Indice de progreso: ~617 topicos en 180 iteraciones.
+
+## [2026-07-15] ingest | Round 43 — LOOP 2 (dominio x5) — 8/13
+- gap_analysis.py (Round 43): 10 nodos nuevos. LOOP 2 = 5 dominio (open-banking, embedded-finance, agentes-ia, observabilidade, pagamentos). Modelo CENTRALIZADO (pagina + index/log raiz; SIN per-node raw/index/log, por PITFALL 2026-07-15).
+- `dominio/open-banking/open-banking.md` — Open Banking/Open Finance: APIs con consentimiento, pilares de datos (MX Ley Fintech 2018 Art.76), PSD2, Brasil Open Finance (800+ inst, 30M consents), modelo de negocio, riesgos.
+- `dominio/embedded-finance/embedded-finance.md` — Embedded finance / BaaS: pagos/préstamos/seguros embebidos, arquitectura (sponsor bank, orquestador), vs open-banking.
+- `dominio/agentes-ia/agentes-ia.md` — Agentes de IA (agentic AI): LLMs + herramientas, MCP, ADLC (IBM), seguridad por capas, AgentOps/observabilidad.
+- `dominio/observabilidade/observabilidade.md` — Observabilidade: MELT, OpenTelemetry (CNCF), APM, SLO/SLI/error budget, observabilidade de agentes.
+- `dominio/pagamentos/pagamentos.md` — Pagamentos (payment rails): tarjetas, ACH, RTP, FedNow, Pix, SEPA, SPEI, wire/SWIFT, stablecoins.
+- Reference-only: Wikipedia (EN) + sitios oficiales (Banxico, BCB, Fed, EU eur-lex, modelcontextprotocol.io, opentelemetry.io) — sin raw/.
+- **Round 43 en curso (8/13).** Proximo LOOP: rol x5 (head-of-trust-and-safety, head-of-public-policy, head-of-design-ops, head-of-franchise, head-of-ecommerce).
