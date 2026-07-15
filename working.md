@@ -1641,40 +1641,46 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] rol/head-of-threat-intelligence — Head of Threat Intelligence (CTI, ATT&CK, SOC/IR)
 - [x] rol/head-of-talent-mobility — Head of Talent Mobility (movilidad interna, sucesión)
 
-## ✅ COLA ROUND 43 — ABIERTA (3/13 ingestados)
+## ✅ COLA ROUND 43 — COMPLETA (13/13)
 ### Sustrato (deepening nodos NA existentes)
 - [x] sustrato/mexico — Industria aeroespacial (clústeres Querétaro/Baja California, OEMs e Tier-1, FAA/EASA, MRO, exportação)
 - [x] sustrato/estados-unidos — Industria espacial (NASA, SpaceX, Space Force, FCC/espectro, Artemis, satélites)
 - [x] sustrato/canada — Industria automotriz (Ontário, OEMs, Magna, USMCA regras de origem, EV)
 ### Dominio (novos nodos)
-- [ ] dominio/open-banking — Open banking / open finance (APIs, PSD2, Brasil Open Finance, Ley Fintech MX)
-- [ ] dominio/embedded-finance — Embedded finance / BaaS (pagamentos/seguros/crédito integrados)
-- [ ] dominio/agentes-ia — Agentes de IA (agentic AI: orquestração, MCP, enterprise agents)
-- [ ] dominio/observabilidade — Observabilidade (OpenTelemetry, métricas/logs/traces, APM, SLO)
-- [ ] dominio/pagamentos — Pagamentos (payments rails: cards, ACH, RTP, PIX, FedNow, SEPA)
+- [x] dominio/open-banking — Open banking / open finance (APIs, PSD2, Brasil Open Finance, Ley Fintech MX)
+- [x] dominio/embedded-finance — Embedded finance / BaaS (pagamentos/seguros/crédito integrados)
+- [x] dominio/agentes-ia — Agentes de IA (agentic AI: orquestração, MCP, enterprise agents)
+- [x] dominio/observabilidade — Observabilidade (OpenTelemetry, métricas/logs/traces, APM, SLO)
+- [x] dominio/pagamentos — Pagamentos (payments rails: cards, ACH, RTP, PIX, FedNow, SEPA)
 ### Rol (novos nodos)
-- [ ] rol/head-of-trust-and-safety — Head of Trust & Safety (moderação, policy enforcement, abuso/fraude)
-- [ ] rol/head-of-public-policy — Head of Public Policy (relação gov + políticas públicas, advocacy)
-- [ ] rol/head-of-design-ops — Head of DesignOps (operações de design, escalar org de design)
-- [ ] rol/head-of-franchise — Head of Franchise (desenvolvimento/operação de franquias, FDD)
-- [ ] rol/head-of-ecommerce — Head of Ecommerce (P&L de e-commerce, marketplace/D2C)
+- [x] rol/head-of-trust-and-safety — Head of Trust & Safety (moderação, policy enforcement, abuso/fraude)
+- [x] rol/head-of-public-policy — Head of Public Policy (relação gov + políticas públicas, advocacy)
+- [x] rol/head-of-design-ops — Head of DesignOps (operações de design, escalar org de design)
+- [x] rol/head-of-franchise — Head of Franchise (desenvolvimento/operação de franquias, FDD)
+- [x] rol/head-of-ecommerce — Head of Ecommerce (P&L de e-commerce, marketplace/D2C)
 
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 617** (Round 41: 601 + Round 42: +13 + Round 43: +3 = 3 deepenings NA industria-aeroespacial/espacial/automotriz). |
-| **Rondas:** 42 completas (Round 1..42) + Round 43 en curso. |
+| **Tópicos ingeridos (acumulado): 627** (Round 41: 601 + Round 42: +13 + Round 43: +3 = 3 deepenings NA industria-aeroespacial/espacial/automotriz). |
+| **Rondas:** 43 completas (Round 1..43) + Round 43 COMPLETA. |
 | **Nodos sustrato (NA):** México 63 (+agua), EE.UU. 51 (+agua), Canadá 45 (+agua). |
-| **Nodos dominio:** ~155 (Round 42 +5 nuevos: ciberseguridad, almacenamiento, experiencia-de-empleado, relaciones-institucionales, servicios-financieros). |
-| **Nodos rol:** ~145 (Round 42 +5 nuevos: head-of-strategy, head-of-developer-experience, head-of-medical-affairs, head-of-threat-intelligence, head-of-talent-mobility). |
+| **Nodos dominio:** ~160 (Round 42 +5 nuevos: ciberseguridad, almacenamiento, experiencia-de-empleado, relaciones-institucionales, servicios-financieros). |
+| **Nodos rol:** ~150 (Round 42 +5 nuevos: head-of-strategy, head-of-developer-experience, head-of-medical-affairs, head-of-threat-intelligence, head-of-talent-mobility). |
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
-| **Iterações totales:** 180.
+| **Iterações totales:** 181.
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 180 (Round 43 en curso — 3/13 ingestados).
-| - **Última ação:** Round 43 iter 180 — LOOP 1 sustrato NA (industria-aeroespacial MX, industria-espacial US, industria-automotriz CA) ingestados; modelo centralizado (página + index/log raíz, sem per-node raw/index/log). Round 43 en curso (3/13). Tópicos acumulados: 617.
+| - **Iteración actual:** 181 (Round 43 COMPLETA — 13/13 ingestados).
+| - **Última ação:** Round 43 iter 181 — LOOP 1+2+3 sustrato NA (industria-aeroespacial MX, industria-espacial US, industria-automotriz CA) ingestados; modelo centralizado (página + index/log raíz, sem per-node raw/index/log). Round 43 COMPLETA (13/13). Tópicos acumulados: 627.
 - **Bloqueos:** ninguno.
-| - **Cola:** Round 43 ABIERTA (13/13 pendientes → 3/13 ingestados). gap_analysis.py extendido com 3 deepenings NA + 10 nodos novos (Round 43). Próxima: continuar ingest (dominio x5 + rol x5).
+| - **Cola:** Round 43 CERRADA (13/13 COMPLETOS). gap_analysis.py extendido com 3 deepenings NA + 10 nodos novos (Round 43). Próxima: continuar ingest (dominio x5 + rol x5).
 
 ## ▶️ PRÓXIMA TAREA
-| - Round 43 ABIERTA (3/13 ingestados). gap_analysis.py extendido (3 deepenings NA + 10 nodos). Próxima: LOOP 2 = dominio (open-banking, embedded-finance, agentes-ia, observabilidade, pagamentos) + LOOP 3 = rol (head-of-trust-and-safety, head-of-public-policy, head-of-design-ops, head-of-franchise, head-of-ecommerce).
-| - PRÓXIMA TAREA (Round 43): continuar ingest da COLA — LOOP 2 (dominio x5) e LOOP 3 (rol x5). Sustrato NA (industria-aeroespacial MX, industria-espacial US, industria-automotriz CA) CONCLUÍDO em iter 180.
+| - Round 43 COMPLETA (13/13). gap_analysis.py extendido (3 deepenings NA + 10 nodos). Próxima: LOOP 2 = dominio (open-banking, embedded-finance, agentes-ia, observabilidade, pagamentos) + LOOP 3 = rol (head-of-trust-and-safety, head-of-public-policy, head-of-design-ops, head-of-franchise, head-of-ecommerce).
+| - PRÓXIMA TAREA (Round 43): REALIZADO (LOOP 2+3 COMPLETOS); proximo: gap_analysis.py → Round 44 (reabastecer taxonimia). Sustrato NA (industria-aeroespacial MX, industria-espacial US, industria-automotriz CA) CONCLUÍDO em iter 181.
+### [2026-07-15] Round 43 — ITER 181 | COMPLETA (13/13)
+- gap_analysis.py (Round 43): 3 deepenings NA + 10 nodos nuevos. Ingestados: LOOP 1 (sustrato NA x3, iter 180) + LOOP 2 (dominio x5) + LOOP 3 (rol x5).
+- 5 dominio: open-banking, embedded-finance, agentes-ia, observabilidade, pagamentos. 5 rol: head-of-trust-and-safety, head-of-public-policy, head-of-design-ops, head-of-franchise, head-of-ecommerce.
+- Modelo centralizado: pagina + index/log raiz; SIN per-node raw/index/log (PITFALL 2026-07-15). Reference-only (URLs en frontmatter; sin raw/).
+- **Round 43 COMPLETA (13/13).** Topicos acumulados: 627. ALCANCE sustrato = solo Norteamérica (respetado).
+- Proximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonimia (Round 44) o pausar hasta proximo cron.

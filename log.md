@@ -728,4 +728,4 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - `rol/head-of-franchise/head-of-franchise.md` — Franchise: desarrollo/expansión, operación de red, FDD (FTC), unit economics.
 - `rol/head-of-ecommerce/head-of-ecommerce.md` — Ecommerce: P&L digital, marketplace/D2C, conversión, fulfillment.
 - Reference-only: Wikipedia (EN) + sitios oficiales (FTC Franchise Rule, NN/g, T&S PA) — sin raw/.
-- **Round 43 COMPLETA (13/13).** Tópicos acumulados: ~622. Próximo: gap_analysis.py; si 0 → reabastecer taxonomía (Round 44) o pausar hasta próximo cron.
+- **Round 43 COMPLETA (13/13).** Tópicos acumulados: ~627. Próximo: gap_analysis.py; si 0 → reabastecer taxonomía (Round 44) o pausar hasta próximo cron.
