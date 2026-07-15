@@ -1282,3 +1282,42 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### sustrato/canada (deepening R43)
 - [industria-automotriz](sustrato/canada/industria-automotriz.md) — Industria automotriz Canadá: Ontario (Windsor, Oshawa), OEMs (GM/Ford/Stellantis/Toyota/Honda), Magna, USMCA reglas de origen, EV; vs dominio/automotriz · 🏷️ canada,industria-automotriz,ontario,oem,magna,usmca,ev · 📅 2026-07-15
 
+### sustrato/mexico (deepening R44)
+- [seguros](sustrato/mexico/seguros.md) — Seguros México: CNSF, seguro auto obligatorio, vida/GMM, fianzas, solvencia; vs dominio/seguros · 🏷️ mexico,seguros,cnsf,fianzas,seguro-auto,seguro-vida · 📅 2026-07-15
+
+### sustrato/estados-unidos (deepening R44)
+- [seguros](sustrato/estados-unidos/seguros.md) — Seguros EE.UU.: NAIC, regulación estatal (McCarran-Ferguson), auto/vida/P&C, guaranty funds; vs dominio/seguros · 🏷️ eeuu,seguros,naic,mccarran-ferguson,seguro-auto,guaranty-funds · 📅 2026-07-15
+
+### sustrato/canada (deepening R44)
+- [seguros](sustrato/canada/seguros.md) — Seguros Canadá: OSFI federal, FSRA/AMF provincial, auto obligatorio, P&C/vida; vs dominio/seguros · 🏷️ canada,seguros,osfi,fsra,seguro-auto,p&c · 📅 2026-07-15
+
+### dominio/gestion-de-crisis
+- [gestion-de-crisis](dominio/gestion-de-crisis.md) — Gestión de crisis / Crisis Management: BCM (ISO 22301), crisis comms, resiliencia; vs seguridad-corporativa/comunicacion-corporativa · 🏷️ gestion-de-crisis,crisis-management,bcm,iso-22301,comunicacion-crisis · 📅 2026-07-15
+
+### dominio/aprendizaje-automatico
+- [aprendizaje-automatico](dominio/aprendizaje-automatico.md) — Aprendizaje automático / Machine Learning: supervisado/no-supervisado, deep learning, MLOps; vs ciencia-de-datos/ia-generativa · 🏷️ machine-learning,aprendizaje-automatico,supervised,unsupervised,deep-learning,mlops · 📅 2026-07-15
+
+### dominio/energia-distribuida
+- [energia-distribuida](dominio/energia-distribuida.md) — Energía distribuída (DER): microredes, VPP, prosumidores, grid edge; vs energias-renovables/energia · 🏷️ energia-distribuida,der,microredes,vpp,prosumidor,grid-edge · 📅 2026-07-15
+
+### dominio/mineria-de-datos
+- [mineria-de-datos](dominio/mineria-de-datos.md) — Minaría de datos / Data Mining: KDD, pattern mining, asociación/clustering, BI; vs ciencia-de-datos/analitica-negocio · 🏷️ mineria-de-datos,data-mining,kdd,pattern-mining,clustering · 📅 2026-07-15
+
+### dominio/mercado-laboral
+- [mercado-laboral](dominio/mercado-laboral.md) — Mercado laboral / Labor Market: oferta/demanda, desempleo, participación, informalidad; vs sustrato trabajo · 🏷️ mercado-laboral,labor-market,empleo,desempleo,fuerza-laboral,informalidad · 📅 2026-07-15
+
+### rol/chief-executive-officer
+- [chief-executive-officer](rol/chief-executive-officer.md) — CEO: máxima autoridade ejecutiva, estrategia, liderazgo del consejo; vs founder-ceo · 🏷️ ceo,chief-executive-officer,c-level,estrategia,liderazgo,consejo · 📅 2026-07-15
+
+### rol/head-of-total-rewards
+- [head-of-total-rewards](rol/head-of-total-rewards.md) — Head of Total Rewards: compensación+benefícios+reconocimiento, filosofía de recompensa; vs compensation-manager/benefits-manager · 🏷️ head-of-total-rewards,total-rewards,compensacion,beneficios,reconocimiento · 📅 2026-07-15
+
+### rol/head-of-merchandising
+- [head-of-merchandising](rol/head-of-merchandising.md) — Head of Merchandising: assortment, categoría, pricing, surtido, experiencia en tienda; vs category-manager/retail · 🏷️ head-of-merchandising,merchandising,category-management,surtido,pricing,retail · 📅 2026-07-15
+
+### rol/head-of-real-estate
+- [head-of-real-estate](rol/head-of-real-estate.md) — Head of Real Estate / CRE: portafolio inmobiliário, transacciones, arrendamientos, workplace; vs head-of-facilities · 🏷️ head-of-real-estate,corporate-real-estate,cre,portafolio-inmobiliario,arrendamientos,workplace · 📅 2026-07-15
+
+### rol/head-of-continuous-improvement
+- [head-of-continuous-improvement](rol/head-of-continuous-improvement.md) — Head of Continuous Improvement / OpEx: lean, Six Sigma, kaizen, eficiencia de procesos; vs quality-manager/chief-quality-officer · 🏷️ head-of-continuous-improvement,opex,lean,six-sigma,kaizen,mejora-continua · 📅 2026-07-15
+

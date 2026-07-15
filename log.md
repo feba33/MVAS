@@ -728,4 +728,12 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - `rol/head-of-franchise/head-of-franchise.md` — Franchise: desarrollo/expansión, operación de red, FDD (FTC), unit economics.
 - `rol/head-of-ecommerce/head-of-ecommerce.md` — Ecommerce: P&L digital, marketplace/D2C, conversión, fulfillment.
 - Reference-only: Wikipedia (EN) + sitios oficiales (FTC Franchise Rule, NN/g, T&S PA) — sin raw/.
-- **Round 43 COMPLETA (13/13).** Tópicos acumulados: ~627. Próximo: gap_analysis.py; si 0 → reabastecer taxonomía (Round 44) o pausar hasta próximo cron.
+| - **Round 43 COMPLETA (13/13).** Tópicos acumulados: ~627. Próximo: gap_analysis.py; si 0 → reabastecer taxonomía (Round 44) o pausar hasta próximo cron.
+
+## [2026-07-15] ingest | Round 44 — LOOP 1-3 (13/13) ROUND CERRADO
+- gap_analysis.py extendido (Round 44): 3 deepenings NA (seguros MX/US/CA) + 10 nodos nuevos (5 dominio: gestion-de-crisis, aprendizaje-automatico, energia-distribuida, mineria-de-datos, mercado-laboral; 5 rol: chief-executive-officer, head-of-total-rewards, head-of-merchandising, head-of-real-estate, head-of-continuous-improvement).
+- LOOP 1 (sustrato NA, 3/13): sustrato/mexico/seguros.md, sustrato/estados-unidos/seguros.md, sustrato/canada/seguros.md — modelo CENTRALIZADO (página + index/log raíz; SIN per-node raw/index/log, por PITFALL 2026-07-15).
+- LOOP 2 (dominio, 5/13): gestion-de-crisis, aprendizaje-automatico, energia-distribuida, mineria-de-datos, mercado-laboral.
+- LOOP 3 (rol, 13/13): chief-executive-officer, head-of-total-rewards, head-of-merchandising, head-of-real-estate, head-of-continuous-improvement.
+- Reference-only: Wikipedia (EN/ES) + sitios oficiales (CNSF, NAIC, OSFI, FSRA, ISO, WorldatWork, SHRM, NCSL, Pew, ABB) — sin raw/.
+- **Round 44 COMPLETA (13/13).** Tópicos acumulados: ~640. Próximo: gap_analysis.py; si 0 → reabastecer taxonomía (Round 45) o pausar hasta próximo cron.

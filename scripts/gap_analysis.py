@@ -87,6 +87,8 @@ TAXONOMY = {
         ("gobierno-digital", "Gobierno digital de México: Gob.mx, Agenda Digital Nacional, México Digital, INEGI (datos abiertos), e.firma, identidad digital, servicios digitales ciudadanos; vs gobierno-federal/relaciones-institucionales"),
         # Round 43 — deepening NA (industria aeroespacial MX).
         ("industria-aeroespacial", "Industria aeroespacial México: ensamble de aeronaves y MRO, clústeres (Querétaro, Baja California, Sonora), OEMs y Tier-1, FAA/EASA, exportación; vs dominio/aeroespacial"),
+        # Round 44 — deepening NA (seguros por país).
+        ("seguros", "Seguros México: CNSF, sector asegurador, seguros obligatorios (auto, gastos médicos mayores, vida), RySO/SOAT; vs dominio/seguros"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -150,6 +152,8 @@ TAXONOMY = {
         ("gobierno-digital", "Gobierno digital EE.UU.: US Digital Service, 18F, Login.gov, cloud.gov, federal IT modernization (FITARA), e-gov, identidad digital federal; vs poder-judicial/seguridad-nacional"),
         # Round 43 — deepening NA (industria espacial US).
         ("industria-espacial", "Industria espacial EE.UU.: NASA, Space Force, comercial (SpaceX/Blue Origin/ULA), FCC (espectro orbital), Artemis, satélites; vs dominio/espacio"),
+        # Round 44 — deepening NA (seguros por país).
+        ("seguros", "Seguros EE.UU.: NAIC, regulación estatal (McCarran-Ferguson), tipos (auto/life/health/P&C), guaranty funds, solvencia; vs dominio/seguros"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -213,6 +217,8 @@ TAXONOMY = {
         ("gobierno-digital", "Gobierno digital Canadá: Canadian Digital Service (CDS), GC digital standards, Service Canada en línea, identidad digital federada, GC Forms, digital gov; vs gobierno-federal/relaciones-institucionales"),
         # Round 43 — deepening NA (industria automotriz CA).
         ("industria-automotriz", "Industria automotriz Canadá: Ontario (Windsor, Oshawa, Ingersoll), OEMs (GM/Ford/Stellantis/Toyota/Honda), USMCA reglas de origen auto, transición EV; vs dominio/automotriz"),
+        # Round 44 — deepening NA (seguros por país).
+        ("seguros", "Seguros Canadá: OSFI (federación), regulación provincial (FSRA Ontario, AMF Québec), P&C/life, seguro de auto provincial, solvencia; vs dominio/seguros"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -724,6 +730,17 @@ NEW_NODES = [
     ("rol/head-of-design-ops", "Head of DesignOps — operaciones de diseño, escalar la org de diseño, tooling/procesos, ops de equipo; vs head-of-design/design-lead/creative-director"),
     ("rol/head-of-franchise", "Head of Franchise — desarrollo y operación de franquicias, FDD, relación con franquiciatarios, expansión; vs franquicias (dominio)/retail"),
     ("rol/head-of-ecommerce", "Head of Ecommerce — P&L de comercio electrónico, marketplace/D2C, conversión, fulfillment digital, vs comercio-electronico (dominio)/retail/head-of-marketing-ops"),
+    # Round 44 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings seguros MX/US/CA; dominio/rol generales).
+    ("dominio/gestion-de-crisis", "Gestión de crisis / crisis management: BCM (ISO 22301), crisis comms, reputación, resiliencia; vs seguridad-corporativa/comunicacion-corporativa"),
+    ("dominio/aprendizaje-automatico", "Aprendizaje automático / Machine Learning: supervisado/no-supervisado, deep learning, MLOps, ciclo de modelos; vs ciencia-de-datos/ia-generativa"),
+    ("dominio/energia-distribuida", "Energía distribuída (DER): microredes, VPP, prosumidores, grid edge, almacenamento distribuído, vs energias-renovables/energia"),
+    ("dominio/mineria-de-datos", "Minaría de datos / data mining: KDD, pattern mining, asociación/clustering, BI, descubrimiento de conocimiento; vs ciencia-de-datos/analitica-negocio"),
+    ("dominio/mercado-laboral", "Mercado laboral / labor market: oferta/demanda, desempleo, empleo, informalidad, migración laboral, políticas ativas; vs sustrato trabajo/relaciones-laborales"),
+    ("rol/chief-executive-officer", "CEO — Chief Executive Officer: máxima autoridade ejecutiva, estrategia, liderazgo del conselho-equiv; vs founder-ceo"),
+    ("rol/head-of-total-rewards", "Head of Total Rewards — compensación+benefícios+reconhecimento, filosofía de recompensa, bandas; vs compensation-manager/benefits-manager"),
+    ("rol/head-of-merchandising", "Head of Merchandising — assortment, categoría, pricing, surtido, experiencia en tienda (retail/CPG); vs category-manager/retail"),
+    ("rol/head-of-real-estate", "Head of Real Estate / Corporate Real Estate (CRE): portafolio inmobiliário, transações, arrendamientos, workplace; vs head-of-facilities"),
+    ("rol/head-of-continuous-improvement", "Head of Continuous Improvement / OpEx: lean, Six Sigma, kaizen, eficiência de procesos; vs quality-manager/chief-quality-officer"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

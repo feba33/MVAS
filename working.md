@@ -1659,28 +1659,55 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] rol/head-of-franchise — Head of Franchise (desenvolvimento/operação de franquias, FDD)
 - [x] rol/head-of-ecommerce — Head of Ecommerce (P&L de e-commerce, marketplace/D2C)
 
+## ✅ COLA ROUND 44 — COMPLETA (13/13)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/seguros.md — Seguros México (CNSF, seguro auto obligatorio, vida/GMM, fianzas)
+- [x] sustrato/estados-unidos/seguros.md — Seguros EE.UU. (NAIC, regulación estatal, guaranty funds)
+- [x] sustrato/canada/seguros.md — Seguros Canadá (OSFI, FSRA/AMF, auto provincial)
+### Dominio (nuevos nodos)
+- [x] dominio/gestion-de-crisis.md — Crisis management (ISO 22301, crisis comms)
+- [x] dominio/aprendizaje-automatico.md — Machine Learning (supervisado/no-supervisado, deep learning)
+- [x] dominio/energia-distribuida.md — DER (microredes, VPP, prosumidores)
+- [x] dominio/mineria-de-datos.md — Data mining (KDD, pattern mining, clustering)
+- [x] dominio/mercado-laboral.md — Labor market (oferta/demanda, desempleo, informalidad)
+### Rol (nuevos nodos)
+- [x] rol/chief-executive-officer.md — CEO (máxima autoridade ejecutiva; vs founder-ceo)
+- [x] rol/head-of-total-rewards.md — Total Rewards (comp+benef+recon; vs compensation/benefits-manager)
+- [x] rol/head-of-merchandising.md — Merchandising (assortment, pricing; vs category-manager/retail)
+- [x] rol/head-of-real-estate.md — Corporate Real Estate (portafolio, transacciones; vs head-of-facilities)
+- [x] rol/head-of-continuous-improvement.md — OpEx (lean, Six Sigma, kaizen)
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 627** (Round 41: 601 + Round 42: +13 + Round 43: +3 = 3 deepenings NA industria-aeroespacial/espacial/automotriz). |
-| **Rondas:** 43 completas (Round 1..43) + Round 43 COMPLETA. |
+| **Tópicos ingeridos (acumulado): 640** (Round 41: 601 + Round 42: +13 + Round 43: +3 + Round 44: +13 = 3 deepenings NA + 10 nodos nuevos dominio/rol). |
+| **Rondas:** 44 completas (Round 1..44) + Round 44 COMPLETA. |
 | **Nodos sustrato (NA):** México 63 (+agua), EE.UU. 51 (+agua), Canadá 45 (+agua). |
-| **Nodos dominio:** ~160 (Round 42 +5 nuevos: ciberseguridad, almacenamiento, experiencia-de-empleado, relaciones-institucionales, servicios-financieros). |
-| **Nodos rol:** ~150 (Round 42 +5 nuevos: head-of-strategy, head-of-developer-experience, head-of-medical-affairs, head-of-threat-intelligence, head-of-talent-mobility). |
+| **Nodos dominio:** ~170 (Round 44 +5 nuevos: gestion-de-crisis, aprendizaje-automatico, energia-distribuida, mineria-de-datos, mercado-laboral). |
+| **Nodos rol:** ~160 (Round 44 +5 nuevos: chief-executive-officer, head-of-total-rewards, head-of-merchandising, head-of-real-estate, head-of-continuous-improvement). |
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
-| **Iterações totales:** 181.
+| **Iterações totales:** 182.
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 181 (Round 43 COMPLETA — 13/13 ingestados).
-| - **Última ação:** Round 43 iter 181 — LOOP 1+2+3 sustrato NA (industria-aeroespacial MX, industria-espacial US, industria-automotriz CA) ingestados; modelo centralizado (página + index/log raíz, sem per-node raw/index/log). Round 43 COMPLETA (13/13). Tópicos acumulados: 627.
+| - **Iteración actual:** 182 (Round 44 COMPLETA — 13/13 ingestados).
+| - **Última ação:** Round 44 iter 182 — LOOP 1+2+3 sustrato NA (seguros MX/US/CA) + 5 dominio + 5 rol ingestados; modelo centralizado (página + index/log raíz, sem per-node raw/index/log). Round 44 COMPLETA (13/13). Tópicos acumulados: 640.
 - **Bloqueos:** ninguno.
-| - **Cola:** Round 43 CERRADA (13/13 COMPLETOS). gap_analysis.py extendido com 3 deepenings NA + 10 nodos novos (Round 43). Próxima: continuar ingest (dominio x5 + rol x5).
+| - **Cola:** Round 44 CERRADA (13/13 COMPLETOS). gap_analysis.py extendido com 3 deepenings NA (seguros MX/US/CA) + 10 nodos novos (Round 44). Próxima: gap_analysis.py → Round 45.
 
 ## ▶️ PRÓXIMA TAREA
 | - Round 43 COMPLETA (13/13). gap_analysis.py extendido (3 deepenings NA + 10 nodos). Próxima: LOOP 2 = dominio (open-banking, embedded-finance, agentes-ia, observabilidade, pagamentos) + LOOP 3 = rol (head-of-trust-and-safety, head-of-public-policy, head-of-design-ops, head-of-franchise, head-of-ecommerce).
-| - PRÓXIMA TAREA (Round 43): REALIZADO (LOOP 2+3 COMPLETOS); proximo: gap_analysis.py → Round 44 (reabastecer taxonimia). Sustrato NA (industria-aeroespacial MX, industria-espacial US, industria-automotriz CA) CONCLUÍDO em iter 181.
+| - Próxima tarefa (Round 44): REALIZADO (LOOP 1+2+3 COMPLETOS); proximo: gap_analysis.py → Round 45 (reabastecer taxonimia). Sustrato NA (seguros MX/US/CA) CONCLUÍDO em iter 182.
 ### [2026-07-15] Round 43 — ITER 181 | COMPLETA (13/13)
 - gap_analysis.py (Round 43): 3 deepenings NA + 10 nodos nuevos. Ingestados: LOOP 1 (sustrato NA x3, iter 180) + LOOP 2 (dominio x5) + LOOP 3 (rol x5).
 - 5 dominio: open-banking, embedded-finance, agentes-ia, observabilidade, pagamentos. 5 rol: head-of-trust-and-safety, head-of-public-policy, head-of-design-ops, head-of-franchise, head-of-ecommerce.
 - Modelo centralizado: pagina + index/log raiz; SIN per-node raw/index/log (PITFALL 2026-07-15). Reference-only (URLs en frontmatter; sin raw/).
 - **Round 43 COMPLETA (13/13).** Topicos acumulados: 627. ALCANCE sustrato = solo Norteamérica (respetado).
-- Proximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonimia (Round 44) o pausar hasta proximo cron.
+| - Proximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonimia (Round 44) o pausar hasta proximo cron.
+
+### [2026-07-15] Round 44 — ITER 182 | COMPLETA (13/13)
+- gap_analysis.py extendido (Round 44): 3 deepenings NA (seguros MX/US/CA) + 10 nodos nuevos (5 dominio: gestion-de-crisis, aprendizaje-automatico, energia-distribuida, mineria-de-datos, mercado-laboral; 5 rol: chief-executive-officer, head-of-total-rewards, head-of-merchandising, head-of-real-estate, head-of-continuous-improvement).
+- LOOP 1 (sustrato NA, 3/13): sustrato/mexico/seguros.md, sustrato/estados-unidos/seguros.md, sustrato/canada/seguros.md — modelo centralizado (página + index/log raíz; SIN per-node raw/index/log, PITFALL 2026-07-15).
+- LOOP 2 (dominio, 5/13): gestion-de-crisis, aprendizaje-automatico, energia-distribuida, mineria-de-datos, mercado-laboral.
+- LOOP 3 (rol, 13/13): chief-executive-officer, head-of-total-rewards, head-of-merchandising, head-of-real-estate, head-of-continuous-improvement.
+- Reference-only: Wikipedia (EN/ES) + sitios oficiales (CNSF, NAIC, OSFI, FSRA, ISO, WorldatWork, SHRM, NCSL, Pew, ABB) — sin raw/.
+- **Round 44 COMPLETA (13/13).** Topicos acumulados: 640. ALCANCE sustrato = solo Norteamérica (respetado).
+- Proximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonimia (Round 45) o pausar até proximo cron.
