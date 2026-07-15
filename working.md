@@ -1602,24 +1602,42 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - LOOP 2 (dominio, 5 nuevos): `liderazgo`, `mercados-financieros`, `finanzas-personales`, `comunicacion-corporativa`, `empresa-familiar` (superstructura completa: raw/, README, index, log).
 - LOOP 3 (rol, 5 nuevos): `principal-engineer`, `talent-acquisition-manager`, `compensation-manager`, `financial-planner`, `general-manager` (superstructura completa).
 - Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia EN + SRE/CBP/CBSA/SEC/CFP/SHRM/WorldatWork/McKinsey/HBR; sin raw/).
-- **Round 40 COMPLETA (13/13).** Tópicos acumulados: 588. ALCANCE sustrato = solo Norteamérica (respetado).
+- **Round 41 COMPLETA (13/13).** Tópicos acumulados: 601. ALCANCE sustrato = solo Norteamérica (respetado).
+
+## ✅ COLA ROUND 41 — COMPLETA (13/13)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico — Agua (CONAGUA/SEMRNAT, cuencas, presas, sequía; vs infraestructura/medio-ambiente)
+- [x] sustrato/estados-unidos — Agua (EPA Clean Water Act/Safe Drinking Water Act, río Colorado, sequía Oeste)
+- [x] sustrato/canada — Agua (Grandes Lagos, ECCC, First Nations, cuencas)
+### Dominio (nuevos nodos)
+- [x] dominio/musica — Industria musical (grabación, publishing, discográficas, streaming, live, sincronización)
+- [x] dominio/cleantech — Clean technology (eficiencia energética, descarbonización, economía circular, agua)
+- [x] dominio/nutricion — Nutrición (clínica, salud pública, dietética, suplementos, etiquetado)
+- [x] dominio/metaverso — Metaverso (mundos virtuales, VR/AR, economía virtual, adopción empresarial)
+- [x] dominio/periodismo — Periodismo (medios, redacción, ética, fact-checking, libertad de prensa)
+### Rol (nuevos nodos)
+- [x] rol/office-manager — Office Manager (gestión oficina/instalaciones, vendors, workplace)
+- [x] rol/esg-manager — ESG Manager (programa ESG, reporting GRI/SASB/ISSB, materialidad)
+- [x] rol/equity-research-analyst — Equity Research Analyst (cobertura acciones, ratings, modelos valuación)
+- [x] rol/security-analyst — Security Analyst (SOC, monitorización amenazas, triaje alertas)
+- [x] rol/corporate-secretary — Corporate Secretary (gobierno corporativo, actas consejo, estatutos)
 
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-- **Tópicos ingeridos (acumulado): 588** (Round 40: +13 = 3 deepenings NA + 10 nodos nuevos).
-- **Rondas:** 40 completas (Round 1..40).
-- **Nodos sustrato (NA):** México 61 (+fronteras), EE.UU. 49 (+fronteras), Canadá 43 (+fronteras).
-- **Nodos dominio:** ~145 (Round 40 +5 nuevos: liderazgo, mercados-financieros, finanzas-personales, comunicacion-corporativa, empresa-familiar).
-- **Nodos rol:** ~135 (Round 40 +5 nuevos: principal-engineer, talent-acquisition-manager, compensation-manager, financial-planner, general-manager).
+| **Tópicos ingeridos (acumulado): 601** (Round 41: +13 = 3 deepenings NA + 10 nodos nuevos). |
+| **Rondas:** 41 completas (Round 1..41). |
+| **Nodos sustrato (NA):** México 62 (+agua), EE.UU. 50 (+agua), Canadá 44 (+agua). |
+| **Nodos dominio:** ~150 (Round 41 +5 nuevos: musica, cleantech, nutricion, metaverso, periodismo). |
+| **Nodos rol:** ~140 (Round 41 +5 nuevos: office-manager, esg-manager, equity-research-analyst, security-analyst, corporate-secretary). |
 - **Organización:** 1 (ejemplo-empresa / NovaTech).
 - **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación.
-- **Iteraciones totales:** 177.
+| **Iteraciones totales:** 178.
 
 ## 🚦 ESTADO
-- **Iteración actual:** 177 (Round 40 COMPLETA — 13/13 ingestados).
-- **Última acción:** Round 40 iter 177 — 3 deepenings sustrato NA (fronteras MX/US/CA) + 10 nodos nuevos (5 dominio + 5 rol) ingestados; Round 40 COMPLETA (13/13). Tópicos acumulados: 588.
+- **Iteración actual:** 178 (Round 41 COMPLETA — 13/13 ingestados).
+- **Última ação:** Round 41 iter 178 — 3 deepenings sustrato NA (agua MX/US/CA) + 10 nodos nuevos (5 dominio + 5 rol) ingestados; Round 41 COMPLETA (13/13). Tópicos acumulados: 601.
 - **Bloqueos:** ninguno.
-- **Cola:** Round 40 CERRADA (13/13). Próxima: `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía (Round 41), o pausar hasta el próximo cron.
+- **Cola:** Round 41 CERRADA (13/13). Próxima: `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía (Round 42), ou pausar até o próximo cron.
 
 ## ▶️ PRÓXIMA TAREA
-- Round 40 COMPLETA (13/13). Siguiente paso de reabastecimiento: ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 gaps → extender taxonomía (3 deepenings NA + 10 nodos nuevos) para Round 41, o pausar hasta el próximo cron. Mantener alcance sustrato = solo Norteamérica.
-- Tras vaciar, re-correr `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía para Round 41.
+- Round 41 COMPLETA (13/13). Siguiente paso de reabastecimiento: ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 gaps → extender taxonomía (3 deepenings NA + 10 nodos nuevos) para Round 42, ou pausar hasta el próximo cron. Mantener alcance sustrato = solo Norteamérica.
+- Tras vaciar, re-correr `python3 scripts/gap_analysis.py`; si 0 → extender taxonomía para Round 42.

@@ -686,3 +686,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - 5 nodos rol nuevos: `rol/principal-engineer/`, `rol/talent-acquisition-manager/`, `rol/compensation-manager/`, `rol/financial-planner/`, `rol/general-manager/` (superstructura completa + página cada uno).
 - Reference-only (Wikipedia EN + SRE/CBP/CBSA/SEC/CFP/SHRM/WorldatWork/McKinsey/HBR; sin raw/).
 - **Round 40 COMPLETA (13/13).** Índice de progreso: 588 tópicos en 177 iteraciones.
+
+## [2026-07-15] ingest | Round 41 (iter 178, +13 = 13/13) — CIERRA Round 41
+- gap_analysis.py → 0 gaps tras Round 40; se EXTENDIÓ `scripts/gap_analysis.py` para Round 41 (3 deepenings sustrato NA + 10 nodos nuevos). Alcance sustrato respetado (solo Norteamérica).
+- 3 deepenings sustrato NA: `sustrato/mexico/agua.md`, `sustrato/estados-unidos/agua.md`, `sustrato/canada/agua.md` (append a index/log de nodos existentes).
+- 5 nodos dominio nuevos: `dominio/musica/`, `dominio/cleantech/`, `dominio/nutricion/`, `dominio/metaverso/`, `dominio/periodismo/` (superstructura completa + página cada uno).
+- 5 nodos rol nuevos: `rol/office-manager/`, `rol/esg-manager/`, `rol/equity-research-analyst/`, `rol/security-analyst/`, `rol/corporate-secretary/` (superstructura completa + página cada uno).
+- Reference-only (Wikipedia EN + CONAGUA/EPA/ECCC/IFPI/IEA/WHO/Matthew Ball/Reuters/SHRM/GRI/CFA/CompTIA/ICSA; sin raw/).
+- **Round 41 COMPLETA (13/13).** Índice de progreso: 601 tópicos en 178 iteraciones.

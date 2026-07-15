@@ -1190,4 +1190,30 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/general-manager
 - [general-manager](rol/general-manager/general-manager.md) — General Manager: dueño de P&L de unidad de negocio/país, operación+comercial · 🏷️ general-manager,gm,pl-y-l,unidad-negocio,operaciones,comercial,p-and-l,liderazgo · 📅 2026-07-15
+### sustrato/mexico (deepening R41)
+- [agua](sustrato/mexico/agua.md) — Agua y recursos hídricos México: CONAGUA/SEMRNAT, cuencas (13 regiones/37), ~4,500 presas, cobertura potable ~96%, riego ~76% del agua; estrés norte e río Bravo (IBWC/CILA) · 🏷️ mexico,agua,recursos-hidricos,conagua,semarnat,cuencas,presas,sequia,saneamiento · 📅 2026-07-15
+### sustrato/estados-unidos (deepening R41)
+- [agua](sustrato/estados-unidos/agua.md) — Agua y recursos hídricos EE.UU.: EPA Office of Water, Clean Water Act (1972), Safe Drinking Water Act (1974), río Colorado (Compacto 1922), sequía do Oeste, USGS · 🏷️ eeuu,agua,recursos-hidricos,epa,clean-water-act,safe-drinking-water-act,colorado-river,sequia,usgs · 📅 2026-07-15
+### sustrato/canada (deepening R41)
+- [agua](sustrato/canada/agua.md) — Agua y recursos hídricos Canadá: agua dulce/Grandes Lagos (~20% mundial), ECCC/Canada Water Agency, First Nations (agua potable), cuencas compartidas · 🏷️ canada,agua,recursos-hidricos,grandes-lagos,eccc,first-nations,cuencas,agua-potable · 📅 2026-07-15
+### dominio/musica
+- [musica](dominio/musica/musica.md) — Industria musical: grabación, publishing, discográficas, streaming, live, sincronización, derechos de autor · 🏷️ musica,industria-musical,grabacion,publishing,discograficas,streaming,derechos-autor,sincronizacion · 📅 2026-07-15
+### dominio/cleantech
+- [cleantech](dominio/cleantech/cleantech.md) — Clean technology: eficiencia energética, descarbonización, economía circular, agua, inversión VC/PE · 🏷️ cleantech,tecnologias-limpias,eficiencia-energetica,descarbonizacion,economia-circular,climatetech,agua,inversion-cleantech · 📅 2026-07-15
+### dominio/nutricion
+- [nutricion](dominio/nutricion/nutricion.md) — Nutrición: clínica, salud pública, dietética, suplementos, etiquetado, obesidad · 🏷️ nutricion,nutricion-clinica,salud-publica,dietetica,suplementos,etiquetado-nutricional,obesidad,alimentos-funcionales · 📅 2026-07-15
+### dominio/metaverso
+- [metaverso](dominio/metaverso/metaverso.md) — Metaverso: mundos virtuales, VR/AR, economía virtual, activos digitales, adopción empresarial · 🏷️ metaverso,mundos-virtuales,realidad-extendida,vr,ar,economia-virtual,activos-digitales,adopcion-empresarial · 📅 2026-07-15
+### dominio/periodismo
+- [periodismo](dominio/periodismo/periodismo.md) — Periodismo: medios, redacción, ética, fact-checking, libertad de prensa, modelo de negocio · 🏷️ periodismo,medios,redaccion,etica-informativa,fact-checking,libertad-prensa,modelo-negocio-medios,desinformacion · 📅 2026-07-15
+### rol/office-manager
+- [office-manager](rol/office-manager/office-manager.md) — Office Manager: gestión de oficina/instalaciones, vendors, workplace, experiencia do empleado · 🏷️ office-manager,gestion-oficina,facilities,workplace,vendors,experiencia-empleado,operaciones-oficina · 📅 2026-07-15
+### rol/esg-manager
+- [esg-manager](rol/esg-manager/esg-manager.md) — ESG Manager: programa ESG, reporting (GRI/SASB/ISSB), materialidad, dados de sostenibilidad · 🏷️ esg-manager,esg,reporting-esg,materialidad,datos-sostenibilidad,sostenibilidad,gobierno-corporativo · 📅 2026-07-15
+### rol/equity-research-analyst
+- [equity-research-analyst](rol/equity-research-analyst/equity-research-analyst.md) — Equity Research Analyst: cobertura de acciones, ratings (buy/hold/sell), modelos de valuación, informes · 🏷️ equity-research-analyst,analisis-acciones,ratings,modelo-valoracion,cobertura,sell-side,informes-inversion · 📅 2026-07-15
+### rol/security-analyst
+- [security-analyst](rol/security-analyst/security-analyst.md) — Security Analyst: SOC, monitorización de amenazas, triaje de alertas, vulnerabilidades · 🏷️ security-analyst,soc,monitorizacion-amenazas,triaje-alertas,vulnerabilidades,respuesta-incidentes · 📅 2026-07-15
+### rol/corporate-secretary
+- [corporate-secretary](rol/corporate-secretary/corporate-secretary.md) — Corporate Secretary: gobierno corporativo, actas de consejo, cumplimiento de estatutos, relación con accionistas · 🏷️ corporate-secretary,gobierno-corporativo,actas-consejo,cumplimiento-estatutos,relacion-accionistas · 📅 2026-07-15
 

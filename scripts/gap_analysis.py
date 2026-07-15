@@ -81,6 +81,8 @@ TAXONOMY = {
         ("pobreza-desigualdad", "Pobreza y desigualdad México: CONEVAL (medición multidimensional: ingresos y carencias sociales), líneas de pobreza, programas sociales ( Prospera/atención a adultos mayores), desigualdad de ingreso; vs seguridad-social/trabajo"),
         # Round 40 — deepening NA (fronteras por país).
         ("fronteras", "Fronteras de México: frontera norte con EE.UU. (3,155 km, 14 cruces oficiales, TMEC/USMCA, aduanas, maquiladoras, Programa Frontera Norte, Plan Frontera Sur/control migratorio sur), migración, comercio transfronterizo, seguridad; vs relaciones-exteriores/comercio-exterior"),
+        # Round 41 — deepening NA (agua por país).
+        ("agua", "Agua y recursos hídricos México: CONAGUA, SEMARNAT, sequía, infraestructura hídrica, presas, agua potable/saneamiento, cuencas, retos de escasez"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -138,6 +140,8 @@ TAXONOMY = {
         ("pobreza-desigualdad", "Pobreza y desigualdad EE.UU.: Census poverty line (federal/state), income inequality (Gini), safety net (SNAP/TANF/earned income tax credit), disparidades raciales; vs seguridad-social/trabajo"),
         # Round 40 — deepening NA (fronteras por país).
         ("fronteras", "Fronteras de EE.UU.: frontera sur con México (CBP/USBP, muros, puertos de entrada) y frontera norte con Canadá (puertos de entrada, comercio USMCA), aduanas (CBP/OEA), migración, seguridad fronteriza; vs inmigracion/seguridad-nacional"),
+        # Round 41 — deepening NA (agua por país).
+        ("agua", "Agua y recursos hídricos EE.UU.: EPA Office of Water, Clean Water Act, Safe Drinking Water Act, sequía del Oeste, río Colorado, USGS, infraestructura de agua"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -195,6 +199,8 @@ TAXONOMY = {
         ("pobreza-desigualdad", "Pobreza y desigualdad Canadá: Market Basket Measure (MBM), Canada's Poverty Reduction Strategy, Ontario/Quebec poverty lines, desigualdad de ingreso; vs seguridad-social/trabajo"),
         # Round 40 — deepening NA (fronteras por país).
         ("fronteras", "Fronteras de Canadá: frontera terrestre más larga del mundo con EE.UU. (8,891 km incl. Alaska), CBSA, puertos de entrada, comercio USMCA, cruces (Windsor-Detroit, Peace Bridge), migración y seguridad; vs relaciones-exteriores/comercio-exterior"),
+        # Round 41 — deepening NA (agua por país).
+        ("agua", "Agua y recursos hídricos Canadá: agua dulce/Grandes Lagos, gestión de cuencas, ECCC agua, First Nations (agua potable), infraestructura hídrica"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -673,6 +679,17 @@ NEW_NODES = [
     ("rol/compensation-manager", "Compensation Manager — diseña estructuras salariales, bandas, job grading, encuestas de mercado, equity; vs benefits-manager/payroll-manager/head-of-people"),
     ("rol/financial-planner", "Financial Planner / Planificador financiero — asesoría de finanzas personales (CFP), retiro, inversiones, seguros, planeación patrimonial; vs wealth-manager/finanzas-personales"),
     ("rol/general-manager", "General Manager (GM) — dueño de P&L de una unidad de negocio/país, P&L completo, operación+comercial; vs managing-director/director-of-operations/country-manager"),
+    # Round 41 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings agua MX/US/CA; dominio/rol generales).
+    ("dominio/musica", "Industria musical: grabación, publishing, discográficas, streaming, live/gira, derechos de autor, mercado global, sincronización"),
+    ("dominio/cleantech", "Clean technology / tecnologías limpias: eficiencia energética, descarbonización, agua, economía circular, climatetech, inversión en cleantech"),
+    ("dominio/nutricion", "Nutrición: nutrición clínica, salud pública, dietética, suplementos, regulación de etiquetado, alimentos funcionales, obesidad"),
+    ("dominio/metaverso", "Metaverso: mundos virtuales persistentes, VR/AR, economía virtual, activos digitales, adopción empresarial, plataformas (Horizon/Roblox)"),
+    ("dominio/periodismo", "Periodismo / journalism: medios, redacción, ética informativa, fact-checking, modelo de negocio (suscripción/digital), libertad de prensa"),
+    ("rol/office-manager", "Office Manager — gestión de oficina/instalaciones, vendors, workplace, facilities operativos, experiencia del empleado en sitio; vs head-of-facilities/executive-assistant"),
+    ("rol/esg-manager", "ESG Manager — programas ESG, reporting (GRI/SASB/TCFD/ISSB), materialidad, datos de sostenibilidad; vs chief-sustainability-officer/chief-risk-officer"),
+    ("rol/equity-research-analyst", "Equity Research Analyst — análisis de acciones, ratings (buy/hold/sell), modelos financieros, informes de cobertura, sell-side; vs economist/portfolio-manager"),
+    ("rol/security-analyst", "Security Analyst — SOC/monitorización de amenazas, triaje de alertas, análisis de vulnerabilidades; vs penetration-tester/security-engineer/security-architect"),
+    ("rol/corporate-secretary", "Corporate Secretary / Company Secretary — actas de consejo/junta, gobierno corporativo, cumplimiento de estatutos, relación con accionistas; vs chief-administrative-officer/board-member"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

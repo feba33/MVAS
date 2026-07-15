@@ -156,3 +156,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-15] ingest | Fronteras de Canadá
 - Fuentes: Wikipedia (EN) Canada–United States border + CBSA (cbsa-asfc.gc.ca) — reference-only (sin raw/).
 - Página: fronteras.md. Frontera terrestre más larga del mundo con EE.UU. (~8,891 km, 119 cruces); CBSA, Windsor-Detroit/Peace Bridge, comercio USMCA. Cross-ref relaciones-exteriores, comercio-exterior. Confianza alta.
+
+## [2026-07-15] ingest | Agua y recursos hídricos de Canadá
+- Fuentes: Wikipedia (EN) Water supply and sanitation in Canada + ECCC (canada.ca) — reference-only (sin raw/).
+- Página: agua.md. ~20% del agua dulce superficial mundial, Grandes Lagos, ECCC/Canada Water Agency, primacía provincial, First Nations (advisores de ebullición), cuencas compartidas (Columbia/Saint Lawrence). Cross-ref recursos-naturales, medio-ambiente. Confianza alta.

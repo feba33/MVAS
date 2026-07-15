@@ -218,3 +218,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-15] ingest | Fronteras de México
 - Fuentes: Wikipedia (EN) Mexico–United States border + SRE (gob.mx) — reference-only (sin raw/).
 - Página: fronteras.md. Frontera norte con EE.UU. (~3,155 km, 14 cruces, T-MEC/USMCA, maquiladoras, Programa Frontera Norte, Plan Frontera Sur); aduanas (SAT/ANAM), migración y seguridad. Cross-ref relaciones-exteriores, comercio-exterior. Confianza alta.
+
+## [2026-07-15] ingest | Agua y recursos hídricos de México
+- Fuentes: Wikipedia (EN) Water supply and sanitation in Mexico + CONAGUA (gob.mx) — reference-only (sin raw/).
+- Página: agua.md. CONAGUA/SEMRNAT, cuencas (13 regiones/37 cuencas), ~4,500 presas, cobertura potable ~96% urbana, riego ~76% del agua concesionada; estrés hídrico norte y río Bravo (IBWC/CILA). Cross-ref infraestructura, medio-ambiente. Confianza alta.
