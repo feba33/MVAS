@@ -89,6 +89,8 @@ TAXONOMY = {
         ("industria-aeroespacial", "Industria aeroespacial México: ensamble de aeronaves y MRO, clústeres (Querétaro, Baja California, Sonora), OEMs y Tier-1, FAA/EASA, exportación; vs dominio/aeroespacial"),
         # Round 44 — deepening NA (seguros por país).
         ("seguros", "Seguros México: CNSF, sector asegurador, seguros obligatorios (auto, gastos médicos mayores, vida), RySO/SOAT; vs dominio/seguros"),
+        # Round 45 — deepening NA (pueblos indígenas MX).
+        ("pueblos-indigenas", "Pueblos indígenas de México: Art. 2 Constitucional, INPI (Instituto Nacional de los Pueblos Indígenas), derechos indígenas, autonomía, lenguas originarias, consulta previa; vs derechos-humanos"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -154,6 +156,8 @@ TAXONOMY = {
         ("industria-espacial", "Industria espacial EE.UU.: NASA, Space Force, comercial (SpaceX/Blue Origin/ULA), FCC (espectro orbital), Artemis, satélites; vs dominio/espacio"),
         # Round 44 — deepening NA (seguros por país).
         ("seguros", "Seguros EE.UU.: NAIC, regulación estatal (McCarran-Ferguson), tipos (auto/life/health/P&C), guaranty funds, solvencia; vs dominio/seguros"),
+        # Round 45 — deepening NA (pueblos indígenas US).
+        ("pueblos-indigenas", "Pueblos indígenas EE.UU. (Native Americans / American Indians): Bureau of Indian Affairs (BIA), tribal sovereignty, trust lands, tratados, NCAI, consulta; vs derechos-humanos"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -219,6 +223,8 @@ TAXONOMY = {
         ("industria-automotriz", "Industria automotriz Canadá: Ontario (Windsor, Oshawa, Ingersoll), OEMs (GM/Ford/Stellantis/Toyota/Honda), USMCA reglas de origen auto, transición EV; vs dominio/automotriz"),
         # Round 44 — deepening NA (seguros por país).
         ("seguros", "Seguros Canadá: OSFI (federación), regulación provincial (FSRA Ontario, AMF Québec), P&C/life, seguro de auto provincial, solvencia; vs dominio/seguros"),
+        # Round 45 — deepening NA (lenguas oficiales CA).
+        ("lenguas-oficiales", "Lenguas oficiales Canadá: Official Languages Act, bilingüismo francés/inglés, Comisionado de Lenguas Oficiales, servicios en ambos idiomas, equilibrio; vs cultura"),
     ],
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
@@ -718,13 +724,13 @@ NEW_NODES = [
     ("rol/head-of-developer-experience", "Head of Developer Experience (DevEx) — plataforma interna, golden paths, satisfacción de desarrolladores, documentación/tooling; vs platform-engineer/sre"),
     ("rol/head-of-medical-affairs", "Head of Medical Affairs — puente ciencia-clínica-negocio (farmacéutica/biotech), MSLs, evidencia médica, KOLs; vs chief-medical-officer"),
     ("rol/head-of-threat-intelligence", "Head of Threat Intelligence — CTI, inteligencia de amenazas, IOC/ATT&CK mapping, apoyo a SOC/IR; vs security-analyst/penetration-tester"),
-    ("head-of-talent-mobility", "Head of Talent Mobility — movilidad interna, asignaciones, promoción interna, sucesión de talento, vs head-of-talent/gestion-del-talento"),
+    ("rol/head-of-talent-mobility", "Head of Talent Mobility — movilidad interna, asignaciones, promoción interna, sucesión de talento, vs head-of-talent/gestion-del-talento"),
     # Round 43 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings industria aeroespacial MX, industria espacial US, industria automotriz CA; dominio/rol generales).
     ("dominio/open-banking", "Open banking / open finance: APIs bancarias, PSD2 / Open Banking Standard, Brasil Open Finance, México Ley Fintech/open finance, consent-driven data sharing; vs fintech/servicios-financieros/embedded-finance"),
     ("dominio/embedded-finance", "Embedded finance / Banking-as-a-Service (BaaS): pagos/seguros/crédito integrados en plataformas no-financieras, infraestructura fintech, Railsr/Treasury Prime; vs fintech/open-banking/pagos"),
     ("dominio/agentes-ia", "Agentes de IA (agentic AI): asistentes autónomos, orchestration, MCP/tools, enterprise agents, evals/guardrails, agentic workflows; vs ia-generativa/gobierno-de-ia/ai-engineer"),
-    ("dominio/observabilidad", "Observabilidad (observability): OpenTelemetry, métricas/logs/traces, APM, SLO/error budget, vs plataforma-sre/devops-engineer/site-reliability-engineer"),
-    ("dominio/pagos", "Pagos (payments): esquemas y rails (cards, ACH, RTP, PIX, FedNow, SEPA), clearing/settlement, PSPs, pagos instantáneos, regulación; vs fintech/open-banking/embedded-finance"),
+    ("dominio/observabilidade", "Observabilidad (observability): OpenTelemetry, métricas/logs/traces, APM, SLO/error budget, vs plataforma-sre/devops-engineer/site-reliability-engineer"),
+    ("dominio/pagamentos", "Pagos (payments): esquemas y rails (cards, ACH, RTP, PIX, FedNow, SEPA), clearing/settlement, PSPs, pagos instantáneos, regulación; vs fintech/open-banking/embedded-finance"),
     ("rol/head-of-trust-and-safety", "Head of Trust & Safety — moderación de contenido, seguridad de plataforma, policy enforcement, abuso/fraude, vs ciso/seguridad-corporativa/seguridad-y-salud-ocupacional"),
     ("rol/head-of-public-policy", "Head of Public Policy — relación con gobierno y políticas públicas, advocacy, regulación anticipada, vs head-of-public-affairs/relaciones-institucionales"),
     ("rol/head-of-design-ops", "Head of DesignOps — operaciones de diseño, escalar la org de diseño, tooling/procesos, ops de equipo; vs head-of-design/design-lead/creative-director"),
@@ -741,9 +747,36 @@ NEW_NODES = [
     ("rol/head-of-merchandising", "Head of Merchandising — assortment, categoría, pricing, surtido, experiencia en tienda (retail/CPG); vs category-manager/retail"),
     ("rol/head-of-real-estate", "Head of Real Estate / Corporate Real Estate (CRE): portafolio inmobiliário, transações, arrendamientos, workplace; vs head-of-facilities"),
     ("rol/head-of-continuous-improvement", "Head of Continuous Improvement / OpEx: lean, Six Sigma, kaizen, eficiência de procesos; vs quality-manager/chief-quality-officer"),
+    # Round 45 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings pueblos-indigenas MX/US + lenguas-oficiales CA; dominio/rol generales).
+    ("dominio/forense-digital", "Forence digital / digital forensics: adquisición y preservación de evidencia, análisis de dispositivos, respuesta a incidentes, cadena de custodia, vs ciberseguridad/ciberdefensa"),
+    ("dominio/auditoria-interna", "Auditoría interna: IPPF/IIA, aseguramiento y consultoría, evaluación de controles y riesgo, gobierno, vs contabilidad/auditoria (financiera) y rol/auditor-interno"),
+    ("dominio/politica-publica", "Política pública: análisis, formulación, implementación y evaluación de políticas (evidence-based), ciclo de política, instrumentos; vs relaciones-institucionales/head-of-public-policy"),
+    ("dominio/administracion-publica", "Administración pública: New Public Management, burocracia, gestión pública, sector público como disciplina; vs gobierno-publico/contratacion-publica"),
+    ("dominio/ferroviario", "Industria ferroviaria: transporte de carga/pasajeros, FRA/FTA (US), TTC (CA), regulación, señalización, vs transporte/aviacion/maritimo"),
+    ("rol/head-of-workforce-planning", "Head of Workforce Planning — planeación de fuerza laboral, headcount, oferta/demanda de talento, org design, analítica de personal; vs hr-business-partner/head-of-people/talent-acquisition-manager"),
+    ("rol/head-of-customer-marketing", "Head of Customer Marketing — marketing a base instalada, lifecycle, lealtad, advocacía, comunidad de clientes; vs lifecycle-email/marketing-manager/head-of-marketing-ops"),
+    ("rol/head-of-incident-response", "Head of Incident Response — lidera CSIRT/IR, respuesta a brechas, containment/eradication, post-mortem, vs security-analyst/penetration-tester/ciso"),
+    ("rol/head-of-business-technology", "Head of Business Technology — sistemas empresariales (ERP, CRM), puente negocio-TI, habilitación digital de operación; vs cio/head-of-it/enterprise-architect"),
+    ("rol/head-of-manufacturing", "Head of Manufacturing — red de plantas, excelencia de producción, calidad/costo/entrega a escala, vs plant-manager/vp-operations/head-of-operations"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}
+
+
+def node_exists(path: str) -> bool:
+    """True si el nodo ya existe en el repo, sea como directorio
+    (dominio/foo/), como archivo plano (dominio/foo.md) o como página dentro
+    de subcarpeta (dominio/foo/foo.md). Evita falsos positivos en NEW_NODES
+    cuando el nodo fue ingestado con layout plano o con slug diverso."""
+    full = os.path.join(ROOT, path)
+    if os.path.isdir(full):
+        return True
+    if os.path.isfile(full + ".md"):
+        return True
+    base = os.path.basename(path)
+    if os.path.isfile(os.path.join(full, base + ".md")):
+        return True
+    return False
 
 
 def existing_pages(node: str) -> set:
@@ -779,7 +812,7 @@ def main() -> None:
     for path, desc in NEW_NODES:
         if path.startswith("sustrato/") and path.split("/", 1)[1] not in ALLOWED_SUSTRATO:
             continue  # fuera de alcance: no es país de Norteamérica
-        if not os.path.isdir(os.path.join(ROOT, path)):
+        if not node_exists(path):
             print(f"- {path}: {desc}  <- NUEVO")
             _any_new = True
     if not _any_new:
