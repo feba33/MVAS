@@ -887,6 +887,23 @@ NEW_NODES += [
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}
 
+# Round 53 (iter 191) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("seguridad-nacional", "Seguridad nacional Mexico: CNS, Consejo de Seguridad Nacional, SEDENA/SSEM, Guardia Nacional, intelligence, amenazas hibridas, ciberdefensa; vs seguridad-publica/defensa"))
+TAXONOMY["sustrato/estados-unidos"].append(("industria-manufacturera", "Industria manufacturera EE.UU.: sector manufacturero, reshoring/nearshoring, CHIPS/IRA, semiconductors, automotriz, aeroespacial, PMI, Census; vs sector-manufacturero (canada) y dominio/manufactura"))
+TAXONOMY["sustrato/canada"].append(("industria-aeroespacial", "Industria aeroespacial Canada: Quebec (Montreal), Bombardier, Bell Textron Canada, MDA, Pratt & Whitney Canada, MRO, Transport Canada, EASA/FAA, exportacion; vs dominio/aeroespacial y sustrato/estados-unidos industria-espacial"))
+NEW_NODES += [
+    ("dominio/banca-privada", "Banca privada / private banking: gestion de patrimonio para HNW/UHNW, family office, wealth structuring, vs gestion-de-activos/servicios-financieros"),
+    ("dominio/arbitraje-internacional", "Arbitraje internacional de inversiones y comercial: CIADI/ICSID, CNUDMI/UNCITRAL, TLC/ISDS, laudo extranjero, vs arbitraje/comercio-internacional"),
+    ("dominio/telecomunicaciones-corporativas", "Telecomunicaciones corporativas / enterprise telecom: UCaaS, VoIP, redes MPLS/SD-WAN, carrier, vs telecomunicaciones"),
+    ("dominio/ciberseguridad-industrial", "Ciberseguridad industrial / ICS ot: ISA/IEC 62443, NERC CIP, SCADA, OT security, vs ciberseguridad-ot/ciberdefensa"),
+    ("dominio/monetizacion", "Monetizacion / revenue monetization: modelos de ingresos, pricing, ads, subscription, freemium, marketplace take-rate; vs pricing/modelos-de-negocio"),
+    ("dominio/neumaticos", "Industria de neumaticos / tire industry: fabricacion, distribucion, retail, reciclaje, marcas globales; vs automotriz/manufactura"),
+    ("dominio/seguros-de-credito", "Seguros de credito / credit insurance: trade credit, export credit (ECAs), factoring con seguro, vs reaseguro/riesgo-de-credito"),
+    ("dominio/gestoria", "Gestoria / corporate secretarial & compliance local: registros mercantiles, permisos, poder notarial, pymes; vs administracion-publica/contabilidad"),
+    ("rol/head-of-underwriting", "Head of Underwriting — lidera suscripcion de riesgo (seguros/credito), pricing de riesgo, portafolio, vs underwriter/chief-risk-officer"),
+    ("rol/head-of-trade-compliance", "Head of Trade Compliance — export controls (EAR/ITAR), sanciones (OFAC), aduanas, vs regulatory-affairs/compliance-officer"),
+]
+
 
 def node_exists(path: str) -> bool:
     """True si el nodo ya existe en el repo, sea como directorio

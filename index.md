@@ -67,6 +67,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [pymes](sustrato/mexico/pymes.md) — PyMEs México: ~90% de unidades económicas, ~50% del PIB; NAFIN/Bancomext, banca de desarrollo, IMMEX; vs emprendimiento/dominio/pymes · 🏷️ mexico,pymes,economia,empleo,financiamiento,empresa · 📅 2026-07-16
 - [cultura](sustrato/mexico/cultura.md) — Cultura de México: identidad mestiza, CONACULTA/Secretaría de Cultura, 36 sitios UNESCO, 9 elementos inmaterial, LFCDC, economía creativa · 🏷️ mexico,cultura,patrimonio,industrias-culturales,conaculta,unesco,derechos-culturales · 📅 2026-07-16
 - [educacion-superior](sustrato/mexico/educacion-superior.md) — Educación superior México: autonomía (art.3º), UNAM/IPN/ANUIES, PRODEP, PNPC, cobertura ~50% · 🏷️ mexico,educacion-superior,unam,ipn,anuies,autonomia,posgrado,prodep · 📅 2026-07-16
+- [seguridad-nacional](sustrato/mexico/seguridad-nacional.md) — Seguridad nacional Mexico: CNS, SEDENA/SSEM, Guardia Nacional (mando militar 2025), CNI, CERT/ciberdefensa, LSN (tags: mexico,seguridad-nacional,cns,sedena,inteligencia,ciberdefensa) · 2026-07-16
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -117,6 +118,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [pymes](sustrato/estados-unidos/pymes.md) — Small business EE.UU.: 99.9% de empresas, ~45.9% empleo, 43.5%+ PIB; SBA, 8(a)/HUBZone, gobierno federal como cliente; vs emprendimiento/dominio/pymes · 🏷️ estados-unidos,small-business,pyme,economia,empleo,sba · 📅 2026-07-16
 - [economia](sustrato/estados-unidos/economia.md) — Economía de EE.UU.: mayor PIB nominal (~USD30B), servicios ~80%, Fed/BEA/Census, mercado laboral, comercio exterior, dólar reserva · 🏷️ estados-unidos,economia,pib,sectores,fed,bea,census,empleo,comercio · 📅 2026-07-16
 - [energia-renovables](sustrato/estados-unidos/energia-renovables.md) — Energía renovable EE.UU.: IRA 2022 (ITC/PTC), EPA, Treasury/IRS guía, solar/eólica/almacenamiento, grid; vs energia · 🏷️ eeuu,energia-renovable,solar,eolica,almacenamiento,ira,epa,treasury,grid · 📅 2026-07-16
+- [industria-manufacturera](sustrato/estados-unidos/industria-manufacturera.md) — Manufactura EE.UU.: 2o mayor del mundo (~USD2.9B), CHIPS/IRA, semiconductores, automotriz, aeroespacial, PMI (tags: eeuu,manufactura,reshoring,chips-act,ira,semiconductores,automotriz) · 2026-07-16
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -158,6 +160,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [lenguas-oficiales](sustrato/canada/lenguas-oficiales.md) — Lenguas oficiales Canadá: Official Languages Act 1969/1988/2023, bilingüismo constitucional, Comisionado, servicios FR/EN · 🏷️ canada,lenguas-oficiales,bilingue,official-languages-act,comisionado,frances-ingles,part-vii · 📅 2026-07-15
 - [politica-fiscal](sustrato/canada/politica-fiscal.md) — Política fiscal Canadá: Department of Finance, presupuesto federal, déficit federal $52.3B (2023, 1.8% PIB), deuda ~$1.28T (2025); vs impuestos/finanzas-publicas · 🏷️ canada,politica-fiscal,department-of-finance,presupuesto,deficit,deuda,pib,statcan · 📅 2026-07-16
 - [pymes](sustrato/canada/pymes.md) — PyMEs Canadá: PME <500 empleados, >60% empleo privado; BDC, EDC, Canadá Emprende; exportadoras; vs emprendimiento/dominio/pymes · 🏷️ canada,pyme,economia,empleo,financiamiento,pymes · 📅 2026-07-16
+- [industria-aeroespacial](sustrato/canada/industria-aeroespacial.md) — Aeroespacial Canada: Quebec/Montreal, Bombardier, Bell, MDA (Canadarm), Pratt&Whitney Canada, MRO, Transport Canada (tags: canada,aeroespacial,quebec,bombardier,bell,mda,mro) · 2026-07-16
 - [mineria](sustrato/canada/mineria.md) — Minería Canadá: oro/níquel/uranio, NRCan, clústeres (Ontario/Québec/BC), regulación fed/prov, impacto indígena, minerales críticos · 🏷️ canada,mineria,nrcan,oruro,niquel,urano,recursos-naturales,exportacion · 📅 2026-07-16
 - [educacion-superior](sustrato/canada/educacion-superior.md) — Educación superior Canadá: PSE provincial/territorial, universidades/colleges/CEGEP, Canada Student Loans, internacionalización; vs educacion · 🏷️ canada,educacion-superior,universidades,colleges,pse,provincias · 📅 2026-07-16
 
@@ -770,6 +773,14 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol/creative-director
 - [[rol/creative-director|Creative Director — visión creativa de marca/producto, dirección de arte; vs Design Lead/CDO]]
 
+- [banca-privada](dominio/banca-privada.md) — Banca privada: gestion de patrimonio HNW/UHNW, family office, wealth structuring; vs gestion-de-activos (tags: banca-privada,private-banking,wealth-management,hnw,family-office) · 2026-07-16
+- [arbitraje-internacional](dominio/arbitraje-internacional.md) — Arbitraje internacional: CIADI/ICSID, CNUDMI/UNCITRAL, ISDS, TLC, Convencion Nueva York; vs arbitraje (tags: arbitraje-internacional,ciadi,uncitral,isds,tratados-inversion) · 2026-07-16
+- [telecomunicaciones-corporativas](dominio/telecomunicaciones-corporativas.md) — Telecom corporativas: UCaaS, VoIP, MPLS/SD-WAN, carrier, SASE; vs telecomunicaciones (tags: telecomunicaciones-corporativas,ucaas,voip,sd-wan,carrier) · 2026-07-16
+- [ciberseguridad-industrial](dominio/ciberseguridad-industrial.md) — Ciberseguridad industrial/ICS-OT: ISA/IEC 62443, NERC CIP, SCADA; vs ciberseguridad-ot (tags: ciberseguridad-industrial,ics,ot,isa-iec-62443,nerc-cip,scada) · 2026-07-16
+- [monetizacion](dominio/monetizacion.md) — Monetizacion: modelos de ingresos (subscripcion, freemium, ads, take-rate), LTV/ARPU; vs pricing (tags: monetizacion,revenue,modelos-ingresos,subscription,freemium,ads) · 2026-07-16
+- [neumaticos](dominio/neumaticos.md) — Industria de neumaticos: fabricacion, distribucion, retail, reciclaje, Top3 (Bridgestone/Michelin/Goodyear); vs automotriz (tags: neumaticos,tire-industry,fabricacion,distribucion,retail,reciclaje) · 2026-07-16
+- [seguros-de-credito](dominio/seguros-de-credito.md) — Seguros de credito: trade credit, export credit (ECAs), factoring asegurado; vs reaseguro (tags: seguros-de-credito,credit-insurance,trade-credit,export-credit,eca) · 2026-07-16
+- [gestoria](dominio/gestoria.md) — Gestoria: tramites ante autoridades (registro mercantil, permisos, poder notarial), PyMEs; vs administracion-publica (tags: gestoria,gestoria-administrativa,registros-mercantiles,permisos,pymes) · 2026-07-16
 ### rol/site-reliability-engineer
 - [[rol/site-reliability-engineer|Site Reliability Engineer (SRE) — fiabilidad, SLO/error budget, operaciones; vs DevOps/Platform]]
 
@@ -779,6 +790,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol/managing-director
 - [[rol/managing-director|Managing Director (MD) — dueño de P&L de una unidad de negocio/país; vs CEO/General Manager]]
 
+- [head-of-underwriting](rol/head-of-underwriting.md) — Head of Underwriting: lider de suscripcion de riesgo (seguros/credito), pricing, portafolio; vs underwriter/CRO (tags: head-of-underwriting,underwriting,suscripcion,riesgo,pricing,seguros) · 2026-07-16
+- [head-of-trade-compliance](rol/head-of-trade-compliance.md) — Head of Trade Compliance: EAR/ITAR, sanciones OFAC, aduanas; vs regulatory-affairs (tags: head-of-trade-compliance,export-controls,ear,itars,ofac,sanciones,aduana) · 2026-07-16
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09
 

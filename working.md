@@ -1677,6 +1677,27 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] rol/head-of-real-estate.md — Corporate Real Estate (portafolio, transacciones; vs head-of-facilities)
 - [x] rol/head-of-continuous-improvement.md — OpEx (lean, Six Sigma, kaizen)
 
+
+## ✅ COLA ROUND 53 — COMPLETA (13/13)
+> gap_analysis.py (iter 190) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 53 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página + integración en index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/seguridad-nacional.md — Seguridad nacional México (CNS, SEDENA/SSEM, Guardia Nacional mando militar 2025, CNI, CERT/ciberdefensa, LSN)
+- [x] sustrato/estados-unidos/industria-manufacturera.md — Industria manufacturera EE.UU. (2o mayor del mundo ~USD2.9B, CHIPS/IRA, semiconductores, automotriz, aeroespacial, PMI)
+- [x] sustrato/canada/industria-aeroespacial.md — Industria aeroespacial Canadá (Québec/Montreal, Bombardier, Bell, MDA Canadarm, Pratt&Whitney Canada, MRO, Transport Canada)
+### Dominio (nuevos nodos)
+- [x] dominio/banca-privada.md — Banca privada (HNW/UHNW, family office, wealth structuring)
+- [x] dominio/arbitraje-internacional.md — Arbitraje internacional (CIADI/ICSID, CNUDMI/UNCITRAL, ISDS, Convención Nueva York)
+- [x] dominio/telecomunicaciones-corporativas.md — Telecomunicaciones corporativas (UCaaS, VoIP, MPLS/SD-WAN, SASE)
+- [x] dominio/ciberseguridad-industrial.md — Ciberseguridad industrial/ICS-OT (ISA/IEC 62443, NERC CIP, SCADA)
+- [x] dominio/monetizacion.md — Monetización (subscripción, freemium, ads, take-rate, LTV)
+- [x] dominio/neumaticos.md — Industria de neumáticos (fabricación, distribución, retail, reciclaje, Top3)
+- [x] dominio/seguros-de-credito.md — Seguros de crédito (trade credit, ECAs, factoring asegurado)
+- [x] dominio/gestoria.md — Gestoría (trámites, registro mercantil, permisos, PyMEs)
+### Rol (nuevos nodos)
+- [x] rol/head-of-underwriting.md — Head of Underwriting (suscripción de riesgo, pricing, portafolio)
+- [x] rol/head-of-trade-compliance.md — Head of Trade Compliance (EAR/ITAR, OFAC, aduanas)
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
 | **Tópicos ingeridos (acumulado): 640** (Round 41: 601 + Round 42: +13 + Round 43: +3 + Round 44: +13 = 3 deepenings NA + 10 nodos nuevos dominio/rol). |
 | **Rondas:** 44 completas (Round 1..44) + Round 44 COMPLETA. |
@@ -1925,21 +1946,21 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] rol/head-of-corporate-affairs.md — Head of Corporate Affairs (asuntos corporativos, gobierno/medios)
 
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 744** (Round 51: 731; Round 52: 744/13). |
-| **Rondas:** 52 completas (Round 1..52). |
-| **Nodos sustrato (NA):** México 71 (+transparencia), EE.UU. 59 (+derechos-civiles), Canadá 52 (+ciudadania). |
-| **Nodos dominio:** ~210 (Round 52 +5). |
-| **Nodos rol:** ~203 (Round 52 +5). |
+| **Tópicos ingeridos (acumulado): 757** (Round 51: 731; Round 52: 744/13; Round 53: 757/13). |
+| **Rondas:** 53 completas (Round 1..53). |
+| **Nodos sustrato (NA):** México 72 (+seguridad-nacional), EE.UU. 60 (+industria-manufacturera), Canadá 53 (+industria-aeroespacial). |
+| **Nodos dominio:** ~218 (Round 52 +5; Round 53 +8). |
+| **Nodos rol:** ~205 (Round 52 +5; Round 53 +2). |
 | **Organización:** 1 (ejemplo-empresa / NovaTech). |
 | **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
-| **Iterações totales:** 190. |
+| **Iterações totales:** 191. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 190 (Round 52 COMPLETA — 13/13). |
-| - **Última ação:** Round 52 ingerida (13/13): 3 deepenings sustrato NA (transparencia MX, derechos-civiles US, ciudadania CA) + 5 nodos dominio (ciberseguridad-ciudadana, derecho-procesal, satelites, ciencia-espacial, gestion-portuaria) + 5 nodos rol (director-of-product, head-of-customer-communications, head-of-analytics, head-of-revenue, head-of-corporate-affairs). Modelo centralizado; reference-only (URL en frontmatter; sin raw/). Integrando index.md/log.md/working.md. |
+| - **Iteración actual:** 191 (Round 53 COMPLETA — 13/13). |
+| - **Última ação:** Round 53 ingerida (13/13): 3 deepenings sustrato NA (seguridad-nacional MX, industria-manufacturera US, industria-aeroespacial CA) + 8 nodos dominio (banca-privada, arbitraje-internacional, telecomunicaciones-corporativas, ciberseguridad-industrial, monetizacion, neumaticos, seguros-de-credito, gestoria) + 2 nodos rol (head-of-underwriting, head-of-trade-compliance). Modelo centralizado; reference-only (URL en frontmatter; sin raw/). Integrando index.md/log.md/working.md. |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 52 COMPLETA (13/13). |
+| - **Cola:** Round 53 COMPLETA (13/13). |
 
 ## ▶️ PRÓXIMA TAREFA
-| - Round 52 COMPLETA (13/13). Próximo: ejecutar `python3 scripts/gap_analysis.py`; tras Round 52 la taxonomía debería reportar 0 huecos → pausar hasta próximo cron (o extender taxonomía Round 53 solo si el usuario lo pide). |
+| - Round 53 COMPLETA (13/13). Próximo: ejecutar `python3 scripts/gap_analysis.py`; tras Round 53 la taxonomía debería reportar 0 huecos → pausar hasta próximo cron (o extender taxonomía Round 54 solo si el usuario lo pide). |
 | - ALCANCE sustrato = solo Norteamérica (MX/US/CA), respetado. |
