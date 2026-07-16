@@ -61,6 +61,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [pobreza-desigualdad](sustrato/mexico/pobreza-desigualdad.md) — Pobreza y desigualdad México: CONEVAL (multidimensional: ingresos + 6 carencias), línea de bienestar, programas sociales (Prospera/adultos mayores), Gini ~0.45; vs seguridad-social/trabajo · 🏷️ mexico,pobreza,desigualdad,coneval,pobreza-multidimensional,programas-sociales,bienestar · 📅 2026-07-15
 - [pueblos-indigenas](sustrato/mexico/pueblos-indigenas.md) — Pueblos indígenas México: Art.2 constitucional, INPI, 68 grupos/11.8M, lenguas nacionales, consulta previa (CPLI); vs derechos-humanos · 🏷️ mexico,pueblos-indigenas,derechos-indigenas,lenguas-originarias,autonomia,inpi,consulta-previa · 📅 2026-07-15
 - [empleo](sustrato/mexico/empleo.md) — Empleo y mercado laboral México: ENOE/INEGI, desempleo 2.4% (dic 2025), informalidad 54.6%, salario mínimo; vs trabajo/seguridad-social · 🏷️ mexico,empleo,mercado-laboral,enoe,inegi,informalidad,desempleo,salario-minimo,pea · 📅 2026-07-15
+- [impuestos](sustrato/mexico/impuestos.md) — Sistema tributario México: SHCP/SAT, ISR 30%, IVA 16%, RESICO, ~26 regímenes, CFDI 4.0, coordinación fiscal · 🏷️ mexico,impuestos,sat,shcp,isr,iva,resico,sistema-tributario · 📅 2026-07-16
 - [economia-creativa](sustrato/mexico/economia-creativa.md) — Economía creativa México: industrias culturales (cine, música, diseño, videojuegos), PIB cultural 2.8% (865,682 mdp 2024), 1.43M empleos; vs cultura/sector-servicios · 🏷️ mexico,economia-creativa,industrias-culturales,cultura,pib,inegi,politica-cultural · 📅 2026-07-16
 - [pymes](sustrato/mexico/pymes.md) — PyMEs México: ~90% de unidades económicas, ~50% del PIB; NAFIN/Bancomext, banca de desarrollo, IMMEX; vs emprendimiento/dominio/pymes · 🏷️ mexico,pymes,economia,empleo,financiamiento,empresa · 📅 2026-07-16
 
@@ -109,6 +110,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [pueblos-indigenas](sustrato/estados-unidos/pueblos-indigenas.md) — Pueblos indígenas EE.UU. (Native Americans): tribal sovereignty, 574 tribus, BIA/DOI, trust lands, IGRA; vs derechos-humanos · 🏷️ eeuu,native-americans,tribal-sovereignty,bia,tratados,trust-lands,ncai · 📅 2026-07-15
 - [politica-fiscal](sustrato/estados-unidos/politica-fiscal.md) — Política fiscal EE.UU.: gasto discrecional/mandatorio, déficit >USD1.5-2B/yr, deuda >USD36B (~120% PIB), CBO/OMB, techo de deuda; vs impuestos/finanzas-publicas · 🏷️ estados-unidos,politica-fiscal,deficit,deuda,cbo,presupuesto-federal,gasto-publico,estimulo · 📅 2026-07-15
 - [energia-nuclear](sustrato/estados-unidos/energia-nuclear.md) — Energía nuclear EE.UU.: NRC, DOE Office of Nuclear Energy, ~94 reactores (~96 GW), SMR (NuScale certificado 2023), residuos (Yucca/WIPP); vs dominio/energia-nuclear · 🏷️ estados-unidos,energia-nuclear,nrc,doe,reactores,smr,electricidad,descarbonizacion · 📅 2026-07-16
+- [turismo](sustrato/estados-unidos/turismo.md) — Turismo EE.UU.: mayor mercado de viajes/turismo del mundo (WTTC), NTTO/BEA TTSAs, Brand USA, NPS; PIB/empleo · 🏷️ estados-unidos,turismo,travel,gdp,empleo,hoteleria,visitantes · 📅 2026-07-16
 - [pymes](sustrato/estados-unidos/pymes.md) — Small business EE.UU.: 99.9% de empresas, ~45.9% empleo, 43.5%+ PIB; SBA, 8(a)/HUBZone, gobierno federal como cliente; vs emprendimiento/dominio/pymes · 🏷️ estados-unidos,small-business,pyme,economia,empleo,sba · 📅 2026-07-16
 
 ### sustrato/canada
@@ -151,6 +153,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [lenguas-oficiales](sustrato/canada/lenguas-oficiales.md) — Lenguas oficiales Canadá: Official Languages Act 1969/1988/2023, bilingüismo constitucional, Comisionado, servicios FR/EN · 🏷️ canada,lenguas-oficiales,bilingue,official-languages-act,comisionado,frances-ingles,part-vii · 📅 2026-07-15
 - [politica-fiscal](sustrato/canada/politica-fiscal.md) — Política fiscal Canadá: Department of Finance, presupuesto federal, déficit federal $52.3B (2023, 1.8% PIB), deuda ~$1.28T (2025); vs impuestos/finanzas-publicas · 🏷️ canada,politica-fiscal,department-of-finance,presupuesto,deficit,deuda,pib,statcan · 📅 2026-07-16
 - [pymes](sustrato/canada/pymes.md) — PyMEs Canadá: PME <500 empleados, >60% empleo privado; BDC, EDC, Canadá Emprende; exportadoras; vs emprendimiento/dominio/pymes · 🏷️ canada,pyme,economia,empleo,financiamiento,pymes · 📅 2026-07-16
+- [mineria](sustrato/canada/mineria.md) — Minería Canadá: oro/níquel/uranio, NRCan, clústeres (Ontario/Québec/BC), regulación fed/prov, impacto indígena, minerales críticos · 🏷️ canada,mineria,nrcan,oruro,niquel,urano,recursos-naturales,exportacion · 📅 2026-07-16
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -1432,4 +1435,43 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-customer-ops
 - [head-of-customer-ops](rol/head-of-customer-ops.md) — Head of Customer Operations: CX ops, billing/support ops, order-to-cash, eficiencia de servicio; vs head-of-customer-success · 🏷️ customer-ops,cx,operaciones,billing,soporte,rol · 📅 2026-07-16
+
+### dominio/politica-comercial
+- [politica-comercial](dominio/politica-comercial.md) — Política comercial: aranceles, BN/A OMC, USMCA, defensa (antidumping/subsidios/salvaguardias) · 🏷️ politica-comercial,aranceles,omc,usmca,antidumping,subsidios · 📅 2026-07-16
+
+### dominio/criptografia
+- [criptografia](dominio/criptografia.md) — Criptografía: simétrico/asimétrico, hashing, PKI/TLS, post-cuántica (NIST 2024) · 🏷️ criptografia,cifrado,pki,tls,post-cuantico,seguridad · 📅 2026-07-16
+
+### dominio/comercio-mayorista-b2b
+- [comercio-mayorista-b2b](dominio/comercio-mayorista-b2b.md) — Comercio mayorista B2B: distribución, márgenes, canal fabricante-minorista, rotura de carga · 🏷️ comercio-mayorista,b2b,distribucion,canal,margenes · 📅 2026-07-16
+
+### dominio/reaseguro
+- [reaseguro](dominio/reaseguro.md) — Reaseguro: cesión, tratado/facultativo, retrocesión, Lloyd's, solvencia · 🏷️ reaseguro,reinsurance,cesion,lloyds,solvencia,seguros · 📅 2026-07-16
+
+### dominio/real-estate-capital-markets
+- [real-estate-capital-markets](dominio/real-estate-capital-markets.md) — Mercados de capitales inmobiliarios: CMBS, REITs, deuda privada, ola de refinanciación 2025-26 · 🏷️ real-estate,capital-markets,cmbs,reit,deuda-inmobiliaria,inversion · 📅 2026-07-16
+
+### rol/head-of-executive-development
+- [head-of-executive-development](rol/head-of-executive-development.md) — Head of Executive Development: sucesión C-suite, coaching ejecutivo, readines · 🏷️ head-of-executive-development,liderazgo,sucesion,coaching,c-suite · 📅 2026-07-16
+
+### rol/head-of-esg-risks
+- [head-of-esg-risks](rol/head-of-esg-risks.md) — Head of ESG Risks: riesgo ESG/climático, disclosure (CSRD/SEC/ISSB), integración ERM · 🏷️ head-of-esg-risks,esg,riesgo-climatico,disclosure,erm · 📅 2026-07-16
+
+### rol/head-of-investor-relations
+- [head-of-investor-relations](rol/head-of-investor-relations.md) — Head of Investor Relations: earnings calls, disclosure (Reg FD), relación con accionistas · 🏷️ head-of-investor-relations,investor-relations,earnings,divulgacion,accionistas · 📅 2026-07-16
+
+### rol/head-of-clinical-development
+- [head-of-clinical-development](rol/head-of-clinical-development.md) — Head of Clinical Development: fases I-IV, submissions FDA/EMA/COFEPRIS, pipeline farma/biotech · 🏷️ head-of-clinical-development,clinical-development,ensayos-clinicos,farma,biotech · 📅 2026-07-16
+
+### rol/head-of-customer-insights
+- [head-of-customer-insights](rol/head-of-customer-insights.md) — Head of Customer Insights: VoC, research de mercado, síntesis para producto/marketing · 🏷️ head-of-customer-insights,voc,customer-insights,investigacion,analitica · 📅 2026-07-16
+
+### rol/head-of-product-marketing
+- [head-of-product-marketing](rol/head-of-product-marketing.md) — Head of Product Marketing: lidera PMM (GTM, posicionamiento, mensaje, enablement) · 🏷️ head-of-product-marketing,product-marketing,gtm,posicionamiento,mensaje · 📅 2026-07-16
+
+### rol/head-of-security-operations
+- [head-of-security-operations](rol/head-of-security-operations.md) — Head of Security Operations (SecOps): lidera SOC, monitoreo, respuesta operativa · 🏷️ head-of-security-operations,secops,soc,monitoreo,respuesta,ciberseguridad · 📅 2026-07-16
+
+### rol/head-of-business-development
+- [head-of-business-development](rol/head-of-business-development.md) — Head of Business Development: alianzas, M&A corporativo, canales, expansión · 🏷️ head-of-business-development,business-development,alianzas,ma,canales,expansion · 📅 2026-07-16
 

@@ -775,3 +775,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - LOOP 3 (rol, 13/13): head-of-treasury, head-of-fraud, head-of-partner-engineering, head-of-platform, head-of-customer-ops.
 - Reference-only: sitios oficiales (INEGI, SBA/U.S. Chamber, Statistics Canada/ISED/BDC, HHS/Health Canada/COFEPRIS, CISA, FOSSA/EU CRA, ACFE/FATF, IFRS/UQ, III/CNSF) — sin raw/.
 - **Round 48 COMPLETA (13/13).** Tópicos acumulados: ~689. Próximo: gap_analysis.py; si 0 → reabastecer taxonomía (Round 49) o pausar hasta próximo cron.
+
+## [2026-07-16] ingest | Round 49 — LOOP 1-3 (16/16) ROUND CERRADO
+- gap_analysis.py (iter 187) = 0 huecos reales → taxonomía extendida Round 49: 3 deepenings NA (mexico→impuestos, estados-unidos→turismo, canada→mineria) + 10 nodos nuevos (5 dominio: politica-comercial, criptografia, comercio-mayorista-b2b, reaseguro, real-estate-capital-markets; 5 rol: head-of-executive-development, head-of-esg-risks, head-of-investor-relations, head-of-clinical-development, head-of-customer-insights). 3 nodos rol extra ingeridos en la misma iteración (head-of-product-marketing, head-of-security-operations, head-of-business-development) y añadidos a NEW_NODES.
+- LOOP 1 (sustrato NA, 3/16): sustrato/mexico/impuestos.md, sustrato/estados-unidos/turismo.md, sustrato/canada/mineria.md — modelo CENTRALIZADO (página + index/log raíz; SIN per-node raw/index/log).
+- LOOP 2 (dominio, 5/16): politica-comercial, criptografia, comercio-mayorista-b2b, reaseguro, real-estate-capital-markets.
+- LOOP 3 (rol, 16/16): head-of-executive-development, head-of-esg-risks, head-of-investor-relations, head-of-clinical-development, head-of-customer-insights, + extra: head-of-product-marketing, head-of-security-operations, head-of-business-development.
+- Reference-only: sitios oficiales (SAT/SHCP, BEA/NTTO/Brand USA/WITC, NRCan/Canada.ca, USTR/OMC, NIST, Lloyd's/LMA, SEC/Fed, Cornell/ASCIM, Wikipedia EN/ES) — sin raw/ (PITFALL 2026-07-15 respetado).
+- **Round 49 COMPLETA (16/16).** Tópicos acumulados: ~705. Próximo: gap_analysis.py; si 0 → reabastecer taxonomía (Round 50) o pausar hasta próximo cron.

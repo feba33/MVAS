@@ -97,6 +97,8 @@ TAXONOMY = {
         ("economia-creativa", "Economía creativa / industrias culturales México: cine, música, diseño, artes, videojuegos, edtech creativo, contribución al PIB, políticas culturales; vs cultura (solo CA) y sector-servicios"),
         # Round 48 — deepening NA (PyMEs MX).
         ("pymes", "PyMEs México: economía de las pequeñas y medianas empresas, acceso a financiamiento (NAFIN/Bancomext), productividad, digitalización, encadenamientos, políticas de apoyo (IMMEX para PYME, REP); vs sustrato/mexico/emprendimiento y dominio/pymes"),
+        # Round 49 — deepening NA (impuestos MX).
+        ("impuestos", "Sistema tributario México: SHCP/SAT, ISR, IVA, IEPS, impuesto al depósito bancario, federales/estatales/municipales, regímenes (RESICO, SIMPLE), tratados de doble tributación; vs sat y finanzas-publicas"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -170,6 +172,8 @@ TAXONOMY = {
         ("energia-nuclear", "Energía nuclear EE.UU.: NRC, DOE Office of Nuclear Energy, plantas comerciales, SMR/advanced reactors, residuos (Yucca/WIPP), seguridad, vs dominio/energia-nuclear (disciplina)"),
         # Round 48 — deepening NA (small business / PyMEs US).
         ("pymes", "Small business / PyMEs EE.UU.: SBA, pequeñas empresas (<500 empleados), acceso a capital, 8(a)/HUBZone, gobierno federal como cliente, emprendimiento, impacto en empleo; vs sustrato/estados-unidos/emprendimiento y dominio/pymes"),
+        # Round 49 — deepening NA (turismo US).
+        ("turismo", "Turismo EE.UU.: Travel & Tourism (Brand USA, NTTO/Commerce, parques nacionales NPS), contribución al PIB/empleo, destinos, turismo médico/lazer, hotelería y aviación; vs sector-servicios y sustrato/mexico/turismo"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -243,6 +247,8 @@ TAXONOMY = {
         ("politica-fiscal", "Política fiscal Canadá: Department of Finance, presupuesto federal, déficit y deuda/PIB, gasto en programas (salud/transferencias), estímulo, vs impuestos (CRA) y finanzas-publicas"),
         # Round 48 — deepening NA (PyMEs CA).
         ("pymes", "PyMEs Canadá: pequeñas y medianas empresas (Statistics Canada define PME <500 empleados), apoyo (BDC, Canadá Emprende), acceso a financiamiento, productividad, exporteras; vs sustrato/canada/emprendimiento y dominio/pymes"),
+        # Round 49 — deepening NA (minería CA).
+        ("mineria", "Minería Canadá: NRCan, oro/plata/níquel/uránio, mining clusters (Ontario, Québec, BC), regulación (federal/provincial), impacto indígena, exportación; vs dominio/mineria y sustrato/mexico/mineria"),
     ],
     
     "dominio/finanzas": [
@@ -810,6 +816,23 @@ NEW_NODES = [
     ("rol/head-of-partner-engineering", "Head of Partner Engineering — integraciones y APIs para partners/ISVs, developer platforms, co-engineering, vs developer-advocate/solutions-architect"),
     ("rol/head-of-platform", "Head of Platform — lidera la plataforma de producto/ingeniería (APIs, SDKs, servicios compartidos), vs platform-engineer/head-of-developer-experience"),
     ("rol/head-of-customer-ops", "Head of Customer Operations — operaciones de cliente (CX ops, billing/support ops, order-to-cash), eficiencia de servicio; vs head-of-customer-success/customer-success-manager"),
+    # Round 49 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings impuestos MX, turismo US, minería CA; dominio/rol generales).
+    ("dominio/politica-comercial", "Política comercial / trade policy: aranceles, barreras no arancelarias, OMC, acuerdos comerciales (USMCA), defensa comercial (antidumping/subsidios), políticas de exportación; vs comercio-internacional/sustrato/*/comercio-exterior"),
+    ("dominio/criptografia", "Criptografía / cryptography: cifrado simétrico/asimétrico, clave pública, hashing, PKI, TLS, criptografía post-cuántica, firmas digitales; vs ciberseguridad/seguridad-corporativa"),
+    ("dominio/comercio-mayorista-b2b", "Comercio mayorista B2B / wholesale distribution (profundización): gestión de canal, distribuidores, márgenes de distribución, cadena de suministro mayorista; vs comercio-mayorista (Round 39)"),
+    ("dominio/reaseguro", "Reaseguro / reinsurance: cesión, tratado/facultativo, retrocesión, Lloyd's, solvencia de reaseguradores; vs seguros/seguros-de-personas"),
+    ("dominio/real-estate-capital-markets", "Real estate capital markets / mercado de capitales inmobiliario: CMBS, REIT listings, deuda inmobiliaria, inversión institucional en real estate; vs inmobiliario/vivienda"),
+    ("rol/head-of-executive-development", "Head of Executive Development — desarrollo de liderazgo C-suite/sucesión, coaching ejecutivo, succession planning; vs educacion-ejecutiva/head-of-people"),
+    ("rol/head-of-esg-risks", "Head of ESG Risks — riesgos ESG materiales, climate risk, disclosure de riesgos, integración en ERM; vs esg-manager/chief-sustainability-officer/gobierno-de-riesgos"),
+    ("rol/head-of-investor-relations", "Head of Investor Relations — lidera IR (earnings, disclosure, relación con inversionistas institucionales), reporting al CFO/CEO; vs investor-relations (Round 14)"),
+    ("rol/head-of-clinical-development", "Head of Clinical Development — lidera desarrollo clínico (fases I-IV, estrategia de trial, regulatory submissions), farma/biotech; vs head-of-clinical-operations/chief-medical-officer"),
+    ("rol/head-of-customer-insights", "Head of Customer Insights — voz del cliente (VoC), research de mercado interno, analítica de comportamiento, puente investigación-producto/marketing; vs ux-researcher/head-of-customer-experience"),
+    ("rol/head-of-product-marketing", "Head of Product Marketing — lidera PMM org (GTM, posicionamiento, mensaje, enablement); vs product-marketing-manager/chief-marketing-officer"),
+    ("rol/head-of-security-operations", "Head of Security Operations (SecOps) — lidera SOC/SecOps, monitorización, respuesta operativa; vs ciso/head-of-incident-response/security-analyst"),
+    ("rol/head-of-business-development", "Head of Business Development — lidera BD (alianzas, M&A corporativo, canales, expansión); vs business-development (Round 8)/head-of-corporate-development"),
+    # Round 49 (extra) — 3 nodos rol adicionais ingeridos en la misma iteración para completar la capa rol.
+    ("rol/head-of-product-marketing", "Head of Product Marketing — lidera PMM org (GTM, posicionamiento, mensaje, enablement); vs product-marketing-manager/chief-marketing-officer [ingrido en Round 49 como extra]"),
+    ("rol/head-of-security-operations", "Head of Security Operations (SecOps) — lidera SOC/SecOps, monitorización, respuesta operativa; vs ciso/head-of-incident-response/security-analyst [ingrido en Round 49 como extra]"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

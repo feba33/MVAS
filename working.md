@@ -1841,22 +1841,45 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] rol/head-of-platform.md — Head of Platform (plataforma de producto/ingeniería, APIs/SDKs)
 - [x] rol/head-of-customer-ops.md — Head of Customer Operations (CX ops, billing/support ops, order-to-cash)
 
+## ✅ COLA ROUND 49 — COMPLETA (16/16)
+> gap_analysis.py (iter 187) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 49 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol. 3 nodos rol extra ingeridos en la misma iteración (y añadidos a NEW_NODES).
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página + integración en index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/impuestos.md — Sistema tributario México (SHCP/SAT, ISR 30%, IVA 16%, RESICO, ~26 regímenes, CFDI 4.0)
+- [x] sustrato/estados-unidos/turismo.md — Turismo EE.UU. (mayor mercado mundial WTTC, NTTO/BEA TTSAs, Brand USA, NPS)
+- [x] sustrato/canada/mineria.md — Minería Canadá (NRCan, oro/níquel/uranio, clústeres, minerales críticos)
+### Dominio (nuevos nodos)
+- [x] dominio/politica-comercial.md — Política comercial (aranceles, OMC, USMCA, defensa antidumping/subsidios)
+- [x] dominio/criptografia.md — Criptografía (simétrico/asimétrico, hashing, PKI/TLS, post-cuántica NIST 2024)
+- [x] dominio/comercio-mayorista-b2b.md — Comercio mayorista B2B (distribución, márgenes, canal)
+- [x] dominio/reaseguro.md — Reaseguro (cesión, tratado/facultativo, retrocesión, Lloyd's, solvencia)
+- [x] dominio/real-estate-capital-markets.md — Mercados de capitales inmobiliarios (CMBS, REITs, deuda privada)
+### Rol (nuevos nodos)
+- [x] rol/head-of-executive-development.md — Head of Executive Development (sucesión C-suite, coaching ejecutivo)
+- [x] rol/head-of-esg-risks.md — Head of ESG Risks (riesgo ESG/climático, disclosure CSRD/SEC/ISSB, ERM)
+- [x] rol/head-of-investor-relations.md — Head of Investor Relations (earnings calls, disclosure Reg FD)
+- [x] rol/head-of-clinical-development.md — Head of Clinical Development (fases I-IV, submissions FDA/EMA/COFEPRIS)
+- [x] rol/head-of-customer-insights.md — Head of Customer Insights (VoC, research de mercado)
+- [x] rol/head-of-product-marketing.md — Head of Product Marketing (GTM, posicionamiento, mensaje) [extra]
+- [x] rol/head-of-security-operations.md — Head of Security Operations / SecOps (SOC, monitoreo, respuesta) [extra]
+- [x] rol/head-of-business-development.md — Head of Business Development (alianzas, M&A, canales) [extra]
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 689** (Round 47: 676; Round 48: 689/13). |
-| **Rondas:** 48 completas (Round 1..48). |
-| **Nodos sustrato (NA):** México 67, EE.UU. 55, Canadá 49 (Round 48 +3). |
-| **Nodos dominio:** ~190 (Round 48 +5). |
-| **Nodos rol:** ~180 (Round 48 +5). |
+| **Tópicos ingeridos (acumulado): 705** (Round 48: 689; Round 49: 705/16). |
+| **Rondas:** 49 completas (Round 1..49). |
+| **Nodos sustrato (NA):** México 68 (+impuestos), EE.UU. 56 (+turismo), Canadá 50 (+mineria). |
+| **Nodos dominio:** ~195 (Round 49 +5). |
+| **Nodos rol:** ~188 (Round 49 +8). |
 | **Organización:** 1 (ejemplo-empresa / NovaTech). |
 | **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
-| **Iteraciones totales:** 186. |
+| **Iterações totales:** 187. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 186 (Round 48 COMPLETA — 13/13). |
-| - **Última acción:** Round 48 ingerida (13/13): 3 deepenings sustrato NA (pymes MX, pymes US, pymes CA) + 5 nodos dominio (telemedicina, ciberseguridad-cadena-suministro, arte, seguros-de-personas, riesgo-de-credito) + 5 nodos rol (head-of-treasury, head-of-fraud, head-of-partner-engineering, head-of-platform, head-of-customer-ops). Modelo centralizado; reference-only (URL en frontmatter; sin raw/). Integrando index.md/log.md/working.md. |
+| - **Iteración actual:** 187 (Round 49 COMPLETA — 16/16). |
+| - **Última ação:** Round 49 ingerida (16/16): 3 deepenings sustrato NA (impuestos MX, turismo US, mineria CA) + 5 nodos dominio (politica-comercial, criptografia, comercio-mayorista-b2b, reaseguro, real-estate-capital-markets) + 8 nodos rol (head-of-executive-development, head-of-esg-risks, head-of-investor-relations, head-of-clinical-development, head-of-customer-insights, head-of-product-marketing, head-of-security-operations, head-of-business-development). Modelo centralizado; reference-only (URL en frontmatter; sin raw/). Integrando index.md/log.md/working.md. |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 48 COMPLETA (13/13). |
+| - **Cola:** Round 49 COMPLETA (16/16). |
 
-## ▶️ PRÓXIMA TAREA
-| - Round 48 COMPLETA (13/13). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 49) o pausar hasta próximo cron. |
+## ▶️ PRÓXIMA TAREFA
+| - Round 49 COMPLETA (16/16). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos → extender taxonomía (Round 50) o pausar hasta próximo cron. |
 | - ALCANCE sustrato = solo Norteamérica (MX/US/CA), respetado. |
