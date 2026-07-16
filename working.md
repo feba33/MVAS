@@ -1756,3 +1756,48 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - Modelo centralizado (página + index/log raíz; SIN per-node raw/index/log, PITFALL 2026-07-15). Reference-only: Wikipedia (EN/ES) + sitios oficiales (INPI, BIA/NCAI, Commissioner of Official Languages, NIST, IIA, FRA, Transport Canada, SHRM, Gartner, Britannica) — sin raw/.
 - **Round 45 COMPLETA (13/13).** Tópicos acumulados: 653. ALCANCE sustrato = solo Norteamérica (respetado).
 | - Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 46) o pausar hasta próximo cron.
+
+## ✅ COLA ROUND 46 — COMPLETA (13/13)
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/empleo.md — Empleo México (ENOE/INEGI, informalidad 54.6%)
+- [x] sustrato/estados-unidos/politica-fiscal.md — Política fiscal EE.UU. (CBO, déficit, deuda >USD36B)
+- [x] sustrato/canada/competitividad.md — Competitividad Canadá (WEF/ITIF, déficit productividad)
+### Dominio (nuevos nodos)
+- [x] dominio/geopolitica-energetica — Geopolítica energética (OPEP+, minerales críticos, soberanía)
+- [x] dominio/capital-natural — Capital natural (TNFD, servicios ecosistémicos)
+- [x] dominio/ciberseguridad-ot — Ciberseguridad OT/ICS (ISA/IEC 62443, NERC CIP)
+- [x] dominio/gobierno-de-riesgos — Gobernanza de riesgos (COSO ERM, ISO 31000, tres líneas)
+- [x] dominio/educacion-ejecutiva — Educación ejecutiva (EMBA, upskilling de líderes)
+### Rol (nuevos nodos)
+- [x] rol/head-of-sustainability — Head of Sustainability (ESG, descarbonización)
+- [x] rol/head-of-people-analytics — Head of People Analytics (HR analytics)
+- [x] rol/head-of-revenue-operations — Head of RevOps (GTM, ventas+marketing+CS)
+- [x] rol/head-of-ai — Head of AI (estrategia IA, adopción, gobernanza)
+- [x] rol/head-of-infrastructure — Head of Infrastructure (cloud/on-prem, confiabilidad)
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+| **Tópicos ingeridos (acumulado): 663** (Round 45: 653 + Round 46: +13 = 663). |
+| **Rondas:** 46 completas (Round 1..46). |
+| **Nodos sustrato (NA):** México 65 (+empleo), EE.UU. 53 (+politica-fiscal), Canadá 47 (+competitividad). |
+| **Nodos dominio:** ~180 (Round 46 +5: geopolitica-energetica, capital-natural, ciberseguridad-ot, gobierno-de-riesgos, educacion-ejecutiva). |
+| **Nodos rol:** ~170 (Round 46 +5: head-of-sustainability, head-of-people-analytics, head-of-revenue-operations, head-of-ai, head-of-infrastructure). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech). |
+| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+| **Iterações totales:** 184.
+
+## 🚦 ESTADO
+| - **Iteración actual:** 184 (Round 46 COMPLETA — 13/13 ingestados e integrados). |
+| - **Última ação:** Round 46 iter 184 — RECUPERACIÓN de integración pendiente: las 13 páginas ya estaban en disco (escritas en corrida anterior) pero no integradas a index.md/log.md ni commiteadas. Se integraron (index.md root + log.md root) y commitearon. Modelo centralizado. gap_analysis.py ya extendido Round 46 (3 deepenings NA + 10 nodos). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 46 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 47) o pausar hasta próximo cron. |
+
+## ▶️ PRÓXIMA TAREA
+| - Round 46 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 47) o pausar hasta próximo cron. Sustrato NA = solo Norteamérica (respetado).
+### [2026-07-16] Round 46 — ITER 184 | COMPLETA (13/13)
+- Recuperación de integración pendiente de corrida anterior (las 13 páginas estaban en disco, sin integrar ni commitear). gap_analysis.py ya extendido Round 46 (3 deepenings NA: empleo MX, politica-fiscal US, competitividad CA; +10 nodos nuevos dominio/rol).
+- LOOP 1 (sustrato NA, 3/13): sustrato/mexico/empleo.md, sustrato/estados-unidos/politica-fiscal.md, sustrato/canada/competitividad.md.
+- LOOP 2 (dominio, 5/13): geopolitica-energetica, capital-natural, ciberseguridad-ot, gobierno-de-riesgos, educacion-ejecutiva.
+- LOOP 3 (rol, 13/13): head-of-sustainability, head-of-people-analytics, head-of-revenue-operations, head-of-ai, head-of-infrastructure.
+- Modelo centralizado (página + index/log raíz; SIN per-node raw/index/log). Reference-only: Wikipedia (EN/ES) + sitios oficiales (INEGI, CBO, OMB, WEF, ITIF, IEA, TNFD, ISA/IEC 62443, NERC, COSO, ISO, EFMD, UN Global Compact, GRI, GHG Protocol, SHRM, Salesforce, Google AI Principles, FinOps) — sin raw/.
+- **Round 46 COMPLETA (13/13).** Tópicos acumulados: 663. ALCANCE sustrato = solo Norteamérica (respetado).
+| - Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 47) o pausar hasta próximo cron.

@@ -91,6 +91,8 @@ TAXONOMY = {
         ("seguros", "Seguros México: CNSF, sector asegurador, seguros obligatorios (auto, gastos médicos mayores, vida), RySO/SOAT; vs dominio/seguros"),
         # Round 45 — deepening NA (pueblos indígenas MX).
         ("pueblos-indigenas", "Pueblos indígenas de México: Art. 2 Constitucional, INPI (Instituto Nacional de los Pueblos Indígenas), derechos indígenas, autonomía, lenguas originarias, consulta previa; vs derechos-humanos"),
+        # Round 46 — deepening NA (empleo MX).
+        ("empleo", "Empleo / mercado laboral México: tasa de desempleo (INEGI/ENOE), informalidad, subempleo, salario mínimo, población económicamente activa (PEA), productividad laboral; vs trabajo (laboral) y seguridad-social"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -158,6 +160,8 @@ TAXONOMY = {
         ("seguros", "Seguros EE.UU.: NAIC, regulación estatal (McCarran-Ferguson), tipos (auto/life/health/P&C), guaranty funds, solvencia; vs dominio/seguros"),
         # Round 45 — deepening NA (pueblos indígenas US).
         ("pueblos-indigenas", "Pueblos indígenas EE.UU. (Native Americans / American Indians): Bureau of Indian Affairs (BIA), tribal sovereignty, trust lands, tratados, NCAI, consulta; vs derechos-humanos"),
+        # Round 46 — deepening NA (política fiscal US).
+        ("politica-fiscal", "Política fiscal EE.UU.: postura fiscal (estímulo/austeridad), déficit y deuda, CBO, presupuesto discrecional/mandatorio, recortes/gastos, efecto multiplicador, vs impuestos (IRS) y finanzas-publicas (Treasury/deuda)"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -225,7 +229,10 @@ TAXONOMY = {
         ("seguros", "Seguros Canadá: OSFI (federación), regulación provincial (FSRA Ontario, AMF Québec), P&C/life, seguro de auto provincial, solvencia; vs dominio/seguros"),
         # Round 45 — deepening NA (lenguas oficiales CA).
         ("lenguas-oficiales", "Lenguas oficiales Canadá: Official Languages Act, bilingüismo francés/inglés, Comisionado de Lenguas Oficiales, servicios en ambos idiomas, equilibrio; vs cultura"),
+        # Round 46 — deepening NA (competitividad CA).
+        ("competitividad", "Competitividad Canadá: ranking WEF/Bank (World Bank Doing Business hist., IQC), clima de negocios, productividad, facilitación, infraestructura, talento, innovación; vs economia y ciencia-e-innovacion"),
     ],
+    
     "dominio/finanzas": [
         ("private-equity-vc", "Private Equity / Venture Capital / fundraising"),
         ("cripto-activos", "Criptoactivos / activos digitales"),
@@ -758,6 +765,17 @@ NEW_NODES = [
     ("rol/head-of-incident-response", "Head of Incident Response — lidera CSIRT/IR, respuesta a brechas, containment/eradication, post-mortem, vs security-analyst/penetration-tester/ciso"),
     ("rol/head-of-business-technology", "Head of Business Technology — sistemas empresariales (ERP, CRM), puente negocio-TI, habilitación digital de operación; vs cio/head-of-it/enterprise-architect"),
     ("rol/head-of-manufacturing", "Head of Manufacturing — red de plantas, excelencia de producción, calidad/costo/entrega a escala, vs plant-manager/vp-operations/head-of-operations"),
+    # Round 46 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings empleo MX, politica-fiscal US, competitividad CA; dominio/rol generales).
+    ("dominio/geopolitica-energetica", "Geopolítica energética: seguridad energética, mercados de petróleo/gas, OPEP+, transición, minerales críticos, soberanía; vs energia/geopolitica/medio-ambiente"),
+    ("dominio/capital-natural", "Capital natural / naturaleza: servicios ecosistémicos, valoración de la naturaleza, TNFD, biodiversidad en negocios; vs medio-ambiente/economia-circular"),
+    ("dominio/ciberseguridad-ot", "Ciberseguridad OT / industrial (ICS/SCADA): seguridad de sistemas de control industrial, NERC CIP, ISA/IEC 62443, vs ciberseguridad TI"),
+    ("dominio/gobierno-de-riesgos", "Gobernanza de riesgos (enterprise risk governance): rol del consejo en riesgo, apetito de riesgo, tres líneas, vs gestion-riesgos/chief-risk-officer"),
+    ("dominio/educacion-ejecutiva", "Educación ejecutiva / executive education: programas de desarrollo de líderes, MBAs ejecutivos, capacitación C-level, vs educacion/edtech"),
+    ("rol/head-of-sustainability", "Head of Sustainability — estrategia de sostenibilidad, descarbonización, reporting ESG, vs chief-sustainability-officer/esg-manager"),
+    ("rol/head-of-people-analytics", "Head of People Analytics — lidera la función de people analytics/HR analytics; vs hr-business-partner/data-analyst"),
+    ("rol/head-of-revenue-operations", "Head of Revenue Operations (RevOps) — lidera RevOps a nivel org (ventas+marketing+CS), datos y proceso de ingresos; vs head-of-sales-ops/chief-revenue-officer"),
+    ("rol/head-of-ai", "Head of AI — lidera la función de IA/ML aplicada, estrategia de modelos, adopción, puente con producto; vs chief-ai-officer/ml-engineer"),
+    ("rol/head-of-infrastructure", "Head of Infrastructure — lidera infraestructura TI (cloud/on-prem), confiabilidad, capacidad, costo; vs head-of-it/cloud-architect/sre"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

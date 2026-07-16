@@ -17,6 +17,15 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Creadas: `rol/head-of-workforce-planning.md`, `rol/head-of-customer-marketing.md`, `rol/head-of-incident-response.md`, `rol/head-of-business-technology.md`, `rol/head-of-manufacturing.md` (modelo centralizado; reference-only Wikipedia EN + SHRM/Gartner/NIST/ASCM).
 - **Round 45 COMPLETA (13/13):** 3 sustrato NA deepenings + 5 dominio + 5 rol. Tópicos acumulados: 653. index.md/log.md/working.md actualizados.
 
+## [2026-07-16] ingest | Round 46 — LOOP 1-3 (13/13) ROUND CERRADO
+- Recuperación de integración pendiente de corrida anterior: las 13 páginas de Round 46 ya estaban escritas en disco pero NO integradas a index.md/log.md ni commiteadas. Se integraron y commitearon en esta corrida.
+- gap_analysis.py extendido (Round 46): 3 deepenings NA (empleo MX, politica-fiscal US, competitividad CA) + 10 nodos nuevos (5 dominio: geopolitica-energetica, capital-natural, ciberseguridad-ot, gobierno-de-riesgos, educacion-ejecutiva; 5 rol: head-of-sustainability, head-of-people-analytics, head-of-revenue-operations, head-of-ai, head-of-infrastructure).
+- LOOP 1 (sustrato NA, 3/13): sustrato/mexico/empleo.md, sustrato/estados-unidos/politica-fiscal.md, sustrato/canada/competitividad.md — modelo CENTRALIZADO (página + index/log raíz; SIN per-node raw/index/log, por PITFALL 2026-07-15).
+- LOOP 2 (dominio, 5/13): geopolitica-energetica, capital-natural, ciberseguridad-ot, gobierno-de-riesgos, educacion-ejecutiva.
+- LOOP 3 (rol, 13/13): head-of-sustainability, head-of-people-analytics, head-of-revenue-operations, head-of-ai, head-of-infrastructure.
+- Reference-only: Wikipedia (EN/ES) + sitios oficiales (INEGI, CBO, OMB, WEF, ITIF, IEA, TNFD, ISA/IEC 62443, NERC, COSO, ISO, EFMD, UN Global Compact, GRI, GHG Protocol, SHRM, Salesforce, Google AI Principles, FinOps) — sin raw/.
+- **Round 46 COMPLETA (13/13).** Tópicos acumulados: ~663. Próximo: gap_analysis.py; si 0 → reabastecer taxonomía (Round 47) o pausar hasta próximo cron.
+
 ## [2026-07-09] setup | Estructura inicial MVAS + patrón LLM Wiki
 - Creado repo MVAS con 4 capas: sustrato / dominio / organización / rol.
 - Integrado patrón LLM Wiki: capa `raw/` (fuentes inmutables), `index.md`,

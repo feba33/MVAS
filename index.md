@@ -60,6 +60,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 -- [sector-servicios](sustrato/mexico/sector-servicios.md) — Sector servicios México: ~60% del PIB (comercio, turismo, financiero, transporte, gobierno), alta informalidad · 🏷️ mexico,sector-servicios,pib,comercio,turismo,servicios-financieros,informalidad · 📅 2026-07-14
 - [pobreza-desigualdad](sustrato/mexico/pobreza-desigualdad.md) — Pobreza y desigualdad México: CONEVAL (multidimensional: ingresos + 6 carencias), línea de bienestar, programas sociales (Prospera/adultos mayores), Gini ~0.45; vs seguridad-social/trabajo · 🏷️ mexico,pobreza,desigualdad,coneval,pobreza-multidimensional,programas-sociales,bienestar · 📅 2026-07-15
 - [pueblos-indigenas](sustrato/mexico/pueblos-indigenas.md) — Pueblos indígenas México: Art.2 constitucional, INPI, 68 grupos/11.8M, lenguas nacionales, consulta previa (CPLI); vs derechos-humanos · 🏷️ mexico,pueblos-indigenas,derechos-indigenas,lenguas-originarias,autonomia,inpi,consulta-previa · 📅 2026-07-15
+- [empleo](sustrato/mexico/empleo.md) — Empleo y mercado laboral México: ENOE/INEGI, desempleo 2.4% (dic 2025), informalidad 54.6%, salario mínimo; vs trabajo/seguridad-social · 🏷️ mexico,empleo,mercado-laboral,enoe,inegi,informalidad,desempleo,salario-minimo,pea · 📅 2026-07-15
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -104,6 +105,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [proteccion-consumidor](sustrato/estados-unidos/proteccion-consumidor.md) — Protección al consumidor EE.UU.: FTC (FTC Act 1914), CFPB (Dodd-Frank), CPSC (CPSC Act 1972), estado (AGs) · 🏷️ eeuu,proteccion-consumidor,ftc,cfpb,cpsc,consumidor,ftc-act · 📅 2026-07-14
 - [pobreza-desigualdad](sustrato/estados-unidos/pobreza-desigualdad.md) — Pobreza y desigualdad EE.UU.: Census poverty line, Gini ~0.49, safety net (SNAP/TANF/EITC/Medicaid); vs seguridad-social/labor · 🏷️ eeuu,pobreza,desigualdad,census,gini,safety-net,snap,tanf,eitc · 📅 2026-07-15
 - [pueblos-indigenas](sustrato/estados-unidos/pueblos-indigenas.md) — Pueblos indígenas EE.UU. (Native Americans): tribal sovereignty, 574 tribus, BIA/DOI, trust lands, IGRA; vs derechos-humanos · 🏷️ eeuu,native-americans,tribal-sovereignty,bia,tratados,trust-lands,ncai · 📅 2026-07-15
+- [politica-fiscal](sustrato/estados-unidos/politica-fiscal.md) — Política fiscal EE.UU.: gasto discrecional/mandatorio, déficit >USD1.5-2B/yr, deuda >USD36B (~120% PIB), CBO/OMB, techo de deuda; vs impuestos/finanzas-publicas · 🏷️ estados-unidos,politica-fiscal,deficit,deuda,cbo,presupuesto-federal,gasto-publico,estimulo · 📅 2026-07-15
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -133,6 +135,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [seguridad-publica](sustrato/canada/seguridad-publica.md) — Seguridad pública Canadá: Public Safety Canada, RCMP, CBSA, gestión de emergencias, fronteras · 🏷️ canada,seguridad-publica,public-safety-canada,rcmp,cbsa,policia,gestion-de-emergencias · 📅 2026-07-13
 - [sector-manufacturero](sustrato/canada/sector-manufacturero.md) — Sector manufacturero Canadá: Ontario (auto), Quebec (aeroespacial), Alberta (petroquímica), empleo · 🏷️ canada,sector-manufacturero,automotriz,aeroespacial,petroquimica,empleo · 📅 2026-07-14
 - [elecciones](sustrato/canada/elecciones.md) — Sistema electoral Canadá: Elections Canada, democracia, voto, Cámara de los Comunes, Senado · 🏷️ canada,elecciones,elections-canada,democracia,voto,camara-comunes,senado · 📅 2026-07-14
+- [competitividad](sustrato/canada/competitividad.md) — Competitividad Canadá: WEF/ITIF, déficit de productividad vs EE.UU., barreras interprovinciales, inmigración económica, minerales críticos; vs economia/ciencia-e-innovacion · 🏷️ canada,competitividad,productividad,clima-de-negocios,wef,innovation,talento · 📅 2026-07-15
 
 - [relaciones-exteriores](sustrato/canada/relaciones-exteriores.md) — Relaciones exteriores Canadá: Global Affairs Canada, middle power, multilateral, paz, comercio · 🏷️ canada, relaciones-exteriores, global-affairs-canada, middle-power, multilateralismo, comercio-exterior · 📅 2026-07-14
 - [economia](sustrato/canada/economia.md) — Economía de Canadá: PIB, servicios ~70%, recursos, comercio (CUSMA), Bank of Canada, CAD, G7 · 🏷️ canada,economia,pib,recursos-naturales,comercio,bank-of-canada,cad,g7 · 📅 2026-07-14
@@ -1333,4 +1336,34 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-continuous-improvement
 - [head-of-continuous-improvement](rol/head-of-continuous-improvement.md) — Head of Continuous Improvement / OpEx: lean, Six Sigma, kaizen, eficiencia de procesos; vs quality-manager/chief-quality-officer · 🏷️ head-of-continuous-improvement,opex,lean,six-sigma,kaizen,mejora-continua · 📅 2026-07-15
+
+### dominio/geopolitica-energetica
+- [geopolitica-energetica](dominio/geopolitica-energetica.md) — Geopolítica energética: seguridad energética, OPEP+, transición, minerales críticos, soberanía; vs energia/geopolitica · 🏷️ geopolitica-energetica,energia,seguridad-energetica,opep,petroleo,gas,transicion-energetica,minerales-criticos · 📅 2026-07-15
+
+### dominio/capital-natural
+- [capital-natural](dominio/capital-natural.md) — Capital natural / naturaleza: servicios ecosistémicos, valoración, TNFD, biodiversidad en negocios; vs medio-ambiente/economia-circular · 🏷️ capital-natural,biodiversidad,servicios-ecosistemicos,tnfd,valoracion,sostenibilidad,esg · 📅 2026-07-15
+
+### dominio/ciberseguridad-ot
+- [ciberseguridad-ot](dominio/ciberseguridad-ot.md) — Ciberseguridad OT / industrial (ICS/SCADA): seguridad de sistemas de control, ISA/IEC 62443, NERC CIP; vs ciberseguridad TI · 🏷️ ciberseguridad-ot,ics,scada,isa-iec-62443,nerc-cip,seguridad-industrial,it-ot · 📅 2026-07-15
+
+### dominio/gobierno-de-riesgos
+- [gobierno-de-riesgos](dominio/gobierno-de-riesgos.md) — Gobernanza de riesgos (enterprise risk governance): rol del consejo, apetito de riesgo, tres líneas; vs gestion-riesgos/chief-risk-officer · 🏷️ gobierno-de-riesgos,erm,apetito-de-riesgo,tres-lineas,consejo,coso,iso-31000 · 📅 2026-07-15
+
+### dominio/educacion-ejecutiva
+- [educacion-ejecutiva](dominio/educacion-ejecutiva.md) — Educación ejecutiva: EMBA, programas abiertos/custom, upskilling de líderes; vs educacion/edtech · 🏷️ educacion-ejecutiva,executive-education,mba-ejecutivo,liderazgo,desarrollo-de-lideres,upskilling,efmd · 📅 2026-07-15
+
+### rol/head-of-sustainability
+- [head-of-sustainability](rol/head-of-sustainability.md) — Head of Sustainability: estrategia de sostenibilidad, descarbonización, reporting ESG; vs chief-sustainability-officer/esg-manager · 🏷️ head-of-sustainability,sostenibilidad,esg,descarbonizacion,csr,reporting-esg · 📅 2026-07-15
+
+### rol/head-of-people-analytics
+- [head-of-people-analytics](rol/head-of-people-analytics.md) — Head of People Analytics: HR analytics, modelado de fuerza laboral, retención/equidad; vs hr-business-partner/data-scientist · 🏷️ head-of-people-analytics,people-analytics,hr-analytics,workforce-analytics,talento,datos-de-rrhh · 📅 2026-07-15
+
+### rol/head-of-revenue-operations
+- [head-of-revenue-operations](rol/head-of-revenue-operations.md) — Head of Revenue Operations (RevOps): alinea ventas+marketing+CS, GTM, forecast; vs head-of-sales-ops/chief-revenue-officer · 🏷️ head-of-revenue-operations,revops,ingresos,ventas,marketing,customer-success,operaciones-de-ingresos · 📅 2026-07-15
+
+### rol/head-of-ai
+- [head-of-ai](rol/head-of-ai.md) — Head of AI: lidera función IA/ML, estrategia de modelos, adopción, gobernanza; vs chief-ai-officer/ml-engineer · 🏷️ head-of-ai,ai,machine-learning,estrategia-de-ia,mlops,adopcion-de-ia,producto-ia · 📅 2026-07-15
+
+### rol/head-of-infrastructure
+- [head-of-infrastructure](rol/head-of-infrastructure.md) — Head of Infrastructure: infraestructura TI (cloud/on-prem), confiabilidad, capacidad, costo; vs head-of-it/cloud-architect/sre · 🏷️ head-of-infrastructure,infraestructura-ti,cloud,on-prem,confiabilidad,capacidad,costo-de-infra · 📅 2026-07-15
 
