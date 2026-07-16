@@ -12,6 +12,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 ## [2026-07-09] ingest | Incertidumbre (T-MEC y México)
 - Fuente: El Financiero (opinión, G. Knochenhauer). T-MEC vigente hasta 2036, revisiones anuales, retiro anticipado posible.
 
+## [2026-07-16] ingest | Trump impondrá aranceles del 25% a Brasil por censura a tecnológicas de EE.UU.
+- Fuente: El Financiero (mundo, 2026-07-15). EE.UU. estaría por imponer aranceles del 25% contra Brasil.
+- Entidad: dominio/finanzas (política comercial / aranceles). Cross-ref sustrato/mexico/comercio-exterior.
+- Relevancia: cambia supuestos de comercio regional y volatilidad arancelaria para México.
+
 ## [2026-07-09] ingest | El T-MEC no va — revisión anual e inversión
 - Fuente: El Financiero (opinión). Revisión anual del T-MEC genera incertidumbre para inversionistas; urgir industria mexicana.
 
