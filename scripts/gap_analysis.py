@@ -917,11 +917,27 @@ NEW_NODES += [
     ("dominio/salud-ocupacional", "Salud ocupacional / occupational health: vigilancia de la salud, exposicion laboral, ergonomia, enfermedades de trabajo, vs seguridad-y-salud-ocupacional/bienestar-laboral"),
     ("rol/head-of-sales-enablement-mkt", "Head of Sales Enablement (deepening rol): capacitacion, contenido y herramientas de ventas, playbooks, onboarding de reps; vs sales-manager/head-of-sales-ops"),
     ("rol/head-of-customer-education", "Head of Customer Education — educacion del cliente (onboarding, academy, docs, certificaciones), adopcion y retencion; vs customer-success/head-of-customer-experience"),
-    ("rol/head-of-employer-branding-2", "Head of Talent Brand (deepening): marca empleadora, recruitment marketing, propuesta de valor; vs head-of-employer-branding/reclutador"),
+    ("rol/head-of-talent-brand", "Head of Talent Brand (deepening): marca empleadora, recruitment marketing, propuesta de valor; vs head-of-employer-branding/reclutador"),
     ("rol/head-of-legal-operations", "Head of Legal Operations (Legal Ops): eBilling, proveedores externos, tecnologia legal, gestao de contratos a escala; vs legal-ops/head-of-legal/general-counsel"),
-    ("rol/head-of-corporate-development-2", "Head of Strategy & Corporate Development (deepening): M&A screening, capital allocation, due diligence, integracion; vs head-of-corporate-development/chief-strategy-officer"),
+    ("rol/head-of-strategy-corporate-development", "Head of Strategy & Corporate Development (deepening): M&A screening, capital allocation, due diligence, integracion; vs head-of-corporate-development/chief-strategy-officer"),
 ]
 
+# Round 55 (iter 192) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("energia-renovables", "Energia renovable Mexico: solar, eolica, almacenamiento, hidro, CELs, SENER/CRE, subastas, vs energia/transicion"))
+TAXONOMY["sustrato/estados-unidos"].append(("mineria", "Mineria EE.UU.: USGS, minerales criticos, hardrock leasing, coal, IRA/DOE, vs industria-manufacturera/recursos"))
+TAXONOMY["sustrato/canada"].append(("defensa-seguridad", "Defensa y seguridad Canada: DND/CAF, NATO, NORAD, procurement de defensa, vs defensa-seguridad dominio"))
+NEW_NODES_ROUND_55 = [
+    ("dominio/banca-corporativa", "Banca corporativa / corporate banking: prestamos sindicados, cash management, trade finance, relaciones con grandes empresas; vs banca-privada/sistema-financiero"),
+    ("dominio/energia-electrica", "Energia electrica / power generation: generacion, transmision, distribucion, ISO/RTO, tarifas, grid; vs energia/energia-renovables"),
+    ("dominio/sanidad", "Sanidad / healthcare ops: sistemas de salud, hospitales, aseguradores, farmaceuticos, regulation FDA/COFEPRIS/Health Canada; vs salud/healthtech"),
+    ("dominio/economia-maritima", "Economia maritima / blue economy: puertos, shipping, acuicultura, energia offshore, proteccion costera; vs maritimo/gestion-portuaria"),
+    ("dominio/regulacion-financiera", "Regulacion financiera: Basilea, SEC/CMA, CNBV, conducta, resolucion bancaria, macroprudential; vs sistema-financiero/servicios-financieros"),
+    ("rol/head-of-procurement", "Head of Procurement: estrategia de compras, sourcing, proveedores, P2P, ahorro; vs procurement-manager/supply-chain-manager"),
+    ("rol/director-of-it", "Director of IT: operaciones de TI, infraestructura, help desk, seguridad IT, vs head-of-business-technology/cto"),
+    ("rol/head-of-internal-audit", "Head of Internal Audit: aseguramiento independiente, COSO/IIA, riesgo, cumplimiento, reporte a auditoria; vs auditoria-interna/control-interno"),
+    ("rol/chief-operating-officer", "Chief Operating Officer (COO): operaciones end-to-end, ejecucion, escalabilidad, liderazgo de unidades; vs vp-operations/coo"),
+    ("rol/head-of-field-operations", "Head of Field Operations: operaciones de campo/territorio, fuerza de ventas field, servicios in-situ; vs regional-director/operations"),
+]
 
 def node_exists(path: str) -> bool:
     """True si el nodo ya existe en el repo, sea como directorio
@@ -937,6 +953,10 @@ def node_exists(path: str) -> bool:
     if os.path.isfile(os.path.join(full, base + ".md")):
         return True
     return False
+
+
+# La ronda activa de extensión de taxonomía es la Round 55.
+NEW_NODES = NEW_NODES_ROUND_55
 
 
 def existing_pages(node: str) -> set:

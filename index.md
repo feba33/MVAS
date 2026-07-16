@@ -70,6 +70,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [seguridad-nacional](sustrato/mexico/seguridad-nacional.md) — Seguridad nacional Mexico: CNS, SEDENA/SSEM, Guardia Nacional (mando militar 2025), CNI, CERT/ciberdefensa, LSN (tags: mexico,seguridad-nacional,cns,sedena,inteligencia,ciberdefensa) · 2026-07-16
 - [infraestructura-digital](sustrato/mexico/infraestructura-digital.md) — Infraestructura digital México: fibra óptica, data centers, Agenda Digital, Estrategia Nacional de IA · 🏷️ mexico,infraestructura-digital,fibra-optica,data-centers,conectividad,agenda-digital,ia · 📅 2026-07-16
 - [hidrocarburos](sustrato/mexico/hidrocarburos.md) — Hidrocarburos México: PEMEX, CNH, reforma energética 2025, Derecho Petrolero · 🏷️ mexico,hidrocarburos,pemex,cnh,energia,petroleo,gas,reforma-energetica · 📅 2026-07-16
+- [energia-renovables](sustrato/mexico/energia-renovables.md) — Energía renovable México: SENER/CRE/CENACE, CELs, solar/eólica/hidro/geotermia, reforma 2025 recentraliza CFE · 🏷️ mexico,energia-renovable,solar,eolica,hidro,cels,sener,cre,transicion-energetica · 📅 2026-07-16
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -121,6 +122,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [economia](sustrato/estados-unidos/economia.md) — Economía de EE.UU.: mayor PIB nominal (~USD30B), servicios ~80%, Fed/BEA/Census, mercado laboral, comercio exterior, dólar reserva · 🏷️ estados-unidos,economia,pib,sectores,fed,bea,census,empleo,comercio · 📅 2026-07-16
 - [energia-renovables](sustrato/estados-unidos/energia-renovables.md) — Energía renovable EE.UU.: IRA 2022 (ITC/PTC), EPA, Treasury/IRS guía, solar/eólica/almacenamiento, grid; vs energia · 🏷️ eeuu,energia-renovable,solar,eolica,almacenamiento,ira,epa,treasury,grid · 📅 2026-07-16
 - [industria-manufacturera](sustrato/estados-unidos/industria-manufacturera.md) — Manufactura EE.UU.: 2o mayor del mundo (~USD2.9B), CHIPS/IRA, semiconductores, automotriz, aeroespacial, PMI (tags: eeuu,manufactura,reshoring,chips-act,ira,semiconductores,automotriz) · 2026-07-16
+- [mineria](sustrato/estados-unidos/mineria.md) — Minería EE.UU.: USGS, minerales críticos, hardrock leasing, carbón, IRA/DOE, recursos naturales · 🏷️ eeuu,mineria,usgs,minerales-criticos,hardrock-leasing,coal,ira,doe,recursos-naturales · 📅 2026-07-16
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -166,6 +168,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [mineria](sustrato/canada/mineria.md) — Minería Canadá: oro/níquel/uranio, NRCan, clústeres (Ontario/Québec/BC), regulación fed/prov, impacto indígena, minerales críticos · 🏷️ canada,mineria,nrcan,oruro,niquel,urano,recursos-naturales,exportacion · 📅 2026-07-16
 - [educacion-superior](sustrato/canada/educacion-superior.md) — Educación superior Canadá: PSE provincial/territorial, universidades/colleges/CEGEP, Canada Student Loans, internacionalización; vs educacion · 🏷️ canada,educacion-superior,universidades,colleges,pse,provincias · 📅 2026-07-16
 - [politica-inmigratoria](sustrato/canada/politica-inmigratoria.md) — Política de inmigración Canadá: niveles 2026-2028, PNP (91.5k 2026), Express Entry, IRCC · 🏷️ canada,inmigracion,politica-inmigratoria,ircc,express-entry,pnp,niveles-de-inmigracion · 📅 2026-07-16
+- [defensa-seguridad](sustrato/canada/defensa-seguridad.md) — Defensa y seguridad Canadá: DND/CAF, NORAD, OTAN, procurement de defensa · 🏷️ canada,defensa,seguridad,dnd,caf,nato,norad,procurement-defensa,fuerzas-armadas · 📅 2026-07-16
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -321,6 +324,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/energia
 - [energia](dominio/energia/energia.md) — Sector energético: renovables, oil&gas, redes, regulación · 🏷️ energia,oil-and-gas,renovables,redes,regulacion · 📅 2026-07-11
+- [energia-electrica](dominio/energia-electrica.md) — Energía eléctrica (Power Generation): generación, transmisión, distribución, ISO/RTO, grid, tarifas · 🏷️ energia-electrica,power-generation,generacion,transmision,distribucion,iso,rto,grid,tarifas,electric-utility · 📅 2026-07-16
 
 ### dominio/inmobiliario
 - [bienes-raices](dominio/inmobiliario/bienes-raices.md) — Bienes raíces: mercado, financiamiento, REITs, ciclos · 🏷️ inmobiliario,real-estate,reits,hipotecas,cap-rate · 📅 2026-07-11
@@ -336,6 +340,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/educacion
 - [educacion](dominio/educacion/educacion.md) — Educación: modelos, niveles, edtech, política educativa · 🏷️ educacion,edtech,formacion,politica-educativa · 📅 2026-07-11
+- [sanidad](dominio/sanidad.md) — Sanidad (Healthcare): sistemas de salud, hospitales, aseguradores, farmacéuticos, FDA/COFEPRIS/Health Canada · 🏷️ sanidad,healthcare,sistemas-de-salud,hospitales,aseguradores,farmaceuticos,fda,cofepris,health-canada · 📅 2026-07-16
 
 ### dominio/transporte
 - [movilidad](dominio/movilidad.md) — Movilidad (MaaS): plataforma unificada plan/reserva/pago, micro-movilidad, EV compartido · 🏷️ movilidad,maas,micro-movilidad,transporte,ev-compartido,mobility-as-a-service · 📅 2026-07-16
@@ -406,6 +411,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [cadena-suministro](dominio/cadena-suministro/cadena-suministro.md) — Supply Chain Management: plan-procure-make-deliver-return, S&OP, procurement · 🏷️ cadena-suministro,supply-chain,scm,procurement,s&op,inventario,logistica,resiliencia · 📅 2026-07-11
 ### dominio/consultoria
 - [consultoria](dominio/consultoria/consultoria.md) — Consultoría de gestión: estrategia, operaciones, M&A, tecnología; MBB/Big Four · 🏷️ consultoria,management-consulting,estrategia,mbb,big-four,operaciones,mandd,proyectos · 📅 2026-07-11
+### dominio/banca-corporativa
+- [banca-corporativa](dominio/banca-corporativa.md) — Banca corporativa (Corporate Banking): préstamos sindicados, cash management, trade finance, relaciones empresa · 🏷️ banca-corporativa,corporate-banking,prestamos-sindicados,cash-management,trade-finance,relaciones-empresa,banca · 📅 2026-07-16
 ### dominio/servicios-profesionales
 - [servicios-profesionales](dominio/servicios-profesionales/servicios-profesionales.md) — Servicios profesionales: derecho, contabilidad, arquitectura, ingeniería; partnership · 🏷️ servicios-profesionales,professional-services,firmas,bufetes,contabilidad,arquitectura,ingenieria,utilizacion · 📅 2026-07-11
 ### dominio/alimentos-bebidas
@@ -610,6 +617,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/maritimo
 - [maritimo](dominio/maritimo/maritimo.md) — Sector marítimo y puertos: navieras, puertos, logística portuaria, OMI · 🏷️ maritimo,shipping,puertos,navieras,logistica,omi,comercio-internacional · 📅 2026-07-13
+- [economia-maritima](dominio/economia-maritima.md) — Economía marítima (Blue Economy): puertos, shipping, acuicultura, energía offshore, protección costera · 🏷️ economia-maritima,blue-economy,puertos,shipping,acuicultura,energia-offshore,proteccion-costera,maritimo · 📅 2026-07-16
 
 ### dominio/seguridad-nacional
 - [seguridad-nacional](dominio/seguridad-nacional/seguridad-nacional.md) — Seguridad nacional: inteligencia, defensa, infraestructura crítica, amenazas · 🏷️ seguridad-nacional,inteligencia,defensa,infraestructura-critica,amenazas,estado · 📅 2026-07-13
@@ -1447,6 +1455,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/economia-institucional
 - [economia-institucional](dominio/economia-institucional.md) — Economía institucional: instituciones, derechos de propiedad, costos de transacción, NIE (Coase/North/Williamson) · 🏷️ economia-institucional,instituciones,derechos-de-propiedad,costos-de-transaccion,coase,north,williamson · 📅 2026-07-16
+
+### dominio/regulacion-financiera
+- [regulacion-financiera](dominio/regulacion-financiera.md) — Regulación financiera: Basilea, SEC, CNBV, conducta, resolución bancaria, macroprudencial · 🏷️ regulacion-financiera,basilea,sec,cnbv,conducta,resolucion-bancaria,macroprudential,supervicio · 📅 2026-07-16
 
 ### dominio/geografia-economica
 - [geografia-economica](dominio/geografia-economica.md) — Geografía económica: localización, aglomeración/clústeres, desarrollo regional, NEG (Krugman) · 🏷️ geografia-economica,localizacion,aglomeracion,clusters,desarrollo-regional,comercio · 📅 2026-07-16
