@@ -64,6 +64,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [impuestos](sustrato/mexico/impuestos.md) — Sistema tributario México: SHCP/SAT, ISR 30%, IVA 16%, RESICO, ~26 regímenes, CFDI 4.0, coordinación fiscal · 🏷️ mexico,impuestos,sat,shcp,isr,iva,resico,sistema-tributario · 📅 2026-07-16
 - [economia-creativa](sustrato/mexico/economia-creativa.md) — Economía creativa México: industrias culturales (cine, música, diseño, videojuegos), PIB cultural 2.8% (865,682 mdp 2024), 1.43M empleos; vs cultura/sector-servicios · 🏷️ mexico,economia-creativa,industrias-culturales,cultura,pib,inegi,politica-cultural · 📅 2026-07-16
 - [pymes](sustrato/mexico/pymes.md) — PyMEs México: ~90% de unidades económicas, ~50% del PIB; NAFIN/Bancomext, banca de desarrollo, IMMEX; vs emprendimiento/dominio/pymes · 🏷️ mexico,pymes,economia,empleo,financiamiento,empresa · 📅 2026-07-16
+- [cultura](sustrato/mexico/cultura.md) — Cultura de México: identidad mestiza, CONACULTA/Secretaría de Cultura, 36 sitios UNESCO, 9 elementos inmaterial, LFCDC, economía creativa · 🏷️ mexico,cultura,patrimonio,industrias-culturales,conaculta,unesco,derechos-culturales · 📅 2026-07-16
+- [educacion-superior](sustrato/mexico/educacion-superior.md) — Educación superior México: autonomía (art.3º), UNAM/IPN/ANUIES, PRODEP, PNPC, cobertura ~50% · 🏷️ mexico,educacion-superior,unam,ipn,anuies,autonomia,posgrado,prodep · 📅 2026-07-16
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -112,6 +114,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [energia-nuclear](sustrato/estados-unidos/energia-nuclear.md) — Energía nuclear EE.UU.: NRC, DOE Office of Nuclear Energy, ~94 reactores (~96 GW), SMR (NuScale certificado 2023), residuos (Yucca/WIPP); vs dominio/energia-nuclear · 🏷️ estados-unidos,energia-nuclear,nrc,doe,reactores,smr,electricidad,descarbonizacion · 📅 2026-07-16
 - [turismo](sustrato/estados-unidos/turismo.md) — Turismo EE.UU.: mayor mercado de viajes/turismo del mundo (WTTC), NTTO/BEA TTSAs, Brand USA, NPS; PIB/empleo · 🏷️ estados-unidos,turismo,travel,gdp,empleo,hoteleria,visitantes · 📅 2026-07-16
 - [pymes](sustrato/estados-unidos/pymes.md) — Small business EE.UU.: 99.9% de empresas, ~45.9% empleo, 43.5%+ PIB; SBA, 8(a)/HUBZone, gobierno federal como cliente; vs emprendimiento/dominio/pymes · 🏷️ estados-unidos,small-business,pyme,economia,empleo,sba · 📅 2026-07-16
+- [economia](sustrato/estados-unidos/economia.md) — Economía de EE.UU.: mayor PIB nominal (~USD30B), servicios ~80%, Fed/BEA/Census, mercado laboral, comercio exterior, dólar reserva · 🏷️ estados-unidos,economia,pib,sectores,fed,bea,census,empleo,comercio · 📅 2026-07-16
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -1474,4 +1477,34 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-business-development
 - [head-of-business-development](rol/head-of-business-development.md) — Head of Business Development: alianzas, M&A corporativo, canales, expansión · 🏷️ head-of-business-development,business-development,alianzas,ma,canales,expansion · 📅 2026-07-16
+
+### dominio/ciencia-de-datos-aplicada
+- [ciencia-de-datos-aplicada](dominio/ciencia-de-datos-aplicada.md) — Data science aplicada: CRISP-DM, modelado predictivo, MLOps, analítica de valor · 🏷️ ciencia-de-datos-aplicada,data-science,crisp-dm,machine-learning,mlops · 📅 2026-07-16
+
+### dominio/finanzas-climaticas
+- [finanzas-climaticas](dominio/finanzas-climaticas.md) — Finanzas climáticas: green bonds, transition finance, TCFD/ISSB, mercados de carbono · 🏷️ finanzas-climaticas,climate-finance,green-bonds,tcfd,issb · 📅 2026-07-16
+
+### dominio/urbanismo-tactico
+- [urbanismo-tactico](dominio/urbanismo-tactico.md) — Urbanismo táctico / tactical urbanism: placemaking, intervenciones leves, ciclo rápido · 🏷️ urbanismo-tactico,tactical-urbanism,placemaking,intervencion-urbana · 📅 2026-07-16
+
+### dominio/derecho-de-familia
+- [derecho-de-familia](dominio/derecho-de-familia.md) — Derecho de familia: matrimonio, divorcio, custodia, sucesiones · 🏷️ derecho-de-familia,family-law,matrimonio,divorcio,custodia,sucesiones · 📅 2026-07-16
+
+### dominio/biotecnologia-agricola
+- [biotecnologia-agricola](dominio/biotecnologia-agricola.md) — Biotecnología agrícola: semillas biotech, edición genómica, regulación USDA/FDA/SENASICA/COFEPRIS · 🏷️ biotecnologia-agricola,ag-biotech,semillas,edicion-genomica,regulacion · 📅 2026-07-16
+
+### rol/head-of-experience-design
+- [head-of-experience-design](rol/head-of-experience-design.md) — Head of Experience Design (XD): unifica UX/CX/service design, research transversal · 🏷️ head-of-experience-design,experience-design,xd,ux,cx,service-design · 📅 2026-07-16
+
+### rol/head-of-information-security
+- [head-of-information-security](rol/head-of-information-security.md) — Head of Information Security: InfoSec program, GRC, data protection; CISO adjunto · 🏷️ head-of-information-security,infosec,ciso,grc,data-protection · 📅 2026-07-16
+
+### rol/head-of-workforce-experience
+- [head-of-workforce-experience](rol/head-of-workforce-experience.md) — Head of Workforce Experience (WX): EX de empleado en todas las journeys, bienestar, engagement · 🏷️ head-of-workforce-experience,workforce-experience,ex,employee-experience,engagement · 📅 2026-07-16
+
+### rol/head-of-brand-experience
+- [head-of-brand-experience](rol/head-of-brand-experience.md) — Head of Brand Experience: unifica marca y experiencia vivida (brand + CX + marketing) · 🏷️ head-of-brand-experience,brand-experience,brand,cx,marketing · 📅 2026-07-16
+
+### rol/head-of-supply-chain-planning
+- [head-of-supply-chain-planning](rol/head-of-supply-chain-planning.md) — Head of Supply Chain Planning: demand/supply planning, S&OP, IBP, inventario · 🏷️ head-of-supply-chain-planning,scp,demand-planning,sop,inventario · 📅 2026-07-16
 

@@ -1864,22 +1864,42 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] rol/head-of-security-operations.md — Head of Security Operations / SecOps (SOC, monitoreo, respuesta) [extra]
 - [x] rol/head-of-business-development.md — Head of Business Development (alianzas, M&A, canales) [extra]
 
+## ✅ COLA ROUND 50 — COMPLETA (13/13)
+> gap_analysis.py (iter 188) tras extender TAXONOMY NEW_NODES Round 50: 3 deepenings NA + 10 nodos nuevos dominio/rol.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página + integración index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/cultura.md — Cultura de México (identidad mestiza, CONACULTA, 36 sitios UNESCO, LFCDC)
+- [x] sustrato/estados-unidos/economia.md — Economía de EE.UU. (PIB nominal ~USD30B, servicios 80%, Fed/BEA/Census)
+- [x] sustrato/mexico/educacion-superior.md — Educación superior México (autonomía art.3º, UNAM/IPN/ANUIES, PRODEP)
+### Dominio (nuevos nodos)
+- [x] dominio/ciencia-de-datos-aplicada.md — Data science aplicada (CRISP-DM, modelado predictivo, MLOps)
+- [x] dominio/finanzas-climaticas.md — Finanzas climáticas (green bonds, TCFD/ISSB)
+- [x] dominio/urbanismo-tactico.md — Urbanismo táctico (placemaking, intervenciones leves)
+- [x] dominio/derecho-de-familia.md — Derecho de familia (matrimonio, divorcio, custodia, sucesiones)
+- [x] dominio/biotecnologia-agricola.md — Biotecnología agrícola (semillas biotech, edición genómica, USDA/FDA/SENASICA/COFEPRIS)
+### Rol (nuevos nodos)
+- [x] rol/head-of-experience-design.md — Head of Experience Design (unifica UX/CX/service design)
+- [x] rol/head-of-information-security.md — Head of Information Security (InfoSec program, GRC, data protection)
+- [x] rol/head-of-workforce-experience.md — Head of Workforce Experience (EX empleado, bienestar, engagement)
+- [x] rol/head-of-brand-experience.md — Head of Brand Experience (marca + CX + marketing)
+- [x] rol/head-of-supply-chain-planning.md — Head of Supply Chain Planning (demand/supply, S&OP, IBP)
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 705** (Round 48: 689; Round 49: 705/16). |
-| **Rondas:** 49 completas (Round 1..49). |
-| **Nodos sustrato (NA):** México 68 (+impuestos), EE.UU. 56 (+turismo), Canadá 50 (+mineria). |
-| **Nodos dominio:** ~195 (Round 49 +5). |
-| **Nodos rol:** ~188 (Round 49 +8). |
+| **Tópicos ingeridos (acumulado): 718** (Round 49: 705; Round 50: 718/13). |
+| **Rondas:** 50 completas (Round 1..50). |
+| **Nodos sustrato (NA):** México 69 (+cultura, +educacion-superior), EE.UU. 57 (+economia), Canadá 50. |
+| **Nodos dominio:** ~200 (Round 50 +5). |
+| **Nodos rol:** ~193 (Round 50 +5). |
 | **Organización:** 1 (ejemplo-empresa / NovaTech). |
 | **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
-| **Iterações totales:** 187. |
+| **Iterações totales:** 188. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 187 (Round 49 COMPLETA — 16/16). |
-| - **Última ação:** Round 49 ingerida (16/16): 3 deepenings sustrato NA (impuestos MX, turismo US, mineria CA) + 5 nodos dominio (politica-comercial, criptografia, comercio-mayorista-b2b, reaseguro, real-estate-capital-markets) + 8 nodos rol (head-of-executive-development, head-of-esg-risks, head-of-investor-relations, head-of-clinical-development, head-of-customer-insights, head-of-product-marketing, head-of-security-operations, head-of-business-development). Modelo centralizado; reference-only (URL en frontmatter; sin raw/). Integrando index.md/log.md/working.md. |
+| - **Iteración actual:** 188 (Round 50 COMPLETA — 13/13). |
+| - **Última ação:** Round 50 ingerida (13/13): 3 deepenings sustrato NA (cultura MX, economia US, educacion-superior MX) + 5 nodos dominio (ciencia-de-datos-aplicada, finanzas-climaticas, urbanismo-tactico, derecho-de-familia, biotecnologia-agricola) + 5 nodos rol (head-of-experience-design, head-of-information-security, head-of-workforce-experience, head-of-brand-experience, head-of-supply-chain-planning). Modelo centralizado; reference-only (URL en frontmatter; sin raw/). Integrando index.md/log.md/working.md. |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 49 COMPLETA (16/16). |
+| - **Cola:** Round 50 COMPLETA (13/13). |
 
 ## ▶️ PRÓXIMA TAREFA
-| - Round 49 COMPLETA (16/16). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos → extender taxonomía (Round 50) o pausar hasta próximo cron. |
+| - Round 50 COMPLETA (13/13). Próximo: ejecutar `python3 scripts/gap_analysis.py`; tras Round 50 la taxonomía debería reportar 0 huecos → pausar hasta próximo cron (o extender taxonomía solo si el usuario lo pide). |
 | - ALCANCE sustrato = solo Norteamérica (MX/US/CA), respetado. |

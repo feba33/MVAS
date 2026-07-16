@@ -833,7 +833,23 @@ NEW_NODES = [
     # Round 49 (extra) — 3 nodos rol adicionais ingeridos en la misma iteración para completar la capa rol.
     ("rol/head-of-product-marketing", "Head of Product Marketing — lidera PMM org (GTM, posicionamiento, mensaje, enablement); vs product-marketing-manager/chief-marketing-officer [ingrido en Round 49 como extra]"),
     ("rol/head-of-security-operations", "Head of Security Operations (SecOps) — lidera SOC/SecOps, monitorización, respuesta operativa; vs ciso/head-of-incident-response/security-analyst [ingrido en Round 49 como extra]"),
+    # Round 50 (iter 188) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+    ("sustrato/mexico/educacion-superior", "Educación superior México (UNAM/IPN/ANUIES, autonomía, PRODEP, posgrado); vs educacion"),
+    ("sustrato/estados-unidos/economia", "Economía EE.UU. (GDP, sectores, Fed/BEA/Census, ciclo, empleo, comercio); vs macroeconomia"),
+    ("sustrato/mexico/cultura", "Cultura México (industrias culturales, derechos culturales, políticas culturales, patrimonio); vs economia-creativa"),
+    ("dominio/ciencia-de-datos-aplicada", "Data science aplicada a negocio (CRISP-DM, modelado predictivo, MLOps); vs ciencia-de-datos/analitica-negocio"),
+    ("dominio/finanzas-climaticas", "Finanzas climáticas (green bonds, transition finance, TCFD/ISSB); vs finanzas-sostenibles"),
+    ("dominio/urbanismo-tactico", "Urbanismo táctico / tactical urbanism (intervenciones leves, placemaking); vs urbanismo"),
+    ("dominio/derecho-de-familia", "Derecho de familia (matrimonio, divorcio, custodia, sucesiones); vs derecho-civil"),
+    ("dominio/biotecnologia-agricola", "Biotecnología agrícola (semillas biotech, edición genómica, regulación); vs biotecnologia/agrotech"),
+    ("dominio/computacion-en-la-nube", "Cloud computing aplicado (FinOps, Well-Architected, multi-cloud, serverless); vs cloud-computing"),
+    ("rol/head-of-experience-design", "Head of Experience Design (XD, unificar UX/CX/service design, research); vs design-lead/chief-design-officer"),
+    ("rol/head-of-information-security", "Head of Information Security (CISO adjunto, InfoSec program, GRC, data protection); vs ciso/security-analyst"),
+    ("rol/head-of-workforce-experience", "Head of Workforce Experience (EX de empleado en todas las journeys, bienestar, engagement); vs head-of-employee-experience"),
+    ("rol/head-of-brand-experience", "Head of Brand Experience (unificar marca y experiencia vivida, brand + CX + marketing); vs chief-brand-officer/head-of-customer-experience"),
+    ("rol/head-of-supply-chain-planning", "Head of Supply Chain Planning (demand/supply planning, S&OP, IBP, inventario); vs supply-chain-manager"),
 ]
+
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}
 

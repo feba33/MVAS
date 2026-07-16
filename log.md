@@ -783,3 +783,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - LOOP 3 (rol, 16/16): head-of-executive-development, head-of-esg-risks, head-of-investor-relations, head-of-clinical-development, head-of-customer-insights, + extra: head-of-product-marketing, head-of-security-operations, head-of-business-development.
 - Reference-only: sitios oficiales (SAT/SHCP, BEA/NTTO/Brand USA/WITC, NRCan/Canada.ca, USTR/OMC, NIST, Lloyd's/LMA, SEC/Fed, Cornell/ASCIM, Wikipedia EN/ES) — sin raw/ (PITFALL 2026-07-15 respetado).
 - **Round 49 COMPLETA (16/16).** Tópicos acumulados: ~705. Próximo: gap_analysis.py; si 0 → reabastecer taxonomía (Round 50) o pausar hasta próximo cron.
+
+## [2026-07-16] ingest | Round 50 — LOOP 1-3 (13/13) ROUND CERRADO
+- gap_analysis.py (iter 188) tras extender TAXONOMY NEW_NODES Round 50: 3 deepenings NA (mexico→cultura, estados-unidos→economia, mexico→educacion-superior) + 10 nodos nuevos (5 dominio: ciencia-de-datos-aplicada, finanzas-climaticas, urbanismo-tactico, derecho-de-familia, biotecnologia-agricola; 5 rol: head-of-experience-design, head-of-information-security, head-of-workforce-experience, head-of-brand-experience, head-of-supply-chain-planning).
+- LOOP 1 (sustrato NA, 3/13): sustrato/mexico/cultura.md, sustrato/estados-unidos/economia.md, sustrato/mexico/educacion-superior.md — modelo CENTRALIZADO.
+- LOOP 2 (dominio, 5/13): ciencia-de-datos-aplicada, finanzas-climaticas, urbanismo-tactico, derecho-de-familia, biotecnologia-agricola.
+- LOOP 3 (rol, 13/13): head-of-experience-design, head-of-information-security, head-of-workforce-experience, head-of-brand-experience, head-of-supply-chain-planning.
+- Reference-only: sitios oficiales (CONACULTA/Secretaría de Cultura, BEA/Fed/Census, ANUIES/UNAM, UNEP/IOSCO, USDA/FDA/SENASICA/COFEPRIS, NIST, Wikipedia EN/ES) — sin raw/.
+- **Round 50 COMPLETA (13/13).** Tópicos acumulados: ~718. Próximo: gap_analysis.py (debe reportar 0); si 0 → pausar hasta próximo cron.
