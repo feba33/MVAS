@@ -1904,22 +1904,42 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] rol/head-of-data-platform.md — Head of Data Platform (lakehouse, pipelines, gobierno)
 - [x] rol/head-of-customer-lifecycle.md — Head of Customer Lifecycle (onboarding, retención, churn)
 
+## ✅ COLA ROUND 52 — COMPLETA (13/13)
+> gap_analysis.py (iter 190) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 52 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página + integración en index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/transparencia.md — Transparencia y acceso a la información México (INAI, LFTAIPG, datos abiertos)
+- [x] sustrato/estados-unidos/derechos-civiles.md — Derechos civiles EE.UU. (Civil Rights Act, DOJ CRT, EEOC)
+- [x] sustrato/canada/ciudadania.md — Ciudadanía Canadá (Citizenship Act, IRCC, naturalización)
+### Dominio (nuevos nodos)
+- [x] dominio/ciberseguridad-ciudadana.md — Ciberseguridad ciudadana (phishing, estafas, identidad)
+- [x] dominio/derecho-procesal.md — Derecho procesal (civil/mercantil/penal, litigio)
+- [x] dominio/satelites.md — Satélites (manufactura, lanzamiento, downstream, FCC/ITU)
+- [x] dominio/ciencia-espacial.md — Ciencia espacial (astrofísica, planetología, NASA/ESA)
+- [x] dominio/gestion-portuaria.md — Gestión portuaria (terminales, Port Authority, intermodal)
+### Rol (nuevos nodos)
+- [x] rol/director-of-product.md — Director of Product (lidera PMs, roadmap por dominio)
+- [x] rol/head-of-customer-communications.md — Head of Customer Communications (comms a base instalada)
+- [x] rol/head-of-analytics.md — Head of Analytics (BI+datos+experimento)
+- [x] rol/head-of-revenue.md — Head of Revenue (dueño operativo top-line)
+- [x] rol/head-of-corporate-affairs.md — Head of Corporate Affairs (asuntos corporativos, gobierno/medios)
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 731** (Round 50: 718; Round 51: 731/13). |
-| **Rondas:** 51 completas (Round 1..51). |
-| **Nodos sustrato (NA):** México 70 (+economia-informal), EE.UU. 58 (+energia-renovables), Canadá 51 (+educacion-superior). |
-| **Nodos dominio:** ~205 (Round 51 +5). |
-| **Nodos rol:** ~198 (Round 51 +5). |
+| **Tópicos ingeridos (acumulado): 744** (Round 51: 731; Round 52: 744/13). |
+| **Rondas:** 52 completas (Round 1..52). |
+| **Nodos sustrato (NA):** México 71 (+transparencia), EE.UU. 59 (+derechos-civiles), Canadá 52 (+ciudadania). |
+| **Nodos dominio:** ~210 (Round 52 +5). |
+| **Nodos rol:** ~203 (Round 52 +5). |
 | **Organización:** 1 (ejemplo-empresa / NovaTech). |
 | **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
-| **Iterações totales:** 189. |
+| **Iterações totales:** 190. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 189 (Round 51 COMPLETA — 13/13). |
-| - **Última ação:** Round 51 ingerida (13/13): 3 deepenings sustrato NA (economia-informal MX, energia-renovables US, educacion-superior CA) + 5 nodos dominio (derecho-laboral-colectivo, gestion-de-talento-tech, movilidad, cuentas-por-cobrar, privacidad-diferencial) + 5 nodos rol (head-of-finance-ops, head-of-brand, vp-people, head-of-data-platform, head-of-customer-lifecycle). Modelo centralizado; reference-only (URL en frontmatter; sin raw/). Integrando index.md/log.md/working.md. |
+| - **Iteración actual:** 190 (Round 52 COMPLETA — 13/13). |
+| - **Última ação:** Round 52 ingerida (13/13): 3 deepenings sustrato NA (transparencia MX, derechos-civiles US, ciudadania CA) + 5 nodos dominio (ciberseguridad-ciudadana, derecho-procesal, satelites, ciencia-espacial, gestion-portuaria) + 5 nodos rol (director-of-product, head-of-customer-communications, head-of-analytics, head-of-revenue, head-of-corporate-affairs). Modelo centralizado; reference-only (URL en frontmatter; sin raw/). Integrando index.md/log.md/working.md. |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 51 COMPLETA (13/13). |
+| - **Cola:** Round 52 COMPLETA (13/13). |
 
 ## ▶️ PRÓXIMA TAREFA
-| - Round 51 COMPLETA (13/13). Próximo: ejecutar `python3 scripts/gap_analysis.py`; tras Round 51 la taxonomía debería reportar 0 huecos → pausar hasta próximo cron (o extender taxonomía solo si el usuario lo pide). |
+| - Round 52 COMPLETA (13/13). Próximo: ejecutar `python3 scripts/gap_analysis.py`; tras Round 52 la taxonomía debería reportar 0 huecos → pausar hasta próximo cron (o extender taxonomía Round 53 solo si el usuario lo pide). |
 | - ALCANCE sustrato = solo Norteamérica (MX/US/CA), respetado. |

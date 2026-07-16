@@ -799,3 +799,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - LOOP 3 (rol, 5/13): rol/head-of-finance-ops.md, rol/head-of-brand.md, rol/vp-people.md, rol/head-of-data-platform.md, rol/head-of-customer-lifecycle.md.
 - Reference-only: Wikipedia EN/ES, EPA, Treasury/IRS (Morgan Lewis), ILO, Gartner/SHRM/Investopedia, Canada.ca — sin raw/.
 - **Ronda 51 COMPLETA (13/13).** Tópicos acumulados: ~731. Próximo: gap_analysis.py; si reporta 0 → pausar hasta próximo cron.
+
+## [2026-07-16] ingest | Ronda 52 (13/13) — profundización NA + nuevos dominio/rol
+- Taxonomía extendida en scripts/gap_analysis.py (Round 52): 3 profundizaciones NA + 10 nuevos nodos dominio/rol. gap_analysis.py = 0 huecos reales previos.
+- LOOP 1 (sustrato NA, 3/13): sustrato/mexico/transparencia.md (INAI, LFTAIPG, datos abiertos, rendición de cuentas), sustrato/estados-unidos/derechos-civiles.md (Civil Rights Act, DOJ CRT, EEOC, voting rights), sustrato/canada/ciudadania.md (Citizenship Act, IRCC, naturalización, doble ciudadanía).
+- LOOP 2 (dominio, 5/13): dominio/ciberseguridad-ciudadana.md (phishing, estafas, identidad, alfabetización digital), dominio/derecho-procesal.md (civil/mercantil/penal, litigio, recursos, prueba), dominio/satelites.md (manufactura, lanzamiento, downstream, FCC/ITU), dominio/ciencia-espacial.md (astrofísica, planetología, NASA/ESA), dominio/gestion-portuaria.md (terminales, Port Authority, ISPS, intermodal).
+- LOOP 3 (rol, 5/13): rol/director-of-product.md, rol/head-of-customer-communications.md, rol/head-of-analytics.md, rol/head-of-revenue.md, rol/head-of-corporate-affairs.md.
+- Modelo CENTRALIZADO (página + index/log raíz; SIN per-node raw/index/log, PITFALL 2026-07-15 respetado). Reference-only: sitios oficiales (INAI/LFTAIPG, DOJ/EEOC, IRCC/Citizenship Act, FTC/BBB, Código América/ITAM, FAA/ITU, NASA/ESA, AAPA/FHWA, Productboard/Pragmatic, Gainsight/Zendesk, McKinsey/Tableau, RevOps Coop/Salesforce, Weber Shandwick/Edelman) — sin raw/ (frontmatter `fuente:` cita URL).
+- **Ronda 52 COMPLETA (13/13).** Tópicos acumulados: ~744. Próximo: gap_analysis.py; si reporta 0 → pausar hasta próximo cron o extender taxonomía (Round 53).

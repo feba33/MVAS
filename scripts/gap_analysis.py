@@ -867,6 +867,23 @@ NEW_NODES += [
     ("rol/head-of-customer-lifecycle", "Head of Customer Lifecycle — onboarding, adopcion, retencion, expansion, churn; vs customer-success/customer-marketing"),
 ]
 
+# Round 52 (iter 190) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("transparencia", "Transparencia y acceso a la informacion Mexico: INAI, Ley Federal de Transparencia (LFTAIPG), datos abiertos, fiscalizacion, rendicion de cuentas, vs gobierno-digital/auditoria-gubernamental"))
+TAXONOMY["sustrato/estados-unidos"].append(("derechos-civiles", "Derechos civiles EE.UU.: Civil Rights Act, DOJ Civil Rights Division, EEOC, voting rights, discriminacion, vs seguridad-publica/poder-judicial"))
+TAXONOMY["sustrato/canada"].append(("ciudadania", "Ciudadania Canada: Citizenship Act, IRCC, juramento, derechos/derechos de ciudadania, naturalizacion, vs inmigracion"))
+NEW_NODES += [
+    ("dominio/ciberseguridad-ciudadana", "Ciberseguridad ciudadana / consumer privacy & safety: phishing, proteccion al consumidor digital, identidad, estafas online, alfabetizacion digital, vs proteccion-de-datos/seguridad-consumidor"),
+    ("dominio/derecho-procesal", "Derecho procesal: proceso civil/mercantil/penal, litigio, recursos, carga de la prueba, jurisdiccion, vs derecho-civil/derecho-penal/derecho-administrativo"),
+    ("dominio/satelites", "Satelites / satellite industry: manufactura de satelites, lanzamiento, downstream (earth observation, comunicaciones), regulacion orbital (FCC/ITU), vs espacio/industria-espacial"),
+    ("dominio/ciencia-espacial", "Ciencia espacial: astrofisica, planetologia, observatorios, misiones cientificas (NASA science), vs espacio/industria-espacial"),
+    ("dominio/gestion-portuaria", "Gestion portuaria / port management: operacion de puertos, terminales, carga/contenerizacion, regulacion portuaria (Puerto Authority), vs maritimo/transporte"),
+    ("rol/director-of-product", "Director of Product — lidera grupo de PMs / area de producto, estrategia de producto por dominio, roadmap, vs product-manager/head-of-product/chief-product-officer"),
+    ("rol/head-of-customer-communications", "Head of Customer Communications — comunicacion con base de clientes (lifecycle, notificaciones, crisis de producto), vs head-of-communications/customer-marketing"),
+    ("rol/head-of-analytics", "Head of Analytics — lidera la funcion de analitica (BI + datos + experimentacion), embed en negocio, vs chief-analytics-officer/data-lead"),
+    ("rol/head-of-revenue", "Head of Revenue — dueno del top-line operativo (ventas+CS+expansion), quota, retencion, vs chief-revenue-officer/vp-sales"),
+    ("rol/head-of-corporate-affairs", "Head of Corporate Affairs — asuntos corporativos, relacion con gobierno/reguladores/medios, sustentabilidad corporativa, vs head-of-public-affairs/relaciones-institucionales"),
+]
+
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}
 

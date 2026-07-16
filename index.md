@@ -1328,6 +1328,15 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### sustrato/canada (deepening R44)
 - [seguros](sustrato/canada/seguros.md) — Seguros Canadá: OSFI federal, FSRA/AMF provincial, auto obligatorio, P&C/vida; vs dominio/seguros · 🏷️ canada,seguros,osfi,fsra,seguro-auto,p&c · 📅 2026-07-15
 
+### sustrato/mexico (deepening R52)
+- [transparencia](sustrato/mexico/transparencia.md) — Transparencia y acceso a la información México: INAI, LFTAIPG, datos abiertos, rendición de cuentas; vs gobierno-digital/auditoria-gubernamental · 🏷️ mexico,transparencia,inai,lftaipg,datos-abiertos,rendicion-de-cuentas · 📅 2026-07-16
+
+### sustrato/estados-unidos (deepening R52)
+- [derechos-civiles](sustrato/estados-unidos/derechos-civiles.md) — Derechos civiles EE.UU.: Civil Rights Act, DOJ CRT, EEOC, voting rights, discriminación; vs seguridad-publica/poder-judicial · 🏷️ eeuu,derechos-civiles,civil-rights,doj,eeoc,voting-rights,discriminacion · 📅 2026-07-16
+
+### sustrato/canada (deepening R52)
+- [ciudadania](sustrato/canada/ciudadania.md) — Ciudadanía Canadá: Citizenship Act, IRCC, naturalización, juramento, doble ciudadanía; vs inmigracion · 🏷️ canada,ciudadania,citizenship,ircc,naturalizacion,jus-soli · 📅 2026-07-16
+
 ### dominio/gestion-de-crisis
 - [gestion-de-crisis](dominio/gestion-de-crisis.md) — Gestión de crisis / Crisis Management: BCM (ISO 22301), crisis comms, resiliencia; vs seguridad-corporativa/comunicacion-corporativa · 🏷️ gestion-de-crisis,crisis-management,bcm,iso-22301,comunicacion-crisis · 📅 2026-07-15
 
@@ -1531,4 +1540,34 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-customer-lifecycle
 - [head-of-customer-lifecycle](rol/head-of-customer-lifecycle.md) — Head of Customer Lifecycle: onboarding, adopción, retención, expansión, churn · 🏷️ head-of-customer-lifecycle,ciclo-de-vida,onboarding,retencion,churn,expansion · 📅 2026-07-16
+
+### dominio/ciberseguridad-ciudadana
+- [ciberseguridad-ciudadana](dominio/ciberseguridad-ciudadana.md) — Ciberseguridad ciudadana: phishing, estafas online, robo de identidad, alfabetización digital; vs proteccion-de-datos/seguridad-consumidor · 🏷️ ciberseguridad-ciudadana,phishing,estafas,identidad,alfabetizacion-digital,consumidor · 📅 2026-07-16
+
+### dominio/derecho-procesal
+- [derecho-procesal](dominio/derecho-procesal.md) — Derecho procesal: civil/mercantil/penal, litigio, recursos, carga de la prueba, jurisdicción · 🏷️ derecho-procesal,litigio,jurisdiccion,recursos,prueba,juicios-orales · 📅 2026-07-16
+
+### dominio/satelites
+- [satelites](dominio/satelites.md) — Satélites: manufactura, lanzamiento, downstream (earth observation, comunicaciones), regulación orbital FCC/ITU · 🏷️ satelites,satellite,lanzamiento,earth-observation,comunicaciones,fcc,itu · 📅 2026-07-16
+
+### dominio/ciencia-espacial
+- [ciencia-espacial](dominio/ciencia-espacial.md) — Ciencia espacial: astrofísica, planetología, observatorios, misiones científicas (NASA/ESA) · 🏷️ ciencia-espacial,astrofisica,planetologia,nasa,esa,observatorios · 📅 2026-07-16
+
+### dominio/gestion-portuaria
+- [gestion-portuaria](dominio/gestion-portuaria.md) — Gestión portuaria: terminales, carga/contenerización, Port Authority, ISPS Code, intermodal · 🏷️ gestion-portuaria,puertos,terminales,carga,contenedores,intermodal · 📅 2026-07-16
+
+### rol/director-of-product
+- [director-of-product](rol/director-of-product.md) — Director of Product: lidera grupo de PMs, roadmap por dominio, estrategia de producto; vs product-manager/head-of-product · 🏷️ director-of-product,producto,roadmap,pm,liderazgo,gestion-de-producto · 📅 2026-07-16
+
+### rol/head-of-customer-communications
+- [head-of-customer-communications](rol/head-of-customer-communications.md) — Head of Customer Communications: comunicación con base instalada, notificaciones, crisis de producto; vs head-of-communications · 🏷️ head-of-customer-communications,customer-comms,lifecycle,notificaciones,cx · 📅 2026-07-16
+
+### rol/head-of-analytics
+- [head-of-analytics](rol/head-of-analytics.md) — Head of Analytics: lidera función de analítica (BI+datos+experimento), embed en negocio; vs chief-analytics-officer · 🏷️ head-of-analytics,analytics,bi,data,experimentacion,liderazgo · 📅 2026-07-16
+
+### rol/head-of-revenue
+- [head-of-revenue](rol/head-of-revenue.md) — Head of Revenue: dueño operativo del top-line (ventas+CS+expansión), cuotas, retención; vs chief-revenue-officer · 🏷️ head-of-revenue,revenue,ventas,retencion,top-line,gtm · 📅 2026-07-16
+
+### rol/head-of-corporate-affairs
+- [head-of-corporate-affairs](rol/head-of-corporate-affairs.md) — Head of Corporate Affairs: asuntos corporativos, gobierno/medios, sustentabilidad, relación institucional; vs head-of-public-affairs · 🏷️ head-of-corporate-affairs,corporate-affairs,relaciones-institucionales,gobierno,medios,sustentabilidad · 📅 2026-07-16
 
