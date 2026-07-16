@@ -93,6 +93,8 @@ TAXONOMY = {
         ("pueblos-indigenas", "Pueblos indígenas de México: Art. 2 Constitucional, INPI (Instituto Nacional de los Pueblos Indígenas), derechos indígenas, autonomía, lenguas originarias, consulta previa; vs derechos-humanos"),
         # Round 46 — deepening NA (empleo MX).
         ("empleo", "Empleo / mercado laboral México: tasa de desempleo (INEGI/ENOE), informalidad, subempleo, salario mínimo, población económicamente activa (PEA), productividad laboral; vs trabajo (laboral) y seguridad-social"),
+        # Round 47 — deepening NA (economía creativa MX).
+        ("economia-creativa", "Economía creativa / industrias culturales México: cine, música, diseño, artes, videojuegos, edtech creativo, contribución al PIB, políticas culturales; vs cultura (solo CA) y sector-servicios"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -162,6 +164,8 @@ TAXONOMY = {
         ("pueblos-indigenas", "Pueblos indígenas EE.UU. (Native Americans / American Indians): Bureau of Indian Affairs (BIA), tribal sovereignty, trust lands, tratados, NCAI, consulta; vs derechos-humanos"),
         # Round 46 — deepening NA (política fiscal US).
         ("politica-fiscal", "Política fiscal EE.UU.: postura fiscal (estímulo/austeridad), déficit y deuda, CBO, presupuesto discrecional/mandatorio, recortes/gastos, efecto multiplicador, vs impuestos (IRS) y finanzas-publicas (Treasury/deuda)"),
+        # Round 47 — deepening NA (energía nuclear US).
+        ("energia-nuclear", "Energía nuclear EE.UU.: NRC, DOE Office of Nuclear Energy, plantas comerciales, SMR/advanced reactors, residuos (Yucca/WIPP), seguridad, vs dominio/energia-nuclear (disciplina)"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -231,6 +235,8 @@ TAXONOMY = {
         ("lenguas-oficiales", "Lenguas oficiales Canadá: Official Languages Act, bilingüismo francés/inglés, Comisionado de Lenguas Oficiales, servicios en ambos idiomas, equilibrio; vs cultura"),
         # Round 46 — deepening NA (competitividad CA).
         ("competitividad", "Competitividad Canadá: ranking WEF/Bank (World Bank Doing Business hist., IQC), clima de negocios, productividad, facilitación, infraestructura, talento, innovación; vs economia y ciencia-e-innovacion"),
+        # Round 47 — deepening NA (política fiscal CA).
+        ("politica-fiscal", "Política fiscal Canadá: Department of Finance, presupuesto federal, déficit y deuda/PIB, gasto en programas (salud/transferencias), estímulo, vs impuestos (CRA) y finanzas-publicas"),
     ],
     
     "dominio/finanzas": [
@@ -776,6 +782,17 @@ NEW_NODES = [
     ("rol/head-of-revenue-operations", "Head of Revenue Operations (RevOps) — lidera RevOps a nivel org (ventas+marketing+CS), datos y proceso de ingresos; vs head-of-sales-ops/chief-revenue-officer"),
     ("rol/head-of-ai", "Head of AI — lidera la función de IA/ML aplicada, estrategia de modelos, adopción, puente con producto; vs chief-ai-officer/ml-engineer"),
     ("rol/head-of-infrastructure", "Head of Infrastructure — lidera infraestructura TI (cloud/on-prem), confiabilidad, capacidad, costo; vs head-of-it/cloud-architect/sre"),
+    # Round 47 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings economia-creativa MX, energia-nuclear US, politica-fiscal CA; dominio/rol generales).
+    ("dominio/forestal", "Silvicultura / forestry: manejo forestal, cadena de valor maderera, restauración, carbono azul/verde, regulación (SEMARNAT/USFS/CFS), economía forestal; vs medio-ambiente/agricultura"),
+    ("dominio/banca-central", "Banca central / central banking: mandatos (precios/empleo), instrumentos de política monetaria, reservas, supervisor bancario, independencia, vs politica-monetaria (sustrato) y sistema-financiero"),
+    ("dominio/economia-institucional", "Economía institucional: papel de las instituciones en el desempeño económico, costos de transacción, derechos de propiedad, new institutional economics; vs economia/estrategia"),
+    ("dominio/geografia-economica", "Geografía económica: localización, aglomeración/clústeres, desarrollo regional, economía espacial, infraestructura y comercio; vs urbanismo/economia"),
+    ("dominio/demografia", "Demografía (como disciplina de dominio): estructura por edad/sexo, fecundidad/mortalidad/migración, transición demográfica, proyecciones, vs sustrato/*/demografia-poblacion"),
+    ("rol/head-of-legal", "Head of Legal — lidera el departamento legal operativo (litigios, contratos, cumplimiento legal), reporta al General Counsel/CLO; vs legal-counsel/general-counsel/chief-legal-officer"),
+    ("rol/head-of-demand-generation", "Head of Demand Generation — lidera la generación de demanda (paid, content, events, ABM), pipeline de marketing, atribución, vs marketing-manager/demand-generation/cmo"),
+    ("rol/head-of-clinical-operations", "Head of Clinical Operations — opera ensayos clínicos (site management, CRO oversight, accrual, compliance GCP), farma/biotech; vs head-of-medical-affairs/chief-medical-officer"),
+    ("rol/head-of-quality-assurance", "Head of Quality Assurance (QA) — asegura la calidad de producto/software (test strategy, QA org, release gates), vs quality-manager (calidad operativa)/test-engineer"),
+    ("rol/head-of-machine-learning", "Head of Machine Learning — lidera equipos de ML/MLOps, estrategia de modelos a escala, plataforma de ML, vs head-of-data-science/chief-ai-officer/ml-engineer"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

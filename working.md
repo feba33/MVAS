@@ -1800,4 +1800,43 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - LOOP 3 (rol, 13/13): head-of-sustainability, head-of-people-analytics, head-of-revenue-operations, head-of-ai, head-of-infrastructure.
 - Modelo centralizado (página + index/log raíz; SIN per-node raw/index/log). Reference-only: Wikipedia (EN/ES) + sitios oficiales (INEGI, CBO, OMB, WEF, ITIF, IEA, TNFD, ISA/IEC 62443, NERC, COSO, ISO, EFMD, UN Global Compact, GRI, GHG Protocol, SHRM, Salesforce, Google AI Principles, FinOps) — sin raw/.
 - **Round 46 COMPLETA (13/13).** Tópicos acumulados: 663. ALCANCE sustrato = solo Norteamérica (respetado).
-| - Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 47) o pausar hasta próximo cron.
+
+## ✅ COLA ROUND 47 — COMPLETA (13/13)
+> gap_analysis.py reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 47 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página + integración en index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/economia-creativa.md — Economía creativa México (cine, música, diseño, videojuegos, PIB cultural)
+- [x] sustrato/estados-unidos/energia-nuclear.md — Energía nuclear EE.UU. (NRC, DOE, plantas, SMR)
+- [x] sustrato/canada/politica-fiscal.md — Política fiscal Canadá (Dept Finance, presupuesto, deuda/PIB)
+### Dominio (nuevos nodos)
+- [x] dominio/forestal.md — Silvicultura / forestry (manejo, cadena de valor, carbono, SEMARNAT/USFS/CFS)
+- [x] dominio/banca-central.md — Banca central (mandatos, política monetaria, supervisión, independencia)
+- [x] dominio/economia-institucional.md — Economía institucional (instituciones, derechos de propiedad, NIE)
+- [x] dominio/geografia-economica.md — Geografía económica (localización, clústeres, desarrollo regional)
+- [x] dominio/demografia.md — Demografía (disciplina: estructura, transición, proyecciones)
+### Rol (nuevos nodos)
+- [x] rol/head-of-legal.md — Head of Legal (depto legal operativo, litigios, contratos)
+- [x] rol/head-of-demand-generation.md — Head of Demand Generation (paid/content/events/ABM, pipeline)
+- [x] rol/head-of-clinical-operations.md — Head of Clinical Operations (ensayos clínicos, CRO, GCP)
+- [x] rol/head-of-quality-assurance.md — Head of QA (test strategy, release gates, calidad producto)
+- [x] rol/head-of-machine-learning.md — Head of ML (equipos ML/MLOps, plataforma de modelos)
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+| **Tópicos ingeridos (acumulado): 676** (Round 46: 663; Round 47: 676/13). |
+| **Rondas:** 47 completas (Round 1..47). |
+| **Nodos sustrato (NA):** México 66, EE.UU. 54, Canadá 48 (Round 47 +3). |
+| **Nodos dominio:** ~185 (Round 47 +5). |
+| **Nodos rol:** ~175 (Round 47 +5). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech). |
+| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+| **Iteraciones totales:** 185. |
+
+## 🚦 ESTADO
+| - **Iteración actual:** 185 (Round 47 COMPLETA — 13/13). |
+| - **Última acción:** Round 47 ingerida (13/13): 3 deepenings sustrato NA (economia-creativa MX, energia-nuclear US, politica-fiscal CA) + 5 nodos dominio (forestal, banca-central, economia-institucional, geografia-economica, demografia) + 5 nodos rol (head-of-legal, head-of-demand-generation, head-of-clinical-operations, head-of-quality-assurance, head-of-machine-learning). Modelo centralizado; reference-only (URL en frontmatter; sin raw/). Integrando index.md/log.md/working.md. |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 47 COMPLETA (13/13). |
+
+## ▶️ PRÓXIMA TAREA
+| - Round 47 COMPLETA (13/13). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 48) o pausar hasta próximo cron. |
+| - ALCANCE sustrato = solo Norteamérica (MX/US/CA), respetado. |

@@ -26,6 +26,14 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Reference-only: Wikipedia (EN/ES) + sitios oficiales (INEGI, CBO, OMB, WEF, ITIF, IEA, TNFD, ISA/IEC 62443, NERC, COSO, ISO, EFMD, UN Global Compact, GRI, GHG Protocol, SHRM, Salesforce, Google AI Principles, FinOps) — sin raw/.
 - **Round 46 COMPLETA (13/13).** Tópicos acumulados: ~663. Próximo: gap_analysis.py; si 0 → reabastecer taxonomía (Round 47) o pausar hasta próximo cron.
 
+## [2026-07-16] ingest | Round 47 — 13 ingests (3 loops: sustrato NA + dominio + rol) — ROUND CERRADO
+- gap_analysis.py (iter 184) = 0 huecos reales → taxonomía extendida Round 47: 3 deepenings NA (mexico→economia-creativa, estados-unidos→energia-nuclear, canada→politica-fiscal) + 10 nodos nuevos (dominio: forestal, banca-central, economia-institucional, geografia-economica, demografia; rol: head-of-legal, head-of-demand-generation, head-of-clinical-operations, head-of-quality-assurance, head-of-machine-learning).
+- LOOP 1 (sustrato NA, 3/13): sustrato/mexico/economia-creativa.md, sustrato/estados-unidos/energia-nuclear.md, sustrato/canada/politica-fiscal.md (modelo CENTRALIZADO; reference-only INEGI/StatCan/EIA/DOE/NRC + sitios oficiales; sin raw/).
+- LOOP 2 (dominio, 5/13): dominio/forestal.md, dominio/banca-central.md, dominio/economia-institucional.md, dominio/geografia-economica.md, dominio/demografia.md.
+- LOOP 3 (rol, 13/13): rol/head-of-legal.md, rol/head-of-demand-generation.md, rol/head-of-clinical-operations.md, rol/head-of-quality-assurance.md, rol/head-of-machine-learning.md.
+- Reference-only (Wikipedia EN/ES + sitios oficiales INEGI, StatCan, EIA, DOE, NRC, FDA, ISO, ACC; sin archivos en raw/). ALCANCE sustrato = solo Norteamérica (respetado).
+- **Round 47 COMPLETA (13/13).** Tópicos acumulados: 676. Próximo: gap_analysis.py; si 0 → reabastecer taxonomía (Round 48) o pausar.
+
 ## [2026-07-09] setup | Estructura inicial MVAS + patrón LLM Wiki
 - Creado repo MVAS con 4 capas: sustrato / dominio / organización / rol.
 - Integrado patrón LLM Wiki: capa `raw/` (fuentes inmutables), `index.md`,

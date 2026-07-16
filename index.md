@@ -61,6 +61,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [pobreza-desigualdad](sustrato/mexico/pobreza-desigualdad.md) — Pobreza y desigualdad México: CONEVAL (multidimensional: ingresos + 6 carencias), línea de bienestar, programas sociales (Prospera/adultos mayores), Gini ~0.45; vs seguridad-social/trabajo · 🏷️ mexico,pobreza,desigualdad,coneval,pobreza-multidimensional,programas-sociales,bienestar · 📅 2026-07-15
 - [pueblos-indigenas](sustrato/mexico/pueblos-indigenas.md) — Pueblos indígenas México: Art.2 constitucional, INPI, 68 grupos/11.8M, lenguas nacionales, consulta previa (CPLI); vs derechos-humanos · 🏷️ mexico,pueblos-indigenas,derechos-indigenas,lenguas-originarias,autonomia,inpi,consulta-previa · 📅 2026-07-15
 - [empleo](sustrato/mexico/empleo.md) — Empleo y mercado laboral México: ENOE/INEGI, desempleo 2.4% (dic 2025), informalidad 54.6%, salario mínimo; vs trabajo/seguridad-social · 🏷️ mexico,empleo,mercado-laboral,enoe,inegi,informalidad,desempleo,salario-minimo,pea · 📅 2026-07-15
+- [economia-creativa](sustrato/mexico/economia-creativa.md) — Economía creativa México: industrias culturales (cine, música, diseño, videojuegos), PIB cultural 2.8% (865,682 mdp 2024), 1.43M empleos; vs cultura/sector-servicios · 🏷️ mexico,economia-creativa,industrias-culturales,cultura,pib,inegi,politica-cultural · 📅 2026-07-16
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -106,6 +107,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [pobreza-desigualdad](sustrato/estados-unidos/pobreza-desigualdad.md) — Pobreza y desigualdad EE.UU.: Census poverty line, Gini ~0.49, safety net (SNAP/TANF/EITC/Medicaid); vs seguridad-social/labor · 🏷️ eeuu,pobreza,desigualdad,census,gini,safety-net,snap,tanf,eitc · 📅 2026-07-15
 - [pueblos-indigenas](sustrato/estados-unidos/pueblos-indigenas.md) — Pueblos indígenas EE.UU. (Native Americans): tribal sovereignty, 574 tribus, BIA/DOI, trust lands, IGRA; vs derechos-humanos · 🏷️ eeuu,native-americans,tribal-sovereignty,bia,tratados,trust-lands,ncai · 📅 2026-07-15
 - [politica-fiscal](sustrato/estados-unidos/politica-fiscal.md) — Política fiscal EE.UU.: gasto discrecional/mandatorio, déficit >USD1.5-2B/yr, deuda >USD36B (~120% PIB), CBO/OMB, techo de deuda; vs impuestos/finanzas-publicas · 🏷️ estados-unidos,politica-fiscal,deficit,deuda,cbo,presupuesto-federal,gasto-publico,estimulo · 📅 2026-07-15
+- [energia-nuclear](sustrato/estados-unidos/energia-nuclear.md) — Energía nuclear EE.UU.: NRC, DOE Office of Nuclear Energy, ~94 reactores (~96 GW), SMR (NuScale certificado 2023), residuos (Yucca/WIPP); vs dominio/energia-nuclear · 🏷️ estados-unidos,energia-nuclear,nrc,doe,reactores,smr,electricidad,descarbonizacion · 📅 2026-07-16
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -145,6 +147,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [sector-servicios](sustrato/canada/sector-servicios.md) — Sector servicios Canadá: ~70% del PIB y ~75% del empleo; finanzas, inmobiliario, retail, salud, público, TI · 🏷️ canada,sector-servicios,servicios,pib,empleo,economia · 📅 2026-07-14
 - [pobreza-desigualdad](sustrato/canada/pobreza-desigualdad.md) — Pobreza y desigualdad Canadá: Market Basket Measure (MBM), Canada Poverty Reduction Strategy, Gini ~0.33; vs seguridad-social/labor · 🏷️ canada,pobreza,desigualdad,mbm,reduccion-pobreza,gini,bienestar · 📅 2026-07-15
 - [lenguas-oficiales](sustrato/canada/lenguas-oficiales.md) — Lenguas oficiales Canadá: Official Languages Act 1969/1988/2023, bilingüismo constitucional, Comisionado, servicios FR/EN · 🏷️ canada,lenguas-oficiales,bilingue,official-languages-act,comisionado,frances-ingles,part-vii · 📅 2026-07-15
+- [politica-fiscal](sustrato/canada/politica-fiscal.md) — Política fiscal Canadá: Department of Finance, presupuesto federal, déficit federal $52.3B (2023, 1.8% PIB), deuda ~$1.28T (2025); vs impuestos/finanzas-publicas · 🏷️ canada,politica-fiscal,department-of-finance,presupuesto,deficit,deuda,pib,statcan · 📅 2026-07-16
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -1366,4 +1369,34 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-infrastructure
 - [head-of-infrastructure](rol/head-of-infrastructure.md) — Head of Infrastructure: infraestructura TI (cloud/on-prem), confiabilidad, capacidad, costo; vs head-of-it/cloud-architect/sre · 🏷️ head-of-infrastructure,infraestructura-ti,cloud,on-prem,confiabilidad,capacidad,costo-de-infra · 📅 2026-07-15
+
+### dominio/forestal
+- [forestal](dominio/forestal.md) — Silvicultura / forestry: manejo forestal, cadena de valor maderera, secuestro de carbono, SEMARNAT/USFS/CFS; vs medio-ambiente/agricultura · 🏷️ forestal,silvicultura,manejo-forestal,productos-madereros,carbono,biodiversidad,economia-verde · 📅 2026-07-16
+
+### dominio/banca-central
+- [banca-central](dominio/banca-central.md) — Banca central / central banking: mandatos (precios/empleo), política monetaria, supervisión, independencia; vs politica-monetaria/sistema-financiero · 🏷️ banca-central,politica-monetaria,estabilidad-financiera,independencia,inflacion,tipos-de-interes · 📅 2026-07-16
+
+### dominio/economia-institucional
+- [economia-institucional](dominio/economia-institucional.md) — Economía institucional: instituciones, derechos de propiedad, costos de transacción, NIE (Coase/North/Williamson) · 🏷️ economia-institucional,instituciones,derechos-de-propiedad,costos-de-transaccion,coase,north,williamson · 📅 2026-07-16
+
+### dominio/geografia-economica
+- [geografia-economica](dominio/geografia-economica.md) — Geografía económica: localización, aglomeración/clústeres, desarrollo regional, NEG (Krugman) · 🏷️ geografia-economica,localizacion,aglomeracion,clusters,desarrollo-regional,comercio · 📅 2026-07-16
+
+### dominio/demografia
+- [demografia](dominio/demografia.md) — Demografía (disciplina): estructura por edad/sexo, fecundidad/mortalidad/migración, transición demográfica, proyecciones · 🏷️ demografia,poblacion,fecundidad,mortalidad,migracion,transicion-demografica · 📅 2026-07-16
+
+### rol/head-of-legal
+- [head-of-legal](rol/head-of-legal.md) — Head of Legal: lidera depto legal operativo (litigios, contratos, cumplimiento), reporta a GC/CLO; vs legal-counsel/general-counsel · 🏷️ head-of-legal,legal,departamento-legal,litigios,contratos,cumplimiento-legal · 📅 2026-07-16
+
+### rol/head-of-demand-generation
+- [head-of-demand-generation](rol/head-of-demand-generation.md) — Head of Demand Generation: paid/content/events/ABM, pipeline de marketing, atribución; vs marketing-manager/cmo · 🏷️ head-of-demand-generation,demand-generation,marketing,pipeline,abm,paid-media · 📅 2026-07-16
+
+### rol/head-of-clinical-operations
+- [head-of-clinical-operations](rol/head-of-clinical-operations.md) — Head of Clinical Operations: opera ensayos clínicos (site mgmt, CRO, GCP), farma/biotech; vs head-of-medical-affairs/CMO · 🏷️ head-of-clinical-operations,clinical-operations,ensayos-clinicos,cro,gcp,farma,biotech · 📅 2026-07-16
+
+### rol/head-of-quality-assurance
+- [head-of-quality-assurance](rol/head-of-quality-assurance.md) — Head of QA: estrategia de pruebas, release gates, calidad de producto/software (ISO 25010); vs quality-manager/test-engineer · 🏷️ head-of-quality-assurance,qa,calidad,testing,release-gates,software-quality · 📅 2026-07-16
+
+### rol/head-of-machine-learning
+- [head-of-machine-learning](rol/head-of-machine-learning.md) — Head of ML: lidera equipos ML/MLOps, estrategia de modelos a escala, plataforma de ML; vs head-of-data-science/chief-ai-officer · 🏷️ head-of-machine-learning,machine-learning,ml,mlops,equipos-ml,plataforma-ml · 📅 2026-07-16
 
