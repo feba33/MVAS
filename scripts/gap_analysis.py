@@ -905,6 +905,24 @@ NEW_NODES += [
 ]
 
 
+# Round 54 (iter 192) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("infraestructura-digital", "Infraestructura digital Mexico: fibra optica, data centers, conectividad, Agenda Digital, Estrategia Nacional de Inteligencia Artificial, vs gobierno-digital/telecomunicaciones"))
+TAXONOMY["sustrato/mexico"].append(("hidrocarburos", "Hidrocarburos Mexico: PEMEX, CNH, regulacion de hidrocarburos, petroleros, gas, reforma energetica, vs energia/transporte"))
+TAXONOMY["sustrato/canada"].append(("politica-inmigratoria", "Politica de inmigracion Canada: niveles de inmigracion, planes de migracion, Express Entry, PNP, refugiados, integracion, vs inmigracion/ciudadania/poblacion"))
+NEW_NODES += [
+    ("dominio/finanzas-ventas", "Finanzas de ventas / sales finance: credito al consumo, financing de equipos, leasing, BNPL, subprime auto, vs finanzas/bancarios"),
+    ("dominio/tecnologia-financiera", "Tecnologia financiera aplicada a dominios (fintech vertical: insurtech/regtech/payments ya cubiertos; aqui: neobancos, wealthtech, proptech-finance, embedded lending); vs fintech"),
+    ("dominio/gestion-de-la-cadena-de-suministro", "Gestion de la cadena de suministro (SCM operativo): planificacion, sourcing, make, entrega, retorno, S&OP, resiliencia, vs cadena-suministro/cadena-de-valor"),
+    ("dominio/propiedad-intelectual-empresarial", "IP empresarial / IP management: portafolio de patentes, licencias, due diligence de IP, trade secrets, litigios de patentes, vs propiedad-intelectual/derecho-de-la-competencia"),
+    ("dominio/salud-ocupacional", "Salud ocupacional / occupational health: vigilancia de la salud, exposicion laboral, ergonomia, enfermedades de trabajo, vs seguridad-y-salud-ocupacional/bienestar-laboral"),
+    ("rol/head-of-sales-enablement-mkt", "Head of Sales Enablement (deepening rol): capacitacion, contenido y herramientas de ventas, playbooks, onboarding de reps; vs sales-manager/head-of-sales-ops"),
+    ("rol/head-of-customer-education", "Head of Customer Education — educacion del cliente (onboarding, academy, docs, certificaciones), adopcion y retencion; vs customer-success/head-of-customer-experience"),
+    ("rol/head-of-employer-branding-2", "Head of Talent Brand (deepening): marca empleadora, recruitment marketing, propuesta de valor; vs head-of-employer-branding/reclutador"),
+    ("rol/head-of-legal-operations", "Head of Legal Operations (Legal Ops): eBilling, proveedores externos, tecnologia legal, gestao de contratos a escala; vs legal-ops/head-of-legal/general-counsel"),
+    ("rol/head-of-corporate-development-2", "Head of Strategy & Corporate Development (deepening): M&A screening, capital allocation, due diligence, integracion; vs head-of-corporate-development/chief-strategy-officer"),
+]
+
+
 def node_exists(path: str) -> bool:
     """True si el nodo ya existe en el repo, sea como directorio
     (dominio/foo/), como archivo plano (dominio/foo.md) o como página dentro

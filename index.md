@@ -68,6 +68,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [cultura](sustrato/mexico/cultura.md) — Cultura de México: identidad mestiza, CONACULTA/Secretaría de Cultura, 36 sitios UNESCO, 9 elementos inmaterial, LFCDC, economía creativa · 🏷️ mexico,cultura,patrimonio,industrias-culturales,conaculta,unesco,derechos-culturales · 📅 2026-07-16
 - [educacion-superior](sustrato/mexico/educacion-superior.md) — Educación superior México: autonomía (art.3º), UNAM/IPN/ANUIES, PRODEP, PNPC, cobertura ~50% · 🏷️ mexico,educacion-superior,unam,ipn,anuies,autonomia,posgrado,prodep · 📅 2026-07-16
 - [seguridad-nacional](sustrato/mexico/seguridad-nacional.md) — Seguridad nacional Mexico: CNS, SEDENA/SSEM, Guardia Nacional (mando militar 2025), CNI, CERT/ciberdefensa, LSN (tags: mexico,seguridad-nacional,cns,sedena,inteligencia,ciberdefensa) · 2026-07-16
+- [infraestructura-digital](sustrato/mexico/infraestructura-digital.md) — Infraestructura digital México: fibra óptica, data centers, Agenda Digital, Estrategia Nacional de IA · 🏷️ mexico,infraestructura-digital,fibra-optica,data-centers,conectividad,agenda-digital,ia · 📅 2026-07-16
+- [hidrocarburos](sustrato/mexico/hidrocarburos.md) — Hidrocarburos México: PEMEX, CNH, reforma energética 2025, Derecho Petrolero · 🏷️ mexico,hidrocarburos,pemex,cnh,energia,petroleo,gas,reforma-energetica · 📅 2026-07-16
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -163,6 +165,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [industria-aeroespacial](sustrato/canada/industria-aeroespacial.md) — Aeroespacial Canada: Quebec/Montreal, Bombardier, Bell, MDA (Canadarm), Pratt&Whitney Canada, MRO, Transport Canada (tags: canada,aeroespacial,quebec,bombardier,bell,mda,mro) · 2026-07-16
 - [mineria](sustrato/canada/mineria.md) — Minería Canadá: oro/níquel/uranio, NRCan, clústeres (Ontario/Québec/BC), regulación fed/prov, impacto indígena, minerales críticos · 🏷️ canada,mineria,nrcan,oruro,niquel,urano,recursos-naturales,exportacion · 📅 2026-07-16
 - [educacion-superior](sustrato/canada/educacion-superior.md) — Educación superior Canadá: PSE provincial/territorial, universidades/colleges/CEGEP, Canada Student Loans, internacionalización; vs educacion · 🏷️ canada,educacion-superior,universidades,colleges,pse,provincias · 📅 2026-07-16
+- [politica-inmigratoria](sustrato/canada/politica-inmigratoria.md) — Política de inmigración Canadá: niveles 2026-2028, PNP (91.5k 2026), Express Entry, IRCC · 🏷️ canada,inmigracion,politica-inmigratoria,ircc,express-entry,pnp,niveles-de-inmigracion · 📅 2026-07-16
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -217,6 +220,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [derivados](dominio/finanzas/derivados.md) — Derivados: futuros, opciones, swaps, forwards; cobertura y apalancamiento · 🏷️ finanzas,derivados,futuros,opciones,swaps,cobertura · 📅 2026-07-10
 - [mercados-capitales](dominio/finanzas/mercados-capitales.md) — Mercados de capitales: ECM/IPO, DCM/bonos, underwriting · 🏷️ finanzas,mercados-capitales,ipo,bonos,underwriting · 📅 2026-07-10
 - [finanzas-corporativas](dominio/finanzas/finanzas-corporativas.md) — Finanzas corporativas: M&A, valoración, tesorería/liquidez · 🏷️ finanzas-corporativas,mna,valoracion,tesoreria · 📅 2026-07-10
+- [finanzas-ventas](dominio/finanzas-ventas.md) — Finanzas de ventas: crédito al consumo, leasing, BNPL, subprime auto · 🏷️ finanzas,finanzas-de-ventas,credito-al-consumo,leasing,bnpl,subprime-auto · 📅 2026-07-16
+- [tecnologia-financiera](dominio/tecnologia-financiera.md) — Tecnología financiera aplicada: neobancos, wealthtech, embedded lending · 🏷️ fintech,tecnologia-financiera,neobancos,wealthtech,embedded-lending,embedded-finance · 📅 2026-07-16
 
 ### dominio/computacion
 - [paradigmas](dominio/computacion/paradigmas.md) — Paradigmas de programación · 🏷️ paradigmas · 📅 2026-07-09
@@ -576,6 +581,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol/head-of-sales-enablement
 - [head-of-sales-enablement](rol/head-of-sales-enablement/head-of-sales-enablement.md) — Head of Sales Enablement: capacitación, contenido, herramientas de ventas · 🏷️ sales-enablement,ventas,capacitacion,playbooks,onboarding · 📅 2026-07-12
 
+### rol/head-of-sales-enablement-mkt
+- [head-of-sales-enablement-mkt](rol/head-of-sales-enablement-mkt.md) — Head of Sales Enablement (deepening): framework operativo, playbooks, onboarding de reps, coaching, enablement platforms · 🏷️ sales-enablement,ventas,capacitacion,playbooks,onboarding,contenido-ventas,revops · 📅 2026-07-16
+
 ### rol/head-of-people-analytics
 - [head-of-people-analytics](rol/head-of-people-analytics/head-of-people-analytics.md) — Head of People Analytics: attrition, engagement, workforce planning, pay equity · 🏷️ people-analytics,hr-analytics,attrition,engagement,workforce-planning,dei · 📅 2026-07-12
 
@@ -654,6 +662,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol/legal-ops
 - [legal-ops](rol/legal-ops/legal-ops.md) — Legal Operations: eBilling, proveedores, tecnología legal, gestión de contratos · 🏷️ legal-ops,operaciones-legales,ebilling,proveedores-legales,tecnologia-legal,gestion-contratos · 📅 2026-07-12
 
+### rol/head-of-legal-operations
+- [head-of-legal-operations](rol/head-of-legal-operations.md) — Head of Legal Operations: lidera la función de legal ops (presupuesto, eBilling, proveedores, tecnología legal, CLM) · 🏷️ head-of-legal-operations,legal-ops,eBilling,proveedores-legales,tecnologia-legal,clm,liderazgo · 📅 2026-07-16
+
 ### rol/head-of-facilities
 - [head-of-facilities](rol/head-of-facilities/head-of-facilities.md) — Head of Facilities / FM: instalaciones, workplace, servicios, ISO 41001 · 🏷️ facilities,facility-management,workplace,servicios-generales,iso-41001,instalaciones · 📅 2026-07-12
 
@@ -731,11 +742,20 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/seguridad-y-salud-ocupacional
 - [seguridad-y-salud-ocupacional](dominio/seguridad-y-salud-ocupacional/seguridad-y-salud-ocupacional.md) — Seguridad y salud ocupacional: ISO 45001, OSHA/CSST, prevención de riesgos, bienestar laboral · 🏷️ ohs,seguridad-laboral,salud-ocupacional,iso-45001,osha,prevencion-riesgos,bienestar · 📅 2026-07-13
 
+### dominio/salud-ocupacional
+- [salud-ocupacional](dominio/salud-ocupacional.md) — Salud ocupacional (Occupational Health): vigilancia de la salud, exposición laboral, ergonomía, enfermedades de trabajo, vs seguridad-y-salud-ocupacional · 🏷️ salud-ocupacional,occupational-health,ergonomia,vigilancia-salud,enfermedades-trabajo,medicina-trabajo · 📅 2026-07-16
+
 ### dominio/proteccion-de-datos
 - [proteccion-de-datos](dominio/proteccion-de-datos/proteccion-de-datos.md) — Protección de datos/privacidad transversal: GDPR/CCPA/CPRA/LGPD/PIPL, derechos ARCO, privacy by design · 🏷️ proteccion-de-datos,privacidad,gdpr,ccpa,cpra,lgpd,pipl,privacy-by-design · 📅 2026-07-13
 
+### dominio/propiedad-intelectual-empresarial
+- [propiedad-intelectual-empresarial](dominio/propiedad-intelectual-empresarial.md) — IP empresarial (IP management): portafolio de patentes, licencias, due diligence de IP, trade secrets, litigios de patentes · 🏷️ propiedad-intelectual-empresarial,ip-management,patentes,licencias,trade-secrets,due-diligence-ip,litigios-patentes · 📅 2026-07-16
+
 ### dominio/gestion-de-activos
 - [gestion-de-activos](dominio/gestion-de-activos/gestion-de-activos.md) — Gestión de activos: fondos, AUM, gestión de inversión, industria financiera · 🏷️ gestion-de-activos,asset-management,wealth-management,fondos,aum,inversion · 📅 2026-07-13
+
+### dominio/gestion-de-la-cadena-de-suministro
+- [gestion-de-la-cadena-de-suministro](dominio/gestion-de-la-cadena-de-suministro.md) — Gestión de la cadena de suministro (SCM operativo): plan-source-make-deliver-return, S&OP, resiliencia · 🏷️ scm,cadena-de-suministro,planificacion,sourcing,logistica,resiliencia,sop,inventario · 📅 2026-07-16
 
 ### rol/vp-finance
 - [vp-finance](rol/vp-finance/vp-finance.md) — VP of Finance: reporta al CFO, lidera FP&A/controller/treasury, planeación financiera · 🏷️ vp-finance,finanzas,fp-and-a,controller,treasurer,cfo,planeacion-financiera · 📅 2026-07-13
@@ -875,6 +895,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-customer-experience
 - [head-of-customer-experience](rol/head-of-customer-experience/head-of-customer-experience.md) — Head of CX: journey, VoC, NPS/CSAT, operación de experiencia · 🏷️ head-of-cx,customer-experience,voc,nps,csat,journey · 📅 2026-07-13
+
+### rol/head-of-customer-education
+- [head-of-customer-education](rol/head-of-customer-education.md) - Head of Customer Education: educacion del cliente (onboarding, academy, docs, certificaciones), adopcion y retencion - customer-education,onboarding,academy,certificaciones,adopcion,retencion,customer-success - 2026-07-16
 
 ### rol/category-manager
 - [category-manager](rol/category-manager/category-manager.md) — Category Manager: gestión de categoría (retail/compras), assortment, pricing, P&L · 🏷️ category-manager,gestion-de-categoria,retail,compras,assortment · 📅 2026-07-13
@@ -1041,6 +1064,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-employer-branding
 - [head-of-employer-branding](rol/head-of-employer-branding/head-of-employer-branding.md) — Head of Employer Branding: marca empleadora, talent brand, recruitment marketing, EVP · 🏷️ head-of-employer-branding,employer-branding,marca-empleadora,talent-brand,recruitment-marketing,retencion · 📅 2026-07-14
+
+### rol/head-of-talent-brand
+- [head-of-talent-brand](rol/head-of-talent-brand.md) - Head of Talent Brand (Employer Branding): marca empleadora, recruitment marketing, propuesta de valor al empleado - talent-brand,employer-branding,marca-empleadora,recruitment-marketing,propuesta-valor-empleado - 2026-07-16
 
 ### rol/director-of-operations
 - [director-of-operations](rol/director-of-operations/director-of-operations.md) — Director of Operations: liderazgo operativo, ejecución de procesos y P&L de operaciones · 🏷️ director-of-operations,operations,operaciones,procesos,pl,ejecucion · 📅 2026-07-14
@@ -1299,6 +1325,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-strategy
 - [head-of-strategy](rol/head-of-strategy/head-of-strategy.md) — Head of Strategy: estrategia corporativa, planificación, M&A screening, inteligencia competitiva · 🏷️ head-of-strategy,estrategia-corporativa,planificacion-estrategica,m-a,inteligencia-competitiva · 📅 2026-07-15
+
+### rol/head-of-strategy-corporate-development
+- [head-of-strategy-corporate-development](rol/head-of-strategy-corporate-development.md) - Head of Strategy & Corporate Development: M&A screening, asignacion de capital, due diligence, integracion - strategy-corporate-development,mna,capital-allocation,due-diligence,integracion,corp-dev - 2026-07-16
 ### rol/head-of-developer-experience
 - [head-of-developer-experience](rol/head-of-developer-experience/head-of-developer-experience.md) — Head of Developer Experience (DevEx): plataforma interna, golden paths, DX metrics · 🏷️ head-of-developer-experience,devex,developer-experience,plataforma-interna,golden-paths · 📅 2026-07-15
 ### rol/head-of-medical-affairs

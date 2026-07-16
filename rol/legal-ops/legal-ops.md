@@ -2,15 +2,24 @@
 titulo: Legal Operations (legal ops)
 capa: rol
 tema: legal-ops
-fuente: https://en.wikipedia.org/wiki/Legal_operations
-fuente2: https://www.cloc.org/
-fecha: 2026-07-12
+fuente: https://cloc.org/what-is-legal-ops/
+fuente2: https://cloc.org/
+fecha: 2026-07-16
 confianza: media
 tags: [legal-ops, operaciones-legales, ebilling, proveedores-legales, tecnologia-legal, gestion-contratos]
+profundidad: 2
+estado: profundo
 english_keywords: [legal operations, legal ops, eBilling, legal spend, matter management, legal tech, contract lifecycle, CLOC, ACC]
+responsabilidades: [ebilling, proveedores-externos, tecnologia-legal, gestion-de-contratos, operaciones-legales]
+actividades: [legal-ops, compliance, contratos]
 ---
 
 # Legal Operations (legal ops)
+
+**Legal Operations** es la disciplina que hace funcionar el *negocio* del
+departamento legal (no la práctica del derecho). Profesionaliza la gestión,
+datos y tecnología para liberar a los abogados de trabajo no jurídico. El Head of
+Legal Operations lidera esta función (ver también `rol/head-of-legal-operations.md`).
 
 ## 📝 Conocimiento
 
@@ -19,13 +28,17 @@ english_keywords: [legal operations, legal ops, eBilling, legal spend, matter ma
 departamento legal (no la práctica del derecho). Profesionaliza la gestión,
 datos y tecnología para liberar a los abogados de trabajo no jurídico.
 
-### Funciones (core competencies, CLOC)
-- **Gestión financiera:** eBilling, negociación de tarifas, presupuesto, análisis de
-  gasto legal (*legal spend*).
-- **Gestión de proveedores externos:** *outside counsel* management, panel firms.
-- **Matter management** y **gestión de contratos** (CLM) a escala.
-- **Legal tech / IA:** e-discovery, repositorios, automatización.
-- **Analytics, knowledge management, DEI** y planificación de la función legal.
+### Funciones (CLOC Core 12)
+- **Gestión financiera (eBilling):** presupuesto legal, facturación de abogados
+  externos (LEDES/eBilling), rate management, spend analytics.
+- **Technology:** selección e adopción de CLM (contract lifecycle management),
+  e-discovery, IA legal, matter management.
+- **Vendor / Outside Counsel Management:** panel de firmas, alternativas de entrega
+  (ALSPs), relación y rendimiento.
+- **Project & Process Management:** gestión de proyectos legales, procesos
+  estandarizados, PMO legal.
+- **Data Analytics & KPIs:** dashboards de cycle time, spend, riesgo.
+- **Strategic Planning, Knowledge Management, DEI** y portafolio de inversión.
 
 ### Diferenciación
 Distinto de `rol/legal-counsel` (práctica jurídica) y `rol/general-counsel` (máximo
@@ -38,5 +51,8 @@ spend, y consolidación de herramientas (*legal tech stack*).
 
 ## 🔗 Referencia
 - Cross-ref: `rol/legal-counsel/legal-counsel.md`, `rol/general-counsel/general-counsel.md`,
-  `dominio/juridico/`, `rol/chief-compliance-officer/chief-compliance-officer.md`.
-- Fuentes: Wikipedia EN — Legal operations; CLOC.
+  `rol/head-of-legal-operations.md` (función directiva), `dominio/juridico/`,
+  `rol/chief-compliance-officer/chief-compliance-officer.md`.
+- `dominio/legaltech.md` — tecnología legal que legal ops adopta.
+- `dominio/propiedad-intelectual-empresarial.md` — IP due diligence gestionada por legal ops.
+- Fuentes: Wikipedia EN — Legal operations; CLOC "What is Legal Ops" / Core 12.
