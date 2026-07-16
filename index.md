@@ -62,6 +62,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [pueblos-indigenas](sustrato/mexico/pueblos-indigenas.md) — Pueblos indígenas México: Art.2 constitucional, INPI, 68 grupos/11.8M, lenguas nacionales, consulta previa (CPLI); vs derechos-humanos · 🏷️ mexico,pueblos-indigenas,derechos-indigenas,lenguas-originarias,autonomia,inpi,consulta-previa · 📅 2026-07-15
 - [empleo](sustrato/mexico/empleo.md) — Empleo y mercado laboral México: ENOE/INEGI, desempleo 2.4% (dic 2025), informalidad 54.6%, salario mínimo; vs trabajo/seguridad-social · 🏷️ mexico,empleo,mercado-laboral,enoe,inegi,informalidad,desempleo,salario-minimo,pea · 📅 2026-07-15
 - [economia-creativa](sustrato/mexico/economia-creativa.md) — Economía creativa México: industrias culturales (cine, música, diseño, videojuegos), PIB cultural 2.8% (865,682 mdp 2024), 1.43M empleos; vs cultura/sector-servicios · 🏷️ mexico,economia-creativa,industrias-culturales,cultura,pib,inegi,politica-cultural · 📅 2026-07-16
+- [pymes](sustrato/mexico/pymes.md) — PyMEs México: ~90% de unidades económicas, ~50% del PIB; NAFIN/Bancomext, banca de desarrollo, IMMEX; vs emprendimiento/dominio/pymes · 🏷️ mexico,pymes,economia,empleo,financiamiento,empresa · 📅 2026-07-16
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -108,6 +109,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [pueblos-indigenas](sustrato/estados-unidos/pueblos-indigenas.md) — Pueblos indígenas EE.UU. (Native Americans): tribal sovereignty, 574 tribus, BIA/DOI, trust lands, IGRA; vs derechos-humanos · 🏷️ eeuu,native-americans,tribal-sovereignty,bia,tratados,trust-lands,ncai · 📅 2026-07-15
 - [politica-fiscal](sustrato/estados-unidos/politica-fiscal.md) — Política fiscal EE.UU.: gasto discrecional/mandatorio, déficit >USD1.5-2B/yr, deuda >USD36B (~120% PIB), CBO/OMB, techo de deuda; vs impuestos/finanzas-publicas · 🏷️ estados-unidos,politica-fiscal,deficit,deuda,cbo,presupuesto-federal,gasto-publico,estimulo · 📅 2026-07-15
 - [energia-nuclear](sustrato/estados-unidos/energia-nuclear.md) — Energía nuclear EE.UU.: NRC, DOE Office of Nuclear Energy, ~94 reactores (~96 GW), SMR (NuScale certificado 2023), residuos (Yucca/WIPP); vs dominio/energia-nuclear · 🏷️ estados-unidos,energia-nuclear,nrc,doe,reactores,smr,electricidad,descarbonizacion · 📅 2026-07-16
+- [pymes](sustrato/estados-unidos/pymes.md) — Small business EE.UU.: 99.9% de empresas, ~45.9% empleo, 43.5%+ PIB; SBA, 8(a)/HUBZone, gobierno federal como cliente; vs emprendimiento/dominio/pymes · 🏷️ estados-unidos,small-business,pyme,economia,empleo,sba · 📅 2026-07-16
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -148,6 +150,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [pobreza-desigualdad](sustrato/canada/pobreza-desigualdad.md) — Pobreza y desigualdad Canadá: Market Basket Measure (MBM), Canada Poverty Reduction Strategy, Gini ~0.33; vs seguridad-social/labor · 🏷️ canada,pobreza,desigualdad,mbm,reduccion-pobreza,gini,bienestar · 📅 2026-07-15
 - [lenguas-oficiales](sustrato/canada/lenguas-oficiales.md) — Lenguas oficiales Canadá: Official Languages Act 1969/1988/2023, bilingüismo constitucional, Comisionado, servicios FR/EN · 🏷️ canada,lenguas-oficiales,bilingue,official-languages-act,comisionado,frances-ingles,part-vii · 📅 2026-07-15
 - [politica-fiscal](sustrato/canada/politica-fiscal.md) — Política fiscal Canadá: Department of Finance, presupuesto federal, déficit federal $52.3B (2023, 1.8% PIB), deuda ~$1.28T (2025); vs impuestos/finanzas-publicas · 🏷️ canada,politica-fiscal,department-of-finance,presupuesto,deficit,deuda,pib,statcan · 📅 2026-07-16
+- [pymes](sustrato/canada/pymes.md) — PyMEs Canadá: PME <500 empleados, >60% empleo privado; BDC, EDC, Canadá Emprende; exportadoras; vs emprendimiento/dominio/pymes · 🏷️ canada,pyme,economia,empleo,financiamiento,pymes · 📅 2026-07-16
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -1399,4 +1402,34 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-machine-learning
 - [head-of-machine-learning](rol/head-of-machine-learning.md) — Head of ML: lidera equipos ML/MLOps, estrategia de modelos a escala, plataforma de ML; vs head-of-data-science/chief-ai-officer · 🏷️ head-of-machine-learning,machine-learning,ml,mlops,equipos-ml,plataforma-ml · 📅 2026-07-16
+
+### dominio/telemedicina
+- [telemedicina](dominio/telemedicina.md) — Telemedicina / telehealth: consulta remota, regulación COFEPRIS/FDA/Health Canada, reembolso, privacidad; vs salud/healthtech · 🏷️ salud,telemedicina,telehealth,regulacion,digital-health,modelos-negocio · 📅 2026-07-16
+
+### dominio/ciberseguridad-cadena-suministro
+- [ciberseguridad-cadena-suministro](dominio/ciberseguridad-cadena-suministro.md) — Ciberseguridad de la cadena de suministro: SBOM, SCA, terceros/4th-party, EO 14028, EU CRA; vs ciberseguridad · 🏷️ ciberseguridad,cadena-de-suministro,sbom,terceros,devsecops,regulacion · 📅 2026-07-16
+
+### dominio/arte
+- [arte](dominio/arte.md) — Mercado del arte / art market: subastas, galerías, coleccionismo, arte digital/NFT, AML en arte; vs economia-creativa/musica · 🏷️ arte,coleccionismo,subastas,mercado,valoracion,regulacion · 📅 2026-07-16
+
+### dominio/seguros-de-personas
+- [seguros-de-personas](dominio/seguros-de-personas.md) — Seguros de personas: vida, salud (GMM), pensiones/annuities, ahorro; vs seguros (sustrato) · 🏷️ seguros,seguros-de-personas,vida,salud,pensiones,ahorro · 📅 2026-07-16
+
+### dominio/riesgo-de-credito
+- [riesgo-de-credito](dominio/riesgo-de-credito.md) — Riesgo de crédito: PD/LGD/EAD, provisiones IFRS 9/CECL, carteras, mitigación; vs finanzas/riesgo-financiero · 🏷️ riesgo,credito,riesgo-financiero,ifrs9,cecl,provisiones,banca · 📅 2026-07-16
+
+### rol/head-of-treasury
+- [head-of-treasury](rol/head-of-treasury.md) — Head of Treasury: liquidez, cash management, financiamiento, riesgo tasa/divisa, banca; vs treasurer/cfo/fp-and-a-manager · 🏷️ tesoreria,financiero,liquidez,cash-management,riesgo-tasa,rol · 📅 2026-07-16
+
+### rol/head-of-fraud
+- [head-of-fraud](rol/head-of-fraud.md) — Head of Fraud: detección, prevención, investigación, AML/KYC, chargebacks; vs compliance-manager/risk-manager · 🏷️ fraude,antifraude,aml,kyc,riesgo,seguridad,rol · 📅 2026-07-16
+
+### rol/head-of-partner-engineering
+- [head-of-partner-engineering](rol/head-of-partner-engineering.md) — Head of Partner Engineering: integraciones y APIs para partners/ISVs, co-engineering; vs developer-advocate/solutions-architect · 🏷️ partner-engineering,integraciones,apis,devrel,plataforma,rol · 📅 2026-07-16
+
+### rol/head-of-platform
+- [head-of-platform](rol/head-of-platform.md) — Head of Platform: lidera la plataforma de producto/ingeniería (APIs, SDKs, servicios compartidos); vs platform-engineer/devx · 🏷️ plataforma,producto,ingenieria,apis,sdk,rol · 📅 2026-07-16
+
+### rol/head-of-customer-ops
+- [head-of-customer-ops](rol/head-of-customer-ops.md) — Head of Customer Operations: CX ops, billing/support ops, order-to-cash, eficiencia de servicio; vs head-of-customer-success · 🏷️ customer-ops,cx,operaciones,billing,soporte,rol · 📅 2026-07-16
 

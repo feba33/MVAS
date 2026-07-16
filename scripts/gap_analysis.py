@@ -95,6 +95,8 @@ TAXONOMY = {
         ("empleo", "Empleo / mercado laboral México: tasa de desempleo (INEGI/ENOE), informalidad, subempleo, salario mínimo, población económicamente activa (PEA), productividad laboral; vs trabajo (laboral) y seguridad-social"),
         # Round 47 — deepening NA (economía creativa MX).
         ("economia-creativa", "Economía creativa / industrias culturales México: cine, música, diseño, artes, videojuegos, edtech creativo, contribución al PIB, políticas culturales; vs cultura (solo CA) y sector-servicios"),
+        # Round 48 — deepening NA (PyMEs MX).
+        ("pymes", "PyMEs México: economía de las pequeñas y medianas empresas, acceso a financiamiento (NAFIN/Bancomext), productividad, digitalización, encadenamientos, políticas de apoyo (IMMEX para PYME, REP); vs sustrato/mexico/emprendimiento y dominio/pymes"),
     ],
     "sustrato/estados-unidos": [
         ("sec-valores", "SEC y regulación de valores"),
@@ -166,6 +168,8 @@ TAXONOMY = {
         ("politica-fiscal", "Política fiscal EE.UU.: postura fiscal (estímulo/austeridad), déficit y deuda, CBO, presupuesto discrecional/mandatorio, recortes/gastos, efecto multiplicador, vs impuestos (IRS) y finanzas-publicas (Treasury/deuda)"),
         # Round 47 — deepening NA (energía nuclear US).
         ("energia-nuclear", "Energía nuclear EE.UU.: NRC, DOE Office of Nuclear Energy, plantas comerciales, SMR/advanced reactors, residuos (Yucca/WIPP), seguridad, vs dominio/energia-nuclear (disciplina)"),
+        # Round 48 — deepening NA (small business / PyMEs US).
+        ("pymes", "Small business / PyMEs EE.UU.: SBA, pequeñas empresas (<500 empleados), acceso a capital, 8(a)/HUBZone, gobierno federal como cliente, emprendimiento, impacto en empleo; vs sustrato/estados-unidos/emprendimiento y dominio/pymes"),
     ],
     "sustrato/canada": [
         ("competition-bureau", "Competencia / antitrust (Competition Bureau Canada)"),
@@ -237,6 +241,8 @@ TAXONOMY = {
         ("competitividad", "Competitividad Canadá: ranking WEF/Bank (World Bank Doing Business hist., IQC), clima de negocios, productividad, facilitación, infraestructura, talento, innovación; vs economia y ciencia-e-innovacion"),
         # Round 47 — deepening NA (política fiscal CA).
         ("politica-fiscal", "Política fiscal Canadá: Department of Finance, presupuesto federal, déficit y deuda/PIB, gasto en programas (salud/transferencias), estímulo, vs impuestos (CRA) y finanzas-publicas"),
+        # Round 48 — deepening NA (PyMEs CA).
+        ("pymes", "PyMEs Canadá: pequeñas y medianas empresas (Statistics Canada define PME <500 empleados), apoyo (BDC, Canadá Emprende), acceso a financiamiento, productividad, exporteras; vs sustrato/canada/emprendimiento y dominio/pymes"),
     ],
     
     "dominio/finanzas": [
@@ -793,6 +799,17 @@ NEW_NODES = [
     ("rol/head-of-clinical-operations", "Head of Clinical Operations — opera ensayos clínicos (site management, CRO oversight, accrual, compliance GCP), farma/biotech; vs head-of-medical-affairs/chief-medical-officer"),
     ("rol/head-of-quality-assurance", "Head of Quality Assurance (QA) — asegura la calidad de producto/software (test strategy, QA org, release gates), vs quality-manager (calidad operativa)/test-engineer"),
     ("rol/head-of-machine-learning", "Head of Machine Learning — lidera equipos de ML/MLOps, estrategia de modelos a escala, plataforma de ML, vs head-of-data-science/chief-ai-officer/ml-engineer"),
+    # Round 48 — reabastecimiento (alcance: sustrato solo Norteamérica: deepenings pymes MX/US/CA; dominio/rol generales).
+    ("dominio/telemedicina", "Telemedicina / telehealth: consulta remota, regulación (COFEPRIS/FDA/Health Canada), reembolso, privacidad, modelos de negocio, adopción post-COVID; vs salud/healthtech"),
+    ("dominio/ciberseguridad-cadena-suministro", "Ciberseguridad de la cadena de suministro / supply-chain security: SBOM, SCA, terceros/4th-party risk, EO 14028, EU CRA, provenance; vs ciberseguridad/seguridad-corporativa"),
+    ("dominio/arte", "Mercado del arte / art market: subastas (Sothebys/Christies), galerías, coleccionismo, arte digital/NFT, valoración, regulación (AML en arte), vs economia-creativa/musica"),
+    ("dominio/seguros-de-personas", "Seguros de personas: vida, salud (GMM), gastos médicos, pensiones/annuities, ahorro prepago, vs seguros (sustrato) y gestion-de-activos"),
+    ("dominio/riesgo-de-credito", "Riesgo de crédito (disciplina): scoring, PD/LGD/EAD, provisiones (IFRS 9/CECL), carteras, mitigación (garantías, seguro de crédito), vs finanzas/riesgo-financiero"),
+    ("rol/head-of-treasury", "Head of Treasury — tesorería corporativa: liquidez, cash management, financiamiento, riesgo de tasa/divisa, relación con bancos; vs treasurer/cfo/fp-and-a-manager"),
+    ("rol/head-of-fraud", "Head of Fraud — antifraude: detección, prevención, investigación, AML/KYC, chargebacks, vs compliance-manager/risk-manager/head-of-trust-and-safety"),
+    ("rol/head-of-partner-engineering", "Head of Partner Engineering — integraciones y APIs para partners/ISVs, developer platforms, co-engineering, vs developer-advocate/solutions-architect"),
+    ("rol/head-of-platform", "Head of Platform — lidera la plataforma de producto/ingeniería (APIs, SDKs, servicios compartidos), vs platform-engineer/head-of-developer-experience"),
+    ("rol/head-of-customer-ops", "Head of Customer Operations — operaciones de cliente (CX ops, billing/support ops, order-to-cash), eficiencia de servicio; vs head-of-customer-success/customer-success-manager"),
 ]
 
 SKIP = {"index.md", "log.md", "README.md", "raw"}

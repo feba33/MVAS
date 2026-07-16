@@ -1821,22 +1821,42 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] rol/head-of-quality-assurance.md — Head of QA (test strategy, release gates, calidad producto)
 - [x] rol/head-of-machine-learning.md — Head of ML (equipos ML/MLOps, plataforma de modelos)
 
+## ✅ COLA ROUND 48 — COMPLETA (13/13)
+> gap_analysis.py (iter 186) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 48 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página + integración en index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/pymes.md — PyMEs México (~90% unidades económicas, ~50% PIB, NAFIN/Bancomext, IMMEX)
+- [x] sustrato/estados-unidos/pymes.md — Small business EE.UU. (SBA, 99.9% empresas, 45.9% empleo, 43.5%+ PIB)
+- [x] sustrato/canada/pymes.md — PyMEs Canadá (PME <500 emp, >60% empleo privado, BDC/EDC)
+### Dominio (nuevos nodos)
+- [x] dominio/telemedicina.md — Telemedicina / telehealth (consulta remota, COFEPRIS/FDA/Health Canada, reembolso)
+- [x] dominio/ciberseguridad-cadena-suministro.md — Supply-chain security (SBOM, SCA, EO 14028, EU CRA)
+- [x] dominio/arte.md — Mercado del arte / art market (subastas, NFT, AML en arte)
+- [x] dominio/seguros-de-personas.md — Seguros de personas (vida, salud/GMM, pensiones/annuities)
+- [x] dominio/riesgo-de-credito.md — Riesgo de crédito (PD/LGD/EAD, IFRS 9/CECL)
+### Rol (nuevos nodos)
+- [x] rol/head-of-treasury.md — Head of Treasury (liquidez, cash management, financiamiento, riesgo tasa/divisa)
+- [x] rol/head-of-fraud.md — Head of Fraud (detección, prevención, AML/KYC, chargebacks)
+- [x] rol/head-of-partner-engineering.md — Head of Partner Engineering (integraciones/APIs para partners, co-engineering)
+- [x] rol/head-of-platform.md — Head of Platform (plataforma de producto/ingeniería, APIs/SDKs)
+- [x] rol/head-of-customer-ops.md — Head of Customer Operations (CX ops, billing/support ops, order-to-cash)
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 676** (Round 46: 663; Round 47: 676/13). |
-| **Rondas:** 47 completas (Round 1..47). |
-| **Nodos sustrato (NA):** México 66, EE.UU. 54, Canadá 48 (Round 47 +3). |
-| **Nodos dominio:** ~185 (Round 47 +5). |
-| **Nodos rol:** ~175 (Round 47 +5). |
+| **Tópicos ingeridos (acumulado): 689** (Round 47: 676; Round 48: 689/13). |
+| **Rondas:** 48 completas (Round 1..48). |
+| **Nodos sustrato (NA):** México 67, EE.UU. 55, Canadá 49 (Round 48 +3). |
+| **Nodos dominio:** ~190 (Round 48 +5). |
+| **Nodos rol:** ~180 (Round 48 +5). |
 | **Organización:** 1 (ejemplo-empresa / NovaTech). |
 | **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
-| **Iteraciones totales:** 185. |
+| **Iteraciones totales:** 186. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 185 (Round 47 COMPLETA — 13/13). |
-| - **Última acción:** Round 47 ingerida (13/13): 3 deepenings sustrato NA (economia-creativa MX, energia-nuclear US, politica-fiscal CA) + 5 nodos dominio (forestal, banca-central, economia-institucional, geografia-economica, demografia) + 5 nodos rol (head-of-legal, head-of-demand-generation, head-of-clinical-operations, head-of-quality-assurance, head-of-machine-learning). Modelo centralizado; reference-only (URL en frontmatter; sin raw/). Integrando index.md/log.md/working.md. |
+| - **Iteración actual:** 186 (Round 48 COMPLETA — 13/13). |
+| - **Última acción:** Round 48 ingerida (13/13): 3 deepenings sustrato NA (pymes MX, pymes US, pymes CA) + 5 nodos dominio (telemedicina, ciberseguridad-cadena-suministro, arte, seguros-de-personas, riesgo-de-credito) + 5 nodos rol (head-of-treasury, head-of-fraud, head-of-partner-engineering, head-of-platform, head-of-customer-ops). Modelo centralizado; reference-only (URL en frontmatter; sin raw/). Integrando index.md/log.md/working.md. |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 47 COMPLETA (13/13). |
+| - **Cola:** Round 48 COMPLETA (13/13). |
 
 ## ▶️ PRÓXIMA TAREA
-| - Round 47 COMPLETA (13/13). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 48) o pausar hasta próximo cron. |
+| - Round 48 COMPLETA (13/13). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 49) o pausar hasta próximo cron. |
 | - ALCANCE sustrato = solo Norteamérica (MX/US/CA), respetado. |

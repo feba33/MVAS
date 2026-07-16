@@ -767,3 +767,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - LOOP 3 (rol, 13/13): chief-executive-officer, head-of-total-rewards, head-of-merchandising, head-of-real-estate, head-of-continuous-improvement.
 - Reference-only: Wikipedia (EN/ES) + sitios oficiales (CNSF, NAIC, OSFI, FSRA, ISO, WorldatWork, SHRM, NCSL, Pew, ABB) — sin raw/.
 - **Round 44 COMPLETA (13/13).** Tópicos acumulados: ~640. Próximo: gap_analysis.py; si 0 → reabastecer taxonomía (Round 45) o pausar hasta próximo cron.
+
+## [2026-07-16] ingest | Round 48 — LOOP 1-3 (13/13) ROUND CERRADO
+- gap_analysis.py (iter 186) = 0 huecos reales → taxonomía extendida Round 48: 3 deepenings NA (mexico→pymes, estados-unidos→pymes, canada→pymes) + 10 nodos nuevos (dominio: telemedicina, ciberseguridad-cadena-suministro, arte, seguros-de-personas, riesgo-de-credito; rol: head-of-treasury, head-of-fraud, head-of-partner-engineering, head-of-platform, head-of-customer-ops).
+- LOOP 1 (sustrato NA, 3/13): sustrato/mexico/pymes.md, sustrato/estados-unidos/pymes.md, sustrato/canada/pymes.md — modelo CENTRALIZADO (página + index/log raíz; SIN per-node raw/index/log).
+- LOOP 2 (dominio, 5/13): telemedicina, ciberseguridad-cadena-suministro, arte, seguros-de-personas, riesgo-de-credito.
+- LOOP 3 (rol, 13/13): head-of-treasury, head-of-fraud, head-of-partner-engineering, head-of-platform, head-of-customer-ops.
+- Reference-only: sitios oficiales (INEGI, SBA/U.S. Chamber, Statistics Canada/ISED/BDC, HHS/Health Canada/COFEPRIS, CISA, FOSSA/EU CRA, ACFE/FATF, IFRS/UQ, III/CNSF) — sin raw/.
+- **Round 48 COMPLETA (13/13).** Tópicos acumulados: ~689. Próximo: gap_analysis.py; si 0 → reabastecer taxonomía (Round 49) o pausar hasta próximo cron.
