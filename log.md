@@ -791,3 +791,11 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - LOOP 3 (rol, 13/13): head-of-experience-design, head-of-information-security, head-of-workforce-experience, head-of-brand-experience, head-of-supply-chain-planning.
 - Reference-only: sitios oficiales (CONACULTA/Secretaría de Cultura, BEA/Fed/Census, ANUIES/UNAM, UNEP/IOSCO, USDA/FDA/SENASICA/COFEPRIS, NIST, Wikipedia EN/ES) — sin raw/.
 - **Round 50 COMPLETA (13/13).** Tópicos acumulados: ~718. Próximo: gap_analysis.py (debe reportar 0); si 0 → pausar hasta próximo cron.
+
+## [2026-07-16] ingest | Ronda 51 (13/13) — profundización NA + nuevos dominio/rol
+- Taxonomía extendida en scripts/gap_analysis.py: 3 profundizaciones NA + 10 nuevos nodos dominio/rol.
+- LOOP 1 (sustrato NA, 3/13): sustrato/mexico/economia-informal.md (MEI 25.4% PIB, 54.4% fuerza laboral), sustrato/estados-unidos/energia-renovables.md (IRA 2022 ITC/PTC, EPA, Treasury/IRS), sustrato/canada/educacion-superior.md (PSE provincial, universidades/colleges/CEGEP).
+- LOOP 2 (dominio, 5/13): dominio/derecho-laboral-colectivo.md (negociación colectiva, sindicatos, huelga), dominio/gestion-de-talento-tech.md (ingenieros, DevEx, retención), dominio/movilidad.md (MaaS), dominio/cuentas-por-cobrar.md (ciclo O2C, DSO, factoring), dominio/privacidad-diferencial.md (DP, federated learning, PETs).
+- LOOP 3 (rol, 5/13): rol/head-of-finance-ops.md, rol/head-of-brand.md, rol/vp-people.md, rol/head-of-data-platform.md, rol/head-of-customer-lifecycle.md.
+- Reference-only: Wikipedia EN/ES, EPA, Treasury/IRS (Morgan Lewis), ILO, Gartner/SHRM/Investopedia, Canada.ca — sin raw/.
+- **Ronda 51 COMPLETA (13/13).** Tópicos acumulados: ~731. Próximo: gap_analysis.py; si reporta 0 → pausar hasta próximo cron.

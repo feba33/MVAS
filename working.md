@@ -1884,22 +1884,42 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] rol/head-of-brand-experience.md — Head of Brand Experience (marca + CX + marketing)
 - [x] rol/head-of-supply-chain-planning.md — Head of Supply Chain Planning (demand/supply, S&OP, IBP)
 
+## ✅ COLA ROUND 51 — COMPLETA (13/13)
+> gap_analysis.py (iter 189) tras extender TAXONOMY NEW_NODES Round 51: 3 deepenings NA + 10 nodos nuevos dominio/rol.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página + integración index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/economia-informal.md — Economía informal México (MEI 25.4% PIB, 54.4% fuerza laboral, INEGI/STPS)
+- [x] sustrato/estados-unidos/energia-renovables.md — Energía renovable EE.UU. (IRA 2022 ITC/PTC, EPA, Treasury/IRS)
+- [x] sustrato/canada/educacion-superior.md — Educación superior Canadá (PSE provincial, universidades/colleges/CEGEP)
+### Dominio (nuevos nodos)
+- [x] dominio/derecho-laboral-colectivo.md — Derecho laboral colectivo (negociación colectiva, sindicatos, huelga)
+- [x] dominio/gestion-de-talento-tech.md — Gestión de talento tech (ingenieros, DevEx, retención)
+- [x] dominio/movilidad.md — Movilidad (MaaS, micro-movilidad, EV compartido)
+- [x] dominio/cuentas-por-cobrar.md — Cuentas por cobrar (ciclo O2C, DSO, factoring)
+- [x] dominio/privacidad-diferencial.md — Privacidad diferencial y PETs (DP, federated learning)
+### Rol (nuevos nodos)
+- [x] rol/head-of-finance-ops.md — Head of Finance Operations (cierre, AP/AR, automatización)
+- [x] rol/head-of-brand.md — Head of Brand (estrategia de marca, brand equity)
+- [x] rol/vp-people.md — VP of People (liderazgo RRHH, talento, cultura)
+- [x] rol/head-of-data-platform.md — Head of Data Platform (lakehouse, pipelines, gobierno)
+- [x] rol/head-of-customer-lifecycle.md — Head of Customer Lifecycle (onboarding, retención, churn)
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 718** (Round 49: 705; Round 50: 718/13). |
-| **Rondas:** 50 completas (Round 1..50). |
-| **Nodos sustrato (NA):** México 69 (+cultura, +educacion-superior), EE.UU. 57 (+economia), Canadá 50. |
-| **Nodos dominio:** ~200 (Round 50 +5). |
-| **Nodos rol:** ~193 (Round 50 +5). |
+| **Tópicos ingeridos (acumulado): 731** (Round 50: 718; Round 51: 731/13). |
+| **Rondas:** 51 completas (Round 1..51). |
+| **Nodos sustrato (NA):** México 70 (+economia-informal), EE.UU. 58 (+energia-renovables), Canadá 51 (+educacion-superior). |
+| **Nodos dominio:** ~205 (Round 51 +5). |
+| **Nodos rol:** ~198 (Round 51 +5). |
 | **Organización:** 1 (ejemplo-empresa / NovaTech). |
 | **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
-| **Iterações totales:** 188. |
+| **Iterações totales:** 189. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 188 (Round 50 COMPLETA — 13/13). |
-| - **Última ação:** Round 50 ingerida (13/13): 3 deepenings sustrato NA (cultura MX, economia US, educacion-superior MX) + 5 nodos dominio (ciencia-de-datos-aplicada, finanzas-climaticas, urbanismo-tactico, derecho-de-familia, biotecnologia-agricola) + 5 nodos rol (head-of-experience-design, head-of-information-security, head-of-workforce-experience, head-of-brand-experience, head-of-supply-chain-planning). Modelo centralizado; reference-only (URL en frontmatter; sin raw/). Integrando index.md/log.md/working.md. |
+| - **Iteración actual:** 189 (Round 51 COMPLETA — 13/13). |
+| - **Última ação:** Round 51 ingerida (13/13): 3 deepenings sustrato NA (economia-informal MX, energia-renovables US, educacion-superior CA) + 5 nodos dominio (derecho-laboral-colectivo, gestion-de-talento-tech, movilidad, cuentas-por-cobrar, privacidad-diferencial) + 5 nodos rol (head-of-finance-ops, head-of-brand, vp-people, head-of-data-platform, head-of-customer-lifecycle). Modelo centralizado; reference-only (URL en frontmatter; sin raw/). Integrando index.md/log.md/working.md. |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 50 COMPLETA (13/13). |
+| - **Cola:** Round 51 COMPLETA (13/13). |
 
 ## ▶️ PRÓXIMA TAREFA
-| - Round 50 COMPLETA (13/13). Próximo: ejecutar `python3 scripts/gap_analysis.py`; tras Round 50 la taxonomía debería reportar 0 huecos → pausar hasta próximo cron (o extender taxonomía solo si el usuario lo pide). |
+| - Round 51 COMPLETA (13/13). Próximo: ejecutar `python3 scripts/gap_analysis.py`; tras Round 51 la taxonomía debería reportar 0 huecos → pausar hasta próximo cron (o extender taxonomía solo si el usuario lo pide). |
 | - ALCANCE sustrato = solo Norteamérica (MX/US/CA), respetado. |

@@ -842,12 +842,29 @@ NEW_NODES = [
     ("dominio/urbanismo-tactico", "Urbanismo táctico / tactical urbanism (intervenciones leves, placemaking); vs urbanismo"),
     ("dominio/derecho-de-familia", "Derecho de familia (matrimonio, divorcio, custodia, sucesiones); vs derecho-civil"),
     ("dominio/biotecnologia-agricola", "Biotecnología agrícola (semillas biotech, edición genómica, regulación); vs biotecnologia/agrotech"),
-    ("dominio/computacion-en-la-nube", "Cloud computing aplicado (FinOps, Well-Architected, multi-cloud, serverless); vs cloud-computing"),
+
     ("rol/head-of-experience-design", "Head of Experience Design (XD, unificar UX/CX/service design, research); vs design-lead/chief-design-officer"),
     ("rol/head-of-information-security", "Head of Information Security (CISO adjunto, InfoSec program, GRC, data protection); vs ciso/security-analyst"),
     ("rol/head-of-workforce-experience", "Head of Workforce Experience (EX de empleado en todas las journeys, bienestar, engagement); vs head-of-employee-experience"),
     ("rol/head-of-brand-experience", "Head of Brand Experience (unificar marca y experiencia vivida, brand + CX + marketing); vs chief-brand-officer/head-of-customer-experience"),
     ("rol/head-of-supply-chain-planning", "Head of Supply Chain Planning (demand/supply planning, S&OP, IBP, inventario); vs supply-chain-manager"),
+]
+
+# Round 51 (iter 189) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("economia-informal", "Economia informal Mexico: informalidad laboral, sector informal, economia sumergida, recaudacion, transicion a formalidad; vs empleo/trabajo"))
+TAXONOMY["sustrato/estados-unidos"].append(("energia-renovables", "Energia renovable EE.UU.: solar, eolica, almacenamiento, IRA, grid, vs energia"))
+TAXONOMY["sustrato/canada"].append(("educacion-superior", "Educacion superior Canada: universities/colleges (PSE), provincias, acreditacion, investigacion, transferencia; vs educacion/mexico/estados-unidos"))
+NEW_NODES += [
+    ("dominio/derecho-laboral-colectivo", "Derecho laboral colectivo: sindicatos, contratacion colectiva, huelgas, negociacion colectiva; vs relaciones-laborales/derecho-laboral"),
+    ("dominio/gestion-de-talento-tech", "Gestion de talento de tecnologia (tech talent): atraccion/desarrollo de ingenieros, skills, retencion; vs gestion-del-talento"),
+    ("dominio/movilidad", "Movilidad / mobility: transporte de personas, MaaS, micro-movilidad, EVs compartidos; vs movilidad-urbana/electromovilidad"),
+    ("dominio/cuentas-por-cobrar", "Cuentas por cobrar (accounts receivable): ciclo O2C, factoring, credito a clientes, cobranza; vs riesgo-de-credito"),
+    ("dominio/privacidad-diferencial", "Privacidad diferencial / PETs: differential privacy, federated learning, homomorfico, anonymization; vs proteccion-de-datos/criptografia"),
+    ("rol/head-of-finance-ops", "Head of Finance Operations (FinOps) — cierre, cuentas por pagar/cobrar, conciliacion, automatizacion financiera; vs controller/fp-and-a-manager"),
+    ("rol/head-of-brand", "Head of Brand — estrategia de marca, identidad, brand equity, narrativa; vs brand-manager/chief-brand-officer"),
+    ("rol/vp-people", "VP of People — lidera RRHH a nivel ejecutivo (CHRO adjunto), talento, cultura, comp; vs chief-people-officer/head-of-people"),
+    ("rol/head-of-data-platform", "Head of Data Platform — lidera la plataforma de datos (lakehouse, pipelines, gobierno tecnico); vs data-engineer/data-architect"),
+    ("rol/head-of-customer-lifecycle", "Head of Customer Lifecycle — onboarding, adopcion, retencion, expansion, churn; vs customer-success/customer-marketing"),
 ]
 
 

@@ -56,6 +56,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [competitividad](sustrato/mexico/competitividad.md) — Competitividad México: IMCO, WEF, Doing Business, clústeres, facilitación de negocios · 🏷️ mexico,competitividad,imco,wef,facilitacion-negocios,clusteres · 📅 2026-07-14
 - [gobierno-federal](sustrato/mexico/gobierno-federal.md) — Gobierno federal de México: federalismo, Poderes Ejecutivo/Legislativo, secretarías, Congreso de la Unión · 🏷️ mexico,gobierno-federal,federalismo,poder-ejecutivo,congreso,secretarias,division-poderes · 📅 2026-07-14
 - [trabajo](sustrato/mexico/trabajo.md) — Trabajo / mercado laboral México: STPS, empleo, salario mínimo, outsourcing 2021, informalidad · 🏷️ mexico,trabajo,stps,empleo,salario-minimo,outsourcing,informalidad,mercado-laboral · 📅 2026-07-14
+- [economia-informal](sustrato/mexico/economia-informal.md) — Economía informal México: 25.4% PIB (MEI 2024), 54.4% fuerza laboral, comercio/construcción/manufactura; INEGI/STPS · 🏷️ mexico,economia-informal,informalidad,sector-informal,pib,inegi,empleo · 📅 2026-07-16
 - [vivienda](sustrato/mexico/vivienda.md) — Vivienda México: INFONAVIT, SHF, FOVISSSTE, crédito hipotecario, déficit habitacional · 🏷️ mexico,vivienda,infonavit,shf,fovissste,credito-hipotecario,deficit-habitacional · 📅 2026-07-14
 -- [sector-servicios](sustrato/mexico/sector-servicios.md) — Sector servicios México: ~60% del PIB (comercio, turismo, financiero, transporte, gobierno), alta informalidad · 🏷️ mexico,sector-servicios,pib,comercio,turismo,servicios-financieros,informalidad · 📅 2026-07-14
 - [pobreza-desigualdad](sustrato/mexico/pobreza-desigualdad.md) — Pobreza y desigualdad México: CONEVAL (multidimensional: ingresos + 6 carencias), línea de bienestar, programas sociales (Prospera/adultos mayores), Gini ~0.45; vs seguridad-social/trabajo · 🏷️ mexico,pobreza,desigualdad,coneval,pobreza-multidimensional,programas-sociales,bienestar · 📅 2026-07-15
@@ -115,6 +116,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [turismo](sustrato/estados-unidos/turismo.md) — Turismo EE.UU.: mayor mercado de viajes/turismo del mundo (WTTC), NTTO/BEA TTSAs, Brand USA, NPS; PIB/empleo · 🏷️ estados-unidos,turismo,travel,gdp,empleo,hoteleria,visitantes · 📅 2026-07-16
 - [pymes](sustrato/estados-unidos/pymes.md) — Small business EE.UU.: 99.9% de empresas, ~45.9% empleo, 43.5%+ PIB; SBA, 8(a)/HUBZone, gobierno federal como cliente; vs emprendimiento/dominio/pymes · 🏷️ estados-unidos,small-business,pyme,economia,empleo,sba · 📅 2026-07-16
 - [economia](sustrato/estados-unidos/economia.md) — Economía de EE.UU.: mayor PIB nominal (~USD30B), servicios ~80%, Fed/BEA/Census, mercado laboral, comercio exterior, dólar reserva · 🏷️ estados-unidos,economia,pib,sectores,fed,bea,census,empleo,comercio · 📅 2026-07-16
+- [energia-renovables](sustrato/estados-unidos/energia-renovables.md) — Energía renovable EE.UU.: IRA 2022 (ITC/PTC), EPA, Treasury/IRS guía, solar/eólica/almacenamiento, grid; vs energia · 🏷️ eeuu,energia-renovable,solar,eolica,almacenamiento,ira,epa,treasury,grid · 📅 2026-07-16
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -157,6 +159,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [politica-fiscal](sustrato/canada/politica-fiscal.md) — Política fiscal Canadá: Department of Finance, presupuesto federal, déficit federal $52.3B (2023, 1.8% PIB), deuda ~$1.28T (2025); vs impuestos/finanzas-publicas · 🏷️ canada,politica-fiscal,department-of-finance,presupuesto,deficit,deuda,pib,statcan · 📅 2026-07-16
 - [pymes](sustrato/canada/pymes.md) — PyMEs Canadá: PME <500 empleados, >60% empleo privado; BDC, EDC, Canadá Emprende; exportadoras; vs emprendimiento/dominio/pymes · 🏷️ canada,pyme,economia,empleo,financiamiento,pymes · 📅 2026-07-16
 - [mineria](sustrato/canada/mineria.md) — Minería Canadá: oro/níquel/uranio, NRCan, clústeres (Ontario/Québec/BC), regulación fed/prov, impacto indígena, minerales críticos · 🏷️ canada,mineria,nrcan,oruro,niquel,urano,recursos-naturales,exportacion · 📅 2026-07-16
+- [educacion-superior](sustrato/canada/educacion-superior.md) — Educación superior Canadá: PSE provincial/territorial, universidades/colleges/CEGEP, Canada Student Loans, internacionalización; vs educacion · 🏷️ canada,educacion-superior,universidades,colleges,pse,provincias · 📅 2026-07-16
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -221,6 +224,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [ml-engineering](dominio/computacion/ml-engineering.md) — ML/AI engineering: MLOps, serving · 🏷️ ml,mlops · 📅 2026-07-09
 - [testing-qa](dominio/computacion/testing-qa.md) — Testing/QA: unit, integration, e2e, TDD · 🏷️ testing,qa,tdd · 📅 2026-07-09
 - [plataforma-sre](dominio/computacion/plataforma-sre.md) — Ingeniería de plataforma + SRE: IDP, SLI/SLO, error budget · 🏷️ platform-engineering,sre,devops,idp,slo · 📅 2026-07-10
+- [privacidad-diferencial](dominio/privacidad-diferencial.md) — Privacidad diferencial y PETs: DP (ruido calibrado), federated learning, cifrado homomórfico · 🏷️ privacidad-diferencial,pets,federated-learning,homomorfico,anonymization,privacidad · 📅 2026-07-16
 - [frontend](dominio/computacion/frontend.md) — Frontend 2026: React/Vue/Svelte/Astro/Next.js, rendimiento (Core Web Vitals) · 🏷️ frontend,react,vue,svelte,astro,rendimiento · 📅 2026-07-10
 
 ### dominio/marketing
@@ -239,6 +243,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [propiedad-intelectual](dominio/leyes/propiedad-intelectual.md) — Propiedad intelectual: marcas, patentes, copyright · 🏷️ ip,pi · 📅 2026-07-09
 - [derecho-societario](dominio/leyes/derecho-societario.md) — Derecho societario + gobierno corporativo: SA/SAPI/SAS, consejo · 🏷️ leyes,societario,gobierno-corporativo · 📅 2026-07-10
 - [derecho-laboral](dominio/leyes/derecho-laboral.md) — Derecho laboral LFT (prof.): outsourcing/REPSE, jornada, rescisión · 🏷️ leyes,laboral,lft,outsourcing · 📅 2026-07-10
+- [derecho-laboral-colectivo](dominio/derecho-laboral-colectivo.md) — Derecho laboral colectivo: negociación colectiva, sindicatos, huelga, contratos; MX/US/CA · 🏷️ derecho-laboral,colectivo,sindicatos,negociacion-colectiva,huelga,contratacion-colectiva · 📅 2026-07-16
 - [cumplimiento-regulacion](dominio/leyes/cumplimiento-regulacion.md) — Cumplimiento y regulación: ISO 37301, compliance · 🏷️ leyes,cumplimiento,compliance,iso-37301 · 📅 2026-07-10
 
 ### dominio/juridico
@@ -250,6 +255,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [auditoria](dominio/contabilidad/auditoria.md) — Auditoría: interna/externa, SOX · 🏷️ auditoria · 📅 2026-07-09
 - [impuestos](dominio/contabilidad/impuestos.md) — Contabilidad fiscal: corriente/diferido · 🏷️ impuestos · 📅 2026-07-09
 - [consolidacion](dominio/contabilidad/consolidacion.md) — Consolidación: control, eliminaciones, NIIF 10 · 🏷️ contabilidad,consolidacion,niif-10 · 📅 2026-07-10
+- [cuentas-por-cobrar](dominio/cuentas-por-cobrar.md) — Cuentas por cobrar: ciclo O2C, cobranza, DSO, factoring, AR; vs AP · 🏷️ cuentas-por-cobrar,ar,o2c,factoring,cobranza,credito-clientes,tesoreria · 📅 2026-07-16
 - [tesoreria](dominio/contabilidad/tesoreria.md) — Tesorería y flujo de efectivo: liquidez, working capital · 🏷️ contabilidad,tesoreria,liquidez,cash-flow · 📅 2026-07-10
 
 ### dominio/diseno
@@ -268,6 +274,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/recursos-humanos
 - [recursos-humanos](dominio/recursos-humanos/recursos-humanos.md) — RRHH: reclutamiento, cultura, compensación · 🏷️ rrhh,people · 📅 2026-07-09
+- [gestion-de-talento](dominio/gestion-del-talento.md) — Gestión del talento: adquisición, desarrollo, retención, movilidad · 🏷️ talento,rrhh,retencion,desarrollo · 📅 2026-07-15
+- [gestion-de-talento-tech](dominio/gestion-de-talento-tech.md) — Gestión de talento tech: ingenieros, escasez, DevEx, retención, upskilling · 🏷️ talento-tech,ingenieros,retencion,skills,hiring,rrhh-tecnologia · 📅 2026-07-16
 
 ### dominio/operaciones
 - [operaciones](dominio/operaciones/operaciones.md) — Operaciones: supply chain, lean, Six Sigma · 🏷️ operaciones,lean · 📅 2026-07-09
@@ -322,6 +330,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [educacion](dominio/educacion/educacion.md) — Educación: modelos, niveles, edtech, política educativa · 🏷️ educacion,edtech,formacion,politica-educativa · 📅 2026-07-11
 
 ### dominio/transporte
+- [movilidad](dominio/movilidad.md) — Movilidad (MaaS): plataforma unificada plan/reserva/pago, micro-movilidad, EV compartido · 🏷️ movilidad,maas,micro-movilidad,transporte,ev-compartido,mobility-as-a-service · 📅 2026-07-16
 - [transporte](dominio/transporte/transporte.md) — Transporte/movilidad: modos, logística urbana, aviación, regulación · 🏷️ transporte,movilidad,logistica,aviacion,regulacion · 📅 2026-07-11
 
 ### dominio/telecomunicaciones
@@ -1507,4 +1516,19 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-supply-chain-planning
 - [head-of-supply-chain-planning](rol/head-of-supply-chain-planning.md) — Head of Supply Chain Planning: demand/supply planning, S&OP, IBP, inventario · 🏷️ head-of-supply-chain-planning,scp,demand-planning,sop,inventario · 📅 2026-07-16
+
+### rol/head-of-finance-ops
+- [head-of-finance-ops](rol/head-of-finance-ops.md) — Head of Finance Operations: cierre contable, AP/AR, conciliaciones, automatización financiera · 🏷️ head-of-finance-ops,finops,cierre,cuentas-por-pagar,cuentas-por-cobrar,automatizacion-financiera · 📅 2026-07-16
+
+### rol/head-of-brand
+- [head-of-brand](rol/head-of-brand.md) — Head of Brand: estrategia de marca, identidad, brand equity, narrativa · 🏷️ head-of-brand,marca,brand-equity,identidad,narrativa,marketing · 📅 2026-07-16
+
+### rol/vp-people
+- [vp-people](rol/vp-people.md) — VP of People: liderazgo RRHH, talento, cultura, compensación a escala · 🏷️ vp-people,rrhh,talento,cultura,compensacion,people · 📅 2026-07-16
+
+### rol/head-of-data-platform
+- [head-of-data-platform](rol/head-of-data-platform.md) — Head of Data Platform: lakehouse, pipelines, gobierno técnico, self-service de datos · 🏷️ head-of-data-platform,data-platform,lakehouse,pipelines,gobierno-datos,ingenieria-datos · 📅 2026-07-16
+
+### rol/head-of-customer-lifecycle
+- [head-of-customer-lifecycle](rol/head-of-customer-lifecycle.md) — Head of Customer Lifecycle: onboarding, adopción, retención, expansión, churn · 🏷️ head-of-customer-lifecycle,ciclo-de-vida,onboarding,retencion,churn,expansion · 📅 2026-07-16
 
