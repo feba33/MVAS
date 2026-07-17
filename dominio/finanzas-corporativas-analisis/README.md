@@ -1,4 +1,4 @@
-# banca-de-inversion
+# finanzas-corporativas-analisis
 
 Nodo de dominio en capas MVAS. Wiki autocontenido.
 

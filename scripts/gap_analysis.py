@@ -1039,6 +1039,24 @@ NEW_NODES_ROUND_60 = [
 ]
 NEW_NODES = NEW_NODES_ROUND_60
 
+# Round 61 (iter 199) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("criminalistica", "Criminalistica Mexico: Ciencia Forense (UNAM), SEMEFO, peritos ministeriales/fiscales, cadena de custodia, laboratorios crime, vs seguridad-publica/poder-judicial"))
+TAXONOMY["sustrato/estados-unidos"].append(("trabajo", "Trabajo / mercado laboral EE.UU.: BLS, empleo/desempleo, salario minimo federal, FLSA, productividad, informalidad (gig), vs labor/seguridad-social"))
+TAXONOMY["sustrato/canada"].append(("energia-electrica", "Energia electrica Canada: generacion (hidro/nuke/gas/eolica), transmision (hidroquebec, provincial utilities), regulacion, tarifas, electrificacion; vs energia/infraestructura"))
+NEW_NODES_ROUND_61 = [
+    ("dominio/privacidad", "Privacidad / data protection (disciplina): principios, consentimiento, transferencias, autoridades, vs proteccion-de-datos/etica-ia"),
+    ("dominio/arquitectura-empresarial", "Arquitectura empresarial: frameworks (TOGAF, Zachman, BIZBOK), alineacion estrategia-TI, capacidades, vs enterprise-architect/gobierno-de-ti"),
+    ("dominio/banca-de-inversion", "Banca de inversion (profundizacion): underwriting, M&A advisory, ECM/DCM, trading, vs banca/banca-corporativa/capital-riesgo"),
+    ("dominio/trading", "Trading / mercados: execution, algoritmico/HFT, asset classes, mesa, vs mercados-financieros/aprendizaje-automatico"),
+    ("dominio/finanzas-corporativas-analisis", "Analisis de finanzas corporativas: valuation, modelado financiero, credit rating, vs finanzas-corporativas/finanzas-cuantitativas"),
+    ("rol/vp-people-operations", "VP People Operations: lidera HR ops a escala, HRIS, payroll, compliances, vs head-of-people-operations/head-of-people"),
+    ("rol/head-of-corporate-communications", "Head of Corporate Communications: comms corporativas internas/externas, reputation, media relations, vs chief-communications-officer/head-of-customer-communications"),
+    ("rol/head-of-partner-success", "Head of Partner Success: exito del ecosistema partner, salud de canal, co-selling, vs partner/head-of-partnerships/channel-manager"),
+    ("rol/head-of-technical-program", "Head of Technical Program: TPM org, cross-functional delivery, vs technical-program-manager/program-manager"),
+    ("rol/head-of-strategy-and-ops", "Head of Strategy & Operations: estrategia + operaciones, BI/planning, vs head-of-strategy/chief-operating-officer/head-of-revops"),
+]
+NEW_NODES = NEW_NODES_ROUND_61
+
 
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)

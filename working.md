@@ -2109,15 +2109,22 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | - **Bloqueos:** ninguno. |
 | - **Cola:** Round 59 COMPLETA (12/12). |
 
-| - **Iteración actual:** 198 (Round 60 COMPLETA — 13/13 ingestados e integrados). |
-| - **Última ação:** Round 60 iter 198 — gap_analysis.py (iter 198) reportó 0 huecos reales → taxonomía extendida Round 60 (scripts/gap_analysis.py): 3 deepenings NA (mexico/defensa, estados-unidos/relaciones-laborales, canada/defensa-civil) + 10 nodos nuevos dominio/rol (dominio: gestion-documental, teatro, economia-creativa, sector-agroalimentario, ciberseguridad-educativa; rol: head-of-ux, head-of-sales-finance, head-of-engineering-excellence, head-of-regulatory, head-of-customer-success-strategy). Ingestó 13 páginas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con superstructura de nodo (README/index/log) por requisito de protocolo. Integración centralizada (index.md root + log.md root) y commit. Reference-only (Wikipedia EN + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
+| - **Iteración actual:** 199 (Round 61 COMPLETA — 13/13 ingestados e integrados). |
+| - **Última ação:** Round 61 iter 199 — gap_analysis.py (iter 199) reportó 0 huecos reales → taxonomía extendida Round 61 (scripts/gap_analysis.py): 3 deepenings NA (sustrato/mexico/criminalistica, sustrato/estados-unidos/trabajo, sustrato/canada/energia-electrica) + 10 nodos nuevos dominio/rol (dominio: privacidad, arquitectura-empresarial, banca-de-inversion, trading, finanzas-corporativas-analisis; rol: vp-people-operations, head-of-corporate-communications, head-of-partner-success, head-of-technical-program, head-of-strategy-and-ops). Ingestó 13 páginas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con superstructura de nodo (README/index/log) por requisito de protocolo. Integración centralizada (index.md root + log.md root) y commit. Reference-only (Wikipedia EN + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 60 COMPLETA (13/13). |
+| - **Cola:** Round 61 COMPLETA (13/13). |
 
 > gap_analysis.py (iter 196) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 58 (scripts/gap_analysis.py): 3 deepenings NA (sustrato/mexico/politica-fiscal, sustrato/estados-unidos/criminalistica, sustrato/canada/turismo) + 10 nodos nuevos dominio/rol (dominio: tributos, defensa-civil, gestion-del-riesgo-de-desastres, relaciones-diplomaticas, biomedicina, economia-del-trabajo, competitividad-empresarial, derecho-de-las-telecomunicaciones; rol: head-of-tax, head-of-government-relations, head-of-credit, head-of-commercial).
 
 ## ▶️ PRÓXIMA TAREA
-- Round 60 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 61) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
+- Round 61 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 62) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
+
+## ✅ COLA ROUND 61 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 199) reportó 0 huecos reales → taxonomía extendida Round 61 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página + integración index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+> LOOP 1 (sustrato NA): mexico/criminalistica, estados-unidos/trabajo, canada/energia-electrica.
+> LOOP 2 (dominio): privacidad, arquitectura-empresarial, banca-de-inversion, trading, finanzas-corporativas-analisis.
+> LOOP 3 (rol): vp-people-operations, head-of-corporate-communications, head-of-partner-success, head-of-technical-program, head-of-strategy-and-ops.
 
 ## ✅ COLA ROUND 60 — COMPLETA (13/13 páginas nuevas)
 > gap_analysis.py (iter 198) reportó 0 huecos reales → taxonomía extendida Round 60 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol.
@@ -2144,3 +2151,22 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] rol/head-of-solutions-consulting/head-of-solutions-consulting.md — Head of Solutions Consulting (presales, POC, win rate)
 - [x] rol/head-of-people-operations/head-of-people-operations.md — Head of People Operations (nómina, HRIS, cumplimiento)
 - [x] rol/head-of-partner-marketing/head-of-partner-marketing.md — Head of Partner Marketing (co-marketing, MDF, canales)
+
+### ITER 199 — Round 61 (2026-07-17)
+- gap_analysis.py (iter 199) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 61 (scripts/gap_analysis.py): 3 deepenings NA (sustrato/mexico/criminalistica, sustrato/estados-unidos/trabajo, sustrato/canada/energia-electrica) + 10 nodos nuevos dominio/rol.
+- 13 páginas ingeridas cubriendo las 3 capas:
+  - [sustrato] `sustrato/mexico/criminalistica.md` (nuevo en nodo existente): ciencia forense UNAM/ENaCiF, peritos, SEMEFO, cadena de custodia, sistema acusatorio.
+  - [sustrato] `sustrato/estados-unidos/trabajo.md` (nuevo en nodo existente): BLS, mercado laboral, FLSA, salario mínimo $7.25, gig economy.
+  - [sustrato] `sustrato/canada/energia-electrica.md` (nuevo en nodo existente): hidro dominante, Hydro-Québec/TransÉnergie, Régie de l'énergie, electrificación.
+  - [dominio] `dominio/privacidad.md` (nuevo nodo): principios, consentimiento opt-in/opt-out, GDPR/CCPA, transferencias.
+  - [dominio] `dominio/arquitectura-empresarial.md` (nuevo nodo): TOGAF, Zachman, BIZBOK, capability mapping.
+  - [dominio] `dominio/banca-de-inversion.md` (nuevo nodo): underwriting, M&A advisory, ECM/DCM, trading, bulge bracket.
+  - [dominio] `dominio/trading.md` (nuevo nodo): execution, algorítmico/HFT, asset classes, mesa, riesgos.
+  - [dominio] `dominio/finanzas-corporativas-analisis.md` (nuevo nodo): valoración DCF/múltiplos, modelado 3-statement, credit rating.
+  - [rol] `rol/vp-people-operations.md` (nuevo nodo): HR ops a escala, HRIS, payroll, compliance.
+  - [rol] `rol/head-of-corporate-communications.md` (nuevo nodo): comms internas/externas, reputación, media relations, portavoz.
+  - [rol] `rol/head-of-partner-success.md` (nuevo nodo): salud de canal, co-selling, retención de socios.
+  - [rol] `rol/head-of-technical-program.md` (nuevo nodo): TPM org, entrega cross-funcional, dependencias.
+  - [rol] `rol/head-of-strategy-and-ops.md` (nuevo nodo): estrategia + operaciones, BI/planning, exec office.
+- Reference-only (Wikipedia EN + autoridades sectoriales; sin raw/). Superstructura de nodo completa en cada nodo nuevo.
+- **Round 61 COMPLETO (13/13 temas).** Cola Round 61 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 62 o pausar.

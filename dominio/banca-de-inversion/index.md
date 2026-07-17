@@ -1,9 +1,12 @@
-# Índice de banca-de-inversion (index.md)
+# Banca de inversión (dominio/banca-de-inversion)
 
-Catálogo de páginas de la entidad `banca-de-inversion`. Se actualiza en cada ingest.
-Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fecha`
+Nodo de dominio: **Banca de inversión**. Wiki autocontenido en capas MVAS.
 
 ## Páginas
-<!-- Hermes añade aquí cada página de banca-de-inversion con su resumen. -->
+- [banca-de-inversion.md](banca-de-inversion.md) — Banca de inversión · 🏷️ banca-de-inversion,underwriting,m&a-advisory,ecm,dcm · 📅 2026-07-17
 
-- [banca-de-inversion](banca-de-inversion.md) — Banca de inversión: advisory M&A, underwriting ECM/DCM, sales&trading, bulge bracket vs boutiques · 🏷️ banca-de-inversion,investment-banking,m-a,underwriting,capital-markets,bulge-bracket,boutiques · 📅 2026-07-14
+## Cross-refs
+- Ver index.md raíz para nodos relacionados.
+
+## Índice raíz
+Volver a [index.md](/opt/data/MVAS/index.md) (raíz centralizado).

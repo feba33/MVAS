@@ -1,4 +1,4 @@
-# banca-de-inversion
+# arquitectura-empresarial
 
 Nodo de dominio en capas MVAS. Wiki autocontenido.
 

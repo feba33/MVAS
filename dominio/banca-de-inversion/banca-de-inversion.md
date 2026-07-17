@@ -1,29 +1,50 @@
 ---
-titulo: Banca de inversión (Investment Banking)
+titulo: Banca de inversión
 capa: dominio
 tema: banca-de-inversion
 fuente: https://en.wikipedia.org/wiki/Investment_banking
-fuente2: https://www.investopedia.com/terms/i/investmentbanking.asp
-fecha: 2026-07-14
+fuente2: https://en.wikipedia.org/wiki/Corporate_finance
+fecha: 2026-07-17
 confianza: alta
-tags: [banca-de-inversion, investment-banking, m-a, underwriting, capital-markets, bulge-bracket, boutiques, financiamiento, advisory]
-english_keywords: [investment banking, M&A advisory, underwriting, ECM, DCM, sell side, buy side, bulge bracket]
+tags: [banca-de-inversion, underwriting, m&a-advisory, ecm, dcm, trading, bulge-bracket]
+organizaciones: [Goldman Sachs, JPMorgan, Morgan Stanley, bulge-bracket]
+responsabilidades: [levantamiento-de-capital, asesoria-m&a, colocacion-de-activos]
+profundidad: 2
+estado: profundo
 ---
 
-# Banca de inversión (Investment Banking)
+# Banca de inversión
 
-## 📝 Conocimiento
-- **Definición:** servicio financiero de asesoría para corporaciones, gobiernos e inversores institucionales. A diferencia de la banca comercial, **no capta depósitos**; su ingreso proviene de **comisiones (fees)** por asesoría en transacciones.
-- **Líneas de negocio:**
-  - **Underwriting / colocación:** ayuda a clientes a levantar capital emitiendo deuda o acciones (equity/debt capital markets, ECM/DCM); actúa como agente del emisor.
-  - **Fusiones y adquisiciones (M&A):** asesoría en compraventa, fusión, spin-off, defensa ante adquisiciones hostiles.
-  - **Sales & Trading / Market Making:** facilita transacciones, liquidez, derivados y renta fija (FICC: fixed income, currencies, commodities).
-  - **Research y Asset Management / Prime Brokerage** como complementos.
-- **Estructura de la industria:** se segmenta en **Bulge Bracket** (tier alto: JP Morgan, Goldman Sachs, Morgan Stanley, BofA Securities, Citi, Barclays, UBS, Deutsche Bank), **Middle Market** (RBC, Jefferies, Evercore, Lazard, Moelis, Houlihan Lokey) y **boutiques** (especializadas por sector o geografía).
-- **Sell side vs buy side:** *sell side* = colocación y promoción de valores (underwriting, research, market-making); *buy side* = asesoría a quienes compran inversión (fondos, aseguradoras, hedge funds, private equity).
-- **Regulación (EE.UU.):** Glass–Steagall (1933) separó inversión/comercial hasta su derogación (Gramm–Leach–Bliley, 1999); Dodd–Frank (2010) impuso la **Volcker Rule** (separación de ciertas operaciones). Quien asesora en EE.UU. debe ser *broker-dealer* registrado en la **SEC** y sujeto a **FINRA**.
-- **vs** `dominio/capital-riesgo`, `dominio/mercados-capitales`, `dominio/finanzas-corporativas`, `sustrato/estados-unidos/sec-valores`.
+La **banca de inversión** es un servicio financiero de asesoría, principalmente para
+corporaciones, gobiernos e inversionistas institucionales. A diferencia de la banca comercial
+(depósitos/préstamos), su foco es el **capital y las transacciones corporativas**.
 
-## 🔗 Referencia
-- Wikipedia EN — Investment banking: https://en.wikipedia.org/wiki/Investment_banking
-- Cross-ref: `dominio/capital-riesgo`, `dominio/mercados-capitales`, `dominio/finanzas-corporativas`, `rol/head-of-corporate-development`, `sustrato/estados-unidos/sistema-financiero`.
+## Líneas de negocio (silicon)
+1. **Underwriting / Mercados de capitales**
+   - **ECM** (Equity Capital Markets): IPOs, colocaciones, follow-ons.
+   - **DCM** (Debt Capital Markets): emisión de deuda (bonos, notas).
+   - Actúa como agente del cliente en la emisión de valores de deuda o capital.
+2. **Asesoría de M&A** (Fusiones y adquisiciones): buy-side / sell-side, valoración,
+   estructuración, defensa ante adquisiciones hostiles.
+3. **Sales & Trading / Market Making**: negociación de renta variable, derivados, **FICC**
+   (fixed income, currencies, commodities), e investigación.
+4. **Prime Brokerage** y **Asset Management** (en muchos bancos).
+
+## Estructura de la industria
+- **Bulge Bracket**: grandes globales (Goldman Sachs, JPMorgan, Morgan Stanley, BofA, Citi…).
+- **Middle Market**: regionales/especializadas.
+- **Boutiques**: M&A puro (Evercore, Lazard, Moelis).
+
+## Regulación y separación
+- En EE.UU., **Glass-Steagall** (1933) separó banca comercial e inversión; parcialmente
+  derogado (Gramm-Leach-Bliley, 1999). **Dodd-Frank (2010)** reintrodujo límites (Volcker Rule).
+- En México/Canadá, banca múltiple y regulación prudencial (CNBV / OSFI) acotan el modelo.
+
+## Relación con otras capas
+- vs `dominio/banca`, `dominio/banca-corporativa`, `dominio/capital-riesgo`,
+  `dominio/mercados-capitales`, `dominio/finanzas-corporativas`.
+- Roles: `rol/investment-banker`, `rol/equity-research-analyst`, `rol/head-of-corporate-development`.
+
+## Fuentes
+- Investment banking (Wikipedia): <https://en.wikipedia.org/wiki/Investment_banking>
+- Corporate finance (Wikipedia): <https://en.wikipedia.org/wiki/Corporate_finance>

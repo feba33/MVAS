@@ -1,4 +1,4 @@
-# banca-de-inversion
+# trading
 
 Nodo de dominio en capas MVAS. Wiki autocontenido.
 

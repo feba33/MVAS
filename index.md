@@ -1761,3 +1761,22 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-engineering-excellence](rol/head-of-engineering-excellence/head-of-engineering-excellence.md) - Head of Engineering Excellence: calidad tecnica, DORA/DevEx, plataformas | head-of-engineering-excellence,devops,plataforma,dex | 2026-07-17
 - [head-of-regulatory](rol/head-of-regulatory/head-of-regulatory.md) - Head of Regulatory: asuntos regulatorios, aprobaciones, engagement | head-of-regulatory,regulatory,aprobaciones | 2026-07-17
 - [head-of-customer-success-strategy](rol/head-of-customer-success-strategy/head-of-customer-success-strategy.md) - Head of Customer Success Strategy: modelo de CS, retencion, churn | head-of-customer-success-strategy,customer-success,retencion | 2026-07-17
+
+### sustrato Round 61 (deepening NA)
+- [mexico/criminalistica](sustrato/mexico/criminalistica.md) - Criminalistica Mexico: Ciencia Forense UNAM/ENaCiF, peritos, SEMEFO, cadena de custodia | mexico,criminalistica,ciencia-forense,peritos,cadena-de-custodia | 2026-07-17
+- [estados-unidos/trabajo](sustrato/estados-unidos/trabajo.md) - Trabajo EE.UU.: BLS, mercado laboral, FLSA, salario minimo, gig economy | eeuu,trabajo,mercado-laboral,bls,flsa,gig-economy | 2026-07-17
+- [canada/energia-electrica](sustrato/canada/energia-electrica.md) - Energia electrica Canada: hidro, Hydro-Quebec, Régie de l'énergie, electrificacion | canada,energia-electrica,hidroelectrica,hydro-quebec,transmision | 2026-07-17
+
+### dominio Round 61 (nuevos)
+- [privacidad](dominio/privacidad.md) - Privacidad / proteccion de datos: principios, consentimiento, GDPR/CCPA, transferencias | privacidad,proteccion-de-datos,gdpr,ccpa,consentimiento | 2026-07-17
+- [arquitectura-empresarial](dominio/arquitectura-empresarial.md) - Arquitectura empresarial: TOGAF, Zachman, BIZBOK, capability mapping | arquitectura-empresarial,togaf,zachman,bizbok,capability-mapping | 2026-07-17
+- [banca-de-inversion](dominio/banca-de-inversion.md) - Banca de inversion: underwriting, M&A advisory, ECM/DCM, trading | banca-de-inversion,underwriting,m&a-advisory,ecm,dcm | 2026-07-17
+- [trading](dominio/trading.md) - Trading / mercados: execution, algoritmico/HFT, asset classes, mesa | trading,mercados-financieros,ejecucion,algoritmico,hft | 2026-07-17
+- [finanzas-corporativas-analisis](dominio/finanzas-corporativas-analisis.md) - Analisis de finanzas corporativas: valoracion DCF/multiplos, modelado, credit rating | finanzas-corporativas,valoracion,modelado-financiero,credit-rating,dcf | 2026-07-17
+
+### rol Round 61 (nuevos)
+- [vp-people-operations](rol/vp-people-operations.md) - VP People Operations: HR ops a escala, HRIS, payroll, compliance | vp-people-operations,hr-ops,payroll,hris,compliance | 2026-07-17
+- [head-of-corporate-communications](rol/head-of-corporate-communications.md) - Head of Corporate Communications: comms internas/externas, reputacion, media relations | head-of-corporate-communications,comms,reputacion,media-relations,portavoz | 2026-07-17
+- [head-of-partner-success](rol/head-of-partner-success.md) - Head of Partner Success: salud de canal, co-selling, retencion de socios | head-of-partner-success,partner-ecosystem,channel-health,co-selling | 2026-07-17
+- [head-of-technical-program](rol/head-of-technical-program.md) - Head of Technical Program: TPM org, entrega cross-funcional, dependencias | head-of-technical-program,tpm,entrega-cross-funcional,programa | 2026-07-17
+- [head-of-strategy-and-ops](rol/head-of-strategy-and-ops.md) - Head of Strategy & Operations: estrategia + operaciones, BI/planning | head-of-strategy-and-ops,strategy,operations,bi-planning | 2026-07-17

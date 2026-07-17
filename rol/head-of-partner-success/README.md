@@ -1,6 +1,6 @@
-# banca-de-inversion
+# head-of-partner-success
 
-Nodo de dominio en capas MVAS. Wiki autocontenido.
+Nodo de rol en capas MVAS. Wiki autocontenido.
 
 - Indice: [index.md](index.md)
 - Paginas en esta carpeta.
