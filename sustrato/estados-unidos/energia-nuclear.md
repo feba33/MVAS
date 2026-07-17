@@ -2,65 +2,43 @@
 titulo: Energía nuclear de Estados Unidos
 capa: sustrato
 tema: estados-unidos
-fuente: https://www.energy.gov/ne/articles/nrc-certifies-first-us-small-modular-reactor-design
-fuente2: https://www.eia.gov/todayinenergy/detail.php?id=67584
-fecha: 2026-07-16
+fuente: https://en.wikipedia.org/wiki/Nuclear_power_in_the_United_States
+fuente2: https://www.energy.gov/ne/articles/nrc-certifies-first-us-small-modular-reactor-design
+fecha: 2026-07-17
 confianza: alta
-tags: [estados-unidos, energia-nuclear, nrc, doe, reactores, smr, electricidad, descarbonizacion]
-profundidad: 2
-estado: profundo
+tags: [estados-unidos, energia-nuclear, nrc, reactores, smr, doe, electricidad]
+english_keywords: [united states, nuclear power, NRC, commercial reactors, SMR, DOE, electricity]
 ---
 
 # Energía nuclear de Estados Unidos
 
-La energía nuclear es la mayor fuente de **electricidad libre de emisiones** de EE.UU.
-(~19-20% de la generación eléctrica nacional). El marco regulatorio y de desarrollo
-está a cargo de la **Nuclear Regulatory Commission (NRC)** y el **Department of Energy
-(DOE), Office of Nuclear Energy**, con datos de la **EIA**.
+## 📝 Conocimiento
 
-## Flota actual
-- ~94 reactores comerciales operando en ~54 plantas en 28 estados.
-- Capacidad instalada ~96-100 GW; genera ~775-800 TWh/año.
-- Operadores principales: Constellation, Duke Energy, Exelon, TVA, Entergy, Southern
-  Company (Vogtle 3&4, Georgia — últimas unidades nuevas en operación).
+### Definición
+La **energía nuclear en EE.UU.** es la generación eléctrica a partir de fisión nuclear, regulada por la **Nuclear Regulatory Commission (NRC)**. Es la mayor fuente de **electricidad libre de carbono** del país.
 
-## Regulador: NRC
-- Licencia, inspecciona y supervisa reactores comerciales, materiales y residuos.
-- Certifica **diseños de reactores** (Design Certification). En 2023 la NRC certificó
-  el **primer diseño SMR de EE.UU. (NuScale Power Module)** — hito de la nueva era.
-- Margen de seguridad post-Fukushima (Regulatory Framework 10 CFR 50/52).
+### Estado de la flota
+- **96 reactores comerciales** operativos con ~98 GW de capacidad neta (65 PWR —pressurized water— y 31 BWR —boiling water—).
+- En 2022 generaron **771.5 TWh**; para 2024 la nuclear aportó ~**18%** de la electricidad estadounidense.
+- Operadores principales: Constellation, Vistra, Duke, Exelon, Entergy, TVA (federal).
 
-## Reactores avanzados y SMR
-- **Small Modular Reactors (SMR):** >10 diseños en desarrollo (NuScale, GE Hitachi
-  BWRX-300, TerraPower Natrium, X-energy Xe-100, Westinghouse AP300).
-- Microreactores para defensa, minería y comunidades remotas.
-- DOE apoya con cost-sharing (Advanced Reactor Demonstration Program, ARDP) y
-  reclutamiento de personal (Women in Nuclear).
-- Aplicaciones: data centers / IA, hidrógeno, desalación y calor de proceso.
+### Marco institucional
+- **NRC:** licencia, inspecciona y supervisa reactores (Operación y new reactors). Emite certificaciones de diseño.
+- **DOE / Office of Nuclear Energy:** I+D, avanza reactores avanzados y gestión de residuos.
+- **NRC certificó el primer diseño de SMR de EE.UU.** (NuScale) —hito de la nueva ola.
 
-## Combustible y residuos
-- Ciclo de uranio enriquecido; dependencia de enriquecimiento doméstico (HALEU para
-  reactores avanzados — cuello de botella de suministro).
-- Residuos: almacenamiento en pool/spent fuel pools y **almacenamiento seco en sitio**
-  (ISFSI); repositorio geológico (Yucca Mountain, NV) paralizado; **WIPP** (Nuevo
-  México) para residuos transuranicos de defensa.
+### Reactores avanzados (SMR / microreactores)
+- **Small Modular Reactors (SMR):** <300 MWe, modulares, factory-built; varios en desarrollo (NuScale, TerraPower Natrium, X-energy Xe-100).
+- **Microreactores:** para lugares remotos, minería, defensa.
+- Impulso por **IRA** (Inflation Reduction Act) y preocupación por demanda de IA/data centers.
+- **Residuos:** almacenamiento en pool/spent fuel casks en sitio; depósito geológico (Yucca Mountain) parado políticamente; WIPP para residuos transuranicos.
 
-## Política e incentivos
-- **Inflation Reduction Act (IRA):** crédito a la producción nuclear (45U,
-  ~$15/MWh ajustado por inflación) para mantener plantas existentes.
-- **ADVANCE Act (2024):** acelera licencias de reactores avanzados y reduce cargas.
-- Objetivo de administraciones recientes: triplicar la capacidad nuclear para 2050
-  (Net Zero) y abastecer demanda de IA/data centers.
+### Riesgos y debate
+- **Costo y tiempo:** nuevos proyectos caros y con sobrecostos (Vogtle); SMR busca reducir ambos.
+- **Seguridad y aceptación:** legado de Three Mile Island (1979); licencias de vida extendida (hasta 80 años).
+- **Cadena de suministro:** uranio enriquecido (LEU/HALEU), dependencia de enriquecimiento.
+- ** vs `dominio/energia-nuclear`:** esta página es el sustrato (país/regulación); el dominio cubre la disciplina (tecnología, SMR, IAEA).
 
-## Relaciones con otras páginas
-- vs `dominio/energia-nuclear` (disciplina técnica general) y
-  `sustrato/estados-unidos/energia` (oil&gas, renovables, grid).
-- Converge con `dominio/energias-renovables`, `dominio/ciberseguridad-ot` (plantas
-  críticas) y `sustrato/estados-unidos/defensa` (seguridad nuclear).
-- Parte del **sustrato Norteamérica** de MVAS (alcance: solo MX/US/CA).
-
-## Fuentes
-- DOE, "NRC Certifies First U.S. Small Modular Reactor Design" (2023).
-- EIA, "Small modular reactors and microreactors under development in the U.S." (2025).
-- DOE Office of Nuclear Energy, "Advanced Small Modular Reactors (SMRs)".
-- NRC, "Advanced Reactors" (página de nuevos reactores).
+### Cross-refs
+- `sustrato/estados-unidos/energia.md` · `sustrato/estados-unidos/finanzas-publicas.md` (DOE presupuesto)
+- `dominio/energia-nuclear.md` · `dominio/energias-renovables.md`

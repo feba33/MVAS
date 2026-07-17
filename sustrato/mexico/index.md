@@ -62,3 +62,4 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [centro-coordinador-salud-sonora](centro-coordinador-salud-sonora.md) — Durazo inaugura primer Centro Coordinador de Salud en México (Sonora) · 🏷️ elfinanciero,mexico,sonora,durazo,salud,gobierno-estatal · 📅 2026-07-17
 - [unam-admision-2026](unam-admision-2026.md) — Resultados examen admisión UNAM 2026: cuándo salen y cómo consultarlos · 🏷️ elfinanciero,mexico,unam,educacion-superior,examen-admision · 📅 2026-07-17
 - [defensa](defensa.md) — Defensa de México: SEDENA/SEMAR, Fuerzas Armadas, Guardia Nacional, industria de defensa, LSN · 🏷️ mexico,defensa,sedena,semar,fuerzas-armadas,guardia-nacional,seguridad-nacional · 📅 2026-07-17
+- [comercio-exterior](comercio-exterior.md) — Comercio exterior México: T-MEC/USMCA, IMMEX, BANCOMEXT, aduanas, exportaciones manufactureras, nearshoring · 🏷️ mexico,comercio-exterior,usmca,t-mec,immex,bancomext,exportacion,aduanas · 📅 2026-07-17

@@ -2201,3 +2201,42 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
   - [rol] `rol/head-of-solutions-engineering.md` (nuevo nodo): lidera org SE pre-venta, POCs, cierre técnico.
 - Reference-only (sitios oficiales gob.mx/CIEP/DOI/DFO/FDA/DAMA/ILO; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica).
 - **Round 62 COMPLETO (13/13 temas).** Cola Round 62 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 63 o pausar.
+
+## ✅ COLA ROUND 63 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 201) reportó 0 huecos reales → taxonomía extendida Round 63 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + integración index.md/log.md raíz + node indexes sustrato. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/comercio-exterior.md — Comercio exterior México (T-MEC/USMCA, IMMEX, BANCOMEXT, aduanas, exportaciones manufactureras, nearshoring)
+- [x] sustrato/estados-unidos/energia-nuclear.md — Energía nuclear EE.UU. (NRC, 94 reactores ~98 GW, 18% electricidad, SMR NuScale certificado, DOE, residuos)
+- [x] sustrato/canada/infraestructura.md — Infraestructura Canadá (Transport Canada, Infrastructure Canada, >1.4M km carreteras, ~72k km ferrocarril CN/CPKC, puertos, vivienda, banda ancha)
+### Dominio (nuevos nodos)
+- [x] dominio/blockchain-empresarial.md — Blockchain empresarial (Hyperledger, RWA, trazabilidad cadena, smart contracts B2B)
+- [x] dominio/ciberseguridad-cloud.md — Ciberseguridad de nube (Shared Responsibility, CSPM, IAM, multicloud, CNAPP, CSA CCM)
+- [x] dominio/derecho-de-datos.md — Derecho de datos (titularidad, portabilidad, soberanía, transferencias, GDPR/Data Act)
+- [x] dominio/economia-regional.md — Economía regional (desarrollo regional, clústeres, desigualdad, cohesión)
+- [x] dominio/logistica-urbana.md — Logística urbana (last-mile, microfulfillment, CEP, entregas sostenibles)
+- [x] dominio/gobernanza-etica-ia.md — Gobernanza ética de la IA (comités, model risk, human-in-the-loop, EU AI Act, NIST RMF)
+- [x] dominio/analitica-predictiva.md — Analítica predictiva (forecasting, scoring, churn, modelado predictivo, ML)
+### Rol (nuevos nodos)
+- [x] rol/head-of-ai-product.md — Head of AI Product (estrategia producto de IA, roadmap modelos, eval/seguridad)
+- [x] rol/head-of-operations-excellence.md — Head of Operations Excellence (lean, Six Sigma, kaizen, mejora continua)
+- [x] rol/head-of-customer-growth.md — Head of Customer Growth (retención, expansión, upsell/cross-sell, monetización de base)
+
+### ITER 201 — Round 63 (2026-07-17)
+- gap_analysis.py (iter 201) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 63 (scripts/gap_analysis.py): 3 deepenings NA (sustrato/mexico/comercio-exterior, sustrato/estados-unidos/energia-nuclear, sustrato/canada/infraestructura) + 10 nodos nuevos dominio/rol.
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz + node indexes sustrato; sin per-node raw/index/log):
+  - [sustrato] `sustrato/mexico/comercio-exterior.md` (nuevo en nodo): T-MEC/USMCA, IMMEX, BANCOMEXT, aduanas, exportaciones manufactureras, nearshoring.
+  - [sustrato] `sustrato/estados-unidos/energia-nuclear.md` (nuevo en nodo): NRC, 94 reactores ~98 GW, 18% electricidad, SMR NuScale certificado, DOE, residuos.
+  - [sustrato] `sustrato/canada/infraestructura.md` (nuevo en nodo): Transport Canada, Infrastructure Canada, >1.4M km carreteras, ~72k km ferrocarril CN/CPKC, puertos, vivienda, banda ancha.
+  - [dominio] `dominio/blockchain-empresarial.md` (nuevo nodo): Hyperledger, RWA, trazabilidad cadena, smart contracts B2B.
+  - [dominio] `dominio/ciberseguridad-cloud.md` (nuevo nodo): Shared Responsibility, CSPM, IAM, multicloud, CNAPP, CSA CCM.
+  - [dominio] `dominio/derecho-de-datos.md` (nuevo nodo): titularidad, portabilidad, soberanía, transferencias, GDPR/Data Act.
+  - [dominio] `dominio/economia-regional.md` (nuevo nodo): desarrollo regional, clústeres, desigualdad, cohesión.
+  - [dominio] `dominio/logistica-urbana.md` (nuevo nodo): last-mile, microfulfillment, CEP, entregas sostenibles.
+  - [dominio] `dominio/gobernanza-etica-ia.md` (nuevo nodo): comités, model risk, human-in-the-loop, EU AI Act, NIST RMF.
+  - [dominio] `dominio/analitica-predictiva.md` (nuevo nodo): forecasting, scoring, churn, modelado predictivo, ML.
+  - [rol] `rol/head-of-ai-product.md` (nuevo nodo): estrategia producto de IA, roadmap modelos, eval/seguridad.
+  - [rol] `rol/head-of-operations-excellence.md` (nuevo nodo): lean, Six Sigma, kaizen, mejora continua.
+  - [rol] `rol/head-of-customer-growth.md` (nuevo nodo): retención, expansión, upsell/cross-sell, monetización de base.
+- Reference-only (Wikipedia EN + autoridades sectoriales: Economy of Mexico, NRC/DOE, Transport Canada/Infrastructure Canada, Hyperledger, CSA, GDPR/Data Act, EU AI Act/NIST; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica).
+- **Round 63 COMPLETO (13/13 temas).** Cola Round 63 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 64 o pausar.

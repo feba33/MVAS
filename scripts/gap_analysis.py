@@ -1075,6 +1075,24 @@ NEW_NODES_ROUND_62 = [
 ]
 NEW_NODES = NEW_NODES_ROUND_62
 
+# Round 63 (iter 201) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("comercio-exterior", "Comercio exterior Mexico: BANCOMEXT, economia, USMCA/T-MEC, IMMEX, aduanas/OCDE, tratados, exportacion, vs inversion-extranjera"))
+TAXONOMY["sustrato/estados-unidos"].append(("energia-nuclear", "Energia nuclear EE.UU.: NRC, DOE Office of Nuclear Energy, plantas comerciales, SMR/advanced reactors, residuos (Yucca/WIPP), seguridad; vs dominio/energia-nuclear"))
+TAXONOMY["sustrato/canada"].append(("infraestructura", "Infraestructura Canada: Infrastructure Canada, planificacion de capital, transporte, banda ancha, vivienda, vs energia/transporte"))
+NEW_NODES_ROUND_63 = [
+    ("dominio/blockchain-empresarial", "Blockchain empresarial / enterprise blockchain: consorcios, Hyperledger, tokens de activos reales (RWA), trazabilidad de cadena de suministro, contratos inteligentes B2B, vs blockchain/deep-tech"),
+    ("dominio/ciberseguridad-cloud", "Ciberseguridad de nube / cloud security: Shared Responsibility Model, CSPM, IAM, secrets, postura multicloud, vs ciberseguridad/ciberseguridad-de-la-informacion"),
+    ("dominio/derecho-de-datos", "Derecho de datos / data law: titularidad, portabilidad, acceso, soberania de datos, transferencias transfronterizas, vs proteccion-de-datos/derecho-internacional"),
+    ("dominio/economia-regional", "Economia regional: desarrollo regional, clústeres territoriales, desigualdad regional, fondos de cohesion, vs geografia-economica/economia-institucional"),
+    ("dominio/logistica-urbana", "Logistica urbana / last-mile: microfulfillment, zonas de carga, movilidad de carga, CEP, sostenibilidad de entregas, vs movilidad-urbana/almacenamiento"),
+    ("dominio/gobernanza-etica-ia", "Gobernanza etica de la IA: comites de etica, model risk, human-in-the-loop, auditabilidad, alineacion con EU AI Act/NIST RMF, vs etica-ia/gobierno-de-ia"),
+    ("dominio/analitica-predictiva", "Analitica predictiva / predictive analytics: forecasting, scoring, churn/attrition, modelado predictivo aplicado, vs ciencia-de-datos/analitica-negocio"),
+    ("rol/head-of-ai-product", "Head of AI Product: dueno de producto de IA/ML (agentes, features de ML), estrategia de modelos en producto, eval/seguridad, vs product-manager/head-of-ai/chief-ai-officer"),
+    ("rol/head-of-operations-excellence", "Head of Operations Excellence / OpEx: lean, Six Sigma, kaizen a nivel org, eficiencia de procesos, vs head-of-continuous-improvement/quality-manager"),
+    ("rol/head-of-customer-growth", "Head of Customer Growth: retencion + expansion + upsell/cross-sell, lifecycle, monetizacion de base, vs customer-success/customer-marketing/head-of-growth"),
+]
+NEW_NODES = NEW_NODES_ROUND_63
+
 
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)

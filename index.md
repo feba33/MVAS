@@ -1453,7 +1453,26 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-sales-strategy](rol/head-of-sales-strategy.md) — Head of Sales Strategy: GTM planning, segmentación, comp plans, canal; vs vp-sales/head-of-revops · 🏷️ head-of-sales-strategy,sales-strategy,gtm,segmentation,comp-plans,channel,ventas · 📅 2026-07-17
 
 ### rol/head-of-solutions-engineering
-- [head-of-solutions-engineering](rol/head-of-solutions-engineering.md) — Head of Solutions Engineering: lidera org SE pre-venta, POCs/demos, cierre técnico, puente ventas-producto · 🏷️ head-of-solutions-engineering,solutions-engineering,pre-sales,poc,demo-tecnica,cierre-tecnico,ventas · 📅 2026-07-17
+- [head-of-solutions-engineering](rol/head-of-solutions-engineering.md) - Head of Solutions Engineering: lidera org de SE pre-venta, POCs, cierre técnico · head-of-solutions-engineering,solutions-engineering,pre-venta,poc · 2026-07-17
+
+### sustrato Round 63 (deepening NA)
+- [mexico/comercio-exterior](sustrato/mexico/comercio-exterior.md) - Comercio exterior México: T-MEC/USMCA, IMMEX, BANCOMEXT, aduanas, exportaciones manufactureras, nearshoring | mexico,comercio-exterior,usmca,immex,bancomext,aduanas | 2026-07-17
+- [estados-unidos/energia-nuclear](sustrato/estados-unidos/energia-nuclear.md) - Energía nuclear EE.UU.: NRC, 94 reactores (~98 GW), 18% electricidad, SMR (NuScale certificado), DOE | eeuu,energia-nuclear,nrc,reactores,smr,doe | 2026-07-17
+- [canada/infraestructura](sustrato/canada/infraestructura.md) - Infraestructura Canadá: Transport Canada, Infrastructure Canada, >1.4M km carreteras, ~72k km ferrocarril, puertos, vivienda, banda ancha | canada,infraestructura,transport-canada,infrastructure-canada,transporte,vivienda | 2026-07-17
+
+### dominio Round 63 (nuevos)
+- [blockchain-empresarial](dominio/blockchain-empresarial.md) - Blockchain empresarial: Hyperledger, RWA, trazabilidad de cadena, contratos inteligentes B2B | blockchain-empresarial,hyperledger,rwa,smart-contracts,consorcios | 2026-07-17
+- [ciberseguridad-cloud](dominio/ciberseguridad-cloud.md) - Ciberseguridad de nube: Shared Responsibility, CSPM, IAM, multicloud, CNAPP | ciberseguridad-cloud,cspm,iam,shared-responsibility,multicloud | 2026-07-17
+- [derecho-de-datos](dominio/derecho-de-datos.md) - Derecho de datos: titularidad, portabilidad, soberanía, transferencias transfronterizas, Data Act | derecho-de-datos,soberania-de-datos,portabilidad,transferencias,data-law | 2026-07-17
+- [economia-regional](dominio/economia-regional.md) - Economía regional: desarrollo regional, clústeres, desigualdad territorial, cohesión | economia-regional,desarrollo-regional,clusters,desigualdad-regional,cohesion | 2026-07-17
+- [logistica-urbana](dominio/logistica-urbana.md) - Logística urbana: last-mile, microfulfillment, CEP, entregas sostenibles | logistica-urbana,last-mile,microfulfillment,entregas,cep | 2026-07-17
+- [gobernanza-etica-ia](dominio/gobernanza-etica-ia.md) - Gobernanza ética de la IA: comités, model risk, human-in-the-loop, EU AI Act, NIST RMF | gobernanza-etica-ia,ai-governance,model-risk,eu-ai-act,nist-ai-rmf | 2026-07-17
+- [analitica-predictiva](dominio/analitica-predictiva.md) - Analítica predictiva: forecasting, scoring, churn, modelado predictivo, ML | analitica-predictiva,forecasting,scoring,churn,machine-learning | 2026-07-17
+
+### rol Round 63 (nuevos)
+- [head-of-ai-product](rol/head-of-ai-product.md) - Head of AI Product: estrategia de producto de IA, roadmap de modelos, eval/seguridad | head-of-ai-product,ai-product-management,ml-product,agentes,eval | 2026-07-17
+- [head-of-operations-excellence](rol/head-of-operations-excellence.md) - Head of Operations Excellence: lean, Six Sigma, kaizen, mejora continua | head-of-operations-excellence,opex,lean,six-sigma,kaizen | 2026-07-17
+- [head-of-customer-growth](rol/head-of-customer-growth.md) - Head of Customer Growth: retención, expansión, upsell/cross-sell, monetización de base | head-of-customer-growth,retencion,expansion,upsell,monetizacion | 2026-07-17
 
 ### rol/head-of-merchandising
 - [head-of-merchandising](rol/head-of-merchandising.md) — Head of Merchandising: assortment, categoría, pricing, surtido, experiencia en tienda; vs category-manager/retail · 🏷️ head-of-merchandising,merchandising,category-management,surtido,pricing,retail · 📅 2026-07-15
