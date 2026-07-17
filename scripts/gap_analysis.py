@@ -1003,6 +1003,24 @@ NEW_NODES_ROUND_58 = [
 ]
 NEW_NODES = NEW_NODES_ROUND_58
 
+# Round 59 (iter 197) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("participacion-ciudadana", "Participacion ciudadana Mexico: INE, consultas, presupuesto participativo, democracia directa, asambleas; vs transparencia/poder-judicial"))
+TAXONOMY["sustrato/estados-unidos"].append(("defensa-civil", "Defensa civil EE.UU.: FEMA, emergency management, preparacion/response/recovery, NRF, vs seguridad-publica/gestion-de-crisis"))
+TAXONOMY["sustrato/canada"].append(("economia-creativa", "Economia creativa Canada: industrias culturales, politica CANCON, telefilm, music/film/games, vs cultura/economia-creativa-mexico"))
+NEW_NODES_ROUND_59 = [
+    ("dominio/domotica", "Domotica / smart home: IoT residencial, asistentes de voz, seguridad hogar, automatizacion, vs iot/ciudades-inteligentes"),
+    ("dominio/jurimetria", "Jurimetria / legal analytics: datos en el derecho, prediccion de litigios, estadistica judicial, vs leyes/legaltech/derecho-procesal"),
+    ("dominio/neurociencia", "Neurociencia: cognicion, neuroeconomia, aplicaciones clinicas/consumo, vs comportamiento-del-consumidor/inteligencia-emocional"),
+    ("dominio/economia-de-la-salud", "Economia de la salud / health economics: outcomes, costo-efectividad, pricing farmaceutico, sistemas de pago; vs salud-publica/sanidad"),
+    ("dominio/ingenieria-financiera", "Ingenieria financiera: estructuracion, derivados exoticos, securitizacion, ABS/MBS, vs derivados/finanzas-corporativas"),
+    ("rol/head-of-engineering", "Head of Engineering: lidera org de ingenieria (varios equipos), delivery tecnico, vs vp-engineering/engineering-manager"),
+    ("rol/head-of-digital-product", "Head of Digital Product: producto nativo digital, plataformas digitales, vs producto/product-manager/director-of-product"),
+    ("rol/head-of-solutions-consulting", "Head of Solutions Consulting / Pre-Sales: demo tecnica, POCs, cierre tecnico, vs sales-engineer/solutions-architect"),
+    ("rol/head-of-people-operations", "Head of People Operations: HR ops, payroll, sistemas RRHH, compliances laboral, vs hr-generalist/head-of-people"),
+    ("rol/head-of-partner-marketing", "Head of Partner Marketing: co-marketing, canal/ecosistema, MDF, vs channel-manager/marketing-manager"),
+]
+NEW_NODES = NEW_NODES_ROUND_59
+
 
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)

@@ -78,6 +78,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [servicios-publicos](sustrato/mexico/servicios-publicos.md) — Servicios públicos México: agua potable/drenaje (CONAGUA, Ley General de Aguas 2025), energía eléctrica residencial (CFE), recolección; derecho humano al agua · 🏷️ mexico,servicios-publicos,agua-potable,conagua,cfe,saneamiento,derecho-al-agua · 📅 2026-07-17
 - [agricultura](sustrato/mexico/agricultura.md) — Agricultura México: SADER, campesinos, seguridad alimentaria, producción, vs EE.UU./Canadá · 🏷️ mexico,agricultura,sader,sector-agropecuario,seguridad-alimentaria · 📅 2026-07-17
 - [politica-fiscal](sustrato/mexico/politica-fiscal.md) — Política fiscal México: SHCP, gasto público, déficit, deuda, estabilización; vs finanzas-publicas/impuestos · 🏷️ mexico,politica-fiscal,shcp,gasto-publico,deuda-publica,deficit,estabilizacion · 📅 2026-07-17
+- [participacion-ciudadana](sustrato/mexico/participacion-ciudadana.md) — Participación ciudadana México: arts. 26/35, consulta popular (40% para ser vinculante), presupuesto participativo, INE/OPL · 🏷️ mexico,participacion-ciudadana,democracia,consulta-popular,presupuesto-participativo,ine · 📅 2026-07-17
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -133,6 +134,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [energia-electrica](sustrato/estados-unidos/energia-electrica.md) — Energía eléctrica EE.UU.: grid (3 interconexiones), generación/transmisión/distribución, FERC/EIA/NERC, ISO/RTO, mercados mayoristas · 🏷️ eeuu,energia-electrica,grid,ferc,eia,nerc,iso-rto,utilities · 📅 2026-07-17
 - [agricultura](sustrato/estados-unidos/agricultura.md) — Agricultura EE.UU.: USDA, Farm Bill, crop insurance (FCIP), subsidies, vs México/Canadá · 🏷️ estados-unidos,agricultura,usda,farm-bill,subsidios,crop-insurance · 📅 2026-07-17
 - [criminalistica](sustrato/estados-unidos/criminalistica.md) — Criminalística EE.UU.: forensic science, FBI/NIST, evidencia, medicina legal, peritaje · 🏷️ estados-unidos,criminalistica,forensic-science,fbi,nist,evidencia,medicina-legal · 📅 2026-07-17
+- [defensa-civil](sustrato/estados-unidos/defensa-civil.md) — Defensa civil EE.UU.: protección de la población, FEMA/DHS, National Response Framework, ciclo de emergencias · 🏷️ estados-unidos,defensa-civil,fema,dhs,emergencias,nrf,gestion-de-crisis · 📅 2026-07-17
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -182,6 +184,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [defensa-seguridad](sustrato/canada/defensa-seguridad.md) — Defensa y seguridad Canadá: DND/CAF, NORAD, OTAN, procurement de defensa · 🏷️ canada,defensa,seguridad,dnd,caf,nato,norad,procurement-defensa,fuerzas-armadas · 📅 2026-07-16
 - [salud-publica](sustrato/canada/salud-publica.md) — Salud pública Canadá: PHAC, Health Canada, vigilancia epidemiológica, inmunización, determinantes sociales; vs salud (aseguramiento) · 🏷️ canada,salud-publica,phac,health-canada,epidemiologia,prevencion,vigilancia · 📅 2026-07-17
 - [turismo](sustrato/canada/turismo.md) — Turismo Canadá: Destination Canada, >20M turistas/año, $100B PIB 2024, ~1.8M empleos, turismo interior · 🏷️ canada,turismo,destination-canada,turismo-interior,parques,hospitalidad · 📅 2026-07-17
+- [economia-creativa](sustrato/canada/economia-creativa.md) — Economía creativa Canadá: industrias culturales, política CanCon (CRTC/CAVCO/Telefilm), crédito fiscal, Online Streaming Act · 🏷️ canada,economia-creativa,industrias-culturales,cancon,telefilm,crédito-fiscal,politica-cultural · 📅 2026-07-17
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -1707,6 +1710,33 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-credit
 - [head-of-credit](rol/head-of-credit/head-of-credit.md) — Head of Credit: políticas de crédito, evaluación, cobranza, riesgo de cartera (DSO) · 🏷️ head-of-credit,credito-comercial,cobranza,riesgo-de-credito,politicas-de-credito · 📅 2026-07-17
+
+### dominio/domotica
+- [domotica](dominio/domotica/domotica.md) — Domótica / Smart Home: IoT residencial, hub, asistentes de voz, Matter/Zigbee/Z-Wave, automatización y seguridad · 🏷️ domotica,smart-home,iot-residencial,voz,automatizacion-hogar,seguridad-hogar,matter · 📅 2026-07-17
+
+### dominio/jurimetria
+- [jurimetria](dominio/jurimetria/jurimetria.md) — Jurimetría / Legal Analytics: métodos cuantitativos al derecho, predicción de litigios, análisis de jurisprudencia, legaltech · 🏷️ jurimetria,legal-analytics,datos-juridicos,litigios,estadistica-judicial,legaltech · 📅 2026-07-17
+
+### dominio/neurociencia
+- [neurociencia](dominio/neurociencia/neurociencia.md) — Neurociencia: cognición, neuroeconomía, consumer neuroscience, neuroforecasting; base biológica · 🏷️ neurociencia,cognicion,neuroeconomia,consumer-neuroscience,neuroforecasting,psicologia · 📅 2026-07-17
+
+### dominio/economia-de-la-salud
+- [economia-de-la-salud](dominio/economia-de-la-salud/economia-de-la-salud.md) — Economía de la salud / pharmacoeconomics: CEA, CUA, QALY, HTA, pricing y reembolso · 🏷️ economia-de-la-salud,health-economics,pharmacoeconomics,costo-efectividad,hta,sistemas-de-pago · 📅 2026-07-17
+
+### dominio/ingenieria-financiera
+- [ingenieria-financiera](dominio/ingenieria-financiera/ingenieria-financiera.md) — Ingeniería financiera: productos estructurados, derivados exóticos, titulización ABS/MBS/CDO, SPV · 🏷️ ingenieria-financiera,structured-products,securitizacion,abs,mbs,derivados-exoticos · 📅 2026-07-17
+
+### rol/head-of-digital-product
+- [head-of-digital-product](rol/head-of-digital-product/head-of-digital-product.md) — Head of Digital Product: estrategia y entrega de productos digitales web/móvil, roadmap, experimentación · 🏷️ head-of-digital-product,producto-digital,product-management,roadmap,web-movil,experimentacion · 📅 2026-07-17
+
+### rol/head-of-solutions-consulting
+- [head-of-solutions-consulting](rol/head-of-solutions-consulting/head-of-solutions-consulting.md) — Head of Solutions Consulting: liderazgo de ventas técnicas (presales), win rate, calidad de solucionamiento · 🏷️ head-of-solutions-consulting,presales,sales-engineering,demo,poc,win-rate · 📅 2026-07-17
+
+### rol/head-of-people-operations
+- [head-of-people-operations](rol/head-of-people-operations/head-of-people-operations.md) — Head of People Operations: operaciones RRHH, nómina, HRIS, cumplimiento laboral · 🏷️ head-of-people-operations,hr-ops,payroll,hris,cumplimiento-laboral,people-analytics · 📅 2026-07-17
+
+### rol/head-of-partner-marketing
+- [head-of-partner-marketing](rol/head-of-partner-marketing/head-of-partner-marketing.md) — Head of Partner Marketing: marketing de canales/ecosistema, co-marketing, MDF, enablement de socios · 🏷️ head-of-partner-marketing,channel-marketing,co-marketing,mdf,ecosistema,alianzas · 📅 2026-07-17
 
 ### rol/head-of-commercial
 - [head-of-commercial](rol/head-of-commercial/head-of-commercial.md) — Head of Commercial: estrategia comercial, GTM, alineación ventas-marketing-BD, dueño del ingreso · 🏷️ head-of-commercial,estrategia-comercial,gtm,ventas-marketing-bd,ingresos · 📅 2026-07-17
