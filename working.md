@@ -2084,14 +2084,14 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] rol/head-of-partnerships.md — Head of Partnerships (alianzas, canales, ecosistema)
 
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 818** (Round 57: 806; Round 58: 819? ; Round 59: 818/12 nuevas). |
-| **Rondas:** 59 completas (Round 1..59). |
-| **Nodos sustrato (NA):** México 78 (+participacion-ciudadana), EE.UU. 64 (+defensa-civil), Canadá 58 (+economia-creativa). |
-| **Nodos dominio:** ~233 (Round 59 +5: domotica, jurimetria, neurociencia, economia-de-la-salud, ingenieria-financiera). |
-| **Nodos rol:** ~216 (Round 59 +4: head-of-digital-product, head-of-solutions-consulting, head-of-people-operations, head-of-partner-marketing). |
+| **Tópicos ingeridos (acumulado): 831** (Round 59: 818; Round 60: 831/13 nuevas). |
+| **Rondas:** 60 completas (Round 1..60). |
+| **Nodos sustrato (NA):** México 79 (+defensa), EE.UU. 65 (+relaciones-laborales), Canadá 59 (+defensa-civil). |
+| **Nodos dominio:** ~238 (Round 60 +5: gestion-documental, teatro, economia-creativa, sector-agroalimentario, ciberseguridad-educativa). |
+| **Nodos rol:** ~221 (Round 60 +5: head-of-ux, head-of-sales-finance, head-of-engineering-excellence, head-of-regulatory, head-of-customer-success-strategy). |
 | **Organización:** 1 (ejemplo-empresa / NovaTech). |
 | **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
-| **Iterações totales:** 197. |
+| **Iterações totales:** 198. |
 
 ## 🚦 ESTADO
 | - **Iteración actual:** 195 (Round 57 COMPLETA — 10 páginas nuevas reales ingeridas y commiteadas). |
@@ -2109,10 +2109,22 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | - **Bloqueos:** ninguno. |
 | - **Cola:** Round 59 COMPLETA (12/12). |
 
+| - **Iteración actual:** 198 (Round 60 COMPLETA — 13/13 ingestados e integrados). |
+| - **Última ação:** Round 60 iter 198 — gap_analysis.py (iter 198) reportó 0 huecos reales → taxonomía extendida Round 60 (scripts/gap_analysis.py): 3 deepenings NA (mexico/defensa, estados-unidos/relaciones-laborales, canada/defensa-civil) + 10 nodos nuevos dominio/rol (dominio: gestion-documental, teatro, economia-creativa, sector-agroalimentario, ciberseguridad-educativa; rol: head-of-ux, head-of-sales-finance, head-of-engineering-excellence, head-of-regulatory, head-of-customer-success-strategy). Ingestó 13 páginas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con superstructura de nodo (README/index/log) por requisito de protocolo. Integración centralizada (index.md root + log.md root) y commit. Reference-only (Wikipedia EN + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 60 COMPLETA (13/13). |
+
 > gap_analysis.py (iter 196) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 58 (scripts/gap_analysis.py): 3 deepenings NA (sustrato/mexico/politica-fiscal, sustrato/estados-unidos/criminalistica, sustrato/canada/turismo) + 10 nodos nuevos dominio/rol (dominio: tributos, defensa-civil, gestion-del-riesgo-de-desastres, relaciones-diplomaticas, biomedicina, economia-del-trabajo, competitividad-empresarial, derecho-de-las-telecomunicaciones; rol: head-of-tax, head-of-government-relations, head-of-credit, head-of-commercial).
 
 ## ▶️ PRÓXIMA TAREA
-- Round 59 COMPLETA (12 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 60) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
+- Round 60 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 61) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
+
+## ✅ COLA ROUND 60 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 198) reportó 0 huecos reales → taxonomía extendida Round 60 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página + integración index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+> LOOP 1 (sustrato NA): mexico/defensa, estados-unidos/relaciones-laborales, canada/defensa-civil.
+> LOOP 2 (dominio): gestion-documental, teatro, economia-creativa, sector-agroalimentario, ciberseguridad-educativa.
+> LOOP 3 (rol): head-of-ux, head-of-sales-finance, head-of-engineering-excellence, head-of-regulatory, head-of-customer-success-strategy.
 
 ## ✅ COLA ROUND 59 — COMPLETA (12/12 páginas nuevas)
 > gap_analysis.py (iter 197) reportó 0 huecos reales → taxonomía extendida Round 59 (scripts/gap_analysis.py): 3 deepenings NA + 9 nodos nuevos dominio/rol.

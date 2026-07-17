@@ -187,3 +187,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-15] ingest | Gobierno digital de EE.UU.
 - Fuentes: Wikipedia (EN) E-government in the United States + USDS/18F (whitehouse.gov) — reference-only (sin raw/).
 - Página: gobierno-digital.md. US Digital Service, 18F, Login.gov, FITARA (2014), IDEA Act (2018), cloud.gov. Cross-ref poder-judicial, seguridad-nacional. Confianza alta.
+
+## [2026-07-17] ingest | Relaciones laborales EE.UU.
+- Fuentes: NLRB (NLRA + Taft-Hartley) — reference-only (sin raw/).
+- Pagina: relaciones-laborales.md. NLRA/NLRB, Wagner Act, Taft-Hartley, right-to-work, Landrum-Griffin. Cross-ref labor, seguridad-social. Confianza alta.

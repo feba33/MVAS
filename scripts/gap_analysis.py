@@ -1021,6 +1021,24 @@ NEW_NODES_ROUND_59 = [
 ]
 NEW_NODES = NEW_NODES_ROUND_59
 
+# Round 60 (iter 198) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("defensa", "Defensa Mexico: SEDENA, SEMAR, Guardia Nacional, industria de defensa, procurement, vs seguridad-nacional/seguridad-publica"))
+TAXONOMY["sustrato/estados-unidos"].append(("relaciones-laborales", "Relaciones laborales EE.UU.: NLRB, sindicatos, negociacion colectiva, huelgas, Taft-Hartley, vs labor/seguridad-social"))
+TAXONOMY["sustrato/canada"].append(("defensa-civil", "Defensa civil Canada: Public Safety Canada, emergency management, Response Framework, vs gestion-del-riesgo-de-desastres/seguridad-publica"))
+NEW_NODES_ROUND_60 = [
+    ("dominio/gestion-documental", "Gestion documental / document management: ciclo de vida del documento, ECM, records management, ISO 15489, e-discovery, vs juridico/legaltech"),
+    ("dominio/teatro", "Industria del teatro / performing arts: produccion teatral, ticket, touring, financiamiento, vs musica/deporte/entretenimiento"),
+    ("dominio/economia-creativa", "Economia creativa (disciplina de dominio): industrias culturales y creativas, valor economico, politicas, vs cultura (sustrato) y entretenimiento/musica/medios-comunicacion"),
+    ("dominio/sector-agroalimentario", "Sector agroalimentario: cadena de valor agroalimentaria, procesamiento de alimentos, distribucion, seguridad alimentaria, vs agricultura/alimentos-bebidas/pesca-acuicultura"),
+    ("dominio/ciberseguridad-educativa", "Ciberseguridad educativa / edtech security: proteccion de datos estudiantiles (FERPA/COPPA), LMS security, identidad educativa, vs educacion/edtech/proteccion-de-datos"),
+    ("rol/head-of-ux", "Head of UX — lidera la organizacion de UX/research/design de producto, estrategia de experiencia, vs design-lead/head-of-design/ux-researcher"),
+    ("rol/head-of-sales-finance", "Head of Sales Finance — credito/comercial y financiacion de ventas, estructuracion de deals, vs finanzas-ventas/head-of-credit"),
+    ("rol/head-of-engineering-excellence", "Head of Engineering Excellence — calidad tecnica, plataformas de dev, estandares, DORA/DevEx, vs head-of-platform-engineering/chief-technology-officer"),
+    ("rol/head-of-regulatory", "Head of Regulatory — relacion con reguladores, aprobaciones, compliance tecnico, vs regulatory-affairs/head-of-government-relations"),
+    ("rol/head-of-customer-success-strategy", "Head of Customer Success Strategy — estrategia de CS, modelos de retencion/expansion, enablement de CS, vs customer-success/head-of-customer-success"),
+]
+NEW_NODES = NEW_NODES_ROUND_60
+
 
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)

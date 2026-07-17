@@ -164,3 +164,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-15] ingest | Gobierno digital de Canadá
 - Fuentes: Wikipedia (EN) E-government in Canada + Canada.ca / CDS — reference-only (sin raw/).
 - Página: gobierno-digital.md. Canadian Digital Service (CDS), GC digital standards, Service Canada en línea, identidad digital federada. Cross-ref gobierno-federal, relaciones-institucionales. Confianza alta.
+
+## [2026-07-17] ingest | Defensa civil Canada
+- Fuentes: Public Safety Canada + Wikipedia (EN) — reference-only (sin raw/).
+- Pagina: defensa-civil.md. Public Safety Canada, FERP, gestion de emergencias, RCMP/CBSA, CAF. Cross-ref gestion-del-riesgo-de-desastres, seguridad-publica. Confianza alta.

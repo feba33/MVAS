@@ -1741,3 +1741,23 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol/head-of-commercial
 - [head-of-commercial](rol/head-of-commercial/head-of-commercial.md) — Head of Commercial: estrategia comercial, GTM, alineación ventas-marketing-BD, dueño del ingreso · 🏷️ head-of-commercial,estrategia-comercial,gtm,ventas-marketing-bd,ingresos · 📅 2026-07-17
 
+
+
+### sustrato Round 60 (defensa / relaciones laborales)
+- [mexico/defensa](sustrato/mexico/defensa.md) - Defensa de Mexico: SEDENA/SEMAR, Fuerzas Armadas, Guardia Nacional, industria de defensa | mexico,defensa,sedena,semar,fuerzas-armadas | 2026-07-17
+- [estados-unidos/relaciones-laborales](sustrato/estados-unidos/relaciones-laborales.md) - Relaciones laborales EE.UU.: NLRA/NLRB, sindicatos, Taft-Hartley | eeuu,relaciones-laborales,nlra,nlrb,taft-hartley | 2026-07-17
+- [canada/defensa-civil](sustrato/canada/defensa-civil.md) - Defensa civil Canada: Public Safety Canada, gestion de emergencias, FERP | canada,defensa-civil,public-safety,emergencias | 2026-07-17
+
+### dominio Round 60 (nuevos)
+- [gestion-documental](dominio/gestion-documental/gestion-documental.md) - Gestion documental: DMS, records management (ISO 15489), ECM | gestion-documental,ecm,records-management,iso-15489 | 2026-07-17
+- [teatro](dominio/teatro/teatro.md) - Industria del teatro: produccion, taquilla, touring, royalties | teatro,artes-escenicas,entretenimiento | 2026-07-17
+- [economia-creativa](dominio/economia-creativa/economia-creativa.md) - Economia creativa: industrias culturales/creativas, UNCTAD, economia naranja | economia-creativa,industrias-culturales,orange-economy | 2026-07-17
+- [sector-agroalimentario](dominio/sector-agroalimentario/sector-agroalimentario.md) - Sector agroalimentario: agribusiness, cadena de valor, FAO/USDA/SADER | agroalimentario,agribusiness,seguridad-alimentaria | 2026-07-17
+- [ciberseguridad-educativa](dominio/ciberseguridad-educativa/ciberseguridad-educativa.md) - Ciberseguridad educativa: FERPA/COPPA, LMS, edtech | ciberseguridad-educativa,ferpa,edtech,proteccion-datos | 2026-07-17
+
+### rol Round 60 (nuevos)
+- [head-of-ux](rol/head-of-ux/head-of-ux.md) - Head of UX: estrategia de experiencia, design systems, research | head-of-ux,ux,design,producto | 2026-07-17
+- [head-of-sales-finance](rol/head-of-sales-finance/head-of-sales-finance.md) - Head of Sales Finance: credito comercial, estructuracion de deals | head-of-sales-finance,credito-comercial,financing | 2026-07-17
+- [head-of-engineering-excellence](rol/head-of-engineering-excellence/head-of-engineering-excellence.md) - Head of Engineering Excellence: calidad tecnica, DORA/DevEx, plataformas | head-of-engineering-excellence,devops,plataforma,dex | 2026-07-17
+- [head-of-regulatory](rol/head-of-regulatory/head-of-regulatory.md) - Head of Regulatory: asuntos regulatorios, aprobaciones, engagement | head-of-regulatory,regulatory,aprobaciones | 2026-07-17
+- [head-of-customer-success-strategy](rol/head-of-customer-success-strategy/head-of-customer-success-strategy.md) - Head of Customer Success Strategy: modelo de CS, retencion, churn | head-of-customer-success-strategy,customer-success,retencion | 2026-07-17

@@ -226,3 +226,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-15] ingest | Gobierno digital de México
 - Fuentes: Wikipedia (EN/ES) E-government in Mexico + Gob.mx / Agenda Digital — reference-only (sin raw/).
 - Página: gobierno-digital.md. Gob.mx, CEDN, datos.gob.mx (INEGI), e.firma, Cl@ve; trámites en línea. Cross-ref gobierno-federal, relaciones-institucionales. Confianza alta.
+
+## [2026-07-17] ingest | Defensa de Mexico
+- Fuentes: gob.mx/defensa, gob.mx/sem mar — reference-only (sin raw/).
+- Pagina: defensa.md. SEDENA/SEMAR, Fuerzas Armadas, Guardia Nacional, industria de defensa, LSN. Cross-ref seguridad-nacional, seguridad-publica. Confianza alta.
