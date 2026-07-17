@@ -26,6 +26,16 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Reference-only: Wikipedia (EN/ES) + sitios oficiales (INEGI, CBO, OMB, WEF, ITIF, IEA, TNFD, ISA/IEC 62443, NERC, COSO, ISO, EFMD, UN Global Compact, GRI, GHG Protocol, SHRM, Salesforce, Google AI Principles, FinOps) — sin raw/.
 - **Round 46 COMPLETA (13/13).** Tópicos acumulados: ~663. Próximo: gap_analysis.py; si 0 → reabastecer taxonomía (Round 47) o pausar hasta próximo cron.
 
+## [2026-07-17] ingest | El Financiero scrape (4/5 artículos → sustrato/mexico)
+- Scrape `scripts/scrape_elfinanciero.py 5` → 5 ítems. Ingest autónomo (modo cron, sin clarify).
+- Creadas 4 páginas en `sustrato/mexico/` (modelo centralizado; fuente = URL en frontmatter, SIN raw/):
+  - `salud-mental-mancera.md` — estrategia de la psicóloga Ivonne Mancera contra desgaste emocional (tema: salud). Certeza alta.
+  - `covid-repunte-2026.md` — repunte SARS-CoV-2 6 semanas; CDMX/Edomex/Hidalgo concentran casos (tema: salud). Certeza alta.
+  - `centro-coordinador-salud-sonora.md` — Durazo inaugura primer Centro Coordinador de Salud en México (Sonora) (tema: salud). Certeza alta.
+  - `unam-admision-2026.md` — resultados examen admisión UNAM 2026 (tema: educacion-superior). Certeza alta.
+- OMISIÓN (gate de relevancia): ítem 5 "España entrena para final vs Argentina / contaminación en NY" — deportes + cobertura internacional SIN ángulo legal-corporativo-técnico de México (Mundial 2026, pero el artículo no aporta señal decisional MX). No ingerido.
+- index.md raíz + sustrato/mexico/index.md + log.md actualizados. Commit + push.
+
 ## [2026-07-16] ingest | Round 47 — 13 ingests (3 loops: sustrato NA + dominio + rol) — ROUND CERRADO
 - gap_analysis.py (iter 184) = 0 huecos reales → taxonomía extendida Round 47: 3 deepenings NA (mexico→economia-creativa, estados-unidos→energia-nuclear, canada→politica-fiscal) + 10 nodos nuevos (dominio: forestal, banca-central, economia-institucional, geografia-economica, demografia; rol: head-of-legal, head-of-demand-generation, head-of-clinical-operations, head-of-quality-assurance, head-of-machine-learning).
 - LOOP 1 (sustrato NA, 3/13): sustrato/mexico/economia-creativa.md, sustrato/estados-unidos/energia-nuclear.md, sustrato/canada/politica-fiscal.md (modelo CENTRALIZADO; reference-only INEGI/StatCan/EIA/DOE/NRC + sitios oficiales; sin raw/).
