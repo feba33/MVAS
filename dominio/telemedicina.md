@@ -1,51 +1,55 @@
 ---
-titulo: Telemedicina / Telehealth
+titulo: Telemedicina (Telehealth)
 capa: dominio
 tema: telemedicina
-fuente: https://telehealth.hhs.gov/providers/telehealth-policy
-fuente2: https://www.canada.ca/en/health-canada/corporate/transparency/health-agreements/bilateral-agreement-pan-canadian-virtual-care-priorities-covid-19/policy-framework.html
-fecha: 2026-07-16
-confianza: alta
-tags: [salud, telemedicina, telehealth, regulacion, digital-health, modelos-negocio]
+fuente: https://en.wikipedia.org/wiki/Telehealth
+fuente2: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/informed-consent
+fecha: 2026-07-17
+confianza: media
+tags: [telemedicina, telehealth, salud-digital, consulta-remota, regulacion-salud]
+rol: []
+actividades: []
+organizaciones: [fda, health-canada, cofepris]
+responsabilidades: []
+tareas: []
+profundidad: 2
+estado: profundo
 ---
 
-# Telemedicina / Telehealth
+# Telemedicina (Telehealth)
 
-La **telemedicina** (o telehealth) es la prestación de servicios de salud a
-distancia mediante tecnologías de la información y comunicación: consultas
-síncronas (video/audio), asíncronas (store-and-forward), monitoreo remoto de
-pacientes (RPM) e interconsulta especializada.
+La **telemedicina / telehealth** usa tecnologías de información y
+telecomunicaciones para brindar atención clínica, educación sanitaria,
+administración de salud y salud pública a distancia. Incluye portales de
+paciente, expedientes electrónicos y datos compartidos remotamente.
 
 ## Modalidades
-- **Consulta remota** (video/telefónica) para atención primaria y especializada.
-- **Telemonitorización** de signos vitales en enfermedades crónicas.
-- **Telerradiología / telepatología** y segundas opiniones.
-- **mHealth / apps** de triaje y seguimiento.
+- **Teleconsulta:** consulta médica síncrona (video/audio).
+- **Telemonitoreo:** datos de signos vitales desde el hogar (crónicos).
+- **Teleradiología / telepatología:** lectura remota de estudios.
+- **Teleeducación y telesalud pública.**
 
-## Marco regulatorio (Norteamérica)
-- **México (COFEPRIS):** la telemedicina se regula como acto médico; vigencia de
-  normas de expediente clínico electrónico y privacidad (LFPDPPP). La pandemia
-  aceleró directrices de consulta a distancia.
-- **EE.UU. (HHS/CMS):** Medicare/Medicaid cubren telehealth con reglas flexibles
-  post-COVID; la licencia médica interestatal se facilita vía *interstate
-  compacts*; la privacidad rige bajo HIPAA.
-- **Canadá (Health Canada / provincias):** marco *pan-canadian* de virtual care;
-  cobertura provincial (ej. OHIP en Ontario) y estándares de privacidad (PIPEDA
-  + leyes provinciales).
+## Impulsores
+- COVID-19 aceleró la adopción masiva.
+- Escasez de médicos en zonas rurales (p.ej. norte de Canadá, México rural).
+- Reducción de costos y mejor acceso.
 
-## Reembolso
-- Modelos de pago por servicio, suscripción/B2B (empleadores, aseguradoras) y
-  D2C (direct-to-consumer). El reembolso público y la licencia interestatal son
-  los principales determinantes de adopción sostenida.
+## Marco regulatorio y ético
+- EE.UU.: cobertura por Medicare/Medicaid y estados; licencias interestatales
+  (compactos); HIPAA para privacidad; FDA regula dispositivos/apps de salud.
+- México: COFEPRIS regula servicios y dispositivos; Ley General de Salud;
+  CONBIOÉTICA en consentimiento.
+- Canadá: Health Canada; regulación provincial de licencias médicas.
+- **Bioética:** el consentimiento informado remoto y la equidad digital son
+  dilemas activos (ver `dominio/bioetica`).
 
-## Privacidad y seguridad
-- Datos de salud sensibles → cifrado, consentimiento, trazabilidad; sujeto a
-  normativa de protección de datos y, en EE.UU., HIPAA.
+## Riesgos
+- Brecha digital (acceso desigual).
+- Privacidad y ciberseguridad de datos de salud.
+- Calidad de la relación médico-paciente a distancia.
 
-## Modelos de negocio
-- Marketplaces de teleconsulta, plataformas de RPM, integración con EHR, y
-  ventanas de triaje en aseguradoras y sistemas públicos.
-
-## Relación con el modelo MVAS
-- Ver `dominio/salud`, `dominio/healthtech`, `dominio/salud-publica`,
-  `dominio/nutricion` y `dominio/seguros-de-personas`.
+## Relación con otras capas
+- Vinculado a `dominio/sanidad`, `dominio/bioetica`,
+  `dominio/ciberseguridad-de-la-informacion`.
+- Operado por `rol/head-of-clinical-operations` y
+  `dominio/telecomunicaciones` (conectividad).

@@ -72,6 +72,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [hidrocarburos](sustrato/mexico/hidrocarburos.md) — Hidrocarburos México: PEMEX, CNH, reforma energética 2025, Derecho Petrolero · 🏷️ mexico,hidrocarburos,pemex,cnh,energia,petroleo,gas,reforma-energetica · 📅 2026-07-16
 - [energia-renovables](sustrato/mexico/energia-renovables.md) — Energía renovable México: SENER/CRE/CENACE, CELs, solar/eólica/hidro/geotermia, reforma 2025 recentraliza CFE · 🏷️ mexico,energia-renovable,solar,eolica,hidro,cels,sener,cre,transicion-energetica · 📅 2026-07-16
 - [servicios-publicos](sustrato/mexico/servicios-publicos.md) — Servicios públicos México: agua potable/drenaje (CONAGUA, Ley General de Aguas 2025), energía eléctrica residencial (CFE), recolección; derecho humano al agua · 🏷️ mexico,servicios-publicos,agua-potable,conagua,cfe,saneamiento,derecho-al-agua · 📅 2026-07-17
+- [agricultura](sustrato/mexico/agricultura.md) — Agricultura México: SADER, campesinos, seguridad alimentaria, producción, vs EE.UU./Canadá · 🏷️ mexico,agricultura,sader,sector-agropecuario,seguridad-alimentaria · 📅 2026-07-17
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -125,6 +126,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [industria-manufacturera](sustrato/estados-unidos/industria-manufacturera.md) — Manufactura EE.UU.: 2o mayor del mundo (~USD2.9B), CHIPS/IRA, semiconductores, automotriz, aeroespacial, PMI (tags: eeuu,manufactura,reshoring,chips-act,ira,semiconductores,automotriz) · 2026-07-16
 - [mineria](sustrato/estados-unidos/mineria.md) — Minería EE.UU.: USGS, minerales críticos, hardrock leasing, carbón, IRA/DOE, recursos naturales · 🏷️ eeuu,mineria,usgs,minerales-criticos,hardrock-leasing,coal,ira,doe,recursos-naturales · 📅 2026-07-16
 - [energia-electrica](sustrato/estados-unidos/energia-electrica.md) — Energía eléctrica EE.UU.: grid (3 interconexiones), generación/transmisión/distribución, FERC/EIA/NERC, ISO/RTO, mercados mayoristas · 🏷️ eeuu,energia-electrica,grid,ferc,eia,nerc,iso-rto,utilities · 📅 2026-07-17
+- [agricultura](sustrato/estados-unidos/agricultura.md) — Agricultura EE.UU.: USDA, Farm Bill, crop insurance (FCIP), subsidies, vs México/Canadá · 🏷️ estados-unidos,agricultura,usda,farm-bill,subsidios,crop-insurance · 📅 2026-07-17
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -169,6 +171,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [industria-aeroespacial](sustrato/canada/industria-aeroespacial.md) — Aeroespacial Canada: Quebec/Montreal, Bombardier, Bell, MDA (Canadarm), Pratt&Whitney Canada, MRO, Transport Canada (tags: canada,aeroespacial,quebec,bombardier,bell,mda,mro) · 2026-07-16
 - [mineria](sustrato/canada/mineria.md) — Minería Canadá: oro/níquel/uranio, NRCan, clústeres (Ontario/Québec/BC), regulación fed/prov, impacto indígena, minerales críticos · 🏷️ canada,mineria,nrcan,oruro,niquel,urano,recursos-naturales,exportacion · 📅 2026-07-16
 - [educacion-superior](sustrato/canada/educacion-superior.md) — Educación superior Canadá: PSE provincial/territorial, universidades/colleges/CEGEP, Canada Student Loans, internacionalización; vs educacion · 🏷️ canada,educacion-superior,universidades,colleges,pse,provincias · 📅 2026-07-16
+- [recursos-naturales](sustrato/canada/recursos-naturales.md) — Recursos naturales Canadá: NRCan, bosques/silvicultura, minería, energía, pesca, geociencia · 🏷️ canada,recursos-naturales,nrcan,minerales,energia,bosques,pesca · 📅 2026-07-17
 - [politica-inmigratoria](sustrato/canada/politica-inmigratoria.md) — Política de inmigración Canadá: niveles 2026-2028, PNP (91.5k 2026), Express Entry, IRCC · 🏷️ canada,inmigracion,politica-inmigratoria,ircc,express-entry,pnp,niveles-de-inmigracion · 📅 2026-07-16
 - [defensa-seguridad](sustrato/canada/defensa-seguridad.md) — Defensa y seguridad Canadá: DND/CAF, NORAD, OTAN, procurement de defensa · 🏷️ canada,defensa,seguridad,dnd,caf,nato,norad,procurement-defensa,fuerzas-armadas · 📅 2026-07-16
 - [salud-publica](sustrato/canada/salud-publica.md) — Salud pública Canadá: PHAC, Health Canada, vigilancia epidemiológica, inmunización, determinantes sociales; vs salud (aseguramiento) · 🏷️ canada,salud-publica,phac,health-canada,epidemiologia,prevencion,vigilancia · 📅 2026-07-17
@@ -573,8 +576,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [chief-diversity-officer](rol/chief-diversity-officer/chief-diversity-officer.md) — CDO: DEI y pertenencia, equidad en contratación, métricas de representación · 🏷️ cdo,chief-diversity-officer,dei,diversidad,equidad,inclusion,pertenencia · 📅 2026-07-12
 - [chief-security-officer](rol/chief-security-officer/chief-security-officer.md) — CSO: seguridad corporativa (física + crisis + resiliencia), vs CISO · 🏷️ cso,chief-security-officer,seguridad-corporativa,crisis,resiliencia,convergencia · 📅 2026-07-12
 - [chief-learning-officer](rol/chief-learning-officer/chief-learning-officer.md) — CLO: L&D, upskilling/reskilling, academias, cultura de aprendizaje · 🏷️ clo,l&d,upskilling,reskilling,aprendizaje,talento · 📅 2026-07-12
+- [head-of-learning-development](rol/head-of-learning-development.md) — Head of Learning & Development: estrategia L&D, academias corporativas, upskilling/reskilling, medir ROI de aprendizaje · 🏷️ head-of-learning-development,l-d,capacitacion,upskilling,academia-corporativa · 📅 2026-07-17
 - [chief-quality-officer](rol/chief-quality-officer/chief-quality-officer.md) — CQO: calidad y excelencia operativa, mejora continua (Six Sigma/Lean), ISO 9001 · 🏷️ cqo,chief-quality-officer,calidad,excelencia-operativa,mejora-continua,six-sigma · 📅 2026-07-12
-- [head-of-partnerships](rol/head-of-partnerships/head-of-partnerships.md) — Head of Partnerships: alianzas estratégicas, canales, ecosistema, co-ventures · 🏷️ head-of-partnerships,alianzas,canales,ecosistema,co-venture,business-development · 📅 2026-07-12
+- [head-of-partnerships](rol/head-of-partnerships.md) — Head of Partnerships: alianzas estratégicas, canales, ecosistema, co-ventures · 🏷️ head-of-partnerships,alianzas,canales,ecosistema,co-venture,business-development · 📅 2026-07-17
 - [chief-experience-officer](rol/chief-experience-officer/chief-experience-officer.md) — CXO: experiencia de cliente + empleado + marca, integrada · 🏷️ cxo,chief-experience-officer,experiencia-cliente,employee-experience,marca,cxo · 📅 2026-07-12
 - [chief-ai-officer](rol/chief-ai-officer/chief-ai-officer.md) — CAIO: estrategia de IA, gobernanza, adopción, ética de IA · 🏷️ chief-ai-officer,caio,ia,gobernanza-ia,etica-ia,genai · 📅 2026-07-12
 - [chief-design-officer](rol/chief-design-officer/chief-design-officer.md) — CDO (design): liderazgo ejecutivo de diseño, experiencia, marca · 🏷️ chief-design-officer,cdo-design,diseno,ux,experiencia,marca · 📅 2026-07-12
@@ -823,6 +827,16 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 - [head-of-underwriting](rol/head-of-underwriting.md) — Head of Underwriting: lider de suscripcion de riesgo (seguros/credito), pricing, portafolio; vs underwriter/CRO (tags: head-of-underwriting,underwriting,suscripcion,riesgo,pricing,seguros) · 2026-07-16
 - [head-of-trade-compliance](rol/head-of-trade-compliance.md) — Head of Trade Compliance: EAR/ITAR, sanciones OFAC, aduanas; vs regulatory-affairs (tags: head-of-trade-compliance,export-controls,ear,itars,ofac,sanciones,aduana) · 2026-07-16
+### dominio/bioetica
+- [bioetica](dominio/bioetica.md) — Bioética: principios Beauchamp-Childress, consentimiento informado, IRB/CEI, dilemas fin de vida, IA en salud · 🏷️ bioetica,etica-biomedica,consentimiento-informado,irb,investigacion-clinica · 📅 2026-07-17
+### dominio/educacion-corporativa
+- [educacion-corporativa](dominio/educacion-corporativa.md) — Educación corporativa (L&D): corporate universities, upskilling/reskilling, academias internas · 🏷️ educacion-corporativa,learning-and-development,capacitacion,upskilling,academia-corporativa · 📅 2026-07-17
+### dominio/gestion-de-la-demanda
+- [gestion-de-la-demanda](dominio/gestion-de-la-demanda.md) — Gestión de la demanda (Demand Planning): forecasting, S&OP/IBP, gestión activa de la demanda · 🏷️ gestion-de-la-demanda,demand-planning,forecasting,sop,cadena-de-suministro · 📅 2026-07-17
+### dominio/alianzas-estrategicas
+- [alianzas-estrategicas](dominio/alianzas-estrategicas.md) — Alianzas estratégicas: JV, co-desarrollo, licencias, ecosistema; vs fusiones-adquisiciones · 🏷️ alianzas-estrategicas,joint-venture,partnerships,coinversion,business-development · 📅 2026-07-17
+### dominio/telemedicina
+- [telemedicina](dominio/telemedicina.md) — Telemedicina (Telehealth): consulta remota, telemonitoreo, regulación (FDA/COFEPRIS/Health Canada), bioética · 🏷️ telemedicina,telehealth,salud-digital,consulta-remota,regulacion-salud · 📅 2026-07-17
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09
 

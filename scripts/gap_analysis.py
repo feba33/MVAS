@@ -968,7 +968,20 @@ NEW_NODES_ROUND_56 = [
     ("rol/head-of-customer-success-ops", "Head of Customer Success Operations: CS ops, escalabilidad de CS, tech-touch, health scoring; vs customer-success/customer-success-manager"),
     ("rol/head-of-digital-transformation", "Head of Digital Transformation: liderazgo de transformacion digital, CRM/ERP, cultura digital; vs chief-digital-officer/chief-transformation-officer"),
 ]
-NEW_NODES = NEW_NODES_ROUND_56
+# Round 57 (iter 195) — 3 deepenings NA + 10 nodos sugeridos (7 nuevos reales + 3 ya existían en Rounds 45/47)
+TAXONOMY["sustrato/mexico"].append(("agricultura", "Agricultura Mexico: SADER, campesinos, seguridad alimentaria, produccion, vs canada/estados-unidos agricultura"))
+TAXONOMY["sustrato/estados-unidos"].append(("agricultura", "Agricultura EE.UU.: USDA, farm policy, subsidies, crop insurance, vs mexico/canada agricultura"))
+TAXONOMY["sustrato/canada"].append(("recursos-naturales", "Recursos naturales Canada: NRCan, forestry, minerals, energy, fisheries, vs estados-unidos mineria"))
+NEW_NODES_ROUND_57 = [
+    ("dominio/bioetica", "Bioetica: etica biomedica, consentimiento, IRB, dilemas fin de vida, vs sanidad/salud-ocupacional"),
+    ("dominio/educacion-corporativa", "Educacion corporativa / L&D: aprendizaje y desarrollo, capacitacion, academies, vs recursos-humanos/head-of-people"),
+    ("dominio/gestion-de-la-demanda", "Gestion de la demanda / demand planning: forecasting, S&OP demanda, vs gestion-de-la-cadena-de-suministro"),
+    ("dominio/alianzas-estrategicas", "Alianzas estrategicas: JV, partnerships, alianzas, co-development, vs fusiones-adquisiciones"),
+    ("dominio/telemedicina", "Telemedicina / telehealth: consulta remota, telehealth, telecare, regulacion, vs sanidad"),
+    ("rol/head-of-learning-development", "Head of Learning & Development: L&D, capacitacion, upskilling, academia corporativa; vs head-of-people"),
+    ("rol/head-of-partnerships", "Head of Partnerships / Alliances: alianzas estrategicas, JV, canales, ecosistema; vs business-development"),
+]
+NEW_NODES = NEW_NODES_ROUND_57
 
 
 def existing_pages(node: str) -> set:
