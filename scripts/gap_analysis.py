@@ -1057,6 +1057,24 @@ NEW_NODES_ROUND_61 = [
 ]
 NEW_NODES = NEW_NODES_ROUND_61
 
+# Round 62 (iter 200) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("estados", "Estados de México / federalismo subnacional: 32 entidades federativas, constituciones locales, congresos estatales, gobernadores, coordinacion fiscal (CFE/Ramo 33), vs gobierno-federal/entidades-federativas"))
+TAXONOMY["sustrato/estados-unidos"].append(("recursos-naturales", "Recursos naturales EE.UU.: DOI, USGS, BLM, USFS, BOEM, minerales criticos, tierras publicas, agua, energia de tierras publicas, vs mineria/medio-ambiente"))
+TAXONOMY["sustrato/canada"].append(("pesca-acuicultura", "Pesca y acuacultura Canada: DFO, pesca comercial (salmon, cangrejo, bacalao), acuicultura, cuotas/IFMP, tratados (NAFO/UNCLOS), vs sector-agroalimentario/medio-ambiente"))
+NEW_NODES_ROUND_62 = [
+    ("dominio/gobernanza-de-datos-empresarial", "Gobernanza de datos empresarial / enterprise data governance: DAMA-DMBOK, data stewardship, data quality, lineage, catalogo, data products, vs gobierno-de-datos/proteccion-de-datos"),
+    ("dominio/etiquetado-producto", "Etiquetado de producto / product labeling: nutricion (FDA/COFEPRIS/Health Canada), country-of-origin, normas de etiqueta, lenguaje, vs empaque/alimentos-bebidas/regulacion"),
+    ("dominio/seguros-de-responsabilidad", "Seguros de responsabilidad / liability insurance: CGL, D&O, E&O/profesional, product liability, cyber liability, vs seguros/reaseguro/seguros-de-credito"),
+    ("dominio/inteligencia-de-negocio", "Inteligencia de negocio / business intelligence: BI, dashboards, self-service analytics, data viz, decision support, vs analitica-negocio/analitica-de-marketing"),
+    ("dominio/formacion-profesional", "Formacion profesional / TVET: educacion tecnica y vocacional, capacitacion tecnica, certificacion de oficios, upskilling tecnico, vs educacion/educacion-corporativa"),
+    ("rol/head-of-product-strategy", "Head of Product Strategy: estrategia de producto, vision/roadmap a nivel portafolio, market/customer insights, priorizacion, vs chief-product-officer/director-of-product/head-of-strategy"),
+    ("rol/head-of-sales-strategy", "Head of Sales Strategy: estrategia de ventas, GTM planning, segmentacion, comp plans, canal, vs vp-sales/head-of-revops/head-of-sales-ops"),
+    ("rol/head-of-engineering-strategy", "Head of Engineering Strategy: direccion tecnica, arquitectura/plataforma, tech radar, estandares, vs head-of-engineering/chief-technology-officer/vp-engineering"),
+    ("rol/head-of-financial-planning", "Head of Financial Planning / FP&A lead: planificacion financiera, forecast, presupuesto, modelado, analisis de variaciones, vs vp-finance/fp-and-a-manager/head-of-finance-ops"),
+    ("rol/head-of-solutions-engineering", "Head of Solutions Engineering: lidera org de SE pre-venta, POCs/demos tecnicas, cierre tecnico, puente ventas-producto, vs solutions-architect/sales-engineer/head-of-solutions-consulting"),
+]
+NEW_NODES = NEW_NODES_ROUND_62
+
 
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)

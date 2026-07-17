@@ -337,6 +337,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/seguros
 - [seguros](dominio/seguros/seguros.md) — Industria aseguradora: vida, P&C, reaseguro, actuarial, Solvency II · 🏷️ seguros,insurance,actuarial,reaseguro,solvency-ii · 📅 2026-07-11
+- [seguros-de-responsabilidad](dominio/seguros-de-responsabilidad.md) — Seguros de responsabilidad: CGL, D&O, E&O/profesional, product liability, cyber liability · 🏷️ seguros,responsabilidad,liability,cgl,dando-o,eo,product-liability,cyber-liability · 📅 2026-07-17
 
 ### dominio/energia
 - [energia](dominio/energia/energia.md) — Sector energético: renovables, oil&gas, redes, regulación · 🏷️ energia,oil-and-gas,renovables,redes,regulacion · 📅 2026-07-11
@@ -356,6 +357,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/educacion
 - [educacion](dominio/educacion/educacion.md) — Educación: modelos, niveles, edtech, política educativa · 🏷️ educacion,edtech,formacion,politica-educativa · 📅 2026-07-11
+- [formacion-profesional](dominio/formacion-profesional.md) — Formación profesional (TVET): educación técnica/vocacional, aprendizaje, certificación, upskilling · 🏷️ formacion-profesional,tvet,educacion-vocacional,aprendizaje,certificacion,upskilling,competencias · 📅 2026-07-17
 - [sanidad](dominio/sanidad.md) — Sanidad (Healthcare): sistemas de salud, hospitales, aseguradores, farmacéuticos, FDA/COFEPRIS/Health Canada · 🏷️ sanidad,healthcare,sistemas-de-salud,hospitales,aseguradores,farmaceuticos,fda,cofepris,health-canada · 📅 2026-07-16
 
 ### dominio/transporte
@@ -414,6 +416,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/comercio-internacional
 - [comercio-internacional](dominio/comercio-internacional/comercio-internacional.md) — Comercio internacional: intercambio transfronterizo, aranceles, TLC, OMC · 🏷️ comercio-internacional,international-trade,aranceles,tlc · 📅 2026-07-11
 - [analitica-negocio](dominio/analitica-negocio/analitica-negocio.md) — Analítica de negocio / BI: dashboards, KPIs, descriptiva→prescriptiva · 🏷️ analitica-negocio,bi,business-analytics,dashboards,kpis · 📅 2026-07-11
+- [inteligencia-de-negocio](dominio/inteligencia-de-negocio.md) — Inteligencia de negocio (BI): dashboards, self-service analytics, visualización, decision support · 🏷️ bi,business-intelligence,dashboards,self-service-analytics,data-visualization,decision-support · 📅 2026-07-17
+- [gobernanza-de-datos-empresarial](dominio/gobernanza-de-datos-empresarial.md) — Gobernanza de datos empresarial: DAMA-DMBOK, stewardship, data quality, lineage, catálogo, data products · 🏷️ gobernanza-datos,dama,dmbok,data-stewardship,data-quality,lineage,catalogo,data-products · 📅 2026-07-17
 - [gobierno-corporativo](dominio/gobierno-corporativo/gobierno-corporativo.md) — Gobierno corporativo: junta, deberes fiduciarios, accionistas, ESG · 🏷️ gobierno-corporativo,board,accionistas,fiduciario,esg · 📅 2026-07-11
 - [ia-generativa](dominio/ia-generativa/ia-generativa.md) — IA generativa: LLMs, adopción empresarial, gobernanza y riesgos · 🏷️ ia-generativa,llm,genai,gobernanza-ia,agentes · 📅 2026-07-11
 - [cultura-organizacional](dominio/cultura-organizacional/cultura-organizacional.md) — Cultura organizacional: modelo de Schein (artefactos/valores/supuestos) · 🏷️ cultura-organizacional,schein,valores,cultura-desempeno · 📅 2026-07-11
@@ -433,6 +437,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [servicios-profesionales](dominio/servicios-profesionales/servicios-profesionales.md) — Servicios profesionales: derecho, contabilidad, arquitectura, ingeniería; partnership · 🏷️ servicios-profesionales,professional-services,firmas,bufetes,contabilidad,arquitectura,ingenieria,utilizacion · 📅 2026-07-11
 ### dominio/alimentos-bebidas
 - [alimentos-bebidas](dominio/alimentos-bebidas/alimentos-bebidas.md) — Alimentos y bebidas (F&B): cadena de suministro, seguridad alimentaria (FSMA/HACCP), mercado global · 🏷️ alimentos-bebidas,food-and-beverage,seguridad-alimentaria,fsma,cadena-suministro · 📅 2026-07-12
+- [etiquetado-producto](dominio/etiquetado-producto.md) — Etiquetado de producto: nutrición (FDA/COFEPRIS/Health Canada), país de origen (COOL), normas de etiqueta, bilingüe · 🏷️ etiquetado,nutricion,fda,cofepris,health-canada,country-of-origin,alimentos,regulacion · 📅 2026-07-17
 ### dominio/moda
 - [moda](dominio/moda/moda.md) — Moda/apparel: mercado global (~USD 1.44T 2026), cadena de valor, sostenibilidad, retail omnicanal · 🏷️ moda,apparel,retail-moda,cadena-suministro-moda,marca · 📅 2026-07-12
 ### dominio/espacio
@@ -1434,6 +1439,21 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-total-rewards
 - [head-of-total-rewards](rol/head-of-total-rewards.md) — Head of Total Rewards: compensación+benefícios+reconocimiento, filosofía de recompensa; vs compensation-manager/benefits-manager · 🏷️ head-of-total-rewards,total-rewards,compensacion,beneficios,reconocimiento · 📅 2026-07-15
+
+### rol/head-of-engineering-strategy
+- [head-of-engineering-strategy](rol/head-of-engineering-strategy.md) — Head of Engineering Strategy: dirección técnica, arquitectura/plataforma, tech radar, estándares; vs head-of-engineering/CTO · 🏷️ head-of-engineering-strategy,tech-strategy,arquitectura,plataforma,tech-radar,estandares,ingenieria · 📅 2026-07-17
+
+### rol/head-of-financial-planning
+- [head-of-financial-planning](rol/head-of-financial-planning.md) — Head of Financial Planning (FP&A lead): planificación, forecast, presupuesto, modelado, variaciones; vs vp-finance/fp-and-a-manager · 🏷️ head-of-financial-planning,fpa,financial-planning,forecast,budget,variance-analysis,finanzas · 📅 2026-07-17
+
+### rol/head-of-product-strategy
+- [head-of-product-strategy](rol/head-of-product-strategy.md) — Head of Product Strategy: visión/roadmap de portafolio, market insights, priorización; vs CPO/director-of-product · 🏷️ head-of-product-strategy,product-strategy,roadmap,portfolio,product-vision,go-to-market,producto · 📅 2026-07-17
+
+### rol/head-of-sales-strategy
+- [head-of-sales-strategy](rol/head-of-sales-strategy.md) — Head of Sales Strategy: GTM planning, segmentación, comp plans, canal; vs vp-sales/head-of-revops · 🏷️ head-of-sales-strategy,sales-strategy,gtm,segmentation,comp-plans,channel,ventas · 📅 2026-07-17
+
+### rol/head-of-solutions-engineering
+- [head-of-solutions-engineering](rol/head-of-solutions-engineering.md) — Head of Solutions Engineering: lidera org SE pre-venta, POCs/demos, cierre técnico, puente ventas-producto · 🏷️ head-of-solutions-engineering,solutions-engineering,pre-sales,poc,demo-tecnica,cierre-tecnico,ventas · 📅 2026-07-17
 
 ### rol/head-of-merchandising
 - [head-of-merchandising](rol/head-of-merchandising.md) — Head of Merchandising: assortment, categoría, pricing, surtido, experiencia en tienda; vs category-manager/retail · 🏷️ head-of-merchandising,merchandising,category-management,surtido,pricing,retail · 📅 2026-07-15
