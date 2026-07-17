@@ -1819,3 +1819,22 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-partner-success](rol/head-of-partner-success.md) - Head of Partner Success: salud de canal, co-selling, retencion de socios | head-of-partner-success,partner-ecosystem,channel-health,co-selling | 2026-07-17
 - [head-of-technical-program](rol/head-of-technical-program.md) - Head of Technical Program: TPM org, entrega cross-funcional, dependencias | head-of-technical-program,tpm,entrega-cross-funcional,programa | 2026-07-17
 - [head-of-strategy-and-ops](rol/head-of-strategy-and-ops.md) - Head of Strategy & Operations: estrategia + operaciones, BI/planning | head-of-strategy-and-ops,strategy,operations,bi-planning | 2026-07-17
+
+### sustrato Round 64 (deepening NA)
+- [mexico/educacion-basica](sustrato/mexico/educacion-basica.md) - Educacion basica Mexico: SEP, preescolar/primaria/secundaria, Art.3, cobertura, PLANEA | mexico,educacion-basica,sep,preescolar,primaria,secundaria | 2026-07-17
+- [estados-unidos/energia-solar](sustrato/estados-unidos/energia-solar.md) - Energia solar EE.UU.: utility-scale 295.7 TWh (2025), ITC, IRA, interconexion | eeuu,energia-solar,solar,renovables,itc,ira | 2026-07-17
+- [canada/transporte-ferroviario](sustrato/canada/transporte-ferroviario.md) - Transporte ferroviario Canada: CN, CPKC, VIA Rail, carga/pasajeros | canada,ferroviario,cn,cpkc,via-rail,carga | 2026-07-17
+
+### dominio Round 64 (nuevos)
+- [financiacion-structurada](dominio/financiacion-structurada.md) - Financiacion estructurada: titulizacion (ABS/MBS/CDO/CLO), SPV, sindicacion | financiacion-structurada,titulizacion,abs,mbs,cdo,clo,spv | 2026-07-17
+- [seguros-agricolas](dominio/seguros-agricolas.md) - Seguros agricolas: crop insurance, FCIP (USDA-RMA), parametrico, Agroasemex | seguros-agricolas,crop-insurance,fcip,parametrico,agro | 2026-07-17
+- [derecho-mercantil](dominio/derecho-mercantil.md) - Derecho mercantil: sociedades, titulos de credito, contratos, concursal, publificacion | derecho-mercantil,sociedades,titulos-de-credito,comercio,concursal | 2026-07-17
+- [medicina-regenerativa](dominio/medicina-regenerativa.md) - Medicina regenerativa: terapia celular/genica, ingenieria de tejidos, FDA/COFEPRIS | medicina-regenerativa,terapia-celular,terapia-genica,biotecnologia | 2026-07-17
+- [ciberseguridad-vehicular](dominio/ciberseguridad-vehicular.md) - Ciberseguridad vehicular: ISO/SAE 21434, UN R155/R156, ECU, V2X | ciberseguridad-vehicular,iso-sae-21434,un-r155,ecu,v2x | 2026-07-17
+- [reciclaje](dominio/reciclaje.md) - Reciclaje: plastico, papel, metal, e-waste, EPR, economia circular | reciclaje,economia-circular,residuos,plastico,epr | 2026-07-17
+
+### rol Round 64 (nuevos)
+- [head-of-esg](rol/head-of-esg.md) - Head of ESG: estrategia y reporte ESG, GRI/SASB/TCFD/ISSB, materialidad | head-of-esg,esg,reporting,materialidad,sostenibilidad | 2026-07-17
+- [head-of-corporate-venturing](rol/head-of-corporate-venturing.md) - Head of Corporate Venturing: CVC, scouting, co-inversion, incubacion | head-of-corporate-venturing,cvc,venture-capital,innovacion-abierta | 2026-07-17
+- [head-of-clinical-trials](rol/head-of-clinical-trials.md) - Head of Clinical Trials: ejecucion de ensayos, Fases I-IV, enrollment, GCP | head-of-clinical-trials,ensayos-clinicos,farma,biotech | 2026-07-17
+- [head-of-user-research](rol/head-of-user-research.md) - Head of User Research: UX research org, metodos, impacto en producto | head-of-user-research,user-research,ux,descubrimiento | 2026-07-17

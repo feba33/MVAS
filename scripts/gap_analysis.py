@@ -1093,6 +1093,24 @@ NEW_NODES_ROUND_63 = [
 ]
 NEW_NODES = NEW_NODES_ROUND_63
 
+# Round 64 (iter 202) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("educacion-basica", "Educacion basica Mexico: SEP, preescolar/primaria/secundaria, reformas educativas, escuelas, docentes, evaluacion, vs educacion/educacion-superior"))
+TAXONOMY["sustrato/estados-unidos"].append(("energia-solar", "Energia solar EE.UU.: DOE/SEIA, ITC, utility-scale, rooftop/distributed, interconnection, manufacturing (IRA), vs energia-renovables/energia"))
+TAXONOMY["sustrato/canada"].append(("transporte-ferroviario", "Transporte ferroviario Canada: CN, CPKC, VIA Rail, Transport Canada, FRA-equivalent, ferrocarriles de carga/pasajeros, vs transporte/ferroviario(dominio)"))
+NEW_NODES_ROUND_64 = [
+    ("dominio/financiacion-structurada", "Financiacion estructurada / structured finance: titulizacion (ABS/MBS/CDO/CLO), syndication, project finance, SPVs, vs ingenieria-financiera/derivados"),
+    ("dominio/seguros-agricolas", "Seguros agricolas / crop insurance: FCIP (USDA-RMA), indemnizacion, parametrico, vs seguros/seguros-de-credito/sector-agroalimentario"),
+    ("dominio/derecho-mercantil", "Derecho mercantil / commercial law: sociedades, titulos de credito, contratos mercantiles, comercio, concursal (vs derecho-civil/societario)"),
+    ("dominio/medicina-regenerativa", "Medicina regenerativa: terapia celular, terapia génica, ingenieria de tejidos, medicina personalizada, regulacion FDA/COFEPRIS/Health Canada; vs biomedicina/dispositivos-medicos"),
+    ("dominio/ciberseguridad-vehicular", "Ciberseguridad vehicular / automotive security: ISO/SAE 21434, UN R155/R156, ECU, V2X, vs ciberseguridad-ot/electromovilidad"),
+    ("dominio/reciclaje", "Reciclaje / recycling industry: plastico, papel, metal, electronicos, economia circular, regulacion (EPR), vs servicios-ambientales/economia-circular"),
+    ("rol/head-of-esg", "Head of ESG: lidera estrategia y reporte ESG (GRI/SASB/TCFD/ISSB), materialidad, engagement de stakeholders, vs chief-sustainability-officer/esg-manager/head-of-esg-risks"),
+    ("rol/head-of-corporate-venturing", "Head of Corporate Venturing / CVC: corporate venture capital, scouting, co-inversion, incubacion, vs head-of-innovation/chief-innovation-officer"),
+    ("rol/head-of-clinical-trials", "Head of Clinical Trials: lidera la ejecucion de ensayos clinicos (fases, sites, pacientes, enrollment), farma/biotech; vs head-of-clinical-operations/dev"),
+    ("rol/head-of-user-research", "Head of User Research: lidera la org de UX research (metodos, operacion de estudios, impacto en producto), vs ux-researcher/head-of-ux/head-of-customer-insights"),
+]
+NEW_NODES = NEW_NODES_ROUND_64
+
 
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)

@@ -2240,3 +2240,61 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
   - [rol] `rol/head-of-customer-growth.md` (nuevo nodo): retención, expansión, upsell/cross-sell, monetización de base.
 - Reference-only (Wikipedia EN + autoridades sectoriales: Economy of Mexico, NRC/DOE, Transport Canada/Infrastructure Canada, Hyperledger, CSA, GDPR/Data Act, EU AI Act/NIST; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica).
 - **Round 63 COMPLETO (13/13 temas).** Cola Round 63 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 64 o pausar.
+
+## ✅ COLA ROUND 64 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 202) reportó 0 huecos reales → taxonomía extendida Round 64 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página + index.md/log.md raíz + superstructura de nodo (README/index/log/raw) en nodos nuevos de dominio/rol. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/educacion-basica.md — Educación básica México (SEP, preescolar/primaria/secundaria, Art.3, cobertura ~25M, PLANEA, INEE)
+- [x] sustrato/estados-unidos/energia-solar.md — Energía solar EE.UU. (utility-scale 295.7 TWh 2025, ITC 30%, IRA 45X, interconexión, community solar)
+- [x] sustrato/canada/transporte-ferroviario.md — Transporte ferroviario Canadá (CN, CPKC, VIA Rail, carga/pasajeros, Transport Canada, CTA)
+### Dominio (nuevos nodos)
+- [x] dominio/financiacion-structurada.md — Financiación estructurada (titulización ABS/MBS/CDO/CLO, SPV, tranching, sindicación, project finance)
+- [x] dominio/seguros-agricolas.md — Seguros agrícolas (crop insurance, FCIP/USDA-RMA, paramétrico, Agroasemex, AgriInsurance)
+- [x] dominio/derecho-mercantil.md — Derecho mercantil (sociedades, títulos de crédito, contratos, concursal, publificación)
+- [x] dominio/medicina-regenerativa.md — Medicina regenerativa (terapia celular/genica, ingeniería de tejidos, FDA CBER/COFEPRIS/Health Canada, CAR-T)
+- [x] dominio/ciberseguridad-vehicular.md — Ciberseguridad vehicular (ISO/SAE 21434, UN R155/R156 CSMS, ECU, V2X)
+- [x] dominio/reciclaje.md — Reciclaje (plástico/papel/metal/e-waste, EPR, economía circular, EPA/SEMARNAT)
+### Rol (nuevos nodos)
+- [x] rol/head-of-esg.md — Head of ESG (estrategia/reporte ESG, GRI/SASB/TCFD/ISSB, materialidad; vs CSO/esg-manager)
+- [x] rol/head-of-corporate-venturing.md — Head of Corporate Venturing (CVC, scouting, co-inversión, incubación; GV/Intel Capital/Salesforce Ventures)
+- [x] rol/head-of-clinical-trials.md — Head of Clinical Trials (ejecución ensayos Fases I-IV, sites, enrollment, GCP; vs clinical-ops/dev)
+- [x] rol/head-of-user-research.md — Head of User Research (UX research org, métodos cuali/cuanti, impacto en producto; vs ux-researcher/head-of-ux)
+
+### ITER 202 — Round 64 (2026-07-17)
+- gap_analysis.py (iter 202) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 64 (scripts/gap_analysis.py): 3 deepenings NA (sustrato/mexico/educacion-basica, sustrato/estados-unidos/energia-solar, sustrato/canada/transporte-ferroviario) + 10 nodos nuevos dominio/rol.
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; nodos nuevos de dominio/rol con superstructura README/index/log/raw):
+  - [sustrato] `sustrato/mexico/educacion-basica.md` (nuevo en nodo): SEP, preescolar/primaria/secundaria, Art.3, cobertura ~25M, PLANEA, INEE, Carrera Magisterial.
+  - [sustrato] `sustrato/estados-unidos/energia-solar.md` (nuevo en nodo): utility-scale 295.7 TWh 2025, ITC 30%, IRA 45X, interconexión, community solar.
+  - [sustrato] `sustrato/canada/transporte-ferroviario.md` (nuevo en nodo): CN, CPKC, VIA Rail, carga/pasajeros, Transport Canada, CTA, nearshoring.
+  - [dominio] `dominio/financiacion-structurada.md` (nuevo nodo): titulización ABS/MBS/CDO/CLO, SPV, tranching, sindicación, project finance, 2008/Dodd-Frank.
+  - [dominio] `dominio/seguros-agricolas.md` (nuevo nodo): crop insurance, FCIP/USDA-RMA, paramétrico, Agroasemex, AgriInsurance.
+  - [dominio] `dominio/derecho-mercantil.md` (nuevo nodo): sociedades, títulos de crédito, contratos, concursal, publificación, Código de Comercio MX.
+  - [dominio] `dominio/medicina-regenerativa.md` (nuevo nodo): terapia celular/genica, ingeniería de tejidos, FDA CBER/COFEPRIS/Health Canada, CAR-T.
+  - [dominio] `dominio/ciberseguridad-vehicular.md` (nuevo nodo): ISO/SAE 21434, UN R155/R156 CSMS, ECU, V2X, safety vs security.
+  - [dominio] `dominio/reciclaje.md` (nuevo nodo): plástico/papel/metal/e-waste, EPR, economía circular, EPA/SEMARNAT.
+  - [rol] `rol/head-of-esg.md` (nuevo nodo): estrategia/reporte ESG, GRI/SASB/TCFD/ISSB, materialidad, vs CSO/esg-manager.
+  - [rol] `rol/head-of-corporate-venturing.md` (nuevo nodo): CVC, scouting, co-inversión, incubación, GV/Intel Capital/Salesforce Ventures.
+  - [rol] `rol/head-of-clinical-trials.md` (nuevo nodo): ejecución ensayos Fases I-IV, sites, enrollment, GCP, vs clinical-ops/dev.
+  - [rol] `rol/head-of-user-research.md` (nuevo nodo): UX research org, métodos cuali/cuanti, impacto en producto, vs ux-researcher/head-of-ux.
+- Reference-only (Wikipedia EN/ES + autoridades sectoriales: SEP/gob.mx, SEIA/DOE, Transport Canada, Wikipedia CVC/ESG/Clinical trial/User research, ISO, FDA, USDA RMA, EPA; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica).
+- **Round 64 COMPLETO (13/13 temas).** Cola Round 64 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 65 o pausar.
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+| **Tópicos ingeridos (acumulado): 944** (Round 63: 931; Round 64: 944/13 nuevas). |
+| **Rondas:** 64 completas (Round 1..64). |
+| **Nodos sustrato (NA):** México 80 (+educacion-basica), EE.UU. 66 (+energia-solar), Canadá 60 (+transporte-ferroviario). |
+| **Nodos dominio:** ~239 (Round 64 +6: financiacion-structurada, seguros-agricolas, derecho-mercantil, medicina-regenerativa, ciberseguridad-vehicular, reciclaje). |
+| **Nodos rol:** ~224 (Round 64 +4: head-of-esg, head-of-corporate-venturing, head-of-clinical-trials, head-of-user-research). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech). |
+| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+| **Iteraciones totales:** 202. |
+
+## 🚦 ESTADO
+| - **Iteración actual:** 202 (Round 64 COMPLETA — 13/13 ingestados e integrados). |
+| - **Última ação:** Round 64 iter 202 — gap_analysis.py reportó 0 huecos reales → taxonomía extendida Round 64 (3 deepenings NA + 10 nodos nuevos dominio/rol). Ingestó 13 páginas (LOOP 1 sustrato NA x3, LOOP 2 dominio x6, LOOP 3 rol x4) con superstructura de nodo en nuevos de dominio/rol. Integración centralizada (index.md root + log.md root) y commit. Reference-only (Wikipedia + autoridades; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 64 COMPLETA (13/13). |
+
+## ▶️ PRÓXIMA TAREFA
+- Round 64 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 65) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
