@@ -71,6 +71,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [infraestructura-digital](sustrato/mexico/infraestructura-digital.md) — Infraestructura digital México: fibra óptica, data centers, Agenda Digital, Estrategia Nacional de IA · 🏷️ mexico,infraestructura-digital,fibra-optica,data-centers,conectividad,agenda-digital,ia · 📅 2026-07-16
 - [hidrocarburos](sustrato/mexico/hidrocarburos.md) — Hidrocarburos México: PEMEX, CNH, reforma energética 2025, Derecho Petrolero · 🏷️ mexico,hidrocarburos,pemex,cnh,energia,petroleo,gas,reforma-energetica · 📅 2026-07-16
 - [energia-renovables](sustrato/mexico/energia-renovables.md) — Energía renovable México: SENER/CRE/CENACE, CELs, solar/eólica/hidro/geotermia, reforma 2025 recentraliza CFE · 🏷️ mexico,energia-renovable,solar,eolica,hidro,cels,sener,cre,transicion-energetica · 📅 2026-07-16
+- [servicios-publicos](sustrato/mexico/servicios-publicos.md) — Servicios públicos México: agua potable/drenaje (CONAGUA, Ley General de Aguas 2025), energía eléctrica residencial (CFE), recolección; derecho humano al agua · 🏷️ mexico,servicios-publicos,agua-potable,conagua,cfe,saneamiento,derecho-al-agua · 📅 2026-07-17
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -123,6 +124,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [energia-renovables](sustrato/estados-unidos/energia-renovables.md) — Energía renovable EE.UU.: IRA 2022 (ITC/PTC), EPA, Treasury/IRS guía, solar/eólica/almacenamiento, grid; vs energia · 🏷️ eeuu,energia-renovable,solar,eolica,almacenamiento,ira,epa,treasury,grid · 📅 2026-07-16
 - [industria-manufacturera](sustrato/estados-unidos/industria-manufacturera.md) — Manufactura EE.UU.: 2o mayor del mundo (~USD2.9B), CHIPS/IRA, semiconductores, automotriz, aeroespacial, PMI (tags: eeuu,manufactura,reshoring,chips-act,ira,semiconductores,automotriz) · 2026-07-16
 - [mineria](sustrato/estados-unidos/mineria.md) — Minería EE.UU.: USGS, minerales críticos, hardrock leasing, carbón, IRA/DOE, recursos naturales · 🏷️ eeuu,mineria,usgs,minerales-criticos,hardrock-leasing,coal,ira,doe,recursos-naturales · 📅 2026-07-16
+- [energia-electrica](sustrato/estados-unidos/energia-electrica.md) — Energía eléctrica EE.UU.: grid (3 interconexiones), generación/transmisión/distribución, FERC/EIA/NERC, ISO/RTO, mercados mayoristas · 🏷️ eeuu,energia-electrica,grid,ferc,eia,nerc,iso-rto,utilities · 📅 2026-07-17
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -169,6 +171,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [educacion-superior](sustrato/canada/educacion-superior.md) — Educación superior Canadá: PSE provincial/territorial, universidades/colleges/CEGEP, Canada Student Loans, internacionalización; vs educacion · 🏷️ canada,educacion-superior,universidades,colleges,pse,provincias · 📅 2026-07-16
 - [politica-inmigratoria](sustrato/canada/politica-inmigratoria.md) — Política de inmigración Canadá: niveles 2026-2028, PNP (91.5k 2026), Express Entry, IRCC · 🏷️ canada,inmigracion,politica-inmigratoria,ircc,express-entry,pnp,niveles-de-inmigracion · 📅 2026-07-16
 - [defensa-seguridad](sustrato/canada/defensa-seguridad.md) — Defensa y seguridad Canadá: DND/CAF, NORAD, OTAN, procurement de defensa · 🏷️ canada,defensa,seguridad,dnd,caf,nato,norad,procurement-defensa,fuerzas-armadas · 📅 2026-07-16
+- [salud-publica](sustrato/canada/salud-publica.md) — Salud pública Canadá: PHAC, Health Canada, vigilancia epidemiológica, inmunización, determinantes sociales; vs salud (aseguramiento) · 🏷️ canada,salud-publica,phac,health-canada,epidemiologia,prevencion,vigilancia · 📅 2026-07-17
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -1620,6 +1623,36 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-revenue
 - [head-of-revenue](rol/head-of-revenue.md) — Head of Revenue: dueño operativo del top-line (ventas+CS+expansión), cuotas, retención; vs chief-revenue-officer · 🏷️ head-of-revenue,revenue,ventas,retencion,top-line,gtm · 📅 2026-07-16
+
+### dominio/automatizacion-procesos
+- [automatizacion-procesos](dominio/automatizacion-procesos/automatizacion-procesos.md) — Automatización de procesos: BPA, RPA, BPMN, hiperautomatización, agentes de IA · 🏷️ automatizacion,procesos,rpa,bpm,hyperautomation,ia-agentes · 📅 2026-07-17
+
+### dominio/ciberseguridad-de-la-informacion
+- [ciberseguridad-de-la-informacion](dominio/ciberseguridad-de-la-informacion/ciberseguridad-de-la-informacion.md) — Ciberseguridad de la información: tríada CIA, gestión de vulnerabilidades, GRC, NIST CSF · 🏷️ infosec,cia,vulnerabilidades,grc,nist,seguridad-informacion · 📅 2026-07-17
+
+### dominio/derecho-de-las-telecomunicaciones
+- [derecho-de-las-telecomunicaciones](dominio/derecho-de-las-telecomunicaciones/derecho-de-las-telecomunicaciones.md) — Derecho de las telecomunicaciones: espectro, concesiones, neutralidad, IFT/FCC/CRTC · 🏷️ telecomunicaciones,espectro,regulacion,ift,fcc,crtc,concesiones · 📅 2026-07-17
+
+### dominio/gestion-de-proyectos-it
+- [gestion-de-proyectos-it](dominio/gestion-de-proyectos-it/gestion-de-proyectos-it.md) — Gestión de proyectos de TI: PMO, metodologías, entrega de valor, gobernanza TI · 🏷️ it,project-management,pmo,metodologias,entrega,gobernanza-ti · 📅 2026-07-17
+
+### dominio/logistica-de-medios
+- [logistica-de-medios](dominio/logistica-de-medios/logistica-de-medios.md) — Logística de medios: ad operations, trafficking, distribución de contenido, adtech · 🏷️ medios,publicidad,ad-operations,trafficking,distribucion,adtech · 📅 2026-07-17
+
+### rol/head-of-growth-marketing
+- [head-of-growth-marketing](rol/head-of-growth-marketing/head-of-growth-marketing.md) — Head of Growth Marketing: adquisición, retención, experimentación full-funnel; vs head-of-growth · 🏷️ growth-marketing,adquisicion,retencion,experimentacion,full-funnel · 📅 2026-07-17
+
+### rol/head-of-platform-engineering
+- [head-of-platform-engineering](rol/head-of-platform-engineering/head-of-platform-engineering.md) — Head of Platform Engineering: IDP, golden paths, DevEx, DORA · 🏷️ platform-engineering,idp,golden-paths,devx,sre · 📅 2026-07-17
+
+### rol/head-of-risk-and-compliance
+- [head-of-risk-and-compliance](rol/head-of-risk-and-compliance/head-of-risk-and-compliance.md) — Head of Risk & Compliance: riesgo operativo + cumplimiento, 2ª línea de defensa · 🏷️ risk-compliance,riesgo-operativo,cumplimiento,2nd-line,gobierno · 📅 2026-07-17
+
+### rol/head-of-customer-success-ops
+- [head-of-customer-success-ops](rol/head-of-customer-success-ops/head-of-customer-success-ops.md) — Head of Customer Success Operations: CS ops, escalabilidad, health scoring, tech-touch · 🏷️ cs-ops,customer-success,escalabilidad,health-scoring,tech-touch · 📅 2026-07-17
+
+### rol/head-of-digital-transformation
+- [head-of-digital-transformation](rol/head-of-digital-transformation/head-of-digital-transformation.md) — Head of Digital Transformation: adopción tecnológica, CRM/ERP, cultura digital, cambio · 🏷️ digital-transformation,cambio,tecnologia,crm-erp,cultura-digital · 📅 2026-07-17
 
 ### rol/head-of-corporate-affairs
 - [head-of-corporate-affairs](rol/head-of-corporate-affairs.md) — Head of Corporate Affairs: asuntos corporativos, gobierno/medios, sustentabilidad, relación institucional; vs head-of-public-affairs · 🏷️ head-of-corporate-affairs,corporate-affairs,relaciones-institucionales,gobierno,medios,sustentabilidad · 📅 2026-07-16

@@ -955,8 +955,20 @@ def node_exists(path: str) -> bool:
     return False
 
 
-# La ronda activa de extensión de taxonomía es la Round 55.
-NEW_NODES = NEW_NODES_ROUND_55
+# La ronda activa de extensión de taxonomía es la Round 56.
+NEW_NODES_ROUND_56 = [
+    ("dominio/automatizacion-procesos", "Automatizacion de procesos / BPA & RPA: BPMN, workflows, hyperautomation, IA agentes, vs automatizacion/operaciones"),
+    ("dominio/ciberseguridad-de-la-informacion", "Ciberseguridad de la informacion / InfoSec: CIA, gestion de vulnerabilidades, GRC, vs ciberseguridad/seguridad-corporativa"),
+    ("dominio/derecho-de-las-telecomunicaciones", "Derecho de las telecomunicaciones: espectro, concesiones, neutralidad de red, reguladores (IFT/FCC/CRTC); vs telecomunicaciones"),
+    ("dominio/gestion-de-proyectos-it", "Gestion de proyectos de TI / IT project management: metodologias, PMO, presupuesto TI, entrega de valor; vs project-management/it-service-management"),
+    ("dominio/logistica-de-medios", "Logistica de medios / media supply chain: ad operations, trafficking, distribucion de contenido, vs medios-comunicacion/publicidad"),
+    ("rol/head-of-growth-marketing", "Head of Growth Marketing: adquisicion, retencion, experimentacion, full-funnel, vs head-of-growth/marketing-manager"),
+    ("rol/head-of-platform-engineering", "Head of Platform Engineering: plataforma interna, golden paths, developer experience, vs platform-engineer/devops-engineer"),
+    ("rol/head-of-risk-and-compliance", "Head of Risk & Compliance: riesgo operativo + cumplimiento regulatorio, 2nd line, vs chief-risk-officer/chief-compliance-officer"),
+    ("rol/head-of-customer-success-ops", "Head of Customer Success Operations: CS ops, escalabilidad de CS, tech-touch, health scoring; vs customer-success/customer-success-manager"),
+    ("rol/head-of-digital-transformation", "Head of Digital Transformation: liderazgo de transformacion digital, CRM/ERP, cultura digital; vs chief-digital-officer/chief-transformation-officer"),
+]
+NEW_NODES = NEW_NODES_ROUND_56
 
 
 def existing_pages(node: str) -> set:
