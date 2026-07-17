@@ -77,6 +77,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [energia-renovables](sustrato/mexico/energia-renovables.md) — Energía renovable México: SENER/CRE/CENACE, CELs, solar/eólica/hidro/geotermia, reforma 2025 recentraliza CFE · 🏷️ mexico,energia-renovable,solar,eolica,hidro,cels,sener,cre,transicion-energetica · 📅 2026-07-16
 - [servicios-publicos](sustrato/mexico/servicios-publicos.md) — Servicios públicos México: agua potable/drenaje (CONAGUA, Ley General de Aguas 2025), energía eléctrica residencial (CFE), recolección; derecho humano al agua · 🏷️ mexico,servicios-publicos,agua-potable,conagua,cfe,saneamiento,derecho-al-agua · 📅 2026-07-17
 - [agricultura](sustrato/mexico/agricultura.md) — Agricultura México: SADER, campesinos, seguridad alimentaria, producción, vs EE.UU./Canadá · 🏷️ mexico,agricultura,sader,sector-agropecuario,seguridad-alimentaria · 📅 2026-07-17
+- [politica-fiscal](sustrato/mexico/politica-fiscal.md) — Política fiscal México: SHCP, gasto público, déficit, deuda, estabilización; vs finanzas-publicas/impuestos · 🏷️ mexico,politica-fiscal,shcp,gasto-publico,deuda-publica,deficit,estabilizacion · 📅 2026-07-17
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -131,6 +132,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [mineria](sustrato/estados-unidos/mineria.md) — Minería EE.UU.: USGS, minerales críticos, hardrock leasing, carbón, IRA/DOE, recursos naturales · 🏷️ eeuu,mineria,usgs,minerales-criticos,hardrock-leasing,coal,ira,doe,recursos-naturales · 📅 2026-07-16
 - [energia-electrica](sustrato/estados-unidos/energia-electrica.md) — Energía eléctrica EE.UU.: grid (3 interconexiones), generación/transmisión/distribución, FERC/EIA/NERC, ISO/RTO, mercados mayoristas · 🏷️ eeuu,energia-electrica,grid,ferc,eia,nerc,iso-rto,utilities · 📅 2026-07-17
 - [agricultura](sustrato/estados-unidos/agricultura.md) — Agricultura EE.UU.: USDA, Farm Bill, crop insurance (FCIP), subsidies, vs México/Canadá · 🏷️ estados-unidos,agricultura,usda,farm-bill,subsidios,crop-insurance · 📅 2026-07-17
+- [criminalistica](sustrato/estados-unidos/criminalistica.md) — Criminalística EE.UU.: forensic science, FBI/NIST, evidencia, medicina legal, peritaje · 🏷️ estados-unidos,criminalistica,forensic-science,fbi,nist,evidencia,medicina-legal · 📅 2026-07-17
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -179,6 +181,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [politica-inmigratoria](sustrato/canada/politica-inmigratoria.md) — Política de inmigración Canadá: niveles 2026-2028, PNP (91.5k 2026), Express Entry, IRCC · 🏷️ canada,inmigracion,politica-inmigratoria,ircc,express-entry,pnp,niveles-de-inmigracion · 📅 2026-07-16
 - [defensa-seguridad](sustrato/canada/defensa-seguridad.md) — Defensa y seguridad Canadá: DND/CAF, NORAD, OTAN, procurement de defensa · 🏷️ canada,defensa,seguridad,dnd,caf,nato,norad,procurement-defensa,fuerzas-armadas · 📅 2026-07-16
 - [salud-publica](sustrato/canada/salud-publica.md) — Salud pública Canadá: PHAC, Health Canada, vigilancia epidemiológica, inmunización, determinantes sociales; vs salud (aseguramiento) · 🏷️ canada,salud-publica,phac,health-canada,epidemiologia,prevencion,vigilancia · 📅 2026-07-17
+- [turismo](sustrato/canada/turismo.md) — Turismo Canadá: Destination Canada, >20M turistas/año, $100B PIB 2024, ~1.8M empleos, turismo interior · 🏷️ canada,turismo,destination-canada,turismo-interior,parques,hospitalidad · 📅 2026-07-17
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -1657,6 +1660,27 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/logistica-de-medios
 - [logistica-de-medios](dominio/logistica-de-medios/logistica-de-medios.md) — Logística de medios: ad operations, trafficking, distribución de contenido, adtech · 🏷️ medios,publicidad,ad-operations,trafficking,distribucion,adtech · 📅 2026-07-17
 
+### dominio/tributos
+- [tributos](dominio/tributos/tributos.md) — Tributos: teoría impositiva, directos/indirectos, federal/estatal/municipal, compliance, BEPS · 🏷️ tributos,impuestos,derecho-tributario,teoria-impositiva,fiscalidad,redistribucion · 📅 2026-07-17
+
+### dominio/defensa-civil
+- [defensa-civil](dominio/defensa-civil/defensa-civil.md) — Defensa civil: protección civil, desastres, preparación/respuesta/recuperación, FEMA/CENAPRED · 🏷️ defensa-civil,proteccion-civil,emergency-management,desastres,respuesta,evacuacion · 📅 2026-07-17
+
+### dominio/gestion-del-riesgo-de-desastres
+- [gestion-del-riesgo-de-desastres](dominio/gestion-del-riesgo-de-desastres/gestion-del-riesgo-de-desastres.md) — Gestión del riesgo de desastres (DRR): marco Sendai, resiliencia, mitigación, adaptación climática · 🏷️ drr,disaster-risk-reduction,resiliencia,sendai,mitigacion,adaptacion-climatica · 📅 2026-07-17
+
+### dominio/relaciones-diplomaticas
+- [relaciones-diplomaticas](dominio/relaciones-diplomaticas/relaciones-diplomaticas.md) — Relaciones diplomáticas: diplomacia, embajadas/consulados, inmunidad, Convención de Viena 1961 · 🏷️ diplomacia,relaciones-diplomaticas,embajadas,consulados,inmunidad,tratados,multilateralismo · 📅 2026-07-17
+
+### dominio/biomedicina
+- [biomedicina](dominio/biomedicina/biomedicina.md) — Biomedicina: medicina basada en evidencia, investigación traslacional, disciplinas bio-, FDA/COFEPRIS · 🏷️ biomedicina,medicina,investigacion-traslacional,dispositivos-medicos,terapias,evidencia · 📅 2026-07-17
+
+### dominio/economia-del-trabajo
+- [economia-del-trabajo](dominio/economia-del-trabajo/economia-del-trabajo.md) — Economía del trabajo: mercados laborales, salarios, capital humano, desempleo, sindicatos · 🏷️ economia-del-trabajo,mercado-laboral,salarios,empleo,capital-humano,desempleo · 📅 2026-07-17
+
+### dominio/competitividad-empresarial
+- [competitividad-empresarial](dominio/competitividad-empresarial/competitividad-empresarial.md) — Competitividad empresarial: ventaja competitiva, estrategia, productividad, benchmarking · 🏷️ competitividad,ventaja-competitiva,estrategia,productividad,benchmarking,porter · 📅 2026-07-17
+
 ### rol/head-of-growth-marketing
 - [head-of-growth-marketing](rol/head-of-growth-marketing/head-of-growth-marketing.md) — Head of Growth Marketing: adquisición, retención, experimentación full-funnel; vs head-of-growth · 🏷️ growth-marketing,adquisicion,retencion,experimentacion,full-funnel · 📅 2026-07-17
 
@@ -1674,4 +1698,16 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-corporate-affairs
 - [head-of-corporate-affairs](rol/head-of-corporate-affairs.md) — Head of Corporate Affairs: asuntos corporativos, gobierno/medios, sustentabilidad, relación institucional; vs head-of-public-affairs · 🏷️ head-of-corporate-affairs,corporate-affairs,relaciones-institucionales,gobierno,medios,sustentabilidad · 📅 2026-07-16
+
+### rol/head-of-tax
+- [head-of-tax](rol/head-of-tax/head-of-tax.md) — Head of Tax: estrategia fiscal, transfer pricing, cumplimiento, defensa ante SAT/IRS/CRA · 🏷️ head-of-tax,tax-director,estrategia-fiscal,transfer-pricing,cumplimiento-tributario · 📅 2026-07-17
+
+### rol/head-of-government-relations
+- [head-of-government-relations](rol/head-of-government-relations/head-of-government-relations.md) — Head of Government Relations: lobby legal, regulatory affairs, anticipar regulación, advocacy · 🏷️ government-relations,relaciones-gubernamentales,lobbying,regulatory-affairs,politica-publica · 📅 2026-07-17
+
+### rol/head-of-credit
+- [head-of-credit](rol/head-of-credit/head-of-credit.md) — Head of Credit: políticas de crédito, evaluación, cobranza, riesgo de cartera (DSO) · 🏷️ head-of-credit,credito-comercial,cobranza,riesgo-de-credito,politicas-de-credito · 📅 2026-07-17
+
+### rol/head-of-commercial
+- [head-of-commercial](rol/head-of-commercial/head-of-commercial.md) — Head of Commercial: estrategia comercial, GTM, alineación ventas-marketing-BD, dueño del ingreso · 🏷️ head-of-commercial,estrategia-comercial,gtm,ventas-marketing-bd,ingresos · 📅 2026-07-17
 

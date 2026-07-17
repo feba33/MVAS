@@ -983,6 +983,26 @@ NEW_NODES_ROUND_57 = [
 ]
 NEW_NODES = NEW_NODES_ROUND_57
 
+# Round 58 (iter 196) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("politica-fiscal", "Politica fiscal Mexico: SHCP, gasto publico, deficit, deuda, estimulo/austeridad, vs finanzas-publicas/impuestos"))
+TAXONOMY["sustrato/estados-unidos"].append(("criminalistica", "Criminalistica EE.UU.: DOJ/FBI forensics, crime labs, NIST forensic science, evidencia, medicina legal; vs derechos-civiles/seguridad-publica"))
+TAXONOMY["sustrato/canada"].append(("turismo", "Turismo Canada: Destination Canada, parques, contribucion al PIB/empleo, hotelería, turismo de naturaleza; vs sector-servicios"))
+NEW_NODES_ROUND_58 = [
+    ("dominio/tributos", "Tributos / impuestos como disciplina: teoria impositiva, impuestos directos/indirectos, federal/estatal/municipal, procedimiento, defensa; vs derecho-tributario/finanzas-publicas"),
+    ("dominio/defensa-civil", "Defensa civil / emergency management: proteccion civil, desastres naturales, respuesta, continuidad, vs gestion-de-crisis/seguridad-publica"),
+    ("dominio/gestion-del-riesgo-de-desastres", "Gestion del riesgo de desastres (DRR): marco Sendai, reduccion, resiliencia, vs defensa-civil/gestion-de-crisis"),
+    ("dominio/derecho-de-las-telecomunicaciones", "Derecho de las telecomunicaciones (profundizacion): espectro, concesiones, neutralidad, reguladores, privacidad, vs telecomunicaciones-corporativas"),
+    ("dominio/relaciones-diplomaticas", "Relaciones diplomaticas: diplomatico, embajadas, consulados, inmunidad, tratados, multilateralismo, vs relaciones-exteriores"),
+    ("dominio/biomedicina", "Biomedicina: investigacion traslacional, dispositivos, terapias, regulation, vs bioetica/salud"),
+    ("dominio/economia-del-trabajo", "Economia del trabajo / labor economics: salarios, empleo, capital humano, desempleo, mercado laboral; vs mercado-laboral/empleo"),
+    ("dominio/competitividad-empresarial", "Competitividad empresarial: ventaja competitiva, estrategia, productividad, benchmarking, vs liderazgo/estrategia"),
+    ("rol/head-of-tax", "Head of Tax / Tax Director: estrategia fiscal, transfer pricing, cumplimiento, planificacion, vs controller/cfo"),
+    ("rol/head-of-government-relations", "Head of Government Relations: relacion con gobierno, lobbying legal, regulatory affairs, vs head-of-public-affairs/head-of-public-policy"),
+    ("rol/head-of-credit", "Head of Credit: credito comercial, cobranza, riesgo de credito, politicas, vs credit-manager/head-of-treasury"),
+    ("rol/head-of-commercial", "Head of Commercial: estrategia comercial, ventas+marketing+BD, GTM, ingresos, vs chief-commercial-officer/vp-sales"),
+]
+NEW_NODES = NEW_NODES_ROUND_58
+
 
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)

@@ -2099,5 +2099,12 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | - **Bloqueos:** ninguno. |
 | - **Cola:** Round 57 COMPLETA (10/10 páginas nuevas reales). |
 
+| - **Iteración actual:** 196 (Round 58 COMPLETA — 13/13 ingestados e integrados). |
+| - **Última ação:** Round 58 iter 196 — gap_analysis.py (iter 196) reportó 0 huecos reales → taxonomía extendida Round 58 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol. Ingestó 13 páginas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2→4). Integración centralizada (index.md root + log.md root) y commit. Reference-only (frontmatter cita URL oficial; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 58 COMPLETA (13/13). |
+
+> gap_analysis.py (iter 196) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 58 (scripts/gap_analysis.py): 3 deepenings NA (sustrato/mexico/politica-fiscal, sustrato/estados-unidos/criminalistica, sustrato/canada/turismo) + 10 nodos nuevos dominio/rol (dominio: tributos, defensa-civil, gestion-del-riesgo-de-desastres, relaciones-diplomaticas, biomedicina, economia-del-trabajo, competitividad-empresarial, derecho-de-las-telecomunicaciones; rol: head-of-tax, head-of-government-relations, head-of-credit, head-of-commercial).
+
 ## ▶️ PRÓXIMA TAREA
-- Round 57 COMPLETA (10 páginas nuevas reales, 13 planificadas originalmente de las cuales 3 ya existían). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 58) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
+- Round 58 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 59) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
