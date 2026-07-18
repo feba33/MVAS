@@ -2377,13 +2377,13 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Iteraciones totales:** 206. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 206 (Round 68 COMPLETA — 12/12 ingestados e integrados). |
-| - **Última ação:** Round 68 iter 206 — gap_analysis.py (iter 205) reportó 0 huecos reales → taxonomía extendida Round 68 (3 deepenings NA + 10 nodos nuevos). 2 deepenings ya existían (estados-unidos/telecomunicaciones) → dedup a 12 reales (2 sustrato + 10 dominio/rol). Ingestó 12 páginas con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 CA). |
+| - **Iteración actual:** 208 (Round 70 COMPLETA — 15/15 ingestados e integrados). |
+| - **Última ação:** Round 70 iter 208 — gap_analysis.py (iter 208) reportó 0 huecos reales → taxonomía extendida Round 70 (3 deepenings NA + 12 nodos nuevos dominio/rol). 15 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x4) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 68 COMPLETA (12/12). |
+| - **Cola:** Round 70 COMPLETA (15/15). |
 
 ## ▶️ PRÓXIMA TAREFA
-- Round 68 COMPLETA (12 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 69) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
+- Round 70 COMPLETA (15 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 71) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
 
 ## ✅ COLA ROUND 68 — COMPLETA (12/12 páginas nuevas)
 > gap_analysis.py (iter 205) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 68 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol. Nota: `estados-unidos/telecomunicaciones` (deepening) ya existía como página plana (Round 50) → 2 sustrato reales (mexico/energia-electrica, canada/energia-nuclear) + 10 sugerencias reales de NEW_NODES_ROUND_68.
@@ -2467,9 +2467,48 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - Reference-only (Wikipedia EN/ES + autoridades sectoriales: gob.mx/CNH/PEMEX, FCC/FederalRegister, gob.mx/CNSF/ASF/CONAGUA, Lloyd's/Wikipedia; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US).
 - **Round 69 COMPLETO (16/16 temas).** Cola Round 69 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 70 o pausar.
 
+## ✅ COLA ROUND 70 — COMPLETA (15/15 páginas nuevas)
+> gap_analysis.py (iter 208) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 70 (scripts/gap_analysis.py): 3 deepenings NA (sustrato/mexico/economia-servicios, sustrato/estados-unidos/clima, sustrato/canada/inversion-extranjera) + 12 nodos nuevos dominio/rol (NEW_NODES_ROUND_70). Todos nuevos (sin duplicados).
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/economia-servicios — Economía de servicios México (sector terciario, comercio/turismo/financiero, PIB, informalidad)
+- [x] sustrato/estados-unidos/clima — Clima y política climática EE.UU. (EPA, NOAA, mitigación/descarbonización, adaptación)
+- [x] sustrato/canada/inversion-extranjera — Inversión extranjera Canadá (Investment Canada Act, net benefit, revisión de seguridad, IED)
+### Dominio (nuevos nodos)
+- [x] dominio/gestion-de-riesgos-it — Gestión de riesgos de TI (ISO 27005/31000, NIST RMF, continuidad)
+- [x] dominio/derecho-de-internet — Derecho de internet (jurisdicción, plataformas, libertad de expresión, cibercrimen)
+- [x] dominio/gestion-de-activos-de-ti — Gestión de activos de TI / ITAM (inventario, licencias, CMDB)
+- [x] dominio/seguros-de-caucion — Seguros de caución / surety bonds (fianzas, garantías de cumplimiento)
+- [x] dominio/economia-del-deporte — Economía del deporte (ligas, derechos mediáticos, estadios)
+- [x] dominio/analitica-web — Analítica web (GA4, tag management, conversion funnels)
+- [x] dominio/gestion-de-precios — Gestión de precios (list price, price waterfall, MSRP, descuentos)
+- [x] dominio/derecho-de-las-tecnologias — Derecho de las tecnologías (software, IA, ciber, telecom, e-commerce)
+### Rol (nuevos nodos)
+- [x] rol/head-of-sales-effectiveness — Head of Sales Effectiveness (coaching, metodología, productividad)
+- [x] rol/head-of-design-research — Head of Design Research (org UX research, métodos, impacto en producto)
+- [x] rol/head-of-mobile-engineering — Head of Mobile Engineering (iOS/Android/cross-platform, release, performance)
+- [x] rol/head-of-data-engineering — Head of Data Engineering (plataforma de datos, pipelines, lakehouse)
+
+### ITER 208 — Round 70 (2026-07-18)
+- gap_analysis.py (iter 208) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 70 (scripts/gap_analysis.py): 3 deepenings NA + 12 nodos nuevos dominio/rol (NEW_NODES_ROUND_70). Todos los 15 sugeridos eran nuevos (sin duplicados).
+- 15 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] `sustrato/mexico/economia-servicios.md` (nuevo en nodo): sector terciario, comercio/turismo/financiero, PIB ~60-63%, informalidad.
+  - [sustrato] `sustrato/estados-unidos/clima.md` (nuevo en nodo): EPA/NOAA, net-zero 2050, IRA, adaptación/resiliencia, FEMA.
+  - [sustrato] `sustrato/canada/inversion-extranjera.md` (nuevo en nodo): Investment Canada Act, net benefit, revisión de seguridad nacional (tecnologías críticas), IED.
+  - [dominio] `dominio/gestion-de-riesgos-it.md`, `dominio/derecho-de-internet.md`, `dominio/gestion-de-activos-de-ti.md`, `dominio/seguros-de-caucion.md`, `dominio/economia-del-deporte.md`, `dominio/analitica-web.md`, `dominio/gestion-de-precios.md`, `dominio/derecho-de-las-tecnologias.md` (8 nuevos nodos).
+  - [rol] `rol/head-of-sales-effectiveness.md`, `rol/head-of-design-research.md`, `rol/head-of-mobile-engineering.md`, `rol/head-of-data-engineering.md` (4 nuevos nodos).
+- Reference-only (Wikipedia EN/ES + autoridades sectoriales: INEGI, EPA/NOAA, Global Affairs Canada, ISO/NIST, CNSF, Google GA4; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- **Round 70 COMPLETO (15/15 temas).** Cola Round 70 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 71 o pausar.
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 997** (Round 68: 981; Round 69: 997/16 nuevas). |
-| **Rondas:** 69 completas (Round 1..69). |
+| **Tópicos ingeridos (acumulado): 1012** (Round 69: 997; Round 70: 1012/15 nuevas). |
+| **Rondas:** 70 completas (Round 1..70). |
+| **Nodos sustrato (NA):** México 85 (+economia-servicios), EE.UU. 70 (+clima), Canadá 63 (+inversion-extranjera). |
+| **Nodos dominio:** ~271 (Round 70 +8: gestion-de-riesgos-it, derecho-de-internet, gestion-de-activos-de-ti, seguros-de-caucion, economia-del-deporte, analitica-web, gestion-de-precios, derecho-de-las-tecnologias). |
+| **Nodos rol:** ~246 (Round 70 +4: head-of-sales-effectiveness, head-of-design-research, head-of-mobile-engineering, head-of-data-engineering). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech). |
+| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+| **Iteraciones totales:** 208. |
 | **Nodos sustrato (NA):** México 84 (+energia-hidrocarburos), EE.UU. 69 (+telecomunicaciones-5g), Canadá 62. |
 | **Nodos dominio:** ~263 (Round 69 +8: seguros-de-vida, contraloria, seguros-maritimos, derecho-de-agua, planificacion-urbana, redes-5g-moviles, deporte-profesional, finanzas-de-proyecto). |
 | **Nodos rol:** ~242 (Round 69 +6: head-of-field-services, head-of-trade-finance, head-of-regional-sales, head-of-it-security, head-of-sustainability-reporting, head-of-brand-communications). |
@@ -2478,10 +2517,10 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Iterações totales:** 207. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 207 (Round 69 COMPLETA — 16/16 ingestados e integrados). |
-| - **Última ação:** Round 69 iter 207 — gap_analysis.py (iter 207) reportó 0 huecos reales → taxonomía extendida Round 69 (2 deepenings NA + 14 nodos nuevos dominio/rol). 16 páginas ingeridas (LOOP 1 sustrato NA x2, LOOP 2 dominio x8, LOOP 3 rol x6) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
+| - **Iteración actual:** 208 (Round 70 COMPLETA — 15/15 ingestados e integrados). |
+| - **Última ação:** Round 70 iter 208 — gap_analysis.py (iter 208) reportó 0 huecos reales → taxonomía extendida Round 70 (3 deepenings NA + 12 nodos nuevos dominio/rol). 15 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x4) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 69 COMPLETA (16/16). |
+| - **Cola:** Round 70 COMPLETA (15/15). |
 
-## ▶️ PRÓXIMA TAREA
-- Round 69 COMPLETA (16 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 70) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
+## ▶️ PRÓXIMA TAREFA
+- Round 70 COMPLETA (15 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 71) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).

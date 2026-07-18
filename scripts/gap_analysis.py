@@ -1209,6 +1209,27 @@ NEW_NODES_ROUND_69 = [
 NEW_NODES = NEW_NODES_ROUND_69
 
 
+# Round 70 (iter 208) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("economia-servicios", "Economia de servicios Mexico: sector terciario, comercio, turismo, financiero, telecom, gobierno, peso en PIB, informalidad, vs economia/trabajo"))
+TAXONOMY["sustrato/estados-unidos"].append(("clima", "Clima EE.UU.: EPA, NOAA, climate policy, descarbonizacion, adaptacion/resiliencia, vs medio-ambiente/energia"))
+TAXONOMY["sustrato/canada"].append(("inversion-extranjera", "Inversion extranjera Canadá: Investment Canada Act, revisión de inversiones (net benefit, security), Global Affairs Canada, IED, vs mexico/estados-unidos inversion-extranjera"))
+NEW_NODES_ROUND_70 = [
+    ("dominio/gestion-de-riesgos-it", "Gestion de riesgos de TI / IT risk management: riesgo tecnologico, CIA, marco de riesgo TI, continuidad, vs gobierno-de-ti/seguridad-corporativa"),
+    ("dominio/derecho-de-internet", "Derecho de internet / cyber law: jurisdiccion online, contenido, responsabilidad de plataformas, libertad de expresion digital, vs derecho-de-datos/proteccion-de-datos"),
+    ("dominio/gestion-de-activos-de-ti", "Gestion de activos de TI / IT asset management (ITAM): inventario hardware/software, licencias, CMDB, ciclo de vida, vs gobierno-de-ti"),
+    ("dominio/seguros-de-caucion", "Seguros de caucion / surety & guarantee: fianzas, bonos de cumplimiento, garantias, vs seguros/seguros-de-responsabilidad"),
+    ("dominio/economia-del-deporte", "Economia del deporte / sports economics: mercado, ligas, derechos mediaticos, ciudades/estadios, impacto economico, vs deporte-profesional"),
+    ("dominio/analitica-web", "Analitica web / web analytics: GA4, tag management, comportamiento de usuario, conversion funnels, vs analitica-marketing/analitica-negocio"),
+    ("dominio/gestion-de-precios", "Gestion de precios (price management): pricing execution, list price, discounting governance, MSRP, vs pricing/monetizacion"),
+    ("dominio/derecho-de-las-tecnologias", "Derecho de las tecnologias / technology law: regulacion de software, IA, ciber, telecom, e-commerce, vs derecho-de-internet/derecho-de-datos"),
+    ("rol/head-of-sales-effectiveness", "Head of Sales Effectiveness: productividad de ventas, coaching, metodologia, enablement de performance, vs head-of-sales-enablement/sales-manager"),
+    ("rol/head-of-design-research", "Head of Design Research: lidera org de UX research, metodos, operacion de estudios, impacto en producto, vs head-of-user-research/ux-researcher"),
+    ("rol/head-of-mobile-engineering", "Head of Mobile Engineering: lidera desarrollo movil (iOS/Android/cross-platform), release, performance, vs head-of-engineering/engineering-manager"),
+    ("rol/head-of-data-engineering", "Head of Data Engineering: lidera plataforma de datos, pipelines, lakehouse, gobierno tecnico, vs data-engineer/data-architect"),
+]
+NEW_NODES = NEW_NODES_ROUND_70
+
+
 
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
