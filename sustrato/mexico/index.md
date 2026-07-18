@@ -8,6 +8,7 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [entidades-federativas](entidades-federativas.md) — Entidades federativas de México: 32 estados, coordinación fiscal (SNCF/LCF), participaciones y aportaciones, impuestos estatales (ISN/predial), permisos subnacionales · 🏷️ mexico,entidades-federativas,estados,coordinacion-fiscal,federalismo,impuestos-estatales · 📅 2026-07-14
 - [estados](estados.md) — Estados de México: 32 entidades federativas, constituciones locales, congresos, gobernadores, coordinación fiscal (Ramo 28/33), federalismo subnacional · 🏷️ mexico,estados,federalismo,entidades-federativas,gobierno-estatal,coordinacion-fiscal · 📅 2026-07-17
 - [mineria](mineria.md) — Minería México: CAMIMEX, plata/oro/cobre, Ley Minera, PIB ~2.4% · 🏷️ mexico,mineria,camimex,plata,oro,cobre,zinc,regulacion-minera · 📅 2026-07-13
+- [energia-electrica](energia-electrica.md) — Energía eléctrica México: SENER/CENACE/CRE, CFE, mercado eléctrico, prevalencia 54% Estado, Plan 2025-2030 (624,618 mdp), tarifas · 🏷️ mexico,energia-electrica,cfe,sener,cenace,cre,mercado-electrico,reforma-energetica-2025,tarifas · 📅 2026-07-18
 
 - [lgsm](lgsm.md) — Ley General de Sociedades Mercantiles: 7 tipos de sociedad y reformas · 🏷️ lgsm,sociedades-mercantiles,derecho-corporativo · 📅 2026-07-09
 - [codigo-de-comercio](codigo-de-comercio.md) — Código de Comercio: actos de comercio, contratos, títulos de crédito · 🏷️ codigo-de-comercio,contratos-mercantiles,comerciantes · 📅 2026-07-09

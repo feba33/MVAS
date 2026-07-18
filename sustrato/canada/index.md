@@ -8,6 +8,7 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [pueblos-indigenas](pueblos-indigenas.md) — Pueblos indígenas de Canadá: First Nations, Inuit, Métis; Constitución s.35, tratados, UNDRIP, duty to consult, impacto en recursos · 🏷️ canada,pueblos-indigenas,first-nations,inuit,metis,seccion-35,undrip,duty-to-consult · 📅 2026-07-14
 - [pesca-acuicultura](pesca-acuicultura.md) — Pesca y acuacultura Canadá: DFO, IFMP, cuotas (TAC), salmón/cangrejo/bacalao, acuacultura, NAFO/UNCLOS, economía costera · 🏷️ canada,pesca,acuacultura,dfo,salmon,ifmp,cuotas,economia-costera · 📅 2026-07-17
 - [medio-ambiente](medio-ambiente.md) — Medio ambiente Canadá: ECCC, cambio climático, net-zero, precio al carbono · 🏷️ canada,medio-ambiente,cambio-climatico,eccc,net-zero,politica-climatica,biodiversidad · 📅 2026-07-13
+- [energia-nuclear](energia-nuclear.md) — Energía nuclear Canadá: CNSC, CANDU (OPG/Bruce/Point Lepreau), refurbishment hasta 2064, SMR (Darlington ~2030, +4.8 GW Bruce) · 🏷️ canada,energia-nuclear,cnsc,candu,opg,bruce-power,smr,darlington,point-lepreau · 📅 2026-07-18
 
 - [corporativo](corporativo.md) — Derecho corporativo Canadá: CBCA (federal/provincial) · 🏷️ canada,cbca,derecho-corporativo · 📅 2026-07-09
 - [privacidad](privacidad.md) — Privacidad Canadá: PIPEDA (protección de datos sector privado) · 🏷️ canada,pipeda,privacidad,proteccion-datos · 📅 2026-07-09

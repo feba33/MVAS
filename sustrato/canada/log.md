@@ -168,3 +168,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-17] ingest | Defensa civil Canada
 - Fuentes: Public Safety Canada + Wikipedia (EN) — reference-only (sin raw/).
 - Pagina: defensa-civil.md. Public Safety Canada, FERP, gestion de emergencias, RCMP/CBSA, CAF. Cross-ref gestion-del-riesgo-de-desastres, seguridad-publica. Confianza alta.
+
+## [2026-07-18] ingest | Energía nuclear de Canadá (Round 68)
+- Fuentes: CNSC (ficha Darlington NGS, licencia 2025-2045, 3,512 MW, 4× CANDU) + Canadian Nuclear Association (refurbishment Bruce hasta 2064, nuevo proyecto 4.8 GW, Darlington SMR) — reference-only (sin raw/).
+- Página: energia-nuclear.md. CNSC, CANDU (OPG/Bruce/Point Lepreau), refurbishment MCR, SMR (Darlington ~2030, +4.8 GW Bruce). Cross-ref energia, energia-electrica, dominio/energia-nuclear. Confianza alta.

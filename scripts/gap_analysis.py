@@ -1167,6 +1167,26 @@ NEW_NODES_ROUND_67 = [
 NEW_NODES = NEW_NODES_ROUND_67
 
 
+# Round 68 (iter 206) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("energia-electrica", "Energia electrica Mexico: SENER/CENACE/CRE, CFE (generacion/transmision/distribucion), mercado electrico, tarifas, reforma energetica 2025 (recentralizacion), vs energia/energia-renovables"))
+TAXONOMY["sustrato/estados-unidos"].append(("telecomunicaciones", "Telecomunicaciones EE.UU. (profundizacion): FCC, banda ancha, 5G, espectro, neutralidad de red, BEAD, vs telecomunicaciones/telecomunicaciones-corporativas"))
+TAXONOMY["sustrato/canada"].append(("energia-nuclear", "Energia nuclear Canada: CNSC, AECL, CANDU, Bruce/Darlington/Point Lepreau, SMR, vs dominio/energia-nuclear"))
+NEW_NODES_ROUND_68 = [
+    ("dominio/criptoactivos", "Criptoactivos / cryptoassets: BTC/ETH, stablecoins, tokenizacion, DeFi, regulacion (SEC/CFTC, Banxico, AMF), tratamiento fiscal, vs blockchain/blockchain-empresarial/finanzas-descentralizadas"),
+    ("dominio/finanzas-corporativas-operaciones", "Finanzas corporativas (operaciones): cierres, consolidacion, reporting, relaciones con inversionistas, vs finanzas-corporativas/finanzas-corporativas-analisis/treasury"),
+    ("dominio/gestion-de-la-cadena-de-valor", "Gestion de la cadena de valor / value chain management: upstream/downstream, analisis de valor, outsourcing de cadena, vs cadena-de-valor/cadena-suministro"),
+    ("dominio/economia-del-transporte", "Economia del transporte / transport economics: modos, costos de transporte, externalidades, tarifacion, vs transporte/movilidad/logistica-urbana"),
+    ("dominio/derecho-de-la-competencia-internacional", "Derecho de la competencia internacional: cooperacion antitrust transnacional, OCDE, acuerdos multilaterales, vs defensa-antimonopolio/derecho-de-la-competencia/politica-comercial"),
+    ("dominio/capital-privado", "Capital privado / private equity (profundizacion): fundraising, LBO, exit (IPO/trade sale), gestores de fondos, vs capital-riesgo/banca-de-inversion"),
+    ("rol/head-of-customer-lifecycle-marketing", "Head of Customer Lifecycle Marketing: onboarding, retencion, reactivacion, churn, automatizacion de lifecycle, vs head-of-customer-marketing/customer-success"),
+    ("rol/head-of-sales-enablement-strategy", "Head of Sales Enablement (profundizacion): estrategia de enablement, playbooks, contenido, coaching, tech stack, vs sales-enablement/sales-manager"),
+    ("rol/head-of-engineering-productivity", "Head of Engineering Productivity: developer productivity, DORA metrics, tooling interno, vs head-of-platform-engineering/head-of-engineering-excellence"),
+    ("rol/head-of-corporate-strategy", "Head of Corporate Strategy: estrategia corporativa, M&A screening, business development, planning, vs head-of-strategy/chief-strategy-officer"),
+]
+NEW_NODES = NEW_NODES_ROUND_68
+
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

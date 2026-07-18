@@ -2367,20 +2367,57 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - **Round 66 COMPLETO (4/4 temas).** Cola Round 66 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 67 o pausar.
 
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 969** (Round 66: 959; Round 67: 969/10 nuevas). |
-| **Rondas:** 67 completas (Round 1..67). |
-| **Nodos sustrato (NA):** México 82 (+politica-exterior), EE.UU. 68 (+poder-legislativo), Canadá 61 (+justicia-penal). |
-| **Nodos dominio:** ~249 (Round 67 +5: salud-digital, psicologia, seguridad-alimentaria-mexico, evaluacion-de-impacto, bioeconomia). |
-| **Nodos rol:** ~232 (Round 67 +4: clinical-affairs, regulatory-affairs, sales-development, product-design). |
+| **Tópicos ingeridos (acumulado): 981** (Round 67: 969; Round 68: 981/12 nuevas). |
+| **Rondas:** 68 completas (Round 1..68). |
+| **Nodos sustrato (NA):** México 83 (+energia-electrica), EE.UU. 68, Canadá 62 (+energia-nuclear). |
+| **Nodos dominio:** ~255 (Round 68 +6: criptoactivos, capital-privado, finanzas-corporativas-operaciones, gestion-de-la-cadena-de-valor, economia-del-transporte, derecho-de-la-competencia-internacional). |
+| **Nodos rol:** ~236 (Round 68 +4: customer-lifecycle-marketing, sales-enablement-strategy, engineering-productivity, corporate-strategy). |
 | **Organización:** 1 (ejemplo-empresa / NovaTech). |
 | **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
-| **Iteraciones totales:** 205. |
+| **Iteraciones totales:** 206. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 205 (Round 67 COMPLETA — 10/10 ingestados e integrados). |
-| - **Última ação:** Round 67 iter 205 — gap_analysis.py (iter 205) reportó 1 hueco real (estados-unidos/vivienda) + 9 nodos nuevos; 3 deepenings planificados ya existían (dedup a 1 sustrato real). Ingestó 10 páginas (1 sustrato + 5 dominio + 4 rol) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening EE.UU.). |
+| - **Iteración actual:** 206 (Round 68 COMPLETA — 12/12 ingestados e integrados). |
+| - **Última ação:** Round 68 iter 206 — gap_analysis.py (iter 205) reportó 0 huecos reales → taxonomía extendida Round 68 (3 deepenings NA + 10 nodos nuevos). 2 deepenings ya existían (estados-unidos/telecomunicaciones) → dedup a 12 reales (2 sustrato + 10 dominio/rol). Ingestó 12 páginas con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 CA). |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 67 COMPLETA (10/10). |
+| - **Cola:** Round 68 COMPLETA (12/12). |
 
 ## ▶️ PRÓXIMA TAREFA
-- Round 67 COMPLETA (10 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 68) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
+- Round 68 COMPLETA (12 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 69) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
+
+## ✅ COLA ROUND 68 — COMPLETA (12/12 páginas nuevas)
+> gap_analysis.py (iter 205) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 68 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol. Nota: `estados-unidos/telecomunicaciones` (deepening) ya existía como página plana (Round 50) → 2 sustrato reales (mexico/energia-electrica, canada/energia-nuclear) + 10 sugerencias reales de NEW_NODES_ROUND_68.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/energia-electrica.md — Energía eléctrica México (SENER/CENACE/CRE, CFE, prevalencia 54% Estado, Plan 2025-2030, tarifas, 6 esquemas privados)
+- [x] sustrato/canada/energia-nuclear.md — Energía nuclear Canadá (CNSC, CANDU, refurbishment hasta 2064, SMR Darlington ~2030, +4.8 GW Bruce)
+### Dominio (nuevos nodos)
+- [x] dominio/criptoactivos.md — Criptoactivos (BTC/ETH, stablecoins, DeFi, tokenización, SEC/CFTC 2026, Banxico/AMF)
+- [x] dominio/capital-privado.md — Capital privado (LBO, GP/LP, J-curve, IRR/MOIC, exit)
+- [x] dominio/finanzas-corporativas-operaciones.md — Finanzas corporativas (operaciones): cierres, consolidación, reporting, IR, tesorería
+- [x] dominio/gestion-de-la-cadena-de-valor.md — Gestión de la cadena de valor (Porter, actividades primarias/soporte, margen, VCM)
+- [x] dominio/economia-del-transporte.md — Economía del transporte (modos, redes, costos, congestión, externalidades)
+- [x] dominio/derecho-de-la-competencia-internacional.md — Derecho de la competencia internacional (OCDE/ICN, cooperación antitrust, fusiones multijurisdiccionales)
+### Rol (nuevos nodos)
+- [x] rol/head-of-customer-lifecycle-marketing.md — Head of Customer Lifecycle Marketing (onboarding, retención, churn, automatización)
+- [x] rol/head-of-sales-enablement-strategy.md — Head of Sales Enablement (deepening: enablement, playbooks, coaching, tech stack)
+- [x] rol/head-of-engineering-productivity.md — Head of Engineering Productivity (DORA, devtooling, DevEx)
+- [x] rol/head-of-corporate-strategy.md — Head of Corporate Strategy (estrategia corporativa, M&A screening, BD, planning)
+
+### ITER 206 — Round 68 (2026-07-18)
+- gap_analysis.py (iter 205) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 68 (scripts/gap_analysis.py): 3 deepenings NA (sustrato/mexico/energia-electrica, sustrato/estados-unidos/telecomunicaciones — ya existía, sustrato/canada/energia-nuclear) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_68). Dedup a 12 sugerencias reales (2 sustrato + 10 dominio/rol).
+- 12 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] `sustrato/mexico/energia-electrica.md` (nuevo en nodo): SENER/CENACE/CRE, CFE, mercado eléctrico, prevalencia 54% Estado, Plan 2025-2030 (624,618 mdp), tarifas, 6 esquemas de participación privada, almacenamiento.
+  - [sustrato] `sustrato/canada/energia-nuclear.md` (nuevo en nodo): CNSC, CANDU (OPG/Bruce/Point Lepreau), refurbishment MCR hasta 2064, SMR (Darlington ~2030, +4.8 GW Bruce).
+  - [dominio] `dominio/criptoactivos.md` (nuevo nodo): BTC/ETH, stablecoins, DeFi, tokenización, SEC/CFTC interpretación conjunta 2026, Banxico/AMF.
+  - [dominio] `dominio/capital-privado.md` (nuevo nodo): LBO 60-70% deuda, GP/LP, J-curve, IRR/MOIC, exit (IPO/trade sale), benchmark 13.7% net IRR.
+  - [dominio] `dominio/finanzas-corporativas-operaciones.md` (nuevo nodo): cierres, consolidación, reporting, relaciones con inversionistas, tesorería.
+  - [dominio] `dominio/gestion-de-la-cadena-de-valor.md` (nuevo nodo): Porter 1985, actividades primarias/soporte, margen, VCM.
+  - [dominio] `dominio/economia-del-transporte.md` (nuevo nodo): modos, redes, costos, congestión, externalidades, tarificación.
+  - [dominio] `dominio/derecho-de-la-competencia-internacional.md` (nuevo nodo): OCDE/ICN, cooperación antitrust, revisiones de fusión paralelas, carteles, extraterritorialidad.
+  - [rol] `rol/head-of-customer-lifecycle-marketing.md` (nuevo nodo): onboarding, retención, reactivación, churn, automatización lifecycle, vs customer-marketing/CS.
+  - [rol] `rol/head-of-sales-enablement-strategy.md` (nuevo nodo): estrategia de enablement, playbooks, contenido, coaching, tech stack de ventas.
+  - [rol] `rol/head-of-engineering-productivity.md` (nuevo nodo): métricas DORA, devtooling interno, DevEx, reducción de fricción.
+  - [rol] `rol/head-of-corporate-strategy.md` (nuevo nodo): estrategia corporativa, M&A screening, business development, planning, vs CSO/corporate-development.
+- Reference-only (Wikipedia EN + autoridades sectoriales: IMCO, Proyectos México/Banobras, CNSC, CNA, SEC/CFTC, Cambridge Associates; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 CA).
+- **Round 68 COMPLETO (12/12 temas).** Cola Round 68 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 69 o pausar.

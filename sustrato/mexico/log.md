@@ -230,3 +230,7 @@ Prefijo: `## [YYYY-MM-DD] <tipo> | <título>` (parseable: `grep "^## \[" log.md`
 ## [2026-07-17] ingest | Defensa de Mexico
 - Fuentes: gob.mx/defensa, gob.mx/sem mar — reference-only (sin raw/).
 - Pagina: defensa.md. SEDENA/SEMAR, Fuerzas Armadas, Guardia Nacional, industria de defensa, LSN. Cross-ref seguridad-nacional, seguridad-publica. Confianza alta.
+
+## [2026-07-18] ingest | Energía eléctrica de México (Round 68)
+- Fuentes: IMCO (2025-10-14, reglamentos leyes secundarias, prevalencia 54%, planeación vinculante) + Proyectos México/Banobras (jul 2026, Plan 2025-2030) — reference-only (sin raw/).
+- Página: energia-electrica.md. SENER/CENACE/CRE/CFE, mercado eléctrico, prevalencia estatal 54%, Plan Fortalecimiento 2025-2030 (624,618 mdp), tarifas, 6 esquemas de participación privada, almacenamiento. Cross-ref energia, energia-renovables, dominio/energia-electrica. Confianza alta.

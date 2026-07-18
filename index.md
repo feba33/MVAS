@@ -246,6 +246,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [finanzas-corporativas](dominio/finanzas/finanzas-corporativas.md) — Finanzas corporativas: M&A, valoración, tesorería/liquidez · 🏷️ finanzas-corporativas,mna,valoracion,tesoreria · 📅 2026-07-10
 - [finanzas-ventas](dominio/finanzas-ventas.md) — Finanzas de ventas: crédito al consumo, leasing, BNPL, subprime auto · 🏷️ finanzas,finanzas-de-ventas,credito-al-consumo,leasing,bnpl,subprime-auto · 📅 2026-07-16
 - [tecnologia-financiera](dominio/tecnologia-financiera.md) — Tecnología financiera aplicada: neobancos, wealthtech, embedded lending · 🏷️ fintech,tecnologia-financiera,neobancos,wealthtech,embedded-lending,embedded-finance · 📅 2026-07-16
+- [criptoactivos](dominio/criptoactivos.md) — Criptoactivos: BTC/ETH, stablecoins, DeFi, tokenización, SEC/CFTC 2026, Banxico/AMF · 🏷️ criptoactivos,cryptoassets,bitcoin,ethereum,stablecoins,defi,tokenizacion,sec,cftc,regulacion-cripto · 📅 2026-07-18
+- [capital-privado](dominio/capital-privado.md) — Capital privado (PE): LBO, GP/LP, J-curve, IRR/MOIC, exit (IPO/trade sale) · 🏷️ capital-privado,private-equity,lbo,leveraged-buyout,fondos,lp,gp,exit,apalancamiento · 📅 2026-07-18
+- [finanzas-corporativas-operaciones](dominio/finanzas-corporativas-operaciones.md) — Finanzas corporativas (operaciones): cierres, consolidación, reporting, IR, tesorería · 🏷️ finanzas-corporativas,financial-management,cierres,consolidacion,reporting,relaciones-inversionistas,tesoreria · 📅 2026-07-18
 
 ### dominio/computacion
 - [paradigmas](dominio/computacion/paradigmas.md) — Paradigmas de programación · 🏷️ paradigmas · 📅 2026-07-09
@@ -276,6 +279,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [derecho-societario](dominio/leyes/derecho-societario.md) — Derecho societario + gobierno corporativo: SA/SAPI/SAS, consejo · 🏷️ leyes,societario,gobierno-corporativo · 📅 2026-07-10
 - [derecho-laboral](dominio/leyes/derecho-laboral.md) — Derecho laboral LFT (prof.): outsourcing/REPSE, jornada, rescisión · 🏷️ leyes,laboral,lft,outsourcing · 📅 2026-07-10
 - [derecho-laboral-colectivo](dominio/derecho-laboral-colectivo.md) — Derecho laboral colectivo: negociación colectiva, sindicatos, huelga, contratos; MX/US/CA · 🏷️ derecho-laboral,colectivo,sindicatos,negociacion-colectiva,huelga,contratacion-colectiva · 📅 2026-07-16
+- [derecho-de-la-competencia-internacional](dominio/derecho-de-la-competencia-internacional.md) — Derecho de la competencia internacional: OCDE/ICN, cooperación antitrust, fusones multijurisdiccional, carteles · 🏷️ derecho-de-la-competencia,antitrust,internacional,ocde,icn,cooperacion,transnacional,fusiones,carteles · 📅 2026-07-18
 - [cumplimiento-regulacion](dominio/leyes/cumplimiento-regulacion.md) — Cumplimiento y regulación: ISO 37301, compliance · 🏷️ leyes,cumplimiento,compliance,iso-37301 · 📅 2026-07-10
 
 ### dominio/juridico
@@ -311,6 +315,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/operaciones
 - [operaciones](dominio/operaciones/operaciones.md) — Operaciones: supply chain, lean, Six Sigma · 🏷️ operaciones,lean · 📅 2026-07-09
+- [gestion-de-la-cadena-de-valor](dominio/gestion-de-la-cadena-de-valor.md) — Gestión de la cadena de valor: Porter, actividades primarias/soporte, margen, VCM · 🏷️ cadena-de-valor,value-chain,porter,ventaja-competitiva,actividades-primarias,actividades-de-soporte,analisis · 📅 2026-07-18
 
 ### dominio/sostenibilidad
 - [esg-marco](dominio/sostenibilidad/esg-marco.md) — ESG y reporting: CSRD, GRI, SASB, TCFD, ISSB · 🏷️ esg,sostenibilidad,csrd,reporting · 📅 2026-07-09
@@ -330,6 +335,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/economia
 - [macroeconomia](dominio/economia/macroeconomia.md) — PIB, inflación, desempleo, política monetaria, bancos centrales · 🏷️ economia,macroeconomia,pib,inflacion,banco-central · 📅 2026-07-10
 - [indicadores-ciclo-fiscal](dominio/economia/indicadores-ciclo-fiscal.md) — Política fiscal, déficit/deuda, indicadores clave, ciclo económico · 🏷️ economia,politica-fiscal,ciclo-economico,indicadores · 📅 2026-07-10
+- [economia-del-transporte](dominio/economia-del-transporte.md) — Economía del transporte: modos, redes, costos, congestión, externalidades, tarificación · 🏷️ economia-del-transporte,transport-economics,modos,externalidades,tarifacion,congestio,redes,bienes-publicos · 📅 2026-07-18
 
 ### dominio/estadistica
 - [estadistica-ciencia-datos](dominio/estadistica/estadistica-ciencia-datos.md) — Estadística descriptiva, probabilidad, inferencia, ciencia de datos · 🏷️ estadistica,probabilidad,inferencia,data-science · 📅 2026-07-10
@@ -637,6 +643,10 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/chief-pricing-officer
 - [chief-pricing-officer](rol/chief-pricing-officer/chief-pricing-officer.md) — Chief Pricing Officer: estrategia de precios, elasticidad, monetización, discount governance · 🏷️ pricing,precios,elasticidad,monetizacion,packaging,list-price · 📅 2026-07-12
+- [head-of-corporate-strategy](rol/head-of-corporate-strategy.md) — Head of Corporate Strategy: estrategia corporativa, M&A screening, business development, planning · 🏷️ head-of-corporate-strategy,corporate-strategy,estrategia-corporativa,m-and-a-screening,business-development,planning · 📅 2026-07-18
+- [head-of-customer-lifecycle-marketing](rol/head-of-customer-lifecycle-marketing.md) — Head of Customer Lifecycle Marketing: onboarding, retención, reactivación, churn, automatización · 🏷️ head-of-customer-lifecycle-marketing,lifecycle-marketing,onboarding,retencion,churn,reactivacion,automatizacion,cx · 📅 2026-07-18
+- [head-of-sales-enablement-strategy](rol/head-of-sales-enablement-strategy.md) — Head of Sales Enablement (deepening): estrategia de enablement, playbooks, coaching, contenido, tech stack · 🏷️ head-of-sales-enablement,sales-enablement,playbooks,coaching,contenido,tech-stack,productividad-ventas · 📅 2026-07-18
+- [head-of-engineering-productivity](rol/head-of-engineering-productivity.md) — Head of Engineering Productivity: métricas DORA, devtooling, DevEx, reducción de fricción · 🏷️ head-of-engineering-productivity,developer-productivity,dora-metrics,devtooling,devex,plataforma-interna · 📅 2026-07-18
 
 ### dominio/ciudades-inteligentes
 - [ciudades-inteligentes](dominio/ciudades-inteligentes/ciudades-inteligentes.md) — Ciudades inteligentes: IoT urbano, movilidad, datos, sostenibilidad, gobernanza · 🏷️ ciudades-inteligentes,smart-city,iot,movilidad,datos-urbanos,sostenibilidad,gobernanza-urbana · 📅 2026-07-12
