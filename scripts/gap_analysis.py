@@ -1247,6 +1247,34 @@ NEW_NODES_ROUND_71 = [
 ]
 NEW_NODES = NEW_NODES_ROUND_71
 
+# Round 72 (iter 210) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("seguridad-cibernetica", "Seguridad cibernetica Mexico: coordinacion cibernetica (CSIRT Mexico, Segob), estrategia nacional de ciberseguridad, incidentes, vs seguridad-nacional/seguridad-publica"))
+TAXONOMY["sustrato/estados-unidos"].append(("telecomunicaciones-cloud", "Telecomunicaciones en la nube EE.UU. (profundizacion): FCC, cloud connectivity, neutralidad, despliegue de redes nativas de cloud, espectro compartido, vs telecomunicaciones/telecomunicaciones-corporativas"))
+TAXONOMY["sustrato/canada"].append(("energia-renovables", "Energia renovable Canada (profundizacion): hydro, eolica, solar, almacenamiento, transicion, provincial utilities, vs energia/energia-electrica"))
+NEW_NODES_ROUND_72 = [
+    ("dominio/teoria-monetaria", "Teoria monetaria / monetary theory: oferta/demanda de dinero, multiplicador, canales de transmision, monetarismo vs keynesianismo, neutralidad, inflacion; vs politica-monetaria(sustrato)/banca-central"),
+    ("dominio/politica-industrial", "Politica industrial / industrial policy: subsidios, aranceles, seleccion de ganadores, clusters, nearshoring, CHIPS/IRA (US), PROSEC (MX), vs competitividad-empresarial/estrategia"),
+    ("dominio/economia-del-turismo", "Economia del turismo / tourism economics: demanda turistica, multiplicador, turismo internacional, sostenibilidad, vs turismo(sustrato)/sector-servicios"),
+    ("dominio/derecho-del-entretenimiento", "Derecho del entretenimiento / entertainment law: derechos de autor en medios, contratos de talento, licensing, deportes/musica/cine, vs derecho-de-las-telecomunicaciones/derecho-civil"),
+    ("dominio/gestion-de-la-calidad-software", "Gestion de la calidad de software / software quality: SQA, testing strategy, calidad de codigo, defectos, SLA de calidad, vs testing-qa/calidad"),
+    ("dominio/ciberseguridad-de-ot", "Ciberseguridad OT / operational technology security (profundizacion): ICS/SCADA, NERC CIP, ISA/IEC 62443, IVA/IACS, plantas/redes industriales, vs ciberseguridad-industrial/ciberdefensa"),
+    ("dominio/biometria-financiera", "Biometria financiera / financial biometrics: KYC biometrico, autenticacion, identidad digital, fraude, regulacion (GDPR/biometric bans), vs biometria/proteccion-de-datos/fintech"),
+    ("dominio/movilidad-electrica", "Movilidad electrica / e-mobility (profundizacion): EVs, cargadores, V2G, baterias, politica de movilidad, vs electromovilidad/energia-distribuida"),
+    ("dominio/servicios-de-consultoria-it", "Servicios de consultoria IT / IT consulting: integradores, SI, advisory, outsourcing de TI, modelos de entrega, vs consultoria/servicios-profesionales"),
+    ("dominio/gestion-de-la-demanda-energetica", "Gestion de la demanda energetica / demand-side management: eficiencia, DSM, respuesta a la demanda, smart grid, vs energia/energia-distribuida"),
+    ("rol/head-of-payments", "Head of Payments: esquemas/rails (cards, ACH, RTP/FedNow/PIX), clearing/settlement, PSPs, fraud payments, vs pagamentos/finanzas-de-tesoreria/treasurer"),
+    ("rol/head-of-corporate-development-strategy", "Head of Corporate Development (profundizacion estrategica): M&A, due diligence, capital allocation, scouting, vs head-of-corporate-development/head-of-strategy-and-ops"),
+    ("rol/head-of-mobile-product", "Head of Mobile Product: producto movil (iOS/Android), app growth, release, performance, vs head-of-digital-product/head-of-product"),
+    ("rol/head-of-commercial-excellence", "Head of Commercial Excellence: enablement comercial, pricing, go-to-market, analitica de ventas, vs head-of-sales-effectiveness/chief-commercial-officer"),
+    ("rol/head-of-customer-ops-strategy", "Head of Customer Operations Strategy: CX ops, order-to-cash, billing/support ops, eficiencia de servicio, vs head-of-customer-ops/customer-success-strategy"),
+    ("rol/head-of-data-governance", "Head of Data Governance: calidad, linaje, politica y compliance de datos, privacidad by design, vs data-governance-lead/chief-data-officer/gobierno-de-datos"),
+    ("rol/head-of-workforce-experience-strategy", "Head of Workforce Experience (estrategia): EX del empleado, bienestar, engagement, journey del empleado, vs head-of-workforce-experience/head-of-people"),
+    ("rol/head-of-brand-strategy", "Head of Brand Strategy: estrategia de marca, posicionamiento, arquitectura de marca, vs head-of-brand/chief-brand-officer"),
+    ("rol/head-of-ai-strategy", "Head of AI Strategy: estrategia de adopcion de IA/ML, roadmaps de modelos, governance, vs head-of-ai/chief-ai-officer"),
+    ("rol/head-of-risk-and-controls", "Head of Risk & Controls: riesgo operativo + controles (1st/2nd line), SOX, ICFR, vs head-of-risk-and-compliance/chief-risk-officer"),
+]
+NEW_NODES = NEW_NODES_ROUND_72
+
 
 
 def existing_pages(node: str) -> set:

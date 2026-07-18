@@ -1467,6 +1467,15 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### sustrato/canada (deepening R52)
 - [ciudadania](sustrato/canada/ciudadania.md) — Ciudadanía Canadá: Citizenship Act, IRCC, naturalización, juramento, doble ciudadanía; vs inmigracion · 🏷️ canada,ciudadania,citizenship,ircc,naturalizacion,jus-soli · 📅 2026-07-16
 
+### sustrato/mexico (deepening R72)
+- [seguridad-cibernetica](sustrato/mexico/seguridad-cibernetica.md) — Seguridad cibernética México: CSIRT México, Estrategia Nacional, incidentes, vs seguridad-nacional · 🏷️ mexico,ciberseguridad,seguridad-nacional,csirt,gobierno · 📅 2026-07-18
+
+### sustrato/estados-unidos (deepening R72)
+- [telecomunicaciones-cloud](sustrato/estados-unidos/telecomunicaciones-cloud.md) — Telecomunicaciones en la nube EE.UU.: FCC, cloud connectivity, espectro compartido, BEAD · 🏷️ eeuu,telecomunicaciones,cloud,fcc,espectro,banda-ancha · 📅 2026-07-18
+
+### sustrato/canada (deepening R72)
+- [energia-renovables](sustrato/canada/energia-renovables.md) — Energía renovable Canadá: hidro, eólica, solar, almacenamiento, Clean Electricity Regulations · 🏷️ canada,energia,renovables,hidro,eolica,solar,transicion · 📅 2026-07-18
+
 ### dominio/gestion-de-crisis
 - [gestion-de-crisis](dominio/gestion-de-crisis.md) — Gestión de crisis / Crisis Management: BCM (ISO 22301), crisis comms, resiliencia; vs seguridad-corporativa/comunicacion-corporativa · 🏷️ gestion-de-crisis,crisis-management,bcm,iso-22301,comunicacion-crisis · 📅 2026-07-15
 
@@ -1931,4 +1940,28 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-application-security](rol/head-of-application-security.md) — Head of Application Security: lidera AppSec (SDLC seguro, SAST/DAST, threat modeling), vs security-engineer · head-of-application-security,appsec,security,liderazgo,devsecops · 2026-07-18
 - [head-of-capital-markets](rol/head-of-capital-markets.md) — Head of Capital Markets: levantamiento de capital (ECM/DCM), relación banca de inversión, cotización · head-of-capital-markets,capital-markets,ecm,dcm,levantamiento-capital · 2026-07-18
 - [head-of-tax-strategy](rol/head-of-tax-strategy.md) — Head of Tax Strategy: planificación fiscal internacional, estructura de grupo, precios de transferencia, M&A tax · head-of-tax-strategy,tax,fiscal,precios-transferencia,internacional,manda-tax · 2026-07-18
+
+### dominio Round 72 (nuevos)
+- [teoria-monetaria](dominio/teoria-monetaria.md) — Teoría monetaria: MV=PQ, oferta/demanda de dinero, monetarismo vs keynesianismo, inflación · teoria-monetaria,oferta-monetaria,inflacion,bancos-centrales,monetarismo · 2026-07-18
+- [politica-industrial](dominio/politica-industrial.md) — Política industrial: subsidios, aranceles, nearshoring, CHIPS/IRA, PROSEC · politica-industrial,subsidios,aranceles,nearshoring,competitividad,clusters · 2026-07-18
+- [economia-del-turismo](dominio/economia-del-turismo.md) — Economía del turismo: multiplicador, turismo internacional, sostenibilidad (UNWTO/WTTC) · economia-del-turismo,turismo,multiplicador,sostenibilidad · 2026-07-18
+- [derecho-del-entretenimiento](dominio/derecho-del-entretenimiento.md) — Derecho del entretenimiento: derechos de autor, contratos de talento, licensing, deportes/música/cine · derecho-del-entretenimiento,derechos-autor,licensing,deportes,musica · 2026-07-18
+- [gestion-de-la-calidad-software](dominio/gestion-de-la-calidad-software.md) — Gestión de la calidad de software: SQA, testing strategy, calidad de código, defectos, SLA · calidad-software,sqa,testing,defectos,sla · 2026-07-18
+- [ciberseguridad-de-ot](dominio/ciberseguridad-de-ot.md) — Ciberseguridad OT: ICS/SCADA, NERC CIP, ISA/IEC 62443, redes industriales · ciberseguridad-ot,ics,scada,62443,nerc-cip,industrias · 2026-07-18
+- [biometria-financiera](dominio/biometria-financiera.md) — Biometría financiera: KYC biométrico, autenticación, identidad digital, fraude, GDPR · biometria-financiera,kyc,autenticacion,identidad-digital,fraude · 2026-07-18
+- [movilidad-electrica](dominio/movilidad-electrica.md) — Movilidad eléctrica: EV, cargadores, V2G, baterías, política de movilidad · movilidad-electrica,ev,carga,v2g,baterias,electromovilidad · 2026-07-18
+- [servicios-de-consultoria-it](dominio/servicios-de-consultoria-it.md) — Servicios de consultoría IT: integradores, SI, advisory, outsourcing de TI · consultoria-it,integradores,si,advisory,outsourcing-ti · 2026-07-18
+- [gestion-de-la-demanda-energetica](dominio/gestion-de-la-demanda-energetica.md) — Gestión de la demanda energética: DSM, eficiencia, demand response, smart grid · gestion-de-la-demanda-energetica,dsm,eficiencia,demand-response,smart-grid · 2026-07-18
+
+### rol Round 72 (nuevos)
+- [head-of-payments](rol/head-of-payments.md) — Head of Payments: rails (cards/ACH/RTP/FedNow/PIX), clearing/settlement, PSPs, fraud payments · head-of-payments,payments,rails,clearing,settlement,psp · 2026-07-18
+- [head-of-corporate-development-strategy](rol/head-of-corporate-development-strategy.md) — Head of Corporate Development: M&A, due diligence, capital allocation, scouting · head-of-corporate-development,manda,due-diligence,capital-allocation,scouting · 2026-07-18
+- [head-of-mobile-product](rol/head-of-mobile-product.md) — Head of Mobile Product: producto móvil (iOS/Android), app growth, release, performance · head-of-mobile-product,producto-movil,ios,android,app-growth · 2026-07-18
+- [head-of-commercial-excellence](rol/head-of-commercial-excellence.md) — Head of Commercial Excellence: enablement comercial, pricing, GTM, analítica de ventas · head-of-commercial-excellence,enablement,pricing,gtm,analitica-ventas · 2026-07-18
+- [head-of-customer-ops-strategy](rol/head-of-customer-ops-strategy.md) — Head of Customer Operations Strategy: CX ops, order-to-cash, billing/support ops · head-of-customer-ops,cx-ops,order-to-cash,billing,support-ops · 2026-07-18
+- [head-of-data-governance](rol/head-of-data-governance.md) — Head of Data Governance: calidad, linaje, política y compliance de datos, privacidad by design · head-of-data-governance,calidad-datos,linaje,compliance-datos,privacidad · 2026-07-18
+- [head-of-workforce-experience-strategy](rol/head-of-workforce-experience-strategy.md) — Head of Workforce Experience: EX del empleado, bienestar, engagement, journey · head-of-workforce-experience,ex-empleado,bienestar,engagement,journey · 2026-07-18
+- [head-of-brand-strategy](rol/head-of-brand-strategy.md) — Head of Brand Strategy: posicionamiento, arquitectura de marca, narrativa · head-of-brand-strategy,estrategia-marca,posicionamiento,arquitectura-marca · 2026-07-18
+- [head-of-ai-strategy](rol/head-of-ai-strategy.md) — Head of AI Strategy: adopción de IA/ML, roadmaps de modelos, governance · head-of-ai-strategy,estrategia-ia,adopcion-ia,governance-ia,roadmaps · 2026-07-18
+- [head-of-risk-and-controls](rol/head-of-risk-and-controls.md) — Head of Risk & Controls: riesgo operativo + controles (SOX/ICFR), COSO · head-of-risk-and-controls,riesgo-operativo,controles,sox,icfr · 2026-07-18
 - [head-of-product-design](rol/head-of-product-design/head-of-product-design.md) — Head of Product Design: UX/UI/interaction, design system, research embed; vs head-of-design/head-of-ux · head-of-product-design,product-design,ux,ui,design-system,research · 2026-07-18
