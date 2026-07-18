@@ -1438,6 +1438,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### sustrato/estados-unidos (deepening R52)
 - [derechos-civiles](sustrato/estados-unidos/derechos-civiles.md) — Derechos civiles EE.UU.: Civil Rights Act, DOJ CRT, EEOC, voting rights, discriminación; vs seguridad-publica/poder-judicial · 🏷️ eeuu,derechos-civiles,civil-rights,doj,eeoc,voting-rights,discriminacion · 📅 2026-07-16
 
+- [vivienda](sustrato/estados-unidos/vivienda.md) — Vivienda EE.UU.: Fannie Mae/Freddie Mac (GSE), FHA/HUD, MBS, mercado inmobiliario, vivienda asequible; vs vivienda-real-estate · eeuu,vivienda,housing,fannie-mae,freddie-mac,fha,hud,mbs · 2026-07-18
 ### sustrato/canada (deepening R52)
 - [ciudadania](sustrato/canada/ciudadania.md) — Ciudadanía Canadá: Citizenship Act, IRCC, naturalización, juramento, doble ciudadanía; vs inmigracion · 🏷️ canada,ciudadania,citizenship,ircc,naturalizacion,jus-soli · 📅 2026-07-16
 
@@ -1855,8 +1856,18 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [ciberseguridad-vehicular](dominio/ciberseguridad-vehicular.md) - Ciberseguridad vehicular: ISO/SAE 21434, UN R155/R156, ECU, V2X | ciberseguridad-vehicular,iso-sae-21434,un-r155,ecu,v2x | 2026-07-17
 - [reciclaje](dominio/reciclaje.md) - Reciclaje: plastico, papel, metal, e-waste, EPR, economia circular | reciclaje,economia-circular,residuos,plastico,epr | 2026-07-17
 
+- [salud-digital](dominio/salud-digital/salud-digital.md) — Salud digital: telemedicina, wearables, EHR, interoperabilidad HL7/FHIR, IA en salud, regulacion FDA/COFEPRIS/Health Canada · salud-digital,digital-health,telemedicina,fhir,ehr,ia-salud · 2026-07-18
+- [psicologia](dominio/psicologia/psicologia.md) — Psicologia (disciplina): cognitiva, clinica, organizacional, del consumidor, neurociencia; vs neurociencia/comportamiento-del-consumidor · psicologia,cognitiva,clinica,organizacional,consumidor · 2026-07-18
+- [seguridad-alimentaria-mexico](dominio/seguridad-alimentaria-mexico/seguridad-alimentaria-mexico.md) — Seguridad alimentaria Mexico: SADER/SENASICA, COFEPRIS, inocuidad, trazabilidad, HACCP · seguridad-alimentaria,mexico,senasica,cofepris,inocuidad,haccp · 2026-07-18
+- [evaluacion-de-impacto](dominio/evaluacion-de-impacto/evaluacion-de-impacto.md) — Evaluacion de impacto: contrafactual, RCT, dif-en-dif, medicion de politicas; vs analitica-negocio/politica-publica · evaluacion-de-impacto,contrafactual,rct,metodos,politicas-publicas · 2026-07-18
+- [bioeconomia](dominio/bioeconomia/bioeconomia.md) — Bioeconomia: biomasa, bioindustria, biotecnologia aplicada, economia circular biologica · bioeconomia,biomasa,bioindustria,biotecnologia,economia-circular · 2026-07-18
 ### rol Round 64 (nuevos)
 - [head-of-esg](rol/head-of-esg.md) - Head of ESG: estrategia y reporte ESG, GRI/SASB/TCFD/ISSB, materialidad | head-of-esg,esg,reporting,materialidad,sostenibilidad | 2026-07-17
 - [head-of-corporate-venturing](rol/head-of-corporate-venturing.md) - Head of Corporate Venturing: CVC, scouting, co-inversion, incubacion | head-of-corporate-venturing,cvc,venture-capital,innovacion-abierta | 2026-07-17
 - [head-of-clinical-trials](rol/head-of-clinical-trials.md) - Head of Clinical Trials: ejecucion de ensayos, Fases I-IV, enrollment, GCP | head-of-clinical-trials,ensayos-clinicos,farma,biotech | 2026-07-17
 - [head-of-user-research](rol/head-of-user-research.md) - Head of User Research: UX research org, metodos, impacto en producto | head-of-user-research,user-research,ux,descubrimiento | 2026-07-17
+
+- [head-of-clinical-affairs](rol/head-of-clinical-affairs/head-of-clinical-affairs.md) — Head of Clinical Affairs: puente clinico-regulatorio (farma/biotech), evidencia, KOLs; vs head-of-medical-affairs/CMO · head-of-clinical-affairs,clinical-affairs,farma,biotech,evidencia,kol · 2026-07-18
+- [head-of-regulatory-affairs](rol/head-of-regulatory-affairs/head-of-regulatory-affairs.md) — Head of Regulatory Affairs: aprobaciones FDA/EMA/COFEPRIS, CMC, compliance tecnico; vs regulatory-affairs/head-of-regulatory · head-of-regulatory-affairs,regulatory,aprobaciones,fda,ema,cmc · 2026-07-18
+- [head-of-sales-development](rol/head-of-sales-development/head-of-sales-development.md) — Head of Sales Development: lidera SDR/BDR, pipeline temprano, outbound; vs sales-development-representative/sales-manager · head-of-sales-development,sdr,bdr,pipeline,outbound,prospeccion · 2026-07-18
+- [head-of-product-design](rol/head-of-product-design/head-of-product-design.md) — Head of Product Design: UX/UI/interaction, design system, research embed; vs head-of-design/head-of-ux · head-of-product-design,product-design,ux,ui,design-system,research · 2026-07-18

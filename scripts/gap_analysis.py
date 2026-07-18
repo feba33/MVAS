@@ -1148,6 +1148,24 @@ NEW_NODES_ROUND_66 = [
 ]
 NEW_NODES = NEW_NODES_ROUND_66
 
+# Round 67 (iter 205) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("educacion-superior", "Educacion superior Mexico: UNAM/IPN/ANUIES, autonomia, PRODEP, posgrado, investigacion; vs educacion/educacion-basica"))
+TAXONOMY["sustrato/estados-unidos"].append(("vivienda", "Vivienda EE.UU. (profundizacion): Fannie Mae/Freddie Mac, FHA/HUD, MBS, mercado inmobiliario, vivienda asequible; vs vivienda-real-estate"))
+TAXONOMY["sustrato/canada"].append(("comercio-exterior", "Comercio exterior Canada (profundizacion): Global Affairs Canada, exportaciones, USMCA/CUSMA, aranceles, OMC; vs estados-unidos/mexico comercio-exterior"))
+NEW_NODES_ROUND_67 = [
+    ("dominio/salud-digital", "Salud digital / digital health: telemedicina, wearables, apps de salud, historia clinica electronica (EHR), interoperabilidad (HL7/FHIR), IA en salud, regulacion (FDA Digital Health, COFEPRIS, Health Canada); vs telemedicina/medicina-regenerativa"),
+    ("dominio/psicologia", "Psicologia (disciplina de dominio): cognitiva, clinica, organizacional, del consumidor, neurociencia cognitiva, aplicaciones empresariales; vs neurociencia/comportamiento-del-consumidor/salud-mental"),
+    ("dominio/seguridad-alimentaria-mexico", "Seguridad alimentaria Mexico: SADER, SENASICA, COFEPRIS, inocuidad, trazabilidad, HACCP, alimentacion/nutricion nacional; vs agricultura/sector-agroalimentario/nutricion"),
+    ("dominio/gestion-de-la-demanda", "Gestion de la demanda / demand planning: forecasting, S&OP de demanda, pronostico de ventas, vs gestion-de-la-cadena-de-suministro"),
+    ("dominio/evaluacion-de-impacto", "Evaluacion de impacto / impact evaluation: metodos controfactuales (experimentos, dif-en-dif, matching), medicion de politicas, vs analitica-negocio/politica-publica"),
+    ("dominio/bioeconomia", "Bioeconomia: uso sostenible de recursos biologicos, biomasa, bioindustria, economia circular biologica, vs biotecnologia/agronegocios/forestal"),
+    ("rol/head-of-clinical-affairs", "Head of Clinical Affairs: puente clinico-regulatorio (farma/biotech), estrategia de desarrollo clinico, evidencia, KOLs; vs head-of-medical-affairs/chief-medical-officer"),
+    ("rol/head-of-regulatory-affairs", "Head of Regulatory Affairs: lidera asuntos regulatorios, aprobaciones (FDA/EMA/COFEPRIS/Health Canada), CMC, compliance tecnico; vs regulatory-affairs/head-of-regulatory"),
+    ("rol/head-of-sales-development", "Head of Sales Development: lidera SDR/BDR org, pipeline temprano, outbound, paso a AE; vs sales-development-representative/sales-manager"),
+    ("rol/head-of-product-design", "Head of Product Design: lidera diseno de producto (UX/UI/interaction), design system, research embed, vs head-of-design/head-of-ux/product-designer"),
+]
+NEW_NODES = NEW_NODES_ROUND_67
+
 
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
