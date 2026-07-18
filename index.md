@@ -79,6 +79,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [agricultura](sustrato/mexico/agricultura.md) — Agricultura México: SADER, campesinos, seguridad alimentaria, producción, vs EE.UU./Canadá · 🏷️ mexico,agricultura,sader,sector-agropecuario,seguridad-alimentaria · 📅 2026-07-17
 - [politica-fiscal](sustrato/mexico/politica-fiscal.md) — Política fiscal México: SHCP, gasto público, déficit, deuda, estabilización; vs finanzas-publicas/impuestos · 🏷️ mexico,politica-fiscal,shcp,gasto-publico,deuda-publica,deficit,estabilizacion · 📅 2026-07-17
 - [participacion-ciudadana](sustrato/mexico/participacion-ciudadana.md) — Participación ciudadana México: arts. 26/35, consulta popular (40% para ser vinculante), presupuesto participativo, INE/OPL · 🏷️ mexico,participacion-ciudadana,democracia,consulta-popular,presupuesto-participativo,ine · 📅 2026-07-17
+- [sistema-de-justicia](sustrato/mexico/sistema-de-justicia.md) — Sistema de justicia México: FGR/Ministerio Público, defensoría, procuración/administración de justicia, amparo · 🏷️ mexico,sistema-de-justicia,fgr,ministerio-publico,amparo,procuracion-justicia,poder-judicial · 📅 2026-07-18
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -135,6 +136,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [agricultura](sustrato/estados-unidos/agricultura.md) — Agricultura EE.UU.: USDA, Farm Bill, crop insurance (FCIP), subsidies, vs México/Canadá · 🏷️ estados-unidos,agricultura,usda,farm-bill,subsidios,crop-insurance · 📅 2026-07-17
 - [criminalistica](sustrato/estados-unidos/criminalistica.md) — Criminalística EE.UU.: forensic science, FBI/NIST, evidencia, medicina legal, peritaje · 🏷️ estados-unidos,criminalistica,forensic-science,fbi,nist,evidencia,medicina-legal · 📅 2026-07-17
 - [defensa-civil](sustrato/estados-unidos/defensa-civil.md) — Defensa civil EE.UU.: protección de la población, FEMA/DHS, National Response Framework, ciclo de emergencias · 🏷️ estados-unidos,defensa-civil,fema,dhs,emergencias,nrf,gestion-de-crisis · 📅 2026-07-17
+- [defensa-antimonopolio](sustrato/estados-unidos/defensa-antimonopolio.md) — Defensa de la competencia (antitrust) EE.UU.: DOJ Antitrust Division, FTC, Sherman/Clayton Act, merger review (HSR) · 🏷️ estados-unidos,antitrust,competencia,doj,ftc,sherman-act,clayton-act,merger-review · 📅 2026-07-18
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -455,6 +457,17 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/quimica
 - [quimica](dominio/quimica/quimica.md) — Industria química: petroquímica, especialidades, REACH/TSCA · 🏷️ quimica,chemical-industry,petroquimica,especialidades,reach,tsca,fine-chemicals,esg · 📅 2026-07-12
 
+### dominio/arbitraje-comercial
+- [arbitraje-comercial](dominio/arbitraje-comercial.md) — Arbitraje comercial: ADR privado, CAM (México), AAA-ICDR (EE.UU.), ADR Chambers (Canadá), laudo ejecutable · 🏷️ arbitraje-comercial,adr,cam,aaa-icdr,arbitraje-mexico,arbitraje-us,arbitraje-canada,litigio,mediacion · 📅 2026-07-18
+### dominio/ciberseguridad-supply-chain
+- [ciberseguridad-supply-chain](dominio/ciberseguridad-supply-chain.md) — Ciberseguridad de la cadena de suministro: SBOM, SCA, EO 14028, EU CRA, TISAX, terceros/4ª línea · 🏷️ ciberseguridad-supply-chain,sbom,sca,eo-14028,eu-cra,tisax,terceros,riesgo-proveedores · 📅 2026-07-18
+### dominio/macroprudencia
+- [macroprudencia](dominio/macroprudencia.md) — Macroprudencia y estabilidad financiera: buffer contracíclico, FSB, Basilea, riesgo sistémico · 🏷️ macroprudencia,estabilidad-financiera,buffer-contraciclico,fsb,basilea,riesgo-sistemico,regulacion-financiera · 📅 2026-07-18
+### dominio/ciencia-de-materiales-aplicada
+- [ciencia-de-materiales-aplicada](dominio/ciencia-de-materiales-aplicada.md) — Ciencia de materiales aplicada: composites, nanomateriales, baterías solid-state, semiconductores · 🏷️ ciencia-materiales,materiales-avanzados,composites,nanomateriales,baterias-solid-state,semiconductores,manufactura · 📅 2026-07-18
+### dominio/gestion-de-inventarios
+- [gestion-de-inventarios](dominio/gestion-de-inventarios.md) — Gestión de inventarios: EOQ, JIT, MRP, ABC, safety stock, WMS, rotación · 🏷️ gestion-inventarios,eoq,jit,mrp,abc,safety-stock,wms,cadena-suministro,almacenamiento · 📅 2026-07-18
+
 ### dominio/blockchain
 - [blockchain](dominio/blockchain/blockchain.md) — Blockchain/Web3: ledger distribuido, consenso, smart contracts, DAOs, DeFi, tokens · 🏷️ blockchain,distributed-ledger,consensus,smart-contracts,web3,crypto,defi,tokens · 📅 2026-07-12
 ### dominio/etica-ia
@@ -512,6 +525,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [propiedad-intelectual](dominio/propiedad-intelectual/propiedad-intelectual.md) — Propiedad intelectual: patentes, marcas, derechos de autor, licencias · 🏷️ propiedad-intelectual,patentes,marcas,derechos-autor,secretos-comerciales,licencias · 📅 2026-07-12
 
 ### rol/
+- [head-of-information-technology](rol/head-of-information-technology.md) — Head of IT / IT Director: operación TI, infraestructura, service desk, presupuesto TI · 🏷️ head-of-information-technology,it-director,operacion-ti,infraestructura,service-desk,cio,presupuesto-ti,rol · 📅 2026-07-18
+- [head-of-credit-risk](rol/head-of-credit-risk.md) — Head of Credit Risk: PD/LGD/EAD, provisiones/impairment, límites, morosidad (Basilea/IFRS 9) · 🏷️ head-of-credit-risk,riesgo-credito,pd,lgd,ead,provisiones,morosidad,basilea,rol · 📅 2026-07-18
+- [head-of-field-marketing](rol/head-of-field-marketing.md) — Head of Field Marketing: marketing regional/territorial, eventos, co-marketing con partners · 🏷️ head-of-field-marketing,field-marketing,marketing-regional,eventos,co-marketing,partner-marketing,rol · 📅 2026-07-18
 - [product-lead](rol/product-lead/product-lead.md) — Product Lead/PM: visión, roadmap, discovery · 🏷️ product · 📅 2026-07-09
 - [controller](rol/controller/controller.md) — Controller (controlador financiero): reporting, cierre, GAAP, SOX · 🏷️ controller,contraloria,reporting,gaap,sox · 📅 2026-07-11
 - [project-manager](rol/project-manager/project-manager.md) — Project Manager: alcance, equipo, riesgos, stakeholders, ciclo de vida · 🏷️ project-manager,pmp,pmbok,agile,scrum · 📅 2026-07-11

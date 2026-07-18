@@ -1111,6 +1111,24 @@ NEW_NODES_ROUND_64 = [
 ]
 NEW_NODES = NEW_NODES_ROUND_64
 
+# Round 65 (iter 203) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("sistema-de-justicia", "Sistema de justicia Mexico: Ministerio Publico (FGR), defensoria, procuracion/administracion de justicia, juicio de amparo, vs poder-judicial/seguridad-publica/criminalistica"))
+TAXONOMY["sustrato/estados-unidos"].append(("defensa-antimonopolio", "Antitrust EE.UU.: DOJ Antitrust Division, FTC, Sherman/Clayton Act, merger review (HSR), vs competencia/sector-tecnologia"))
+TAXONOMY["sustrato/canada"].append(("politica-monetaria", "Politica monetaria Canada (profundizacion): Bank of Canada, tasa de politica, inflation targeting 2%, operaciones de mercado abierto, vs economia/bancos"))
+NEW_NODES_ROUND_65 = [
+    ("dominio/arbitraje-comercial", "Arbitraje comercial (profundizacion): arbitraje domestico/mercantil, CAM (Mexico), AAA/ICDR (US), ADR Chambers (Canada), vs arbitraje-internacional/litigio"),
+    ("dominio/ciberseguridad-supply-chain", "Ciberseguridad de la cadena de suministro (profundizacion): SBOM, SCA, EO 14028, EU CRA, TISAX, terceros/4ta linea, vs ciberseguridad/seguridad-corporativa"),
+    ("dominio/macroprudencia", "Macroprudencia / financial stability: regulacion macroprudencial, buffer contraciclico, FSB, Consejo de Estabilidad del Sistema Financiero, vs regulacion-financiera/basilea"),
+    ("dominio/ciencia-de-materiales-aplicada", "Ciencia de materiales aplicada (profundizacion): materiales avanzados, composites, nanomateriales, baterias solid-state, semiconductores, vs ciencias-materiales/nanotecnologia"),
+    ("dominio/gestion-de-inventarios", "Gestion de inventarios / inventory management: EOQ, JIT, MRP, ABC, safety stock, WMS, vs almacenamiento/cadena-de-valor/logistica"),
+    ("rol/head-of-corporate-development", "Head of Corporate Development (profundizacion): M&A, due diligence, asignacion de capital, scouting de deals, vs chief-corporate-development/head-of-strategy-and-ops"),
+    ("rol/head-of-information-technology", "Head of Information Technology / IT Director (CIO-adjacent): operacion TI, infraestructura, service desk, presupuesto TI, vs cio/head-of-it/director-of-it"),
+    ("rol/head-of-employer-branding", "Head of Employer Branding (profundizacion): marca empleadora, talent brand, recruitment marketing, vs head-of-talent-brand/talent-acquisition-manager"),
+    ("rol/head-of-credit-risk", "Head of Credit Risk: modelo de credito, PD/LGD/EAD, provisiones, limites, morosidad, vs riesgo-de-credito/credit-manager/chief-risk-officer"),
+    ("rol/head-of-field-marketing", "Head of Field Marketing: marketing regional/territorial, eventos locales, co-marketing con partners, vs marketing-manager/head-of-growth-marketing/head-of-partner-marketing"),
+]
+NEW_NODES = NEW_NODES_ROUND_65
+
 
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)

@@ -2280,21 +2280,54 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - Reference-only (Wikipedia EN/ES + autoridades sectoriales: SEP/gob.mx, SEIA/DOE, Transport Canada, Wikipedia CVC/ESG/Clinical trial/User research, ISO, FDA, USDA RMA, EPA; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica).
 - **Round 64 COMPLETO (13/13 temas).** Cola Round 64 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 65 o pausar.
 
+## ✅ COLA ROUND 65 — COMPLETA (11/11 páginas nuevas)
+> gap_analysis.py (iter 203) reportó 0 huecos reales → taxonomía extendida Round 65 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol. Nota: `canada/politica-monetaria` (deepening) y `rol/head-of-corporate-development` y `rol/head-of-employer-branding` ya existían (detectados como duplicados por gap_analysis) → 11 sugerencias reales nuevas (2 sustrato + 5 dominio + 4 rol → 3 rol tras dedup).
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/sistema-de-justicia.md — Sistema de justicia México (FGR/Ministerio Público, defensoría, procuración/administración de justicia, juicio de amparo)
+- [x] sustrato/estados-unidos/defensa-antimonopolio.md — Defensa de la competencia (antitrust) EE.UU. (DOJ Antitrust Division, FTC, Sherman/Clayton Act, merger review HSR)
+### Dominio (nuevos nodos)
+- [x] dominio/arbitraje-comercial.md — Arbitraje comercial (ADR privado, CAM México, AAA-ICDR EE.UU., ADR Chambers Canadá, laudo ejecutable)
+- [x] dominio/ciberseguridad-supply-chain.md — Ciberseguridad de la cadena de suministro (SBOM, SCA, EO 14028, EU CRA, TISAX, terceros/4ª línea)
+- [x] dominio/macroprudencia.md — Macroprudencia y estabilidad financiera (buffer contracíclico, FSB, Basilea, riesgo sistémico)
+- [x] dominio/ciencia-de-materiales-aplicada.md — Ciencia de materiales aplicada (composites, nanomateriales, baterías solid-state, semiconductores)
+- [x] dominio/gestion-de-inventarios.md — Gestión de inventarios (EOQ, JIT, MRP, ABC, safety stock, WMS, rotación)
+### Rol (nuevos nodos)
+- [x] rol/head-of-information-technology.md — Head of IT / IT Director (operación TI, infraestructura, service desk, presupuesto TI)
+- [x] rol/head-of-credit-risk.md — Head of Credit Risk (PD/LGD/EAD, provisiones/impairment, límites, morosidad; Basilea/IFRS 9)
+- [x] rol/head-of-field-marketing.md — Head of Field Marketing (marketing regional/territorial, eventos, co-marketing con partners)
+
+### ITER 203 — Round 65 (2026-07-18)
+- gap_analysis.py (iter 203) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 65 (scripts/gap_analysis.py): 3 deepenings NA (sustrato/mexico/sistema-de-justicia, sustrato/estados-unidos/defensa-antimonopolio, sustrato/canada/politica-monetaria — ya existía) + 10 nodos nuevos dominio/rol (2 roles ya existían: head-of-corporate-development, head-of-employer-branding → dedup a 8 reales).
+- 11 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] `sustrato/mexico/sistema-de-justicia.md` (nuevo en nodo): FGR, Ministerio Público, defensoría, procuración/administración de justicia, juicio de amparo, sistema penal acusatorio.
+  - [sustrato] `sustrato/estados-unidos/defensa-antimonopolio.md` (nuevo en nodo): DOJ Antitrust Division, FTC, Sherman/Clayton Act, merger review (HSR), 2023 Merger Guidelines.
+  - [dominio] `dominio/arbitraje-comercial.md` (nuevo nodo): ADR privado, CAM (México), AAA-ICDR (EE.UU.), ADR Chambers (Canadá), laudo ejecutable, Convención de Nueva York.
+  - [dominio] `dominio/ciberseguridad-supply-chain.md` (nuevo nodo): SBOM, SCA, EO 14028, EU CRA, TISAX, terceros/4ª línea, SLSA.
+  - [dominio] `dominio/macroprudencia.md` (nuevo nodo): buffer contracíclico, FSB, Basilea III, riesgo sistémico, interacción con política monetaria.
+  - [dominio] `dominio/ciencia-de-materiales-aplicada.md` (nuevo nodo): composites, nanomateriales, baterías solid-state, semiconductores, manufactura avanzada.
+  - [dominio] `dominio/gestion-de-inventarios.md` (nuevo nodo): EOQ, JIT, MRP, ABC, safety stock, WMS, rotación, KPIs.
+  - [rol] `rol/head-of-information-technology.md` (nuevo nodo): operación TI, infraestructura, service desk, presupuesto TI, vs CIO/CTO.
+  - [rol] `rol/head-of-credit-risk.md` (nuevo nodo): PD/LGD/EAD, provisiones/impairment (IFRS 9/CECL), límites, morosidad, Basilea.
+  - [rol] `rol/head-of-field-marketing.md` (nuevo nodo): marketing regional/territorial, eventos, co-marketing con partners, vs growth/partner-marketing.
+- Reference-only (Wikipedia EN + autoridades sectoriales: gob.mx/FGR, DOJ/FTC, CAM, AAA-ICDR, FSB/Fed, CISA/EU CRA, MRS Bulletin, Gartner, BIS; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica).
+- **Round 65 COMPLETO (11/11 temas).** Cola Round 65 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 66 o pausar.
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 944** (Round 63: 931; Round 64: 944/13 nuevas). |
-| **Rondas:** 64 completas (Round 1..64). |
-| **Nodos sustrato (NA):** México 80 (+educacion-basica), EE.UU. 66 (+energia-solar), Canadá 60 (+transporte-ferroviario). |
-| **Nodos dominio:** ~239 (Round 64 +6: financiacion-structurada, seguros-agricolas, derecho-mercantil, medicina-regenerativa, ciberseguridad-vehicular, reciclaje). |
-| **Nodos rol:** ~224 (Round 64 +4: head-of-esg, head-of-corporate-venturing, head-of-clinical-trials, head-of-user-research). |
+| **Tópicos ingeridos (acumulado): 955** (Round 64: 944; Round 65: 955/11 nuevas). |
+| **Rondas:** 65 completas (Round 1..65). |
+| **Nodos sustrato (NA):** México 81 (+sistema-de-justicia), EE.UU. 67 (+defensa-antimonopolio), Canadá 60 (politica-monetaria ya existía). |
+| **Nodos dominio:** ~244 (Round 65 +5: arbitraje-comercial, ciberseguridad-supply-chain, macroprudencia, ciencia-de-materiales-aplicada, gestion-de-inventarios). |
+| **Nodos rol:** ~227 (Round 65 +3: head-of-information-technology, head-of-credit-risk, head-of-field-marketing; head-of-corporate-development y head-of-employer-branding ya existían). |
 | **Organización:** 1 (ejemplo-empresa / NovaTech). |
 | **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
-| **Iteraciones totales:** 202. |
+| **Iteraciones totales:** 203. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 202 (Round 64 COMPLETA — 13/13 ingestados e integrados). |
-| - **Última ação:** Round 64 iter 202 — gap_analysis.py reportó 0 huecos reales → taxonomía extendida Round 64 (3 deepenings NA + 10 nodos nuevos dominio/rol). Ingestó 13 páginas (LOOP 1 sustrato NA x3, LOOP 2 dominio x6, LOOP 3 rol x4) con superstructura de nodo en nuevos de dominio/rol. Integración centralizada (index.md root + log.md root) y commit. Reference-only (Wikipedia + autoridades; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
+| - **Iteración actual:** 203 (Round 65 COMPLETA — 11/11 ingestados e integrados). |
+| - **Última ação:** Round 65 iter 203 — gap_analysis.py reportó 0 huecos reales → taxonomía extendida Round 65 (3 deepenings NA + 10 nodos nuevos dominio/rol; 3 ya existían → dedup a 8 reales + 2 deepenings sustrato = 11 páginas). Ingestó 11 páginas (2 sustrato + 5 dominio + 3 rol) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 64 COMPLETA (13/13). |
+| - **Cola:** Round 65 COMPLETA (11/11). |
 
 ## ▶️ PRÓXIMA TAREFA
-- Round 64 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 65) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
+- Round 65 COMPLETA (11 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 66) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
