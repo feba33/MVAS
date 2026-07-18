@@ -285,6 +285,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [derecho-laboral](dominio/leyes/derecho-laboral.md) — Derecho laboral LFT (prof.): outsourcing/REPSE, jornada, rescisión · 🏷️ leyes,laboral,lft,outsourcing · 📅 2026-07-10
 - [derecho-laboral-colectivo](dominio/derecho-laboral-colectivo.md) — Derecho laboral colectivo: negociación colectiva, sindicatos, huelga, contratos; MX/US/CA · 🏷️ derecho-laboral,colectivo,sindicatos,negociacion-colectiva,huelga,contratacion-colectiva · 📅 2026-07-16
 - [derecho-de-la-competencia-internacional](dominio/derecho-de-la-competencia-internacional.md) — Derecho de la competencia internacional: OCDE/ICN, cooperación antitrust, fusones multijurisdiccional, carteles · 🏷️ derecho-de-la-competencia,antitrust,internacional,ocde,icn,cooperacion,transnacional,fusiones,carteles · 📅 2026-07-18
+- [derecho-familiar](dominio/derecho-familiar.md) — Derecho de familia: matrimonio, divorcio, custodia, filiación, régimen patrimonial, adopción, menores · 🏷️ derecho-familiar,family-law,matrimonio,divorcio,custodia,filiacion,regimen-patrimonial,adopcion · 📅 2026-07-18
 - [cumplimiento-regulacion](dominio/leyes/cumplimiento-regulacion.md) — Cumplimiento y regulación: ISO 37301, compliance · 🏷️ leyes,cumplimiento,compliance,iso-37301 · 📅 2026-07-10
 
 ### dominio/juridico
@@ -317,6 +318,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [recursos-humanos](dominio/recursos-humanos/recursos-humanos.md) — RRHH: reclutamiento, cultura, compensación · 🏷️ rrhh,people · 📅 2026-07-09
 - [gestion-de-talento](dominio/gestion-del-talento.md) — Gestión del talento: adquisición, desarrollo, retención, movilidad · 🏷️ talento,rrhh,retencion,desarrollo · 📅 2026-07-15
 - [gestion-de-talento-tech](dominio/gestion-de-talento-tech.md) — Gestión de talento tech: ingenieros, escasez, DevEx, retención, upskilling · 🏷️ talento-tech,ingenieros,retencion,skills,hiring,rrhh-tecnologia · 📅 2026-07-16
+- [economia-del-cuidado](dominio/economia-del-cuidado.md) — Economía del cuidado: trabajo de cuidados remunerado/no remunerado, género, políticas públicas, bienestar · 🏷️ economia-del-cuidado,care-economy,trabajo-de-cuidados,genero,politicas-publicas,bienestar · 📅 2026-07-18
+- [gestion-de-la-experiencia-del-empleado](dominio/gestion-de-la-experiencia-del-empleado.md) — Gestión de la experiencia del empleado (EX): journey, engagement, cultura, people analytics · 🏷️ employee-experience,experiencia-empleado,ex,engagement,cultura,journey-empleado,people-analytics · 📅 2026-07-18
 
 ### dominio/operaciones
 - [operaciones](dominio/operaciones/operaciones.md) — Operaciones: supply chain, lean, Six Sigma · 🏷️ operaciones,lean · 📅 2026-07-09
@@ -324,6 +327,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/sostenibilidad
 - [esg-marco](dominio/sostenibilidad/esg-marco.md) — ESG y reporting: CSRD, GRI, SASB, TCFD, ISSB · 🏷️ esg,sostenibilidad,csrd,reporting · 📅 2026-07-09
+- [negocios-sostenibles](dominio/negocios-sostenibles.md) — Negocios sostenibles: triple bottom line, economía circular, B Corp, sostenibilidad operativa, ESG · 🏷️ negocios-sostenibles,sustainable-business,economia-circular,triple-bottom-line,b-corp,esg,sostenibilidad · 📅 2026-07-18
 
 ### dominio/logistica
 - [gestion-cadena-suministro](dominio/logistica/gestion-cadena-suministro.md) — Gestión de la cadena de suministro (SCM): flujo, inventario, KPIs · 🏷️ logistica,supply-chain,cadena-suministro · 📅 2026-07-10
@@ -344,6 +348,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/estadistica
 - [estadistica-ciencia-datos](dominio/estadistica/estadistica-ciencia-datos.md) — Estadística descriptiva, probabilidad, inferencia, ciencia de datos · 🏷️ estadistica,probabilidad,inferencia,data-science · 📅 2026-07-10
+- [analitica-de-negocio](dominio/analitica-de-negocio.md) — Analítica de negocio (BI): dashboards, KPIs operativos, reporting analítico; vs predictiva/ciencia de datos · 🏷️ analitica-de-negocio,business-analytics,bi,dashboards,kpis,reporting-analitico,data-visualization · 📅 2026-07-18
 
 ### dominio/project-management
 - [gestion-proyectos](dominio/project-management/gestion-proyectos.md) — Ciclo de vida, triple restricción, waterfall/ágil, PMBOK/PMP, riesgo · 🏷️ project-management,pmbok,pmp,agil,waterfall · 📅 2026-07-10
@@ -923,6 +928,11 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-talent
 - [[rol/head-of-talent|Head of Talent — estrategia de talento, employer brand, adquisición de talento; vs People/recruiter]]
+- [head-of-talent-acquisition](rol/head-of-talent-acquisition.md) — Head of Talent Acquisition: estrategia de reclutamiento, sourcing, employer branding, pipeline · 🏷️ head-of-talent-acquisition,talent-acquisition,reclutamiento,employer-branding,pipeline,sourcing · 📅 2026-07-18
+- [head-of-pricing](rol/head-of-pricing.md) — Head of Pricing: estrategia de precios, elasticidad, discounting governance, promociones · 🏷️ head-of-pricing,pricing,estrategia-de-precios,elasticidad,discounting-governance,revenue-management · 📅 2026-07-18
+- [head-of-channel-sales](rol/head-of-channel-sales.md) — Head of Channel Sales: ventas indirectas, partners, distribuidores, VAR/MSP, enablement de canal · 🏷️ head-of-channel-sales,channel-sales,ventas-indirectas,partners,distribuidores,var,msp · 📅 2026-07-18
+- [head-of-sustainability-compliance](rol/head-of-sustainability-compliance.md) — Head of Sustainability Compliance: cumplimiento ESG, divulgación obligatoria, taxonomías verdes · 🏷️ head-of-sustainability-compliance,esg-compliance,divulgacion-esg,taxonomia-verde,reporting-no-financiero · 📅 2026-07-18
+- [jefe-de-gobierno-corporativo](rol/jefe-de-gobierno-corporativo.md) — Jefe de Gobierno Corporativo: junta/consejo, comités, secretaría corporativa, cumplimiento de gobierno · 🏷️ jefe-de-gobierno-corporativo,corporate-governance,consejo,secretaria-corporativa,comites,proxy · 📅 2026-07-18
 
 ### rol/head-of-portfolio-management
 - [head-of-portfolio-management](rol/head-of-portfolio-management.md) — Head of Portfolio Management: estrategia de inversión, asset allocation, gestión de portafolios, risk-return · 🏷️ rol,portfolio-management,inversiones,asset-allocation,estrategia-de-inversion,chief-investment-officer,capital-allocation,risk-return · 📅 2026-07-18

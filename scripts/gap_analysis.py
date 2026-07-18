@@ -1295,6 +1295,26 @@ NEW_NODES_ROUND_73 = [
 NEW_NODES = NEW_NODES_ROUND_73
 
 
+# Round 74 (iter 212) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+# NOTA: se corrigieron 6 slugs que ya existian (pitfall dedup): medio-ambiente MX/CA,
+# seguridad-social US (ya en sustrato NA), seguros-de-responsabilidad, derecho-procesal,
+# head-of-customer-marketing (ya en dominio/rol). Reemplazados por topics nuevos.
+TAXONOMY["sustrato/mexico"].append(("electorales", "Proceso electoral Mexico (profundizacion): INE, consejeros, LISTA NOMINAL/INE, campanas, fiscalizacion de partidos, vs elecciones/participacion-ciudadana/poder-legislativo"))
+TAXONOMY["sustrato/estados-unidos"].append(("policia-antimonopolio", "Antitrust EE.UU. (profundizacion): DOJ Antitrust Division, FTC, Sherman/Clayton Act, merger review (HSR), vs competencia/defensa-antimonopolio"))
+TAXONOMY["sustrato/canada"].append(("ciencia-tecnologia", "Ciencia y tecnologia Canada (profundizacion): NRC, NSERC/CIHR/SSHRC, Tri-Agency, ISED, politica de innovacion, vs industria-aeroespacial/transferencia"))
+NEW_NODES_ROUND_74 = [
+    ("dominio/economia-del-cuidado", "Economia del cuidado / care economy: trabajo de cuidados (remunerado/no remunerado), politicas publicas, genero, vs recursos-humanos/economia-laboral"),
+    ("dominio/derecho-familiar", "Derecho de familia / family law: matrimonio, divorcio, custodia, filiacion, regimen patrimonial, adopcion, vs derecho-societario/derecho-procesal"),
+    ("dominio/gestion-de-la-experiencia-del-empleado", "Gestion de la experiencia del empleado (EX) / employee experience: journey del empleado, engagement, cultura, vs recursos-humanos/head-of-workforce-experience"),
+    ("dominio/negocios-sostenibles", "Negocios sostenibles / sustainable business: modelo de negocio circular, triple bottom line, B Corp, sostenibilidad operativa, vs sostenibilidad/medio-ambiente"),
+    ("dominio/analitica-de-negocio", "Analitica de negocio / business analytics: BI, dashboards, KPIs operativos, reporting analitico, vs analitica-predictiva/ciencia-de-datos"),
+    ("rol/head-of-pricing", "Head of Pricing: estrategia de precios, modelado de elasticidad, discounting governance, promociones, vs gestion-de-precios/head-of-revenue-operations"),
+    ("rol/head-of-channel-sales", "Head of Channel Sales: canal indirecto, partners/revShare, distribuidores, VARs/MSPs, enablement de canal, vs vp-sales/head-of-partner-sales"),
+    ("rol/head-of-sustainability-compliance", "Head of Sustainability Compliance: cumplimiento ESG/regulatorio, divulgacion obligatoria, taxonomias verdes, vs head-of-esg/head-of-sustainability-reporting"),
+    ("rol/head-of-talent-acquisition", "Head of Talent Acquisition: estrategia de reclutamiento, employer branding, pipeline, sourcers, vs reclutador/head-of-employer-branding"),
+    ("rol/jefe-de-gobierno-corporativo", "Jefe de Gobierno Corporativo / Head of Corporate Governance: junta/consejo, comites, secretaria corporativa, compliance de gobierno, proxy, vs gobierno-corporativo/corporate-secretary"),
+]
+NEW_NODES = NEW_NODES_ROUND_74
 
 
 def existing_pages(node: str) -> set:

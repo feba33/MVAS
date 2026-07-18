@@ -2657,3 +2657,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | - **Bloqueos:** ninguno. |
 | - **Cola:** Round 73 COMPLETA (11/11). |
 | - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos → ampliar taxonomía (Round 74) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. |
+
+## ✅ COLA ROUND 74 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 212) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 74 (scripts/gap_analysis.py): 3 deepenings NA (mexico/electorales, estados-unidos/policia-antimonopolio, canada/ciencia-tecnologia) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_74). Todos los 13 sugeridos eran nuevos (dedup against existing slugs; se corrigieron 6 duplicados del borrador: medio-ambiente MX/CA, seguridad-social US, seguros-de-responsabilidad, derecho-procesal, head-of-customer-marketing → no recreados).
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/electorales — Proceso electoral México (INE, Consejo General, LISTA NOMINAL, fiscalización de partidos, TEPJF)
+- [x] sustrato/estados-unidos/policia-antimonopolio — Antitrust EE.UU. (DOJ Antitrust Division, FTC, Sherman/Clayton/FTC Act, HSR)
+- [x] sustrato/canada/ciencia-tecnologia — Ciencia y tecnología Canadá (NRC, Tri-Agency NSERC/SSHRC/CIHR, ISED, innovación)
+### Dominio (nuevos nodos)
+- [x] dominio/economia-del-cuidado — Economía del cuidado (trabajo remunerado/no remunerado, género, políticas públicas)
+- [x] dominio/derecho-familiar — Derecho de familia (matrimonio, divorcio, custodia, filiación, régimen patrimonial, adopción)
+- [x] dominio/gestion-de-la-experiencia-del-empleado — Gestión de la experiencia del empleado (EX, journey, engagement, people analytics)
+- [x] dominio/negocios-sostenibles — Negocios sostenibles (triple bottom line, economía circular, B Corp, ESG)
+- [x] dominio/analitica-de-negocio — Analítica de negocio (BI, dashboards, KPIs, reporting analítico)
+### Rol (nuevos nodos)
+- [x] rol/head-of-pricing — Head of Pricing (estrategia de precios, elasticidad, discounting governance)
+- [x] rol/head-of-channel-sales — Head of Channel Sales (ventas indirectas, partners, distribuidores, VAR/MSP)
+- [x] rol/head-of-sustainability-compliance — Head of Sustainability Compliance (ESG compliance, divulgación obligatoria, taxonomías verdes)
+- [x] rol/head-of-talent-acquisition — Head of Talent Acquisition (reclutamiento, sourcing, employer branding, pipeline)
+- [x] rol/jefe-de-gobierno-corporativo — Jefe de Gobierno Corporativo (junta/consejo, comités, secretaría corporativa, cumplimiento de gobierno)
+
+### ITER 212 — Round 74 (2026-07-18)
+- gap_analysis.py (iter 212) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 74 (scripts/gap_analysis.py): 3 deepenings NA (mexico/electorales, estados-unidos/policia-antimonopolio, canada/ciencia-tecnologia) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_74). Dedup: 6 slugs del borrador ya existían (medio-ambiente MX/CA, seguridad-social US, seguros-de-responsabilidad, derecho-procesal, head-of-customer-marketing) → corregidos, no recreados. 13 sugerencias reales.
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] `sustrato/mexico/electorales.md` (deepening): INE (autónomo), Consejo General, LISTA NOMINAL, fiscalización de partidos (INE/UNIFESP), TEPJF, voto en el extranjero, vs participación-ciudadana.
+  - [sustrato] `sustrato/estados-unidos/policia-antimonopolio.md` (deepening): Sherman Act (1890), Clayton Act (1914), FTC Act (1914), DOJ Antitrust Division + FTC, revisión de fusiones (HSR), monopolización.
+  - [sustrato] `sustrato/canada/ciencia-tecnologia.md` (deepening): NRC (mayor org I+D federal), Tri-Agency (NSERC/SSHRC/CIHR), CFI, ISED, política de innovación.
+  - [dominio] `dominio/economia-del-cuidado.md`, `dominio/derecho-familiar.md`, `dominio/gestion-de-la-experiencia-del-empleado.md`, `dominio/negocios-sostenibles.md`, `dominio/analitica-de-negocio.md` (5 nuevos nodos).
+  - [rol] `rol/head-of-pricing.md`, `rol/head-of-channel-sales.md`, `rol/head-of-sustainability-compliance.md`, `rol/head-of-talent-acquisition.md`, `rol/jefe-de-gobierno-corporativo.md` (5 nuevos nodos).
+- Reference-only (Wikipedia EN + autoridades sectoriales: ine.mx, doj.gov/atr, ftc.gov, nrc.canada.ca, NSERC/SSHRC/CIHR,ised-isde.canada.ca, ILO/OECD care, SHRM, B Lab, GRI/SASB; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- **Round 74 COMPLETO (13/13 temas).** Cola Round 74 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 75 o pausar.
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+| **Tópicos ingeridos (acumulado): 1072** (Round 73: 1059; Round 74: 1072/13 nuevas). |
+| **Rondas:** 74 completas (Round 1..74). |
+| **Nodos sustrato (NA):** México 89 (+electorales), EE.UU. 73 (+policia-antimonopolio), Canadá 66 (+ciencia-tecnologia). |
+| **Nodos dominio:** ~298 (Round 74 +5: economia-del-cuidado, derecho-familiar, gestion-de-la-experiencia-del-empleado, negocios-sostenibles, analitica-de-negocio). |
+| **Nodos rol:** ~269 (Round 74 +5: head-of-pricing, head-of-channel-sales, head-of-sustainability-compliance, head-of-talent-acquisition, jefe-de-gobierno-corporativo). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech). |
+| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+| **Iteraciones totales:** 212. |
+
+## 🚦 ESTADO
+| - **Iteración actual:** 212 (Round 74 COMPLETA — 13/13 ingestados e integrados). |
+| - **Última ação:** Round 74 iter 212 — gap_analysis.py (iter 212) reportó 0 huecos reales → taxonomía extendida Round 74 (3 deepenings NA + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 74 COMPLETA (13/13). |
+| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos → ampliar taxonomía (Round 75) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. |
