@@ -2421,3 +2421,67 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
   - [rol] `rol/head-of-corporate-strategy.md` (nuevo nodo): estrategia corporativa, M&A screening, business development, planning, vs CSO/corporate-development.
 - Reference-only (Wikipedia EN + autoridades sectoriales: IMCO, Proyectos México/Banobras, CNSC, CNA, SEC/CFTC, Cambridge Associates; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 CA).
 - **Round 68 COMPLETO (12/12 temas).** Cola Round 68 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 69 o pausar.
+
+## ✅ COLA ROUND 69 — COMPLETA (16/16 páginas nuevas)
+> gap_analysis.py (iter 207) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 69 (scripts/gap_analysis.py): 2 deepenings NA reales (canada/pueblos-indigenas ya existía → filtrado) + 14 nodos nuevos dominio/rol (8 dominio + 6 rol). NOTA: añadí 14 NEW_NODES (vs 10 típicos) para cubrir el round completo.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/energia-hidrocarburos.md — Energía e hidrocarburos México (PEMEX, CNH, upstream/downstream, gas, refino)
+- [x] sustrato/estados-unidos/telecomunicaciones-5g.md — Telecomunicaciones 5G EE.UU. (FCC, C-band, BEAD, Open RAN, despliegue)
+### Dominio (nuevos nodos)
+- [x] dominio/seguros-de-vida.md — Seguros de vida (term/whole/UL, actuarial, reaseguro, bancaseguros)
+- [x] dominio/contraloria.md — Contraloría (ASF, fiscalización, rendición de cuentas)
+- [x] dominio/seguros-maritimos.md — Seguros marítimos (casco, carga, P&I clubs, avería gruesa, Lloyd's)
+- [x] dominio/derecho-de-agua.md — Derecho de agua (concesiones, cuencas, tratados)
+- [x] dominio/planificacion-urbana.md — Planificación urbana (zonificación, uso de suelo, plan general)
+- [x] dominio/redes-5g-moviles.md — Redes 5G y móviles (5G NR, network slicing, edge)
+- [x] dominio/deporte-profesional.md — Deporte profesional (ligas, franquicias, derechos mediáticos)
+- [x] dominio/finanzas-de-proyecto.md — Finanzas de proyecto (SPV, no-recurso, off-take)
+### Rol (nuevos nodos)
+- [x] rol/head-of-field-services.md — Head of Field Services (despacho de técnicos, SLA in-situ)
+- [x] rol/head-of-trade-finance.md — Head of Trade Finance (cartas de crédito, factoring, compliance)
+- [x] rol/head-of-regional-sales.md — Head of Regional Sales (ventas por región, cuotas)
+- [x] rol/head-of-it-security.md — Head of IT Security (SOC, monitoreo, GRC)
+- [x] rol/head-of-sustainability-reporting.md — Head of Sustainability Reporting (ESG disclosure, materialidad)
+- [x] rol/head-of-brand-communications.md — Head of Brand Communications (narrativa de marca, media relations)
+
+### ITER 207 — Round 69 (2026-07-18)
+- gap_analysis.py (iter 207) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 69 (scripts/gap_analysis.py): 2 deepenings NA reales (sustrato/mexico/energia-hidrocarburos, sustrato/estados-unidos/telecomunicaciones-5g) + 14 nodos nuevos dominio/rol (NEW_NODES_ROUND_69). canada/pueblos-indigenas filtrado (ya existía).
+- 16 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] `sustrato/mexico/energia-hidrocarburos.md` (nuevo en nodo): PEMEX, CNH, upstream/downstream, gas natural, refino, recentralización energética.
+  - [sustrato] `sustrato/estados-unidos/telecomunicaciones-5g.md` (nuevo en nodo): FCC, C-band/BEAD/Open RAN, Upper C-band 2025, despliegue 5G.
+  - [dominio] `dominio/seguros-de-vida.md` (nuevo nodo): term/whole/UL, actuarial (mortalidad, reservas), reaseguro, bancaseguros, CNSF.
+  - [dominio] `dominio/contraloria.md` (nuevo nodo): ASF (Cuenta Pública), fiscalización, rendición de cuentas, control interno.
+  - [dominio] `dominio/seguros-maritimos.md` (nuevo nodo): casco, carga, P&I clubs, avería gruesa, Lloyd's.
+  - [dominio] `dominio/derecho-de-agua.md` (nuevo nodo): concesiones, cuencas, tratados transfronterizos, CONAGUA/SEMARNAT.
+  - [dominio] `dominio/planificacion-urbana.md` (nuevo nodo): zonificación, uso de suelo, plan general, densificación, metrópoli.
+  - [dominio] `dominio/redes-5g-moviles.md` (nuevo nodo): 5G NR, espectro, network slicing, edge, MIMO masivo.
+  - [dominio] `dominio/deporte-profesional.md` (nuevo nodo): ligas, franquicias, derechos mediáticos, contratos, salary cap.
+  - [dominio] `dominio/finanzas-de-proyecto.md` (nuevo nodo): SPV, deuda/equity no-recurso, off-take, riesgo de construcción.
+  - [rol] `rol/head-of-field-services.md` (nuevo nodo): despacho de técnicos, SLA in-situ, servicios de campo.
+  - [rol] `rol/head-of-trade-finance.md` (nuevo nodo): cartas de crédito, garantías, factoring, cumplimiento de comercio exterior.
+  - [rol] `rol/head-of-regional-sales.md` (nuevo nodo): ventas por región, cuotas, canales locales.
+  - [rol] `rol/head-of-it-security.md` (nuevo nodo): SOC, monitoreo, respuesta a incidentes, GRC.
+  - [rol] `rol/head-of-sustainability-reporting.md` (nuevo nodo): divulgación ESG (GRI/SASB/ISSB/CSRD), materialidad, datos no financieros.
+  - [rol] `rol/head-of-brand-communications.md` (nuevo nodo): narrativa de marca, media relations, contenido, reputación.
+- Reference-only (Wikipedia EN/ES + autoridades sectoriales: gob.mx/CNH/PEMEX, FCC/FederalRegister, gob.mx/CNSF/ASF/CONAGUA, Lloyd's/Wikipedia; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US).
+- **Round 69 COMPLETO (16/16 temas).** Cola Round 69 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 70 o pausar.
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+| **Tópicos ingeridos (acumulado): 997** (Round 68: 981; Round 69: 997/16 nuevas). |
+| **Rondas:** 69 completas (Round 1..69). |
+| **Nodos sustrato (NA):** México 84 (+energia-hidrocarburos), EE.UU. 69 (+telecomunicaciones-5g), Canadá 62. |
+| **Nodos dominio:** ~263 (Round 69 +8: seguros-de-vida, contraloria, seguros-maritimos, derecho-de-agua, planificacion-urbana, redes-5g-moviles, deporte-profesional, finanzas-de-proyecto). |
+| **Nodos rol:** ~242 (Round 69 +6: head-of-field-services, head-of-trade-finance, head-of-regional-sales, head-of-it-security, head-of-sustainability-reporting, head-of-brand-communications). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech). |
+| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+| **Iterações totales:** 207. |
+
+## 🚦 ESTADO
+| - **Iteración actual:** 207 (Round 69 COMPLETA — 16/16 ingestados e integrados). |
+| - **Última ação:** Round 69 iter 207 — gap_analysis.py (iter 207) reportó 0 huecos reales → taxonomía extendida Round 69 (2 deepenings NA + 14 nodos nuevos dominio/rol). 16 páginas ingeridas (LOOP 1 sustrato NA x2, LOOP 2 dominio x8, LOOP 3 rol x6) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 69 COMPLETA (16/16). |
+
+## ▶️ PRÓXIMA TAREA
+- Round 69 COMPLETA (16 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 70) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).

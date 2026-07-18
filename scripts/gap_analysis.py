@@ -1186,6 +1186,29 @@ NEW_NODES_ROUND_68 = [
 NEW_NODES = NEW_NODES_ROUND_68
 
 
+# Round 69 (iter 207) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("energia-hidrocarburos", "Energia e hidrocarburos Mexico (profundizacion): PEMEX, CNH, regulacion de hidrocarburos, upstream/downstream, gas natural, refino, vs energia/energia-electrica"))
+TAXONOMY["sustrato/estados-unidos"].append(("telecomunicaciones-5g", "Telecomunicaciones 5G EE.UU. (profundizacion): FCC, espectro C-Band/mmWave, despliegue, BEAD, Open RAN, vs telecomunicaciones/telecomunicaciones-corporativas"))
+TAXONOMY["sustrato/canada"].append(("pueblos-indigenas", "Pueblos indigenas Canada (profundizacion): First Nations, Inuit, Metis, tratados, duty to consult, reconciliacion, tierra y autonomia, vs derechos-humanos"))
+NEW_NODES_ROUND_69 = [
+    ("dominio/seguros-de-vida", "Seguros de vida / life insurance: productos (term/whole/UL), actuarial (mortalidad, reservas), reaseguro de vida, bancaseguros, vs seguros-de-personas/seguros"),
+    ("dominio/contraloria", "Contraloria / internal audit function publica: control gubernamental, auditoria superior (ASF), fiscalizacion, rendicion de cuentas, vs auditoria-gubernamental/auditoria-interna"),
+    ("dominio/seguros-maritimos", "Seguros maritimos / marine insurance: casco, carga, responsabilidad (P&I clubs), averia gruesa, Lloyds, vs maritimo/seguros/seguros-de-credito"),
+    ("dominio/derecho-de-agua", "Derecho de agua / water law: derechos de agua, concesiones, cuencas, tratados transfronterizos, vs agua/servicios-publicos/derecho-ambiental"),
+    ("dominio/planificacion-urbana", "Planificacion urbana / urban planning: zonificacion, uso de suelo, planificacion territorial, densificacion, vs urbanismo/urbanismo-tactico/movilidad-urbana"),
+    ("dominio/redes-5g-moviles", "Redes 5G y moviles / mobile networks: 5G NR, espectro, densificacion, edge, network slicing, vs telecomunicaciones/telecomunicaciones-corporativas"),
+    ("dominio/deporte-profesional", "Deporte profesional / pro sports: ligas, franquicias, derechos mediaticos, contratos de jugadores, salary cap, vs deportes/entretenimiento"),
+    ("dominio/finanzas-de-proyecto", "Finanzas de proyecto / project finance: SPV, debt/equity, off-take, garantias, riesgo de construccion, vs financiacion-structurada/infraestructura"),
+    ("rol/head-of-field-services", "Head of Field Services: operaciones de campo, despacho de tecnicos, SLA in-situ, vs head-of-operations/head-of-field-operations"),
+    ("rol/head-of-trade-finance", "Head of Trade Finance: cartas de credito, factoring, garantias, compliance de comercio exterior, vs head-of-trade-compliance/treasurer"),
+    ("rol/head-of-regional-sales", "Head of Regional Sales: ventas por region/territorio, cuotas regionales, canales locales, vs vp-sales/sales-manager"),
+    ("rol/head-of-it-security", "Head of IT Security: seguridad de la informacion operativa, SOC, GRC, vs head-of-information-security/security-engineer/ciso"),
+    ("rol/head-of-sustainability-reporting", "Head of Sustainability Reporting: divulgacion ESG (GRI/SASB/ISSB/CSRD), materialidad, datos no financieros, vs head-of-esg/chief-sustainability-officer"),
+    ("rol/head-of-brand-communications", "Head of Brand Communications: narrativa de marca, media relations, contenido de marca, vs chief-communications-officer/head-of-brand"),
+]
+NEW_NODES = NEW_NODES_ROUND_69
+
+
 
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)

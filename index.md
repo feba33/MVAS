@@ -81,6 +81,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [politica-fiscal](sustrato/mexico/politica-fiscal.md) — Política fiscal México: SHCP, gasto público, déficit, deuda, estabilización; vs finanzas-publicas/impuestos · 🏷️ mexico,politica-fiscal,shcp,gasto-publico,deuda-publica,deficit,estabilizacion · 📅 2026-07-17
 - [participacion-ciudadana](sustrato/mexico/participacion-ciudadana.md) — Participación ciudadana México: arts. 26/35, consulta popular (40% para ser vinculante), presupuesto participativo, INE/OPL · 🏷️ mexico,participacion-ciudadana,democracia,consulta-popular,presupuesto-participativo,ine · 📅 2026-07-17
 - [sistema-de-justicia](sustrato/mexico/sistema-de-justicia.md) — Sistema de justicia México: FGR/Ministerio Público, defensoría, procuración/administración de justicia, amparo · 🏷️ mexico,sistema-de-justicia,fgr,ministerio-publico,amparo,procuracion-justicia,poder-judicial · 📅 2026-07-18
+- [energia-hidrocarburos](sustrato/mexico/energia-hidrocarburos.md) — Energía e hidrocarburos México: PEMEX, CNH, upstream/downstream, gas, refino · 🏷️ mexico,energia,hidrocarburos,pemex,cnh,regulacion,gas,refino · 📅 2026-07-18
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -139,6 +140,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [criminalistica](sustrato/estados-unidos/criminalistica.md) — Criminalística EE.UU.: forensic science, FBI/NIST, evidencia, medicina legal, peritaje · 🏷️ estados-unidos,criminalistica,forensic-science,fbi,nist,evidencia,medicina-legal · 📅 2026-07-17
 - [defensa-civil](sustrato/estados-unidos/defensa-civil.md) — Defensa civil EE.UU.: protección de la población, FEMA/DHS, National Response Framework, ciclo de emergencias · 🏷️ estados-unidos,defensa-civil,fema,dhs,emergencias,nrf,gestion-de-crisis · 📅 2026-07-17
 - [defensa-antimonopolio](sustrato/estados-unidos/defensa-antimonopolio.md) — Defensa de la competencia (antitrust) EE.UU.: DOJ Antitrust Division, FTC, Sherman/Clayton Act, merger review (HSR) · 🏷️ estados-unidos,antitrust,competencia,doj,ftc,sherman-act,clayton-act,merger-review · 📅 2026-07-18
+- [telecomunicaciones-5g](sustrato/estados-unidos/telecomunicaciones-5g.md) — Telecomunicaciones 5G EE.UU.: FCC, C-band, BEAD, Open RAN, despliegue · 🏷️ estados-unidos,telecomunicaciones,5g,fcc,espectro,banda-ancha · 📅 2026-07-18
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -349,10 +351,13 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/seguros
 - [seguros](dominio/seguros/seguros.md) — Industria aseguradora: vida, P&C, reaseguro, actuarial, Solvency II · 🏷️ seguros,insurance,actuarial,reaseguro,solvency-ii · 📅 2026-07-11
 - [seguros-de-responsabilidad](dominio/seguros-de-responsabilidad.md) — Seguros de responsabilidad: CGL, D&O, E&O/profesional, product liability, cyber liability · 🏷️ seguros,responsabilidad,liability,cgl,dando-o,eo,product-liability,cyber-liability · 📅 2026-07-17
+- [seguros-de-vida](dominio/seguros-de-vida.md) — Seguros de vida: term/whole/UL, actuarial (mortalidad, reservas), reaseguro de vida, bancaseguros · 🏷️ seguros,vida,actuarial,reaseguro,bancaseguros,ahorro · 📅 2026-07-18
+- [seguros-maritimos](dominio/seguros-maritimos.md) — Seguros marítimos: casco, carga, P&I clubs, avería gruesa, Lloyd's · 🏷️ seguros,maritimo,casco,carga,pi-clubs,averia-gruesa,comercio · 📅 2026-07-18
 
 ### dominio/energia
 - [energia](dominio/energia/energia.md) — Sector energético: renovables, oil&gas, redes, regulación · 🏷️ energia,oil-and-gas,renovables,redes,regulacion · 📅 2026-07-11
 - [energia-electrica](dominio/energia-electrica.md) — Energía eléctrica (Power Generation): generación, transmisión, distribución, ISO/RTO, grid, tarifas · 🏷️ energia-electrica,power-generation,generacion,transmision,distribucion,iso,rto,grid,tarifas,electric-utility · 📅 2026-07-16
+- [finanzas-de-proyecto](dominio/finanzas-de-proyecto.md) — Finanzas de proyecto: SPV, deuda/equity no-recurso, off-take, riesgo de construcción, infraestructura · 🏷️ finanzas-de-proyecto,project-finance,spv,no-recurso,infraestructura,deuda · 📅 2026-07-18
 
 ### dominio/inmobiliario
 - [bienes-raices](dominio/inmobiliario/bienes-raices.md) — Bienes raíces: mercado, financiamiento, REITs, ciclos · 🏷️ inmobiliario,real-estate,reits,hipotecas,cap-rate · 📅 2026-07-11
@@ -377,6 +382,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/telecomunicaciones
 - [telecomunicaciones](dominio/telecomunicaciones/telecomunicaciones.md) — Telecom: redes fijas/móviles, 5G, espectro, regulación · 🏷️ telecomunicaciones,5g,redes,espectro,regulacion · 📅 2026-07-11
+- [redes-5g-moviles](dominio/redes-5g-moviles.md) — Redes 5G y móviles: 5G NR, espectro, network slicing, edge, MIMO masivo · 🏷️ 5g,telecomunicaciones,redes-moviles,espectro,edge-computing,network-slicing · 📅 2026-07-18
 
 ### dominio/agronegocios
 - [agronegocios](dominio/agronegocios/agronegocios.md) — Agronegocios: cadena de valor agroalimentaria, agtech, commodities · 🏷️ agronegocios,agricultura,agtech,cadena-valor,alimentos · 📅 2026-07-11
@@ -508,6 +514,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/deportes
 - [deportes](dominio/deportes/deportes.md) — Industria del deporte: media rights, patrocinios, ligas, eSports, mercado · 🏷️ deportes,sports-industry,media-rights,patrocinios,ligas,esports,mercado · 📅 2026-07-12
+- [deporte-profesional](dominio/deporte-profesional.md) — Deporte profesional: ligas, franquicias, derechos mediáticos, contratos, salary cap · 🏷️ deporte,ligas,franquicias,derechos-mediaticos,contratos,entretenimiento · 📅 2026-07-18
 
 ### dominio/entretenimiento
 - [entretenimiento](dominio/entretenimiento/entretenimiento.md) — Industria del entretenimiento: film, música, streaming, industrias creativas · 🏷️ entretenimiento,entertainment,film,musica,streaming,industrias-creativas · 📅 2026-07-12
@@ -678,6 +685,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/auditoria-gubernamental
 - [auditoria-gubernamental](dominio/auditoria-gubernamental/auditoria-gubernamental.md) — Auditoría pública: GAO/ASF/OAG, ISSAI, rendición de cuentas · 🏷️ auditoria-publica,rendicion-cuentas,fiscalizacion,asf,gao,gasto-publico · 📅 2026-07-13
+- [contraloria](dominio/contraloria.md) — Contraloría: ASF (Cuenta Pública), fiscalización, rendición de cuentas, control interno · 🏷️ contraloria,fiscalizacion,rendicion-de-cuentas,auditoria,gobierno,control · 📅 2026-07-18
 
 ### dominio/seguridad-alimentaria
 - [seguridad-alimentaria](dominio/seguridad-alimentaria/seguridad-alimentaria.md) — Seguridad alimentaria: HACCP, FSMA, Codex, COFEPRIS/SENASICA · 🏷️ seguridad-alimentaria,food-safety,haccp,fsma,codex,cofepris · 📅 2026-07-13
@@ -693,6 +701,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/derecho-ambiental
 - [derecho-ambiental](dominio/derecho-ambiental/derecho-ambiental.md) — Derecho ambiental: NEPA, LGEEPA, CEPA, ESG · 🏷️ derecho-ambiental,environmental-law,nepa,lgeepa,cepa,esg · 📅 2026-07-13
+- [derecho-de-agua](dominio/derecho-de-agua.md) — Derecho de agua: concesiones, cuencas, tratados transfronterizos, dominio público · 🏷️ derecho,agua,concesiones,cuencas,ambiental,recursos-naturales · 📅 2026-07-18
 
 ### dominio/arbitraje
 - [arbitraje](dominio/arbitraje/arbitraje.md) — Arbitraje: comercial (tribunal, reglas AAA/ICC/LCIA) e inversión (CIADI/UNCITRAL, ISDS) · 🏷️ arbitraje,dispute-resolution,ciadi,uncitral,laudo,new-york-convention · 📅 2026-07-13
@@ -918,6 +927,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol/head-of-sales-ops
 - [[rol/head-of-sales-ops|Head of Sales Operations — analítica de ventas, comp, tooling/CRM, forecast; vs sales-lead/vp-sales]]
 
+- [head-of-field-services](rol/head-of-field-services.md) — Head of Field Services: despacho de técnicos, SLA in-situ, servicios de campo; vs head-of-operations/field-ops · 🏷️ head-of-field-services,field-services,operaciones,despacho,sla,servicios · 📅 2026-07-18
+
 ### rol/head-of-marketing-ops
 - [[rol/head-of-marketing-ops|Head of Marketing Operations — martech, analítica, ops de campaña; vs marketing-manager/cmo]]
 
@@ -1121,6 +1132,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/urbanismo
 - [urbanismo](dominio/urbanismo/urbanismo.md) — Urbanismo: zonificación, uso de suelo, movilidad, vivienda, sostenibilidad · 🏷️ urbanismo,planeacion-urbana,zonificacion,uso-de-suelo,movilidad,vivienda,infraestructura-urbana,sostenibilidad · 📅 2026-07-14
+- [planificacion-urbana](dominio/planificacion-urbana.md) — Planificación urbana: zonificación, uso de suelo, plan general, densificación, metrópoli · 🏷️ urbanismo,zonificacion,uso-de-suelo,planeacion-territorial,ciudades,vivienda · 📅 2026-07-18
 
 ### dominio/arquitectura
 - [arquitectura](dominio/arquitectura/arquitectura.md) — Arquitectura: diseño del entorno construido, sostenible, AEC, BIM, códigos · 🏷️ arquitectura,diseno-construido,sostenible,aec,codigos,bim,construccion · 📅 2026-07-14
@@ -1484,6 +1496,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-sales-strategy
 - [head-of-sales-strategy](rol/head-of-sales-strategy.md) — Head of Sales Strategy: GTM planning, segmentación, comp plans, canal; vs vp-sales/head-of-revops · 🏷️ head-of-sales-strategy,sales-strategy,gtm,segmentation,comp-plans,channel,ventas · 📅 2026-07-17
+- [head-of-regional-sales](rol/head-of-regional-sales.md) — Head of Regional Sales: ventas por región/territorio, cuotas, canales locales; vs vp-sales/sales-manager · 🏷️ head-of-regional-sales,ventas,regional,territorio,cuotas,canales · 📅 2026-07-18
 
 ### rol/head-of-solutions-engineering
 - [head-of-solutions-engineering](rol/head-of-solutions-engineering.md) - Head of Solutions Engineering: lidera org de SE pre-venta, POCs, cierre técnico · head-of-solutions-engineering,solutions-engineering,pre-venta,poc · 2026-07-17
@@ -1533,6 +1546,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-sustainability
 - [head-of-sustainability](rol/head-of-sustainability.md) — Head of Sustainability: estrategia de sostenibilidad, descarbonización, reporting ESG; vs chief-sustainability-officer/esg-manager · 🏷️ head-of-sustainability,sostenibilidad,esg,descarbonizacion,csr,reporting-esg · 📅 2026-07-15
+- [head-of-sustainability-reporting](rol/head-of-sustainability-reporting.md) — Head of Sustainability Reporting: divulgación ESG (GRI/SASB/ISSB/CSRD), materialidad, datos no financieros · 🏷️ head-of-sustainability-reporting,sostenibilidad,esg,reporting,divulgacion,materialidad · 📅 2026-07-18
 
 ### rol/head-of-people-analytics
 - [head-of-people-analytics](rol/head-of-people-analytics.md) — Head of People Analytics: HR analytics, modelado de fuerza laboral, retención/equidad; vs hr-business-partner/data-scientist · 🏷️ head-of-people-analytics,people-analytics,hr-analytics,workforce-analytics,talento,datos-de-rrhh · 📅 2026-07-15
@@ -1668,6 +1682,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-information-security
 - [head-of-information-security](rol/head-of-information-security.md) — Head of Information Security: InfoSec program, GRC, data protection; CISO adjunto · 🏷️ head-of-information-security,infosec,ciso,grc,data-protection · 📅 2026-07-16
+- [head-of-it-security](rol/head-of-it-security.md) — Head of IT Security: SOC, monitoreo, respuesta a incidentes, GRC; vs CISO/security-engineer · 🏷️ head-of-it-security,it-security,seguridad-informacion,soc,grc,ciberseguridad · 📅 2026-07-18
 
 ### rol/head-of-workforce-experience
 - [head-of-workforce-experience](rol/head-of-workforce-experience.md) — Head of Workforce Experience (WX): EX de empleado en todas las journeys, bienestar, engagement · 🏷️ head-of-workforce-experience,workforce-experience,ex,employee-experience,engagement · 📅 2026-07-16
@@ -1683,6 +1698,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-brand
 - [head-of-brand](rol/head-of-brand.md) — Head of Brand: estrategia de marca, identidad, brand equity, narrativa · 🏷️ head-of-brand,marca,brand-equity,identidad,narrativa,marketing · 📅 2026-07-16
+- [head-of-brand-communications](rol/head-of-brand-communications.md) — Head of Brand Communications: narrativa de marca, media relations, contenido, reputación · 🏷️ head-of-brand-communications,marca,comunicacion,relaciones-medios,narrativa,pr · 📅 2026-07-18
 
 ### rol/vp-people
 - [vp-people](rol/vp-people.md) — VP of People: liderazgo RRHH, talento, cultura, compensación a escala · 🏷️ vp-people,rrhh,talento,cultura,compensacion,people · 📅 2026-07-16
@@ -1782,6 +1798,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-credit
 - [head-of-credit](rol/head-of-credit/head-of-credit.md) — Head of Credit: políticas de crédito, evaluación, cobranza, riesgo de cartera (DSO) · 🏷️ head-of-credit,credito-comercial,cobranza,riesgo-de-credito,politicas-de-credito · 📅 2026-07-17
+- [head-of-trade-finance](rol/head-of-trade-finance.md) — Head of Trade Finance: cartas de crédito, garantías, factoring, cumplimiento de comercio exterior · 🏷️ head-of-trade-finance,trade-finance,comercio-exterior,cartas-de-credito,factoring,tesoreria · 📅 2026-07-18
 
 ### dominio/domotica
 - [domotica](dominio/domotica/domotica.md) — Domótica / Smart Home: IoT residencial, hub, asistentes de voz, Matter/Zigbee/Z-Wave, automatización y seguridad · 🏷️ domotica,smart-home,iot-residencial,voz,automatizacion-hogar,seguridad-hogar,matter · 📅 2026-07-17
