@@ -1129,6 +1129,25 @@ NEW_NODES_ROUND_65 = [
 ]
 NEW_NODES = NEW_NODES_ROUND_65
 
+# Round 66 (iter 204) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("politica-exterior", "Politica exterior Mexico: SRE, diplomacia, tratados internacionales, ONU/OEA, cooperacion, bloques (USMCA, ALADI), vs relaciones-exteriores/mexico"))
+TAXONOMY["sustrato/estados-unidos"].append(("poder-legislativo", "Poder legislativo EE.UU.: Congreso (House/Senate), comites, proceso de ley, presupuesto, vs poder-judicial/estados"))
+TAXONOMY["sustrato/canada"].append(("justicia-penal", "Justicia penal Canada: sistema de justicia criminal federal/provincial, Police (RCMP), Crown prosecutors, Charter, vs sistema-de-justicia/poder-judicial"))
+NEW_NODES_ROUND_66 = [
+    ("dominio/comercio-electronico", "Comercio electronico / e-commerce: marketplaces, D2C, omnicanal digital, fulfillment, pagos en linea, retencion online, CX digital; vs retail/marketing-digital"),
+    ("dominio/inteligencia-emocional", "Inteligencia emocional (EQ) (profundizacion): autoconciencia, regulacion, empatia, habilidades sociales, liderazgo y equipos; vs desarrollo-organizacional/clima-organizacional"),
+    ("dominio/control-interno", "Control interno (profundizacion): COSO 2013, ICFR, SOX 404, monitoreo, aseguramiento de operaciones; vs auditoria-interna/gobierno-de-riesgos"),
+    ("dominio/derecho-de-la-competencia", "Derecho de la competencia / antitrust (profundizacion): control de concentraciones, carteles, abuso de dominancia, autoridades (COFECE/FTC/EC/Competition Bureau); vs defensa-antimonopolio/politica-comercial"),
+    ("dominio/seguridad-y-salud-ocupacional", "Seguridad y salud ocupacional (profundizacion): ISO 45001, OSHA/CSST, prevencion de riesgos, bienestar laboral; vs salud-ocupacional/bienestar-laboral"),
+    ("dominio/etica-empresarial", "Etica empresarial (profundizacion): codigos de conducta, programas de etica y compliance, anticorrupcion, transparencia, cultura etica; vs gobierno-de-riesgos/compliance"),
+    ("dominio/compensacion-beneficios", "Compensacion y beneficios / total rewards (profundizacion): salario, variable pay, beneficios, equity, pensiones, bandas salariales; vs head-of-total-rewards/bienestar-laboral"),
+    ("dominio/inteligencia-competitiva", "Inteligencia competitiva (profundizacion): vigilancia, benchmarking, CI legal, market intelligence; vs inteligencia-de-mercado/relaciones-institucionales"),
+    ("dominio/transformacion-digital", "Transformacion digital (profundizacion): adopcion de tecnologia, roadmap digital, reingenieria de procesos, cultura digital, habilitadores (cloud, data, IA); vs chief-digital-officer/gobierno-de-ti"),
+    ("rol/head-of-data-science", "Head of Data Science: lidera equipos de ciencia de datos, estrategia de modelado/ML, embed en producto y decisiones; vs data-scientist/chief-analytics-officer/chief-data-officer"),
+    ("rol/head-of-portfolio-management", "Head of Portfolio Management: gestion de portafolio de inversion/products, priorizacion, PMO, capital allocation; vs portfolio-manager/chief-investment-officer"),
+]
+NEW_NODES = NEW_NODES_ROUND_66
+
 
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)

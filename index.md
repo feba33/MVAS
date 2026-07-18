@@ -62,6 +62,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [pobreza-desigualdad](sustrato/mexico/pobreza-desigualdad.md) — Pobreza y desigualdad México: CONEVAL (multidimensional: ingresos + 6 carencias), línea de bienestar, programas sociales (Prospera/adultos mayores), Gini ~0.45; vs seguridad-social/trabajo · 🏷️ mexico,pobreza,desigualdad,coneval,pobreza-multidimensional,programas-sociales,bienestar · 📅 2026-07-15
 - [pueblos-indigenas](sustrato/mexico/pueblos-indigenas.md) — Pueblos indígenas México: Art.2 constitucional, INPI, 68 grupos/11.8M, lenguas nacionales, consulta previa (CPLI); vs derechos-humanos · 🏷️ mexico,pueblos-indigenas,derechos-indigenas,lenguas-originarias,autonomia,inpi,consulta-previa · 📅 2026-07-15
 - [empleo](sustrato/mexico/empleo.md) — Empleo y mercado laboral México: ENOE/INEGI, desempleo 2.4% (dic 2025), informalidad 54.6%, salario mínimo; vs trabajo/seguridad-social · 🏷️ mexico,empleo,mercado-laboral,enoe,inegi,informalidad,desempleo,salario-minimo,pea · 📅 2026-07-15
+- [politica-exterior](sustrato/mexico/politica-exterior.md) — Política exterior México: SRE, doctrina Estrada, no intervención, Art.89-X, ONU/OEA/OCDE, T-MEC · 🏷️ mexico,politica-exterior,sre,diplomacia,no-intervencion,tratados,multilateralismo,estrada,onu,oea · 📅 2026-07-18
 - [impuestos](sustrato/mexico/impuestos.md) — Sistema tributario México: SHCP/SAT, ISR 30%, IVA 16%, RESICO, ~26 regímenes, CFDI 4.0, coordinación fiscal · 🏷️ mexico,impuestos,sat,shcp,isr,iva,resico,sistema-tributario · 📅 2026-07-16
 - [economia-creativa](sustrato/mexico/economia-creativa.md) — Economía creativa México: industrias culturales (cine, música, diseño, videojuegos), PIB cultural 2.8% (865,682 mdp 2024), 1.43M empleos; vs cultura/sector-servicios · 🏷️ mexico,economia-creativa,industrias-culturales,cultura,pib,inegi,politica-cultural · 📅 2026-07-16
 - [pymes](sustrato/mexico/pymes.md) — PyMEs México: ~90% de unidades económicas, ~50% del PIB; NAFIN/Bancomext, banca de desarrollo, IMMEX; vs emprendimiento/dominio/pymes · 🏷️ mexico,pymes,economia,empleo,financiamiento,empresa · 📅 2026-07-16
@@ -101,6 +102,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [inmigracion](sustrato/estados-unidos/inmigracion.md) — Inmigración EE.UU.: USCIS, H-1B, H-2A, green card, sistema de visas · 🏷️ eeuu,inmigracion,uscis,visas,h1b,h2a,green-card,dhs · 📅 2026-07-12
 - [educacion](sustrato/estados-unidos/educacion.md) — Educación EE.UU.: Dept of Education, K-12 (Title I), higher ed (FAFSA, Pell), estatales · 🏷️ eeuu,educacion,department-of-education,k-12,higher-education,fafsa,pell-grant,title-i · 📅 2026-07-12
 - [labor](sustrato/estados-unidos/labor.md) — Trabajo/laboral EE.UU.: DOL, FLSA, OSHA, NLRB, sindicatos · 🏷️ eeuu,trabajo,laboral,dol,flsa,osha,nlrb,salario-minimo,horas-extras · 📅 2026-07-12
+- [poder-legislativo](sustrato/estados-unidos/poder-legislativo.md) — Poder legislativo EE.UU.: Congreso bicameral (House/Senate), comités, proceso de ley, ratificación de tratados · 🏷️ eeuu,poder-legislativo,congreso,house-of-representatives,senate,comites,proceso-legislativo,bipartidismo · 📅 2026-07-18
 - [comercio-exterior](sustrato/estados-unidos/comercio-exterior.md) — Comercio exterior EE.UU.: USTR, Sección 301, aranceles, acuerdos comerciales, nearshoring · 🏷️ eeuu,comercio-exterior,ustr,seccion-301,aranceles,acuerdos-comerciales,nearshoring · 📅 2026-07-12
 - [infraestructura](sustrato/estados-unidos/infraestructura.md) — Infraestructura EE.UU.: IIJA, DOT, carreteras, puentes, banda ancha, red eléctrica · 🏷️ eeuu,infraestructura,iija,dot,carreteras,puentes,banda-ancha,red-electrica · 📅 2026-07-12
 - [seguridad-social](sustrato/estados-unidos/seguridad-social.md) — Seguridad social EE.UU.: SSA/OASDI, Medicare, Medicaid, SSI, SNAP · 🏷️ eeuu,seguridad-social,social-security,medicare,medicaid,ssa,ssi,snap · 📅 2026-07-13
@@ -162,6 +164,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [infraestructura](sustrato/canada/infraestructura.md) — Infraestructura Canadá: Infrastructure Canada, transporte, banda ancha, vivienda · 🏷️ canada,infraestructura,infrastructure-canada,vivienda,banda-ancha,transporte-publico,plan-de-infraestructura · 📅 2026-07-13
 - [poder-judicial](sustrato/canada/poder-judicial.md) — Poder Judicial Canadá: Supreme Court, cortes provinciales, Carta de Derechos, nombramiento · 🏷️ canada,poder-judicial,supreme-court,charter,nombramiento-judicial,estado-de-derecho · 📅 2026-07-13
 - [ciencia-e-innovacion](sustrato/canada/ciencia-e-innovacion.md) — Ciencia e innovación Canadá: NRC, ISED, políticas de CTI, IA/ML · 🏷️ canada,ciencia,innovacion,nrc,ised,investigacion,politica-de-ciencia · 📅 2026-07-13
+- [justicia-penal](sustrato/canada/justicia-penal.md) — Justicia penal Canadá: Criminal Code, RCMP, Crown prosecutors, Charter, proceso penal · 🏷️ canada,justicia-penal,derecho-penal,criminal-code,rcmp,crown-prosecutor,charter,proceso-penal · 📅 2026-07-18
 - [demografia-poblacion](sustrato/canada/demografia-poblacion.md) — Demografía y población Canadá: Statistics Canada, censo, inmigración, estructura por edad · 🏷️ canada,demografia,poblacion,statistics-canada,censo,inmigracion,envejecimiento · 📅 2026-07-13
 - [seguridad-publica](sustrato/canada/seguridad-publica.md) — Seguridad pública Canadá: Public Safety Canada, RCMP, CBSA, gestión de emergencias, fronteras · 🏷️ canada,seguridad-publica,public-safety-canada,rcmp,cbsa,policia,gestion-de-emergencias · 📅 2026-07-13
 - [sector-manufacturero](sustrato/canada/sector-manufacturero.md) — Sector manufacturero Canadá: Ontario (auto), Quebec (aeroespacial), Alberta (petroquímica), empleo · 🏷️ canada,sector-manufacturero,automotriz,aeroespacial,petroquimica,empleo · 📅 2026-07-14
@@ -898,6 +901,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### rol/head-of-talent
 - [[rol/head-of-talent|Head of Talent — estrategia de talento, employer brand, adquisición de talento; vs People/recruiter]]
+
+### rol/head-of-portfolio-management
+- [head-of-portfolio-management](rol/head-of-portfolio-management.md) — Head of Portfolio Management: estrategia de inversión, asset allocation, gestión de portafolios, risk-return · 🏷️ rol,portfolio-management,inversiones,asset-allocation,estrategia-de-inversion,chief-investment-officer,capital-allocation,risk-return · 📅 2026-07-18
 
 ### rol/head-of-sales-ops
 - [[rol/head-of-sales-ops|Head of Sales Operations — analítica de ventas, comp, tooling/CRM, forecast; vs sales-lead/vp-sales]]

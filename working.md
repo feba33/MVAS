@@ -2313,21 +2313,41 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - Reference-only (Wikipedia EN + autoridades sectoriales: gob.mx/FGR, DOJ/FTC, CAM, AAA-ICDR, FSB/Fed, CISA/EU CRA, MRS Bulletin, Gartner, BIS; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica).
 - **Round 65 COMPLETO (11/11 temas).** Cola Round 65 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 66 o pausar.
 
+## ✅ COLA ROUND 66 — COMPLETA (4/4 páginas nuevas)
+> gap_analysis.py (iter 204) reportó 3 huecos en nodos existentes (deepenings NA) + 1 nodo nuevo real (rol/head-of-portfolio-management). Los otros 9 nodos de NEW_NODES_ROUND_66 (comercio-electronico, inteligencia-emocional, control-interno, derecho-de-la-competencia, seguridad-y-salud-ocupacional, etica-empresarial, compensacion-beneficios, inteligencia-competitiva, transformacion-digital, head-of-data-science) YA existían como páginas (Rounds 24/26/28/32/33/44) → dedup a 4 sugerencias reales (3 sustrato + 1 rol).
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/politica-exterior.md — Política exterior México (SRE, Art.89-X, doctrina Estrada, no intervención, ONU/OEA/OCDE, T-MEC)
+- [x] sustrato/estados-unidos/poder-legislativo.md — Poder legislativo EE.UU. (Congreso bicameral, House/Senate, comités, proceso de ley, ratificación de tratados)
+- [x] sustrato/canada/justicia-penal.md — Justicia penal Canadá (Criminal Code, RCMP, Crown prosecutors, Charter, proceso penal)
+### Rol (nuevos nodos)
+- [x] rol/head-of-portfolio-management.md — Head of Portfolio Management (estrategia de inversión, asset allocation, gestión de portafolios, risk-return, CAPM/MPT)
+
+### ITER 204 — Round 66 (2026-07-18)
+- gap_analysis.py (iter 204) reportó 3 huecos en nodos existentes (deepenings NA: mexico/politica-exterior, estados-unidos/poder-legislativo, canada/justicia-penal) + 1 nodo nuevo real (rol/head-of-portfolio-management). Los 9 nodos restantes de NEW_NODES_ROUND_66 ya existían como páginas → dedup a 4 sugerencias reales.
+- 4 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] `sustrato/mexico/politica-exterior.md` (nuevo nodo): SRE, Art.89-X, doctrina Estrada, no intervención, ONU/OEA/OCDE, T-MEC, multilateralismo.
+  - [sustrato] `sustrato/estados-unidos/poder-legislativo.md` (nuevo nodo): Congreso bicameral, House/Senate, comités, proceso de ley, ratificación de tratados, impeachment.
+  - [sustrato] `sustrato/canada/justicia-penal.md` (nuevo nodo): Criminal Code, resumen/indictable/híbrido, RCMP, Crown prosecutors, Charter, proceso penal, Ministerio de Justicia.
+  - [rol] `rol/head-of-portfolio-management.md` (nuevo nodo): estrategia de inversión, asset allocation, MPT/CAPM, active/passive, PMS, vs CIO/portfolio-manager.
+- Reference-only (Wikipedia EN + autoridades sectoriales: SRE/gob.mx, Congress.gov, Wikipedia Criminal law/Law enforcement of Canada, Justice Canada; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica).
+- **Round 66 COMPLETO (4/4 temas).** Cola Round 66 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 67 o pausar.
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 955** (Round 64: 944; Round 65: 955/11 nuevas). |
-| **Rondas:** 65 completas (Round 1..65). |
-| **Nodos sustrato (NA):** México 81 (+sistema-de-justicia), EE.UU. 67 (+defensa-antimonopolio), Canadá 60 (politica-monetaria ya existía). |
-| **Nodos dominio:** ~244 (Round 65 +5: arbitraje-comercial, ciberseguridad-supply-chain, macroprudencia, ciencia-de-materiales-aplicada, gestion-de-inventarios). |
-| **Nodos rol:** ~227 (Round 65 +3: head-of-information-technology, head-of-credit-risk, head-of-field-marketing; head-of-corporate-development y head-of-employer-branding ya existían). |
+| **Tópicos ingeridos (acumulado): 959** (Round 65: 955; Round 66: 959/4 nuevas). |
+| **Rondas:** 66 completas (Round 1..66). |
+| **Nodos sustrato (NA):** México 82 (+politica-exterior), EE.UU. 68 (+poder-legislativo), Canadá 61 (+justicia-penal). |
+| **Nodos dominio:** ~244 (sin cambio en Round 66; los 9 dominio de NEW_NODES_ROUND_66 ya existían). |
+| **Nodos rol:** ~228 (Round 66 +1: head-of-portfolio-management). |
 | **Organización:** 1 (ejemplo-empresa / NovaTech). |
 | **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
-| **Iteraciones totales:** 203. |
+| **Iteraciones totales:** 204. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 203 (Round 65 COMPLETA — 11/11 ingestados e integrados). |
-| - **Última ação:** Round 65 iter 203 — gap_analysis.py reportó 0 huecos reales → taxonomía extendida Round 65 (3 deepenings NA + 10 nodos nuevos dominio/rol; 3 ya existían → dedup a 8 reales + 2 deepenings sustrato = 11 páginas). Ingestó 11 páginas (2 sustrato + 5 dominio + 3 rol) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
+| - **Iteración actual:** 204 (Round 66 COMPLETA — 4/4 ingestados e integrados). |
+| - **Última ação:** Round 66 iter 204 — gap_analysis.py reportó 3 huecos en nodos existentes (deepenings NA) + 1 nodo nuevo real (rol/head-of-portfolio-management); 9 nodos restantes de NEW_NODES_ROUND_66 ya existían → dedup a 4 reales. Ingestó 4 páginas (3 sustrato + 1 rol) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 65 COMPLETA (11/11). |
+| - **Cola:** Round 66 COMPLETA (4/4). |
 
 ## ▶️ PRÓXIMA TAREFA
-- Round 65 COMPLETA (11 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 66) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
+- Round 66 COMPLETA (4 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 67) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
