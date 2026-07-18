@@ -1229,6 +1229,24 @@ NEW_NODES_ROUND_70 = [
 ]
 NEW_NODES = NEW_NODES_ROUND_70
 
+# Round 71 (iter 209) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("seguros", "Seguros Mexico (profundizacion): CNSF, sector asegurador, seguros obligatorios (auto, GMM, vida), RySO/SOAT, vs dominio/seguros"))
+TAXONOMY["sustrato/estados-unidos"].append(("seguridad-publica", "Seguridad publica EE.UU. (profundizacion): law enforcement, DOJ (Civil Rights Division, OPD), FBI, policia estatal/local, crimen, reforma policial, vs seguridad-nacional"))
+TAXONOMY["sustrato/canada"].append(("salud", "Salud Canada (profundizacion): Health Canada, provincias, CADTH, sistema de salud publico universal, vs salud-publica/dominio/sanidad"))
+NEW_NODES_ROUND_71 = [
+    ("dominio/ciberseguridad-de-aplicaciones", "Ciberseguridad de aplicaciones / AppSec: SDLC seguro, SAST/DAST/IAST, seguridad de codigo, OWASP Top 10, devsecops, vs ciberseguridad/security-engineer"),
+    ("dominio/derecho-bancario", "Derecho bancario / banking law: regulacion de entidades, licencias bancarias, depositos, basilea, resolucion bancaria, vs sistema-financiero/regulacion-financiera"),
+    ("dominio/finanzas-de-tesoreria", "Finanzas de tesoreria / corporate treasury: liquidez, cash management, financiamiento, riesgo de tasa/divisa, inversiones de excedentes, vs tesoreria/fp-and-a-manager"),
+    ("dominio/seguros-de-inversion", "Seguros de inversion / investment-type insurance: unit-linked, variables, annuities, ahorro-prevision, vs seguros-de-personas/gestion-de-activos"),
+    ("dominio/auditoria-de-estados-financieros", "Auditoria de estados financieros / financial statement audit: NIA/ISA, opinion, controles, vs auditoria/contabilidad/auditoria-interna"),
+    ("dominio/regulacion-de-aviacion", "Regulacion de aviacion / aviation regulation: FAA (US), TCCA/Transport Canada, EASA, OACI, certificacion de aeronaves, seguridad aerea, vs aviacion/transporte"),
+    ("dominio/transparencia-corporativa", "Transparencia corporativa / corporate transparency: disclosure, gobierno abierto empresarial, ESG disclosure, whistleblowing, vs gobierno-corporativo/auditoria-gubernamental"),
+    ("rol/head-of-application-security", "Head of Application Security: lidera AppSec (SDLC seguro, SAST/DAST, threat modeling), vs security-engineer/head-of-information-security/devsecops-engineer"),
+    ("rol/head-of-capital-markets", "Head of Capital Markets: levantamiento de capital (ECM/DCM), relacion con bancos de inversion, cotizacion, vs banca-de-inversion/chief-investment-officer"),
+    ("rol/head-of-tax-strategy", "Head of Tax Strategy: planificacion fiscal internacional, estructura de grupo, precios de transferencia, M&A tax, vs head-of-tax/cfo"),
+]
+NEW_NODES = NEW_NODES_ROUND_71
+
 
 
 def existing_pages(node: str) -> set:

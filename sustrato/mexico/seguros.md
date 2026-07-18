@@ -1,30 +1,38 @@
 ---
-titulo: Seguros en México (sector asegurador, CNSF, obligatorios)
+titulo: Seguros México
 capa: sustrato
-tema: seguros-mexico
-fuente: https://es.wikipedia.org/wiki/Seguro
-fuente2: https://www.gob.mx/cnsf
-fecha: 2026-07-15
+tema: sector-asegurador-mexico
+fuente: https://www.gob.mx/cnsf
+fuente2: https://segurointeligente.mx/blog/regulaciones-de-seguros/
+fecha: 2026-07-18
 confianza: alta
-tags: [mexico, seguros, cnsf, fianzas, seguro-auto, seguro-vida, seguro-salud, solvencia]
-english_keywords: [Mexico insurance, CNSF, surety bonds, mandatory auto liability, GNP, bancassurance, IAIS]
+tags: [mexico, seguros, cnsf, sector-asegurador, regulacion, seguros-obligatorios, soat]
 profundidad: 2
 estado: profundo
 ---
 
-# Seguros en México (sector asegurador, CNSF, obligatorios)
+# Seguros México
 
-## 📝 Conocimiento
-- **Regulador:** la **CNSF** (Comisión Nacional de Seguros y Fianzas), órgano desconcentrado de la **SHCP**, es la autoridad de supervisión y regulación del sector asegurador y de fianzas en México (creada en 1990, sustituyó a la CNSA). Registro, autorización, supervisión de solvencia y sanción.
-- **Seguro de automóvil:** en México el **seguro de responsabilidad civil** (lesiones a terceros) es de cobertura obligatoria para circular (Ley de Círculos de Crédito / disposiciones de tránsito); el mercado ofrece además coberturas amplia, robos y daños materiales.
-- **Ramos principales:** **daños** (auto, hogar, responsabilidad civil, pymes), **vida** (individual, grupo, ahorro), **gastos médicos mayores (GMM)**, **salud** y **fianzas** (garantía de cumplimiento de contrato — surety, muy usadas en obra pública y aduanas).
-- **Banca-seguros (bancassurance):** fuerte penetración vía bancos (BBVA Seguros, Banorte/Seguros Banorte, Santander) y aseguradoras independientes (GNP — Grupo Nacional Provincial, MetLife, AXA, Zurich, Qualitas en auto).
-- **Salud y seguridad social:** el sistema público (IMSS / ISSSTE / INSABI) cubre lo esencial; el seguro privado (GMM) es complemento de gasto catastrófico. Ver `sustrato/mexico/seguridad-social`.
-- **Solvencia:** las aseguradoras deben mantener márgenes de capital y reservas técnicas bajo normas prudenciales de la CNSF, alineadas con los **Principios de la IAIS** (Asociación Internacional de Supervisores de Seguros). No hay fondo de garantía federal equiparable al de EE.UU.
-- **Ambiental:** el **RySO** (Responsabilidad y Sanción por Daños Ambientales) introduce responsabilidad ambiental que fomenta seguros de caución/ambientales. Ver `dominio/seguros`.
-- **Tendencia:** adopción de **insurtech** (cotización digital, telematics, distribución vía comparadores) y mayor penetración de GMM; la inclusión (microseguros) sigue baja vs PIB per cápita. Ver `dominio/insurtech`.
+## Autoridad y marco regulatorio
+El sector asegurador y de fianzas en México está supervisado por la **Comisión Nacional de Seguros y Fianzas (CNSF)**, órgano desconcentrado de la SHCP. La Ley de Instituciones de Seguros y de Fianzas (LISF, vigente en su versión 2025 con reformas de solvencia y gobierno) rige la constitución, operación y supervisión de aseguradoras y afianzadoras. La CNSF emite disposiciones de carácter general (circular única) sobre inversiones, capitalización y sanas prácticas.
 
-## 🔗 Referencia
-- Wikipedia — *Seguro* (reference-only).
-- Gobierno de México — CNSF (cnsf.gob.mx); SHCP.
-- Cross-ref: `dominio/seguros`, `dominio/insurtech`, `sustrato/mexico/seguridad-social`, `dominio/finanzas-sostenibles`.
+## Estructura del mercado
+- **Seguros privados:** ramos de vida, gastos médicos mayores (GMM), autos, daños, responsabilidad civil, y pólizas de ahorro/previsión.
+- **Seguro social:** el IMSS y el ISSSTE cubren salud y riesgos de trabajo (no competencia del mercado privado, pero complementado por GMM privados).
+- **Reaseguro:** obligatorio para ceder riesgos catastróficos; mercado liderado por reaseguradoras internacionales y el Fondo de Reaseguro (antes Consorcio).
+- **Intermediación:** agentes, corredores y bancaseguros (bancassurance) canalizan la mayoría de la primas.
+
+## Seguros obligatorios (RySO / SOAT)
+- **Seguro de Responsabilidad Civil para Vehículos (SOAT / antiguo RySO):** cobertura obligatoria de gastos médicos por lesiones a terceros en accidente vehicular; regulado por la CNSF y operado por aseguradoras autorizadas.
+- **Seguro de vida y gastos médicos** en créditos hipotecarios/automotrices (asalariado) es frecuentemente condicionado por la financiera.
+- Reformas 2025: las aseguradoras deben integrar **criterios ASG (ESG)** en sus políticas de inversión desde el 1 de enero de 2025; digitalización de pólizas y mayor inclusión financiera.
+
+## Supervisión y solvencia
+- Régimen de **capital basado en riesgos** alineado con Solvency II / principios de la IAIS (comisiones de margen de solvencia).
+- La CNSF publica el **Reporte de Estabilidad del Sector Asegurador** y mantiene la base de datos de riesgos y la supervisión basada en riesgos.
+- Sustitución de la COFECE por la nueva autoridad de competencia (2025) impacta fusiones y precios del sector.
+
+## Referencias cruzadas
+- `sustrato/mexico/finanzas-publicas.md` (SHCP/CNSF)
+- `dominio/seguros.md`, `dominio/seguros-de-personas.md`, `dominio/seguros-de-vida.md`
+- `dominio/regulacion-financiera.md`

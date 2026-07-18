@@ -1912,4 +1912,23 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-design-research](rol/head-of-design-research.md) — Head of Design Research: lidera org de UX research, metodos, impacto en producto · head-of-design-research,design-research,ux-research,metodos,producto · 2026-07-18
 - [head-of-mobile-engineering](rol/head-of-mobile-engineering.md) — Head of Mobile Engineering: iOS/Android/cross-platform, release, performance · head-of-mobile-engineering,mobile,ios,android,ingenieria,release · 2026-07-18
 - [head-of-data-engineering](rol/head-of-data-engineering.md) — Head of Data Engineering: plataforma de datos, pipelines, lakehouse, gobierno tecnico · head-of-data-engineering,data-engineering,pipelines,lakehouse,plataforma-datos · 2026-07-18
+
+### sustrato Round 71 (deepenings NA)
+- [mexico/seguros](sustrato/mexico/seguros.md) — Seguros México: CNSF, LISF, sector asegurador, seguros obligatorios (SOAT/RySO), ESG 2025 · mexico,seguros,cnsf,sector-asegurador,soat,regulacion · 2026-07-18
+- [estados-unidos/seguridad-publica](sustrato/estados-unidos/seguridad-publica.md) — Seguridad pública EE.UU.: law enforcement fragmentado, FBI/DOJ/COPS, reforma policial · eeuu,seguridad-publica,law-enforcement,fbi,doj,policia,reforma-policial · 2026-07-18
+- [canada/salud](sustrato/canada/salud.md) — Salud Canadá: sistema público universal (Canada Health Act), Health Canada, provincias, CADTH · canada,salud,health-canada,medicare,sistema-publico,provincias,cadth · 2026-07-18
+
+### dominio Round 71 (nuevos)
+- [ciberseguridad-de-aplicaciones](dominio/ciberseguridad-de-aplicaciones.md) — Ciberseguridad de aplicaciones (AppSec): SDLC seguro, SAST/DAST/IAST, OWASP Top 10, DevSecOps · ciberseguridad,appsec,owasp,sast,dast,devsecops,sdlc-seguro · 2026-07-18
+- [derecho-bancario](dominio/derecho-bancario.md) — Derecho bancario: licencias, depósitos, Basilea III/IV, resolución bancaria, CNBV/Fed/OSFI · derecho-bancario,banking-law,regulacion,basilea,depositos,resolucion-bancaria · 2026-07-18
+- [finanzas-de-tesoreria](dominio/finanzas-de-tesoreria.md) — Finanzas de tesorería: liquidez, cash management, financiamiento CP, riesgo FX/taa, inversiones excedentes · tesoreria,corporate-treasury,liquidez,cash-management,fx,financiamiento · 2026-07-18
+- [seguros-de-inversion](dominio/seguros-de-inversion.md) — Seguros de inversión: unit-linked, variable life, annuities, ahorro/previsión; vs seguros de personas · seguros-de-inversion,unit-linked,variable,annuities,ahorro,prevision · 2026-07-18
+- [auditoria-de-estados-financieros](dominio/auditoria-de-estados-financieros.md) — Auditoría de estados financieros: NIA/ISA, opinión, controles, fraude/error · auditoria,estados-financieros,nia,isa,aicpa,opinion,controles · 2026-07-18
+- [regulacion-de-aviacion](dominio/regulacion-de-aviacion.md) — Regulación de aviación: FAA/EASA/TCCA, ICAO, certificación de aeronaves, aeronavegabilidad, SMS · aviacion,regulacion,faa,easa,icao,certificacion,aeronavegabilidad · 2026-07-18
+- [transparencia-corporativa](dominio/transparencia-corporativa.md) — Transparencia corporativa: disclosure, gobierno abierto, ESG disclosure, whistleblowing, UBO · transparencia,disclosure,gobierno-corporativo,esg-disclosure,whistleblowing · 2026-07-18
+
+### rol Round 71 (nuevos)
+- [head-of-application-security](rol/head-of-application-security.md) — Head of Application Security: lidera AppSec (SDLC seguro, SAST/DAST, threat modeling), vs security-engineer · head-of-application-security,appsec,security,liderazgo,devsecops · 2026-07-18
+- [head-of-capital-markets](rol/head-of-capital-markets.md) — Head of Capital Markets: levantamiento de capital (ECM/DCM), relación banca de inversión, cotización · head-of-capital-markets,capital-markets,ecm,dcm,levantamiento-capital · 2026-07-18
+- [head-of-tax-strategy](rol/head-of-tax-strategy.md) — Head of Tax Strategy: planificación fiscal internacional, estructura de grupo, precios de transferencia, M&A tax · head-of-tax-strategy,tax,fiscal,precios-transferencia,internacional,manda-tax · 2026-07-18
 - [head-of-product-design](rol/head-of-product-design/head-of-product-design.md) — Head of Product Design: UX/UI/interaction, design system, research embed; vs head-of-design/head-of-ux · head-of-product-design,product-design,ux,ui,design-system,research · 2026-07-18

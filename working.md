@@ -2524,3 +2524,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 
 ## ▶️ PRÓXIMA TAREFA
 - Round 70 COMPLETA (15 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 71) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
+
+## ✅ COLA ROUND 71 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 209) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 71 (scripts/gap_analysis.py): 3 deepenings NA (sustrato/mexico/seguros, sustrato/estados-unidos/seguridad-publica, sustrato/canada/salud) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_71). Todos nuevos (sin duplicados).
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/seguros — Seguros México (CNSF, LISF, sector asegurador, SOAT/RySO, ESG 2025)
+- [x] sustrato/estados-unidos/seguridad-publica — Seguridad pública EE.UU. (law enforcement fragmentado, FBI/DOJ/COPS, reforma policial)
+- [x] sustrato/canada/salud — Salud Canadá (Canada Health Act, Health Canada, provincias, CADTH)
+### Dominio (nuevos nodos)
+- [x] dominio/ciberseguridad-de-aplicaciones — Ciberseguridad de aplicaciones / AppSec (SAST/DAST/IAST, OWASP, DevSecOps)
+- [x] dominio/derecho-bancario — Derecho bancario (licencias, depósitos, Basilea III/IV, resolución bancaria)
+- [x] dominio/finanzas-de-tesoreria — Finanzas de tesorería (liquidez, cash management, FX, inversiones excedentes)
+- [x] dominio/seguros-de-inversion — Seguros de inversión (unit-linked, variable life, annuities)
+- [x] dominio/auditoria-de-estados-financieros — Auditoría de estados financieros (NIA/ISA, opinión, controles)
+- [x] dominio/regulacion-de-aviacion — Regulación de aviación (FAA/EASA/TCCA, ICAO, certificación)
+- [x] dominio/transparencia-corporativa — Transparencia corporativa (disclosure, ESG, whistleblowing, UBO)
+### Rol (nuevos nodos)
+- [x] rol/head-of-application-security — Head of Application Security (AppSec org, SDLC seguro, threat modeling)
+- [x] rol/head-of-capital-markets — Head of Capital Markets (ECM/DCM, relación banca de inversión, cotización)
+- [x] rol/head-of-tax-strategy — Head of Tax Strategy (planificación fiscal internacional, precios de transferencia, M&A tax)
+
+### ITER 209 — Round 71 (2026-07-18)
+- gap_analysis.py (iter 209) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 71 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_71). Todos los 13 sugeridos eran nuevos (sin duplicados).
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] `sustrato/mexico/seguros.md` (deepening): CNSF, LISF, sector asegurador, SOAT/RySO, ESG 2025.
+  - [sustrato] `sustrato/estados-unidos/seguridad-publica.md` (deepening): law enforcement fragmentado, FBI/DOJ/COPS, reforma policial.
+  - [sustrato] `sustrato/canada/salud.md` (deepening): Canada Health Act, Health Canada, provincias, CADTH, sistema público universal.
+  - [dominio] `dominio/ciberseguridad-de-aplicaciones.md`, `dominio/derecho-bancario.md`, `dominio/finanzas-de-tesoreria.md`, `dominio/seguros-de-inversion.md`, `dominio/auditoria-de-estados-financieros.md`, `dominio/regulacion-de-aviacion.md`, `dominio/transparencia-corporativa.md` (7 nuevos nodos).
+  - [rol] `rol/head-of-application-security.md`, `rol/head-of-capital-markets.md`, `rol/head-of-tax-strategy.md` (3 nuevos nodos).
+- Reference-only (autoridades sectoriales: gob.mx/CNSF, DOJ/COPS/FBI, Canada.ca/Health Canada/CADTH, OWASP, BIS, NAIC, FAA/ICAO, SEC/OCDE, IAASB; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- **Round 71 COMPLETO (13/13 temas).** Cola Round 71 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 72 o pausar.
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+| **Tópicos ingeridos (acumulado): 1025** (Round 70: 1012; Round 71: 1025/13 nuevas). |
+| **Rondas:** 71 completas (Round 1..71). |
+| **Nodos sustrato (NA):** México 86 (+seguros), EE.UU. 71 (+seguridad-publica), Canadá 64 (+salud). |
+| **Nodos dominio:** ~278 (Round 71 +7: ciberseguridad-de-aplicaciones, derecho-bancario, finanzas-de-tesoreria, seguros-de-inversion, auditoria-de-estados-financieros, regulacion-de-aviacion, transparencia-corporativa). |
+| **Nodos rol:** ~249 (Round 71 +3: head-of-application-security, head-of-capital-markets, head-of-tax-strategy). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech). |
+| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+| **Iteraciones totales:** 209. |
+
+## 🚦 ESTADO
+| - **Iteración actual:** 209 (Round 71 COMPLETA — 13/13 ingestados e integrados). |
+| - **Última ação:** Round 71 iter 209 — gap_analysis.py (iter 209) reportó 0 huecos reales → taxonomía extendida Round 71 (3 deepenings NA + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x7, LOOP 3 rol x3) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 71 COMPLETA (13/13). |
+| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos → ampliar taxonomía (Round 72) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. |
