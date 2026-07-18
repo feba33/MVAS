@@ -2614,19 +2614,46 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - Reference-only (Fed/OECD/BIS, UNWTO/WTTC, ISA/NERC, GDPR, IEA, Gartner, NIST AI RMF, COSO; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
 - **Round 72 COMPLETO (23/23 temas).** Cola Round 72 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 73 o pausar.
 
+## ✅ COLA ROUND 73 — COMPLETA (11/11 páginas nuevas)
+> gap_analysis.py (iter 211) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 73 (scripts/gap_analysis.py): 3 deepenings NA sugeridos (mexico/seguridad-alimentaria, estados-unidos/energia, canada/transporte) pero los dos últimos YA existían como páginas (dedup por gap_analysis) → 1 deepening real (MX) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_73). Dedup a 11 sugerencias reales.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodo NA existente)
+- [x] sustrato/mexico/seguridad-alimentaria — Seguridad alimentaria México (SADER/SENASICA/COFEPRIS, inocuidad, trazabilidad, Alianza México–EE.UU.)
+### Dominio (nuevos nodos)
+- [x] dominio/derecho-fiscal-internacional — Derecho fiscal internacional (CDI/OCDE, establecimiento permanente, BEPS, tasa mínima global)
+- [x] dominio/banca-de-desarrollo — Banca de desarrollo (NAFIN/Bancomext MX, BDC CA, NADBank binacional)
+- [x] dominio/ciberseguridad-de-identidad — Ciberseguridad de identidad (IAM, MFA, zero trust, PAM)
+- [x] dominio/analitica-de-marketing-digital — Analítica de marketing digital (attribution, MMM, CAC/LTV)
+- [x] dominio/gestion-de-la-cadena-de-suministro-verde — Gestión de cadena de suministro verde (Scope 3, logística baja en carbono, circularidad)
+### Rol (nuevos nodos)
+- [x] rol/head-of-emerging-technology — Head of Emerging Technology (scouting, PoC, adopción quantum/spatial/Web3)
+- [x] rol/head-of-sustainability-strategy — Head of Sustainability Strategy (ESG, descarbonización, metas SBTi)
+- [x] rol/head-of-investor-relations-strategy — Head of Investor Relations Strategy (narrativa, earnings, Reg FD)
+- [x] rol/head-of-fraud-prevention — Head of Fraud Prevention (detección, AML/KYC, chargebacks)
+- [x] rol/head-of-platform-security — Head of Platform Security (seguridad de plataforma/infra, hardening, CSPM)
+
+### ITER 211 — Round 73 (2026-07-18)
+- gap_analysis.py (iter 211) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 73 (scripts/gap_analysis.py): 3 deepenings NA sugeridos (sustrato/mexico/seguridad-alimentaria, sustrato/estados-unidos/energia, sustrato/canada/transporte) pero los dos últimos YA existían como páginas → dedup a 11 sugerencias reales (1 sustrato + 10 dominio/rol).
+- 11 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] `sustrato/mexico/seguridad-alimentaria.md` (deepening): SADER/SENASICA/COFEPRIS, inocuidad, trazabilidad, Alianza México–EE.UU. de Inocuidad, intercambio agroalimentario >USD 73 mm.
+  - [dominio] `dominio/derecho-fiscal-internacional.md`, `dominio/banca-de-desarrollo.md`, `dominio/ciberseguridad-de-identidad.md`, `dominio/analitica-de-marketing-digital.md`, `dominio/gestion-de-la-cadena-de-suministro-verde.md` (5 nuevos nodos).
+  - [rol] `rol/head-of-emerging-technology.md`, `rol/head-of-sustainability-strategy.md`, `rol/head-of-investor-relations-strategy.md`, `rol/head-of-fraud-prevention.md`, `rol/head-of-platform-security.md` (5 nuevos nodos).
+- Reference-only (Wikipedia EN + autoridades sectoriales: gob.mx/SADER/COFEPRIS, OECD tax, NADBank, NIST, GHG Protocol, SEC Reg FD, SBTi, Transport Canada; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX; US/CA energies ya existían → no duplicados).
+- **Round 73 COMPLETO (11/11 temas).** Cola Round 73 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 74 o pausar.
+
 ## 📊 ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 1048** (Round 71: 1025; Round 72: 1048/23 nuevas). |
-| **Rondas:** 72 completas (Round 1..72). |
-| **Nodos sustrato (NA):** México 87 (+seguridad-cibernetica), EE.UU. 72 (+telecomunicaciones-cloud), Canadá 65 (+energia-renovables). |
-| **Nodos dominio:** ~288 (Round 72 +10: teoria-monetaria, politica-industrial, economia-del-turismo, derecho-del-entretenimiento, gestion-de-la-calidad-software, ciberseguridad-de-ot, biometria-financiera, movilidad-electrica, servicios-de-consultoria-it, gestion-de-la-demanda-energetica). |
-| **Nodos rol:** ~259 (Round 72 +10: head-of-payments, head-of-corporate-development-strategy, head-of-mobile-product, head-of-commercial-excellence, head-of-customer-ops-strategy, head-of-data-governance, head-of-workforce-experience-strategy, head-of-brand-strategy, head-of-ai-strategy, head-of-risk-and-controls). |
+| **Tópicos ingeridos (acumulado): 1059** (Round 72: 1048; Round 73: 1059/11 nuevas). |
+| **Rondas:** 73 completas (Round 1..73). |
+| **Nodos sustrato (NA):** México 88 (+seguridad-alimentaria), EE.UU. 72, Canadá 65. |
+| **Nodos dominio:** ~293 (Round 73 +5: derecho-fiscal-internacional, banca-de-desarrollo, ciberseguridad-de-identidad, analitica-de-marketing-digital, gestion-de-la-cadena-de-suministro-verde). |
+| **Nodos rol:** ~264 (Round 73 +5: head-of-emerging-technology, head-of-sustainability-strategy, head-of-investor-relations-strategy, head-of-fraud-prevention, head-of-platform-security). |
 | **Organización:** 1 (ejemplo-empresa / NovaTech). |
 | **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
-| **Iteraciones totales:** 210. |
+| **Iteraciones totales:** 211. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 210 (Round 72 COMPLETA — 23/23 ingestados e integrados). |
-| - **Última ação:** Round 72 iter 210 — gap_analysis.py (iter 210) reportó 0 huecos reales → taxonomía extendida Round 72 (3 deepenings NA + 20 nodos nuevos dominio/rol). 23 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x10, LOOP 3 rol x10) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
+| - **Iteración actual:** 211 (Round 73 COMPLETA — 11/11 ingestados e integrados). |
+| - **Última ação:** Round 73 iter 211 — gap_analysis.py (iter 211) reportó 0 huecos reales → taxonomía extendida Round 73 (3 deepenings NA sugeridos, de los cuales 2 ya existían + 10 nodos nuevos dominio/rol). 11 páginas ingeridas (LOOP 1 sustrato NA x1, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 72 COMPLETA (23/23). |
-| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos → ampliar taxonomía (Round 73) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. |
+| - **Cola:** Round 73 COMPLETA (11/11). |
+| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos → ampliar taxonomía (Round 74) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. |

@@ -1965,3 +1965,19 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-ai-strategy](rol/head-of-ai-strategy.md) — Head of AI Strategy: adopción de IA/ML, roadmaps de modelos, governance · head-of-ai-strategy,estrategia-ia,adopcion-ia,governance-ia,roadmaps · 2026-07-18
 - [head-of-risk-and-controls](rol/head-of-risk-and-controls.md) — Head of Risk & Controls: riesgo operativo + controles (SOX/ICFR), COSO · head-of-risk-and-controls,riesgo-operativo,controles,sox,icfr · 2026-07-18
 - [head-of-product-design](rol/head-of-product-design/head-of-product-design.md) — Head of Product Design: UX/UI/interaction, design system, research embed; vs head-of-design/head-of-ux · head-of-product-design,product-design,ux,ui,design-system,research · 2026-07-18
+### sustrato/mexico (deepening R73)
+- [seguridad-alimentaria](sustrato/mexico/seguridad-alimentaria.md) — Seguridad alimentaria México: SADER/SENASICA/COFEPRIS, inocuidad, trazabilidad, Alianza México–EE.UU. · mexico,seguridad-alimentaria,sader,senasica,cofepris,inocuidad · 2026-07-18
+
+### dominio Round 73 (nuevos)
+- [derecho-fiscal-internacional](dominio/derecho-fiscal-internacional.md) — Derecho fiscal internacional: CDI/OCDE, establecimiento permanente, BEPS, tasa mínima global · derecho-fiscal,cdi,oecd,establecimiento-permanente,beps · 2026-07-18
+- [banca-de-desarrollo](dominio/banca-de-desarrollo.md) — Banca de desarrollo: NAFIN/Bancomext (MX), BDC (CA), NADBank binacional; mandato de desarrollo · banca-desarrollo,nafin,bancomext,bdc,nadbank · 2026-07-18
+- [ciberseguridad-de-identidad](dominio/ciberseguridad-de-identidad.md) — Ciberseguridad de identidad: IAM, MFA, zero trust, PAM/cuentas privilegiadas · identidad,iam,mfa,zero-trust,pam · 2026-07-18
+- [analitica-de-marketing-digital](dominio/analitica-de-marketing-digital.md) — Analítica de marketing digital: attribution, MMM, CAC/LTV, dashboards · marketing-analytics,attribution,mmm,cac,ltv · 2026-07-18
+- [gestion-de-la-cadena-de-suministro-verde](dominio/gestion-de-la-cadena-de-suministro-verde.md) — Gestión de cadena de suministro verde: Scope 3, logística baja en carbono, circularidad · scm-verde,scope3,logistica,circularidad,esg · 2026-07-18
+
+### rol Round 73 (nuevos)
+- [head-of-emerging-technology](rol/head-of-emerging-technology.md) — Head of Emerging Technology: scouting de tecnologías, PoC, adopción (quantum/spatial/Web3) · emerging-technology,scouting,poc,innovacion · 2026-07-18
+- [head-of-sustainability-strategy](rol/head-of-sustainability-strategy.md) — Head of Sustainability Strategy: ESG, descarbonización, metas SBTi, net-zero · sostenibilidad,esg,descarbonizacion,sbti,net-zero · 2026-07-18
+- [head-of-investor-relations-strategy](rol/head-of-investor-relations-strategy.md) — Head of Investor Relations Strategy: narrativa, earnings, Reg FD, engagement · investor-relations,estrategia,earnings,regfd · 2026-07-18
+- [head-of-fraud-prevention](rol/head-of-fraud-prevention.md) — Head of Fraud Prevention: detección, AML/KYC, chargebacks, modelos de riesgo · fraude,aml,kyc,chargebacks,prevencion · 2026-07-18
+- [head-of-platform-security](rol/head-of-platform-security.md) — Head of Platform Security: seguridad de plataforma/infra, hardening, CSPM, respuesta a incidentes · platform-security,cloud,hardening,cspm,infra · 2026-07-18

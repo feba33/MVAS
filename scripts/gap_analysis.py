@@ -1276,6 +1276,26 @@ NEW_NODES_ROUND_72 = [
 NEW_NODES = NEW_NODES_ROUND_72
 
 
+# Round 73 (iter 211) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("seguridad-alimentaria", "Seguridad alimentaria Mexico (profundizacion): SADER/SENASICA, COFEPRIS, inocuidad, trazabilidad, autosuficiencia, vs dominio/seguridad-alimentaria/seguridad-alimentaria-mexico"))
+TAXONOMY["sustrato/estados-unidos"].append(("energia", "Energia EE.UU. (profundizacion): DOE, FERC, grid, oil & gas, renovables, nuclear, vs energia-electrica/energia-renovables/energia-nuclear/energia-solar"))
+TAXONOMY["sustrato/canada"].append(("transporte", "Transporte Canada (profundizacion): Transport Canada, modos carretero/ferroviario/aereo/maritimo, politica de movilidad, vs transporte-ferroviario/infraestructura"))
+NEW_NODES_ROUND_73 = [
+    ("dominio/derecho-fiscal-internacional", "Derecho fiscal internacional / international tax law: tributacion de no residentes, convenios de doble tributacion (CDI/OCDE), establecimiento permanente, vs tributacion-internacional/derecho-tributario"),
+    ("dominio/banca-de-desarrollo", "Banca de desarrollo / development banking: BND/NADB (US), BDC (CA), NAFIN/Bancomext (MX), mandato de desarrollo, credito preferencial, vs banca-corporativa/capital-riesgo"),
+    ("dominio/ciberseguridad-de-identidad", "Ciberseguridad de identidad / identity security: IAM, gestion de identidad, MFA, zero trust, cuentas privilegiadas, vs proteccion-de-datos/seguridad-de-aplicaciones"),
+    ("dominio/analitica-de-marketing-digital", "Analitica de marketing digital / marketing analytics: attribution, MMM, CAC/LTV, dashboards de canal, vs analitica-marketing/analitica-web"),
+    ("dominio/gestion-de-la-cadena-de-suministro-verde", "Gestion de la cadena de suministro verde / green SCM: Scope 3, logistica baja en carbono, circularidad en supply chain, vs cadena-de-valor/cadena-suministro"),
+    ("rol/head-of-emerging-technology", "Head of Emerging Technology: scouting de tecnologias emergentes (quantum, spatial, Web3), PoC, adopcion, vs chief-technology-officer/head-of-innovation"),
+    ("rol/head-of-sustainability-strategy", "Head of Sustainability Strategy: estrategia ESG, descarbonizacion, ciencia basada en objetivos (SBTi), vs head-of-sustainability/chief-sustainability-officer"),
+    ("rol/head-of-investor-relations-strategy", "Head of Investor Relations Strategy: narrativa con inversionistas, earnings, disclosure Reg FD, vs investor-relations/head-of-investor-relations"),
+    ("rol/head-of-fraud-prevention", "Head of Fraud Prevention: deteccion/prevencion de fraude, AML/KYC, chargebacks, modelos de riesgo, vs head-of-fraud/compliance-officer"),
+    ("rol/head-of-platform-security", "Head of Platform Security: seguridad de plataforma/infra, hardening, CSPM, respuesta a incidentes de plataforma, vs head-of-information-security/head-of-it-security"),
+]
+NEW_NODES = NEW_NODES_ROUND_73
+
+
+
 
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
