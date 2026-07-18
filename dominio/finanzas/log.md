@@ -13,6 +13,9 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - Fuente: El Financiero (opinión, G. Knochenhauer). T-MEC vigente hasta 2036, revisiones anuales, retiro anticipado posible.
 
 ## [2026-07-16] ingest | Trump impondrá aranceles del 25% a Brasil por censura a tecnológicas de EE.UU.
+
+## [2026-07-18] ingest | El Mundial quedó a deber en México (impacto en consumo)
+- Fuente: El Financiero (opinión, Víctor Piz). 13 partidos del Mundial no generaron el impulso esperado en el gasto de los hogares; señal de consumo privado frágil. Cross-ref a sustrato/mexico.
 - Fuente: El Financiero (mundo, 2026-07-15). EE.UU. estaría por imponer aranceles del 25% contra Brasil.
 - Entidad: dominio/finanzas (política comercial / aranceles). Cross-ref sustrato/mexico/comercio-exterior.
 - Relevancia: cambia supuestos de comercio regional y volatilidad arancelaria para México.

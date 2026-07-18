@@ -28,6 +28,7 @@ Formato: `- [ruta](enlace) — resumen de una línea · 🏷️ tags · 📅 fec
 - [sat](sustrato/mexico/sat.md) — SAT: autoridad fiscal máxima (SHCP), CFF, RFC, CFDI 4.0, sistema tributario federal · 🏷️ sat,shcp,sistema-tributario,recaudacion,rfc,cfdi · 📅 2026-07-12
 - [pemex-fracking-huasteca](pemex-fracking-huasteca.md) — Pemex niega fracking en la Huasteca Potosina y aclara permiso de explosivos · 🏷️ elfinanciero,pemex,energia,fracking,huasteca · 📅 2026-07-12
 - [educacion](educacion.md) — Educación México: SEP, sistema educativo, educación superior (UNAM/IPN/ANUIES) · 🏷️ mexico,educacion,sep,sistema-educativo,educacion-superior,anuies,reforma-educativa · 📅 2026-07-12
+- [consumo-mundial-2026](../../dominio/finanzas/mundial-impacto-consumo-mexico.md) — 13 partidos del Mundial no impulsaron el gasto de los hogares; consumo privado frágil · 🏷️ elfinanciero,mundial,consumo-privado,mexico · 📅 2026-07-18
 - [medio-ambiente](medio-ambiente.md) — Medio ambiente México: SEMARNAT, LGEEPA, cambio climático, ESG, economía circular · 🏷️ mexico,medio-ambiente,semarnat,lgeepa,cambio-climatico,esg,economia-circular · 📅 2026-07-12
 - [seguridad-social](seguridad-social.md) — Seguridad social México: IMSS, ISSSTE, seguro social, salud/pensiones laborales · 🏷️ mexico,seguridad-social,imss,issste,seguro-social,salud-laboral,pensiones,sar · 📅 2026-07-12
 - [transporte](transporte.md) — Transporte e infraestructura México: SICT, carreteras, puertos, ferrocarriles, aeropuertos · 🏷️ mexico,transporte,infraestructura,sict,sct,carreteras,puertos,aeropuertos,ferrocarriles · 📅 2026-07-12
