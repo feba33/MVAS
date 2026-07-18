@@ -2705,3 +2705,54 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | - **Bloqueos:** ninguno. |
 | - **Cola:** Round 74 COMPLETA (13/13). |
 | - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos → ampliar taxonomía (Round 75) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. |
+
+## ✅ COLA ROUND 75 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 213) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 75 (scripts/gap_analysis.py): 3 deepenings NA (mexico/comunicacion-social, estados-unidos/energia-espacial, canada/pesca) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_75). NOTA: el 1er borrador (infraestructura MX, defensa US, politica-fiscal CA, economia-circular/economia-comportamental/bioetica) ya EXISTÍAN como páginas planas → reemplazados por topics libres (ver dedup).
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/comunicacion-social — Comunicación social México (Art.134, LGCS, INE/INEII, pauta oficial, SEGOB)
+- [x] sustrato/estados-unidos/energia-espacial — Energía espacial EE.UU. (USSF, SDA/PWSA, SATCOM, nuclear espacial)
+- [x] sustrato/canada/pesca — Pesca Canadá (DFO, cuotas, acuicultura, pueblos indígenas, MPAs)
+### Dominio (nuevos nodos)
+- [x] dominio/derecho-agrario — Derecho agrario (ejido, tenencia, contratos agrícolas, crédito agrario, RAN)
+- [x] dominio/derecho-notarial — Derecho notarial (fe pública, escrituras, protocolo, responsabilidad notarial)
+- [x] dominio/seguridad-de-la-informacion-empresarial — Seguridad de la información empresarial (CIA, GRC, clasificación, DLP)
+- [x] dominio/ciencia-de-datos-empresarial — Ciencia de datos empresarial (ciclo, MLOps, embed en producto, gobierno)
+- [x] dominio/economia-del-deporte-femenino — Economía del deporte femenino (inversión, igualdad salarial, audiencia, ligas)
+### Rol (nuevos nodos)
+- [x] rol/head-of-catastrophe-risk — Head of Catastrophe Risk (natcat, modelado catastrófico, reaseguro/ILS, acumulación)
+- [x] rol/head-of-business-resilience — Head of Business Resilience (BCP, DR, crisis management, ISO 22301)
+- [x] rol/head-of-model-risk — Head of Model Risk (MRM, validación, SR 11-7, model inventory)
+- [x] rol/head-of-contracts-management — Head of Contracts Management (CLM, redline, obligaciones, riesgo)
+- [x] rol/head-of-supplier-management — Head of Supplier Management (SRM, sourcing, scorecards, riesgo de proveedor)
+
+### ITER 213 — Round 75 (2026-07-18)
+- gap_analysis.py (iter 213) reportó 0 huecos reales → taxonomía extendida Round 75 (scripts/gap_analysis.py): 3 deepenings NA (mexico/comunicacion-social, estados-unidos/energia-espacial, canada/pesca) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_75). Dedup: 6 slugs del 1er borrador ya existían como páginas planas (infraestructura MX, defensa US, politica-fiscal CA, economia-circular, economia-comportamental, bioetica) → reemplazados por topics libres.
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] `sustrato/mexico/comunicacion-social.md` (deepening): Art.134 Constitución, LGCS, INE/INEII, pauta oficial, SEGOB.
+  - [sustrato] `sustrato/estados-unidos/energia-espacial.md` (deepening): USSF (2019), SDA/PWSA, SATCOM, energía nuclear espacial (DRACO).
+  - [sustrato] `sustrato/canada/pesca.md` (deepening): DFO, cuotas, acuicultura, pueblos indígenas, MPAs.
+  - [dominio] `dominio/derecho-agrario.md`, `dominio/derecho-notarial.md`, `dominio/seguridad-de-la-informacion-empresarial.md`, `dominio/ciencia-de-datos-empresarial.md`, `dominio/economia-del-deporte-femenino.md` (5 nuevos nodos).
+  - [rol] `rol/head-of-catastrophe-risk.md`, `rol/head-of-business-resilience.md`, `rol/head-of-model-risk.md`, `rol/head-of-contracts-management.md`, `rol/head-of-supplier-management.md` (5 nuevos nodos).
+- Reference-only (Wikipedia ES/EN + autoridades: gob.mx/SEGOB, spaceforce.mil/SDA, dfo-mpo.gc.ca, ISO 27001/22301, Fed SR 11-7, CIPS, IACCM; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- **Round 75 COMPLETO (13/13 temas).** Cola Round 75 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 76 o pausar.
+
+
+## INDICE DE PROGRESO (acumulado)
+| **Topicos ingeridos (acumulado): 1085** (Round 74: 1072; Round 75: 1085/13 nuevas). |
+| **Rondas:** 75 completas (Round 1..75). |
+| **Nodos sustrato (NA):** Mexico 90 (+comunicacion-social), EE.UU. 74 (+energia-espacial), Canada 67 (+pesca). |
+| **Nodos dominio:** ~303 (Round 75 +5: derecho-agrario, derecho-notarial, seguridad-de-la-informacion-empresarial, ciencia-de-datos-empresarial, economia-del-deporte-femenino). |
+| **Nodos rol:** ~274 (Round 75 +5: head-of-catastrophe-risk, head-of-business-resilience, head-of-model-risk, head-of-contracts-management, head-of-supplier-management). |
+| **Organizacion:** 1 (ejemplo-empresa / NovaTech). |
+| **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
+| **Iteraciones totales:** 213. |
+
+## ESTADO
+| - **Iteracion actual:** 213 (Round 75 COMPLETA — 13/13 ingestados e integrados). |
+| - **Ultima accion:** Round 75 iter 213 — gap_analysis.py (iter 213) reporto 0 huecos reales → taxonomia extendida Round 75 (3 deepenings NA + 10 nodos nuevos dominio/rol; dedup de 6 slugs ya existentes). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 75 COMPLETA (13/13). |
+
+## PROXIMA TAREFA
+- Round 75 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomia (Round 76) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamerica (respetado).

@@ -1317,6 +1317,25 @@ NEW_NODES_ROUND_74 = [
 NEW_NODES = NEW_NODES_ROUND_74
 
 
+# Round 75 (iter 213) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("comunicacion-social", "Comunicacion social Mexico (profundizacion): INE/INEI, estrategia de comunicacion gubernamental, propaganda, vs comunicacion-corporativa/relaciones-publicas"))
+TAXONOMY["sustrato/estados-unidos"].append(("energia-espacial", "Energia espacial EE.UU. (profundizacion): Space Force, Space Development Agency, SATCOM, nuclear espacial, vs ciencia-espacial/aviacion"))
+TAXONOMY["sustrato/canada"].append(("pesca", "Pesca Canada (profundizacion): Fisheries and Oceans Canada (DFO), cuotas, acuicultura, zonas costeras, vs agricultura/recursos-naturales"))
+NEW_NODES_ROUND_75 = [
+    ("dominio/derecho-agrario", "Derecho agrario / agrarian law: ejido, regime de tierras, contratos agricolas, credito agrario, vs agricultura/derecho-familiar"),
+    ("dominio/derecho-notarial", "Derecho notarial / notarial law: fe publica, escrituras, protocolo, fedatario, vs derecho-civil/derecho-de-familia"),
+    ("dominio/seguridad-de-la-informacion-empresarial", "Seguridad de la informacion empresarial / enterprise infosec: CIA, GRC, clasificacion de datos, DLP, vs ciberseguridad/head-of-information-security"),
+    ("dominio/ciencia-de-datos-empresarial", "Ciencia de datos empresarial / enterprise data science: modelos de negocio, MLOps, embed en producto, vs data-science/aprendizaje-automatico"),
+    ("dominio/economia-del-deporte-femenino", "Economia del deporte femenino / women's sports economy: ligas, inversión, igualdad salarial, audiencia, vs deporte-profesional/economia-del-deporte"),
+    ("rol/head-of-catastrophe-risk", "Head of Catastrophe Risk: riesgo por catastrofes (natcat: sismo/huracan/inundacion), modelado catastrófico, reaseguro/ILS, acumulacion, vs head-of-risk-and-controls/seguros"),
+    ("rol/head-of-business-resilience", "Head of Business Resilience: continuidad de negocio (BCP), recuperacion ante desastres (DR), crisis management, exercise/tabletop, vs gestion-de-crisis/gestion-del-riesgo-de-desastres"),
+    ("rol/head-of-model-risk", "Head of Model Risk: validacion de modelos (MRM), SR 11-7 (Fed), model inventory, independencia, vs chief-risk-officer/head-of-credit-risk"),
+    ("rol/head-of-contracts-management", "Head of Contracts Management: ciclo de vida de contratos, CLM, redline, obligaciones, riesgos contractuales, vs legal-counsel/head-of-legal-operations"),
+    ("rol/head-of-supplier-management", "Head of Supplier Management: sourcing strategico, onboarding de proveedores, scorecards, riesgo de proveedor, SRM, vs head-of-procurement/head-of-supply-chain-planning"),
+]
+NEW_NODES = NEW_NODES_ROUND_75
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

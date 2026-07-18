@@ -1991,3 +1991,22 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-investor-relations-strategy](rol/head-of-investor-relations-strategy.md) — Head of Investor Relations Strategy: narrativa, earnings, Reg FD, engagement · investor-relations,estrategia,earnings,regfd · 2026-07-18
 - [head-of-fraud-prevention](rol/head-of-fraud-prevention.md) — Head of Fraud Prevention: detección, AML/KYC, chargebacks, modelos de riesgo · fraude,aml,kyc,chargebacks,prevencion · 2026-07-18
 - [head-of-platform-security](rol/head-of-platform-security.md) — Head of Platform Security: seguridad de plataforma/infra, hardening, CSPM, respuesta a incidentes · platform-security,cloud,hardening,cspm,infra · 2026-07-18
+
+### sustrato Round 75 (deepening NA)
+- [comunicacion-social](sustrato/mexico/comunicacion-social.md) — Comunicación social México: Art.134 Constitución, LGCS, INE/INEII, pauta oficial · mexico,comunicacion-social,gobierno,propaganda,segob,ine · 2026-07-18
+- [energia-espacial](sustrato/estados-unidos/energia-espacial.md) — Energía espacial EE.UU.: USSF, SDA/PWSA, SATCOM, energía nuclear espacial · estados-unidos,energia-espacial,space-force,sda,satcom · 2026-07-18
+- [pesca](sustrato/canada/pesca.md) — Pesca Canadá: DFO, cuotas, acuicultura, zonas costeras, pueblos indígenas · canada,pesca,dfo,acuicultura,cuotas,sustentabilidad · 2026-07-18
+
+### dominio Round 75 (nuevos)
+- [derecho-agrario](dominio/derecho-agrario.md) — Derecho agrario: ejido, tenencia de tierra, contratos agrícolas, crédito agrario, RAN · derecho-agrario,ejido,tierra,contratos-agricolas,credito-agrario · 2026-07-18
+- [derecho-notarial](dominio/derecho-notarial.md) — Derecho notarial: fe pública, escrituras, protocolo, responsabilidad notarial · derecho-notarial,notario,fe-publica,escrituras,protocolo · 2026-07-18
+- [seguridad-de-la-informacion-empresarial](dominio/seguridad-de-la-informacion-empresarial.md) — Seguridad de la información empresarial: CIA, GRC, clasificación de datos, DLP · seguridad-informacion,infosec,cia,grc,dlp · 2026-07-18
+- [ciencia-de-datos-empresarial](dominio/ciencia-de-datos-empresarial.md) — Ciencia de datos empresarial: modelos de negocio, MLOps, embed en producto · ciencia-datos,data-science,mlops,analitica,empresarial · 2026-07-18
+- [economia-del-deporte-femenino](dominio/economia-del-deporte-femenino.md) — Economía del deporte femenino: inversión, igualdad salarial, audiencia, ligas · deporte-femenino,economia-deporte,inversion,igualdad-salarial · 2026-07-18
+
+### rol Round 75 (nuevos)
+- [head-of-catastrophe-risk](rol/head-of-catastrophe-risk.md) — Head of Catastrophe Risk: natcat, modelado catastrófico, reaseguro/ILS, acumulación · head-of-catastrophe-risk,natcat,modelo-catastrofico,reaseguro,ils · 2026-07-18
+- [head-of-business-resilience](rol/head-of-business-resilience.md) — Head of Business Resilience: BCP, DR, crisis management, ejercicios (ISO 22301) · head-of-business-resilience,bcp,disaster-recovery,crisis-management,continuidad · 2026-07-18
+- [head-of-model-risk](rol/head-of-model-risk.md) — Head of Model Risk: MRM, validación de modelos, SR 11-7, model inventory · head-of-model-risk,mrm,validacion-modelos,sr-11-7,model-inventory · 2026-07-18
+- [head-of-contracts-management](rol/head-of-contracts-management.md) — Head of Contracts Management: CLM, redline, obligaciones, riesgo contractual · head-of-contracts-management,clm,ciclo-vida-contratos,redline,obligaciones · 2026-07-18
+- [head-of-supplier-management](rol/head-of-supplier-management.md) — Head of Supplier Management: SRM, sourcing, scorecards, riesgo de proveedor · head-of-supplier-management,srm,sourcing,scorecards,riesgo-proveedor · 2026-07-18
