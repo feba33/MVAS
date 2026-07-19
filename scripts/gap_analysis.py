@@ -1520,6 +1520,25 @@ NEW_NODES_ROUND_84 = [
 NEW_NODES = NEW_NODES_ROUND_84
 
 
+# Round 85 (iter 223) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("energia-nuclear", "Energia nuclear Mexico (profundizacion): Central Nucleoelectrica Laguna Verde (CFE), CNSNS, BWR GE, vs energia/energia-electrica"))
+TAXONOMY["sustrato/estados-unidos"].append(("ciencia-de-datos", "Ciencia de datos EE.UU. (profundizacion): data.gov, OSTP, open data, politica de datos, vs datos/gobierno-de-datos"))
+TAXONOMY["sustrato/canada"].append(("electricidad", "Electricidad Canada (profundizacion): grids provinciales, hydro Quebec/Ontario, reguladores provinciales, vs energia/energia-electrica"))
+NEW_NODES_ROUND_85 = [
+    ("dominio/ingenieria-civil", "Ingenieria civil / civil engineering: estructuras, infraestructura, transporte, geotecnia, construccion, vs construccion/infraestructura"),
+    ("dominio/ingenieria-mecanica", "Ingenieria mecanica / mechanical engineering: termodinamica, mecanica de fluidos, materiales, manufactura, maquinaria, vs mecatronica/automotriz"),
+    ("dominio/ingenieria-electrica", "Ingenieria electrica / electrical engineering: potencia, electronica, control, telecomunicaciones, electromagnetismo, vs energia/telecomunicaciones"),
+    ("dominio/ingenieria-industrial", "Ingenieria industrial / industrial engineering: optimizacion, operaciones, calidad, cadena de suministro, ergonomia, vs operaciones/gestion-de-calidad"),
+    ("dominio/ingenieria-de-software", "Ingenieria de software / software engineering: ciclo de vida, metodologias, arquitectura, calidad, DevOps, vs desarrollo-de-software/arquitectura-de-soluciones"),
+    ("rol/head-of-reliability-engineering", "Head of Reliability Engineering: SRE, SLO/SLI, error budgets, incidentes, post-mortem, vs head-of-platform-engineering/devops"),
+    ("rol/head-of-facilities", "Head of Facilities: gestion de instalaciones, mantenimiento, workplace, seguridad fisica de edificios, vs head-of-operations/seguridad-fisica"),
+    ("rol/head-of-environmental-health-safety", "Head of Environmental Health & Safety (EHS): salud ocupacional, seguridad, medio ambiente, ISO 45001/14001, vs head-of-sustainability-compliance"),
+    ("rol/head-of-export-control", "Head of Export Control: controles de exportacion, ITAR/EAR (US), regulaciones de defensa, dual-use, vs head-of-trade-compliance/head-of-regulatory-affairs"),
+    ("rol/head-of-manufacturing-engineering", "Head of Manufacturing Engineering: procesos de fabricacion, NPI, lean, automatizacion de planta, calidad, vs head-of-operations/head-of-quality-engineering"),
+]
+NEW_NODES = NEW_NODES_ROUND_85
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

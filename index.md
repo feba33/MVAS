@@ -2187,3 +2187,47 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol Round 83 (nuevos)
 - [head-of-commercial-strategy](rol/head-of-commercial-strategy.md) — Head of Commercial Strategy: estrategia comercial, GTM, pricing, analítica de ingresos · commercial-strategy,estrategia-comercial,pricing,gtm,ingresos · 2026-07-19
 - [head-of-ebusiness](rol/head-of-ebusiness.md) — Head of E-Business: canal digital, e-commerce, conversión, plataformas web · e-business,comercio-electronico,canal-digital,conversion,web · 2026-07-19
+
+### sustrato Round 84 (deepening NA)
+- [derechos-humanos](sustrato/mexico/derechos-humanos.md) — Derechos humanos México: CNDH, sistema nacional, tratados internacionales, amparo · mexico,derechos-humanos,cndh,tratados,amparo · 2026-07-19
+- [derechos-humanos](sustrato/estados-unidos/derechos-humanos.md) — Derechos humanos EE.UU.: Bill of Rights, Civil Rights Act, cortes, tratados ONU · estados-unidos,derechos-humanos,bill-of-rights,civil-rights,cortes · 2026-07-19
+- [derechos-humanos](sustrato/canada/derechos-humanos.md) — Derechos humanos Canadá: Carta de Derechos y Libertades, comisión federal, tratados ONU · canada,derechos-humanos,carta-de-derechos,liberta-des,tratados-onu · 2026-07-19
+
+### dominio Round 84 (nuevos)
+- [fundiciones](dominio/fundiciones.md) — Fundiciones: hierro/acero/aluminio, moldes, sand/die casting, supply chain industrial · fundiciones,metalurgia,hierro,acero,aluminio,casting · 2026-07-19
+- [gestion-de-la-calidad-de-datos](dominio/gestion-de-la-calidad-de-datos.md) — Gestión de la calidad de datos: dimensiones DQ, scoring, observabilidad, remediación · datos,calidad-de-datos,dq,observabilidad,linaje · 2026-07-19
+- [finanzas-comportamentales](dominio/finanzas-comportamentales.md) — Finanzas comportamentales: sesgos cognitivos en mercados, burbujas, prospect theory · finanzas-comportamentales,sesgos,mercados,burbujas,prospect-theory · 2026-07-19
+- [derecho-procesal-contencioso-administrativo](dominio/derecho-procesal-contencioso-administrativo.md) — Derecho procesal contencioso-administrativo: impugnación de actos, nulidad, jurisdicción · derecho,contencioso-administrativo,impugnacion,nulidad · 2026-07-19
+- [banca-islamica](dominio/banca-islamica.md) — Banca islámica: prohibición riba, Murabaha/Ijarah/Sukuk, libre de interés · banca-islamica,riba,murabaha,sukuk,finanzas-eticas · 2026-07-19
+- [arquitectura-de-soluciones](dominio/arquitectura-de-soluciones.md) — Arquitectura de soluciones: patrones, trade-offs, TOGAF/SARA, puente negocio-TI · arquitectura,soluciones,patrones,togaf,bridges · 2026-07-19
+- [seguridad-fisica](dominio/seguridad-fisica.md) — Seguridad física: perimetral, CCTV, control de accesos, guardias, crisis · seguridad-fisica,cctv,accesos,guardias,crisis · 2026-07-19
+- [evaluacion-de-proyectos](dominio/evaluacion-de-proyectos.md) — Evaluación de proyectos: VAN/TIR, beneficio-costo, sensibilidad · evaluacion-proyectos,van,tir,beneficio-costo,sensibilidad · 2026-07-19
+- [bioinformatica](dominio/bioinformatica.md) — Bioinformática: secuenciación, alineamiento, genómica computacional, ML en biología · bioinformatica,secuenciacion,genomica,ml-biologia · 2026-07-19
+
+### rol Round 84 (nuevos)
+- [head-of-customer-communications-mx](rol/head-of-customer-communications-mx.md) — Head of Customer Communications: comunicación con base de clientes (lifecycle, crisis) · customer-comms,lifecycle,notificaciones,crisis · 2026-07-19
+- [head-of-technical-writing](rol/head-of-technical-writing.md) — Head of Technical Writing: redacción técnica, docs, API docs, knowledge base · technical-writing,docs,api-docs,knowledge-base · 2026-07-19
+- [head-of-transformation-office](rol/head-of-transformation-office.md) — Head of Transformation Office: PMO de transformación, portafolio, change · transformation-office,pmo,portafolio,change · 2026-07-19
+- [head-of-sales-engineering](rol/head-of-sales-engineering.md) — Head of Sales Engineering: org SE pre-venta, demos/POCs, cierre técnico · sales-engineering,se,pre-venta,demos,poc · 2026-07-19
+- [head-of-aml-compliance](rol/head-of-aml-compliance.md) — Head of AML Compliance: PLD/FT, KYC/CDD, UIF/FinCEN, reportes · aml,pld,kyc,uif,fincen · 2026-07-19
+- [head-of-pricing-analytics](rol/head-of-pricing-analytics.md) — Head of Pricing Analytics: elasticidad, modelado de precios, discounting · pricing-analytics,elasticidad,modelado-precios,discounting · 2026-07-19
+- [head-of-information-security-mx](rol/head-of-information-security-mx.md) — Head of Information Security: InfoSec operativa, GRC, SOC, protección de datos (MX) · infosec,grc,soc,proteccion-datos,mx · 2026-07-19
+
+### sustrato Round 85 (deepening NA)
+- [energia-nuclear](sustrato/mexico/energia-nuclear.md) — Energía nuclear México: Central Laguna Verde (CFE), CNSNS, BWR GE · mexico,energia-nuclear,laguna-verde,cfe,cnsns · 2026-07-19
+- [ciencia-de-datos](sustrato/estados-unidos/ciencia-de-datos.md) — Ciencia de datos EE.UU.: data.gov, OSTP, open data, política de datos · estados-unidos,ciencia-de-datos,data-gov,ostp,open-data · 2026-07-19
+- [electricidad](sustrato/canada/electricidad.md) — Electricidad Canadá: grids provinciales, hydro Québec/Ontario, reguladores · canada,electricidad,grid,hidro,reguladores-provinciales · 2026-07-19
+
+### dominio Round 85 (nuevos)
+- [ingenieria-civil](dominio/ingenieria-civil.md) — Ingeniería civil: estructuras, infraestructura, geotecnia, transporte, construcción · ingenieria-civil,infraestructura,construccion,estructuras · 2026-07-19
+- [ingenieria-mecanica](dominio/ingenieria-mecanica.md) — Ingeniería mecánica: termodinámica, fluidos, materiales, manufactura · ingenieria-mecanica,termodinamica,manufactura,mecatronica · 2026-07-19
+- [ingenieria-electrica](dominio/ingenieria-electrica.md) — Ingeniería eléctrica: potencia, electrónica, control, telecom, electromagnetismo · ingenieria-electrica,potencia,electronica,control,telecom · 2026-07-19
+- [ingenieria-industrial](dominio/ingenieria-industrial.md) — Ingeniería industrial: optimización, operaciones, calidad, cadena de suministro, ergonomía · ingenieria-industrial,optimizacion,operaciones,calidad · 2026-07-19
+- [ingenieria-de-software](dominio/ingenieria-de-software.md) — Ingeniería de software: SDLC, metodologías, arquitectura, calidad, DevOps · ingenieria-software,sdlc,metodologias,devops,calidad · 2026-07-19
+
+### rol Round 85 (nuevos)
+- [head-of-reliability-engineering](rol/head-of-reliability-engineering.md) — Head of Reliability Engineering: SRE, SLO/SLI, error budgets, post-mortem · sre,slo,sli,error-budget,incidentes · 2026-07-19
+- [head-of-facilities](rol/head-of-facilities.md) — Head of Facilities: gestión de instalaciones, mantenimiento, workplace, seguridad física · facilities,instalaciones,mantenimiento,workplace · 2026-07-19
+- [head-of-environmental-health-safety](rol/head-of-environmental-health-safety.md) — Head of EHS: salud ocupacional, seguridad, medio ambiente, ISO 45001/14001 · ehs,salud-ocupacional,seguridad,iso-45001 · 2026-07-19
+- [head-of-export-control](rol/head-of-export-control.md) — Head of Export Control: ITAR/EAR, dual-use, controles de defensa · export-control,itar,ear,dual-use,defensa · 2026-07-19
+- [head-of-manufacturing-engineering](rol/head-of-manufacturing-engineering.md) — Head of Manufacturing Engineering: procesos, NPI, lean, automatización, calidad · manufacturing-engineering,procesos,npi,lean,calidad · 2026-07-19

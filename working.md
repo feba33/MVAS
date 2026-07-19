@@ -3045,3 +3045,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 
 ## PROXIMA TAREFA
 - Round 84 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 85) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
+
+## ✅ COLA ROUND 85 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 223) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 85 (scripts/gap_analysis.py): 3 deepenings NA (mexico/energia-nuclear, estados-unidos/ciencia-de-datos, canada/electricidad) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_85). Todos los slugs verificados como NO existentes (dedup previo). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/energia-nuclear — Energía nuclear México (Laguna Verde/CFE, CNSNS, BWR GE, ~1.55 GW)
+- [x] sustrato/estados-unidos/ciencia-de-datos — Ciencia de datos EE.UU. (data.gov, OSTP, open data, AI.gov)
+- [x] sustrato/canada/electricidad — Electricidad Canadá (grids provinciales, hydro, CER, net-zero 2050)
+### Dominio (nuevos nodos)
+- [x] dominio/ingenieria-civil — Ingeniería civil (estructuras, geotecnia, transporte, construcción)
+- [x] dominio/ingenieria-mecanica — Ingeniería mecánica (termodinámica, fluidos, manufactura)
+- [x] dominio/ingenieria-electrica — Ingeniería eléctrica (potencia, electrónica, control, telecom)
+- [x] dominio/ingenieria-industrial — Ingeniería industrial (OR, lean, calidad, cadena, ergonomía)
+- [x] dominio/ingenieria-de-software — Ingeniería de software (SDLC, agile, DevOps, calidad)
+### Rol (nuevos nodos)
+- [x] rol/head-of-reliability-engineering — Head of Reliability Engineering (SRE, SLO/SLI, error budgets)
+- [x] rol/head-of-facilities — Head of Facilities (FM, mantenimiento, workplace)
+- [x] rol/head-of-environmental-health-safety — Head of EHS (ISO 45001/14001, salud ocupacional)
+- [x] rol/head-of-export-control — Head of Export Control (ITAR/EAR, dual-use)
+- [x] rol/head-of-manufacturing-engineering — Head of Manufacturing Engineering (NPI, lean, calidad)
+
+### ITER 223 — Round 85 (2026-07-19)
+- gap_analysis.py (iter 222→223) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 85 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_85). Todos los slugs verificados no-existentes (dedup previo; 0 conflictos).
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] sustrato/mexico/energia-nuclear.md, sustrato/estados-unidos/ciencia-de-datos.md, sustrato/canada/electricidad.md (3 deepenings NA).
+  - [dominio] dominio/ingenieria-civil.md, dominio/ingenieria-mecanica.md, dominio/ingenieria-electrica.md, dominio/ingenieria-industrial.md, dominio/ingenieria-de-software.md (5 nuevos nodos).
+  - [rol] rol/head-of-reliability-engineering.md, rol/head-of-facilities.md, rol/head-of-environmental-health-safety.md, rol/head-of-export-control.md, rol/head-of-manufacturing-engineering.md (5 nuevos nodos).
+- NOTA: esta corrida también integró a index.md las 13 páginas de Round 84 que estaban en log.md pero no en index.md (cierre de gap de integración).
+- Reference-only (Wikipedia EN/ES + autoridades: cfe.mx/CNSNS, data.gov/White House OSTP/AI.gov, Wikipedia Electricity Canada, ASCE/ASME/IEEE/IISE, Google SRE Book, IFMA/ISO 41001, OSHA/ISO 45001, BIS/DDTC; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- **Round 85 COMPLETA (13/13 temas).** Cola Round 85 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 86 o pausar.
+
+## ÍNDICE DE PROGRESO (acumulado)
+| **Tópicos ingeridos (acumulado): 1208** (Round 84: 1195; Round 85: 1208/13 nuevas). |
+| **Rondas:** 85 completas (Round 1..85). |
+| **Nodos sustrato (NA):** México 96 (+energia-nuclear), EE.UU. 81 (+ciencia-de-datos), Canadá 75 (+electricidad). |
+| **Nodos dominio:** ~336 (Round 85 +5: ingenieria-civil, ingenieria-mecanica, ingenieria-electrica, ingenieria-industrial, ingenieria-de-software). |
+| **Nodos rol:** ~304 (Round 85 +5: head-of-reliability-engineering, head-of-facilities, head-of-environmental-health-safety, head-of-export-control, head-of-manufacturing-engineering). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+| **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
+| **Iteraciones totales:** 223. |
+
+## ESTADO
+| - **Iteracion actual:** 223 (Round 85 COMPLETA — 13/13 ingestados e integrados). |
+| - **Ultima accion:** Round 85 iter 223 — gap_analysis.py (0 huecos) → taxonomia extendida Round 85 (3 deepenings NA energia-nuclear/ciencia-de-datos/electricidad + 10 nodos nuevos dominio/rol ingenierías + roles EHS/facilities/RE/export/manufactura). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (pagina plana + index.md root + log.md root). Además se integró a index.md el Round 84 que faltaba. Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 85 COMPLETA (13/13). |
+
+## PROXIMA TAREFA
+- Round 85 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 86) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
