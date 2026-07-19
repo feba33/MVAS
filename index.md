@@ -2032,6 +2032,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### sustrato Round 77 (deepening NA)
 - [derecho-ambiental](sustrato/mexico/derecho-ambiental.md) — Derecho ambiental México: LGEEPA, SEMARNAT, PROFEPA, EIA, economía circular · mexico,derecho-ambiental,semarnat,lgeepa,impacto-ambiental,cambio-climatico · 2026-07-19
+- [huachicol-fiscal-ernesto-n](sustrato/mexico/huachicol-fiscal-ernesto-n.md) — Huachicol fiscal: red de contrabando de combustible vía Ingemar vinculada a Ernesto 'N' (exgober BC); FGR, IEPS/ISR · elfinanciero,mexico,huachicol-fiscal,contrabando-combustible,ernesto-n,fgr,hacienda,hidrocarburos · 2026-07-19
 - [comercio-interior](sustrato/canada/comercio-interior.md) — Comercio interior Canadá: ISED, pesos y medidas, barreras interprovinciales, competencia · canada,comercio-interior,ised,pesos-y-medidas,competencia,consumidores · 2026-07-19
 
 ### dominio Round 77 (nuevos)

@@ -2,7 +2,12 @@
 
 Registro cronológico **append-only**: ingests, queries, lint passes.
 Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
-(parseable: `grep "^## \[" log.md | tail -5` → últimas 5 entradas).
+(parserable: `grep "^## \[" log.md | tail -5` → últimas 5 entradas).
+
+## [2026-07-19] ingest | El Financiero — huachicol fiscal vinculado a Ernesto 'N' (exgober BC)
+- Creada: `sustrato/mexico/huachicol-fiscal-ernesto-n.md` (fuente web citada, no raw; profundidad 2).
+- Tema: contrabando de combustible / defraudación fiscal (IEPS-ISR) vía Ingemar; FGR; cross-refs a hidrocarburos, energia, sat, impuestos, sistema-de-justicia, seguridad-publica, poder-judicial.
+- Relevancia: afecta recaudación federal (IEPS combustible) y riesgo de cumplimiento en sector hidrocarburos. 1/5 ítems del scrape calificaron (4 descartados por ser coyuntura deportiva/crónica/espectáculos sin ángulo legal-corporativo).
 
 ## [2026-07-15] ingest | Round 45 LOOP 1 — sustrato NA (3 deepenings): pueblos-indigenas MX/US + lenguas-oficiales CA
 - Creadas: `sustrato/mexico/pueblos-indigenas.md`, `sustrato/estados-unidos/pueblos-indigenas.md`, `sustrato/canada/lenguas-oficiales.md` (modelo centralizado; reference-only Wikipedia ES/EN + sitios oficiales INPI/BIA/NCAI/Commissioner of Official Languages).
