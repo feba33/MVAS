@@ -83,6 +83,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [sistema-de-justicia](sustrato/mexico/sistema-de-justicia.md) — Sistema de justicia México: FGR/Ministerio Público, defensoría, procuración/administración de justicia, amparo · 🏷️ mexico,sistema-de-justicia,fgr,ministerio-publico,amparo,procuracion-justicia,poder-judicial · 📅 2026-07-18
 - [energia-hidrocarburos](sustrato/mexico/energia-hidrocarburos.md) — Energía e hidrocarburos México: PEMEX, CNH, upstream/downstream, gas, refino · 🏷️ mexico,energia,hidrocarburos,pemex,cnh,regulacion,gas,refino · 📅 2026-07-18
 - [economia-servicios](sustrato/mexico/economia-servicios.md) — Economía de servicios México: sector terciario, comercio/turismo/financiero, peso en PIB, informalidad · 🏷️ mexico,economia,servicios,sector-terciario,pib,informalidad · 📅 2026-07-18
+- [observatorio](sustrato/mexico/observatorio.md) — Observatorio México: INEGI/SNIEG, cuentas nacionales, censos, México en Cifras, datos abiertos; vs transparencia/gobierno-digital · 🏷️ mexico,inegi,observatorio,estadisticas,datos-oficiales,snieg,censos · 📅 2026-07-19
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -143,6 +144,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [defensa-antimonopolio](sustrato/estados-unidos/defensa-antimonopolio.md) — Defensa de la competencia (antitrust) EE.UU.: DOJ Antitrust Division, FTC, Sherman/Clayton Act, merger review (HSR) · 🏷️ estados-unidos,antitrust,competencia,doj,ftc,sherman-act,clayton-act,merger-review · 📅 2026-07-18
 - [telecomunicaciones-5g](sustrato/estados-unidos/telecomunicaciones-5g.md) — Telecomunicaciones 5G EE.UU.: FCC, C-band, BEAD, Open RAN, despliegue · 🏷️ estados-unidos,telecomunicaciones,5g,fcc,espectro,banda-ancha · 📅 2026-07-18
 - [clima](sustrato/estados-unidos/clima.md) — Clima EE.UU.: EPA, NOAA, política climática, descarbonización, resiliencia · 🏷️ estados-unidos,clima,epa,noaa,descarbonizacion,resiliencia · 📅 2026-07-18
+- [rendicion-de-cuentas](sustrato/estados-unidos/rendicion-de-cuentas.md) — Rendición de cuentas EE.UU.: GAO, Inspectores Generales (IG), FOIA, oversight del Congreso; vs auditoria-gubernamental/contraloria · 🏷️ estados-unidos,gao,inspectores-generales,foia,oversight,rendicion-de-cuentas,transparencia · 📅 2026-07-19
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -195,6 +197,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [salud-publica](sustrato/canada/salud-publica.md) — Salud pública Canadá: PHAC, Health Canada, vigilancia epidemiológica, inmunización, determinantes sociales; vs salud (aseguramiento) · 🏷️ canada,salud-publica,phac,health-canada,epidemiologia,prevencion,vigilancia · 📅 2026-07-17
 - [turismo](sustrato/canada/turismo.md) — Turismo Canadá: Destination Canada, >20M turistas/año, $100B PIB 2024, ~1.8M empleos, turismo interior · 🏷️ canada,turismo,destination-canada,turismo-interior,parques,hospitalidad · 📅 2026-07-17
 - [economia-creativa](sustrato/canada/economia-creativa.md) — Economía creativa Canadá: industrias culturales, política CanCon (CRTC/CAVCO/Telefilm), crédito fiscal, Online Streaming Act · 🏷️ canada,economia-creativa,industrias-culturales,cancon,telefilm,crédito-fiscal,politica-cultural · 📅 2026-07-17
+- [derechos-de-los-pueblos-indigenas](sustrato/canada/derechos-de-los-pueblos-indigenas.md) — Derechos indígenas Canadá: s.35 Constitución, duty to consult (Honour of the Crown), tratados, UNDRIP, reconciliación; vs pueblos-indigenas · 🏷️ canada,derechos-indigenas,seccion-35,duty-to-consult,undrip,reconciliacion,tratados · 📅 2026-07-19
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -287,6 +290,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [derecho-de-la-competencia-internacional](dominio/derecho-de-la-competencia-internacional.md) — Derecho de la competencia internacional: OCDE/ICN, cooperación antitrust, fusones multijurisdiccional, carteles · 🏷️ derecho-de-la-competencia,antitrust,internacional,ocde,icn,cooperacion,transnacional,fusiones,carteles · 📅 2026-07-18
 - [derecho-familiar](dominio/derecho-familiar.md) — Derecho de familia: matrimonio, divorcio, custodia, filiación, régimen patrimonial, adopción, menores · 🏷️ derecho-familiar,family-law,matrimonio,divorcio,custodia,filiacion,regimen-patrimonial,adopcion · 📅 2026-07-18
 - [cumplimiento-regulacion](dominio/leyes/cumplimiento-regulacion.md) — Cumplimiento y regulación: ISO 37301, compliance · 🏷️ leyes,cumplimiento,compliance,iso-37301 · 📅 2026-07-10
+- [derecho-constitucional](dominio/derecho-constitucional.md) — Derecho constitucional: control de constitucionalidad, amparo (MX), judicial review (US), Charter (CA), división de poderes · 🏷️ derecho-constitucional,amparo,judicial-review,charter,division-poderes,control-de-constitucionalidad · 📅 2026-07-19
+- [derecho-procesal-civil](dominio/derecho-procesal-civil.md) — Derecho procesal civil: demanda, jurisdicción, medios de prueba, sentencia, apelación; vs derecho-procesal/derecho-civil · 🏷️ derecho-procesal-civil,civil-procedure,litigio,demanda,apelacion,juicio · 📅 2026-07-19
 
 ### dominio/juridico
 - [juridico-interno](dominio/juridico/juridico-interno.md) — Jurídico interno (in-house): GC/CLO, contratos, M&A, governance · 🏷️ juridico,inhouse,general-counsel,gobernanza · 📅 2026-07-10
@@ -337,6 +342,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/ciberseguridad-gobierno
 - [nist-csf](dominio/ciberseguridad-gobierno/nist-csf.md) — NIST CSF 2.0: 6 funciones, gobernanza (GOV) · 🏷️ ciberseguridad,nist,gobierno · 📅 2026-07-10
 - [iso-27001](dominio/ciberseguridad-gobierno/iso-27001.md) — ISO 27001:2022 ISMS certificable, 93 controles · 🏷️ ciberseguridad,iso-27001,isms · 📅 2026-07-10
+- [ciberseguridad-para-ot-y-ics](dominio/ciberseguridad-para-ot-y-ics.md) — Ciberseguridad OT/ICS industrial: arquitectura Purdue, ISA/IEC 62443, NERC CIP (US), CCCS (CA), SCADA/PLC · 🏷️ ciberseguridad,ot,ics,scada,purdue,isa-62443,nerc-cip,industria · 📅 2026-07-19
 
 ### dominio/estrategia
 - [estrategia-okr](dominio/estrategia/estrategia-okr.md) — Estrategia + OKRs/Hoshin Kanri: ejecución, KPIs · 🏷️ estrategia,okr,hoshin-kanri,planeacion · 📅 2026-07-10
@@ -359,6 +365,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/seguros
 - [seguros](dominio/seguros/seguros.md) — Industria aseguradora: vida, P&C, reaseguro, actuarial, Solvency II · 🏷️ seguros,insurance,actuarial,reaseguro,solvency-ii · 📅 2026-07-11
 - [seguros-de-responsabilidad](dominio/seguros-de-responsabilidad.md) — Seguros de responsabilidad: CGL, D&O, E&O/profesional, product liability, cyber liability · 🏷️ seguros,responsabilidad,liability,cgl,dando-o,eo,product-liability,cyber-liability · 📅 2026-07-17
+- [seguros-de-caucion-y-credito](dominio/seguros-de-caucion-y-credito.md) — Seguros de caución y crédito: surety bonds (garantía de cumplimiento) vs credit insurance (impago); fianzas CNSF, trade credit · 🏷️ seguros,caucion,surety,credit-insurance,fianzas,garantias · 📅 2026-07-19
 - [seguros-de-vida](dominio/seguros-de-vida.md) — Seguros de vida: term/whole/UL, actuarial (mortalidad, reservas), reaseguro de vida, bancaseguros · 🏷️ seguros,vida,actuarial,reaseguro,bancaseguros,ahorro · 📅 2026-07-18
 - [seguros-maritimos](dominio/seguros-maritimos.md) — Seguros marítimos: casco, carga, P&I clubs, avería gruesa, Lloyd's · 🏷️ seguros,maritimo,casco,carga,pi-clubs,averia-gruesa,comercio · 📅 2026-07-18
 
@@ -434,6 +441,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/innovacion
 - [innovacion](dominio/innovacion/innovacion.md) — Innovación: procesos, ISO 56000, tipos incremental/disruptiva/abierta · 🏷️ innovacion,innovation,iso-56000 · 📅 2026-07-11
+- [gestion-de-la-innovacion-abierta](dominio/gestion-de-la-innovacion-abierta.md) — Gestión de innovación abierta (open innovation, Chesbrough): inbound/outbound/coupled, hubs, IP compartida, ecosistemas · 🏷️ innovacion-abierta,open-innovation,scouting,licensing,ecosistemas,propiedad-intelectual · 📅 2026-07-19
 
 ### dominio/experiencia-cliente
 - [experiencia-cliente](dominio/experiencia-cliente/experiencia-cliente.md) — Customer experience: respuestas cognitivas/emocionales en toda la interacción · 🏷️ cx,experiencia-cliente,lealtad · 📅 2026-07-11
@@ -900,6 +908,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [telemedicina](dominio/telemedicina.md) — Telemedicina (Telehealth): consulta remota, telemonitoreo, regulación (FDA/COFEPRIS/Health Canada), bioética · 🏷️ telemedicina,telehealth,salud-digital,consulta-remota,regulacion-salud · 📅 2026-07-17
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09
+- [nolvorn](organización/Nolvorn/README.md) — Nolvorn (software & tech partners, Tampico MX): entidad con bucle bidireccional Drive↔MVAS, Plane.so y chat Telegram · 🏷️ nolvorn,organizacion,plane,drive,para,knowledge-base · 📅 2026-07-19
 
 ### dominio/etica-empresarial
 - [[dominio/etica-empresarial|Ética empresarial / corporate ethics — códigos de conducta, compliance, anticorrupción, transparencia]]
@@ -2046,3 +2055,10 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-revenue-operations](rol/head-of-revenue-operations.md) — Head of Revenue Operations (RevOps): alineación ventas/marketing/CS, funnel, comp planning · revops,revenue-operations,alineacion,funnel,comp-planning · 2026-07-19
 - [head-of-incident-response](rol/head-of-incident-response.md) — Head of Incident Response: respuesta a incidentes, CSIRT, runbooks, crisis, post-mortem · incident-response,csirt,respuesta-a-incidentes,crisis,post-mortem · 2026-07-19
 - [head-of-product-marketing](rol/head-of-product-marketing.md) — Head of Product Marketing: GTM, posicionamiento, mensaje, enablement de ventas · product-marketing,gtm,posicionamiento,mensaje,enablement-de-ventas · 2026-07-19
+
+### rol Round 78 (nuevos)
+- [head-of-corporate-communications-mx](rol/head-of-corporate-communications-mx.md) — Head of Corporate Communications: reputación, media relations, comunicación interna, crisis · corporate-communications,reputacion,media-relations,pr,crisis-comms · 2026-07-19
+- [head-of-customer-success-mexico](rol/head-of-customer-success-mexico.md) — Head of Customer Success: retención, expansión (NRR/GRR), health scoring, onboarding SaaS · customer-success,retencion,expansion,nrr,health-score,saas · 2026-07-19
+- [head-of-partnerships-mexico](rol/head-of-partnerships-mexico.md) — Head of Partnerships: alianzas estratégicas, canal, co-ventas, ecosistema de socios · partnerships,alianzas,canal,co-ventas,ecosistema · 2026-07-19
+- [head-of-customer-experience](rol/head-of-customer-experience.md) — Head of Customer Experience (CX): VoC, journey mapping, omnicanal, cultura de cliente · cx,voice-of-customer,journey,omnicanal,cultura-de-cliente · 2026-07-19
+- [head-of-talent-acquisition-mexico](rol/head-of-talent-acquisition-mexico.md) — Head of Talent Acquisition: sourcing, employer branding, proceso de selección, métricas de contratación · talent-acquisition,reclutamiento,sourcing,employer-branding,rrhh · 2026-07-19

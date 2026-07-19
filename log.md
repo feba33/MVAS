@@ -1031,3 +1031,9 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - LOOP 3 (rol nuevos, 5/10): rol/head-of-corporate-affairs.md (relaciones institucionales, public policy, asuntos gubernamentales), rol/head-of-learning-development.md (L&D, upskilling/reskilling, diseño instruccional), rol/head-of-revenue-operations.md (RevOps, alineación ventas/marketing/CS, comp planning), rol/head-of-incident-response.md (CSIRT, runbooks, crisis, post-mortem), rol/head-of-product-marketing.md (GTM, posicionamiento, mensaje, enablement de ventas).
 - Modelo CENTRALIZADO (página plana + index.md/log.md raíz). Reference-only: Wikipedia (EN/ES) + autoridades sectoriales (diputados.gob.mx/LGEEPA, gob.mx/SEMARNAT, ised-isde.canada.ca, healthcare.gov, copyright.gov, NN/g, SHRM, NIST, PMM Alliance) — sin raw/. ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 CA; US seguridad-social deduped).
 - **Round 77: 10 páginas nuevas ingeridas.** Próximo: gap_analysis.py; si 0 → extender taxonomía (Round 78) o pausar hasta próximo cron.
+
+## [2026-07-19] ingest | Nolvorn — entidad en organización/ (bucle Drive↔MVAS)
+- Creada `organización/Nolvorn/` con subcarpetas: `responsabilidades/`, `protocolos/`, `decisiones/`, `conocimiento/`, `kb-drive/` (cada una README con frontmatter transversal para filtrado QMD: organizaciones:[nolvorn], responsabilidades:[hermes-nolvorn]).
+- Fuentes: Shared Drive "nolvorn" (ID 0ADXc9xJB9XxQUk9PVA, sistema PARA en README + nolvorn_master_context_v1) y chat Telegram Nolvorn.
+- Decidido: bucle bidireccional con regla de NO escritura en Drive sin autorización previa de Fernando. Cronjob diario 12 AM CDMX de resumen de tickets Plane al grupo.
+- Actualizado index.md (sección organización/) + log.md. Sin commit (pendiente lote del agente).
