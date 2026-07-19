@@ -2153,3 +2153,20 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-customer-advocacy](rol/head-of-customer-advocacy.md) — Head of Customer Advocacy: abogacía del cliente, referencias, case studies, comunidad · customer-advocacy,referencias,case-studies,comunidad,lealtad · 2026-07-19
 - [head-of-field-engineering](rol/head-of-field-engineering.md) — Head of Field Engineering: ingenieros de campo/pre-venta, PoC técnicos · field-engineering,pre-venta,sales-engineering,poc,tecnico · 2026-07-19
 - [head-of-product-analytics](rol/head-of-product-analytics.md) — Head of Product Analytics: métricas de producto, experimentación, A/B, retention · product-analytics,metricas-producto,experimentacion,ab-testing,retention · 2026-07-19
+
+### sustrato Round 83 (deepening NA)
+- [ciencia-tecnologia](sustrato/mexico/ciencia-tecnologia.md) — Ciencia y tecnología México: SECIHTI/CONACYT, SNII, Ley de Ciencia y Tecnología, vinculación · mexico,ciencia,tecnologia,investigacion,snii,conahcyt · 2026-07-19
+- [salud-publica](sustrato/estados-unidos/salud-publica.md) — Salud pública EE.UU.: HHS, PHS, CDC/NIH/FDA, PHS Commissioned Corps · estados-unidos,salud-publica,hhs,cdc,nih,fda,epidemiologia · 2026-07-19
+- [politica-social](sustrato/canada/politica-social.md) — Política social Canadá: ESDC, Canada Child Benefit, OAS/GIS, vivienda asequible · canada,politica-social,bienestar,ccb,oas,seguridad-social · 2026-07-19
+
+### dominio Round 83 (nuevos)
+- [regulacion-de-datos](dominio/regulacion-de-datos.md) — Regulación de datos: GDPR/PIPEDA, flujos transfronterizos, localización, gobernanza · regulacion,datos,privacidad,gdpr,pipeda,flujos-transfronterizos · 2026-07-19
+- [gestion-de-la-nube](dominio/gestion-de-la-nube.md) — Gestión de la nube: FinOps, multi-cloud, gobernanza, SaaS/sprawl, costos · nube,cloud,finops,multi-cloud,gobernanza,costos · 2026-07-19
+- [devops](dominio/devops.md) — DevOps: CI/CD, IaC, entrega continua, observabilidad, cultura · devops,ci-cd,iac,entrega-continua,observabilidad · 2026-07-19
+- [economia-comportamental](dominio/economia-comportamental.md) — Economía comportamental: sesgos, heurísticas, nudge, decisiones · economia-comportamental,sesgos,heuristicas,nudge,decision · 2026-07-19
+- [ciencia-de-materiales](dominio/ciencia-de-materiales.md) — Ciencia de materiales: polímeros, cerámicas, metalurgia, nanomateriales · materiales,polimeros,ceramicas,metalurgia,nanomateriales · 2026-07-19
+- [eficiencia-energetica](dominio/eficiencia-energetica.md) — Eficiencia energética: normas, retrofitting, ISO 50001, auditorías · eficiencia-energetica,energia,iso-50001,retrofitting,sostenibilidad · 2026-07-19
+
+### rol Round 83 (nuevos)
+- [head-of-commercial-strategy](rol/head-of-commercial-strategy.md) — Head of Commercial Strategy: estrategia comercial, GTM, pricing, analítica de ingresos · commercial-strategy,estrategia-comercial,pricing,gtm,ingresos · 2026-07-19
+- [head-of-ebusiness](rol/head-of-ebusiness.md) — Head of E-Business: canal digital, e-commerce, conversión, plataformas web · e-business,comercio-electronico,canal-digital,conversion,web · 2026-07-19

@@ -1473,6 +1473,28 @@ NEW_NODES_ROUND_82 = [
 NEW_NODES = NEW_NODES_ROUND_82
 
 
+# Round 83 (iter 221) -- 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("ciencia-tecnologia", "Ciencia y tecnologia Mexico (profundizacion): CONAHCYT, SECTEI, investigacion (CONACYT/CIENCIA), innovacion, sistema nacional de investigadores (SNI), vinculacion, vs innovacion/emprendimiento"))
+TAXONOMY["sustrato/estados-unidos"].append(("salud-publica", "Salud publica EE.UU. (profundizacion): HHS, CDC, NIH, FDA, salud ambiental, epidemiologia, vs salud"))
+TAXONOMY["sustrato/canada"].append(("politica-social", "Politica social Canada (profundizacion): ESDC, beneficios (CERB/CCB), pobreza, vivienda asequible, vs bienestar/seguridad-social"))
+NEW_NODES_ROUND_83 = [
+    ("dominio/derecho-de-las-telecomunicaciones", "Derecho de las telecomunicaciones / telecom law: espectro, concesiones, neutralidad, privacidad de datos de usuario, reguladores (IFT/FCC/CRTC), vs telecomunicaciones/telecomunicaciones-corporativas"),
+    ("dominio/regulacion-de-datos", "Regulacion de datos / data regulation: flujos transfronterizos, localizacion, portabilidad, gobernanza de datos, GDPR/APPI/PIPEDA, vs proteccion-de-datos/ciencia-de-datos"),
+    ("dominio/gestion-de-la-nube", "Gestion de la nube / cloud management: FinOps, multi-cloud, gobernanza de cloud, SaaS/sprawl, costos, vs computacion/arquitectura-nube"),
+    ("dominio/devops", "DevOps / delivery engineering: CI/CD, IaC, cultura de entrega, observabilidad, vs plataforma-sre/ingenieria-de-plataforma"),
+    ("dominio/economia-comportamental", "Economia comportamental / behavioral economics: sesgos, heuristics, nudge, eleccion, vs economia/finanzas-conductuales"),
+    ("dominio/ciencia-de-materiales", "Ciencia de materiales / materials science: polimeros, ceramicas, metalurgia, nanomateriales, vs ingenieria/quimica"),
+    ("dominio/plantas-industriales", "Plantas industriales / plant engineering: diseno de instalaciones, procesos, utilidades, mantenimiento, vs manufactura/ingenieria"),
+    ("dominio/eficiencia-energetica", "Eficiencia energetica / energy efficiency: normas, retrofitting, ISO 50001, auditorias, vs energia/gestion-de-la-demanda-energetica"),
+    ("rol/head-of-public-affairs", "Head of Public Affairs: relacion con gobierno/legisladores, lobbying etico, politica publica, ciudadania corporativa, vs head-of-corporate-affairs/head-of-regulatory-affairs"),
+    ("rol/head-of-engineering-excellence", "Head of Engineering Excellence: calidad de ingenieria, estandares, mentoring tecnico, plataforma interna, vs head-of-platform-engineering/head-of-engineering-productivity"),
+    ("rol/head-of-customer-success-ops", "Head of Customer Success Operations: enablement de CS, playbooks, herramientas, metricas de retencion, vs customer-success/customer-success-manager"),
+    ("rol/head-of-commercial-strategy", "Head of Commercial Strategy: estrategia comercial, pricing, GTM, analitica de ingresos, vs head-of-revenue-operations/head-of-commercial-operations"),
+    ("rol/head-of-ebusiness", "Head of E-Business: canal digital/comercio electronico, plataformas web, conversion, vs head-of-digital/head-of-commercial-operations"),
+]
+NEW_NODES = NEW_NODES_ROUND_83
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

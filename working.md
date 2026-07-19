@@ -2990,3 +2990,49 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
   - [rol] `rol/head-of-regional-marketing.md`, `rol/head-of-commercial-operations.md`, `rol/head-of-applied-ai.md`, `rol/head-of-payments-risk.md`, `rol/head-of-content-strategy.md` (5 nuevos nodos).
 - Reference-only (Wikipedia EN/ES + autoridades: es.wikipedia.org/Cultura_de_México, en.wikipedia.org/State_governments/Wildlife_of_Canada/Film_industry/Financial_technology/Energy_law, cnbv.gob.mx, fmc.gov, gob.mx/sener, fincen.gov; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
 - **Round 80 COMPLETO (13/13 temas).** Cola Round 80 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 81 o pausar.
+
+## ✅ COLA ROUND 83 — COMPLETA (11/11 páginas nuevas)
+> gap_analysis.py (iter 221) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 83 (scripts/gap_analysis.py): 3 deepenings NA (mexico/ciencia-tecnologia, estados-unidos/salud-publica, canada/politica-social) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_83). Dedup: dominio/derecho-de-las-telecomunicaciones, dominio/economia-comportamental, rol/head-of-public-affairs, rol/head-of-engineering-excellence, rol/head-of-customer-success-ops YA EXISTÍAN como páginas → reemplazados. Round 83 = 11 páginas nuevas reales.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/ciencia-tecnologia — Ciencia y tecnología México (SECIHTI/CONACYT, SNII, Ley de Ciencia y Tecnología)
+- [x] sustrato/estados-unidos/salud-publica — Salud pública EE.UU. (HHS, PHS, CDC/NIH/FDA, PHS Commissioned Corps)
+- [x] sustrato/canada/politica-social — Política social Canadá (ESDC, CCB, OAS/GIS, vivienda asequible)
+### Dominio (nuevos nodos)
+- [x] dominio/regulacion-de-datos — Regulación de datos (GDPR/PIPEDA, flujos transfronterizos, localización)
+- [x] dominio/gestion-de-la-nube — Gestión de la nube (FinOps, multi-cloud, gobernanza, SaaS/sprawl)
+- [x] dominio/devops — DevOps (CI/CD, IaC, entrega continua, observabilidad)
+- [x] dominio/economia-comportamental — Economía comportamental (sesgos, heurísticas, nudge)
+- [x] dominio/ciencia-de-materiales — Ciencia de materiales (polímeros, cerámicas, metalurgia, nanomateriales)
+- [x] dominio/eficiencia-energetica — Eficiencia energética (normas, retrofitting, ISO 50001, auditorías)
+### Rol (nuevos nodos)
+- [x] rol/head-of-commercial-strategy — Head of Commercial Strategy (estrategia comercial, GTM, pricing, analítica de ingresos)
+- [x] rol/head-of-ebusiness — Head of E-Business (canal digital, e-commerce, conversión, plataformas web)
+
+### ITER 221 — Round 83 (2026-07-19)
+- gap_analysis.py (iter 221) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 83 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_83). 5 slugs dedupados (ya existían como páginas) → Round 83 = 11 páginas nuevas reales.
+- 11 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] sustrato/mexico/ciencia-tecnologia.md, sustrato/estados-unidos/salud-publica.md, sustrato/canada/politica-social.md (3 deepenings NA).
+  - [dominio] dominio/regulacion-de-datos.md, dominio/gestion-de-la-nube.md, dominio/devops.md, dominio/economia-comportamental.md, dominio/ciencia-de-materiales.md, dominio/eficiencia-energetica.md (6 nuevos nodos).
+  - [rol] rol/head-of-commercial-strategy.md, rol/head-of-ebusiness.md (2 nuevos nodos).
+- Reference-only (Wikipedia EN/ES + autoridades: secihti.mx, hhs.gov/cdc.gov, canada.ca/ESDC; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- **Round 83 COMPLETA (11/11 temas).** Cola Round 83 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 84 o pausar.
+
+## INDICE DE PROGRESO (acumulado)
+| **Topicos ingeridos (acumulado): 1182** (Round 82: 1171; Round 83: 1182/11 nuevas). |
+| **Rondas:** 83 completas (Round 1..83). |
+| **Nodos sustrato (NA):** Mexico 94 (+ciencia-tecnologia), EE.UU. 79 (+salud-publica), Canada 73 (+politica-social). |
+| **Nodos dominio:** ~322 (Round 83 +6: regulacion-de-datos, gestion-de-la-nube, devops, economia-comportamental, ciencia-de-materiales, eficiencia-energetica). |
+| **Nodos rol:** ~291 (Round 83 +2: head-of-commercial-strategy, head-of-ebusiness). |
+| **Organizacion:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+| **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
+| **Iteraciones totales:** 221. |
+
+## ESTADO
+| - **Iteracion actual:** 221 (Round 83 COMPLETA — 11/11 ingestados e integrados). |
+| - **Ultima accion:** Round 83 iter 221 — gap_analysis.py (0 huecos) → taxonomia extendida Round 83 (3 deepenings NA + 10 nodos nuevos; 5 slugs dedupados por ya existir). 11 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x6, LOOP 3 rol x2) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 83 COMPLETA (11/11). |
+
+## PROXIMA TAREFA
+- Round 83 COMPLETA (11 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 84) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
