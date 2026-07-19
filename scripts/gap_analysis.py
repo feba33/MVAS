@@ -1495,6 +1495,31 @@ NEW_NODES_ROUND_83 = [
 NEW_NODES = NEW_NODES_ROUND_83
 
 
+# Round 84 (iter 222) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("derechos-humanos", "Derechos humanos Mexico (profundizacion): CNDH, sistema nacional de derechos humanos, tratados internacionales, amparo, vs pueblos-indigenas/seguridad-publica"))
+TAXONOMY["sustrato/estados-unidos"].append(("derechos-humanos", "Derechos humanos EE.UU. (profundizacion): Bill of Rights, Civil Rights Act, constitucion, cortes, tratados (ONU), vs derechos-civiles/seguridad-publica"))
+TAXONOMY["sustrato/canada"].append(("derechos-humanos", "Derechos humanos Canada (profundizacion): Carta de Derechos y Libertades, comision federal, tratados ONU, vs pueblos-indigenas/ciudadania"))
+NEW_NODES_ROUND_84 = [
+    ("dominio/fundiciones", "Fundiciones / foundry industry: fundicion de metales (hierro/acero/aluminio), moldes, procesos (sand/die casting), supply chain industrial, vs manufactura/metalurgia"),
+    ("dominio/gestion-de-la-calidad-de-datos", "Gestion de la calidad de datos / data quality management: dimensiones de calidad, DQ scoring, data observability, remediacion, vs gobierno-de-datos/arquitectura-de-datos"),
+    ("dominio/finanzas-comportamentales", "Finanzas comportamentales / behavioral finance (profundizacion): sesgos cognitivos en mercados, burbujas, prospect theory, vs economia-comportamental/riesgo-financiero"),
+    ("dominio/derecho-procesal-contencioso-administrativo", "Derecho procesal contencioso-administrativo: impugnacion de actos de autoridad, recurso de revocacion, nulidad, jurisdiccion contenciosa, vs derecho-administrativo/derecho-procesal"),
+    ("dominio/banca-islamica", "Banca islamica / Islamic finance: prohibicion de riba, Murabaha/Ijarah/Sukuk, tasas libres de interes, vs banca/finanzas-eticas"),
+    ("dominio/arquitectura-de-soluciones", "Arquitectura de soluciones / solution architecture (disciplina): patrones, trade-offs, TOGAF/SARA, bridges negocio-TI, vs arquitectura-empresarial/solutions-architect"),
+    ("dominio/seguridad-fisica", "Seguridad fisica / physical security: perimetral, CCTV, control de accesos, guardias, crisis, vs seguridad-corporativa/seguridad-nacional"),
+    ("dominio/evaluacion-de-proyectos", "Evaluacion de proyectos / project appraisal: VAN/TIR, beneficio-costo, análisis de sensibilidad, vs gestion-de-proyectos/finanzas-corporativas"),
+    ("dominio/bioinformatica", "Bioinformatica / bioinformatics: secuenciacion, alineamiento, genomica computacional, ML en biologia, vs biotecnologia/ciencia-de-datos"),
+    ("rol/head-of-customer-communications-mx", "Head of Customer Communications: comunicacion con la base de clientes (lifecycle, notificaciones, crisis de producto), vs head-of-corporate-communications/customer-marketing"),
+    ("rol/head-of-technical-writing", "Head of Technical Writing: lidera org de redaccion tecnica, docs, API docs, knowledge base, vs technical-writer/content-strategy"),
+    ("rol/head-of-transformation-office", "Head of Transformation Office: PMO de transformacion, portafolio de iniciativas, change management, vs chief-transformation-officer/head-of-strategy-and-ops"),
+    ("rol/head-of-sales-engineering", "Head of Sales Engineering: lidera org de SE pre-venta, demos/POCs, cierre tecnico, vs head-of-solution-engineering/sales-engineer"),
+    ("rol/head-of-aml-compliance", "Head of AML Compliance: prevencion de lavado y financiamiento del terrorismo, KYC/CDD, UIF/Fincen, reportes de operaciones, vs compliance-officer/head-of-fraud-prevention"),
+    ("rol/head-of-pricing-analytics", "Head of Pricing Analytics: elasticidad, modelado de precios, analitica de ingresos, discounting, vs head-of-pricing/financial-analyst"),
+    ("rol/head-of-information-security-mx", "Head of Information Security: InfoSec operativa, GRC, SOC, proteccion de datos (MX), vs ciso/head-of-it-security"),
+]
+NEW_NODES = NEW_NODES_ROUND_84
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

@@ -3018,21 +3018,30 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - Reference-only (Wikipedia EN/ES + autoridades: secihti.mx, hhs.gov/cdc.gov, canada.ca/ESDC; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
 - **Round 83 COMPLETA (11/11 temas).** Cola Round 83 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 84 o pausar.
 
+### ITER 222 — Round 84 (2026-07-19)
+- gap_analysis.py (iter 221→222) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 84 (scripts/gap_analysis.py): 3 deepenings NA (mexico/derechos-humanos, estados-unidos/derechos-humanos, canada/derechos-humanos) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_84). Todos los slugs verificados como NO existentes (dedup previo). Round 84 = 13 páginas nuevas reales (3 sustrato + 5 dominio + 5 rol).
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] sustrato/mexico/derechos-humanos.md, sustrato/estados-unidos/derechos-humanos.md, sustrato/canada/derechos-humanos.md (3 deepenings NA).
+  - [dominio] dominio/fundiciones.md, dominio/gestion-de-la-calidad-de-datos.md, dominio/finanzas-comportamentales.md, dominio/derecho-procesal-contencioso-administrativo.md, dominio/banca-islamica.md, dominio/arquitectura-de-soluciones.md, dominio/seguridad-fisica.md, dominio/evaluacion-de-proyectos.md, dominio/bioinformatica.md (9 nuevos nodos — se ubicaron en subsecciones index existentes: manufactura, computacion, finanzas, juridico, banca, defensa-seguridad, project-management, biotecnologia).
+  - [rol] rol/head-of-customer-communications-mx.md, rol/head-of-technical-writing.md, rol/head-of-transformation-office.md, rol/head-of-sales-engineering.md, rol/head-of-aml-compliance.md, rol/head-of-pricing-analytics.md, rol/head-of-information-security-mx.md (7 nuevos nodos — se ubicaron en `### rol/`).
+- Reference-only (Wikipedia EN/ES + autoridades: cndh.org.mx, justice.gov/crt, chrc-ccdp.gc.ca, DAMA, AAOIFI, FATF; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- **Round 84 COMPLETA (13/13 temas).** Cola Round 84 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 85 o pausar.
+
 ## INDICE DE PROGRESO (acumulado)
-| **Topicos ingeridos (acumulado): 1182** (Round 82: 1171; Round 83: 1182/11 nuevas). |
-| **Rondas:** 83 completas (Round 1..83). |
-| **Nodos sustrato (NA):** Mexico 94 (+ciencia-tecnologia), EE.UU. 79 (+salud-publica), Canada 73 (+politica-social). |
-| **Nodos dominio:** ~322 (Round 83 +6: regulacion-de-datos, gestion-de-la-nube, devops, economia-comportamental, ciencia-de-materiales, eficiencia-energetica). |
-| **Nodos rol:** ~291 (Round 83 +2: head-of-commercial-strategy, head-of-ebusiness). |
+| **Topicos ingeridos (acumulado): 1195** (Round 83: 1182; Round 84: 1195/13 nuevas). |
+| **Rondas:** 84 completas (Round 1..84). |
+| **Nodos sustrato (NA):** Mexico 95 (+derechos-humanos), EE.UU. 80 (+derechos-humanos), Canada 74 (+derechos-humanos). |
+| **Nodos dominio:** ~331 (Round 84 +9: fundiciones, gestion-de-la-calidad-de-datos, finanzas-comportamentales, derecho-procesal-contencioso-administrativo, banca-islamica, arquitectura-de-soluciones, seguridad-fisica, evaluacion-de-proyectos, bioinformatica). |
+| **Nodos rol:** ~298 (Round 84 +7: head-of-customer-communications-mx, head-of-technical-writing, head-of-transformation-office, head-of-sales-engineering, head-of-aml-compliance, head-of-pricing-analytics, head-of-information-security-mx). |
 | **Organizacion:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
-| **Iteraciones totales:** 221. |
+| **Iteraciones totales:** 222. |
 
 ## ESTADO
-| - **Iteracion actual:** 221 (Round 83 COMPLETA — 11/11 ingestados e integrados). |
-| - **Ultima accion:** Round 83 iter 221 — gap_analysis.py (0 huecos) → taxonomia extendida Round 83 (3 deepenings NA + 10 nodos nuevos; 5 slugs dedupados por ya existir). 11 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x6, LOOP 3 rol x2) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
+| - **Iteracion actual:** 222 (Round 84 COMPLETA — 13/13 ingestados e integrados). |
+| - **Ultima accion:** Round 84 iter 222 — gap_analysis.py (0 huecos) → taxonomia extendida Round 84 (3 deepenings NA derechos-humanos + 10 nodos nuevos; todos slugs verificados no-existentes). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x9, LOOP 3 rol x7) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 83 COMPLETA (11/11). |
+| - **Cola:** Round 84 COMPLETA (13/13). |
 
 ## PROXIMA TAREFA
-- Round 83 COMPLETA (11 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 84) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
+- Round 84 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 85) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
