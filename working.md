@@ -2916,11 +2916,48 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Iteraciones totales:** 218. |
 
 ## ESTADO
-| - **Iteracion actual:** 218 (Round 80 COMPLETA — 13/13 ingestados e integrados). |
-| - **Ultima accion:** Round 80 iter 218 — gap_analysis.py (0 huecos) → taxonomía extendida Round 80 (3 deepenings NA + 10 nodos nuevos). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia EN/ES + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
+| - **Iteracion actual:** 219 (Round 81 COMPLETA — 11/11 ingestados e integrados). |
+| - **Ultima accion:** Round 81 iter 219 — gap_analysis.py (0 huecos) → taxonomía extendida Round 81 (1 deepening NA real + 10 nodos nuevos; US energia-nuclear y CA comercio-exterior ya existían → dedup). 11 páginas ingeridas (LOOP 1 sustrato NA x1, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX). |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 80 COMPLETA (13/13). |
-| - **Proxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 81) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. |
+| - **Cola:** Round 81 COMPLETA (11/11). |
+| - **Proxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 82) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. |
+
+## ✅ COLA ROUND 81 — COMPLETA (11/11 páginas nuevas)
+> gap_analysis.py (iter 218) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 81 (scripts/gap_analysis.py): 3 deepenings NA sugeridos (mexico/seguridad-privada + estados-unidos/energia-nuclear YA EXISTÍA + canada/comercio-exterior YA EXISTÍA → dedup a 1 sustrato real) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_81). Round 81 = 11 páginas nuevas reales.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodo NA existente)
+- [x] sustrato/mexico/seguridad-privada — Seguridad privada México (LFSP, DGSP/SSPC, modalidades, armamento SEDENA, REPSE)
+### Dominio (nuevos nodos)
+- [x] dominio/seguros-de-automoviles — Seguros de automóviles (RC, colisión, tarificación, CNSF/NAIC)
+- [x] dominio/derecho-laboral-individual — Derecho laboral individual (contrato, salario, jornada, despido)
+- [x] dominio/ciberseguridad-de-endpoints — Ciberseguridad de endpoints (EDR, antivirus, MDM, hardening)
+- [x] dominio/gestion-de-la-cadena-de-suministro-digital — Cadena de suministro digital (visibilidad, control tower, IoT)
+- [x] dominio/seguros-de-viajes — Seguros de viajes (cancelación, asistencia médica, equipaje)
+### Rol (nuevos nodos)
+- [x] rol/head-of-enterprise-risk-management — Head of ERM (COSO, ISO 31000, comité de riesgo)
+- [x] rol/head-of-customer-marketing-mx — Head of Customer Marketing (base instalada, lealtad, advocacy)
+- [x] rol/head-of-sales-training — Head of Sales Training (onboarding IC, metodología, certificación)
+- [x] rol/head-of-quality-engineering — Head of Quality Engineering (QE, automatización, shift-left)
+- [x] rol/head-of-strategic-sourcing — Head of Strategic Sourcing (categoría, negociación, TCO)
+
+### ITER 219 — Round 81 (2026-07-19)
+- gap_analysis.py (iter 218) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 81 (scripts/gap_analysis.py): 3 deepenings NA (mexico/seguridad-privada, estados-unidos/energia-nuclear YA EXISTÍA → dedup, canada/comercio-exterior YA EXISTÍA → dedup) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_81). 11 páginas nuevas reales.
+- 11 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] `sustrato/mexico/seguridad-privada.md` (deepening): LFSP, DGSP/SSPC, 7 modalidades, armamento SEDENA, REPSE.
+  - [dominio] `dominio/seguros-de-automoviles.md`, `dominio/derecho-laboral-individual.md`, `dominio/ciberseguridad-de-endpoints.md`, `dominio/gestion-de-la-cadena-de-suministro-digital.md`, `dominio/seguros-de-viajes.md` (5 nuevos nodos).
+  - [rol] `rol/head-of-enterprise-risk-management.md`, `rol/head-of-customer-marketing-mx.md`, `rol/head-of-sales-training.md`, `rol/head-of-quality-engineering.md`, `rol/head-of-strategic-sourcing.md` (5 nuevos nodos).
+- Reference-only (autoridades sectoriales: DGSP/SSPC gob.mx, CNSF/NAIC, ILO/STPS, CISA/MITRE ATT&CK, GS1/WEF, COSO/ISO, Gartner/Salesforce, ATD/RAIN, ISTQB, CIPS; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX; US energia-nuclear y CA comercio-exterior ya existían → no duplicados).
+- **Round 81 COMPLETO (11/11 temas).** Cola Round 81 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 82 o pausar.
+
+## INDICE DE PROGRESO (acumulado)
+| **Topicos ingeridos (acumulado): 1158** (Round 80: 1147; Round 81: 11 nuevas). |
+| **Rondas:** 81 completas (Round 1..81). |
+| **Nodos sustrato (NA):** Mexico 96 (+seguridad-privada), EE.UU. 78, Canada 72. |
+| **Nodos dominio:** ~321 (Round 81 +5: seguros-de-automoviles, derecho-laboral-individual, ciberseguridad-de-endpoints, gestion-de-la-cadena-de-suministro-digital, seguros-de-viajes). |
+| **Nodos rol:** ~294 (Round 81 +5: head-of-enterprise-risk-management, head-of-customer-marketing-mx, head-of-sales-training, head-of-quality-engineering, head-of-strategic-sourcing). |
+| **Organizacion:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+| **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
+| **Iteraciones totales:** 219. |
 
 ## ✅ COLA ROUND 80 — COMPLETA (13/13 páginas nuevas)
 > gap_analysis.py (iter 218) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 80 (scripts/gap_analysis.py): 3 deepenings NA (mexico/artes, estados-unidos/gobierno-estatal, canada/biodiversidad) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_80). Verificado con `ls` que ninguno de los 13 slugs ya existía. Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).

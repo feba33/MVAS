@@ -2115,3 +2115,20 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-applied-ai](rol/head-of-applied-ai.md) — Head of Applied AI: despliegue de modelos, MLOps aplicado, evals, embed en equipos · applied-ai,mlops,despliegue-ia,producto-ia,evals · 2026-07-19
 - [head-of-payments-risk](rol/head-of-payments-risk.md) — Head of Payments Risk: fraude de pagos, chargebacks, KYC/AML, FinCEN/FINTRAC · payments-risk,fraude-pagos,aml,kyc,chargebacks,compliance · 2026-07-19
 - [head-of-content-strategy](rol/head-of-content-strategy.md) — Head of Content Strategy: estrategia de contenidos, narrativa, SEO, editorial · content-strategy,contenidos,editorial,seo,narrativa · 2026-07-19
+
+### sustrato Round 81 (deepening NA)
+- [seguridad-privada](sustrato/mexico/seguridad-privada.md) — Seguridad privada México: LFSP, DGSP/SSPC, modalidades, armamento SEDENA · mexico,seguridad-privada,lfsp,dgsp,sspc,empresas-de-seguridad · 2026-07-19
+
+### dominio Round 81 (nuevos)
+- [seguros-de-automoviles](dominio/seguros-de-automoviles.md) — Seguros de automóviles: RC, colisión, coberturas, tarificación, CNSF/NAIC · seguros,automoviles,auto-insurance,responsabilidad-civil,tarificacion · 2026-07-19
+- [derecho-laboral-individual](dominio/derecho-laboral-individual.md) — Derecho laboral individual: contrato, salario, jornada, despido, LFT/FLSA · derecho,laboral,individual,contrato,despido,salario · 2026-07-19
+- [ciberseguridad-de-endpoints](dominio/ciberseguridad-de-endpoints.md) — Ciberseguridad de endpoints: EDR, antivirus, MDM, hardening, MITRE ATT&CK · ciberseguridad,endpoints,edr,antivirus,hardening · 2026-07-19
+- [gestion-de-la-cadena-de-suministro-digital](dominio/gestion-de-la-cadena-de-suministro-digital.md) — Cadena de suministro digital: visibilidad, control tower, IoT, integración · cadena-de-suministro,digital,visibilidad,control-tower,iot · 2026-07-19
+- [seguros-de-viajes](dominio/seguros-de-viajes.md) — Seguros de viajes: cancelación, asistencia médica, equipaje, III/CNSF · seguros,viajes,travel-insurance,asistencia-medica,cancelacion · 2026-07-19
+
+### rol Round 81 (nuevos)
+- [head-of-enterprise-risk-management](rol/head-of-enterprise-risk-management.md) — Head of ERM: riesgo corporativo, COSO, ISO 31000, comité de riesgo · erm,enterprise-risk,coso,iso-31000,riesgo-corporativo · 2026-07-19
+- [head-of-customer-marketing-mx](rol/head-of-customer-marketing-mx.md) — Head of Customer Marketing: base instalada, lealtad, advocacy, lifecycle · customer-marketing,lifecycle,lealtad,advocacy,base-instalada · 2026-07-19
+- [head-of-sales-training](rol/head-of-sales-training.md) — Head of Sales Training: capacitación ventas, onboarding IC, metodología, certificación · sales-training,capacitacion-ventas,onboarding,metodologia,certificacion · 2026-07-19
+- [head-of-quality-engineering](rol/head-of-quality-engineering.md) — Head of Quality Engineering: QE, automatización de pruebas, shift-left, calidad producto · quality-engineering,qe,testing,shift-left,calidad-producto · 2026-07-19
+- [head-of-strategic-sourcing](rol/head-of-strategic-sourcing.md) — Head of Strategic Sourcing: categoría, negociación, ahorro, proveedores clave · strategic-sourcing,categoria,negociacion,ahorro,proveedores · 2026-07-19

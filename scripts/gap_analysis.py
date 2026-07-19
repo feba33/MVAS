@@ -1431,6 +1431,25 @@ NEW_NODES_ROUND_80 = [
 NEW_NODES = NEW_NODES_ROUND_80
 
 
+# Round 81 (iter 219) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("seguridad-privada", "Seguridad privada Mexico (profundizacion): empresas de seguridad, guardias, licencias, SEGOB/Secretaria de Seguridad, vs seguridad-publica/seguridad-nacional"))
+TAXONOMY["sustrato/estados-unidos"].append(("energia-nuclear", "Energia nuclear EE.UU. (profundizacion): NRC, reactores, SMR, residuos, DOE, vs energia/energia-electrica"))
+TAXONOMY["sustrato/canada"].append(("comercio-exterior", "Comercio exterior Canada (profundizacion): Global Affairs Canada, aranceles, T-MEC/CUSMA, exportaciones, vs comercio-internacional/inversion-extranjera"))
+NEW_NODES_ROUND_81 = [
+    ("dominio/seguros-de-automoviles", "Seguros de automoviles / auto insurance: responsabilidad civil, colision, coberturas, tarificacion, vs seguros/seguros-de-personas"),
+    ("dominio/derecho-laboral-individual", "Derecho laboral individual: contrato de trabajo, salario, jornada, despido, vs derecho-laboral/derecho-laboral-colectivo"),
+    ("dominio/ciberseguridad-de-endpoints", "Ciberseguridad de endpoints / endpoint security: EDR, antivirus, MDM, hardening, vs ciberseguridad/ciberseguridad-de-aplicaciones"),
+    ("dominio/gestion-de-la-cadena-de-suministro-digital", "Gestion de la cadena de suministro digital / digital supply chain: visibilidad, control tower, IoT, integracion, vs gestion-de-la-cadena-de-suministro"),
+    ("dominio/seguros-de-viajes", "Seguros de viajes / travel insurance: cancelacion, asistencia medica, equipaje, vs seguros/seguros-de-personas"),
+    ("rol/head-of-enterprise-risk-management", "Head of Enterprise Risk Management (ERM): riesgo corporativo, COSO, ISO 31000, comite de riesgo, vs chief-risk-officer/gestion-de-riesgos"),
+    ("rol/head-of-customer-marketing-mx", "Head of Customer Marketing: marketing a base instalada, lealtad, advocacy, lifecycle, vs head-of-lifecycle-marketing/customer-success"),
+    ("rol/head-of-sales-training", "Head of Sales Training: capacitacion de ventas, onboarding de IC, metodologia, certificacion, vs head-of-sales-enablement/head-of-learning-development"),
+    ("rol/head-of-quality-engineering", "Head of Quality Engineering: QE, automatizacion de pruebas, calidad de producto, shift-left, vs head-of-qa/quality-manager"),
+    ("rol/head-of-strategic-sourcing", "Head of Strategic Sourcing: categoria estrategica, negociacion, ahorro, proveedores clave, vs head-of-procurement/head-of-supplier-management"),
+]
+NEW_NODES = NEW_NODES_ROUND_81
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):
