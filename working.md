@@ -2876,3 +2876,48 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | - **Bloqueos:** ninguno. |
 | - **Cola:** Round 78 COMPLETA (13/13). |
 | - **Proxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 79) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. |
+
+## ✅ COLA ROUND 79 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 217) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 79 (scripts/gap_analysis.py): 3 deepenings NA (mexico/politica-social, estados-unidos/seguridad-fronteriza, canada/seguridad-fronteriza) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_79). Verificado con `ls` que ninguno de los 13 slugs ya existía. Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/politica-social — Política social México (Bienestar/SEGUB, CONEVAL, programas sociales)
+- [x] sustrato/estados-unidos/seguridad-fronteriza — Seguridad fronteriza EE.UU. (CBP/DHS, Border Patrol)
+- [x] sustrato/canada/seguridad-fronteriza — Seguridad fronteriza Canadá (CBSA, Public Safety)
+### Dominio (nuevos nodos)
+- [x] dominio/derecho-procesal-penal — Derecho procesal penal (sistema acusatorio, juicio oral)
+- [x] dominio/derecho-administrativo — Derecho administrativo (acto administrativo, contencioso)
+- [x] dominio/seguridad-de-la-informacion — Seguridad de la información (triada CIA, ISO 27001)
+- [x] dominio/gestion-de-proyectos — Gestión de proyectos (PMBOK, PMO, triple restricción)
+- [x] dominio/derecho-mercantil — Derecho mercantil (actos de comercio, UCC, títulos valor)
+### Rol (nuevos nodos)
+- [x] rol/head-of-diversity-equity-inclusion — Head of DEI (diversidad, equidad, inclusión)
+- [x] rol/head-of-program-management — Head of Program Management (PMO, cartera)
+- [x] rol/head-of-solution-engineering — Head of Solution Engineering (pre-ventas, POC)
+- [x] rol/head-of-employer-branding — Head of Employer Branding (marca empleadora, EVP)
+- [x] rol/head-of-regulatory-affairs — Head of Regulatory Affairs (reguladores, autorizaciones)
+
+### ITER 217 — Round 79 (2026-07-19)
+- gap_analysis.py (iter 217) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 79 (scripts/gap_analysis.py): 3 deepenings NA (mexico/politica-social, estados-unidos/seguridad-fronteriza, canada/seguridad-fronteriza) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_79). Verificado con `ls` que ningún slug existía (dedup previo).
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] `sustrato/mexico/politica-social.md`, `sustrato/estados-unidos/seguridad-fronteriza.md`, `sustrato/canada/seguridad-fronteriza.md` (3 deepenings NA).
+  - [dominio] `dominio/derecho-procesal-penal.md`, `dominio/derecho-administrativo.md`, `dominio/seguridad-de-la-informacion.md`, `dominio/gestion-de-proyectos.md`, `dominio/derecho-mercantil.md` (5 nuevos nodos).
+  - [rol] `rol/head-of-diversity-equity-inclusion.md`, `rol/head-of-program-management.md`, `rol/head-of-solution-engineering.md`, `rol/head-of-employer-branding.md`, `rol/head-of-regulatory-affairs.md` (5 nuevos nodos).
+- Reference-only (Wikipedia EN/ES + autoridades: gob.mx/bienestar, cbp.gov, cbsa-asfc.gc.ca, law.cornell.edu, iso.org, pmi.org, shrm.org, fda.gov; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- **Round 79 COMPLETA (13/13 temas).** Cola Round 79 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 80 o pausar.
+
+## INDICE DE PROGRESO (acumulado)
+| **Topicos ingeridos (acumulado): 1134** (Round 78: 1121; Round 79: 1134/13 nuevas). |
+| **Rondas:** 79 completas (Round 1..79). |
+| **Nodos sustrato (NA):** Mexico 94 (+politica-social), EE.UU. 77 (+seguridad-fronteriza), Canada 71 (+seguridad-fronteriza). |
+| **Nodos dominio:** ~321 (Round 79 +5: derecho-procesal-penal, derecho-administrativo, seguridad-de-la-informacion, gestion-de-proyectos, derecho-mercantil). |
+| **Nodos rol:** ~294 (Round 79 +5: head-of-diversity-equity-inclusion, head-of-program-management, head-of-solution-engineering, head-of-employer-branding, head-of-regulatory-affairs). |
+| **Organizacion:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+| **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
+| **Iteraciones totales:** 217. |
+
+## ESTADO
+| - **Iteracion actual:** 217 (Round 79 COMPLETA — 13/13 ingestados e integrados). |
+| - **Ultima accion:** Round 79 iter 217 — gap_analysis.py (0 huecos) → taxonomía extendida Round 79 (3 deepenings NA + 10 nodos nuevos). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 79 COMPLETA (13/13). |
+| - **Proxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 80) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. |

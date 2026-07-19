@@ -1393,6 +1393,25 @@ NEW_NODES_ROUND_78 = [
 NEW_NODES = NEW_NODES_ROUND_78
 
 
+# Round 79 (iter 217) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("politica-social", "Politica social Mexico (profundizacion): SEGUB, bienestar, programas sociales, desarrollo social, vs pobreza-desigualdad/seguridad-social"))
+TAXONOMY["sustrato/estados-unidos"].append(("seguridad-fronteriza", "Seguridad fronteriza EE.UU. (profundizacion): CBP, DHS, aduanas, muros/tecnologia, vs fronteras/inmigracion"))
+TAXONOMY["sustrato/canada"].append(("seguridad-fronteriza", "Seguridad fronteriza Canada (profundizacion): CBSA, frontera EE.UU.-Canada, aduanas, vs fronteras/inmigracion"))
+NEW_NODES_ROUND_79 = [
+    ("dominio/derecho-procesal-penal", "Derecho procesal penal: proceso penal acusatorio, Ministerio Publico, defensa, juicio, vs derecho-procesal/derecho-penal"),
+    ("dominio/derecho-administrativo", "Derecho administrativo: actos administrativos, procedimiento administrativo, recursos, contencioso-administrativo, vs derecho-constitucional/derecho-regulatorio"),
+    ("dominio/seguridad-de-la-informacion", "Seguridad de la informacion: CIA triad, clasificacion, controles, vs ciberseguridad/ciberseguridad-gobierno/seguridad-nacional"),
+    ("dominio/gestion-de-proyectos", "Gestion de proyectos: PMBOK, ciclo de vida, triple restriccion, agil/hibrido, vs estrategia/operaciones"),
+    ("dominio/derecho-mercantil", "Derecho mercantil / commercial law: actos de comercio, comerciante, titulos valor, sociedades mercantiles, vs derecho-societario/codigo-de-comercio"),
+    ("rol/head-of-diversity-equity-inclusion", "Head of Diversity, Equity & Inclusion (DEI): estrategia de inclusion, representacion, cultura, metricas de equidad, vs head-of-people/head-of-talent-development"),
+    ("rol/head-of-program-management", "Head of Program Management: gestion de programas/cartera, PMO, dependencias entre proyectos, vs gestion-de-proyectos/head-of-product"),
+    ("rol/head-of-solution-engineering", "Head of Solution Engineering: pre-ventas tecnico, demos/POC, arquitectura de solucion, enablement, vs sales-engineer/sales-lead"),
+    ("rol/head-of-employer-branding", "Head of Employer Branding: marca empleadora, propuesta de valor, atraccion de talento, vs head-of-talent-acquisition/head-of-people"),
+    ("rol/head-of-regulatory-affairs", "Head of Regulatory Affairs: relacion con reguladores, tramites/autorizaciones, cumplimiento normativo, vs compliance-officer/head-of-corporate-affairs"),
+]
+NEW_NODES = NEW_NODES_ROUND_79
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

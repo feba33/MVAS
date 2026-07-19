@@ -2077,3 +2077,22 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-partnerships-mexico](rol/head-of-partnerships-mexico.md) — Head of Partnerships: alianzas estratégicas, canal, co-ventas, ecosistema de socios · partnerships,alianzas,canal,co-ventas,ecosistema · 2026-07-19
 - [head-of-customer-experience](rol/head-of-customer-experience.md) — Head of Customer Experience (CX): VoC, journey mapping, omnicanal, cultura de cliente · cx,voice-of-customer,journey,omnicanal,cultura-de-cliente · 2026-07-19
 - [head-of-talent-acquisition-mexico](rol/head-of-talent-acquisition-mexico.md) — Head of Talent Acquisition: sourcing, employer branding, proceso de selección, métricas de contratación · talent-acquisition,reclutamiento,sourcing,employer-branding,rrhh · 2026-07-19
+
+### sustrato Round 79 (deepening NA)
+- [politica-social](sustrato/mexico/politica-social.md) — Política social México: Bienestar/SEGUB, programas, CONEVAL, pobreza multidimensional · mexico,politica-social,bienestar,desarrollo-social,programas-sociales · 2026-07-19
+- [seguridad-fronteriza](sustrato/estados-unidos/seguridad-fronteriza.md) — Seguridad fronteriza EE.UU.: CBP/DHS, Border Patrol, tecnología, DHS · estados-unidos,seguridad-fronteriza,cbp,dhs,aduanas · 2026-07-19
+- [seguridad-fronteriza](sustrato/canada/seguridad-fronteriza.md) — Seguridad fronteriza Canadá: CBSA, Public Safety, NEXUS/FAST, IBET · canada,seguridad-fronteriza,cbsa,frontera,aduanas · 2026-07-19
+
+### dominio Round 79 (nuevos)
+- [derecho-procesal-penal](dominio/derecho-procesal-penal.md) — Derecho procesal penal: sistema acusatorio, Ministerio Público, juicio oral · derecho,procesal,penal,juicio-oral,acusatorio · 2026-07-19
+- [derecho-administrativo](dominio/derecho-administrativo.md) — Derecho administrativo: acto administrativo, procedimiento, contencioso-administrativo · derecho,administrativo,acto-administrativo,procedimiento,contencioso · 2026-07-19
+- [seguridad-de-la-informacion](dominio/seguridad-de-la-informacion.md) — Seguridad de la información: triada CIA, ISO/IEC 27001, clasificación · seguridad-informacion,cia,confidencialidad,integridad,disponibilidad,controles · 2026-07-19
+- [gestion-de-proyectos](dominio/gestion-de-proyectos.md) — Gestión de proyectos: PMBOK, triple restricción, PMO, ágil/hibrido · gestion-de-proyectos,pmbok,ciclo-de-vida,triple-restriccion,agil,pmo · 2026-07-19
+- [derecho-mercantil](dominio/derecho-mercantil.md) — Derecho mercantil: actos de comercio, títulos valor, UCC, sociedades · derecho,mercantil,comercial,actos-de-comercio,titulos-valor,sociedades · 2026-07-19
+
+### rol Round 79 (nuevos)
+- [head-of-diversity-equity-inclusion](rol/head-of-diversity-equity-inclusion.md) — Head of DEI: diversidad, equidad, inclusión, cultura, métricas · dei,diversidad,inclusion,equidad,cultura · 2026-07-19
+- [head-of-program-management](rol/head-of-program-management.md) — Head of Program Management: PMO, cartera, dependencias entre proyectos · program-management,pmo,cartera,dependencias · 2026-07-19
+- [head-of-solution-engineering](rol/head-of-solution-engineering.md) — Head of Solution Engineering: pre-ventas, demos/POC, arquitectura de solución · solution-engineering,pre-ventas,demos,poc,arquitectura-de-solucion · 2026-07-19
+- [head-of-employer-branding](rol/head-of-employer-branding.md) — Head of Employer Branding: marca empleadora, EVP, atracción de talento · employer-branding,marca-empleadora,evp,atraccion-de-talento · 2026-07-19
+- [head-of-regulatory-affairs](rol/head-of-regulatory-affairs.md) — Head of Regulatory Affairs: reguladores, autorizaciones, cumplimiento normativo · regulatory-affairs,reguladores,autorizaciones,cumplimiento-normativo · 2026-07-19
