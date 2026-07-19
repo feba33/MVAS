@@ -1450,6 +1450,29 @@ NEW_NODES_ROUND_81 = [
 NEW_NODES = NEW_NODES_ROUND_81
 
 
+# Round 82 (iter 220) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+# NOTA dedup: estados-unidos/seguros, canada/energia, dominio/derecho-de-las-telecomunicaciones,
+# dominio/economia-de-la-salud YA EXISTEN -> reemplazados por economia-digital + nuevos dominio.
+TAXONOMY["sustrato/mexico"].append(("economia-digital", "Economia digital Mexico (profundizacion): comercio electronico, plataformas, gig economy, pagos electronicos, CFE/COFECE, vs economia/economia-comportamental"))
+TAXONOMY["sustrato/estados-unidos"].append(("seguridad-de-la-informacion", "Seguridad de la informacion EE.UU. (profundizacion): CISA, NIST CSF, FedRAMP, FISMA, vs ciberseguridad/seguridad-nacional"))
+TAXONOMY["sustrato/canada"].append(("economia-creativa", "Economia creativa Canada (profundizacion): CanCon, Telefilm, credito fiscal, Online Streaming Act, vs cultura/industrias-culturales"))
+NEW_NODES_ROUND_82 = [
+    ("dominio/seguros-de-responsabilidad-civil", "Seguros de responsabilidad civil / liability: CGL, D&O, E&O, product liability, vs seguros/seguros-de-credito"),
+    ("dominio/gestion-de-la-cadena-de-sumistro-global", "Gestion de la cadena de suministro global / global SCM: trade compliance, aduanas, red global, vs logistica/cadena-de-valor"),
+    ("dominio/analitica-de-ventas", "Analitica de ventas / sales analytics: pipeline, forecast, win rate, cohortes, vs analitica-de-negocio/inteligencia-de-mercado"),
+    ("dominio/salud-mental", "Salud mental / mental health: psiquiatria, prevencion, stigma, sistemas de salud, vs psicologia/salud-publica"),
+    ("dominio/derecho-bancario-internacional", "Derecho bancario internacional: corresponsalia, Swift, sanciones, Basilea, FATF, vs derecho-bancario/regulacion-financiera"),
+    ("dominio/ciencia-de-datos-de-salud", "Ciencia de datos de salud / health data science: datos clinicos, interoperabilidad, privacidad, ML en salud, vs salud-digital/ciencia-de-datos-emrpesarial"),
+    ("dominio/economia-del-cuidado-infantil", "Economia del cuidado infantil / childcare economics: oferta, costo, politicas publicas, vs economia-del-cuidado"),
+    ("rol/head-of-vendor-management", "Head of Vendor Management: gestion de proveedores, contratos, riesgo de terceros, vs head-of-procurement/head-of-supplier-management"),
+    ("rol/head-of-learning-experience", "Head of Learning Experience: diseno de experiencia de aprendizaje, LX, academia, vs head-of-learning-development/head-of-talent-development"),
+    ("rol/head-of-customer-advocacy", "Head of Customer Advocacy: abogacia del cliente, referencias, case studies, comunidad, vs customer-success/customer-marketing"),
+    ("rol/head-of-field-engineering", "Head of Field Engineering: ingenieros de campo/pre-venta avanzada, PoC tecnicos, vs sales-engineer/head-of-partner-engineering"),
+    ("rol/head-of-product-analytics", "Head of Product Analytics: metricas de producto, experimentacion, A/B, retention, vs head-of-analytics/data-analyst"),
+]
+NEW_NODES = NEW_NODES_ROUND_82
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

@@ -2132,3 +2132,24 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-sales-training](rol/head-of-sales-training.md) — Head of Sales Training: capacitación ventas, onboarding IC, metodología, certificación · sales-training,capacitacion-ventas,onboarding,metodologia,certificacion · 2026-07-19
 - [head-of-quality-engineering](rol/head-of-quality-engineering.md) — Head of Quality Engineering: QE, automatización de pruebas, shift-left, calidad producto · quality-engineering,qe,testing,shift-left,calidad-producto · 2026-07-19
 - [head-of-strategic-sourcing](rol/head-of-strategic-sourcing.md) — Head of Strategic Sourcing: categoría, negociación, ahorro, proveedores clave · strategic-sourcing,categoria,negociacion,ahorro,proveedores · 2026-07-19
+
+### sustrato Round 82 (deepening NA)
+- [economia-digital](sustrato/mexico/economia-digital.md) — Economía digital México: e-commerce, plataformas, gig economy, pagos electrónicos, SPEI/CFDI · mexico,economia-digital,comercio-electronico,fintech,gig-economy,pagos · 2026-07-19
+- [seguridad-de-la-informacion](sustrato/estados-unidos/seguridad-de-la-informacion.md) — Seguridad de la información EE.UU.: FISMA, CISA, NIST CSF, FedRAMP · estados-unidos,ciberseguridad,fisma,cisa,nist,fedramp · 2026-07-19
+- [economia-creativa](sustrato/canada/economia-creativa.md) — Economía creativa Canadá: CanCon, Telefilm, Online Streaming Act, CRTC · canada,economia-creativa,cancon,streaming,cultura · 2026-07-19
+
+### dominio Round 82 (nuevos)
+- [seguros-de-responsabilidad-civil](dominio/seguros-de-responsabilidad-civil.md) — Seguros de responsabilidad civil: CGL, D&O, E&O, product liability · seguros,responsabilidad-civil,cgl,d&o,e&o,liability · 2026-07-19
+- [gestion-de-la-cadena-de-sumistro-global](dominio/gestion-de-la-cadena-de-sumistro-global.md) — Cadena de suministro global: trade compliance, aduanas, red global · cadena-de-suministro,global-scm,trade-compliance,aduanas,resiliencia · 2026-07-19
+- [analitica-de-ventas](dominio/analitica-de-ventas.md) — Analítica de ventas: pipeline, forecast, win rate, cohortes · ventas,analitica,pipeline,forecasting,win-rate,sales-analytics · 2026-07-19
+- [salud-mental](dominio/salud-mental.md) — Salud mental: psiquiatría, prevención, sistemas de salud, OMS · salud-mental,psiquiatria,prevencion,salud-publica,bienestar · 2026-07-19
+- [derecho-bancario-internacional](dominio/derecho-bancario-internacional.md) — Derecho bancario internacional: corresponsalía, Swift, sanciones, Basilea, FATF · derecho-bancario,internacional,corresponsalia,swift,sanciones,basilea · 2026-07-19
+- [ciencia-de-datos-de-salud](dominio/ciencia-de-datos-de-salud.md) — Ciencia de datos de salud: datos clínicos, interoperabilidad, ML en salud · salud,datos,informatica-medica,interoperabilidad,ml-salud · 2026-07-19
+- [economia-del-cuidado-infantil](dominio/economia-del-cuidado-infantil.md) — Economía del cuidado infantil: oferta, costo, políticas públicas · cuidado-infantil,economia,politica-publica,oferta,costo · 2026-07-19
+
+### rol Round 82 (nuevos)
+- [head-of-vendor-management](rol/head-of-vendor-management.md) — Head of Vendor Management: gestión de proveedores, contratos, riesgo de terceros · vendor-management,proveedores,terceros,contratos,riesgo-proveedor · 2026-07-19
+- [head-of-learning-experience](rol/head-of-learning-experience.md) — Head of Learning Experience: diseño de experiencia de aprendizaje, LX, academia · learning-experience,lx,instructional-design,capacitacion · 2026-07-19
+- [head-of-customer-advocacy](rol/head-of-customer-advocacy.md) — Head of Customer Advocacy: abogacía del cliente, referencias, case studies, comunidad · customer-advocacy,referencias,case-studies,comunidad,lealtad · 2026-07-19
+- [head-of-field-engineering](rol/head-of-field-engineering.md) — Head of Field Engineering: ingenieros de campo/pre-venta, PoC técnicos · field-engineering,pre-venta,sales-engineering,poc,tecnico · 2026-07-19
+- [head-of-product-analytics](rol/head-of-product-analytics.md) — Head of Product Analytics: métricas de producto, experimentación, A/B, retention · product-analytics,metricas-producto,experimentacion,ab-testing,retention · 2026-07-19
