@@ -2726,7 +2726,36 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - [x] rol/head-of-contracts-management — Head of Contracts Management (CLM, redline, obligaciones, riesgo)
 - [x] rol/head-of-supplier-management — Head of Supplier Management (SRM, sourcing, scorecards, riesgo de proveedor)
 
-### ITER 213 — Round 75 (2026-07-18)
+## ✅ COLA ROUND 76 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 214) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 76 (scripts/gap_analysis.py): 3 deepenings NA (mexico/aeropuertos, estados-unidos/inmigracion, canada/seguridad-nacional) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_76). NOTA: estados-unidos/inmigracion ya estaba parcialmente cubierto (no hueco real); las otras 2 TAXONOMY muestran como faltantes (nuevas). Los 10 NEW_NODES confirmados como NUEVO.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/aeropuertos — Aeropuertos México (GAP/OMA/ASUR, AFAC, AIFA, AICM, concesiones)
+- [x] sustrato/estados-unidos/inmigracion — Inmigración EE.UU. (USCIS/DHS, visas, green card, DACA, asilo, ICE/CBP)
+- [x] sustrato/canada/seguridad-nacional — Seguridad nacional Canadá (Public Safety Canada, CSIS, RCMP, CBSA, CSE)
+### Dominio (nuevos nodos)
+- [x] dominio/derecho-de-los-refugiados — Derecho de los refugiados (Convención 1951, ACNUR, asilo, apatridia, non-refoulement)
+- [x] dominio/gestion-de-la-cadena-de-frio — Cadena de frío (refrigeración, última milla fría, fármacos/alimentos, IoT)
+- [x] dominio/ciberseguridad-de-dispositivos-medicos — Ciberseguridad de dispositivos médicos (FDA, SBOM, IEC 62443, HIPAA)
+- [x] dominio/economia-de-la-educacion — Economía de la educación (capital humano, financiamiento, rendimiento, equidad)
+- [x] dominio/logistica-de-eventos — Logística de eventos (MICE, montaje, catering, movilización)
+### Rol (nuevos nodos)
+- [x] rol/head-of-brand-marketing — Head of Brand Marketing (marca aplicada al marketing, campañas, posicionamiento)
+- [x] rol/head-of-corporate-sustainability — Head of Corporate Sustainability (sostenibilidad integrada, descarbonización, reportes ESG)
+- [x] rol/head-of-financial-risk — Head of Financial Risk (riesgo mercado/crédito/liquidez, tesorería de riesgo, límites, hedging)
+- [x] rol/head-of-talent-development — Head of Talent Development (L&D, sucesión, movilidad interna, academia)
+- [x] rol/head-of-customer-experience-design — Head of Customer Experience Design (service/UX/CX, journey mapping, omnicanal)
+
+### ITER 214 — Round 76 (2026-07-19)
+- gap_analysis.py (iter 214) reportó 0 huecos reales → taxonomía extendida Round 76 (scripts/gap_analysis.py): 3 deepenings NA (mexico/aeropuertos, estados-unidos/inmigracion, canada/seguridad-nacional) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_76). estados-unidos/inmigracion ya parcialmente cubierto (no hueco); 2 TAXONOMY restantes como faltantes. Los 10 NEW_NODES confirmados como NUEVO.
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] `sustrato/mexico/aeropuertos.md` (deepening): GAP/OMA/ASUR, AFAC, AIFA, AICM, concesiones.
+  - [sustrato] `sustrato/estados-unidos/inmigracion.md` (deepening): USCIS/DHS, visas H-1B/L-1/F-1, green card, DACA, asilo, ICE/CBP.
+  - [sustrato] `sustrato/canada/seguridad-nacional.md` (deepening): Public Safety Canada, CSIS, RCMP, CBSA, CSE, amenaza híbrida.
+  - [dominio] `dominio/derecho-de-los-refugiados.md`, `dominio/gestion-de-la-cadena-de-frio.md`, `dominio/ciberseguridad-de-dispositivos-medicos.md`, `dominio/economia-de-la-educacion.md`, `dominio/logistica-de-eventos.md` (5 nuevos nodos).
+  - [rol] `rol/head-of-brand-marketing.md`, `rol/head-of-corporate-sustainability.md`, `rol/head-of-financial-risk.md`, `rol/head-of-talent-development.md`, `rol/head-of-customer-experience-design.md` (5 nuevos nodos).
+- Reference-only (Wikipedia ES/EN + autoridades: gob.mx/AFAC, uscis.gov/dhs.gov, canada.ca/CSIS, ACNUR, FAO/OMS, FDA/COFEPRIS, OECD, PCMA, AMA, SHRM, NN/g; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- **Round 76 COMPLETO (13/13 temas).** Cola Round 76 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 77 o pausar.
 - gap_analysis.py (iter 213) reportó 0 huecos reales → taxonomía extendida Round 75 (scripts/gap_analysis.py): 3 deepenings NA (mexico/comunicacion-social, estados-unidos/energia-espacial, canada/pesca) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_75). Dedup: 6 slugs del 1er borrador ya existían como páginas planas (infraestructura MX, defensa US, politica-fiscal CA, economia-circular, economia-comportamental, bioetica) → reemplazados por topics libres.
 - 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
   - [sustrato] `sustrato/mexico/comunicacion-social.md` (deepening): Art.134 Constitución, LGCS, INE/INEII, pauta oficial, SEGOB.
@@ -2739,20 +2768,20 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 
 
 ## INDICE DE PROGRESO (acumulado)
-| **Topicos ingeridos (acumulado): 1085** (Round 74: 1072; Round 75: 1085/13 nuevas). |
-| **Rondas:** 75 completas (Round 1..75). |
-| **Nodos sustrato (NA):** Mexico 90 (+comunicacion-social), EE.UU. 74 (+energia-espacial), Canada 67 (+pesca). |
-| **Nodos dominio:** ~303 (Round 75 +5: derecho-agrario, derecho-notarial, seguridad-de-la-informacion-empresarial, ciencia-de-datos-empresarial, economia-del-deporte-femenino). |
-| **Nodos rol:** ~274 (Round 75 +5: head-of-catastrophe-risk, head-of-business-resilience, head-of-model-risk, head-of-contracts-management, head-of-supplier-management). |
+| **Topicos ingeridos (acumulado): 1098** (Round 75: 1085; Round 76: 1098/13 nuevas). |
+| **Rondas:** 76 completas (Round 1..76). |
+| **Nodos sustrato (NA):** Mexico 91 (+aeropuertos), EE.UU. 75 (+inmigracion), Canada 68 (+seguridad-nacional). |
+| **Nodos dominio:** ~308 (Round 76 +5: derecho-de-los-refugiados, gestion-de-la-cadena-de-frio, ciberseguridad-de-dispositivos-medicos, economia-de-la-educacion, logistica-de-eventos). |
+| **Nodos rol:** ~279 (Round 76 +5: head-of-brand-marketing, head-of-corporate-sustainability, head-of-financial-risk, head-of-talent-development, head-of-customer-experience-design). |
 | **Organizacion:** 1 (ejemplo-empresa / NovaTech). |
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
-| **Iteraciones totales:** 213. |
+| **Iteraciones totales:** 214. |
 
 ## ESTADO
-| - **Iteracion actual:** 213 (Round 75 COMPLETA — 13/13 ingestados e integrados). |
-| - **Ultima accion:** Round 75 iter 213 — gap_analysis.py (iter 213) reporto 0 huecos reales → taxonomia extendida Round 75 (3 deepenings NA + 10 nodos nuevos dominio/rol; dedup de 6 slugs ya existentes). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica). |
+| - **Iteracion actual:** 214 (Round 76 COMPLETA — 13/13 ingestados e integrados). |
+| - **Ultima accion:** Round 76 iter 214 — gap_analysis.py (iter 214) reporto 0 huecos reales → taxonomia extendida Round 76 (3 deepenings NA + 10 nodos nuevos dominio/rol). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica). |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 75 COMPLETA (13/13). |
+| - **Cola:** Round 76 COMPLETA (13/13). |
 
 ## PROXIMA TAREFA
-- Round 75 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomia (Round 76) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamerica (respetado).
+- Round 76 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomia (Round 77) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamerica (respetado).

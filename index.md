@@ -2009,4 +2009,23 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-business-resilience](rol/head-of-business-resilience.md) — Head of Business Resilience: BCP, DR, crisis management, ejercicios (ISO 22301) · head-of-business-resilience,bcp,disaster-recovery,crisis-management,continuidad · 2026-07-18
 - [head-of-model-risk](rol/head-of-model-risk.md) — Head of Model Risk: MRM, validación de modelos, SR 11-7, model inventory · head-of-model-risk,mrm,validacion-modelos,sr-11-7,model-inventory · 2026-07-18
 - [head-of-contracts-management](rol/head-of-contracts-management.md) — Head of Contracts Management: CLM, redline, obligaciones, riesgo contractual · head-of-contracts-management,clm,ciclo-vida-contratos,redline,obligaciones · 2026-07-18
+
+### sustrato Round 76 (deepening NA)
+- [aeropuertos](sustrato/mexico/aeropuertos.md) — Aeropuertos México: grupos GAP/OMA/ASUR, AFAC, AIFA, AICM, concesiones · mexico,aeropuertos,transporte,aviacion,concesiones,gap,oma,aifa · 2026-07-19
+- [inmigracion](sustrato/estados-unidos/inmigracion.md) — Inmigración EE.UU.: USCIS/DHS, visas, green card, DACA, asilo, ICE/CBP · estados-unidos,inmigracion,uscis,visas,green-card,daca,asilo · 2026-07-19
+- [seguridad-nacional](sustrato/canada/seguridad-nacional.md) — Seguridad nacional Canadá: Public Safety Canada, CSIS, RCMP, CBSA, CSE, amenaza híbrida · canada,seguridad-nacional,public-safety,csis,ciber,inteligencia · 2026-07-19
+
+### dominio Round 76 (nuevos)
+- [derecho-de-los-refugiados](dominio/derecho-de-los-refugiados.md) — Derecho de los refugiados: Convención 1951, ACNUR, asilo, apatridia, non-refoulement · derecho-refugiados,asilo,acnur,apatridia,derechos-humanos · 2026-07-19
+- [gestion-de-la-cadena-de-frio](dominio/gestion-de-la-cadena-de-frio.md) — Cadena de frío: refrigeración, última milla fría, fármacos/alimentos, IoT temperatura · cadena-frio,logistica,refrigeracion,farmaceuticos,alimentos,iot · 2026-07-19
+- [ciberseguridad-de-dispositivos-medicos](dominio/ciberseguridad-de-dispositivos-medicos.md) — Ciberseguridad de dispositivos médicos: FDA premarket/postmarket, SBOM, IEC 62443, HIPAA · dispositivos-medicos,ciberseguridad,fda,hipaa,salud-digital,iomt · 2026-07-19
+- [economia-de-la-educacion](dominio/economia-de-la-educacion.md) — Economía de la educación: capital humano, financiamiento, rendimiento escolar, equidad · economia-educacion,capital-humano,financiamiento,rendimiento,equidad,oecd · 2026-07-19
+- [logistica-de-eventos](dominio/logistica-de-eventos.md) — Logística de eventos: MICE, montaje, catering, movilización, gestión de proyectos · logistica-eventos,mice,eventos,montaje,catering,produccion · 2026-07-19
+
+### rol Round 76 (nuevos)
+- [head-of-brand-marketing](rol/head-of-brand-marketing.md) — Head of Brand Marketing: estrategia de marca aplicada al marketing, campañas, posicionamiento · brand-marketing,head-of-brand,marketing,marca,posicionamiento · 2026-07-19
+- [head-of-corporate-sustainability](rol/head-of-corporate-sustainability.md) — Head of Corporate Sustainability: sostenibilidad integrada, descarbonización, reportes ESG · sostenibilidad,esg,descarbonizacion,reportes,net-zero · 2026-07-19
+- [head-of-financial-risk](rol/head-of-financial-risk.md) — Head of Financial Risk: riesgo mercado/crédito/liquidez, tesorería de riesgo, límites, hedging · riesgo-financiero,market-risk,credit-risk,liquidity-risk,tesoreria · 2026-07-19
+- [head-of-talent-development](rol/head-of-talent-development.md) — Head of Talent Development: L&D, sucesión, movilidad interna, academia corporativa · talent-development,l&d,sucesion,movilidad-interna,upskilling · 2026-07-19
+- [head-of-customer-experience-design](rol/head-of-customer-experience-design.md) — Head of Customer Experience Design: service/UX/CX, journey mapping, coherencia omnicanal · customer-experience-design,cx,service-design,ux,journey-mapping · 2026-07-19
 - [head-of-supplier-management](rol/head-of-supplier-management.md) — Head of Supplier Management: SRM, sourcing, scorecards, riesgo de proveedor · head-of-supplier-management,srm,sourcing,scorecards,riesgo-proveedor · 2026-07-18

@@ -1336,6 +1336,25 @@ NEW_NODES_ROUND_75 = [
 NEW_NODES = NEW_NODES_ROUND_75
 
 
+# Round 76 (iter 214) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("aeropuertos", "Aeropuertos Mexico: Grupo Aeroportuario (OMA/APA/GAP), SENEAM/AFAC, concessiones, AIFA, tarifologia, vs transporte/aviacion"))
+TAXONOMY["sustrato/estados-unidos"].append(("inmigracion", "Inmigracion EE.UU. (profundizacion): USCIS, DHS, visas (H-1B/L-1/F-1), green card, DACA, asilo, ICE/CBP, vs fronteras/seguridad-publica"))
+TAXONOMY["sustrato/canada"].append(("seguridad-nacional", "Seguridad nacional Canada (profundizacion): Public Safety Canada, CSIS, la amenaza hibrida, ciber, marco de seguridad nacional, vs seguridad-publica/defensa"))
+NEW_NODES_ROUND_76 = [
+    ("dominio/derecho-de-los-refugiados", "Derecho de los refugiados / refugee law: Convencion de 1951, ACNUR, asilo, apatridia, proteccion complementaria, vs derechos-humanos/inmigracion"),
+    ("dominio/gestion-de-la-cadena-de-frio", "Gestion de la cadena de frio / cold chain: refrigeracion, ultima milla fria, farmaceuticos/alimentos, IoT temperatura, vs logistica/almacenamiento"),
+    ("dominio/ciberseguridad-de-dispositivos-medicos", "Ciberseguridad de dispositivos medicos / medical device security: FDA premarket (SBOM, IEC 62443), postmarket, HIPAA, vs dispositivos-medicos/salud-digital"),
+    ("dominio/economia-de-la-educacion", "Economia de la educacion / economics of education: financiamiento, rendimiento, capital humano, equidad, vs educacion/educacion-corporativa"),
+    ("dominio/logistica-de-eventos", "Logistica de eventos / event logistics: MICE, movilizacion, catering, montaje, seguridad, vs eventos/servicios-profesionales"),
+    ("rol/head-of-brand-marketing", "Head of Brand Marketing: estrategia de marca aplicada al marketing, campanas de marca, posicionamiento en mercado, vs head-of-brand/chief-brand-officer"),
+    ("rol/head-of-corporate-sustainability", "Head of Corporate Sustainability: sostenibilidad corporativa integrada, descarbonizacion de operaciones, reportes ESG, vs head-of-sustainability/chief-sustainability-officer"),
+    ("rol/head-of-financial-risk", "Head of Financial Risk: riesgo de mercado/credito/liquidez, tesoreria de riesgo, limites, vs riesgo-de-credito/chief-risk-officer"),
+    ("rol/head-of-talent-development", "Head of Talent Development: L&D, sucesion, movilidad interna, academia corporativa, vs head-of-learning-development/head-of-people"),
+    ("rol/head-of-customer-experience-design", "Head of Customer Experience Design: diseno de experiencia de cliente (service/UX/CX), journey mapping, vs head-of-experience-design/head-of-customer-experience"),
+]
+NEW_NODES = NEW_NODES_ROUND_76
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):
