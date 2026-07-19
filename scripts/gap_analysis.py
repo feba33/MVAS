@@ -1355,6 +1355,25 @@ NEW_NODES_ROUND_76 = [
 NEW_NODES = NEW_NODES_ROUND_76
 
 
+# Round 77 (iter 215) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("derecho-ambiental", "Derecho ambiental Mexico (profundizacion): SEMARNAT, LGEEPA, impacto ambiental, cambio climatico, justicia ambiental, vs medio-ambiente/derecho-ambiental(dominio)"))
+TAXONOMY["sustrato/estados-unidos"].append(("seguridad-social", "Seguridad social EE.UU. (profundizacion): Social Security Administration (SSA), SSI/SSDI, Medicare/Medicaid (CMS), SSA 1935, vs seguridad-social/dominio-salud"))
+TAXONOMY["sustrato/canada"].append(("comercio-interior", "Comercio interior Canada (profundizacion): Innovation, Science and Economic Development Canada (ISED), pesos y medidas, competencia, consumidores, normas, vs comercio-exterior/consumidores"))
+NEW_NODES_ROUND_77 = [
+    ("dominio/derecho-administrativo", "Derecho administrativo / administrative law: actuacion de la administracion, procedimiento administrativo, recursos, revision judicial, responsabilidad del Estado, vs derecho-constitucional/derecho-procesal"),
+    ("dominio/inteligencia-artificial-generativa", "Inteligencia artificial generativa / generative AI: LLMs, RAG, agentes, multimodal, gobierno de modelos, copyright/entrenamiento, vs aprendizaje-automatico/ciencia-de-datos-empresarial"),
+    ("dominio/seguros-de-salud", "Seguros de salud / health insurance: seguro medico privado, managed care (HMO/PPO), pagadores, ACA/Obamacare, vs seguros-de-vida/salud"),
+    ("dominio/finanzas-descentralizadas", "Finanzas descentralizadas / DeFi: protocolos on-chain, AMM, lending/pools, stablecoins algoritmicas, yield, vs criptoactivos/blockchain-empresarial"),
+    ("dominio/gestion-de-la-experiencia-del-cliente", "Gestion de la experiencia del cliente / CX management: VOC, NPS/CSAT, journey, omnicanal, cierre de loop, vs servicio-al-cliente/customer-success"),
+    ("rol/head-of-corporate-affairs", "Head of Corporate Affairs: relaciones institucionales, public policy, asuntos gubernamentales, ciudadania corporativa, vs head-of-public-affairs/chief-communications-officer"),
+    ("rol/head-of-learning-development", "Head of Learning & Development (L&D): capacitacion, academias corporativas, upskilling/reskilling, diseno instruccional, vs head-of-talent-development/head-of-people"),
+    ("rol/head-of-revenue-operations", "Head of Revenue Operations (RevOps): alineacion ventas/marketing/CS, funnel metrics, comp planning, tech stack de ingresos, vs head-of-commercial-excellence/head-of-sales-strategy"),
+    ("rol/head-of-incident-response", "Head of Incident Response: respuesta a incidentes de seguridad, CSIRT, runbooks, crisis, post-mortem, vs head-of-platform-security/head-of-it-security"),
+    ("rol/head-of-product-marketing", "Head of Product Marketing: GTM, posicionamiento, mensaje, enablement de ventas, lanzamientos, vs product-marketing-manager/head-of-brand-marketing"),
+]
+NEW_NODES = NEW_NODES_ROUND_77
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

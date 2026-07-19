@@ -2785,3 +2785,48 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 
 ## PROXIMA TAREFA
 - Round 76 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomia (Round 77) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamerica (respetado).
+
+
+## ✅ COLA ROUND 77 — COMPLETA (10/10 páginas nuevas)
+> gap_analysis.py (iter 215) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 77 (scripts/gap_analysis.py): 3 deepenings NA (mexico/derecho-ambiental, estados-unidos/seguridad-social YA EXISTÍA como página → dedup, canada/comercio-interior) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_77). Dedup: derecho-administrativo y finanzas-descentralizadas YA existían como páginas → reemplazados por los 8 nodos nuevos reales.
+> Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/derecho-ambiental — Derecho ambiental México (LGEEPA, SEMARNAT, PROFEPA, EIA, economía circular reforma 2026)
+- [x] sustrato/canada/comercio-interior — Comercio interior Canadá (ISED, pesos y medidas, barreras interprovinciales, competencia, consumidores)
+### Dominio (nuevos nodos)
+- [x] dominio/inteligencia-artificial-generativa — IA generativa (LLMs, RAG, agentes, gobierno de modelos, copyright/entrenamiento)
+- [x] dominio/seguros-de-salud — Seguros de salud (HMO/PPO, managed care, pagadores, ACA/Medicare)
+- [x] dominio/gestion-de-la-experiencia-del-cliente — Gestión de la experiencia del cliente (CX: VoC, NPS/CSAT, journey, omnicanal)
+### Rol (nuevos nodos)
+- [x] rol/head-of-corporate-affairs — Head of Corporate Affairs (relaciones institucionales, public policy, asuntos gubernamentales)
+- [x] rol/head-of-learning-development — Head of Learning and Development (L&D: capacitación, upskilling/reskilling, diseño instruccional)
+- [x] rol/head-of-revenue-operations — Head of Revenue Operations (RevOps: alineación ventas/marketing/CS, funnel, comp planning)
+- [x] rol/head-of-incident-response — Head of Incident Response (CSIRT, runbooks, crisis, post-mortem)
+- [x] rol/head-of-product-marketing — Head of Product Marketing (GTM, posicionamiento, mensaje, enablement de ventas)
+
+### ITER 215 — Round 77 (2026-07-19)
+- gap_analysis.py (iter 215) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 77 (scripts/gap_analysis.py): 3 deepenings NA (mexico/derecho-ambiental, estados-unidos/seguridad-social YA EXISTÍA → dedup, canada/comercio-interior) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_77). Dedup: derecho-administrativo y finanzas-descentralizadas YA existían como páginas → 8 nodos nuevos reales.
+- 10 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] `sustrato/mexico/derecho-ambiental.md` (deepening): LGEEPA, SEMARNAT, PROFEPA, EIA, economía circular (reforma 2026).
+  - [sustrato] `sustrato/canada/comercio-interior.md` (deepening): ISED, pesos y medidas, barreras interprovinciales, competencia, consumidores.
+  - [dominio] `dominio/inteligencia-artificial-generativa.md`, `dominio/seguros-de-salud.md`, `dominio/gestion-de-la-experiencia-del-cliente.md` (3 nuevos nodos).
+  - [rol] `rol/head-of-corporate-affairs.md`, `rol/head-of-learning-development.md`, `rol/head-of-revenue-operations.md`, `rol/head-of-incident-response.md`, `rol/head-of-product-marketing.md` (5 nuevos nodos).
+- Reference-only (Wikipedia EN/ES + autoridades: diputados.gob.mx/LGEEPA, gob.mx/SEMARNAT, ised-isde.canada.ca, healthcare.gov, copyright.gov, NN/g, SHRM, NIST, PMM Alliance; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 CA; US seguridad-social deduped).
+- **Round 77 COMPLETA (10/10 temas).** Cola Round 77 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 78 o pausar.
+
+## INDICE DE PROGRESO (acumulado)
+| **Topicos ingeridos (acumulado): 1108** (Round 76: 1098; Round 77: 1108/10 nuevas). |
+| **Rondas:** 77 completas (Round 1..77). |
+| **Nodos sustrato (NA):** Mexico 92 (+derecho-ambiental), EE.UU. 75, Canada 69 (+comercio-interior). |
+| **Nodos dominio:** ~311 (Round 77 +3: inteligencia-artificial-generativa, seguros-de-salud, gestion-de-la-experiencia-del-cliente). |
+| **Nodos rol:** ~284 (Round 77 +5: head-of-corporate-affairs, head-of-learning-development, head-of-revenue-operations, head-of-incident-response, head-of-product-marketing). |
+| **Organizacion:** 1 (ejemplo-empresa / NovaTech). |
+| **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
+| **Iteraciones totales:** 215. |
+
+## ESTADO
+| - **Iteracion actual:** 215 (Round 77 COMPLETA — 10/10 ingestados e integrados). |
+| - **Ultima accion:** Round 77 iter 215 — gap_analysis.py (iter 215) reporto 0 huecos reales → taxonomia extendida Round 77 (3 deepenings NA + 10 nodos nuevos dominio/rol, dedup de 2 ya existentes). 10 paginas ingeridas (LOOP 1 sustrato NA x2, LOOP 2 dominio x3, LOOP 3 rol x5) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 CA; US seguridad-social deduped). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 77 COMPLETA (10/10). |
+| - **Proxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 78) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. |

@@ -2029,3 +2029,19 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-talent-development](rol/head-of-talent-development.md) — Head of Talent Development: L&D, sucesión, movilidad interna, academia corporativa · talent-development,l&d,sucesion,movilidad-interna,upskilling · 2026-07-19
 - [head-of-customer-experience-design](rol/head-of-customer-experience-design.md) — Head of Customer Experience Design: service/UX/CX, journey mapping, coherencia omnicanal · customer-experience-design,cx,service-design,ux,journey-mapping · 2026-07-19
 - [head-of-supplier-management](rol/head-of-supplier-management.md) — Head of Supplier Management: SRM, sourcing, scorecards, riesgo de proveedor · head-of-supplier-management,srm,sourcing,scorecards,riesgo-proveedor · 2026-07-18
+
+### sustrato Round 77 (deepening NA)
+- [derecho-ambiental](sustrato/mexico/derecho-ambiental.md) — Derecho ambiental México: LGEEPA, SEMARNAT, PROFEPA, EIA, economía circular · mexico,derecho-ambiental,semarnat,lgeepa,impacto-ambiental,cambio-climatico · 2026-07-19
+- [comercio-interior](sustrato/canada/comercio-interior.md) — Comercio interior Canadá: ISED, pesos y medidas, barreras interprovinciales, competencia · canada,comercio-interior,ised,pesos-y-medidas,competencia,consumidores · 2026-07-19
+
+### dominio Round 77 (nuevos)
+- [inteligencia-artificial-generativa](dominio/inteligencia-artificial-generativa.md) — IA generativa: LLMs, RAG, agentes, gobierno de modelos, copyright/entrenamiento · ia-generativa,llm,rag,agentes,gobierno-de-modelos,copyright · 2026-07-19
+- [seguros-de-salud](dominio/seguros-de-salud.md) — Seguros de salud: HMO/PPO, managed care, pagadores, ACA/Medicare · seguros-de-salud,health-insurance,managed-care,hmo,ppo,pagadores,aca · 2026-07-19
+- [gestion-de-la-experiencia-del-cliente](dominio/gestion-de-la-experiencia-del-cliente.md) — Gestión de la experiencia del cliente (CX): VoC, NPS/CSAT, journey, omnicanal · cx,experiencia-del-cliente,voc,nps,csat,journey,omnicanal · 2026-07-19
+
+### rol Round 77 (nuevos)
+- [head-of-corporate-affairs](rol/head-of-corporate-affairs.md) — Head of Corporate Affairs: relaciones institucionales, public policy, asuntos gubernamentales · corporate-affairs,relaciones-institucionales,public-policy,gobierno-relaciones · 2026-07-19
+- [head-of-learning-development](rol/head-of-learning-development.md) — Head of Learning & Development (L&D): capacitación, upskilling/reskilling, diseño instruccional · learning-development,l&d,capacitacion,upskilling,reskilling · 2026-07-19
+- [head-of-revenue-operations](rol/head-of-revenue-operations.md) — Head of Revenue Operations (RevOps): alineación ventas/marketing/CS, funnel, comp planning · revops,revenue-operations,alineacion,funnel,comp-planning · 2026-07-19
+- [head-of-incident-response](rol/head-of-incident-response.md) — Head of Incident Response: respuesta a incidentes, CSIRT, runbooks, crisis, post-mortem · incident-response,csirt,respuesta-a-incidentes,crisis,post-mortem · 2026-07-19
+- [head-of-product-marketing](rol/head-of-product-marketing.md) — Head of Product Marketing: GTM, posicionamiento, mensaje, enablement de ventas · product-marketing,gtm,posicionamiento,mensaje,enablement-de-ventas · 2026-07-19

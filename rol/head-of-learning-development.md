@@ -1,48 +1,48 @@
 ---
 titulo: Head of Learning & Development
 capa: rol
-tema: head-of-learning-development
-fuente: https://en.wikipedia.org/wiki/Corporate_university
-fuente2: https://en.wikipedia.org/wiki/Chief_learning_officer
-fecha: 2026-07-17
-confianza: media
-tags: [head-of-learning-development, l-d, capacitacion, upskilling, academia-corporativa]
+tema: recursos-humanos
+fuente: https://en.wikipedia.org/wiki/Training_and_development
+fuente2: https://www.shrm.org/topics-tools/learning-development
+fecha: 2026-07-19
+confianza: alta
+tags: [learning-development, l&d, capacitacion, upskilling, reskilling, diseno-instruccional, academia-corporativa]
 rol: [head-of-learning-development]
-actividades: [diseno-de-aprendizaje, capacitacion, upskilling]
-organizaciones: []
-responsabilidades: [liderar-l-d, disenar-plan-carrera, medir-roi-aprendizaje]
-tareas: [onboarding, certificaciones, academias]
+actividades: [capacitacion, upskilling, diseno-instruccional]
+organizaciones: [shrm, atd]
+responsabilidades: [desarrollo-del-talento, academias-corporativas, diseno-instruccional]
+tareas: [upskilling, reskilling, evaluacion-de-capacitacion]
 profundidad: 2
 estado: profundo
 ---
 
-# Head of Learning & Development
+# Head of Learning & Development (L&D)
 
-El **Head of Learning & Development (L&D)** lidera la estrategia de
-aprendizaje de la organización: cultiva el conocimiento y las competencias que
-sostienen la ventaja competitiva. Reporta típicamente al CHRO / Head of People
-o al CEO en organizaciones pequeñas. El máximo nivel es el **Chief Learning
-Officer (CLO)**.
+El **Head of Learning & Development** dirige la función de **capacitación y desarrollo**
+que mejora la efectividad de la organización y de las personas/equipos dentro de ella.
+El "training" apunta a cambios de efectividad inmediata por instrucción organizada; el
+"development" a metas de crecimiento organizacional y del empleado a más largo plazo.
 
 ## Responsabilidades
-- Diseñar la **estrategia de aprendizaje** alineada al negocio (skills gap).
-- Operar academias corporativas, universidades corporativas y rutas de
-  carrera.
-- Liderar onboarding, upskilling/reskilling y certificaciones.
-- Gobernar el presupuesto de L&D y el stack de proveedores (LMS/LXP).
-- Medir impacto: tiempo-a-competencia, retención, promoción interna, ROI.
+- **Estrategia de aprendizaje:** alinear L&D a los objetivos del negocio y a las
+  brechas de competencias (skills gaps).
+- **Upskilling / reskilling:** programas para actualizar y reentrenar fuerza laboral
+  (automatización, IA, nuevas tecnologías).
+- **Diseño instruccional:** metodologías (70-20-10, microlearning, blended, social
+  learning), objetos de aprendizaje, evaluación de transferencia.
+- **Academias corporativas / universidades corporativas:** onboarding, liderazgo,
+  trayectorias técnicas y gerenciales.
+- **Plataformas:** LMS/LXP, contenido, analítica de aprendizaje.
 
-## Habilidades
-- Instructional design, pedagogía adulta, people analytics.
-- Alfabetización en IA aplicada a aprendizaje (rutas personalizadas).
-- Influencia ejecutiva y gestión de change.
+## Reporta y se relaciona
+Reporta a **People / HR** (Head of People, CHRO). Colabora con `rol/head-of-talent-development`
+(sucesión, movilidad), `rol/head-of-talent-acquisition` y `rol/head-of-people`. Se diferencia
+de `rol/head-of-people` (estratégico total rewards/cultura) por el foco en el aprendizaje.
 
-## Tendencias 2026
-- Organizaciones basadas en competencias (skills-based).
-- Co-pilotos de aprendizaje y microlearning.
-- L&D como motor de retención y movilidad interna.
+## Métricas
+Tasa de participación, tiempo hasta competencia, retención de talento clave, impacto en
+desempeño (Kirkpatrick niveles 1-4), ROI de capacitación.
 
 ## Relación con otras capas
-- Vinculado a `dominio/educacion-corporativa`, `rol/head-of-people`,
-  `dominio/recursos-humanos`.
-- Colabora con `rol/head-of-digital-transformation` en adopción tecnológica.
+- De `dominio/recursos-humanos` y `dominio/educacion-corporativa`.
+- Vincula con `rol/head-of-talent-development`, `rol/head-of-people`, `dominio/formacion-profesional`.
