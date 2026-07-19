@@ -1374,6 +1374,25 @@ NEW_NODES_ROUND_77 = [
 NEW_NODES = NEW_NODES_ROUND_77
 
 
+# Round 78 (iter 216) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("observatorio", "Observatorio Mexico (profundizacion): INEGI (SNIEG), sistemas de informacion, cuentas nacionales, censos, datos oficiales, vs transparencia/gobierno-digital"))  # noqa
+TAXONOMY["sustrato/estados-unidos"].append(("rendicion-de-cuentas", "Rendicion de cuentas EE.UU. (profundizacion): GAO, Inspectores Generales (IG), FOIA, whistleblowing, oversight del Congreso, vs auditoria-gubernamental/contraloria"))  # noqa
+TAXONOMY["sustrato/canada"].append(("derechos-de-los-pueblos-indigenas", "Derechos de los pueblos indigenas Canada (profundizacion): tratados, duty to consult (Honour of the Crown), jurisprudencia constitucional, reconciliacion, vs pueblos-indigenas"))  # noqa
+NEW_NODES_ROUND_78 = [
+    ("dominio/derecho-constitucional", "Derecho constitucional / constitutional law: control de constitucionalidad, amparo (MX), judicial review (US), Carta de Derechos (CA), division de poderes, vs derecho-administrativo/derecho-procesal"),
+    ("dominio/derecho-procesal-civil", "Derecho procesal civil / civil procedure: demanda, jurisdiccion, medios de prueba, sentencia, apelacion, vs derecho-procesal/derecho-civil"),
+    ("dominio/seguros-de-caucion-y-credito", "Seguros de caucion y credito / surety & credit insurance: fianzas, garantias de cumplimiento, credit insurance, vs seguros-de-caucion/seguros-de-credito/seguros"),
+    ("dominio/gestion-de-la-innovacion-abierta", "Gestion de la innovacion abierta / open innovation: co-creacion externa, IP compartida, hubs, vs innovacion/emprendimiento"),
+    ("dominio/ciberseguridad-para-ot-y-ics", "Ciberseguridad OT/ICS industrial / industrial control systems security: Purdue model, ISA/IEC 62443, NERC CIP, SCADA, vs ciberseguridad-ot/ciberseguridad-industrial"),
+    ("rol/head-of-corporate-communications-mx", "Head of Corporate Communications: comunicaciones institucionales internas/externas, reputacion, relaciones con medios, portavoz, vs head-of-communications/chief-communications-officer"),
+    ("rol/head-of-customer-success-mexico", "Head of Customer Success: lidera la organizacion de CS, retencion/expansion, health scoring, vs head-of-customer-success-ops/customer-success"),
+    ("rol/head-of-partnerships-mexico", "Head of Partnerships: alianzas estrategicas, canales, co-ventures, ecosistema de socios, vs head-of-partner-success/head-of-business-development"),
+    ("rol/head-of-customer-experience", "Head of Customer Experience: estrategia CX, VoC, journey, omnicanal, cultura de cliente, vs head-of-customer-experience-design/head-of-experience-design"),
+    ("rol/head-of-talent-acquisition-mexico", "Head of Talent Acquisition: estrategia de reclutamiento, employer branding, pipeline, sourcers, vs head-of-talent-acquisition/reclutador"),
+]
+NEW_NODES = NEW_NODES_ROUND_78
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

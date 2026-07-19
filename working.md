@@ -2830,3 +2830,49 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | - **Bloqueos:** ninguno. |
 | - **Cola:** Round 77 COMPLETA (10/10). |
 | - **Proxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 78) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. |
+
+## ✅ COLA ROUND 78 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 216) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 78 (scripts/gap_analysis.py): 3 deepenings NA (mexico/observatorio, estados-unidos/rendicion-de-cuentas, canada/derechos-de-los-pueblos-indigenas) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_78). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/observatorio — Observatorio México (INEGI, SNIEG, sistemas de información, cuentas nacionales, censos, datos oficiales)
+- [x] sustrato/estados-unidos/rendicion-de-cuentas — Rendición de cuentas EE.UU. (GAO, Inspectores Generales IG, FOIA, whistleblowing, oversight)
+- [x] sustrato/canada/derechos-de-los-pueblos-indigenas — Derechos de los pueblos indígenas Canadá (s.35, duty to consult, reconciliación)
+### Dominio (nuevos nodos)
+- [x] dominio/derecho-constitucional — Derecho constitucional (control de constitucionalidad, amparo MX, judicial review US, Carta de Derechos CA)
+- [x] dominio/derecho-procesal-civil — Derecho procesal civil (demanda, jurisdicción, prueba, sentencia, apelación)
+- [x] dominio/seguros-de-caucion-y-credito — Seguros de caución y crédito (surety, fianzas, credit insurance)
+- [x] dominio/gestion-de-la-innovacion-abierta — Gestión de la innovación abierta (open innovation, IP compartida)
+- [x] dominio/ciberseguridad-para-ot-y-ics — Ciberseguridad OT/ICS industrial (Purdue, ISA/IEC 62443, NERC CIP)
+### Rol (nuevos nodos)
+- [x] rol/head-of-corporate-communications-mx — Head of Corporate Communications (reputación, media relations, crisis)
+- [x] rol/head-of-customer-success-mexico — Head of Customer Success (retención, expansión NRR/GRR, health scoring)
+- [x] rol/head-of-partnerships-mexico — Head of Partnerships (alianzas, canal, co-ventas)
+- [x] rol/head-of-customer-experience — Head of Customer Experience (VoC, journey, omnicanal, cultura de cliente)
+- [x] rol/head-of-talent-acquisition-mexico — Head of Talent Acquisition (sourcing, employer branding, selección)
+
+### ITER 216 — Round 78 (2026-07-19)
+- gap_analysis.py (iter 216) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 78 (scripts/gap_analysis.py): 3 deepenings NA (mexico/observatorio, estados-unidos/rendicion-de-cuentas, canada/derechos-de-los-pueblos-indigenas) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_78).
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] `sustrato/mexico/observatorio.md`, `sustrato/estados-unidos/rendicion-de-cuentas.md`, `sustrato/canada/derechos-de-los-pueblos-indigenas.md` (3 deepenings NA).
+  - [dominio] `dominio/derecho-constitucional.md`, `dominio/derecho-procesal-civil.md`, `dominio/seguros-de-caucion-y-credito.md`, `dominio/gestion-de-la-innovacion-abierta.md`, `dominio/ciberseguridad-para-ot-y-ics.md` (5 nuevos nodos).
+  - [rol] `rol/head-of-corporate-communications-mx.md`, `rol/head-of-customer-success-mexico.md`, `rol/head-of-partnerships-mexico.md`, `rol/head-of-customer-experience.md`, `rol/head-of-talent-acquisition-mexico.md` (5 nuevos nodos).
+- Reference-only (Wikipedia EN/ES + autoridades: inegi.org.mx, gao.gov, justice.gc.ca, law.cornell.edu, cxpa.org, SHRM; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- **NOTA:** las 13 páginas + gap_analysis.py quedaron sin commitear en la corrida anterior (index.md ya tenía la sección "rol Round 78", pero faltaban sustrato/dominio + log.md + working.md). Esta corrida (iter 216) completa la integración: añade secciones sustrato Round 78 + dominio Round 78 a index.md, añade entrada Round 78 a log.md, actualiza working.md, y commitea todo.
+- **Round 78 COMPLETA (13/13 temas).** Cola Round 78 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 79 o pausar.
+
+## INDICE DE PROGRESO (acumulado)
+| **Topicos ingeridos (acumulado): 1121** (Round 77: 1108; Round 78: 1121/13 nuevas). |
+| **Rondas:** 78 completas (Round 1..78). |
+| **Nodos sustrato (NA):** Mexico 93 (+observatorio), EE.UU. 76 (+rendicion-de-cuentas), Canada 70 (+derechos-de-los-pueblos-indigenas). |
+| **Nodos dominio:** ~316 (Round 78 +5: derecho-constitucional, derecho-procesal-civil, seguros-de-caucion-y-credito, gestion-de-la-innovacion-abierta, ciberseguridad-para-ot-y-ics). |
+| **Nodos rol:** ~289 (Round 78 +5: head-of-corporate-communications-mx, head-of-customer-success-mexico, head-of-partnerships-mexico, head-of-customer-experience, head-of-talent-acquisition-mexico). |
+| **Organizacion:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+| **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
+| **Iteraciones totales:** 216. |
+
+## ESTADO
+| - **Iteracion actual:** 216 (Round 78 COMPLETA — 13/13 ingestados e integrados). |
+| - **Ultima accion:** Round 78 iter 216 — completó integración (index.md sustrato+dominio Round 78, log.md Round 78, working.md) y commit de 13 páginas + gap_analysis.py. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 78 COMPLETA (13/13). |
+| - **Proxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 79) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. |

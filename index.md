@@ -2059,6 +2059,18 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-incident-response](rol/head-of-incident-response.md) — Head of Incident Response: respuesta a incidentes, CSIRT, runbooks, crisis, post-mortem · incident-response,csirt,respuesta-a-incidentes,crisis,post-mortem · 2026-07-19
 - [head-of-product-marketing](rol/head-of-product-marketing.md) — Head of Product Marketing: GTM, posicionamiento, mensaje, enablement de ventas · product-marketing,gtm,posicionamiento,mensaje,enablement-de-ventas · 2026-07-19
 
+### sustrato Round 78 (deepening NA)
+- [observatorio](sustrato/mexico/observatorio.md) — Observatorio de México: INEGI, SNIEG, sistemas de información, cuentas nacionales, censos, datos oficiales · mexico,estadisticas,datos-oficiales,gobierno,transparencia · 2026-07-19
+- [rendicion-de-cuentas](sustrato/estados-unidos/rendicion-de-cuentas.md) — Rendición de cuentas EE.UU.: GAO, Inspectores Generales (IG), FOIA, whistleblowing, oversight del Congreso · estados-unidos,gobierno,rendicion-de-cuentas,transparencia,oversight · 2026-07-19
+- [derechos-de-los-pueblos-indigenas](sustrato/canada/derechos-de-los-pueblos-indigenas.md) — Derechos de los pueblos indígenas Canadá: s.35, duty to consult (Honour of the Crown), jurisprudencia, reconciliación · canada,pueblos-indigenas,derechos-constitucionales,reconciliacion · 2026-07-19
+
+### dominio Round 78 (nuevos)
+- [derecho-constitucional](dominio/derecho-constitucional.md) — Derecho constitucional: control de constitucionalidad, amparo (MX), judicial review (US), Carta de Derechos (CA) · derecho,constitucional,amparo,judicial-review,division-de-poderes · 2026-07-19
+- [derecho-procesal-civil](dominio/derecho-procesal-civil.md) — Derecho procesal civil: demanda, jurisdicción, medios de prueba, sentencia, apelación · derecho,procesal,civil,litigio,procedimiento · 2026-07-19
+- [seguros-de-caucion-y-credito](dominio/seguros-de-caucion-y-credito.md) — Seguros de caución y crédito: surety, fianzas, garantías de cumplimiento, credit insurance · seguros,surety,fianzas,credit-insurance,garantias · 2026-07-19
+- [gestion-de-la-innovacion-abierta](dominio/gestion-de-la-innovacion-abierta.md) — Gestión de la innovación abierta: co-creación externa, IP compartida, hubs, ecosistemas · innovacion,open-innovation,r&d,ecosistemas,propiedad-intelectual · 2026-07-19
+- [ciberseguridad-para-ot-y-ics](dominio/ciberseguridad-para-ot-y-ics.md) — Ciberseguridad OT/ICS industrial: Purdue, ISA/IEC 62443, NERC CIP, SCADA · ciberseguridad,ot,ics,scada,isa-62443,nerc-cip,industria · 2026-07-19
+
 ### rol Round 78 (nuevos)
 - [head-of-corporate-communications-mx](rol/head-of-corporate-communications-mx.md) — Head of Corporate Communications: reputación, media relations, comunicación interna, crisis · corporate-communications,reputacion,media-relations,pr,crisis-comms · 2026-07-19
 - [head-of-customer-success-mexico](rol/head-of-customer-success-mexico.md) — Head of Customer Success: retención, expansión (NRR/GRR), health scoring, onboarding SaaS · customer-success,retencion,expansion,nrr,health-score,saas · 2026-07-19
