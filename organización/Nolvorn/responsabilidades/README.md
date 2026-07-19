@@ -31,6 +31,23 @@ Rol pasivo y de soporte definido por Fernando (2026-07-19):
 - **Bucle de conocimiento:** ingest del Drive → MVAS; propone mejoras al Drive
   pero requiere autorización antes de escribir.
 
-## Fernando Balderas (Owner)
-- Owner de Nolvorn y del Knowledge Base (véase `nolvorn_master_context_v1`).
+## Fernando Balderas (Owner / Principal & Lead Architect)
+- Owner de Nolvorn y del Knowledge Base (véase `conocimiento/master-context.md`,
+  síntesis de Master Context v1.3).
+- Principal & Lead Architect: arquitectura y final accountability en cada
+  engagement. Capacidad Nolvorn ~20 hrs/semana (THD y MBA son protected
+  commitments, nunca sacrificados).
 - Autoriza modificaciones al Drive y define el alcance de las operaciones.
+- Client relationship owner y final accountability holder en todas las cuentas;
+  los team members se vuelven client-facing gradualmente por engagement.
+
+## Equipo de delivery (rev-share)
+- Desde v1.3 Nolvorn opera como equipo de 3: Fernando + 2 miembros de delivery
+  (SRE1-level / recién egresados, AI-assisted development).
+- Compensación: project rev-share (no salariados, no equity). Sostienen 100% de
+  operación diaria y ejecución mientras Fernando construye la capa de sistema
+  (MVAS, documentación, client-experience infra).
+- Aún no client-facing; meta de que cada uno posea un proyecto end-to-end.
+- Pueden operar ahead de revenue thresholds cuando hay talento confiable (ya no
+  gated a Phase 1). Evaluación a senior rev-share partner en Phase 2 (equity-
+  adjacent, sujeto a reglas de equity-gating).

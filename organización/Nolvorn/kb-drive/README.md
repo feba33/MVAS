@@ -15,14 +15,25 @@ estado: profundo
 # kb-drive — Espejo del Shared Drive "nolvorn"
 
 Índice estructurado del Shared Drive de Nolvorn (ID `0ADXc9xJB9XxQUk9PVA`).
-NO es el contenido; es el mapa para navegar e ingerir. Snapshot de 2026-07-19.
+NO es el contenido; es el mapa para navegar e ingerir. Snapshot de 2026-07-19
+(actualizado con Master Context v1.3 + 2 docs canónicos nuevos).
 
 ## Documentos raíz
 - `README` (10ZWH8S-Zd-VaglHQMqT5EWYdNnfIrUeJd-NfDJFwtLE) — sistema PARA, styling.
-- `nolvorn_master_context_v1` (11sUtS9K1bCs89BGtNy3G_lAuyPlUPLKab7aSOIzMxWM) —
-  identidad canónica para LLM handoff.
+- `nolvorn_master_context_v1` / Master Context (11sUtS9K1bCs89BGtNy3G_lAuyPlUPLKab7aSOIzMxWM) —
+  identidad canónica para LLM handoff. **v1.3 (Jul 2026)**: equipo de 3, servicios
+  renombrados, productized offers, 3 ICPs, pricing/financing detallado, market
+  context con stats, moats, entity boundaries (Nolvorn vs Pinnd), MVAS Operating
+  Architecture. Sintetizado en `conocimiento/master-context.md`.
 - `Nolvorn Operations Tracker` (1zC-z2MgKNy-X8UvJJY-_JJCVlfCcHG8bKMIAe7tzjXY) —
   spreadsheet de operaciones.
+
+## Documentos canónicos nuevos en /Resources/Org (2026-07-19)
+- `Operating Cadence` (doc en /Resources/Org) — cliente lifecycle 13 etapas +
+  ritmo operativo recurrente. Sintetizado en `conocimiento/operating-cadence.md`.
+- `Brand System 1.0` (doc en /Resources/Org) — identidad de marca (color, typo,
+  voz). Reescrita contra MC v1.3; lleva flags [CONFIRM] vs legacy v2.0 en /___old.
+  Sintetizado en `conocimiento/brand-system.md`.
 
 ## Carpetas raíz (sistema PARA + áreas de negocio)
 - `Org` (17eojyleecMLOTPQE7ShrSRGQP0e-iNgF)

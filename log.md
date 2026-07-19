@@ -2,7 +2,19 @@
 
 Registro cronológico **append-only**: ingests, queries, lint passes.
 Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
-(parserable: `grep "^## \[" log.md | tail -5` → últimas 5 entradas).
+(parseable: `grep "^## \[" log.md | tail -5` → últimas 5 entradas).
+
+## [2026-07-19] ingest | Nolvorn — sync Drive→MVAS (Master Context v1.3 + 2 docs canónicos nuevos)
+- Fuentes: Shared Drive "nolvorn" /Resources/Org — Master Context v1.3 (804 líneas, era v1.0 truncada en ingest previo), Operating Cadence v1.0, Brand System 1.0 (todos 2026-07-19). Re-exportados a text/plain (export_media).
+- Creadas 3 páginas en `organización/Nolvorn/conocimiento/`: `master-context.md` (síntesis v1.3: equipo de 3, servicios renombrados, productized offers, 3 ICPs, pricing/financing, market context con stats, moats, entity boundaries Nolvorn vs Pinnd), `operating-cadence.md` (lifecycle 13 etapas + ritmo), `brand-system.md` (identidad; flags [CONFIRM] vs legacy v2.0 en /___old).
+- Actualizadas: `responsabilidades/README.md` (equipo de 3 rev-share, rol de Fernando, modelo senior-led team-extended), `kb-drive/README.md` (v1.3 + nuevos doc IDs), `index.md` (sub-items Nolvorn), este log.
+- Relevancia (gate): v1.3 cambia supuestos materiales (ya no solo-operador; servicios/ICPs/pricing nuevos) → ingest justificado. Styling plain/minimal respetado.
+- Solo mitad segura: NO se escribió nada en el Drive. Propuestas de mejora al Drive (ver abajo) listadas, no ejecutadas.
+- PROPUESTAS para el Drive (requieren autorización de Fernando, NO ejecutadas):
+  1. Brand System 1.0 tiene flags [CONFIRM] sin resolver vs legacy v2.0 en /___old — reconciliar secondary palette, type scale, logo variants, clearspace e imagery antes de tratarlos como finales.
+  2. Master Context dice "15+ Projects, 4 Industries" en nolvorn.com pero solo 2 use cases Nolvorn-specific documentados (AMarin + 1 sin documentar) — gap de case studies señalado como activo en el propio doc; acelerar case study production.
+  3. README del Drive lista /Resources/Org con 3 docs (Master Context, Brand System 1.0, Operating Cadence) pero el manifest del README aún no incluye Operating Cadence explícitamente en "DOCUMENT MANIFEST" — inconsistencia menor de documentación a corregir.
+  4. Master Context referencia un "MVAS Operating Architecture doc" que no existe aún en el Drive — crear o enlazar para cerrar la referencia.
 
 ## [2026-07-19] ingest | El Financiero — huachicol fiscal vinculado a Ernesto 'N' (exgober BC)
 - Creada: `sustrato/mexico/huachicol-fiscal-ernesto-n.md` (fuente web citada, no raw; profundidad 2).

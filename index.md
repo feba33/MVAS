@@ -909,6 +909,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### organización/
 - [ejemplo-empresa](organización/ejemplo-empresa/ejemplo-empresa.md) — NovaTech (SaaS ficticia): estructura, métricas · 🏷️ organizacion,empresa,ejemplo · 📅 2026-07-09
 - [nolvorn](organización/Nolvorn/README.md) — Nolvorn (software & tech partners, Tampico MX): entidad con bucle bidireccional Drive↔MVAS, Plane.so y chat Telegram · 🏷️ nolvorn,organizacion,plane,drive,para,knowledge-base · 📅 2026-07-19
+  - [master-context](organización/Nolvorn/conocimiento/master-context.md) — síntesis Master Context v1.3 (identidad, servicios, pricing, mercados, roadmap, moats, Nolvorn vs Pinnd) · 🏷️ nolvorn,master-context · 📅 2026-07-19
+  - [operating-cadence](organización/Nolvorn/conocimiento/operating-cadence.md) — cliente lifecycle 13 etapas + ritmo operativo recurrente · 🏷️ nolvorn,operating-cadence · 📅 2026-07-19
+  - [brand-system](organización/Nolvorn/conocimiento/brand-system.md) — identidad de marca (color, typo, voz; flags [CONFIRM] vs legacy v2.0) · 🏷️ nolvorn,brand-system · 📅 2026-07-19
 
 ### dominio/etica-empresarial
 - [[dominio/etica-empresarial|Ética empresarial / corporate ethics — códigos de conducta, compliance, anticorrupción, transparencia]]
