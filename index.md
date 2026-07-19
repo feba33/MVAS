@@ -2096,3 +2096,22 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-solution-engineering](rol/head-of-solution-engineering.md) — Head of Solution Engineering: pre-ventas, demos/POC, arquitectura de solución · solution-engineering,pre-ventas,demos,poc,arquitectura-de-solucion · 2026-07-19
 - [head-of-employer-branding](rol/head-of-employer-branding.md) — Head of Employer Branding: marca empleadora, EVP, atracción de talento · employer-branding,marca-empleadora,evp,atraccion-de-talento · 2026-07-19
 - [head-of-regulatory-affairs](rol/head-of-regulatory-affairs.md) — Head of Regulatory Affairs: reguladores, autorizaciones, cumplimiento normativo · regulatory-affairs,reguladores,autorizaciones,cumplimiento-normativo · 2026-07-19
+
+### sustrato Round 80 (deepening NA)
+- [artes](sustrato/mexico/artes.md) — Artes de México: muralismo, patrimonio UNESCO, INBA, mercado del arte · mexico,artes,cultura,patrimonio,economia-creativa · 2026-07-19
+- [gobierno-estatal](sustrato/estados-unidos/gobierno-estatal.md) — Gobierno estatal EE.UU.: governor, state legislatures, federalismo, Décima Enmienda · estados-unidos,federalismo,gobierno-estatal,governor,state-legislature · 2026-07-19
+- [biodiversidad](sustrato/canada/biodiversidad.md) — Biodiversidad Canadá: bosque boreal, Parks Canada, SARA, 30x30, ECCC · canada,biodiversidad,conservacion,parques-nacionales,especies · 2026-07-19
+
+### dominio Round 80 (nuevos)
+- [cinematografia](dominio/cinematografia.md) — Cinematografía: producción, distribución, streaming, incentivos fiscales, work-for-hire · cinematografia,film-industry,streaming,produccion,distribucion,economia-creativa · 2026-07-19
+- [fintech-regulatorio](dominio/fintech-regulatorio.md) — Fintech regulatorio: licencias, sandbox, e-money, open banking, CNBV/FINTRAC · fintech,regulacion,pagos,open-banking,e-money,crowdfunding,sandbox · 2026-07-19
+- [propiedad-intelectual-laboral](dominio/propiedad-intelectual-laboral.md) — Propiedad intelectual laboral: work-for-hire, invenciones de empleado, cesión IP · propiedad-intelectual,ip-laboral,work-for-hire,invenciones-empleado,derecho-laboral · 2026-07-19
+- [navieras](dominio/navieras.md) — Navieras: shipping lines, fletes, alianzas, FMC/Transport Canada · navieras,shipping-lines,container,logistica,fletes,comercio-internacional · 2026-07-19
+- [derecho-de-energia](dominio/derecho-de-energia.md) — Derecho de la energía: regulación eléctrica/hidrocarburos, licencias, PPAs, FERC/CRE · derecho-energia,regulacion-energetica,electricidad,hidrocarburos,renovables,licencias · 2026-07-19
+
+### rol Round 80 (nuevos)
+- [head-of-regional-marketing](rol/head-of-regional-marketing.md) — Head of Regional Marketing: marketing por región, localización, GTM local · regional-marketing,localizacion,go-to-market,campo · 2026-07-19
+- [head-of-commercial-operations](rol/head-of-commercial-operations.md) — Head of Commercial Operations: deal desk, pricing ops, order-to-cash comercial · commercial-operations,deal-desk,pricing-ops,sales-ops,order-to-cash · 2026-07-19
+- [head-of-applied-ai](rol/head-of-applied-ai.md) — Head of Applied AI: despliegue de modelos, MLOps aplicado, evals, embed en equipos · applied-ai,mlops,despliegue-ia,producto-ia,evals · 2026-07-19
+- [head-of-payments-risk](rol/head-of-payments-risk.md) — Head of Payments Risk: fraude de pagos, chargebacks, KYC/AML, FinCEN/FINTRAC · payments-risk,fraude-pagos,aml,kyc,chargebacks,compliance · 2026-07-19
+- [head-of-content-strategy](rol/head-of-content-strategy.md) — Head of Content Strategy: estrategia de contenidos, narrativa, SEO, editorial · content-strategy,contenidos,editorial,seo,narrativa · 2026-07-19

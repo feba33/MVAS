@@ -1412,6 +1412,25 @@ NEW_NODES_ROUND_79 = [
 NEW_NODES = NEW_NODES_ROUND_79
 
 
+# Round 80 (iter 218) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("artes", "Artes Mexico (profundizacion): industria cultural, artes visuales/escenicas, mecenazgo, CONARTE/INBA, mercado del arte, vs economia-creativa"))
+TAXONOMY["sustrato/estados-unidos"].append(("gobierno-estatal", "Gobierno estatal EE.UU. (profundizacion): state government, governor, state legislatures, federalism, vs sistema-federal/poder-legislativo"))
+TAXONOMY["sustrato/canada"].append(("biodiversidad", "Biodiversidad Canada (profundizacion): especies, parques nacionales, conservacion, ECCC/Parks Canada, vs medio-ambiente/recursos-naturales"))
+NEW_NODES_ROUND_80 = [
+    ("dominio/cinematografia", "Cinematografia / film industry: produccion, distribucion, exhibicion, estudios, streaming, incentivos fiscales, vs entretenimiento/medios-comunicacion"),
+    ("dominio/fintech-regulatorio", "Fintech regulatorio: licencias, sandbox, e-money, crowdfunding, open banking, reguladores (CNBV/FINTRAC/SEC/CFTC), vs fintech/regtech"),
+    ("dominio/propiedad-intelectual-laboral", "Propiedad intelectual laboral: titularidad de invenciones de empleados, derechos de autor work-for-hire, acuerdos de asignacion, vs propiedad-intelectual/derecho-laboral"),
+    ("dominio/navieras", "Navieras / shipping lines: container lines, fletes, alliances, port calls, FMC/Transport Canada, vs maritimo/logistica"),
+    ("dominio/derecho-de-energia", "Derecho de la energia: regulacion sector electrico/hidrocarburos, licencias, contratos de energia, renovables, vs energia/regulacion-financiera"),
+    ("rol/head-of-regional-marketing", "Head of Regional Marketing: marketing por region/pais, localizacion, campo, co-marketing, vs head-of-field-marketing/head-of-brand-marketing"),
+    ("rol/head-of-commercial-operations", "Head of Commercial Operations: deal desk, pricing ops, sales ops comercial, orden-to-cash comercial, vs head-of-revenue-operations/head-of-sales-strategy"),
+    ("rol/head-of-applied-ai", "Head of Applied AI: despliegue de modelos en producto, MLOps aplicado, evals, embed en equipos, vs head-of-ai/head-of-machine-learning"),
+    ("rol/head-of-payments-risk", "Head of Payments Risk: riesgo de fraude/pagos, chargebacks, KYC/AML en pagos, monitoring, vs head-of-fraud/head-of-payments"),
+    ("rol/head-of-content-strategy", "Head of Content Strategy: estrategia de contenidos, narrativa, editorial, SEO/content ops, vs chief-content-officer/head-of-brand-communications"),
+]
+NEW_NODES = NEW_NODES_ROUND_80
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

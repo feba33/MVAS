@@ -2906,18 +2906,48 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - **Round 79 COMPLETA (13/13 temas).** Cola Round 79 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 80 o pausar.
 
 ## INDICE DE PROGRESO (acumulado)
-| **Topicos ingeridos (acumulado): 1134** (Round 78: 1121; Round 79: 1134/13 nuevas). |
-| **Rondas:** 79 completas (Round 1..79). |
-| **Nodos sustrato (NA):** Mexico 94 (+politica-social), EE.UU. 77 (+seguridad-fronteriza), Canada 71 (+seguridad-fronteriza). |
-| **Nodos dominio:** ~321 (Round 79 +5: derecho-procesal-penal, derecho-administrativo, seguridad-de-la-informacion, gestion-de-proyectos, derecho-mercantil). |
-| **Nodos rol:** ~294 (Round 79 +5: head-of-diversity-equity-inclusion, head-of-program-management, head-of-solution-engineering, head-of-employer-branding, head-of-regulatory-affairs). |
+| **Topicos ingeridos (acumulado): 1147** (Round 79: 1134; Round 80: 1147/13 nuevas). |
+| **Rondas:** 80 completas (Round 1..80). |
+| **Nodos sustrato (NA):** Mexico 95 (+artes), EE.UU. 78 (+gobierno-estatal), Canada 72 (+biodiversidad). |
+| **Nodos dominio:** ~326 (Round 80 +5: cinematografia, fintech-regulatorio, propiedad-intelectual-laboral, navieras, derecho-de-energia). |
+| **Nodos rol:** ~299 (Round 80 +5: head-of-regional-marketing, head-of-commercial-operations, head-of-applied-ai, head-of-payments-risk, head-of-content-strategy). |
 | **Organizacion:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
-| **Iteraciones totales:** 217. |
+| **Iteraciones totales:** 218. |
 
 ## ESTADO
-| - **Iteracion actual:** 217 (Round 79 COMPLETA — 13/13 ingestados e integrados). |
-| - **Ultima accion:** Round 79 iter 217 — gap_analysis.py (0 huecos) → taxonomía extendida Round 79 (3 deepenings NA + 10 nodos nuevos). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
+| - **Iteracion actual:** 218 (Round 80 COMPLETA — 13/13 ingestados e integrados). |
+| - **Ultima accion:** Round 80 iter 218 — gap_analysis.py (0 huecos) → taxonomía extendida Round 80 (3 deepenings NA + 10 nodos nuevos). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia EN/ES + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 79 COMPLETA (13/13). |
-| - **Proxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 80) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. |
+| - **Cola:** Round 80 COMPLETA (13/13). |
+| - **Proxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 81) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. |
+
+## ✅ COLA ROUND 80 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 218) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 80 (scripts/gap_analysis.py): 3 deepenings NA (mexico/artes, estados-unidos/gobierno-estatal, canada/biodiversidad) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_80). Verificado con `ls` que ninguno de los 13 slugs ya existía. Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/artes — Artes de México (muralismo, patrimonio UNESCO, INBA/Secretaría de Cultura, mercado del arte, economía creativa)
+- [x] sustrato/estados-unidos/gobierno-estatal — Gobierno estatal EE.UU. (governor, state legislatures, federalismo, Décima Enmienda)
+- [x] sustrato/canada/biodiversidad — Biodiversidad Canadá (bosque boreal, Parks Canada, SARA, 30x30, ECCC)
+### Dominio (nuevos nodos)
+- [x] dominio/cinematografia — Cinematografía (producción, distribución, streaming, incentivos fiscales, work-for-hire)
+- [x] dominio/fintech-regulatorio — Fintech regulatorio (licencias, sandbox, e-money, open banking, CNBV/FINTRAC/SEC/CFTC)
+- [x] dominio/propiedad-intelectual-laboral — Propiedad intelectual laboral (work-for-hire, invenciones de empleado, cesión IP)
+- [x] dominio/navieras — Navieras (shipping lines, fletes, alianzas, FMC/Transport Canada)
+- [x] dominio/derecho-de-energia — Derecho de la energía (regulación eléctrica/hidrocarburos, licencias, PPAs, FERC/CRE/CNSC)
+### Rol (nuevos nodos)
+- [x] rol/head-of-regional-marketing — Head of Regional Marketing (marketing por región, localización, GTM local)
+- [x] rol/head-of-commercial-operations — Head of Commercial Operations (deal desk, pricing ops, order-to-cash comercial)
+- [x] rol/head-of-applied-ai — Head of Applied AI (despliegue de modelos, MLOps aplicado, evals)
+- [x] rol/head-of-payments-risk — Head of Payments Risk (fraude de pagos, chargebacks, KYC/AML FinCEN/FINTRAC)
+- [x] rol/head-of-content-strategy — Head of Content Strategy (estrategia de contenidos, narrativa, SEO/editorial)
+
+### ITER 218 — Round 80 (2026-07-19)
+- gap_analysis.py (iter 218) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 80 (scripts/gap_analysis.py): 3 deepenings NA (mexico/artes, estados-unidos/gobierno-estatal, canada/biodiversidad) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_80). Verificado con `ls` que los 13 slugs no existían (dedup antes de escribir).
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] `sustrato/mexico/artes.md` (deepening): muralismo, patrimonio UNESCO (35 sitios), INBA/Secretaría de Cultura, mercado del arte, economía creativa.
+  - [sustrato] `sustrato/estados-unidos/gobierno-estatal.md` (deepening): governor, state legislatures, federalismo, Décima Enmienda, home rule/Dillon's Rule.
+  - [sustrato] `sustrato/canada/biodiversidad.md` (deepening): bosque boreal, Parks Canada, SARA, 30x30, ECCC.
+  - [dominio] `dominio/cinematografia.md`, `dominio/fintech-regulatorio.md`, `dominio/propiedad-intelectual-laboral.md`, `dominio/navieras.md`, `dominio/derecho-de-energia.md` (5 nuevos nodos).
+  - [rol] `rol/head-of-regional-marketing.md`, `rol/head-of-commercial-operations.md`, `rol/head-of-applied-ai.md`, `rol/head-of-payments-risk.md`, `rol/head-of-content-strategy.md` (5 nuevos nodos).
+- Reference-only (Wikipedia EN/ES + autoridades: es.wikipedia.org/Cultura_de_México, en.wikipedia.org/State_governments/Wildlife_of_Canada/Film_industry/Financial_technology/Energy_law, cnbv.gob.mx, fmc.gov, gob.mx/sener, fincen.gov; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- **Round 80 COMPLETO (13/13 temas).** Cola Round 80 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 81 o pausar.
