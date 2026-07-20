@@ -20,7 +20,7 @@ NO es el contenido; es el mapa para navegar e ingerir. Snapshot de 2026-07-19
 
 ## Documentos raíz
 - `README` (10ZWH8S-Zd-VaglHQMqT5EWYdNnfIrUeJd-NfDJFwtLE) — sistema PARA, styling.
-- `nolvorn_master_context_v1` / Master Context (11sUtS9K1bCs89BGtNy3G_lAuyPlUPLKab7aSOIzMxWM) —
+- `nolvorn_master_context_v1` / Master Context (16Z-nVVkWN7NW-yNVaidoD3kmtMO4ZC77kPEDnqP6XnM — live canonical v1.3; NOTA: el file ID `11sUtS9K1bCs89BGtNy3G_lAuyPlUPLKab7aSOIzMxWM` es el snapshot v1.0 de 2026-06-06, obsoleto) —
   identidad canónica para LLM handoff. **v1.3 (Jul 2026)**: equipo de 3, servicios
   renombrados, productized offers, 3 ICPs, pricing/financing detallado, market
   context con stats, moats, entity boundaries (Nolvorn vs Pinnd), MVAS Operating
