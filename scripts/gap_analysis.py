@@ -1759,6 +1759,26 @@ NEW_NODES_ROUND_95 = [
 NEW_NODES = NEW_NODES_ROUND_95
 
 
+# Round 96 (iter 233) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+# Alcance sustrato: solo Norteamérica (MX/US/CA). Dominio/rol generales (agnósticos de país).
+TAXONOMY["sustrato/mexico"].append(("desarrollo-urbano", "Desarrollo urbano México (profundizacion): planeacion urbana, zonificacion, municipios, movilidad urbana, infraestructura urbana, vs vivienda/infraestructura"))
+TAXONOMY["sustrato/estados-unidos"].append(("desarrollo-urbano", "Desarrollo urbano EE.UU. (profundizacion): planeacion urbana, zonificacion (zoning), municipios, smart growth, infraestructura urbana, vs vivienda-real-estate/infraestructura"))
+TAXONOMY["sustrato/canada"].append(("desarrollo-urbano", "Desarrollo urbano Canada (profundizacion): planeacion urbana municipal/provincial, zonificacion, crecimiento inteligente, infraestructura urbana, vs vivienda/infraestructura"))
+NEW_NODES_ROUND_96 = [
+    ("dominio/canales-de-distribucion", "Canales de distribucion / distribution channels: directos/indirectos, mayoristas, retail, e-commerce, omnicanal, vs retail/comercio-electronico/logistica"),
+    ("dominio/atencion-al-cliente", "Atencion al cliente / customer service (disciplina): soporte, calidad de servicio, CSAT, canales, vs soporte/customer-success/experiencia-cliente"),
+    ("dominio/psicologia-del-consumidor", "Psicologia del consumidor / consumer psychology: toma de decisiones, sesgos, motivacion, comportamiento de compra, vs marketing/analitica-marketing"),
+    ("dominio/investigacion-de-mercado", "Investigacion de mercado / market research (disciplina): metodologia cualitativa/cuantitativa, encuestas, panel, insights, vs analitica-marketing/head-of-market-research"),
+    ("dominio/segmentacion-de-mercado", "Segmentacion de mercado / market segmentation: demografica, geografica, psicografica, conductual, nichos, vs analitica-marketing/marketing"),
+    ("dominio/gestion-de-compras", "Gestion de compras / procurement (disciplina): sourcing, negociacion con proveedores, P2P, categoria, vs cadena-suministro/operaciones"),
+    ("dominio/prevision-de-demanda", "Prevision de demanda / demand forecasting: metodos cualitativos/cuantitativos, S&OP, series de tiempo, ML forecasting, vs cadena-suministro/analitica"),
+    ("dominio/responsabilidad-social-empresarial", "Responsabilidad social empresarial / CSR: filantropia estrategica, impacto social, reporting, vs sostenibilidad/ESG/cultura-corporativa"),
+    ("rol/head-of-market-research", "Head of Market Research: lidera disciplina de investigacion de mercado, insights de cliente/mercado, metodologia, vs analitica-marketing/head-of-customer-experience"),
+    ("rol/head-of-compliance-operations", "Head of Compliance Operations: operacion del programa de cumplimiento, monitoreo, screening, capacitacion, vs compliance-officer/chief-compliance-officer"),
+]
+NEW_NODES = NEW_NODES_ROUND_96
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):
