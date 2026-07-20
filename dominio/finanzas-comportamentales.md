@@ -1,29 +1,29 @@
 ---
-titulo: Finanzas comportamentales
+titulo: Finanzas comportamentales / Behavioral Finance
 capa: dominio
 tema: finanzas-comportamentales
-fuente: https://en.wikipedia.org/wiki/Behavioral_finance
-fuente2: https://en.wikipedia.org/wiki/Behavioral_economics
-fecha: 2026-07-19
+fuente: https://en.wikipedia.org/wiki/Behavioral_economics
+fuente2: https://en.wikipedia.org/wiki/Prospect_theory
+fecha: 2026-07-20
 confianza: alta
-tags: [finanzas-comportamentales, behavioral-finance, sesgos, prospect-theory, mercados]
+tags: [finanzas-comportamentales, behavioral-finance, sesgos, prospect-theory, heuristicas, economia-comportamental]
+profundidad: 3
+estado: profundo
 ---
 
-# Finanzas comportamentales (Behavioral Finance)
+# Finanzas comportamentales / Behavioral Finance
 
-## Definición
-Rama de las finanzas que incorpora la psicología para explicar por qué los mercados y los inversores se desvían de la racionalidad postulada por la teoría clásica (Hipótesis de Mercados Eficientes, CAPM).
+La **finanza comportamental** aplica la economía conductual al mercado: estudia cómo factores psicológicos hacen que individuos e instituciones se desvíen de las decisiones que implicaría la teoría económica tradicional (agente racional, maximizador de utilidad).
 
-## Fundamentos
-- **Prospect Theory** (Kahneman & Tversky, 1979): pérdidas pesan más que gananas (aversión a la pérdida); funciones de valor con curvature; marco de referencia.
-- **Sesgos cognitivos**: sobreconfianza, heurística de representatividad/disponibilidad, aversión a la pérdida, *mental accounting*, efecto de anclaje, *herding* (manada).
+## Pilares
+- **Heurísticas y sesgos**: anclaje, exceso de confianza, aversión a la pérdida, sesgo de confirmación, efecto de disposición (vender ganadores y guardar perdedores).
+- **Prospect theory (Kahneman–Tversky)**: las personas evalúan ganancias/pérdidas respecto a un punto de referencia y son más sensibles a las pérdidas (aversión a la pérdida); la función de valor es convexa en pérdidas y cóncava en ganancias.
+- **Burbujas y manadas**: sobre-reacción, momentum, contagio, narrativas (Kindleberger/Shiller).
+- **Market anomalies**: prima de equidad, efecto tamaño/valor, reversión a la media.
 
 ## Aplicaciones
-Explicación de **burbujas y crashes**, momentum, reversión a la media, prima de equidad, y anomalías (valor vs crecimiento, enero). En gestión de activos: *behavioral portfolio theory*, *nudges* para ahorro (auto-enrolamiento).
+Gestión de activos (behavioral alpha), diseño de productos (nudges de ahorro), regulación de conducta, comportamiento de retails en cripto y trading. Conecta con [dominio/economia-comportamental] y [dominio/riesgo-financiero]; contrapeso de la teoría de carteras clásica ([dominio/finanzas-cuantitativas]).
 
-## Diferenciación
-Es la vertiente financiera de `dominio/economia-comportamental` (que aborda consumo/decisiones generales) y complementa `dominio/riesgo-financiero` (riesgo conductual de mercado). Premios Nobel: Kahneman (2002), Thaler (2017).
-
-## Referencias
-- Kahneman & Tversky (1979) Prospect Theory; Thaler (2015) Misbehaving.
-- Wikipedia: Behavioral finance; Behavioral economics.
+## Relaciones
+- Base teórica: [dominio/economia-comportamental].
+- Rol analista/inversión: [rol/head-of-investment-strategy].

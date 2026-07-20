@@ -1623,6 +1623,36 @@ NEW_NODES_ROUND_89 = [
 NEW_NODES = NEW_NODES_ROUND_89
 
 
+# Round 90 (iter 227) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+# Alcance sustrato: solo Norteamérica (MX/US/CA). Dominio/rol generales (agnósticos de país).
+TAXONOMY["sustrato/mexico"].append(("regulacion-financiera", "Regulacion financiera Mexico (profundizacion): CNBV, Banxico, CONDUSSEF, banca/valores/seguros, conducta, resolucion, vs sistema-financiero/finanzas-publicas"))
+TAXONOMY["sustrato/estados-unidos"].append(("politica-de-inmigracion", "Politica de inmigracion EE.UU. (profundizacion): USCIS, DHS, visas, green card, DACA, reforma, vs inmigracion/fronteras"))
+TAXONOMY["sustrato/canada"].append(("politica-de-vivienda", "Politica de vivienda Canada (profundizacion): CMHC, Estrategia Nacional de Vivienda, asequibilidad, zonificacion, vs vivienda/infraestructura"))
+NEW_NODES_ROUND_90 = [
+    ("dominio/editorial", "Editorial / publishing industry: libros, prensa, revistas, edtech editorial, derechos, mercado global; vs medios-comunicacion/periodismo"),
+    ("dominio/finanzas-comportamentales", "Finanzas comportamentales / behavioral finance (profundizacion): sesgos cognitivos en mercados, burbujas, prospect theory, heurísticas, vs economia-comportamental/riesgo-financiero"),
+    ("dominio/biotecnologia-industrial", "Biotecnologia industrial / industrial biotech: biomasa, bioplasticos, biocombustibles, enzimas, fermentation industrial, vs biotecnologia/quimica"),
+    ("dominio/servicios-juridicos", "Servicios juridicos / legal services: bufetes, firmas, modelo de entrega, billing, LPO (legal process outsourcing), vs juridico/legaltech"),
+    ("dominio/auditoria-de-sistemas", "Auditoria de sistemas / IT audit: COBIT, controles TI, seguridad de la informacion auditada, vs auditoria/auditoria-interna/gobierno-de-ti"),
+    ("dominio/logistica-farmaceutica", "Logistica farmaceutica / pharma supply chain: cadena de frio, trazabilidad, GDP, distribucion de medicamentos, vs logistica/seguros-agricolas/farmaceutica"),
+    ("dominio/telecomunicaciones-satelital", "Telecomunicaciones satelital / satellite communications: banda ancha LEO (Starlink), VSAT, móvil satelital, regulacion orbital (ITU/FCC), vs satelites/telecomunicaciones"),
+    ("dominio/regulacion-de-energia", "Regulacion de energia / energy regulation: mercados electricos, tarifas, reguladores (CRE/FERC/ANEEL-CA), renovables, vs energia/derecho-de-energia"),
+    ("dominio/defensa-antidumping", "Defensa antidumping / trade remedies: medidas antidumping, compensatorias (countervailing), salvaguardias, OMC, vs derecho-de-la-competencia-internacional/politica-comercial"),
+    ("dominio/seguros-parametricos", "Seguros parametricos / parametric insurance: indemnizacion por parametro (clima/cat), indexados, IoT, vs seguros/seguros-agricolas/riesgo-de-credito"),
+    ("rol/head-of-editorial", "Head of Editorial: lidera la funcion editorial (libros/medios/contenido), estrategia de contenido, autores, vs chief-content-officer/editorial(dominio)"),
+    ("rol/head-of-regulatory-strategy", "Head of Regulatory Strategy: estrategia regulatoria anticipada, mapa de riesgo normativo, relacion con reguladores, vs head-of-regulatory/head-of-public-policy"),
+    ("rol/head-of-clinical-data", "Head of Clinical Data: datos de ensayos clinicos, EDC, calidad de datos, estadistica clinica, vs head-of-clinical-operations/head-of-medical-affairs"),
+    ("rol/head-of-supply-chain-resilience", "Head of Supply Chain Resilience: continuidad, dual-sourcing, riesgo de cadena, nearshoring, vs head-of-supply-chain/head-of-manufacturing"),
+    ("rol/head-of-credit-operations", "Head of Credit Operations: operacion de credito, onboarding de credito, cobranza operativa, sistemas de credito, vs head-of-credit/head-of-fraud"),
+    ("rol/head-of-brand-ops", "Head of Brand Operations: operacion de marca, brand guidelines, activos, consistencia de marca, vs head-of-brand/head-of-brand-communications"),
+    ("rol/head-of-engineering-productivity", "Head of Engineering Productivity (profundizacion): developer productivity, DORA metrics, tooling interno, vs head-of-platform-engineering/head-of-engineering-excellence"),
+    ("rol/head-of-customer-lifecycle-ops", "Head of Customer Lifecycle Operations: operacion de lifecycle (onboarding/retention/churn), automatizacion, vs head-of-customer-lifecycle/customer-success-ops"),
+    ("rol/head-of-ai-safety", "Head of AI Safety: safety de modelos, red-teaming, alignment, evals de seguridad, vs chief-ai-officer/gobernanza-etica-ia"),
+    ("rol/head-of-investment-strategy", "Head of Investment Strategy: estrategia de inversion, asset allocation, research de mercado, vs chief-investment-officer/portfolio-manager"),
+]
+NEW_NODES = NEW_NODES_ROUND_90
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

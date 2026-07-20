@@ -1,42 +1,31 @@
 ---
 titulo: Head of Engineering Productivity
 capa: rol
-tema: tecnologia
-fuente: https://en.wikipedia.org/wiki/Software_development
-fuente2: https://cloud.google.com/devops/state-of-devops
-fecha: 2026-07-18
+tema: head-of-engineering-productivity
+fuente: https://en.wikipedia.org/wiki/Information_technology_audit
+fecha: 2026-07-20
 confianza: media
-tags: [head-of-engineering-productivity, developer-productivity, dora-metrics, devtooling, devex, plataforma-interna]
+tags: [head-of-engineering-productivity, developer-productivity, dora-metrics, tooling-interno, devex]
 rol: [head-of-engineering-productivity]
-actividades: [medir-productividad, construir-tooling, mejorar-devops, reducir-friccion]
-organizaciones: []
-responsabilidades: [velocidad-y-estabilidad, devtooling, adopcion-de-metricas, experiencia-desarrollador]
-tareas: [dora-metrics, tooling, devex]
-profundidad: 2
+actividades: [developer-productivity, tooling-interno, plataforma-de-desarrollo]
+responsabilidades: [velocidad-de-entrega, experiencia-del-desarrollador, estandares]
+profundidad: 3
 estado: profundo
 ---
 
 # Head of Engineering Productivity
 
-El **Head of Engineering Productivity** lidera la productividad de los equipos de ingeniería: mide, elimina fricción y provee el *tooling* interno que acelera la entrega de software sin sacrificar calidad. Es una función de plataforma orientada a desarrolladores (Developer Experience / DevEx).
+El **Head of Engineering Productivity** lidera la productividad de los desarrolladores: tooling interno, plataformas de dev, métricas (DORA) y experiencia del desarrollador (DevEx).
 
-## Responsabilidades clave
-- Definir y trackear **métricas DORA** (deployment frequency, lead time, change failure rate, MTTR) como señales de velocidad y estabilidad.
-- Construir/operar **tooling interno**: CI/CD, pipelines, scaffolding, feature flags, observabilidade.
-- Reducir fricción en el *inner loop* (build, test, dev environment) y *outer loop* (release).
-- Promover cultura de calidad y mejora continua (DevOps/CI).
+## Responsabilidades
+- **Tooling interno**: CI/CD, scaffolds, observabilidad de dev, IDP (internal developer platform).
+- **Métricas**: DORA (deployment frequency, lead time, MTTR, change fail rate), flow.
+- **DevEx**: reducir fricción, estándares, plataforma self-service.
+- **Calidad**: shift-left, pruebas, deuda técnica.
 
 ## Diferenciación
-- vs `head-of-platform-engineering`: plataforma entrega *golden paths* (producto interno); productivity mide y optimiza el flujo end-to-end.
-- vs `head-of-engineering-excellence`: excellence enfatiza estándares/calidad técnica; productivity enfatiza *throughput* y DevEx.
+Complementa a [rol/head-of-platform-engineering] (plataforma infra) y a [rol/head-of-engineering-excellence] (calidad/estándares). Converge con [dominio/devops] y [dominio/ingenieria-de-software].
 
-## Habilidades
-Ingeniería de plataforma, analítica, observabilidad, change management, empatía con desarrolladores.
-
-## Relación con otras capas
-- Nutre `dominio/devops`, `dominio/arquitectura-empresarial`.
-- Reporta a `head-of-engineering` / `cto`.
-
-## Fuentes
-- Wikipedia: Software development (ciclo, procesos).
-- DORA / State of DevOps (métricas de entrega).
+## Relaciones
+- Pares: [rol/head-of-platform-engineering], [rol/head-of-engineering-excellence].
+- Dominio: [dominio/devops].

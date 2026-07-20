@@ -3206,3 +3206,46 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
 | **Iteraciones totales:** 226. |
+
+## ✅ COLA ROUND 90 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 226→227) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 90 (scripts/gap_analysis.py): 3 deepenings NA (mexico/regulacion-financiera, estados-unidos/politica-de-inmigracion, canada/politica-de-vivienda) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_90). Los 13 slugs verificados como NO existentes (0 duplicados). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/regulacion-financiera — Regulación financiera México (CNBV, Banxico, CONDUSEF, banca/valores/seguros, conducta)
+- [x] sustrato/estados-unidos/politica-de-inmigracion — Política de inmigración EE.UU. (USCIS, DHS, visas, green card, DACA 2025–26)
+- [x] sustrato/canada/politica-de-vivienda — Política de vivienda Canadá (CMHC, Estrategia Nacional de Vivienda, asequibilidad)
+### Dominio (nuevos nodos)
+- [x] dominio/editorial — Editorial / publishing (libros, prensa, revistas, edtech, derechos)
+- [x] dominio/finanzas-comportamentales — Finanzas comportamentales (sesgos, prospect theory, heurísticas)
+- [x] dominio/biotecnologia-industrial — Biotecnología industrial (bioplásticos, biocombustibles, enzimas)
+- [x] dominio/servicios-juridicos — Servicios jurídicos (bufetes, firmas, billing, LPO)
+- [x] dominio/auditoria-de-sistemas — Auditoría de sistemas / IT audit (COBIT, controles TI)
+- [x] dominio/logistica-farmaceutica — Logística farmacéutica (cadena de frío, GDP, trazabilidad)
+- [x] dominio/telecomunicaciones-satelital — Telecomunicaciones satelital (LEO/Starlink, VSAT, ITU/FCC)
+- [x] dominio/regulacion-de-energia — Regulación de energía (mercados eléctricos, CRE/FERC)
+- [x] dominio/defensa-antidumping — Defensa antidumping (AD/CVD, salvaguardias, OMC)
+- [x] dominio/seguros-parametricos — Seguros paramétricos (trigger, clima/cat, CCRIF, Quintana Roo)
+### Rol (nuevos nodos)
+- [x] rol/head-of-editorial — Head of Editorial (estrategia editorial, portafolio, autores)
+- [x] rol/head-of-regulatory-strategy — Head of Regulatory Strategy (riesgo normativo, anticipación)
+- [x] rol/head-of-clinical-data — Head of Clinical Data (EDC, calidad de datos, estadística)
+- [x] rol/head-of-supply-chain-resilience — Head of Supply Chain Resilience (dual-sourcing, nearshoring)
+- [x] rol/head-of-credit-operations — Head of Credit Operations (onboarding, cobranza, sistemas)
+- [x] rol/head-of-brand-ops — Head of Brand Operations (lineamientos, activos, consistencia)
+- [x] rol/head-of-engineering-productivity — Head of Engineering Productivity (DevEx, tooling, DORA)
+- [x] rol/head-of-customer-lifecycle-ops — Head of Customer Lifecycle Operations (onboarding, retención, churn)
+- [x] rol/head-of-ai-safety — Head of AI Safety (red-teaming, alignment, evals)
+- [x] rol/head-of-investment-strategy — Head of Investment Strategy (asset allocation, research, portafolio)
+
+### ITER 227 — Round 90 (2026-07-20)
+- gap_analysis.py (iter 226→227) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 90 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_90). Los 13 slugs verificados como NO existentes (0 duplicados finales).
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] sustrato/mexico/regulacion-financiera.md, sustrato/estados-unidos/politica-de-inmigracion.md, sustrato/canada/politica-de-vivienda.md (3 deepenings NA).
+  - [dominio] editorial, finanzas-comportamentales, biotecnologia-industrial, servicios-juridicos, auditoria-de-sistemas, logistica-farmaceutica, telecomunicaciones-satelital, regulacion-de-energia, defensa-antidumping, seguros-parametricos (10 nuevos).
+  - [rol] head-of-editorial, head-of-regulatory-strategy, head-of-clinical-data, head-of-supply-chain-resilience, head-of-credit-operations, head-of-brand-ops, head-of-engineering-productivity, head-of-customer-lifecycle-ops, head-of-ai-safety, head-of-investment-strategy (10 nuevos).
+- Reference-only: Wikipedia (EN/ES) + autoridades sectoriales (Banxico/CNBV, USCIS/NILC, CMHC, ITU/FCC, OMC, COBIT/ISACA). Sin raw/.
+- ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- Bloqueos: ninguno.
+- COLA: Round 90 COMPLETA (13/13).
+
+## PROXIMA TAREFA
+- Round 90 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 91) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado).

@@ -2295,3 +2295,32 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-commercial-growth](rol/head-of-commercial-growth.md) — Head of Commercial Growth: crecimiento comercial, nuevos mercados, GTM · commercial-growth,crecimiento-revenue,gtm,expansion · 2026-07-20
 - [head-of-legal-counsel](rol/head-of-legal-counsel.md) — Head of Legal Counsel: liderazgo legal in-house, litigios, contratos, gobernanza · legal-counsel,litigios,contratos,gobernanza-legal · 2026-07-20
 - [head-of-security-architecture](rol/head-of-security-architecture.md) — Head of Security Architecture: arquitectura de seguridad, threat modeling, zero trust · security-architecture,threat-modeling,zero-trust,blueprint · 2026-07-20
+
+### sustrato Round 90 (deepening NA)
+- [regulacion-financiera](sustrato/mexico/regulacion-financiera.md) — Regulación financiera México: CNBV, Banxico, CONDUSEF, banca/valores/seguros, conducta · mexico,regulacion-financiera,cnbv,banxico,condusef · 2026-07-20
+- [politica-de-inmigracion](sustrato/estados-unidos/politica-de-inmigracion.md) — Política de inmigración EE.UU.: USCIS, DHS, visas, DACA, reforma · estados-unidos,inmigracion,uscis,dhs,daca · 2026-07-20
+- [politica-de-vivienda](sustrato/canada/politica-de-vivienda.md) — Política de vivienda Canadá: CMHC, Estrategia Nacional de Vivienda, asequibilidad, zonificación · canada,vivienda,cmhc,politica-habitacional · 2026-07-20
+
+### dominio Round 90 (nuevos)
+- [editorial](dominio/editorial.md) — Editorial / publishing: libros, prensa, revistas, edtech, derechos · editorial,publishing,libros,medios,derechos · 2026-07-20
+- [finanzas-comportamentales](dominio/finanzas-comportamentales.md) — Finanzas comportamentales: sesgos, prospect theory, heurísticas, burbujas · finanzas-comportamentales,behavioral-finance,sesgos,prospect-theory · 2026-07-20
+- [biotecnologia-industrial](dominio/biotecnologia-industrial.md) — Biotecnología industrial: bioplásticos, biocombustibles, enzimas, fermentación · biotecnologia-industrial,bioplasticos,biocombustibles,enzimas · 2026-07-20
+- [servicios-juridicos](dominio/servicios-juridicos.md) — Servicios jurídicos: bufetes, firmas, billing, LPO, in-house · servicios-juridicos,legal-services,bufetes,lpo · 2026-07-20
+- [auditoria-de-sistemas](dominio/auditoria-de-sistemas.md) — Auditoría de sistemas / IT audit: COBIT, controles TI, integridad · auditoria-de-sistemas,it-audit,cobit,controles-ti · 2026-07-20
+- [logistica-farmaceutica](dominio/logistica-farmaceutica.md) — Logística farmacéutica: cadena de frío, GDP, trazabilidad, distribución · logistica-farmaceutica,cadena-frio,gdp,trazabilidad · 2026-07-20
+- [telecomunicaciones-satelital](dominio/telecomunicaciones-satelital.md) — Telecomunicaciones satelital: LEO/Starlink, VSAT, regulación orbital ITU · telecomunicaciones-satelital,satellite,leo,starlink,itu · 2026-07-20
+- [regulacion-de-energia](dominio/regulacion-de-energia.md) — Regulación de energía: mercados eléctricos, tarifas, CRE/FERC · regulacion-de-energia,mercados-electricos,cre,ferc · 2026-07-20
+- [defensa-antidumping](dominio/defensa-antidumping.md) — Defensa antidumping: AD/CVD, salvaguardias, OMC · defensa-antidumping,anti-dumping,countervailing,omc · 2026-07-20
+- [seguros-parametricos](dominio/seguros-parametricos.md) — Seguros paramétricos: indemnización por trigger, clima/cat, CCRIF · seguros-parametricos,parametric,clima,catastrofe · 2026-07-20
+
+### rol Round 90 (nuevos)
+- [head-of-editorial](rol/head-of-editorial.md) — Head of Editorial: estrategia editorial, portafolio, autores · head-of-editorial,editorial,contenido · 2026-07-20
+- [head-of-regulatory-strategy](rol/head-of-regulatory-strategy.md) — Head of Regulatory Strategy: mapa de riesgo normativo, anticipación · head-of-regulatory-strategy,riesgo-normativo,reguladores · 2026-07-20
+- [head-of-clinical-data](rol/head-of-clinical-data.md) — Head of Clinical Data: EDC, calidad de datos, estadística clínica · head-of-clinical-data,edc,datos-clinicos · 2026-07-20
+- [head-of-supply-chain-resilience](rol/head-of-supply-chain-resilience.md) — Head of Supply Chain Resilience: dual-sourcing, nearshoring, continuidad · head-of-supply-chain-resilience,resiliencia,dual-sourcing · 2026-07-20
+- [head-of-credit-operations](rol/head-of-credit-operations.md) — Head of Credit Operations: onboarding, cobranza, sistemas de crédito · head-of-credit-operations,onboarding,cobranza · 2026-07-20
+- [head-of-brand-ops](rol/head-of-brand-ops.md) — Head of Brand Operations: lineamientos, activos, consistencia de marca · head-of-brand-ops,brand-ops,gobernanza-marca · 2026-07-20
+- [head-of-engineering-productivity](rol/head-of-engineering-productivity.md) — Head of Engineering Productivity: DevEx, tooling, DORA · head-of-engineering-productivity,devex,dora,tooling · 2026-07-20
+- [head-of-customer-lifecycle-ops](rol/head-of-customer-lifecycle-ops.md) — Head of Customer Lifecycle Operations: onboarding, retención, churn · head-of-customer-lifecycle-ops,lifecycle,retencion,churn · 2026-07-20
+- [head-of-ai-safety](rol/head-of-ai-safety.md) — Head of AI Safety: red-teaming, alignment, evals de seguridad · head-of-ai-safety,ai-safety,red-teaming,alignment · 2026-07-20
+- [head-of-investment-strategy](rol/head-of-investment-strategy.md) — Head of Investment Strategy: asset allocation, research, portafolio · head-of-investment-strategy,asset-allocation,portafolio · 2026-07-20
