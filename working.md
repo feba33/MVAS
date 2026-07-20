@@ -3490,3 +3490,50 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 
 ## PROXIMA TAREFA
 - Round 95 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 96) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamerica (respetado).
+
+## ✅ COLA ROUND 96 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 232→233) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 96 (scripts/gap_analysis.py): 3 deepenings NA (mexico/estados-unidos/canada → desarrollo-urbano) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_96). Dedup con node_exists: seguridad-y-salud-ocupacional, cadena-de-valor, comunicacion-corporativa y derecho-del-consumidor ya existían (subdirectorios legacy) → reemplazados por canales-de-distribucion, atencion-al-cliente, psicologia-del-consumidor e investigacion-de-mercado. 13 slugs finales verificados NO existentes (0 duplicados). Alcance sustrato: solo Norteamérica (1 MX + 1 US + 1 CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/desarrollo-urbano — Desarrollo urbano México (SEDATU, LGAH, municipios, zonificación)
+- [x] sustrato/estados-unidos/desarrollo-urbano — Desarrollo urbano EE.UU. (zoning local, EPA Smart Growth, comprehensive plans)
+- [x] sustrato/canada/desarrollo-urbano — Desarrollo urbano Canadá (Planning Acts, official plans, crecimiento inteligente)
+### Dominio (nuevos nodos)
+- [x] dominio/canales-de-distribucion — Canales de distribución (directo/indirecto, retail, e-commerce, omnicanal)
+- [x] dominio/atencion-al-cliente — Atención al cliente (soporte, CSAT/NPS, self-service)
+- [x] dominio/psicologia-del-consumidor — Psicología del consumidor (decisiones, sesgos, motivación)
+- [x] dominio/investigacion-de-mercado — Investigación de mercado (cuali/cuanti, encuestas, focus groups)
+- [x] dominio/segmentacion-de-mercado — Segmentación de mercado (geográfica/demográfica/psicográfica/conductual, STP)
+- [x] dominio/gestion-de-compras — Gestión de compras (sourcing, P2P, categorías, e-procurement)
+- [x] dominio/prevision-de-demanda — Previsión de demanda (series de tiempo, causal, ML, S&OP)
+- [x] dominio/responsabilidad-social-empresarial — RSE/CSR (filantropía estratégica, ISO 26000, ESG)
+### Rol (nuevos nodos)
+- [x] rol/head-of-market-research — Head of Market Research (motor de insights, metodología cuali/cuanti)
+- [x] rol/head-of-compliance-operations — Head of Compliance Operations (monitoreo, screening, capacitación, reporte)
+
+### ITER 233 — Round 96 (2026-07-20)
+- gap_analysis.py (iter 232→233) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 96 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_96). Dedup con node_exists: 4 slugs de la propuesta inicial ya existían (seguridad-y-salud-ocupacional, cadena-de-valor, comunicacion-corporativa, derecho-del-consumidor en subdirectorios legacy) → reemplazados. 13 slugs finales verificados NO existentes (0 duplicados).
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md root + log.md root; reference-only, sin raw/):
+  - [sustrato] sustrato/mexico/desarrollo-urbano.md, sustrato/estados-unidos/desarrollo-urbano.md, sustrato/canada/desarrollo-urbano.md (3 deepenings NA).
+  - [dominio] canales-de-distribucion, atencion-al-cliente, psicologia-del-consumidor, investigacion-de-mercado, segmentacion-de-mercado, gestion-de-compras, prevision-de-demanda, responsabilidad-social-empresarial (8 nuevos nodos).
+  - [rol] head-of-market-research, head-of-compliance-operations (2 nuevos nodos).
+- Reference-only (Wikipedia EN + autoridades: gob.mx/SEDATU + ONU-Habitat (MX), EPA + APA (US), Wikipedia EN (dominio/rol y Canadá); sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA).
+- **Round 96 COMPLETA (13/13 temas).** Cola Round 96 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 97) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar.
+
+## ÍNDICE DE PROGRESO (acumulado)
+| **Tópicos ingeridos (acumulado): 1338** (Round 95: 1325; Round 96: 1338 / 13 nuevas). |
+| **Rondas:** 96 completas (Round 1..96). |
+| **Nodos sustrato (NA):** México 106 (+desarrollo-urbano), EE.UU. 87 (+desarrollo-urbano), Canadá 82 (+desarrollo-urbano). |
+| **Nodos dominio:** 407 (Round 96 +8: canales-de-distribucion, atencion-al-cliente, psicologia-del-consumidor, investigacion-de-mercado, segmentacion-de-mercado, gestion-de-compras, prevision-de-demanda, responsabilidad-social-empresarial). |
+| **Nodos rol:** 344 (Round 96 +2: head-of-market-research, head-of-compliance-operations). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+| **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
+| **Iteraciones totales:** 233. |
+
+## ESTADO
+| - **Iteracion actual:** 233 (Round 96 COMPLETA — 13/13 ingestados e integrados). |
+| - **Ultima accion:** Round 96 iter 233 — gap_analysis.py (0 huecos) → taxonomia extendida Round 96 (3 deepenings NA desarrollo-urbano MX/US/CA + 10 nodos nuevos dominio/rol). Dedup de 4 duplicados resuelto (seguridad-y-salud-ocupacional, cadena-de-valor, comunicacion-corporativa, derecho-del-consumidor ya existian en subdirectorios). 13 paginas ingeridas (3 sustrato NA + 8 dominio + 2 rol) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 96 COMPLETA (13/13). |
+
+## PROXIMA TAREFA
+- Round 96 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 97) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamerica (respetado).

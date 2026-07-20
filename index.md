@@ -2439,3 +2439,22 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol Round 95 (nuevos)
 - [head-of-treasury-operations](rol/head-of-treasury-operations.md) — Head of Treasury Operations: cash, pagos, FX, liquidez · treasury,cash-management,pagos,fx · 2026-07-20
 - [head-of-vulnerability-management](rol/head-of-vulnerability-management.md) — Head of Vulnerability Management: CVSS/EPSS, remediation · vulnerability,cvss,epss,remediation · 2026-07-20
+
+### sustrato Round 96 (deepening NA)
+- [desarrollo-urbano](sustrato/mexico/desarrollo-urbano.md) — Desarrollo urbano México: SEDATU, LGAH, municipios, zonificación, planes urbanos · mexico,desarrollo-urbano,sedatu,zonificacion,planeacion-urbana · 2026-07-20
+- [desarrollo-urbano](sustrato/estados-unidos/desarrollo-urbano.md) — Desarrollo urbano EE.UU.: zoning local, Smart Growth (EPA), comprehensive plans, TOD · estados-unidos,desarrollo-urbano,zoning,smart-growth · 2026-07-20
+- [desarrollo-urbano](sustrato/canada/desarrollo-urbano.md) — Desarrollo urbano Canadá: Planning Acts provinciales, official plans, crecimiento inteligente · canada,desarrollo-urbano,zonificacion,crecimiento-inteligente · 2026-07-20
+
+### dominio Round 96 (nuevos)
+- [canales-de-distribucion](dominio/canales-de-distribucion.md) — Canales de distribución: directo/indirecto, retail, e-commerce, omnicanal · canales-de-distribucion,distribucion,retail,e-commerce · 2026-07-20
+- [atencion-al-cliente](dominio/atencion-al-cliente.md) — Atención al cliente: soporte, CSAT/NPS, canales, vs customer success · atencion-al-cliente,customer-service,csat,nps · 2026-07-20
+- [psicologia-del-consumidor](dominio/psicologia-del-consumidor.md) — Psicología del consumidor: decisiones, sesgos, motivación · psicologia-del-consumidor,consumer-psychology,sesgos · 2026-07-20
+- [investigacion-de-mercado](dominio/investigacion-de-mercado.md) — Investigación de mercado: métodos cuali/cuanti, encuestas, focus groups · investigacion-de-mercado,market-research,metodologia · 2026-07-20
+- [segmentacion-de-mercado](dominio/segmentacion-de-mercado.md) — Segmentación de mercado: geográfica/demográfica/psicográfica/conductual, STP · segmentacion-de-mercado,market-segmentation,stp · 2026-07-20
+- [gestion-de-compras](dominio/gestion-de-compras.md) — Gestión de compras: sourcing, P2P, categorías, e-procurement · gestion-de-compras,procurement,sourcing,p2p · 2026-07-20
+- [prevision-de-demanda](dominio/prevision-de-demanda.md) — Previsión de demanda: series de tiempo, causal, ML, S&OP · prevision-de-demanda,demand-forecasting,s&op,arima · 2026-07-20
+- [responsabilidad-social-empresarial](dominio/responsabilidad-social-empresarial.md) — RSE/CSR: filantropía estratégica, ISO 26000, ESG · responsabilidad-social-empresarial,csr,esg · 2026-07-20
+
+### rol Round 96 (nuevos)
+- [head-of-market-research](rol/head-of-market-research.md) — Head of Market Research: motor de insights, metodología cuali/cuanti · head-of-market-research,market-research,insights · 2026-07-20
+- [head-of-compliance-operations](rol/head-of-compliance-operations.md) — Head of Compliance Operations: monitoreo, screening, capacitación, reporte · head-of-compliance-operations,compliance-operations,monitoreo · 2026-07-20

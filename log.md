@@ -1,5 +1,13 @@
 # Registro de actividad (log.md)
 
+## [2026-07-20] ingest | Round 96 — 3 deepenings NA (desarrollo-urbano) + 10 nodos dominio/rol
+- gap_analysis.py (iter 232→233) extendió taxonomía Round 96: 3 deepenings NA (desarrollo-urbano MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_96). Dedup con node_exists: seguridad-y-salud-ocupacional, cadena-de-valor, comunicacion-corporativa y derecho-del-consumidor ya existían como subdirectorios legacy → reemplazados por canales-de-distribucion, atencion-al-cliente, psicologia-del-consumidor e investigacion-de-mercado.
+- LOOP 1 (sustrato NA, 3/13): sustrato/mexico/desarrollo-urbano.md (SEDATU/LGAH, municipios), sustrato/estados-unidos/desarrollo-urbano.md (zoning local, EPA Smart Growth), sustrato/canada/desarrollo-urbano.md (Planning Acts, crecimiento inteligente).
+- LOOP 2 (dominio, 8/13): canales-de-distribucion, atencion-al-cliente, psicologia-del-consumidor, investigacion-de-mercado, segmentacion-de-mercado, gestion-de-compras, prevision-de-demanda, responsabilidad-social-empresarial.
+- LOOP 3 (rol, 2/13): head-of-market-research, head-of-compliance-operations.
+- Citas reference-only (URL en frontmatter): gob.mx/SEDATU + ONU-Habitat (MX); EPA + APA (US); Wikipedia (CA y dominio/rol). Sin raw para fuentes web.
+- Indexadas en index.md (bloques Round 96) y log.md raíz. working.md actualizado (Round 96 COMPLETA, iter 233).
+
 ## [2026-07-20] cron-screen | El Financiero — ingest diaria (0 ingestados)
 - Scrape de 5 ítems (scripts/scrape_elfinanciero.py 5) desde RSS El Financiero.
 - Screen por relevancia (protocolo-discriminamiento.md, gate de relevancia):
