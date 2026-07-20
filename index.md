@@ -2250,3 +2250,22 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-supply-chain](rol/head-of-supply-chain.md) — Head of Supply Chain: estrategia de cadena, sourcing, planeación, riesgo · supply-chain,sourcing,planeacion,riesgo-cadena · 2026-07-19
 - [head-of-revenue-strategy](rol/head-of-revenue-strategy.md) — Head of Revenue Strategy: estrategia de ingresos, pricing/GTM, analítica de revenue · revenue-strategy,pricing,gtm,analitica-ingresos · 2026-07-19
 - [head-of-data-strategy](rol/head-of-data-strategy.md) — Head of Data Strategy: estrategia de datos, monetización, arquitectura, gobierno · data-strategy,monetizacion-datos,gobierno,arquitectura · 2026-07-19
+
+### sustrato Round 87 (deepening NA)
+- [rendicion-de-cuentas](sustrato/mexico/rendicion-de-cuentas.md) — Rendición de cuentas México: SFP, ASF, fiscalización, transparencia, anticorrupción · mexico,rendicion-de-cuentas,sfp,asf,fiscalizacion · 2026-07-20
+- [tesoro](sustrato/estados-unidos/tesoro.md) — Tesoro EE.UU.: Department of the Treasury, política fiscal, deuda pública, OFAC · estados-unidos,tesoro,treasury,politica-fiscal,ofac · 2026-07-20
+- [defensa-nacional](sustrato/canada/defensa-nacional.md) — Defensa nacional Canadá: DND, Canadian Armed Forces, NORAD, procurement · canada,defensa-nacional,dnd,caf,norad · 2026-07-20
+
+### dominio Round 87 (nuevos)
+- [instrumentos-derivados](dominio/instrumentos-derivados.md) — Instrumentos derivados: futuros, opciones, swaps, forwards, cobertura · derivados,futuros,opciones,swaps,cobertura · 2026-07-20
+- [analitica-financiera](dominio/analitica-financiera.md) — Analítica financiera: reporting analítico, dashboards, FP&A analytics, KPIs · analitica-financiera,fp-and-a,dashboards,kpis · 2026-07-20
+- [derecho-maritimo](dominio/derecho-maritimo.md) — Derecho marítimo: navegación, carga, contaminación, SOLAS/MARPOL · derecho-maritimo,admiralty,navegacion,solas,marpol · 2026-07-20
+- [economia-agricola](dominio/economia-agricola.md) — Economía agrícola: producción, política agrícola, subsidios, cadenas agro · economia-agricola,agricultura,subsidios,food-security · 2026-07-20
+- [propiedad-industrial](dominio/propiedad-industrial.md) — Propiedad industrial: patentes, marcas, diseños industriales, secretos industriales · propiedad-industrial,patentes,marcas,impi,uspto · 2026-07-20
+
+### rol Round 87 (nuevos)
+- [head-of-it-operations](rol/head-of-it-operations.md) — Head of IT Operations: run-the-business, infraestructura, service desk, SLA · it-operations,infraestructura,service-desk,sla · 2026-07-20
+- [head-of-strategic-finance](rol/head-of-strategic-finance.md) — Head of Strategic Finance: planeación, modelado, M&A finance, asignación de capital · strategic-finance,modelado,m-and-a,capital-allocation · 2026-07-20
+- [head-of-commercial-growth](rol/head-of-commercial-growth.md) — Head of Commercial Growth: crecimiento comercial, nuevos mercados, GTM · commercial-growth,crecimiento-revenue,gtm,expansion · 2026-07-20
+- [head-of-legal-counsel](rol/head-of-legal-counsel.md) — Head of Legal Counsel: liderazgo legal in-house, litigios, contratos, gobernanza · legal-counsel,litigios,contratos,gobernanza-legal · 2026-07-20
+- [head-of-security-architecture](rol/head-of-security-architecture.md) — Head of Security Architecture: arquitectura de seguridad, threat modeling, zero trust · security-architecture,threat-modeling,zero-trust,blueprint · 2026-07-20

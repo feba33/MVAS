@@ -1557,6 +1557,24 @@ NEW_NODES_ROUND_86 = [
 ]
 NEW_NODES = NEW_NODES_ROUND_86
 
+# Round 87 (iter 225) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("rendicion-de-cuentas", "Rendicion de cuentas Mexico (profundizacion): SFP, auditoria superior, transparencia, fiscalizacion, combate a la corrupcion, vs transparencia/observatorio"))
+TAXONOMY["sustrato/estados-unidos"].append(("tesoro", "Tesoro / US Treasury (profundizacion): Department of the Treasury, politica fiscal, deuda publica, sanciones OFAC, vs politica-monetaria/finanzas-publicas"))
+TAXONOMY["sustrato/canada"].append(("defensa-nacional", "Defensa nacional Canada (profundizacion): DND/National Defence, Canadian Armed Forces, NORAD, procurement de defensa, vs seguridad-nacional"))
+NEW_NODES_ROUND_87 = [
+    ("dominio/instrumentos-derivados", "Instrumentos derivados / derivatives: futuros, opciones, swaps, forwards, cobertura, mercados, vs finanzas/riesgo-financiero"),
+    ("dominio/analitica-financiera", "Analitica financiera / financial analytics: reporting analitico, dashboards financieros, FP&A analytics, KPIs de negocio, vs inteligencia-de-negocio/finanzas-corporativas"),
+    ("dominio/derecho-maritimo", "Derecho maritimo / maritime law: navegacion, transporte maritimo, contaminacion, abordaje, carga, tratados (SOLAS/MARPOL), vs logistica/seguros-maritimos"),
+    ("dominio/economia-agricola", "Economia agricola / agricultural economics: produccion, politica agricola, subsidies, cadenas de valor agro, food security, vs agricultura/seguridad-alimentaria"),
+    ("dominio/propiedad-industrial", "Propiedad industrial / industrial property: patentes, modelos de utilidad, disenos industriales, marcas, secretos industriales, IMPI/USPTO/CIPO, vs propiedad-intelectual/PI-laboral"),
+    ("rol/head-of-it-operations", "Head of IT Operations: run-the-business TI, infraestructura, service desk, SLA, disponibilidad, vs head-of-information-technology/head-of-platform-engineering"),
+    ("rol/head-of-strategic-finance", "Head of Strategic Finance: planeacion financiera, modelado, inversiones, M&A finance, allocacion de capital, vs cfo/fp-and-a-manager/head-of-financial-planning"),
+    ("rol/head-of-commercial-growth", "Head of Commercial Growth: crecimiento comercial, nuevos mercados, expansion de revenue, GTM, vs chief-revenue-officer/head-of-revenue-strategy"),
+    ("rol/head-of-legal-counsel", "Head of Legal Counsel: liderazgo del equipo legal in-house, litigios, contratos, gobernanza legal, vs legal-counsel/head-of-regulatory-affairs/jefe-de-gobierno-corporativo"),
+    ("rol/head-of-security-architecture", "Head of Security Architecture: arquitectura de seguridad, threat modeling, zero trust design, reference architectures, vs head-of-platform-security/head-of-network-security"),
+]
+NEW_NODES = NEW_NODES_ROUND_87
+
 
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)

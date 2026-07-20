@@ -3133,10 +3133,48 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Iteraciones totales:** 224. |
 
 ## ESTADO
-| - **Iteracion actual:** 224 (Round 86 COMPLETA — 13/13 ingestados e integrados). |
-| - **Ultima accion:** Round 86 iter 224 — gap_analysis.py (0 huecos) → taxonomia extendida Round 86 (3 deepenings NA inteligencia-artificial MX/US + economia-digital CA + 10 nodos nuevos dominio/rol metalurgia/construccion-sostenible/plantas-industriales/arquitectura-de-datos/etica-de-negocios + roles network-security/career-development/supply-chain/revenue-strategy/data-strategy). CORRECCIÓN dedup: 13 slugs iniciales ya existían → reemplazados por libres (0 duplicados). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (pagina plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
+| - **Iteracion actual:** 225 (Round 87 COMPLETA — 13/13 ingestados e integrados). |
+| - **Ultima accion:** Round 87 iter 225 — gap_analysis.py (0 huecos) → taxonomia extendida Round 87 (3 deepenings NA rendicion-de-cuentas MX / tesoro US / defensa-nacional CA + 10 nodos nuevos dominio/rol). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 86 COMPLETA (13/13). |
+| - **Cola:** Round 87 COMPLETA (13/13). |
 
 ## PROXIMA TAREFA
-- Round 86 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 87) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
+- Round 87 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 88) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
+
+## ✅ COLA ROUND 87 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 225) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 87 (scripts/gap_analysis.py): 3 deepenings NA (mexico/rendicion-de-cuentas, estados-unidos/tesoro, canada/defensa-nacional) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_87). Todos los 13 slugs verificados como NO existentes (dedup previo; 0 duplicados). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/rendicion-de-cuentas — Rendición de cuentas México (SFP, ASF, LFRCF, SNA, fiscalización, anticorrupción)
+- [x] sustrato/estados-unidos/tesoro — Tesoro EE.UU. (Department of the Treasury, política fiscal, deuda pública, OFAC)
+- [x] sustrato/canada/defensa-nacional — Defensa nacional Canadá (DND, Canadian Armed Forces, NORAD, procurement)
+### Dominio (nuevos nodos)
+- [x] dominio/instrumentos-derivados — Instrumentos derivados (futuros, opciones, swaps, forwards, cobertura, Dodd-Frank/EMIR)
+- [x] dominio/analitica-financiera — Analítica financiera (reporting analítico, dashboards, FP&A analytics, KPIs)
+- [x] dominio/derecho-maritimo — Derecho marítimo (navegación, carga, contaminación, SOLAS/MARPOL)
+- [x] dominio/economia-agricola — Economía agrícola (producción, política agrícola, subsidios, food security)
+- [x] dominio/propiedad-industrial — Propiedad industrial (patentes, marcas, diseños industriales, IMPI/USPTO/CIPO)
+### Rol (nuevos nodos)
+- [x] rol/head-of-it-operations — Head of IT Operations (run-the-business, infraestructura, service desk, SLA)
+- [x] rol/head-of-strategic-finance — Head of Strategic Finance (modelado, M&A finance, asignación de capital)
+- [x] rol/head-of-commercial-growth — Head of Commercial Growth (crecimiento comercial, GTM, nuevos mercados)
+- [x] rol/head-of-legal-counsel — Head of Legal Counsel (litigios, contratos, gobernanza legal)
+- [x] rol/head-of-security-architecture — Head of Security Architecture (threat modeling, zero trust, blueprints)
+
+### ITER 225 — Round 87 (2026-07-20)
+- gap_analysis.py (iter 224→225) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 87 (scripts/gap_analysis.py): 3 deepenings NA (mexico/rendicion-de-cuentas, estados-unidos/tesoro, canada/defensa-nacional) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_87). Todos los 13 slugs verificados no-existentes (dedup previo; 0 duplicados).
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] sustrato/mexico/rendicion-de-cuentas.md, sustrato/estados-unidos/tesoro.md, sustrato/canada/defensa-nacional.md (3 deepenings NA).
+  - [dominio] dominio/instrumentos-derivados.md, dominio/analitica-financiera.md, dominio/derecho-maritimo.md, dominio/economia-agricola.md, dominio/propiedad-industrial.md (5 nuevos nodos).
+  - [rol] rol/head-of-it-operations.md, rol/head-of-strategic-finance.md, rol/head-of-commercial-growth.md, rol/head-of-legal-counsel.md, rol/head-of-security-architecture.md (5 nuevos nodos).
+- Reference-only (Wikipedia EN + autoridades: gob.mx/SFP, home.treasury.gov/OFAC, canada.ca/DND, OMI/IMO, OMPI, USPTO/IMPI/CIPO; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- **Round 87 COMPLETA (13/13 temas).** Cola Round 87 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 88 o pausar.
+
+## ÍNDICE DE PROGRESO (acumulado)
+| **Tópicos ingeridos (acumulado): 1234** (Round 86: 1221; Round 87: 1234/13 nuevas). |
+| **Rondas:** 87 completas (Round 1..87). |
+| **Nodos sustrato (NA):** México 98 (+rendicion-de-cuentas), EE.UU. 83 (+tesoro), Canadá 77 (+defensa-nacional). |
+| **Nodos dominio:** ~346 (Round 87 +5: instrumentos-derivados, analitica-financiera, derecho-maritimo, economia-agricola, propiedad-industrial). |
+| **Nodos rol:** ~314 (Round 87 +5: head-of-it-operations, head-of-strategic-finance, head-of-commercial-growth, head-of-legal-counsel, head-of-security-architecture). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+| **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
+| **Iteraciones totales:** 225. |
