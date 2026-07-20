@@ -1603,6 +1603,26 @@ NEW_NODES_ROUND_88 = [
 NEW_NODES = NEW_NODES_ROUND_88
 
 
+# Round 89 (iter 226) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+# Dedup: estados-unidos/poder-legislativo YA existia -> reemplazado por comercio (domestic retail trade).
+TAXONOMY["sustrato/mexico"].append(("energia-distribuida", "Energia distribuida Mexico (profundizacion): generacion distribuida, redes inteligentes, auto-consumo, net metering, CFE DISTRIBUTION, normas de interconexion, vs energia-electrica/energia-renovables"))
+TAXONOMY["sustrato/estados-unidos"].append(("comercio", "Comercio EE.UU. (profundizacion): retail trade, e-commerce, FTC consumer protection, small business retail, supply chain minorista, vs comercio-exterior/comercio-internacional"))
+TAXONOMY["sustrato/canada"].append(("salud-mental", "Salud mental Canada (profundizacion): Salud Mental Commission, MHCC, paridad de salud mental, servicios provinciales, vs salud/salud-publica"))
+NEW_NODES_ROUND_89 = [
+    ("dominio/ciberseguridad-de-la-cadena-de-suministro", "Ciberseguridad de la cadena de suministro / supply chain security: SBOM, terceros, software supply chain (SolarWinds/Log4Shell), EO 14028, SLSA, vs ciberseguridad/gestion-de-la-cadena-de-suministro"),
+    ("dominio/derecho-procesal-laboral", "Derecho procesal laboral: juicio laboral, conciliacion previa, autoresidad laboral, despido, vs derecho-laboral/derecho-procesal"),
+    ("dominio/bienes-raices-comerciales", "Bienes raices comerciales / commercial real estate: oficinas, retail, industrial/logistico, multifamily, cap rate, leasing, REITs, vs inmobiliario/real-estate"),
+    ("dominio/seguros-agricolas", "Seguros agricolas / crop insurance: seguro de cosecha, cat (clima), indemnizacion, WRI/FSA (US), SADER (MX), vs seguros/agronegocios"),
+    ("dominio/planeacion-estrategica", "Planeacion estrategica / strategic planning: vision/mision, analisis FODA, OKRs, despliegue, escenarios, vs estrategia/gestion-del-cambio"),
+    ("rol/head-of-business-intelligence", "Head of Business Intelligence: BI, dashboards, data warehouse, self-service analytics, vs data-analyst/head-of-data-strategy"),
+    ("rol/head-of-incident-management", "Head of Incident Management: respuesta a incidentes operativos, ITIL, war room, post-mortem, vs head-of-incident-response/head-of-reliability-engineering"),
+    ("rol/head-of-cloud-architecture", "Head of Cloud Architecture: diseno de nubes, multi-cloud, well-architected, FinOps, vs head-of-solution-engineering/head-of-platform-engineering"),
+    ("rol/head-of-partner-success", "Head of Partner Success: exito de socios/canales, enablement de partners, co-selling, vs head-of-partnerships/head-of-channel-sales"),
+    ("rol/head-of-patient-experience", "Head of Patient Experience: experiencia del paciente, satisfaccion, calidad en salud, vs head-of-customer-experience/salud-digital"),
+]
+NEW_NODES = NEW_NODES_ROUND_89
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

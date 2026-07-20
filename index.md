@@ -482,6 +482,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [comercio-internacional-node](dominio/comercio-internacional.md) — Comercio internacional (nodo): aranceles, tratados (OMC/USMCA), BNA, aduanas, INCOTERMS · 🏷️ comercio-internacional,aranceles,tratados,aduanas,incoterms,omc · 📅 2026-07-20
 - [analitica-negocio](dominio/analitica-negocio/analitica-negocio.md) — Analítica de negocio / BI: dashboards, KPIs, descriptiva→prescriptiva · 🏷️ analitica-negocio,bi,business-analytics,dashboards,kpis · 📅 2026-07-11
 - [inteligencia-de-negocio](dominio/inteligencia-de-negocio.md) — Inteligencia de negocio (BI): dashboards, self-service analytics, visualización, decision support · 🏷️ bi,business-intelligence,dashboards,self-service-analytics,data-visualization,decision-support · 📅 2026-07-17
+- [planeacion-estrategica](dominio/planeacion-estrategica.md) — Planeación estratégica: visión/misión, FODA, OKRs, despliegue, escenarios, vs estrategia · 🏷️ planeacion-estrategica,estrategia,foda,okr,escenarios,despliegue · 📅 2026-07-20
 - [gobernanza-de-datos-empresarial](dominio/gobernanza-de-datos-empresarial.md) — Gobernanza de datos empresarial: DAMA-DMBOK, stewardship, data quality, lineage, catálogo, data products · 🏷️ gobernanza-datos,dama,dmbok,data-stewardship,data-quality,lineage,catalogo,data-products · 📅 2026-07-17
 - [gobierno-corporativo](dominio/gobierno-corporativo/gobierno-corporativo.md) — Gobierno corporativo: junta, deberes fiduciarios, accionistas, ESG · 🏷️ gobierno-corporativo,board,accionistas,fiduciario,esg · 📅 2026-07-11
 - [ia-generativa](dominio/ia-generativa/ia-generativa.md) — IA generativa: LLMs, adopción empresarial, gobernanza y riesgos · 🏷️ ia-generativa,llm,genai,gobernanza-ia,agentes · 📅 2026-07-11
@@ -843,6 +844,10 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [platform-engineer](rol/platform-engineer/platform-engineer.md) — Platform Engineer: plataformas internas, golden paths, Developer Experience (IDP) · 🏷️ platform-engineer,plataforma-interna,devops,developer-experience,golden-paths · 📅 2026-07-13
 ### rol/cloud-architect
 - [cloud-architect](rol/cloud-architect/cloud-architect.md) — Cloud Architect: arquitecturas cloud, multi-cloud, well-architected, costos/FinOps · 🏷️ cloud-architect,arquitectura-cloud,multi-cloud,well-architected,costos · 📅 2026-07-13
+- [head-of-business-intelligence](rol/head-of-business-intelligence.md) — Head of Business Intelligence: BI, dashboards, data warehouse, self-service analytics · 🏷️ head-of-business-intelligence,bi,business-intelligence,dashboards,analytics · 📅 2026-07-20
+- [head-of-incident-management](rol/head-of-incident-management.md) — Head of Incident Management: respuesta a incidentes, ITIL, war room, post-mortem · 🏷️ head-of-incident-management,incident-management,itil,respuesta,operaciones · 📅 2026-07-20
+- [head-of-cloud-architecture](rol/head-of-cloud-architecture.md) — Head of Cloud Architecture: diseño de nubes, multi-cloud, well-architected, FinOps · 🏷️ head-of-cloud-architecture,cloud-architecture,multi-cloud,well-architected,finops · 📅 2026-07-20
+- [head-of-patient-experience](rol/head-of-patient-experience.md) — Head of Patient Experience: experiencia del paciente, satisfacción, calidad en salud · 🏷️ head-of-patient-experience,patient-experience,salud,paciente,satisfaccion · 📅 2026-07-20
 ### rol/research-scientist
 - [research-scientist](rol/research-scientist/research-scientist.md) — Research Scientist: R&D, publicación, ciencia aplicada/básica, transferencia · 🏷️ research-scientist,investigacion,rd,publicacion,ciencia · 📅 2026-07-13
 ### rol/technical-program-manager
@@ -1665,6 +1670,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/ciberseguridad-cadena-suministro
 - [ciberseguridad-cadena-suministro](dominio/ciberseguridad-cadena-suministro.md) — Ciberseguridad de la cadena de suministro: SBOM, SCA, terceros/4th-party, EO 14028, EU CRA; vs ciberseguridad · 🏷️ ciberseguridad,cadena-de-suministro,sbom,terceros,devsecops,regulacion · 📅 2026-07-16
+- [ciberseguridad-de-la-cadena-de-suministro](dominio/ciberseguridad-de-la-cadena-de-suministro.md) — Ciberseguridad de la cadena de suministro: SBOM, terceros, software supply chain (SolarWinds/Log4Shell), EO 14028, SLSA · 🏷️ ciberseguridad,cadena-de-suministro,sbom,software-supply-chain,terceros,slsa,cisa · 📅 2026-07-20
 
 ### dominio/arte
 - [arte](dominio/arte.md) — Mercado del arte / art market: subastas, galerías, coleccionismo, arte digital/NFT, AML en arte; vs economia-creativa/musica · 🏷️ arte,coleccionismo,subastas,mercado,valoracion,regulacion · 📅 2026-07-16
@@ -1704,6 +1710,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/real-estate-capital-markets
 - [real-estate-capital-markets](dominio/real-estate-capital-markets.md) — Mercados de capitales inmobiliarios: CMBS, REITs, deuda privada, ola de refinanciación 2025-26 · 🏷️ real-estate,capital-markets,cmbs,reit,deuda-inmobiliaria,inversion · 📅 2026-07-16
+- [bienes-raices-comerciales](dominio/bienes-raices-comerciales.md) — Bienes raíces comerciales: oficinas, retail, industrial/logístico, multifamily, cap rate, leasing, REITs · 🏷️ bienes-raices,comercial,oficinas,retail,industrial,cap-rate,reits · 📅 2026-07-20
 
 ### rol/head-of-executive-development
 - [head-of-executive-development](rol/head-of-executive-development.md) — Head of Executive Development: sucesión C-suite, coaching ejecutivo, readines · 🏷️ head-of-executive-development,liderazgo,sucesion,coaching,c-suite · 📅 2026-07-16
@@ -1781,6 +1788,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/derecho-procesal
 - [derecho-procesal](dominio/derecho-procesal.md) — Derecho procesal: civil/mercantil/penal, litigio, recursos, carga de la prueba, jurisdicción · 🏷️ derecho-procesal,litigio,jurisdiccion,recursos,prueba,juicios-orales · 📅 2026-07-16
+- [derecho-procesal-laboral](dominio/derecho-procesal-laboral.md) — Derecho procesal laboral: juicio laboral, conciliación previa, autoridad laboral, despido · 🏷️ derecho-procesal-laboral,juicio-laboral,conciliacion,despido,derecho-laboral · 📅 2026-07-20
 
 ### dominio/satelites
 - [satelites](dominio/satelites.md) — Satélites: manufactura, lanzamiento, downstream (earth observation, comunicaciones), regulación orbital FCC/ITU · 🏷️ satelites,satellite,lanzamiento,earth-observation,comunicaciones,fcc,itu · 📅 2026-07-16

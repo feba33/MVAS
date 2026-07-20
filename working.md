@@ -3133,13 +3133,13 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Iteraciones totales:** 224. |
 
 ## ESTADO
-| - **Iteracion actual:** 225 (Round 87 COMPLETA — 13/13 ingestados e integrados). |
-| - **Ultima accion:** Round 87 iter 225 — gap_analysis.py (0 huecos) → taxonomia extendida Round 87 (3 deepenings NA rendicion-de-cuentas MX / tesoro US / defensa-nacional CA + 10 nodos nuevos dominio/rol). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
+| - **Iteracion actual:** 226 (Round 89 COMPLETA — 13/13 ingestados e integrados). Round 88 también confirmada (páginas ya presentes en repo; registro diferido cerrado en log.md). |
+| - **Ultima accion:** Round 89 iter 226 — gap_analysis.py (0 huecos) → taxonomia extendida Round 89 (3 deepenings NA energia-distribuida MX / comercio US / salud-mental CA + 10 nodos nuevos dominio/rol). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
 | - **Bloqueos:** ninguno. |
-| - **Cola:** Round 87 COMPLETA (13/13). |
+| - **Cola:** Round 89 COMPLETA (13/13). |
 
 ## PROXIMA TAREFA
-- Round 87 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 88) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
+- Round 89 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 90) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
 
 ## ✅ COLA ROUND 87 — COMPLETA (13/13 páginas nuevas)
 > gap_analysis.py (iter 225) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 87 (scripts/gap_analysis.py): 3 deepenings NA (mexico/rendicion-de-cuentas, estados-unidos/tesoro, canada/defensa-nacional) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_87). Todos los 13 slugs verificados como NO existentes (dedup previo; 0 duplicados). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
@@ -3169,12 +3169,40 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 - Reference-only (Wikipedia EN + autoridades: gob.mx/SFP, home.treasury.gov/OFAC, canada.ca/DND, OMI/IMO, OMPI, USPTO/IMPI/CIPO; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
 - **Round 87 COMPLETA (13/13 temas).** Cola Round 87 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 88 o pausar.
 
+## ✅ COLA ROUND 89 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 225→226) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 89 (scripts/gap_analysis.py): 3 deepenings NA (mexico/energia-distribuida, estados-unidos/comercio, canada/salud-mental) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_89). Dedup: estados-unidos/poder-legislativo YA EXISTÍA → reemplazado por comercio (retail doméstico). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/energia-distribuida — Energía distribuida México (generación distribuida, redes inteligentes, auto-consumo, net metering, CFE DISTRIBUCIÓN)
+- [x] sustrato/estados-unidos/comercio — Comercio EE.UU. (retail trade, e-commerce, FTC, small business)
+- [x] sustrato/canada/salud-mental — Salud mental Canadá (MHCC, paridad, servicios provinciales, 9-8-8)
+### Dominio (nuevos nodos)
+- [x] dominio/ciberseguridad-de-la-cadena-de-suministro — Ciberseguridad de la cadena de suministro (SBOM, SolarWinds/Log4Shell, EO 14028, SLSA)
+- [x] dominio/derecho-procesal-laboral — Derecho procesal laboral (juicio laboral, conciliación previa, despido)
+- [x] dominio/bienes-raices-comerciales — Bienes raíces comerciales (oficinas/retail/industrial, cap rate, REITs)
+- [x] dominio/seguros-agricolas — Seguros agrícolas (crop insurance, USDA-RMA/Agroasemex)
+- [x] dominio/planeacion-estrategica — Planeación estratégica (FODA, OKRs, escenarios, despliegue)
+### Rol (nuevos nodos)
+- [x] rol/head-of-business-intelligence — Head of Business Intelligence (BI, dashboards, data warehouse)
+- [x] rol/head-of-incident-management — Head of Incident Management (ITIL, war room, post-mortem)
+- [x] rol/head-of-cloud-architecture — Head of Cloud Architecture (multi-cloud, well-architected, FinOps)
+- [x] rol/head-of-partner-success — Head of Partner Success (éxito de canal, co-selling)
+- [x] rol/head-of-patient-experience — Head of Patient Experience (experiencia del paciente, satisfacción)
+
+### ITER 226 — Round 89 (2026-07-20)
+- gap_analysis.py (iter 225→226) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 89 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_89). Dedup: estados-unidos/poder-legislativo ya existía → reemplazado por comercio. 13 slugs verificados no-existentes (dedup previo; 0 duplicados).
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] sustrato/mexico/energia-distribuida.md, sustrato/estados-unidos/comercio.md, sustrato/canada/salud-mental.md (3 deepenings NA).
+  - [dominio] dominio/ciberseguridad-de-la-cadena-de-suministro.md, dominio/derecho-procesal-laboral.md, dominio/bienes-raices-comerciales.md, dominio/seguros-agricolas.md, dominio/planeacion-estrategica.md (5 nuevos nodos).
+  - [rol] rol/head-of-business-intelligence.md, rol/head-of-incident-management.md, rol/head-of-cloud-architecture.md, rol/head-of-partner-success.md, rol/head-of-patient-experience.md (5 nuevos nodos).
+- Reference-only (Wikipedia EN/ES + autoridades: CRE/CFE, FTC, MHCC, CISA/SBOM, USDA-RMA/Agroasemex, ITIL/Axelos, AWS Well-Architected, IHI; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- **Round 89 COMPLETA (13/13 temas).** Cola Round 89 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 90 o pausar.
+
 ## ÍNDICE DE PROGRESO (acumulado)
-| **Tópicos ingeridos (acumulado): 1234** (Round 86: 1221; Round 87: 1234/13 nuevas). |
-| **Rondas:** 87 completas (Round 1..87). |
-| **Nodos sustrato (NA):** México 98 (+rendicion-de-cuentas), EE.UU. 83 (+tesoro), Canadá 77 (+defensa-nacional). |
-| **Nodos dominio:** ~346 (Round 87 +5: instrumentos-derivados, analitica-financiera, derecho-maritimo, economia-agricola, propiedad-industrial). |
-| **Nodos rol:** ~314 (Round 87 +5: head-of-it-operations, head-of-strategic-finance, head-of-commercial-growth, head-of-legal-counsel, head-of-security-architecture). |
+| **Tópicos ingeridos (acumulado): 1260** (Round 87: 1234; Round 88: 1247/13; Round 89: 1260/13 nuevas). |
+| **Rondas:** 89 completas (Round 1..89). |
+| **Nodos sustrato (NA):** México 99 (+energia-distribuida), EE.UU. 84 (+comercio), Canadá 78 (+salud-mental). |
+| **Nodos dominio:** ~357 (Round 89 +5: ciberseguridad-de-la-cadena-de-suministro, derecho-procesal-laboral, bienes-raices-comerciales, seguros-agricolas, planeacion-estrategica). |
+| **Nodos rol:** ~324 (Round 89 +5: head-of-business-intelligence, head-of-incident-management, head-of-cloud-architecture, head-of-partner-success, head-of-patient-experience). |
 | **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
-| **Iteraciones totales:** 225. |
+| **Iteraciones totales:** 226. |
