@@ -2382,3 +2382,22 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-product-marketing](rol/head-of-product-marketing.md) — Head of Product Marketing: PMM, GTM, posicionamiento, enablement · product-marketing,pmm,gtm,posicionamiento · 2026-07-20
 - [head-of-corporate-communications](rol/head-of-corporate-communications.md) — Head of Corporate Communications: comms, medios, crisis, reputación · corporate-comms,media-relations,crisis,reputacion · 2026-07-20
 - [head-of-quality-engineering](rol/head-of-quality-engineering.md) — Head of Quality Engineering: QA, automatización, calidad de producto · quality-engineering,qa,automatizacion,calidad · 2026-07-20
+
+### sustrato Round 93 (deepening NA)
+- [educacion-media-superior](sustrato/mexico/educacion-media-superior.md) — Educación media superior México: bachillerato, profesional técnico, SNB, CONALEP · mexico,educacion-media-superior,bachillerato,snb,conalep · 2026-07-20
+- [industria](sustrato/mexico/industria.md) — Industria México: manufactura, IMMEX, parques industriales, INEGI · mexico,industria,manufactura,immex,parques · 2026-07-20
+- [trabajo](sustrato/canada/trabajo.md) — Trabajo Canadá: mercado laboral, ESDC, salario mínimo, gig economy · canada,trabajo,mercado-laboral,esdc,salario-minimo · 2026-07-20
+
+### dominio Round 93 (nuevos)
+- [etica-medica](dominio/etica-medica/etica-medica.md) — Ética médica: consentimiento, bioética clínica, final de vida · etica-medica,bioetica,consentimiento,final-de-vida · 2026-07-20
+- [auditoria-financiera](dominio/auditoria-financiera/auditoria-financiera.md) — Auditoría financiera: NIA/ISA, opinión, controles · auditoria-financiera,nia,isa,opinion,controles · 2026-07-20
+- [cultura-corporativa](dominio/cultura-corporativa/cultura-corporativa.md) — Cultura corporativa: valores, comportamiento, liderazgo cultural · cultura-corporativa,valores,comportamiento,engagement · 2026-07-20
+- [gestion-de-riesgos-de-ti](dominio/gestion-de-riesgos-de-ti/gestion-de-riesgos-de-ti.md) — Gestión de riesgos de TI: ISO 27005/31000, NIST RMF · gestion-riesgos-ti,iso-27005,nist-rmf,continuidad · 2026-07-20
+- [telecomunicaciones-moviles](dominio/telecomunicaciones-moviles/telecomunicaciones-moviles.md) — Telecomunicaciones móviles: 4G/5G, MVNO, espectro FCC/IFT/CRTC · telecomunicaciones-moviles,5g,mvno,espectro,fcc · 2026-07-20
+- [turismo-medical](dominio/turismo-medical/turismo-medical.md) — Turismo médico: pacientes transfronterizos, calidad, destinos · turismo-medical,medical-tourism,calidad,salud · 2026-07-20
+- [gestion-del-talento-tech](dominio/gestion-del-talento-tech/gestion-del-talento-tech.md) — Gestión del talento tech: ingenieros, DevEx, retención · gestion-talento-tech,devex,retencion,hiring · 2026-07-20
+- [analitica-predictiva-cliente](dominio/analitica-predictiva-cliente/analitica-predictiva-cliente.md) — Analítica predictiva de cliente: churn scoring, propensión, LTV · analitica-predictiva-cliente,churn,propension,ltv · 2026-07-20
+
+### rol Round 93 (nuevos)
+- [head-of-medical-science-liaison](rol/head-of-medical-science-liaison/head-of-medical-science-liaison.md) — Head of Medical Science Liaison: MSL, puente científico KOL, medical affairs · head-of-medical-science-liaison,msl,medical-affairs,kol · 2026-07-20
+- [head-of-digital-strategy](rol/head-of-digital-strategy/head-of-digital-strategy.md) — Head of Digital Strategy: transformación digital, roadmaps, canales · head-of-digital-strategy,transformacion-digital,roadmaps,e-business · 2026-07-20

@@ -1700,7 +1700,24 @@ NEW_NODES_ROUND_92 = [
     ("rol/head-of-fp-and-a", "Head of FP&A: lidera planificacion financiera, presupuesto, forecast, analisis de variaciones, vs fp-and-a-manager/cfo"),
     ("rol/head-of-renewals", "Head of Renewals: retencción y renovacion de contratos recurrentes, expansion, churn, vs customer-success/head-of-customer-success"),
 ]
-NEW_NODES = NEW_NODES_ROUND_92
+# Round 93 (iter 230) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+# Alcance sustrato: solo Norteamérica (MX/US/CA). Dominio/rol generales (agnósticos de país).
+TAXONOMY["sustrato/mexico"].append(("educacion-media-superior", "Educación media superior México (profesional técnico/bachillerato, CONALEP/CENTRO DE BACHILLERATO, prepa, articulación con superior, SNB)"))
+TAXONOMY["sustrato/mexico"].append(("industria", "Industria México (manufactura, POLITEC, parques industriales, IMMEX, cadena de valor industrial, INEGI)"))
+TAXONOMY["sustrato/canada"].append(("trabajo", "Trabajo Canadá (labour market, ESDC, minimum wage, gig economy, sindicalización, code civil vs common law)"))
+NEW_NODES_ROUND_93 = [
+    ("dominio/etica-medica", "Etica medica / medical ethics: consentimiento, bioetica clinica, final de la vida, experimentacion, vs bioetica/derecho-salud"),
+    ("dominio/auditoria-financiera", "Auditoria financiera: NIA/ISA, opinion, controles, auditoria externa, vs auditoria-interna/contabilidad-auditoria"),
+    ("dominio/cultura-corporativa", "Cultura corporativa / corporate culture: valores, comportamiento, liderazgo cultural, engagement, vs recursos-humanos/people"),
+    ("dominio/gestion-de-riesgos-de-ti", "Gestion de riesgos de TI: ISO 27005/31000, NIST RMF, riesgo tecnologico, continuidad, vs ciberseguridad-gobierno"),
+    ("dominio/telecomunicaciones-moviles", "Telecomunicaciones moviles: 4G/5G, MVNO, espectro, FCC/IFT/CRTC, roaming, vs telecomunicaciones-redes-5g"),
+    ("dominio/turismo-medical", "Turismo medical / medical tourism: pacientes transfronterizos, calidad, regulacion, destinos, vs salud/turismo"),
+    ("dominio/gestion-del-talento-tech", "Gestion del talento tech: ingenieros, DevEx, retencion, hiring, vs recursos-humanos/head-of-talent"),
+    ("dominio/analitica-predictiva-cliente", "Analitica predictiva de cliente: churn scoring, propension, LTV prediction, ML cliente, vs analitica-marketing/crm"),
+    ("rol/head-of-medical-science-liaison", "Head of Medical Science Liaison (MSL): puente cientifico medico-KOL, evidencia, medical affairs, vs head-of-clinical-affairs"),
+    ("rol/head-of-digital-strategy", "Head of Digital Strategy: transformacion digital, roadmaps digitales, canales digitales, e-business, vs head-of-digital-transformation"),
+]
+NEW_NODES = NEW_NODES_ROUND_93
 
 
 def existing_pages(node: str) -> set:

@@ -3349,3 +3349,50 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 
 ## PROXIMA TAREFA
 - Round 92 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 93) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
+
+## ✅ COLA ROUND 93 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 229→230) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 93 (scripts/gap_analysis.py): 3 deepenings NA (mexico/educacion-media-superior, mexico/industria, canada/trabajo) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_93). Todos los 13 slugs verificados como NO existentes (dedup previo; 0 duplicados). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/educacion-media-superior — Educación media superior México (bachillerato, SNB, CONALEP)
+- [x] sustrato/mexico/industria — Industria México (manufactura, IMMEX, parques industriales, INEGI)
+- [x] sustrato/canada/trabajo — Trabajo Canadá (mercado laboral, ESDC, salario mínimo, gig economy)
+### Dominio (nuevos nodos)
+- [x] dominio/etica-medica — Ética médica (consentimiento, bioética clínica, final de vida)
+- [x] dominio/auditoria-financiera — Auditoría financiera (NIA/ISA, opinión, controles)
+- [x] dominio/cultura-corporativa — Cultura corporativa (valores, comportamiento, liderazgo cultural)
+- [x] dominio/gestion-de-riesgos-de-ti — Gestión de riesgos de TI (ISO 27005/31000, NIST RMF)
+- [x] dominio/telecomunicaciones-moviles — Telecomunicaciones móviles (4G/5G, MVNO, espectro FCC/IFT/CRTC)
+- [x] dominio/turismo-medical — Turismo médico (pacientes transfronterizos, calidad, destinos)
+- [x] dominio/gestion-del-talento-tech — Gestión del talento tech (ingenieros, DevEx, retención)
+- [x] dominio/analitica-predictiva-cliente — Analítica predictiva de cliente (churn scoring, propensión, LTV)
+### Rol (nuevos nodos)
+- [x] rol/head-of-medical-science-liaison — Head of Medical Science Liaison (MSL, puente científico KOL, medical affairs)
+- [x] rol/head-of-digital-strategy — Head of Digital Strategy (transformación digital, roadmaps, canales digitales)
+
+### ITER 230 — Round 93 (2026-07-20)
+- gap_analysis.py (iter 229→230) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 93 (scripts/gap_analysis.py): 3 deepenings NA (mexico/educacion-media-superior, mexico/industria, canada/trabajo) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_93). Todos los 13 slugs verificados no-existentes (dedup previo; 0 duplicados).
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] sustrato/mexico/educacion-media-superior.md, sustrato/mexico/industria.md, sustrato/canada/trabajo.md (3 deepenings NA).
+  - [dominio] etica-medica, auditoria-financiera, cultura-corporativa, gestion-de-riesgos-de-ti, telecomunicaciones-moviles, turismo-medical, gestion-del-talento-tech, analitica-predictiva-cliente (8 nuevos nodos).
+  - [rol] head-of-medical-science-liaison, head-of-digital-strategy (2 nuevos nodos).
+- Reference-only (Wikipedia EN/ES + autoridades: SEP/SNB/CONALEP, INEGI/SE, StatCan/ESDC, AMA/IAASB, SHRM, NIST, FCC/IFT/CRTC; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 2 deepening MX + 1 CA).
+- **Round 93 COMPLETA (13/13 temas).** Cola Round 93 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 94 o pausar.
+
+## ÍNDICE DE PROGRESO (acumulado)
+| **Tópicos ingeridos (acumulado): 1299** (Round 92: 1286; Round 93: 1299/13 nuevas). |
+| **Rondas:** 93 completas (Round 1..93). |
+| **Nodos sustrato (NA):** México 102 (+educacion-media-superior, +industria), EE.UU. 85, Canadá 80 (+trabajo). |
+| **Nodos dominio:** ~383 (Round 93 +8: etica-medica, auditoria-financiera, cultura-corporativa, gestion-de-riesgos-de-ti, telecomunicaciones-moviles, turismo-medical, gestion-del-talento-tech, analitica-predictiva-cliente). |
+| **Nodos rol:** ~338 (Round 93 +2: head-of-medical-science-liaison, head-of-digital-strategy). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+| **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
+| **Iteraciones totales:** 230. |
+
+## ESTADO
+| - **Iteracion actual:** 230 (Round 93 COMPLETA — 13/13 ingestados e integrados). |
+| - **Ultima accion:** Round 93 iter 230 — gap_analysis.py (0 huecos) → taxonomia extendida Round 93 (3 deepenings NA educacion-media-superior/industria MX + trabajo CA + 10 nodos nuevos dominio/rol). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 2 deepening MX + 1 CA). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 93 COMPLETA (13/13). |
+
+## PROXIMA TAREFA
+- Round 93 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 94) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
