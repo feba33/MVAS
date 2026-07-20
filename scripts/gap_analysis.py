@@ -1539,6 +1539,25 @@ NEW_NODES_ROUND_85 = [
 NEW_NODES = NEW_NODES_ROUND_85
 
 
+# Round 86 (iter 224) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("inteligencia-artificial", "Inteligencia artificial Mexico (profundizacion): CONAHCYT/SECIHTI, estrategia nacional de IA, regulacion (INAI/observatorio), adopcion empresarial, vs ciencia-tecnologia/innovacion"))
+TAXONOMY["sustrato/estados-unidos"].append(("inteligencia-artificial", "Inteligencia artificial EE.UU. (profundizacion): NIST AI RMF, OMB/EO 14110, voluntario/regulatorio, liderazgo en foundation models, vs ciencia-de-datos/ciberseguridad"))
+TAXONOMY["sustrato/canada"].append(("economia-digital", "Economia digital Canada (profundizacion): ISED/digital economy, comercio electronico, plumeada de datos, ID digital, vs ciencia-e-innovacion/cultura"))
+NEW_NODES_ROUND_86 = [
+    ("dominio/metalurgia", "Metalurgia / metallurgy: extraccion y procesamiento de metales (hierro/acero/aluminio/cobre), fundicion, aleaciones, vs mineria/fundiciones/ingenieria-mecanica"),
+    ("dominio/construccion-sostenible", "Construccion sostenible / green building: LEED/BREEAM, eficiencia energetica, materiales bajos en carbono, vs construccion/eficiencia-energetica/infraestructura"),
+    ("dominio/plantas-industriales", "Plantas industriales / plant engineering: diseno de instalaciones, procesos, utilidades, layout, mantenimiento, vs manufactura/ingenieria-industrial"),
+    ("dominio/arquitectura-de-datos", "Arquitectura de datos / data architecture: modelado, data lakes/warehouses, gobierno de datos, integracion, vs gobierno-de-datos/ingenieria-de-datos/arquitectura-de-soluciones"),
+    ("dominio/etica-de-negocios", "Etica de negocios / business ethics: codigos de conducta, anticorrupcion, cultura etica, compliance etico, RSE, vs gobierno-corporativo/etica-empresarial/compliance"),
+    ("rol/head-of-network-security", "Head of Network Security: seguridad de red (firewalls, IDS/IPS, zero trust networking, segmentacion), NOC/SOC, vs head-of-platform-security/head-of-it-security"),
+    ("rol/head-of-career-development", "Head of Career Development: planes de carrera, movilidad interna, sucesion, mentoring, vs head-of-talent-development/head-of-people"),
+    ("rol/head-of-supply-chain", "Head of Supply Chain: estrategia de cadena de suministro, sourcing, planeacion, riesgo de cadena, vs vp-operations/head-of-procurement"),
+    ("rol/head-of-revenue-strategy", "Head of Revenue Strategy: estrategia de ingresos, pricing/GTM, analitica de revenue, mix de canales, vs head-of-commercial-strategy/chief-revenue-officer"),
+    ("rol/head-of-data-strategy", "Head of Data Strategy: estrategia de datos, monetizacion de datos, arquitectura de datos, gobierno, vs chief-data-officer/head-of-data-governance"),
+]
+NEW_NODES = NEW_NODES_ROUND_86
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

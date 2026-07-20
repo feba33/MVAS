@@ -3093,3 +3093,50 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 
 ## PROXIMA TAREFA
 - Round 85 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 86) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
+
+## ✅ COLA ROUND 86 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 224) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 86 (scripts/gap_analysis.py): 3 deepenings NA (mexico/inteligencia-artificial, estados-unidos/inteligencia-artificial, canada/economia-digital) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_86). CORRECCIÓN dedup: la primera propuesta incluyó 13 slugs que YA EXISTÍAN como páginas (dominio/derecho-de-las-telecomunicaciones, banca-de-inversion, electromovilidad, finanzas-cuantitativas, nanotecnologia, ciberseguridad-ot, seguros-de-credito, derecho-procesal, blockchain-empresarial, ciberseguridad-cloud; rol/head-of-talent-mobility, head-of-credit, head-of-product-strategy). Se re-verificaron con test dir+plano y se sustituyeron por slugs libres (dominio/metalurgia, construccion-sostenible, plantas-industriales, arquitectura-de-datos, etica-de-negocios; rol/head-of-revenue-strategy). 0 duplicados finales. Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/inteligencia-artificial — IA México (CONAHCYT/SECIHTI, INAI, sin ley federal de IA, adopción empresarial)
+- [x] sustrato/estados-unidos/inteligencia-artificial — IA EE.UU. (NIST AI RMF, EO 14110, OMB, liderazgo en foundation models)
+- [x] sustrato/canada/economia-digital — Economía digital Canadá (ISED, Digital Charter, Ley C-27/CPPA/AIDA, ID digital)
+### Dominio (nuevos nodos)
+- [x] dominio/metalurgia — Metalurgia (extracción, fundición, aleaciones, acero/aluminio/cobre)
+- [x] dominio/construccion-sostenible — Construcción sostenible (LEED/BREEAM, eficiencia energética, materiales bajos en carbono)
+- [x] dominio/plantas-industriales — Plantas industriales (diseño de instalaciones, procesos, utilidades, layout, mantenimiento)
+- [x] dominio/arquitectura-de-datos — Arquitectura de datos (modelado, data lakes/warehouses, gobierno, integración)
+- [x] dominio/etica-de-negocios — Ética de negocios (códigos de conducta, anticorrupción, cultura ética, RSE)
+### Rol (nuevos nodos)
+- [x] rol/head-of-network-security — Head of Network Security (firewalls, IDS/IPS, zero trust networking, NOC/SOC)
+- [x] rol/head-of-career-development — Head of Career Development (planes de carrera, movilidad interna, sucesión, mentoring)
+- [x] rol/head-of-supply-chain — Head of Supply Chain (estrategia de cadena, sourcing, planeación, riesgo)
+- [x] rol/head-of-revenue-strategy — Head of Revenue Strategy (estrategia de ingresos, pricing/GTM, analítica de revenue)
+- [x] rol/head-of-data-strategy — Head of Data Strategy (estrategia de datos, monetización, arquitectura, gobierno)
+
+### ITER 224 — Round 86 (2026-07-19)
+- gap_analysis.py (iter 223→224) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 86 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_86). CORRECCIÓN: 13 slugs de la propuesta inicial ya existían → dedup con test dir+plano → reemplazados por 5 dominio + 1 rol libres. 0 duplicados finales.
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] sustrato/mexico/inteligencia-artificial.md, sustrato/estados-unidos/inteligencia-artificial.md, sustrato/canada/economia-digital.md (3 deepenings NA).
+  - [dominio] dominio/metalurgia.md, dominio/construccion-sostenible.md, dominio/plantas-industriales.md, dominio/arquitectura-de-datos.md, dominio/etica-de-negocios.md (5 nuevos nodos).
+  - [rol] rol/head-of-network-security.md, rol/head-of-career-development.md, rol/head-of-supply-chain.md, rol/head-of-revenue-strategy.md, rol/head-of-data-strategy.md (5 nuevos nodos).
+- Reference-only (Wikipedia EN/ES + autoridades: CONAHCYT/SECIHTI, INAI, NIST AI RMF, White House EO 14110/OMB, ISED Canadá, US GBC LEED, DAMA-DMBOK; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- **Round 86 COMPLETA (13/13 temas).** Cola Round 86 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 87 o pausar.
+
+## ÍNDICE DE PROGRESO (acumulado)
+| **Tópicos ingeridos (acumulado): 1221** (Round 85: 1208; Round 86: 1221/13 nuevas). |
+| **Rondas:** 86 completas (Round 1..86). |
+| **Nodos sustrato (NA):** México 97 (+inteligencia-artificial), EE.UU. 82 (+inteligencia-artificial), Canadá 76 (+economia-digital). |
+| **Nodos dominio:** ~341 (Round 86 +5: metalurgia, construccion-sostenible, plantas-industriales, arquitectura-de-datos, etica-de-negocios). |
+| **Nodos rol:** ~309 (Round 86 +5: head-of-network-security, head-of-career-development, head-of-supply-chain, head-of-revenue-strategy, head-of-data-strategy). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+| **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
+| **Iteraciones totales:** 224. |
+
+## ESTADO
+| - **Iteracion actual:** 224 (Round 86 COMPLETA — 13/13 ingestados e integrados). |
+| - **Ultima accion:** Round 86 iter 224 — gap_analysis.py (0 huecos) → taxonomia extendida Round 86 (3 deepenings NA inteligencia-artificial MX/US + economia-digital CA + 10 nodos nuevos dominio/rol metalurgia/construccion-sostenible/plantas-industriales/arquitectura-de-datos/etica-de-negocios + roles network-security/career-development/supply-chain/revenue-strategy/data-strategy). CORRECCIÓN dedup: 13 slugs iniciales ya existían → reemplazados por libres (0 duplicados). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (pagina plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 86 COMPLETA (13/13). |
+
+## PROXIMA TAREFA
+- Round 86 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 87) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).

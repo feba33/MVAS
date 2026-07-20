@@ -2231,3 +2231,22 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-environmental-health-safety](rol/head-of-environmental-health-safety.md) — Head of EHS: salud ocupacional, seguridad, medio ambiente, ISO 45001/14001 · ehs,salud-ocupacional,seguridad,iso-45001 · 2026-07-19
 - [head-of-export-control](rol/head-of-export-control.md) — Head of Export Control: ITAR/EAR, dual-use, controles de defensa · export-control,itar,ear,dual-use,defensa · 2026-07-19
 - [head-of-manufacturing-engineering](rol/head-of-manufacturing-engineering.md) — Head of Manufacturing Engineering: procesos, NPI, lean, automatización, calidad · manufacturing-engineering,procesos,npi,lean,calidad · 2026-07-19
+
+### sustrato Round 86 (deepening NA)
+- [inteligencia-artificial](sustrato/mexico/inteligencia-artificial.md) — IA México: CONAHCYT/SECIHTI, estrategia nacional, INAI, adopción · mexico,inteligencia-artificial,conahcyt,inai,adopcion · 2026-07-19
+- [inteligencia-artificial](sustrato/estados-unidos/inteligencia-artificial.md) — IA EE.UU.: NIST AI RMF, EO 14110, OMB, liderazgo en foundation models · estados-unidos,inteligencia-artificial,nist,eo-14110,rmf · 2026-07-19
+- [economia-digital](sustrato/canada/economia-digital.md) — Economía digital Canadá: ISED, comercio electrónico, ID digital, privacidad · canada,economia-digital,ised,comercio-electronico,id-digital · 2026-07-19
+
+### dominio Round 86 (nuevos)
+- [metalurgia](dominio/metalurgia.md) — Metalurgia: extracción, fundición, aleaciones, acero/aluminio/cobre · metalurgia,fundicion,aleaciones,acero,ingenieria-materiales · 2026-07-19
+- [construccion-sostenible](dominio/construccion-sostenible.md) — Construcción sostenible: LEED/BREEAM, eficiencia energética, materiales bajos en carbono · construccion-sostenible,leed,breeam,eficiencia-energetica · 2026-07-19
+- [plantas-industriales](dominio/plantas-industriales.md) — Plantas industriales: diseño de instalaciones, procesos, utilidades, layout · plantas-industriales,ingenieria,procesos,layout,mantenimiento · 2026-07-19
+- [arquitectura-de-datos](dominio/arquitectura-de-datos.md) — Arquitectura de datos: modelado, data lakes/warehouses, gobierno, integración · arquitectura-de-datos,data-lake,modelado,gobierno · 2026-07-19
+- [etica-de-negocios](dominio/etica-de-negocios.md) — Ética de negocios: códigos de conducta, anticorrupción, cultura, RSE · etica-negocios,compliance,anticorrupcion,rse,gobierno-corporativo · 2026-07-19
+
+### rol Round 86 (nuevos)
+- [head-of-network-security](rol/head-of-network-security.md) — Head of Network Security: firewalls, IDS/IPS, zero trust networking, NOC/SOC · network-security,firewalls,zero-trust,noc-soc · 2026-07-19
+- [head-of-career-development](rol/head-of-career-development.md) — Head of Career Development: planes de carrera, movilidad interna, sucesión, mentoring · career-development,planes-carrera,sucesion,mentoring · 2026-07-19
+- [head-of-supply-chain](rol/head-of-supply-chain.md) — Head of Supply Chain: estrategia de cadena, sourcing, planeación, riesgo · supply-chain,sourcing,planeacion,riesgo-cadena · 2026-07-19
+- [head-of-revenue-strategy](rol/head-of-revenue-strategy.md) — Head of Revenue Strategy: estrategia de ingresos, pricing/GTM, analítica de revenue · revenue-strategy,pricing,gtm,analitica-ingresos · 2026-07-19
+- [head-of-data-strategy](rol/head-of-data-strategy.md) — Head of Data Strategy: estrategia de datos, monetización, arquitectura, gobierno · data-strategy,monetizacion-datos,gobierno,arquitectura · 2026-07-19
