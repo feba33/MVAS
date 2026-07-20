@@ -3301,3 +3301,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 
 ## PROXIMA TAREFA
 - Round 91 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 92) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado).
+
+## ✅ COLA ROUND 92 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 228→229) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 92 (scripts/gap_analysis.py): 3 deepenings NA (mexico/estados-unidos/canada → derecho-procesal-civil) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_92). Todos los 13 slugs verificados como NO existentes (dedup previo; 0 duplicados). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/derecho-procesal-civil — Derecho procesal civil México (juicio ordinario/verbal, pruebas, recursos, amparo indirecto)
+- [x] sustrato/estados-unidos/derecho-procesal-civil — Civil procedure EE.UU. (FRCP, discovery, summary judgment, jury/bench trial, appeal)
+- [x] sustrato/canada/derecho-procesal-civil — Civil procedure Canadá (reglas provinciales/federales, discovery, common law vs Quebec civil law)
+### Dominio (nuevos nodos)
+- [x] dominio/politica-economica — Política económica (fiscal, monetaria, comercial, industrial; estabilización macro)
+- [x] dominio/derecho-familia — Derecho de familia (matrimonio, divorcio, custodia, alimentos, adopción, sucesiones)
+- [x] dominio/metal-mecanica — Metalmecánica (mecanizado CNC, estampado, conformado, maquinaria)
+- [x] dominio/logistica-de-materias-primas — Logística de materias primas (graneles, almacenamiento, cadenas de insumos)
+- [x] dominio/gestion-de-portafolio — Gestión de portafolio (PMO, priorización, value realization)
+- [x] dominio/inversiones-alternativas — Inversiones alternativas (PE/VC, hedge funds, real assets, commodities)
+- [x] dominio/biotecnologia-marina — Biotecnología marina (bioprospección, acuicultura biotecnológica, fármacos/cosmética/bioplásticos)
+- [x] dominio/derecho-de-los-contratos-publicos — Derecho de los contratos públicos (licitaciones, adjudicación, ejecución, impugnaciones)
+### Rol (nuevos nodos)
+- [x] rol/head-of-fp-and-a — Head of FP&A (planeación financiera, presupuesto, forecast rodante, variaciones; reporta a CFO)
+- [x] rol/head-of-renewals — Head of Renewals (retención/expansión de contratos recurrentes, CRR/churn, forecasting)
+
+### ITER 229 — Round 92 (2026-07-20)
+- gap_analysis.py (iter 228→229) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 92 (scripts/gap_analysis.py): 3 deepenings NA (mexico/estados-unidos/canada → derecho-procesal-civil) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_92). Todos los 13 slugs verificados no-existentes (dedup previo; 0 duplicados).
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] sustrato/mexico/derecho-procesal-civil.md, sustrato/estados-unidos/derecho-procesal-civil.md, sustrato/canada/derecho-procesal-civil.md (3 deepenings NA).
+  - [dominio] politica-economica, derecho-familia, metal-mecanica, logistica-de-materias-primas, gestion-de-portafolio, inversiones-alternativas, biotecnologia-marina, derecho-de-los-contratos-publicos (8 nuevos nodos).
+  - [rol] head-of-fp-and-a, head-of-renewals (2 nuevos nodos).
+- Reference-only (Wikipedia EN/ES + autoridades: SCJN/INEA, FRCP/cornell, CanLII, OCDE, IMPI, SEC/CAIA, NOAA/aquaculture, OMC; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- NOTA: las 13 páginas + index.md + gap_analysis.py ya estaban escritos en disco (corrida anterior, sin commitear); esta iter 229 cierra la integración: añade entrada a log.md, actualiza working.md, y commitea todo.
+- **Round 92 COMPLETA (13/13 temas).** Cola Round 92 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 93 o pausar.
+
+## ÍNDICE DE PROGRESO (acumulado)
+| **Tópicos ingeridos (acumulado): 1286** (Round 91: 1273; Round 92: 1286/13 nuevas). |
+| **Rondas:** 92 completas (Round 1..92). |
+| **Nodos sustrato (NA):** México 100 (+derecho-procesal-civil), EE.UU. 85 (+derecho-procesal-civil), Canadá 79 (+derecho-procesal-civil). |
+| **Nodos dominio:** ~375 (Round 92 +8: politica-economica, derecho-familia, metal-mecanica, logistica-de-materias-primas, gestion-de-portafolio, inversiones-alternativas, biotecnologia-marina, derecho-de-los-contratos-publicos). |
+| **Nodos rol:** ~336 (Round 92 +2: head-of-fp-and-a, head-of-renewals). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+| **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
+| **Iteraciones totales:** 229. |
+
+## ESTADO
+| - **Iteracion actual:** 229 (Round 92 COMPLETA — 13/13 ingestados e integrados). |
+| - **Ultima accion:** Round 92 iter 229 — gap_analysis.py (0 huecos) → taxonomia extendida Round 92 (3 deepenings NA derecho-procesal-civil + 10 nodos nuevos dominio/rol). 13 paginas (3 sustrato NA + 8 dominio + 2 rol) ya escritas en corrida previa; esta iter cierra integración (log.md + working.md) y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 92 COMPLETA (13/13). |
+
+## PROXIMA TAREFA
+- Round 92 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 93) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).

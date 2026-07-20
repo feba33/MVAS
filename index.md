@@ -85,6 +85,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [energia-hidrocarburos](sustrato/mexico/energia-hidrocarburos.md) — Energía e hidrocarburos México: PEMEX, CNH, upstream/downstream, gas, refino · 🏷️ mexico,energia,hidrocarburos,pemex,cnh,regulacion,gas,refino · 📅 2026-07-18
 - [economia-servicios](sustrato/mexico/economia-servicios.md) — Economía de servicios México: sector terciario, comercio/turismo/financiero, peso en PIB, informalidad · 🏷️ mexico,economia,servicios,sector-terciario,pib,informalidad · 📅 2026-07-18
 - [observatorio](sustrato/mexico/observatorio.md) — Observatorio México: INEGI/SNIEG, cuentas nacionales, censos, México en Cifras, datos abiertos; vs transparencia/gobierno-digital · 🏷️ mexico,inegi,observatorio,estadisticas,datos-oficiales,snieg,censos · 📅 2026-07-19
+- [derecho-procesal-civil](sustrato/mexico/derecho-procesal-civil.md) — Derecho procesal civil México: juicio ordinario/verbal, pruebas, recursos, amparo (directo/indirecto) · 🏷️ mexico,derecho-procesal-civil,litigio,amparo,juicio-ordinario · 📅 2026-07-20
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -146,6 +147,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [telecomunicaciones-5g](sustrato/estados-unidos/telecomunicaciones-5g.md) — Telecomunicaciones 5G EE.UU.: FCC, C-band, BEAD, Open RAN, despliegue · 🏷️ estados-unidos,telecomunicaciones,5g,fcc,espectro,banda-ancha · 📅 2026-07-18
 - [clima](sustrato/estados-unidos/clima.md) — Clima EE.UU.: EPA, NOAA, política climática, descarbonización, resiliencia · 🏷️ estados-unidos,clima,epa,noaa,descarbonizacion,resiliencia · 📅 2026-07-18
 - [derechos-humanos](sustrato/estados-unidos/derechos-humanos.md) — Derechos humanos EE.UU.: Bill of Rights, 14ª Enmienda, Civil Rights Act, judicial review; vs derechos-civiles · 🏷️ estados-unidos,derechos-humanos,bill-of-rights,civil-rights,constitucion · 📅 2026-07-19
+- [derecho-procesal-civil](sustrato/estados-unidos/derecho-procesal-civil.md) — Civil procedure EE.UU.: Federal Rules, discovery, summary judgment, jury/bench trial, appeal · 🏷️ estados-unidos,civil-procedure,litigation,discovery,frcp · 📅 2026-07-20
 
 ### sustrato/canada
 - [corporativo](sustrato/canada/corporativo.md) — Derecho corporativo Canadá: CBCA · 🏷️ canada,cbca · 📅 2026-07-09
@@ -199,6 +201,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [turismo](sustrato/canada/turismo.md) — Turismo Canadá: Destination Canada, >20M turistas/año, $100B PIB 2024, ~1.8M empleos, turismo interior · 🏷️ canada,turismo,destination-canada,turismo-interior,parques,hospitalidad · 📅 2026-07-17
 - [economia-creativa](sustrato/canada/economia-creativa.md) — Economía creativa Canadá: industrias culturales, política CanCon (CRTC/CAVCO/Telefilm), crédito fiscal, Online Streaming Act · 🏷️ canada,economia-creativa,industrias-culturales,cancon,telefilm,crédito-fiscal,politica-cultural · 📅 2026-07-17
 - [derechos-humanos](sustrato/canada/derechos-humanos.md) — Derechos humanos Canadá: Carta de Derechos y Libertades (1982), CHRC, Canadian Human Rights Act; vs pueblos-indigenas · 🏷️ canada,derechos-humanos,carta-de-derechos,chrc,comision-canadiense · 📅 2026-07-19
+- [derecho-procesal-civil](sustrato/canada/derecho-procesal-civil.md) — Civil procedure Canadá: reglas provinciales/federales, discovery, common law vs Quebec civil law · 🏷️ canada,civil-procedure,litigation,quebec,common-law · 📅 2026-07-20
 
 ### sustrato/brasil
 - [corporativo](sustrato/brasil/corporativo.md) — Derecho corporativo Brasil: Lei das S.A. · 🏷️ brasil,lei-sa · 📅 2026-07-09
@@ -420,6 +423,30 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [construccion](dominio/construccion/construccion.md) — Construcción AEC: ciclo de proyecto, contratación, costos, tendencias · 🏷️ construccion,ingenieria,infraestructura,proyectos · 📅 2026-07-11
 - [derecho-de-la-construccion](dominio/derecho-de-la-construccion.md) — Derecho de la construcción: contratos, licencias, responsabilidad, litigios de obra · 🏷️ derecho,construccion,contratos,litigios,licencias,responsabilidad · 📅 2026-07-20
 
+### dominio/politica-economica
+- [politica-economica](dominio/politica-economica/politica-economica.md) — Política económica: fiscal, monetaria, comercial, industrial; estabilización y efectos macro · 🏷️ politica-economica,macroeconomia,fiscal,monetaria,politica-publica · 📅 2026-07-20
+
+### dominio/derecho-familia
+- [derecho-familia](dominio/derecho-familia/derecho-familia.md) — Derecho de familia: matrimonio, divorcio, custodia, alimentos, adopción, sucesiones · 🏷️ derecho-familia,derecho-civil,divorcio,custodia,sucesiones · 📅 2026-07-20
+
+### dominio/metal-mecanica
+- [metal-mecanica](dominio/metal-mecanica/metal-mecanica.md) — Metalmecánica: mecanizado CNC, estampado, conformado, maquinaria · 🏷️ metal-mecanica,manufactura,mecanizado,cnc,automotriz · 📅 2026-07-20
+
+### dominio/logistica-de-materias-primas
+- [logistica-de-materias-primas](dominio/logistica-de-materias-primas/logistica-de-materias-primas.md) — Logística de materias primas: graneles, almacenamiento, cadenas de insumos · 🏷️ logistica-materias-primas,cadena-suministro,commodities,graneles · 📅 2026-07-20
+
+### dominio/gestion-de-portafolio
+- [gestion-de-portafolio](dominio/gestion-de-portafolio/gestion-de-portafolio.md) — Gestión de portafolio: PMO, priorización, value realization, governance · 🏷️ gestion-de-portafolio,pmo,estrategia,priorizacion,proyectos · 📅 2026-07-20
+
+### dominio/inversiones-alternativas
+- [inversiones-alternativas](dominio/inversiones-alternativas/inversiones-alternativas.md) — Inversiones alternativas: PE/VC, hedge funds, real assets, commodities · 🏷️ inversiones-alternativas,private-equity,hedge-funds,real-assets,activos · 📅 2026-07-20
+
+### dominio/biotecnologia-marina
+- [biotecnologia-marina](dominio/biotecnologia-marina/biotecnologia-marina.md) — Biotecnología marina: bioprospección, acuicultura biotecnológica, fármacos/cosmética/bioplásticos · 🏷️ biotecnologia-marina,blue-biotech,acuicultura,bioprospeccion · 📅 2026-07-20
+
+### dominio/derecho-de-los-contratos-publicos
+- [derecho-de-los-contratos-publicos](dominio/derecho-de-los-contratos-publicos/derecho-de-los-contratos-publicos.md) — Derecho de los contratos públicos: licitaciones, adjudicación, ejecución, impugnaciones · 🏷️ contratos-publicos,licitaciones,contratacion-publica,administrativo · 📅 2026-07-20
+
 ### rol/
 - [head-of-customer-communications-mx](rol/head-of-customer-communications-mx.md) — Head of Customer Communications: comms a la base de clientes, lifecycle, notificaciones, crisis de producto · 🏷️ head-of-customer-communications,customer-comms,lifecycle,notificaciones,crisis · 📅 2026-07-19
 - [head-of-technical-writing](rol/head-of-technical-writing.md) — Head of Technical Writing: redacción técnica, API docs, knowledge base, estilo · 🏷️ head-of-technical-writing,technical-writing,docs,api-docs,knowledge-base · 📅 2026-07-19
@@ -434,6 +461,8 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-ecosystem](rol/head-of-ecosystem.md) — Head of Ecosystem: socios, alianzas tecnológicas, co-innovación, red de efectos · 🏷️ rol,ecosystem,partnerships,alianzas,co-innovacion,canales · 📅 2026-07-20
 - [head-of-developer-relations](rol/head-of-developer-relations.md) — Head of Developer Relations (DevRel): comunidad dev, evangelismo, programas · 🏷️ rol,devrel,developer-relations,comunidad,evangelismo,developers · 📅 2026-07-20
 - [head-of-vendor-risk](rol/head-of-vendor-risk.md) — Head of Vendor Risk: TPRM, due diligence, monitoreo de terceros, contratos · 🏷️ rol,vendor-risk,tprm,terceros,due-diligence,proveedores · 📅 2026-07-20
+- [head-of-fp-and-a](rol/head-of-fp-and-a/head-of-fp-and-a.md) — Head of FP&A: planeación financiera, presupuesto, forecast rodante, análisis de variaciones; reporta al CFO · 🏷️ head-of-fp-and-a,fpa,presupuesto,forecast,cfo · 📅 2026-07-20
+- [head-of-renewals](rol/head-of-renewals/head-of-renewals.md) — Head of Renewals: retención/expansión de contratos recurrentes, CRR/churn, forecasting de renovaciones · 🏷️ head-of-renewals,renewals,retencion,churn,customer-success · 📅 2026-07-20
 
 ### dominio/turismo
 - [turismo](dominio/turismo/turismo.md) — Turismo y hospitalidad: industria, segmentos, cadena de valor, sostenibilidad · 🏷️ turismo,hospitalidad,travel,horeca,sostenibilidad · 📅 2026-07-11

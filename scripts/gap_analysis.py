@@ -1683,6 +1683,26 @@ NEW_NODES_ROUND_91 = [
 NEW_NODES = NEW_NODES_ROUND_91
 
 
+# Round 92 (iter 229) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+# Alcance sustrato: solo Norteamérica (MX/US/CA). Dominio/rol generales (agnósticos de país).
+TAXONOMY["sustrato/mexico"].append(("derecho-procesal-civil", "Derecho procesal civil México (profundizacion): juicio ordinario/verbal, pruebas, apelacion, amparo indirecto, vs derecho-civil/derecho-procesal"))
+TAXONOMY["sustrato/estados-unidos"].append(("derecho-procesal-civil", "Derecho procesal civil EE.UU. (profundizacion): Federal Rules of Civil Procedure, discovery, motion practice, jury trials, vs derecho-civil"))
+TAXONOMY["sustrato/canada"].append(("derecho-procesal-civil", "Derecho procesal civil Canada (profundizacion): reglas provinciales/federales, discovery, motions, vs derecho-civil"))
+NEW_NODES_ROUND_92 = [
+    ("dominio/politica-economica", "Politica economica / economic policy: fiscal, monetaria, comercial, industrial; efectos macro, instrumentos, vs economia/finanzas-publicas"),
+    ("dominio/derecho-familia", "Derecho de familia: matrimonio, divorcio, custodia, alimentos, sucesiones familiares, adopcion, vs derecho-civil"),
+    ("dominio/metal-mecanica", "Metal-mecanica / metalworking: maquinaria, herramentales, mecanizado (CNC), estampado, vs manufactura/metalurgia/automotriz"),
+    ("dominio/logistica-de-materias-primas", "Logistica de materias primas / commodity logistics: graneles, almacenamiento, transporte de carga pesada, cadenas de insumos, vs logistica/agronegocios/mineria"),
+    ("dominio/gestion-de-portafolio", "Gestion de portafolio / portfolio management (empresarial): PMO, seleccion de iniciativas, priorizacion, value realization, vs estrategia/evaluacion-de-proyectos"),
+    ("dominio/inversiones-alternativas", "Inversiones alternativas / alternative investments: private equity, hedge funds, real assets, infraestructura, vs gestion-de-activos/finanzas"),
+    ("dominio/biotecnologia-marina", "Biotecnologia marina / blue biotech: organismos marinos, bioprospeccion, acuicultura biotecnologica, aplicaciones (farmacos, cosmeticos, bioplasticos), vs biotecnologia/biotecnologia-industrial"),
+    ("dominio/derecho-de-los-contratos-publicos", "Derecho de los contratos publicos: licitaciones, adjudicacion, ejecucion de contratos estatales, impugnaciones, vs contratacion-publica/derecho-administrativo"),
+    ("rol/head-of-fp-and-a", "Head of FP&A: lidera planificacion financiera, presupuesto, forecast, analisis de variaciones, vs fp-and-a-manager/cfo"),
+    ("rol/head-of-renewals", "Head of Renewals: retencción y renovacion de contratos recurrentes, expansion, churn, vs customer-success/head-of-customer-success"),
+]
+NEW_NODES = NEW_NODES_ROUND_92
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):
