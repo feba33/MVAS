@@ -1,39 +1,36 @@
 ---
 titulo: Head of Quality Engineering
 capa: rol
-tema: calidad
-fuente: https://www.istqb.org/ (International Software Testing Qualifications Board)
-fuente2: https://www.agilealliance.org/ (Agile / shift-left testing)
-fecha: 2026-07-19
-confianza: alta
-tags: [calidad, ingenieria, testing, rol]
-organizaciones: [istqb, agile-alliance]
+tema: head-of-quality-engineering
+fuente: https://en.wikipedia.org/wiki/Software_quality_assurance
+fuente2: https://en.wikipedia.org/wiki/Test_automation
+fecha: 2026-07-20
+confianza: media
+tags: [rol, qa, calidad, testing, automatizacion, ingenieria]
+rol: [head-of-quality-engineering]
+actividades: [qa, automatizacion, calidad-de-producto]
+organizaciones: []
+responsabilidades: [estrategia de calidad, automatizacion]
+tareas: []
 profundidad: 2
 estado: profundo
 ---
 
-# Head of Quality Engineering (QE)
+# Head of Quality Engineering
 
-El **Head of Quality Engineering** lidera la disciplina que integra calidad en el
-ciclo de vida del software: automatización de pruebas, *shift-left*, y aseguramiento
-de la calidad del producto. Evoluciona el rol tradicional de QA hacia ingeniería.
+El **Head of Quality Engineering** lidera la estrategia de calidad del
+producto: QA, automatización de pruebas y cultura de calidad "shift-left".
 
 ## Responsabilidades
-- Estrategia de **pruebas automatizadas** (unit, integration, E2E) y *test pyramid*.
-- **Shift-left**: calidad desde el diseño; revisión de código, CI/CD *gates*.
-- **Observabilidad de calidad**: métricas de defectos, flakiness, cobertura.
-- **Performance/security testing** integrado al pipeline (no en silo).
-- Liderar el equipo de *SDETs* (Software Development Engineers in Test) y QA.
+- **Estrategia de QA:** piramide de pruebas, cobertura, gate de release.
+- **Automatización:** frameworks, CI/CD testing, performance/security tests.
+- **Calidad de producto:** métricas, defect escape, SLA de calidad.
+- **Cultura:** calidad como responsabilidad de todo el equipo.
 
-## Perfil
-- Background en ingeniería de software + testing; certificaciones ISTQB.
-- Conocimiento de herramientas: Selenium/Playwright/Cypress, JUnit, SonarQube,
-  pipelines CI/CD.
+## Posición
+- Reporta a Engineering / CTO.
+- vs `rol/qa-engineer` (individual) y `dominio/computacion/testing-qa`.
 
-## Relación con otras capas
-- vs `rol/head-of-qa`, `rol/quality-manager`, `rol/head-of-engineering-productivity`.
-- Converge con `dominio/gestion-de-la-calidad-software`, `dominio/gestion-de-la-calidad`.
-
-## Referencias
-- ISTQB: Certified Tester syllabi.
-- Agile Alliance: Shift-left testing.
+## Cross-refs
+- `rol/qa-engineer`, `dominio/computacion/testing-qa`, `rol/cto`,
+  `rol/engineering-manager`, `dominio/calidad`, `rol/chief-quality-officer`.

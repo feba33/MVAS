@@ -2,36 +2,39 @@
 titulo: Analítica web
 capa: dominio
 tema: analitica-web
-fuente: https://support.google.com/analytics/answer/10089681
-fuente2: https://en.wikipedia.org/wiki/Web_analytics
-fecha: 2026-07-18
+fuente: https://en.wikipedia.org/wiki/Web_analytics
+fuente2: https://en.wikipedia.org/wiki/Google_Analytics
+fecha: 2026-07-20
 confianza: alta
-tags: [analitica, web, ga4, conversion, comportamiento, marketing-digital]
-organizaciones: [Google, Adobe, W3C]
+tags: [analitica, web, ga4, atribucion, marketing, dominio]
+rol: [head-of-growth, marketing-manager, data-analyst, head-of-performance-marketing]
+actividades: [medicion, atribucion, optimizacion]
+organizaciones: []
+responsabilidades: [medicion digital]
+tareas: []
+profundidad: 2
+estado: profundo
 ---
 
 # Analítica web
 
-La **analítica web** mide y analiza el comportamiento de los usuarios en sitios
-y apps para optimizar conversiones. Conecta `analitica-marketing.md` e
-`inteligencia-de-negocio.md`.
+La **analítica web** es la medición, recolección, análisis y reporte de datos
+web para entender y optimizar el uso del sitio. No es solo tráfico: es
+investigación de mercado y mejora de efectividad del sitio.
 
-## Herramientas y metodología
-- **GA4** (Google Analytics 4): modelo basado en eventos, privacy-first,
-  integración con Google Ads; reemplaza a Universal Analytics.
-- **Tag management** (GTM): despliegue de etiquetas sin tocar código.
-- **Heatmaps / session replay** (Hotjar, etc.) para UX; **A/B testing** para
-  experimentación.
+## Componentes
+- **Herramientas:** Google Analytics 4 (GA4), Adobe Analytics, Tag Managers.
+- **Eventos / embudos:** comportamiento de usuario, conversión.
+- **Atribución digital:** modelos de crédito multi-canal (ver
+  `dominio/marketing/analitica-marketing`).
+- **Experimentación:** A/B testing, personalización.
 
-## Métricas clave
-- **Adquisición**: fuentes de tráfico (orgánico, paid, social, directo).
-- **Comportamiento**: páginas vistas, rebote, tiempo en sitio, flujos.
-- **Conversión**: objetivos, embudos (*funnels*), tasa de conversión, valor.
+## Casos de uso
+- Estimar cambios de tráfico tras campañas (online/offline).
+- Optimizar CRO (ver `dominio/marketing/cro`, `dominio/comercio-electronico`).
+- Medir adquisición, retención, engagement.
 
-## Privacidad
-- Consentimiento (GDPR/CPRA), cookie-less y modelo de consented data; ver
-  `proteccion-de-datos.md` y `analitica-marketing.md`.
-
-## Referencias transversales
-- `analitica-marketing.md`, `marketing-digital.md`, `inteligencia-de-negocio.md`
-- `comportamiento-del-consumidor.md`, `proteccion-de-datos.md`, `seo` (marketing)
+## Cross-refs
+- `dominio/marketing/analitica-marketing`, `dominio/analitica-de-negocio`,
+  `dominio/comercio-electronico`, `dominio/marketing-de-performance`,
+  `rol/head-of-growth`, `rol/data-analyst`.

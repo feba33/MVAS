@@ -3249,3 +3249,55 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 
 ## PROXIMA TAREFA
 - Round 90 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 91) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado).
+
+## ✅ COLA ROUND 91 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 227→228) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 91 (scripts/gap_analysis.py): 3 deepenings NA (mexico/salud-digital, estados-unidos/educacion-superior, canada/comercio-digital) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_91). Dedup: 11 slugs ya existentes reemplazados; 3 deepenings originales ya existían → reemplazados. Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/salud-digital — Salud digital México (telemedicina, receta electrónica, COFEPRIS, ECE)
+- [x] sustrato/estados-unidos/educacion-superior — Educación superior EE.UU. (universidades, community colleges, acreditación, FAFSA/Pell)
+- [x] sustrato/canada/comercio-digital — Comercio digital Canadá (e-commerce, ISED, protección al consumidor en línea)
+### Dominio (nuevos nodos)
+- [x] dominio/juridico-corporativo — Jurídico corporativo (M&A, gobernanza, contratos, cumplimiento)
+- [x] dominio/gestion-de-talento — Gestión del talento (atracción, desarrollo, retención, sucesión)
+- [x] dominio/educacion-continua — Educación continua (upskilling, e-learning, academias)
+- [x] dominio/design-thinking — Design thinking (empatizar-definir-idear-prototipar-probar)
+- [x] dominio/auditoria-forense — Auditoría forense (fraude, investigación financiera, litigio)
+- [x] dominio/compensacion-beneficios — Compensación y beneficios (salario, variable, beneficios, equity)
+- [x] dominio/outsourcing — Outsourcing (ITO/BPO/KPO, nearshore, gestión de proveedores)
+- [x] dominio/comercio-electronico — Comercio electrónico (marketplaces, D2C, pagos, fulfillment)
+- [x] dominio/analitica-web — Analítica web (GA4, eventos, embudos, atribución)
+- [x] dominio/gobierno-de-ti — Gobierno de TI (COBIT, alineación TI-negocio, riesgo de TI)
+### Rol (nuevos nodos)
+- [x] rol/head-of-digital-workplace — Head of Digital Workplace (colaboración, intranet, experiencia empleado)
+- [x] rol/head-of-risk-analytics — Head of Risk Analytics (modelos de riesgo, scoring, stress testing)
+- [x] rol/head-of-learning — Head of Learning (L&D, diseño de aprendizaje, academias)
+- [x] rol/head-of-ux-research — Head of UX Research (metodología, insights, discovery)
+- [x] rol/head-of-sales-operations — Head of Sales Operations (CRM, forecast, comp plan)
+- [x] rol/head-of-people-partner — Head of People Partner (HRBP, socio de negocio RRHH)
+- [x] rol/head-of-customer-experience — Head of Customer Experience (CX, journey, NPS)
+- [x] rol/head-of-product-marketing — Head of Product Marketing (PMM, GTM, posicionamiento)
+- [x] rol/head-of-corporate-communications — Head of Corporate Communications (comms, medios, crisis)
+- [x] rol/head-of-quality-engineering — Head of Quality Engineering (QA, automatización, calidad)
+
+### ITER 228 — Round 91 (2026-07-20)
+- gap_analysis.py (iter 227→228) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 91 (scripts/gap_analysis.py): 3 deepenings NA (mexico/salud-digital, estados-unidos/educacion-superior, canada/comercio-digital) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_91). Dedup: 11 slugs ya existentes + 3 deepenings duplicados → reemplazados por frescos; 13 slugs finales verificados NO existentes (0 duplicados).
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] sustrato/mexico/salud-digital.md, sustrato/estados-unidos/educacion-superior.md, sustrato/canada/comercio-digital.md (3 deepenings NA).
+  - [dominio] juridico-corporativo, gestion-de-talento, educacion-continua, design-thinking, auditoria-forense, compensacion-beneficios, outsourcing, comercio-electronico, analitica-web, gobierno-de-ti (10 nuevos).
+  - [rol] head-of-digital-workplace, head-of-risk-analytics, head-of-learning, head-of-ux-research, head-of-sales-operations, head-of-people-partner, head-of-customer-experience, head-of-product-marketing, head-of-corporate-communications, head-of-quality-engineering (10 nuevos).
+- Reference-only: Wikipedia (EN/ES) + autoridades sectoriales (COFEPRIS/Secretaría de Salud, ed.gov, ISED Canada, ISACA/COBIT). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 MX + 1 US + 1 CA).
+- Bloqueos: ninguno.
+- COLA: Round 91 COMPLETA (13/13).
+
+## ÍNDICE DE PROGRESO (acumulado)
+| **Tópicos ingeridos (acumulado): 1273** (Round 90: 1260; Round 91: 1273/13 nuevas). |
+| **Rondas:** 91 completas (Round 1..91). |
+| **Nodos sustrato (NA):** México 100 (+salud-digital), EE.UU. 85 (+educacion-superior), Canadá 79 (+comercio-digital). |
+| **Nodos dominio:** ~367 (Round 91 +10: juridico-corporativo, gestion-de-talento, educacion-continua, design-thinking, auditoria-forense, compensacion-beneficios, outsourcing, comercio-electronico, analitica-web, gobierno-de-ti). |
+| **Nodos rol:** ~334 (Round 91 +10: head-of-digital-workplace, head-of-risk-analytics, head-of-learning, head-of-ux-research, head-of-sales-operations, head-of-people-partner, head-of-customer-experience, head-of-product-marketing, head-of-corporate-communications, head-of-quality-engineering). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+| **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
+| **Iteraciones totales:** 228. |
+
+## PROXIMA TAREFA
+- Round 91 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 92) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado).

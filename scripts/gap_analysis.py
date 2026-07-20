@@ -1653,6 +1653,36 @@ NEW_NODES_ROUND_90 = [
 NEW_NODES = NEW_NODES_ROUND_90
 
 
+# Round 91 (iter 228) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+# Alcance sustrato: solo Norteamérica (MX/US/CA). Dominio/rol generales (agnósticos de país).
+TAXONOMY["sustrato/mexico"].append(("salud-digital", "Salud digital Mexico (profundizacion): eSalud, telemedicina, Cofepris digital, expediente clinico electronico, vs salud/healthtech"))
+TAXONOMY["sustrato/estados-unidos"].append(("educacion-superior", "Educacion superior EE.UU. (profundizacion): universidades, acreditacion regional, community colleges, FAFSA/Pell, investigacion, vs educacion"))
+TAXONOMY["sustrato/canada"].append(("comercio-digital", "Comercio digital Canada (profundizacion): e-commerce, politica digital, ISED, proteccion al consumidor en linea, vs economia-digital/comercio"))
+NEW_NODES_ROUND_91 = [
+    ("dominio/juridico-corporativo", "Juridico corporativo / corporate law (disciplina): M&A, gobernanza, contratos, cumplimiento, secretaria corporativa, vs juridico/derecho-societario"),
+    ("dominio/gestion-de-talento", "Gestion del talento / talent management: atraccion, desarrollo, retencion, sucesion, movilidad, vs recursos-humanos/head-of-people"),
+    ("dominio/educacion-continua", "Educacion continua / lifelong learning: upskilling, cursos, certificaciones, corporativo, vs educacion/cultura-organizacional"),
+    ("dominio/design-thinking", "Design thinking: metodologia centrada en humanos, empathize-define-ideate-prototype-test, vs service-design/ux-research"),
+    ("dominio/auditoria-forense", "Auditoria forense / forensic audit: fraude, investigacion financiera, litigio, evidencias, vs contabilidad-forense/auditoria-interna"),
+    ("dominio/compensacion-beneficios", "Compensacion y beneficios / compensation & benefits: salario, variables, prestaciones, equity, retencion, vs recursos-humanos/gestion-de-talento"),
+    ("dominio/outsourcing", "Outsourcing / tercerizacion: ITO/BPO/KPO, Nearshore, gestión de proveedores, vs operaciones/servicios-profesionales"),
+    ("dominio/comercio-electronico", "Comercio electronico / e-commerce: marketplaces, D2C, pagos, fulfillment, CRO de checkout, vs retail/marketing-de-performance"),
+    ("dominio/analitica-web", "Analitica web / web analytics: GA4, eventos, embudos, atribucion digital, vs analitica-marketing/analitica-de-negocio"),
+    ("dominio/gobierno-de-ti", "Gobierno de TI / IT governance: COBIT, alineacion TI-negocio, valor de TI, riesgo de TI, vs arquitectura-empresarial/auditoria-de-sistemas"),
+    ("rol/head-of-digital-workplace", "Head of Digital Workplace: colaboracion, intranet, herramientas digitales, experiencia empleado, vs head-of-it-operations/head-of-facilities"),
+    ("rol/head-of-risk-analytics", "Head of Risk Analytics: modelo de riesgo, credito/mercado/operativo, scoring, stress testing, vs head-of-risk/analitica-financiera"),
+    ("rol/head-of-learning", "Head of Learning: L&D, diseno de aprendizaje, academias corporativas, vs chief-learning-officer/head-of-career-development"),
+    ("rol/head-of-ux-research", "Head of UX Research: lidera disciplina de research, metodologia, insights, vs ux-ui-lead/head-of-design-research"),
+    ("rol/head-of-customer-experience", "Head of Customer Experience: CX, journey, satisfaccion, NPS, voz del cliente, vs chief-experience-officer/customer-success-lead"),
+    ("rol/head-of-product-marketing", "Head of Product Marketing: lidera PMM/GTM, posicionamiento, mensaje, enablement de ventas, vs product-marketing-manager/marketing-manager"),
+    ("rol/head-of-corporate-communications", "Head of Corporate Communications: comms corporativas, relaciones con medios, crisis, reputacion, vs chief-communications-officer/head-of-public-affairs"),
+    ("rol/head-of-sales-operations", "Head of Sales Operations: CRM, forecast, comp plan, analitica de ventas, vs head-of-revops/sales-lead"),
+    ("rol/head-of-people-partner", "Head of People Partner: HRBP, socio de negocio de RRHH, consultoria interna, vs head-of-people/business-partner"),
+    ("rol/head-of-quality-engineering", "Head of Quality Engineering: QA estrategica, automatizacion, calidad de producto, vs qa-engineer/testing-qa"),
+]
+NEW_NODES = NEW_NODES_ROUND_91
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

@@ -2324,3 +2324,32 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-customer-lifecycle-ops](rol/head-of-customer-lifecycle-ops.md) — Head of Customer Lifecycle Operations: onboarding, retención, churn · head-of-customer-lifecycle-ops,lifecycle,retencion,churn · 2026-07-20
 - [head-of-ai-safety](rol/head-of-ai-safety.md) — Head of AI Safety: red-teaming, alignment, evals de seguridad · head-of-ai-safety,ai-safety,red-teaming,alignment · 2026-07-20
 - [head-of-investment-strategy](rol/head-of-investment-strategy.md) — Head of Investment Strategy: asset allocation, research, portafolio · head-of-investment-strategy,asset-allocation,portafolio · 2026-07-20
+
+### sustrato Round 91 (deepening NA)
+- [salud-digital](sustrato/mexico/salud-digital.md) — Salud digital México: telemedicina, receta electrónica, COFEPRIS, ECE · mexico,salud-digital,telemedicina,cofepris,ece · 2026-07-20
+- [educacion-superior](sustrato/estados-unidos/educacion-superior.md) — Educación superior EE.UU.: universidades, community colleges, acreditación, FAFSA/Pell · estados-unidos,educacion-superior,universidades,acreditacion,fafsa · 2026-07-20
+- [comercio-digital](sustrato/canada/comercio-digital.md) — Comercio digital Canadá: e-commerce, ISED, protección al consumidor en línea · canada,comercio-digital,e-commerce,isEd,consumidor · 2026-07-20
+
+### dominio Round 91 (nuevos)
+- [juridico-corporativo](dominio/juridico-corporativo.md) — Jurídico corporativo: M&A, gobernanza, contratos, cumplimiento · juridico-corporativo,corporate-law,m&a,gobernanza · 2026-07-20
+- [gestion-de-talento](dominio/gestion-de-talento.md) — Gestión del talento: atracción, desarrollo, retención, sucesión · gestion-de-talento,talent-management,retencion,sucesion · 2026-07-20
+- [educacion-continua](dominio/educacion-continua.md) — Educación continua: upskilling, e-learning, academias corporativas · educacion-continua,lifelong-learning,upskilling,edtech · 2026-07-20
+- [design-thinking](dominio/design-thinking.md) — Design thinking: empatizar-definir-idear-prototipar-probar · design-thinking,metodologia,innovacion,ux · 2026-07-20
+- [auditoria-forense](dominio/auditoria-forense.md) — Auditoría forense: fraude, investigación financiera, litigio · auditoria-forense,forensic,fraude,litigio · 2026-07-20
+- [compensacion-beneficios](dominio/compensacion-beneficios.md) — Compensación y beneficios: salario, variable, beneficios, equity · compensacion-beneficios,total-rewards,equity,retencion · 2026-07-20
+- [outsourcing](dominio/outsourcing.md) — Outsourcing: ITO/BPO/KPO, nearshore, gestión de proveedores · outsourcing,tercerizacion,bpo,ito · 2026-07-20
+- [comercio-electronico](dominio/comercio-electronico.md) — Comercio electrónico: marketplaces, D2C, pagos, fulfillment · comercio-electronico,e-commerce,marketplaces,d2c · 2026-07-20
+- [analitica-web](dominio/analitica-web.md) — Analítica web: GA4, eventos, embudos, atribución digital · analitica-web,web-analytics,ga4,atribucion · 2026-07-20
+- [gobierno-de-ti](dominio/gobierno-de-ti.md) — Gobierno de TI: COBIT, alineación TI-negocio, riesgo de TI · gobierno-de-ti,it-governance,cobit,alineacion · 2026-07-20
+
+### rol Round 91 (nuevos)
+- [head-of-digital-workplace](rol/head-of-digital-workplace.md) — Head of Digital Workplace: colaboración, intranet, experiencia empleado · digital-workplace,colaboracion,intranet,experiencia-empleado · 2026-07-20
+- [head-of-risk-analytics](rol/head-of-risk-analytics.md) — Head of Risk Analytics: modelos de riesgo, scoring, stress testing · risk-analytics,modelos-riesgo,scoring,stress-testing · 2026-07-20
+- [head-of-learning](rol/head-of-learning.md) — Head of Learning: L&D, diseño de aprendizaje, academias · head-of-learning,l&d,upskilling,academias · 2026-07-20
+- [head-of-ux-research](rol/head-of-ux-research.md) — Head of UX Research: metodología de research, insights, discovery · head-of-ux-research,ux-research,insights,discovery · 2026-07-20
+- [head-of-sales-operations](rol/head-of-sales-operations.md) — Head of Sales Operations: CRM, forecast, comp plan, analítica de ventas · sales-operations,crm,forecast,comp-plan · 2026-07-20
+- [head-of-people-partner](rol/head-of-people-partner.md) — Head of People Partner: HRBP, socio de negocio de RRHH, consultoría interna · people-partner,hrbp,consultoria-interna · 2026-07-20
+- [head-of-customer-experience](rol/head-of-customer-experience.md) — Head of Customer Experience: CX, journey, NPS, voz del cliente · customer-experience,cx,journey,nps · 2026-07-20
+- [head-of-product-marketing](rol/head-of-product-marketing.md) — Head of Product Marketing: PMM, GTM, posicionamiento, enablement · product-marketing,pmm,gtm,posicionamiento · 2026-07-20
+- [head-of-corporate-communications](rol/head-of-corporate-communications.md) — Head of Corporate Communications: comms, medios, crisis, reputación · corporate-comms,media-relations,crisis,reputacion · 2026-07-20
+- [head-of-quality-engineering](rol/head-of-quality-engineering.md) — Head of Quality Engineering: QA, automatización, calidad de producto · quality-engineering,qa,automatizacion,calidad · 2026-07-20

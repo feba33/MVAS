@@ -1,39 +1,37 @@
 ---
-titulo: Head of Customer Experience (CX)
+titulo: Head of Customer Experience
 capa: rol
-tema: cliente
-fuente: https://www.cxpa.org/
-fecha: 2026-07-19
-confianza: alta
-tags: [rol, customer-experience, cx, voc, journey]
+tema: head-of-customer-experience
+fuente: https://en.wikipedia.org/wiki/Customer_experience
+fuente2: https://en.wikipedia.org/wiki/Net_Promoter
+fecha: 2026-07-20
+confianza: media
+tags: [rol, cx, experiencia-cliente, nps, journey]
 rol: [head-of-customer-experience]
-actividades: [cx-strategy, voice-of-customer, journey-mapping]
+actividades: [cx, journey-mapping, voz-del-cliente]
 organizaciones: []
-responsabilidades: [experiencia-del-cliente, omnicanal, cultura-de-cliente]
+responsabilidades: [satisfaccion, retencion, nps]
 tareas: []
 profundidad: 2
 estado: profundo
 ---
 
-# Head of Customer Experience (CX)
+# Head of Customer Experience
 
-## Definición
-Dirige la estrategia de experiencia del cliente a nivel organización: cómo la marca es percibida en cada punto de contacto. Owned de la **CX** como disciplina transversal, no solo del soporte.
+El **Head of Customer Experience** (CX) lidera la experiencia del cliente
+extremo a extremo: journey, satisfacción, NPS y voz del cliente (VoC).
 
 ## Responsabilidades
-- **Voice of Customer (VoC)**: recolección y cierre de loop de feedback (encuestas, NPS/CSAT/CES).
-- **Journey mapping**: diseño de la journey omnicanal (web, app, tienda, soporte).
-- **Omnicanal**: coherencia de experiencia entre canales.
-- **Cultura de cliente**: internalización de CX en producto, ventas y servicio.
-- **Medición**: NPS, CSAT, CES, churn, esfuerzo; dashboards ejecutivos.
+- **Journey mapping:** puntos de contacto, fricción, momento de la verdad.
+- **Medición:** NPS, CSAT, CES; cierre de lazo de VoC.
+- **Retención:** reduce churn vía experiencia (ver `rol/customer-success-lead`).
+- **Cultura:** experiencia como responsabilidad transversal.
 
-## Operación
-Trabaja con producto (head-of-product-design, head-of-experience-design), servicio (head-of-customer-success) y datos (analitica-de-negocio). A menudo reporta a COO o CMO.
+## Posición
+- vs `rol/chief-experience-officer` (CX + empleado + marca) y
+  `rol/customer-success-lead` (éxito/post-venta).
 
-## Diferencias con roles vecinos
-- vs **head-of-customer-experience-design**: aquel diseña interacciones específicas (service/UX); este lidera la estrategia CX de toda la compañía.
-- vs **head-of-experience-design**: EX se enfoca en empleado; CX en cliente.
-
-## Referencias
-- CXPA — Customer Experience Professionals Association — https://www.cxpa.org/
-- Qualtrics XM — https://www.qualtrics.com/
+## Cross-refs
+- `dominio/experiencia-cliente`, `rol/customer-success-lead`,
+  `rol/chief-client-officer`, `rol/chief-experience-officer`,
+  `dominio/marketing`, `dominio/analitica-de-negocio`.
