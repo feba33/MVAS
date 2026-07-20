@@ -1,5 +1,15 @@
 # Registro de actividad (log.md)
 
+## [2026-07-20] cron-screen | El Financiero — ingest diaria (0 ingestados)
+- Scrape de 5 ítems (scripts/scrape_elfinanciero.py 5) desde RSS El Financiero.
+- Screen por relevancia (protocolo-discriminamiento.md, gate de relevancia):
+  1. Fede Vigevani / La Casa de los Famosos → entretenimiento, sin ángulo legal-corp-téc → ❌
+  2. Muerte de Mauro "MAAHEZ" → espectáculos/celebrity → ❌
+  3. EE.UU.–Irán intensifican ataques (Bloomberg) → crónica de conflicto, sin marco decisorio → ❌
+  4. Marina del Pilar aclara audios (Sheinbaum) → crónica política de coyuntura → ❌
+  5. Mundial 2026: fiesta España–México → crónica deportiva (ya existe mundial-impacto-consumo-mexico.md) → ❌
+- Resultado: 0 páginas ingeridas. Ningún ítem cambia una decisión/supuesto/acción del usuario con ángulo legal-corporativo-técnico. No se crearon archivos.
+
 Registro cronológico **append-only**: ingests, queries, lint passes.
 Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 (parseable: `grep "^## \[" log.md | tail -5` → últimas 5 entradas).
@@ -1130,3 +1140,14 @@ Prefijo de entrada: `## [YYYY-MM-DD] <tipo> | <título>`
 - LOOP 3 (rol nuevos, 5/13): rol/head-of-it-operations.md (run-the-business, SLA, service desk), rol/head-of-strategic-finance.md (modelado, M&A finance, asignación de capital), rol/head-of-commercial-growth.md (crecimiento comercial, GTM, nuevos mercados), rol/head-of-legal-counsel.md (litigios, contratos, gobernanza legal), rol/head-of-security-architecture.md (threat modeling, zero trust, blueprints).
 - Modelo CENTRALIZADO (página plana + index.md/log.md raíz). Reference-only: Wikipedia (EN) + autoridades sectoriales (gob.mx/SFP, home.treasury.gov/OFAC, canada.ca/DND, OMI/IMO, OMPI, USPTO/IMPI) — sin raw/. ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
 - **Round 87: 13 páginas nuevas ingeridas.** Próximo: gap_analysis.py; si 0 → extender taxonomía (Round 88) o pausar hasta próximo cron.
+
+## [2026-07-20] audit | Auditoría proactiva Nolvorn (KB health-check, solo diagnóstico — sin escritura)
+- Drive↔MVAS drift detectado. Hallazgos (propuestas al grupo, sujetas a aprobación de Fernando):
+  1. [GAP] `Areas/Reviews` vacío — README PARA exige Monthly Digests/Quarterly Master Plans; ninguno existe.
+  2. [GAP] `Nolvorn Operations Tracker` (tab `Decision Log`) es decision-record vivo no reflejado en MVAS `decisiones/` (solo reunión 07-13).
+  3. [GAP] Plane: 9 tickets de la reunión 13-jul en Backlog sin assignee/date; el ticket "Actualizar Plane semanal" no cumplido → disciplina recurrente no opera.
+  4. [INCONSISTENCIA] Zombie Master Context: `nolvorn_master_context_v1` (raíz, 11sUt) obsoleto (mod 2026-06-06, v1.0) pero `kb-drive/README.md` lo lista como doc de identidad; el vivo es `Master Context` en Resources/Org (16Z, v1.3, 2026-07-19).
+  5. [INCONSISTENCIA] ~18 carpetas no-PARA en raíz del Drive (00_OS…06_PORTFOLIO, _Company, Engineering, etc.) conviven con PARA; README solo sanciona PARA + `___old`. Ambigüedad de gobernanza.
+  6. [OPORTUNIDAD] Refrescar `kb-drive/README.md` (snapshot 07-19) para reflejar los 10 tabs del Operations Tracker (Decision Log, KPI Scorecard, Team Development, Content-Publishing…).
+  7. [OPORTUNIDAD] Corregir `protocolos/README.md` paso 1 de ingest: apuntar a `Master Context` (Resources/Org), no a `nolvorn_master_context_v1` zombie.
+- No se escribió nada en Drive ni MVAS (solo esta anotación de auditoría en log.md).

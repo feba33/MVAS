@@ -1576,6 +1576,33 @@ NEW_NODES_ROUND_87 = [
 NEW_NODES = NEW_NODES_ROUND_87
 
 
+# Round 88 (iter 226) — 3 deepenings NA (1 real: US infraestructura-critica + 2 nuevos libres MX/CA) + 10 nodos nuevos dominio/rol
+# Dedup: mexico/seguridad-cibernetica y canada/ciencia-e-innovacion YA existian como paginas planas ->
+# reemplazados por competencia-economica (MX) y transparencia (CA). 5 NEW_NODES ya existian -> reemplazados.
+TAXONOMY["sustrato/mexico"].append(("competencia-economica", "Competencia economica Mexico: COFECE, IFT, LFCE, barreras a la competencia, concentraciones, vs antitrust/derecho-de-la-competencia"))
+TAXONOMY["sustrato/estados-unidos"].append(("infraestructura-critica", "Infraestructura critica EE.UU. (profundizacion real): CISA, NIPP, 16 sectores criticos, proteccion de activos, vs seguridad-nacional/ciberseguridad"))
+TAXONOMY["sustrato/canada"].append(("transparencia", "Transparencia Canada: acceso a la informacion, comisioneros de informacion (federal/provincial), privacidad, open data, vs observatorio/derechos-humanos"))
+NEW_NODES_ROUND_88 = [
+    ("dominio/finanzas-cuantitativas", "Finanzas cuantitativas / quantitative finance: modelos estocasticos, pricing de derivados, trading algoritmico, riesgo cuantitativo, vs finanzas/instrumentos-derivados/analitica-financiera"),
+    ("dominio/electronica-de-consumo", "Electronica de consumo / consumer electronics: dispositivos, cadenas de suministro asiaticas, ciclos de producto, IoT, vs manufactura/telecomunicaciones"),
+    ("dominio/derecho-procesal-mercantil", "Derecho procesal mercantil: juicio ejecutivo mercantil, concurso mercantil, arbitraje comercial, vs derecho-mercantil/derecho-procesal-civil"),
+    ("dominio/comercio-internacional", "Comercio internacional / international trade: aranceles, tratados (OMC/USMCA), barreras no arancelarias, aduanas, INCOTERMS, vs comercio-exterior/logistica"),
+    ("dominio/gestion-del-conocimiento", "Gestion del conocimiento / knowledge management: captura, almacenamiento, transferencia, comunidades de practica, bases de conocimiento, vs aprendizaje-organizacional/inteligencia-competitiva"),
+    ("dominio/derecho-de-la-construccion", "Derecho de la construccion: contratos de obra, responsabilidad del constructor, licencias, litigios de construccion, vs construccion/construccion-sostenible"),
+    ("dominio/marketing-de-performance", "Marketing de performance / performance marketing: paid media, atribucion, ROAS, programmatic, optimizacion de conversion, vs demand-generation/analitica-marketing"),
+    ("dominio/arquitectura-empresarial", "Arquitectura empresarial / enterprise architecture: frameworks (TOGAF), alineacion negocio-TI, roadmap de capacidades, vs arquitectura-de-soluciones/arquitectura-de-datos"),
+    ("rol/head-of-research", "Head of Research: lidera org de investigacion (market/UX/industry), metodologia, insights, vs head-of-design-research/head-of-data-science"),
+    ("rol/head-of-trade-marketing", "Head of Trade Marketing: marketing al canal/trade, activacion en punto de venta, GTM con retail, vs head-of-partner-marketing/head-of-field-marketing"),
+    ("rol/head-of-tax", "Head of Tax: estrategia fiscal, cumplimiento tributario, precios de transferencia, controversia fiscal, vs cfo/head-of-strategic-finance"),
+    ("rol/head-of-ecosystem", "Head of Ecosystem: desarrollo de ecosistema de socios, alianzas tecnologicas, co-innovacion, vs head-of-partnerships/head-of-business-development"),
+    ("rol/head-of-developer-relations", "Head of Developer Relations: DevRel, comunidad de desarrolladores, evangelismo tecnico, programas para devs, vs head-of-ecosystem/head-of-developer-advocacy"),
+    ("dominio/arquitectura-empresarial", "Arquitectura empresarial / enterprise architecture: frameworks (TOGAF), alineacion negocio-TI, roadmap de capacidades, vs arquitectura-de-soluciones/arquitectura-de-datos"),
+    ("dominio/analitica-de-recursos-humanos", "Analitica de RRHH / people analytics: metricas de fuerza laboral, retencion predictiva, planificacion de talento, DEI data, vs recursos-humanos/head-of-people"),
+    ("rol/head-of-vendor-risk", "Head of Vendor Risk: gestion de riesgo de terceros, due diligence, TPRM, cuestionarios/monitoreo, vs head-of-supplier-management/head-of-third-party-risk"),
+]
+NEW_NODES = NEW_NODES_ROUND_88
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

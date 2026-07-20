@@ -25,6 +25,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [lfpdpdp](sustrato/mexico/lfpdpdp.md) — LFPDPPP 2025: protección de datos · 🏷️ lfpdpdp,privacidad · 📅 2026-07-09
 - [regulacion-ia](sustrato/mexico/regulacion-ia.md) — Regulación de IA en México · 🏷️ ia,regulacion · 📅 2026-07-09
 - [cofece](sustrato/mexico/cofece.md) — Competencia económica México: LFCE y COFECE · 🏷️ cofece,competencia · 📅 2026-07-09
+- [competencia-economica](sustrato/mexico/competencia-economica.md) — Competencia económica México: COFECE, LFCE, barreras, concentraciones · 🏷️ mexico,competencia,antimonopolio,cofece,regulacion · 📅 2026-07-20
 - [lft](sustrato/mexico/lft.md) — LFT: laboral, outsourcing, PTU · 🏷️ lft,laboral,outsourcing · 📅 2026-07-09
 - [profeco-condusef](sustrato/mexico/profeco-condusef.md) — PROFECO/CONDUSEF: protección al consumidor · 🏷️ profeco,condusef,consumidor · 📅 2026-07-09
 - [pld-uif](sustrato/mexico/pld-uif.md) — PLD/UIF: prevención de lavado (AML) · 🏷️ pld,uif,aml · 📅 2026-07-09
@@ -258,6 +259,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [afores-herencia-isr](dominio/finanzas/afores-herencia-isr.md) — JUFED rechaza gravar Afores heredadas con ISR; pide a SCJN proteger patrimonio familiar · 🏷️ afores,isr,herencias,retiro · 📅 2026-07-10
 - [derivados](dominio/finanzas/derivados.md) — Derivados: futuros, opciones, swaps, forwards; cobertura y apalancamiento · 🏷️ finanzas,derivados,futuros,opciones,swaps,cobertura · 📅 2026-07-10
 - [finanzas-comportamentales](dominio/finanzas-comportamentales.md) — Finanzas comportamentales: sesgos, prospect theory, burbujas, vs economía-comportamental · 🏷️ finanzas-comportamentales,behavioral-finance,sesgos,prospect-theory,mercados · 📅 2026-07-19
+- [finanzas-cuantitativas](dominio/finanzas-cuantitativas.md) — Finanzas cuantitativas: modelos estocásticos, pricing derivados, trading algorítmico, riesgo cuant · 🏷️ finanzas,cuantitativo,derivados,riesgo,modelos-estocasticos,trading-algoritmico · 📅 2026-07-20
 
 ### dominio/computacion
 - [paradigmas](dominio/computacion/paradigmas.md) — Paradigmas de programación · 🏷️ paradigmas · 📅 2026-07-09
@@ -272,6 +274,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [frontend](dominio/computacion/frontend.md) — Frontend 2026: React/Vue/Svelte/Astro/Next.js, rendimiento (Core Web Vitals) · 🏷️ frontend,react,vue,svelte,astro,rendimiento · 📅 2026-07-10
 - [arquitectura-de-soluciones](dominio/arquitectura-de-soluciones.md) — Arquitectura de soluciones: diseño técnico, patrones, trade-offs, ADR, TOGAF/SARA · 🏷️ arquitectura-de-soluciones,solution-architecture,patrones,toe,trade-offs · 📅 2026-07-19
 - [gestion-de-la-calidad-de-datos](dominio/gestion-de-la-calidad-de-datos.md) — Gestión de la calidad de datos: dimensiones DQ, observability, remediación, DAMA · 🏷️ calidad-de-datos,data-quality,gobierno-de-datos,observability,dq · 📅 2026-07-19
+- [arquitectura-empresarial](dominio/arquitectura-empresarial.md) — Arquitectura empresarial (EA): TOGAF/ADM, BDAT, roadmap de capacidades, alineación negocio-TI · 🏷️ arquitectura,ea,togaf,negocio-ti,capacidades,roadmap · 📅 2026-07-20
 
 ### dominio/marketing
 - [marketing-mix](dominio/marketing/marketing-mix.md) — Marketing 4Ps, growth hacking, SEO/SEM · 🏷️ marketing · 📅 2026-07-09
@@ -282,6 +285,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [demand-generation](dominio/marketing/demand-generation.md) — Demand generation + paid media (Google/LinkedIn/Meta), ABM · 🏷️ marketing,demand-generation,paid-media,abm · 📅 2026-07-10
 - [analitica-marketing](dominio/marketing/analitica-marketing.md) — Analítica y atribución: first/last/multitouch, MMM · 🏷️ marketing,attribution,mmm,roi · 📅 2026-07-10
 - [lifecycle-email](dominio/marketing/lifecycle-email.md) — Lifecycle + email automation: triggers, retención, LTV · 🏷️ marketing,lifecycle,email,retention · 📅 2026-07-10
+- [marketing-de-performance](dominio/marketing-de-performance.md) — Marketing de performance: paid media, atribución, ROAS, programmatic, conversión · 🏷️ marketing,performance,paid-media,atribucion,roas,programmatic,conversion · 📅 2026-07-20
 
 ### dominio/leyes
 - [ramas-derecho](dominio/leyes/ramas-derecho.md) — Ramas del derecho · 🏷️ derecho · 📅 2026-07-09
@@ -295,6 +299,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [cumplimiento-regulacion](dominio/leyes/cumplimiento-regulacion.md) — Cumplimiento y regulación: ISO 37301, compliance · 🏷️ leyes,cumplimiento,compliance,iso-37301 · 📅 2026-07-10
 - [derecho-constitucional](dominio/derecho-constitucional.md) — Derecho constitucional: control de constitucionalidad, amparo (MX), judicial review (US), Charter (CA), división de poderes · 🏷️ derecho-constitucional,amparo,judicial-review,charter,division-poderes,control-de-constitucionalidad · 📅 2026-07-19
 - [derecho-procesal-civil](dominio/derecho-procesal-civil.md) — Derecho procesal civil: demanda, jurisdicción, medios de prueba, sentencia, apelación; vs derecho-procesal/derecho-civil · 🏷️ derecho-procesal-civil,civil-procedure,litigio,demanda,apelacion,juicio · 📅 2026-07-19
+- [derecho-procesal-mercantil](dominio/derecho-procesal-mercantil.md) — Derecho procesal mercantil: juicio ejecutivo, concurso mercantil, arbitraje comercial · 🏷️ derecho,mercantil,procesal,concurso,arbitraje,litigio · 📅 2026-07-20
 
 ### dominio/juridico
 - [juridico-interno](dominio/juridico/juridico-interno.md) — Jurídico interno (in-house): GC/CLO, contratos, M&A, governance · 🏷️ juridico,inhouse,general-counsel,gobernanza · 📅 2026-07-10
@@ -329,6 +334,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [gestion-de-talento-tech](dominio/gestion-de-talento-tech.md) — Gestión de talento tech: ingenieros, escasez, DevEx, retención, upskilling · 🏷️ talento-tech,ingenieros,retencion,skills,hiring,rrhh-tecnologia · 📅 2026-07-16
 - [economia-del-cuidado](dominio/economia-del-cuidado.md) — Economía del cuidado: trabajo de cuidados remunerado/no remunerado, género, políticas públicas, bienestar · 🏷️ economia-del-cuidado,care-economy,trabajo-de-cuidados,genero,politicas-publicas,bienestar · 📅 2026-07-18
 - [gestion-de-la-experiencia-del-empleado](dominio/gestion-de-la-experiencia-del-empleado.md) — Gestión de la experiencia del empleado (EX): journey, engagement, cultura, people analytics · 🏷️ employee-experience,experiencia-empleado,ex,engagement,cultura,journey-empleado,people-analytics · 📅 2026-07-18
+- [analitica-de-recursos-humanos](dominio/analitica-de-recursos-humanos.md) — Analítica de RRHH (people analytics): retención predictiva, planificación de talento, DEI data · 🏷️ rrhh,people-analytics,talento,retencion,dei,planificacion-de-talento · 📅 2026-07-20
 
 ### dominio/operaciones
 - [operaciones](dominio/operaciones/operaciones.md) — Operaciones: supply chain, lean, Six Sigma · 🏷️ operaciones,lean · 📅 2026-07-09
@@ -350,6 +356,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/estrategia
 - [estrategia-okr](dominio/estrategia/estrategia-okr.md) — Estrategia + OKRs/Hoshin Kanri: ejecución, KPIs · 🏷️ estrategia,okr,hoshin-kanri,planeacion · 📅 2026-07-10
+- [gestion-del-conocimiento](dominio/gestion-del-conocimiento.md) — Gestión del conocimiento (KM): ciclo SECI, comunidades de práctica, bases de conocimiento · 🏷️ conocimiento,km,aprendizaje-organizacional,comunidades-de-practica,base-de-conocimiento · 📅 2026-07-20
 
 ### dominio/economia
 - [macroeconomia](dominio/economia/macroeconomia.md) — PIB, inflación, desempleo, política monetaria, bancos centrales · 🏷️ economia,macroeconomia,pib,inflacion,banco-central · 📅 2026-07-10
@@ -388,6 +395,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### dominio/manufactura
 - [manufactura](dominio/manufactura/manufactura.md) — Manufactura: lean, Six Sigma, Industry 4.0, cadena de producción · 🏷️ manufactura,lean,six-sigma,produccion,industry-4.0 · 📅 2026-07-11
 - [fundiciones](dominio/fundiciones.md) — Fundiciones: moldeo en arena/coquilla, casting, metalurgia, supply chain industrial · 🏷️ fundiciones,manufactura,metalurgia,casting,hierro-fundido,acero · 📅 2026-07-19
+- [electronica-de-consumo](dominio/electronica-de-consumo.md) — Electrónica de consumo: dispositivos, cadenas asiáticas, ciclos de producto, IoT · 🏷️ electronica,consumo,manufactura,iot,cadena-de-suministro,dispositivos · 📅 2026-07-20
 
 ### dominio/salud
 - [salud](dominio/salud/salud.md) — Salud/healthcare: sistemas, seguros médicos, farmacia, telemedicina · 🏷️ salud,healthcare,seguros-medicos,telemedicina,farmacia · 📅 2026-07-11
@@ -410,6 +418,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/construccion
 - [construccion](dominio/construccion/construccion.md) — Construcción AEC: ciclo de proyecto, contratación, costos, tendencias · 🏷️ construccion,ingenieria,infraestructura,proyectos · 📅 2026-07-11
+- [derecho-de-la-construccion](dominio/derecho-de-la-construccion.md) — Derecho de la construcción: contratos, licencias, responsabilidad, litigios de obra · 🏷️ derecho,construccion,contratos,litigios,licencias,responsabilidad · 📅 2026-07-20
 
 ### rol/
 - [head-of-customer-communications-mx](rol/head-of-customer-communications-mx.md) — Head of Customer Communications: comms a la base de clientes, lifecycle, notificaciones, crisis de producto · 🏷️ head-of-customer-communications,customer-comms,lifecycle,notificaciones,crisis · 📅 2026-07-19
@@ -419,6 +428,12 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-aml-compliance](rol/head-of-aml-compliance.md) — Head of AML Compliance: prevención de lavado, KYC/CDD, UIF/Fincen, SAR · 🏷️ head-of-aml-compliance,aml,compliance,kyc,uif,fincen · 📅 2026-07-19
 - [head-of-pricing-analytics](rol/head-of-pricing-analytics.md) — Head of Pricing Analytics: elasticidad, modelado de precios, analítica de ingresos · 🏷️ head-of-pricing-analytics,pricing-analytics,elasticity,revenue-analytics · 📅 2026-07-19
 - [head-of-information-security-mx](rol/head-of-information-security-mx.md) — Head of Information Security (México): InfoSec, GRC, SOC, LFPDPPP/INA I · 🏷️ head-of-information-security,infosec,ciso,soc,mexico,proteccion-de-datos · 📅 2026-07-19
+- [head-of-research](rol/head-of-research.md) — Head of Research: metodología (cuali/cuanti), insights, portafolio de estudios · 🏷️ rol,research,insights,ux-research,market-research,metodologia · 📅 2026-07-20
+- [head-of-trade-marketing](rol/head-of-trade-marketing.md) — Head of Trade Marketing: marketing al canal, activación PDV, GTM con retail · 🏷️ rol,trade-marketing,canal,retail,gtm,activacion · 📅 2026-07-20
+- [head-of-tax](rol/head-of-tax.md) — Head of Tax: estrategia fiscal, cumplimiento, precios de transferencia, controversia · 🏷️ rol,tax,fiscal,precios-de-transferencia,cumplimiento,controversia-fiscal · 📅 2026-07-20
+- [head-of-ecosystem](rol/head-of-ecosystem.md) — Head of Ecosystem: socios, alianzas tecnológicas, co-innovación, red de efectos · 🏷️ rol,ecosystem,partnerships,alianzas,co-innovacion,canales · 📅 2026-07-20
+- [head-of-developer-relations](rol/head-of-developer-relations.md) — Head of Developer Relations (DevRel): comunidad dev, evangelismo, programas · 🏷️ rol,devrel,developer-relations,comunidad,evangelismo,developers · 📅 2026-07-20
+- [head-of-vendor-risk](rol/head-of-vendor-risk.md) — Head of Vendor Risk: TPRM, due diligence, monitoreo de terceros, contratos · 🏷️ rol,vendor-risk,tprm,terceros,due-diligence,proveedores · 📅 2026-07-20
 
 ### dominio/turismo
 - [turismo](dominio/turismo/turismo.md) — Turismo y hospitalidad: industria, segmentos, cadena de valor, sostenibilidad · 🏷️ turismo,hospitalidad,travel,horeca,sostenibilidad · 📅 2026-07-11
@@ -464,6 +479,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 
 ### dominio/comercio-internacional
 - [comercio-internacional](dominio/comercio-internacional/comercio-internacional.md) — Comercio internacional: intercambio transfronterizo, aranceles, TLC, OMC · 🏷️ comercio-internacional,international-trade,aranceles,tlc · 📅 2026-07-11
+- [comercio-internacional-node](dominio/comercio-internacional.md) — Comercio internacional (nodo): aranceles, tratados (OMC/USMCA), BNA, aduanas, INCOTERMS · 🏷️ comercio-internacional,aranceles,tratados,aduanas,incoterms,omc · 📅 2026-07-20
 - [analitica-negocio](dominio/analitica-negocio/analitica-negocio.md) — Analítica de negocio / BI: dashboards, KPIs, descriptiva→prescriptiva · 🏷️ analitica-negocio,bi,business-analytics,dashboards,kpis · 📅 2026-07-11
 - [inteligencia-de-negocio](dominio/inteligencia-de-negocio.md) — Inteligencia de negocio (BI): dashboards, self-service analytics, visualización, decision support · 🏷️ bi,business-intelligence,dashboards,self-service-analytics,data-visualization,decision-support · 📅 2026-07-17
 - [gobernanza-de-datos-empresarial](dominio/gobernanza-de-datos-empresarial.md) — Gobernanza de datos empresarial: DAMA-DMBOK, stewardship, data quality, lineage, catálogo, data products · 🏷️ gobernanza-datos,dama,dmbok,data-stewardship,data-quality,lineage,catalogo,data-products · 📅 2026-07-17
@@ -2254,7 +2270,9 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### sustrato Round 87 (deepening NA)
 - [rendicion-de-cuentas](sustrato/mexico/rendicion-de-cuentas.md) — Rendición de cuentas México: SFP, ASF, fiscalización, transparencia, anticorrupción · mexico,rendicion-de-cuentas,sfp,asf,fiscalizacion · 2026-07-20
 - [tesoro](sustrato/estados-unidos/tesoro.md) — Tesoro EE.UU.: Department of the Treasury, política fiscal, deuda pública, OFAC · estados-unidos,tesoro,treasury,politica-fiscal,ofac · 2026-07-20
+- [infraestructura-critica](sustrato/estados-unidos/infraestructura-critica.md) — Infraestructura crítica EE.UU.: CISA, NIPP, 16 sectores, protección de activos · estados-unidos,infraestructura-critica,cisa,seguridad-nacional,ciberseguridad · 2026-07-20
 - [defensa-nacional](sustrato/canada/defensa-nacional.md) — Defensa nacional Canadá: DND, Canadian Armed Forces, NORAD, procurement · canada,defensa-nacional,dnd,caf,norad · 2026-07-20
+- [transparencia](sustrato/canada/transparencia.md) — Transparencia Canadá: Access to Information Act, Privacy Act, OIC, open data · canada,transparencia,acceso-informacion,privacidad,open-data · 2026-07-20
 
 ### dominio Round 87 (nuevos)
 - [instrumentos-derivados](dominio/instrumentos-derivados.md) — Instrumentos derivados: futuros, opciones, swaps, forwards, cobertura · derivados,futuros,opciones,swaps,cobertura · 2026-07-20
