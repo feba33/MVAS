@@ -1720,6 +1720,27 @@ NEW_NODES_ROUND_93 = [
 NEW_NODES = NEW_NODES_ROUND_93
 
 
+# Round 94 (iter 231) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+# Alcance sustrato: solo Norteamérica (MX/US/CA). Dominio/rol generales (agnósticos de país).
+# CORRECCION dedup: politica-monetaria (US) y politica-fiscal (CA) ya existian -> reemplazados por educacion-inicial (MX) y ciencia (CA).
+TAXONOMY["sustrato/mexico"].append(("politica-de-vivienda", "Politica de vivienda Mexico (profundizacion): Conavi, INFONAVIT/FOVISSSTE, subsidios, vivienda asequible, vs vivienda/infraestructura"))
+TAXONOMY["sustrato/mexico"].append(("educacion-inicial", "Educacion inicial Mexico (profundizacion): CENDI, guarderias (IMSS/ISSSTE/estatales), preescolar, desarrollo infantil temprano, vs educacion-basica/educacion"))
+TAXONOMY["sustrato/canada"].append(("ciencia", "Ciencia Canada (profundizacion): NSERC, CIHR, NRC, politica cientifica federal, investigacion e innovacion, vs ciencia-tecnologia/investigacion"))
+NEW_NODES_ROUND_94 = [
+    ("dominio/derecho-de-family-office", "Derecho de family office / family office law: estructuras patrimoniales, fideicomisos familiares, gobernanza familiar, sucesion, vs derecho-de-los-fideicomisos/derecho-familiar"),
+    ("dominio/ingenieria-de-requisitos", "Ingenieria de requisitos / requirements engineering: elicitation, analisis, especificacion, trazabilidad, vs ingenieria-de-software/gestion-de-proyectos"),
+    ("dominio/gestion-de-la-calidad", "Gestion de la calidad / quality management: ISO 9001, TQM, Six Sigma, mejora continua, vs gestion-de-la-calidad-software/gestion-de-la-calidad-de-datos"),
+    ("dominio/ciberseguridad-de-redes", "Ciberseguridad de redes / network security: firewalls, IDS/IPS, segmentacion, zero trust, vs ciberseguridad/seguridad-de-la-informacion"),
+    ("dominio/ingenieria-de-sistemas", "Ingenieria de sistemas / systems engineering: requisitos, arquitectura de sistema, V-model, integracion, vs ingenieria-de-software/arquitectura-empresarial"),
+    ("dominio/ciencia-ambiental", "Ciencia ambiental / environmental science: ecologia, cambio climatico, contaminacion, biodiversidad, politicas, vs medio-ambiente/recursos-naturales"),
+    ("dominio/ciberseguridad-cloud-native", "Ciberseguridad cloud-native: containers, Kubernetes, service mesh, eBPF, Zero Trust en cloud, vs ciberseguridad-cloud/seguridad-de-aplicaciones"),
+    ("dominio/proteccion-de-datos-personales", "Proteccion de datos personales / data privacy: consentimiento, derechos ARCO, LGPD/CCPA, transferencias, vs proteccion-de-datos/privacidad"),
+    ("rol/head-of-financial-controls", "Head of Financial Controls: controles financieros, SOX/ICFR, aseguramiento, vs head-of-internal-audit/controller"),
+    ("rol/head-of-energy-management", "Head of Energy Management: eficiencia, sostenibilidad energetica, compras de energia, carbono, vs head-of-sustainability/head-of-facilities"),
+]
+NEW_NODES = NEW_NODES_ROUND_94
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

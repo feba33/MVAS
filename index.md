@@ -2401,3 +2401,22 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol Round 93 (nuevos)
 - [head-of-medical-science-liaison](rol/head-of-medical-science-liaison/head-of-medical-science-liaison.md) — Head of Medical Science Liaison: MSL, puente científico KOL, medical affairs · head-of-medical-science-liaison,msl,medical-affairs,kol · 2026-07-20
 - [head-of-digital-strategy](rol/head-of-digital-strategy/head-of-digital-strategy.md) — Head of Digital Strategy: transformación digital, roadmaps, canales · head-of-digital-strategy,transformacion-digital,roadmaps,e-business · 2026-07-20
+
+### sustrato Round 94 (deepening NA)
+- [politica-de-vivienda](sustrato/mexico/politica-de-vivienda.md) — Política de vivienda México: CONAVI, INFONAVIT/FOVISSSTE, subsidios, vivienda asequible · mexico,politica-de-vivienda,conavi,infonavit,sedatu · 2026-07-20
+- [educacion-inicial](sustrato/mexico/educacion-inicial.md) — Educación inicial México: CENDI, guarderías IMSS/ISSSTE, preescolar, desarrollo infantil temprano · mexico,educacion-inicial,cendi,guarderias,desarrollo-infantil · 2026-07-20
+- [ciencia](sustrato/canada/ciencia.md) — Ciencia Canadá: NSERC, CIHR, NRC, política científica federal, investigación e innovación · canada,ciencia,nserc,cihr,nrc,innovacion · 2026-07-20
+
+### dominio Round 94 (nuevos)
+- [derecho-de-family-office](dominio/derecho-de-family-office.md) — Derecho de family office: estructuras patrimoniales, fideicomisos familiares, gobernanza, sucesión · family-office,fideicomisos,sucesion,patrimonio · 2026-07-20
+- [ingenieria-de-requisitos](dominio/ingenieria-de-requisitos.md) — Ingeniería de requisitos: elicitation, análisis, especificación, trazabilidad · requisitos,elicitation,trazabilidad,srs · 2026-07-20
+- [gestion-de-la-calidad](dominio/gestion-de-la-calidad.md) — Gestión de la calidad: ISO 9001, TQM, Six Sigma, mejora continua · calidad,iso-9001,six-sigma,tqm,mejora-continua · 2026-07-20
+- [ciberseguridad-de-redes](dominio/ciberseguridad-de-redes.md) — Ciberseguridad de redes: firewalls, IDS/IPS, segmentación, zero trust · ciberseguridad,redes,firewall,zero-trust,ids-ips · 2026-07-20
+- [ingenieria-de-sistemas](dominio/ingenieria-de-sistemas.md) — Ingeniería de sistemas: requisitos, arquitectura de sistema, V-model, integración · sistemas,v-model,arquitectura,mbse · 2026-07-20
+- [ciencia-ambiental](dominio/ciencia-ambiental.md) — Ciencia ambiental: ecología, cambio climático, contaminación, biodiversidad · medio-ambiente,ecologia,cambio-climatico,biodiversidad · 2026-07-20
+- [ciberseguridad-cloud-native](dominio/ciberseguridad-cloud-native.md) — Ciberseguridad cloud-native: containers, Kubernetes, service mesh, eBPF, Zero Trust · cloud-native,kubernetes,contenedores,zero-trust · 2026-07-20
+- [proteccion-de-datos-personales](dominio/proteccion-de-datos-personales.md) — Protección de datos personales: consentimiento, derechos ARCO, transferencias, privacidad · privacidad,proteccion-de-datos,arco,lgpd,ccpa · 2026-07-20
+
+### rol Round 94 (nuevos)
+- [head-of-financial-controls](rol/head-of-financial-controls.md) — Head of Financial Controls: controles financieros, SOX/ICFR, aseguramiento · financial-controls,sox,icfr,controles · 2026-07-20
+- [head-of-energy-management](rol/head-of-energy-management.md) — Head of Energy Management: eficiencia, sostenibilidad energética, compras de energía, carbono · energy-management,eficiencia,carbono,sostenibilidad · 2026-07-20

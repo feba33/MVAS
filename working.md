@@ -3396,3 +3396,50 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 
 ## PROXIMA TAREFA
 - Round 93 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 94) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
+
+## ✅ COLA ROUND 94 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 230→231) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 94 (scripts/gap_analysis.py): 3 deepenings NA (mexico/politica-de-vivienda, mexico/educacion-inicial, canada/ciencia) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_94). CORRECCIÓN dedup: politica-monetaria (US) y politica-fiscal (CA) ya existían → reemplazados por educacion-inicial (MX) y ciencia (CA); derecho-penal, seguros-de-responsabilidad-civil y gestion-de-la-demanda-energetica ya existían → reemplazados por derecho-de-family-office, ingenieria-de-requisitos y ciberseguridad-cloud-native. 13 slugs finales verificados NO existentes (0 duplicados). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/politica-de-vivienda — Política de vivienda México (CONAVI, INFONAVIT/FOVISSSTE, SEDATU, subsidios, vivienda asequible)
+- [x] sustrato/mexico/educacion-inicial — Educación inicial México (CENDI, guarderías IMSS/ISSSTE, preescolar, desarrollo infantil temprano)
+- [x] sustrato/canada/ciencia — Ciencia Canadá (NSERC, CIHR, NRC, política científica federal, investigación e innovación)
+### Dominio (nuevos nodos)
+- [x] dominio/derecho-de-family-office — Derecho de family office (estructuras patrimoniales, fideicomisos familiares, gobernanza, sucesión)
+- [x] dominio/ingenieria-de-requisitos — Ingeniería de requisitos (elicitation, análisis, especificación, trazabilidad)
+- [x] dominio/gestion-de-la-calidad — Gestión de la calidad (ISO 9001, TQM, Six Sigma, mejora continua)
+- [x] dominio/ciberseguridad-de-redes — Ciberseguridad de redes (firewalls, IDS/IPS, segmentación, zero trust)
+- [x] dominio/ingenieria-de-sistemas — Ingeniería de sistemas (requisitos, arquitectura de sistema, V-model, integración)
+- [x] dominio/ciencia-ambiental — Ciencia ambiental (ecología, cambio climático, contaminación, biodiversidad)
+- [x] dominio/ciberseguridad-cloud-native — Ciberseguridad cloud-native (containers, Kubernetes, service mesh, eBPF, Zero Trust)
+- [x] dominio/proteccion-de-datos-personales — Protección de datos personales (consentimiento, derechos ARCO, transferencias, privacidad)
+### Rol (nuevos nodos)
+- [x] rol/head-of-financial-controls — Head of Financial Controls (controles financieros, SOX/ICFR, aseguramiento)
+- [x] rol/head-of-energy-management — Head of Energy Management (eficiencia, sostenibilidad energética, compras de energía, carbono)
+
+### ITER 231 — Round 94 (2026-07-20)
+- gap_analysis.py (iter 230→231) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 94 (scripts/gap_analysis.py): 3 deepenings NA (mexico/politica-de-vivienda, mexico/educacion-inicial, canada/ciencia) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_94). Dedup: politica-monetaria (US) y politica-fiscal (CA) ya existían → reemplazados por educacion-inicial (MX) y ciencia (CA); derecho-penal, seguros-de-responsabilidad-civil y gestion-de-la-demanda-energetica ya existían → reemplazados por derecho-de-family-office, ingenieria-de-requisitos y ciberseguridad-cloud-native. 13 slugs finales verificados NO existentes (0 duplicados).
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md/log.md raíz; reference-only, sin raw/):
+  - [sustrato] sustrato/mexico/politica-de-vivienda.md, sustrato/mexico/educacion-inicial.md, sustrato/canada/ciencia.md (3 deepenings NA).
+  - [dominio] derecho-de-family-office, ingenieria-de-requisitos, gestion-de-la-calidad, ciberseguridad-de-redes, ingenieria-de-sistemas, ciencia-ambiental, ciberseguridad-cloud-native, proteccion-de-datos-personales (8 nuevos nodos).
+  - [rol] head-of-financial-controls, head-of-energy-management (2 nuevos nodos).
+- Reference-only (Wikipedia EN/ES + autoridades: SNIIV/SEDATU/CONAVI, gob.mx/SEP, canada.ca science/NSERC, ISO/IEEE/INCOSE, NIST/CISA, INAI; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 2 deepening MX + 1 CA).
+- **Round 94 COMPLETA (13/13 temas).** Cola Round 94 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 95 o pausar.
+
+## ÍNDICE DE PROGRESO (acumulado)
+| **Tópicos ingeridos (acumulado): 1312** (Round 93: 1299; Round 94: 1312/13 nuevas). |
+| **Rondas:** 94 completas (Round 1..94). |
+| **Nodos sustrato (NA):** México 104 (+politica-de-vivienda, +educacion-inicial), EE.UU. 85, Canadá 80 (+ciencia). |
+| **Nodos dominio:** ~391 (Round 94 +8: derecho-de-family-office, ingenieria-de-requisitos, gestion-de-la-calidad, ciberseguridad-de-redes, ingenieria-de-sistemas, ciencia-ambiental, ciberseguridad-cloud-native, proteccion-de-datos-personales). |
+| **Nodos rol:** ~340 (Round 94 +2: head-of-financial-controls, head-of-energy-management). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+| **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
+| **Iteraciones totales:** 231. |
+
+## ESTADO
+| - **Iteracion actual:** 231 (Round 94 COMPLETA — 13/13 ingestados e integrados). |
+| - **Ultima accion:** Round 94 iter 231 — gap_analysis.py (0 huecos) → taxonomia extendida Round 94 (3 deepenings NA politica-de-vivienda MX / educacion-inicial MX / ciencia CA + 10 nodos nuevos dominio/rol). Dedup de 5 duplicados resuelto (politica-monetaria US, politica-fiscal CA, derecho-penal, seguros-de-responsabilidad-civil, gestion-de-la-demanda-energetica ya existian). 13 paginas ingeridas (3 sustrato NA + 8 dominio + 2 rol) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 2 deepening MX + 1 CA). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 94 COMPLETA (13/13). |
+
+## PROXIMA TAREFA
+- Round 94 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 95) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
