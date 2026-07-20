@@ -2420,3 +2420,22 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol Round 94 (nuevos)
 - [head-of-financial-controls](rol/head-of-financial-controls.md) — Head of Financial Controls: controles financieros, SOX/ICFR, aseguramiento · financial-controls,sox,icfr,controles · 2026-07-20
 - [head-of-energy-management](rol/head-of-energy-management.md) — Head of Energy Management: eficiencia, sostenibilidad energética, compras de energía, carbono · energy-management,eficiencia,carbono,sostenibilidad · 2026-07-20
+
+### sustrato Round 95 (deepening NA)
+- [politica-de-salud](sustrato/mexico/politica-de-salud.md) — Política de salud México: SSa, INSABI, COFEPRIS, reforma 2024–25 · mexico,politica-de-salud,salud,cofepris,insabi · 2026-07-20
+- [partidos-politicos](sustrato/estados-unidos/partidos-politicos.md) — Partidos políticos EE.UU.: two-party, FEC, campaign finance · estados-unidos,partidos-politicos,fec,democrats,republicans · 2026-07-20
+- [politica-de-desarrollo-regional](sustrato/canada/politica-de-desarrollo-regional.md) — Desarrollo regional Canadá: equalization, ACOA/FedDev, RDAs · canada,desarrollo-regional,igualacion,acoa · 2026-07-20
+
+### dominio Round 95 (nuevos)
+- [ciencia-de-datos-ambiental](dominio/ciencia-de-datos-ambiental.md) — Ciencia de datos ambiental: remote sensing, climate modeling · ciencia-de-datos,ambiental,remote-sensing,climate · 2026-07-20
+- [ciberseguridad-de-datos](dominio/ciberseguridad-de-datos.md) — Ciberseguridad de datos: cifrado, DLP, clasificación · ciberseguridad,data-security,cifrado,dlp · 2026-07-20
+- [bienestar-organizacional](dominio/bienestar-organizacional.md) — Bienestar organizacional: EAP, salud mental · bienestar,wellbeing,eap,salud-mental · 2026-07-20
+- [regulacion-de-productos](dominio/regulacion-de-productos.md) — Regulación de productos: CPSC/PROFECO, recalls · regulacion,productos,seguridad,recalls · 2026-07-20
+- [derecho-farmacologico](dominio/derecho-farmacologico.md) — Derecho farmacológico: COFEPRIS/FDA, farmacovigilancia · derecho,farmaceutico,cofepris,fda · 2026-07-20
+- [mercados-de-capitales](dominio/mercados-de-capitales.md) — Mercados de capitales: ECM/DCM, IPOs · mercados,capitales,ecm,dcm,ipo · 2026-07-20
+- [economia-del-conocimiento](dominio/economia-del-conocimiento.md) — Economía del conocimiento: innovación, IP · economia,conocimiento,innovacion,ip · 2026-07-20
+- [derecho-de-la-inteligencia-artificial](dominio/derecho-de-la-inteligencia-artificial.md) — Derecho de la IA: EU AI Act, EO 14110 · ia,derecho,eu-ai-act,regulacion · 2026-07-20
+
+### rol Round 95 (nuevos)
+- [head-of-treasury-operations](rol/head-of-treasury-operations.md) — Head of Treasury Operations: cash, pagos, FX, liquidez · treasury,cash-management,pagos,fx · 2026-07-20
+- [head-of-vulnerability-management](rol/head-of-vulnerability-management.md) — Head of Vulnerability Management: CVSS/EPSS, remediation · vulnerability,cvss,epss,remediation · 2026-07-20

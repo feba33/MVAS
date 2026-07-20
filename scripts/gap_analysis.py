@@ -1740,6 +1740,24 @@ NEW_NODES_ROUND_94 = [
 ]
 NEW_NODES = NEW_NODES_ROUND_94
 
+# Round 95 (iter 232) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+TAXONOMY["sustrato/mexico"].append(("politica-de-salud", "Politica de salud Mexico: Secretaria de Salud, INSABI/IMSS, Cofepris, rectoria, cobertura universal, vs salud/politica-social"))
+TAXONOMY["sustrato/estados-unidos"].append(("partidos-politicos", "Partidos politicos EE.UU.: Democrats/Republicans, two-party system, FEC, campaign finance (FECA/BCRA), primaries, vs poder-legislativo/relaciones-laborales"))
+TAXONOMY["sustrato/canada"].append(("politica-de-desarrollo-regional", "Politica de desarrollo regional Canada: igualacion federal (equalization), fondos de desarrollo regional, ACOA/WD/FedDev, clusters regionales, vs infraestructura/economia"))
+NEW_NODES_ROUND_95 = [
+    ("dominio/ciencia-de-datos-ambiental", "Ciencia de datos ambiental / environmental data science: remote sensing, modelado climatico, monitoreo satelital, analitica de sostenibilidad, vs ciencia-ambiental/analitica"),
+    ("dominio/ciberseguridad-de-datos", "Ciberseguridad de datos / data security: cifrado, DLP, clasificacion, exfiltration, vs proteccion-de-datos/seguridad-de-la-informacion/ciberseguridad-de-identidad"),
+    ("dominio/bienestar-organizacional", "Bienestar organizacional / organizational wellbeing: EAP, salud mental en el trabajo, bienestar integral, vs clima-organizacional/salud-mental/seguridad-y-salud-ocupacional"),
+    ("dominio/regulacion-de-productos", "Regulacion de productos / product regulation: seguridad de producto, recalls, normas, CPSC/PROFECO/Health Canada, vs etiquetado-producto/consumidor"),
+    ("dominio/derecho-farmacologico", "Derecho farmacologico / pharmaceutical law: aprobacion de medicamentos, COFEPRIS/FDA/Health Canada, patentes farmaceuticas, farmacovigilancia, vs salud/regulacion-de-productos"),
+    ("dominio/mercados-de-capitales", "Mercados de capitales / capital markets: emision de deuda/equity, ECM/DCM, IPOs, colocacion, vs finanzas/banca/mercados-financieros"),
+    ("dominio/economia-del-conocimiento", "Economia del conocimiento / knowledge economy: innovacion, propiedad intelectual, capital humano, sectores intensivos en conocimiento, vs economia-comportamental/innovacion"),
+    ("dominio/derecho-de-la-inteligencia-artificial", "Derecho de la IA / AI law: marco regulatorio, EU AI Act, liability, propiedad de modelos, vs etica-ia/gobierno-de-ia/ia-generativa"),
+    ("rol/head-of-treasury-operations", "Head of Treasury Operations: cash management, pagos, FX, liquidez operativa, banca relacional, vs treasurer/head-of-credit-operations/cfo"),
+    ("rol/head-of-vulnerability-management", "Head of Vulnerability Management: gestion de vulnerabilidades, scanning, priorizacion (CVSS/EPSS), remediation, vs security-engineer/head-of-security-architecture/ciso"),
+]
+NEW_NODES = NEW_NODES_ROUND_95
+
 
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)

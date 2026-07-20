@@ -3443,3 +3443,50 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 
 ## PROXIMA TAREFA
 - Round 94 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 95) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
+
+## ✅ COLA ROUND 95 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 231→232) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 95 (scripts/gap_analysis.py): 3 deepenings NA (mexico/politica-de-salud, estados-unidos/partidos-politicos, canada/politica-de-desarrollo-regional) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_95). Dedup con node_exists: politica-social (MX), derecho-de-los-refugiados, economia-del-cuidado, mercados-financieros y ciberseguridad-de-identidad ya existían (nodos legacy en subdirectorios) → reemplazados por politica-de-salud (MX), derecho-farmacologico, mercados-de-capitales, economia-del-conocimiento y derecho-de-la-inteligencia-artificial. 13 slugs finales verificados NO existentes (0 duplicados). Alcance sustrato: solo Norteamerica (1 MX + 1 US + 1 CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/politica-de-salud — Política de salud México (SSa, INSABI, COFEPRIS, reforma 2024–25)
+- [x] sustrato/estados-unidos/partidos-politicos — Partidos políticos EE.UU. (two-party, FEC, campaign finance)
+- [x] sustrato/canada/politica-de-desarrollo-regional — Desarrollo regional Canadá (equalization, ACOA/FedDev, RDAs)
+### Dominio (nuevos nodos)
+- [x] dominio/ciencia-de-datos-ambiental — Ciencia de datos ambiental (remote sensing, climate modeling)
+- [x] dominio/ciberseguridad-de-datos — Ciberseguridad de datos (cifrado, DLP, clasificación)
+- [x] dominio/bienestar-organizacional — Bienestar organizacional (EAP, salud mental)
+- [x] dominio/regulacion-de-productos — Regulación de productos (CPSC/PROFECO, recalls)
+- [x] dominio/derecho-farmacologico — Derecho farmacológico (COFEPRIS/FDA, farmacovigilancia)
+- [x] dominio/mercados-de-capitales — Mercados de capitales (ECM/DCM, IPOs)
+- [x] dominio/economia-del-conocimiento — Economía del conocimiento (innovación, IP)
+- [x] dominio/derecho-de-la-inteligencia-artificial — Derecho de la IA (EU AI Act, EO 14110)
+### Rol (nuevos nodos)
+- [x] rol/head-of-treasury-operations — Head of Treasury Operations (cash, pagos, FX)
+- [x] rol/head-of-vulnerability-management — Head of Vulnerability Management (CVSS/EPSS, remediation)
+
+### ITER 232 — Round 95 (2026-07-20)
+- gap_analysis.py (iter 231→232) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 95 (scripts/gap_analysis.py): 3 deepenings NA + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_95). Dedup con node_exists: 5 slugs de la propuesta inicial ya existían (politica-social MX, derecho-de-los-refugiados, economia-del-cuidado, mercados-financieros, ciberseguridad-de-identidad) → reemplazados. 13 slugs finales verificados NO existentes (0 duplicados).
+- 13 páginas ingeridas cubriendo las 3 capas (modelo CENTRALIZADO — página plana + index.md root + log.md root; reference-only, sin raw/):
+  - [sustrato] sustrato/mexico/politica-de-salud.md, sustrato/estados-unidos/partidos-politicos.md, sustrato/canada/politica-de-desarrollo-regional.md (3 deepenings NA).
+  - [dominio] ciencia-de-datos-ambiental, ciberseguridad-de-datos, bienestar-organizacional, regulacion-de-productos, derecho-farmacologico, mercados-de-capitales, economia-del-conocimiento, derecho-de-la-inteligencia-artificial (8 nuevos nodos).
+  - [rol] head-of-treasury-operations, head-of-vulnerability-management (2 nuevos nodos).
+- Reference-only (Wikipedia EN/ES + autoridades: gob.mx/salud, gob.mx/cofepris, FEC, NASA EarthData, CPSC, FDA, SEC, OECD, EU AI Act, NIST NVD; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA).
+- **Round 95 COMPLETA (13/13 temas).** Cola Round 95 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 96) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar.
+
+## ÍNDICE DE PROGRESO (acumulado)
+| **Tópicos ingeridos (acumulado): 1325** (Round 94: 1312; Round 95: 1325 / 13 nuevas). |
+| **Rondas:** 95 completas (Round 1..95). |
+| **Nodos sustrato (NA):** México 105 (+politica-de-salud), EE.UU. 86 (+partidos-politicos), Canadá 81 (+politica-de-desarrollo-regional). |
+| **Nodos dominio:** 399 (Round 95 +8: ciencia-de-datos-ambiental, ciberseguridad-de-datos, bienestar-organizacional, regulacion-de-productos, derecho-farmacologico, mercados-de-capitales, economia-del-conocimiento, derecho-de-la-inteligencia-artificial). |
+| **Nodos rol:** 342 (Round 95 +2: head-of-treasury-operations, head-of-vulnerability-management). |
+| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+| **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
+| **Iteraciones totales:** 232. |
+
+## ESTADO
+| - **Iteracion actual:** 232 (Round 95 COMPLETA — 13/13 ingestados e integrados). |
+| - **Ultima accion:** Round 95 iter 232 — gap_analysis.py (0 huecos) → taxonomia extendida Round 95 (3 deepenings NA politica-de-salud MX / partidos-politicos US / desarrollo-regional CA + 10 nodos nuevos dominio/rol). Dedup de 5 duplicados resuelto (politica-social MX, derecho-de-los-refugiados, economia-del-cuidado, mercados-financieros, ciberseguridad-de-identidad ya existian en subdirectorios). 13 paginas ingeridas (3 sustrato NA + 8 dominio + 2 rol) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
+| - **Bloqueos:** ninguno. |
+| - **Cola:** Round 95 COMPLETA (13/13). |
+
+## PROXIMA TAREFA
+- Round 95 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 96) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamerica (respetado).
