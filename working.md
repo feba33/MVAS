@@ -3537,3 +3537,53 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 
 ## PROXIMA TAREFA
 - Round 96 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 97) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamerica (respetado).
+
+## ✅ COLA ROUND 97 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 233→234) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 97 (scripts/gap_analysis.py): 3 deepenings NA (cambio-climático MX/US/CA) + 16 nodos nuevos dominio/rol (NEW_NODES_ROUND_97). 6 slugs verificados como NO existentes (agronomia, genetica, epidemiologia, farmacologia, head-of-sales-analytics, head-of-clinical-data-management); los otros 10 ya existían en el repo. Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/cambio-climatico — Cambio climático México: SEMARNAT, LGCC, NDC, mitigación/adaptación, transición energética
+- [x] sustrato/estados-unidos/cambio-climatico — Cambio climático EE.UU.: EPA, IRA, Paris Agreement, SEC climate disclosure, adaptación/resiliencia
+- [x] sustrato/canada/cambio-climatico — Cambio climático Canadá: Pan-Canadian Framework, net-zero 2050, carbon pricing, NDC, adaptación
+### Dominio (nuevos nodos)
+- [x] dominio/cambio-climatico — Cambio climático (disciplina): ciencia del clima, GEI, mitigación/adaptación, política climática, mercados de carbono, resiliencia
+- [x] dominio/oceanografia — Oceanografía: océanos, corrientes, ecosistemas marinos, acidificación, nivel del mar
+- [x] dominio/meteorologia — Meteorología: atmósfera, clima, pronóstico, fenómenos meteorológicos, observación
+- [x] dominio/ecologia — Ecología: ecosistemas, biodiversidad, poblaciones, comunidades, sucesión
+- [x] dominio/ciencia-del-suelo — Ciencia del suelo / edafología: suelos, fertilidad, degradación, carbono en suelos, erosión
+- [x] dominio/conservacion — Conservación / conservation biology: especies, hábitats, áreas protegidas, restauración
+- [x] dominio/etica-de-datos — Ética de datos: privacidad, consentimiento, sesgo algorítmico, gobernanza ética de datos, transparencia
+- [x] dominio/ingenieria-biomedica — Ingeniería biomédica: dispositivos médicos, biomecánica, biomateriales, imagen médica, rehabilitation engineering
+- [x] dominio/agronomia — Agronomía: producción de cultivos, manejo de suelos, fitomejoramiento, sistemas de cultivo
+- [x] dominio/genetica — Genética: herencia, genomas, edición genética (CRISPR), genética molecular/poblacional, medicina genómica
+- [x] dominio/epidemiologia — Epidemiología: distribución de enfermedades, determinantes, vigilancia, estudios (cohorte/caso-control)
+- [x] dominio/farmacologia — Farmacología: fármacos, farmacocinética/farmacodinamia, ensayos clínicos, seguridad, farmacovigilancia
+### Rol (nuevos nodos)
+- [x] rol/head-of-data-privacy — Head of Data Privacy: privacidad, cumplimiento (GDPR/CCPA/LGPD/PIPL), DPO, protección de datos
+- [x] rol/head-of-threat-hunting — Head of Threat Hunting: búsqueda proactiva de amenazas, detección, threat intel, caza de adversarios
+- [x] rol/head-of-sales-analytics — Head of Sales Analytics: analítica de ventas, pipeline, forecast, win-rate, cohortes
+- [x] rol/head-of-clinical-data-management — Head of Clinical Data Management: datos de ensayos clínicos, EDC, calidad de datos, estadística clínica
+
+### [2026-07-21] Round 97 — ITER 234 | COMPLETA (13/13: sustrato NA x3 + dominio x10 + rol x4)
+- gap_analysis.py (iter 233→234) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 97 (scripts/gap_analysis.py): 3 deepenings NA (cambio-climático MX/US/CA) + 16 nodos nuevos dominio/rol (NEW_NODES_ROUND_97). 6 slugs verificados como NO existentes (agronomia, genetica, epidemiologia, farmacologia, head-of-sales-analytics, head-of-clinical-data-management); los otros 10 ya existían en el repo. Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+- LOOP 1 (sustrato NA, 3/13): sustrato/mexico/cambio-climatico.md, sustrato/estados-unidos/cambio-climatico.md, sustrato/canada/cambio-climatico.md (deepenings; append a index/log de nodos existentes + raíz).
+- LOOP 2 (dominio, 10/13): cambio-climatico, oceanografia, meteorologia, ecologia, ciencia-del-suelo, conservacion, etica-de-datos, ingenieria-biomedica, agronomia, genetica, epidemiologia, farmacologia (12 nuevos nodos — se ubicaron en subsecciones index existentes).
+- LOOP 3 (rol, 4/13): head-of-data-privacy, head-of-threat-hunting, head-of-sales-analytics, head-of-clinical-data-management (4 nuevos nodos; superstructura completa).
+- Índices/logs de nodos + globales (root index.md/log.md) actualizados. Reference-only (Wikipedia EN + autoridades sectoriales: SEMARNAT, EPA, NOAA, WMO, ECMWF, FAO, WHO, IPCC, IUCN, CBD, UNFCCC, OECD, SCDM, CDISC, FDA, EMA; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA).
+- **Round 97 COMPLETA (13/13 temas).** Cola Round 97 VACÍA. Siguiente paso: re-ejecutar `python3 scripts/gap_analysis.py`; si devuelve 0, ampliar taxonomía para Round 98 o pausar.
+
+## ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1338** (Round 96: 1325; Round 97: 1338/13 nuevas). ||
+|| **Rondas:** 97 completas (Round 1..97). ||
+|| **Nodos sustrato (NA):** México 107 (+cambio-climático), EE.UU. 88 (+cambio-climático), Canadá 83 (+cambio-climático). ||
+|| **Nodos dominio:** ~419 (Round 97 +12: cambio-climatico, oceanografia, meteorologia, ecologia, ciencia-del-suelo, conservacion, etica-de-datos, ingenieria-biomedica, agronomia, genetica, epidemiologia, farmacologia). ||
+|| **Nodos rol:** ~348 (Round 97 +4: head-of-data-privacy, head-of-threat-hunting, head-of-sales-analytics, head-of-clinical-data-management). ||
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. ||
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. ||
+|| **Iterações totales:** 234. ||
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 234 (Round 97 COMPLETA — 13/13 ingestados e integrados). ||
+|| - **Última ação:** Round 97 iter 234 — gap_analysis.py (0 huecos) → taxonomía extendida Round 97 (3 deepenings NA cambio-climático + 12 nodos nuevos dominio + 4 nodos nuevos rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x10, LOOP 3 rol x4) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+|| - **Bloqueos:** ninguno. ||
+|| - **Cola:** Round 97 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 98) o pausar hasta próximo cron. ||
+|| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 98) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||

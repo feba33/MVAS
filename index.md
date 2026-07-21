@@ -2458,3 +2458,28 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 ### rol Round 96 (nuevos)
 - [head-of-market-research](rol/head-of-market-research.md) — Head of Market Research: motor de insights, metodología cuali/cuanti · head-of-market-research,market-research,insights · 2026-07-20
 - [head-of-compliance-operations](rol/head-of-compliance-operations.md) — Head of Compliance Operations: monitoreo, screening, capacitación, reporte · head-of-compliance-operations,compliance-operations,monitoreo · 2026-07-20
+
+### sustrato Round 97 (deepening NA)
+- [cambio-climatico](sustrato/mexico/cambio-climatico.md) — Cambio climático México: LGCC 2012, SEMARNAT, NDC, transición energética · mexico,cambio-climatico,semarnat,ndc,mitigacion · 2026-07-20
+- [cambio-climatico](sustrato/estados-unidos/cambio-climatico.md) — Cambio climático EE.UU.: EPA, IRA, París, SEC climate disclosure · estados-unidos,cambio-climatico,epa,ira,paris · 2026-07-20
+- [cambio-climatico](sustrato/canada/cambio-climatico.md) — Cambio climático Canadá: Pan-Canadian Framework, carbon pricing, net-zero 2050 · canada,cambio-climatico,carbon-pricing,net-zero · 2026-07-20
+
+### dominio Round 97 (nuevos)
+- [cambio-climatico](dominio/cambio-climatico.md) — Cambio climático (disciplina): GEI, mitigación/adaptación, política y mercados de carbono · cambio-climatico,gei,mitigacion,adaptacion,mercados-de-carbono · 2026-07-20
+- [oceanografia](dominio/oceanografia.md) — Oceanografía: física/química/biología/geología marina, corrientes · oceanografia,ciencia-marina,ecosistemas-marinos · 2026-07-20
+- [meteorologia](dominio/meteorologia.md) — Meteorología: atmósfera, pronóstico, fenómenos, gestión de desastres · meteorologia,atmosfera,pronostico,clima · 2026-07-20
+- [ecologia](dominio/ecologia.md) — Ecología: ecosistemas, biodiversidad, poblaciones, sucesión · ecologia,ecosistemas,biodiversidad · 2026-07-20
+- [ciencia-del-suelo](dominio/ciencia-del-suelo.md) — Ciencia del suelo: formación, fertilidad, degradación, carbono en suelos · ciencia-del-suelo,edafologia,fertilidad,degradacion · 2026-07-20
+- [conservacion](dominio/conservacion.md) — Conservación: especies, hábitats, áreas protegidas, restauración · conservacion,biodiversidad,areas-protegidas · 2026-07-20
+- [etica-de-datos](dominio/etica-de-datos.md) — Ética de datos: privacidad, consentimiento, sesgo algorítmico, gobernanza · etica-de-datos,privacidad,consentimiento,sesgo · 2026-07-20
+- [ingenieria-biomedica](dominio/ingenieria-biomedica.md) — Ingeniería biomédica: dispositivos, biomecánica, biomateriales, imagen · ingenieria-biomedica,dispositivos-medicos,biomateriales · 2026-07-20
+- [agronomia](dominio/agronomia.md) — Agronomía: producción de cultivos, manejo de suelos, fitomejoramiento, sistemas de cultivo · agronomia,agricultura,cultivos,suelos,fitomejoramiento · 2026-07-21
+- [genetica](dominio/genetica.md) — Genética: herencia, genomas, edición genética (CRISPR), genética molecular/poblacional, medicina genómica · genetica,genomica,crisp,medicina-genomica,biotecnologia · 2026-07-21
+- [epidemiologia](dominio/epidemiologia.md) — Epidemiología: distribución de enfermedades, determinantes, vigilancia, estudios (cohorte/caso-control) · epidemiologia,salud-publica,medicina,salud · 2026-07-21
+- [farmacologia](dominio/farmacologia.md) — Farmacología: fármacos, farmacocinética/farmacodinamia, ensayos clínicos, seguridad, farmacovigilancia · farmacologia,farmacos,ensayos-clinicos,farmacovigilancia,terapeutica · 2026-07-21
+
+### rol Round 97 (nuevos)
+- [head-of-data-privacy](rol/head-of-data-privacy.md) — Head of Data Privacy: DPO, GDPR/CCPA, programa de privacidad · head-of-data-privacy,privacidad,dpo,gdpr · 2026-07-20
+- [head-of-threat-hunting](rol/head-of-threat-hunting.md) — Head of Threat Hunting: cacería proactiva, SOC, detección · head-of-threat-hunting,threat-hunting,ciberseguridad · 2026-07-20
+- [head-of-sales-analytics](rol/head-of-sales-analytics.md) — Head of Sales Analytics: analítica de ventas, pipeline, forecast, win-rate, cohortes · head-of-sales-analytics,analitica-de-ventas,pipeline,forecast,win-rate,cohortes · 2026-07-21
+- [head-of-clinical-data-management](rol/head-of-clinical-data-management.md) — Head of Clinical Data Management: datos de ensayos clínicos, EDC, calidad de datos, estadística clínica · head-of-clinical-data-management,clinical-data-management,edc,clinical-trials · 2026-07-21

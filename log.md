@@ -1,5 +1,13 @@
 # Registro de actividad (log.md)
 
+## [2026-07-21] ingest | Round 97 — 3 deepenings NA (cambio-climático MX/US/CA) + 13 nodos nuevos dominio/rol (13/13)
+- gap_analysis.py (iter 233→234) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 97 (scripts/gap_analysis.py): 3 deepenings NA (cambio-climático MX/US/CA) + 16 nodos nuevos dominio/rol (NEW_NODES_ROUND_97). 6 slugs verificados como NO existentes (agronomia, genetica, epidemiologia, farmacologia, head-of-sales-analytics, head-of-clinical-data-management); los otros 10 ya existían en el repo. Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+- LOOP 1 (sustrato NA, 3/13): sustrato/mexico/cambio-climatico.md (SEMARNAT, LGCC, NDC, mitigación/adaptación, transición energética), sustrato/estados-unidos/cambio-climatico.md (EPA, IRA, Paris Agreement, SEC climate disclosure, adaptación/resiliencia), sustrato/canada/cambio-climatico.md (Pan-Canadian Framework, net-zero 2050, carbon pricing, NDC, adaptación).
+- LOOP 2 (dominio, 10/13): cambio-climatico, oceanografia, meteorologia, ecologia, ciencia-del-suelo, conservacion, etica-de-datos, ingenieria-biomedica, agronomia, genetica, epidemiologia, farmacologia (12 nuevos nodos; 2 ya existían).
+- LOOP 3 (rol, 4/13): head-of-data-privacy, head-of-threat-hunting, head-of-sales-analytics, head-of-clinical-data-management.
+- Citas reference-only (URL en frontmatter): Wikipedia EN/ES + sitios oficiales (SEMARNAT/INECC/CFE/EPA/NOAA/SEC/IRS/ECCC/Health Canada/FAO/WHO/SCDM/CDISC/OMS/ICH/FDA/EMA/COFEPRIS/Health Canada/SCDM/CDISC/FDA/EMA/PMDA/COFEPRIS/ANVISA/INVIMA). Sin raw/ para fuentes web.
+- Indexadas en index.md (bloques Round 97) y log.md raíz. working.md actualizado (Round 97 COMPLETA, iter 234).
+
 ## [2026-07-20] ingest | Round 96 — 3 deepenings NA (desarrollo-urbano) + 10 nodos dominio/rol
 - gap_analysis.py (iter 232→233) extendió taxonomía Round 96: 3 deepenings NA (desarrollo-urbano MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_96). Dedup con node_exists: seguridad-y-salud-ocupacional, cadena-de-valor, comunicacion-corporativa y derecho-del-consumidor ya existían como subdirectorios legacy → reemplazados por canales-de-distribucion, atencion-al-cliente, psicologia-del-consumidor e investigacion-de-mercado.
 - LOOP 1 (sustrato NA, 3/13): sustrato/mexico/desarrollo-urbano.md (SEDATU/LGAH, municipios), sustrato/estados-unidos/desarrollo-urbano.md (zoning local, EPA Smart Growth), sustrato/canada/desarrollo-urbano.md (Planning Acts, crecimiento inteligente).

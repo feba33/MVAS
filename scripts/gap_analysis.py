@@ -1779,6 +1779,32 @@ NEW_NODES_ROUND_96 = [
 NEW_NODES = NEW_NODES_ROUND_96
 
 
+# Round 97 (iter 234) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+# Alcance sustrato: solo Norteamérica (MX/US/CA). Dominio/rol generales (agnósticos de país).
+TAXONOMY["sustrato/mexico"].append(("cambio-climatico", "Cambio climatico Mexico: SEMARNAT, Ley General de Cambio Climatico, NDC/INDC, mitigacion/adaptacion, transicion energetica, descarbonizacion, vs medio-ambiente/energia/energia-renovables"))
+TAXONOMY["sustrato/estados-unidos"].append(("cambio-climatico", "Cambio climatico EE.UU.: EPA, IRA, Paris Agreement, SEC climate disclosure, adaptacion/resiliencia, vs clima/medio-ambiente/energia"))
+TAXONOMY["sustrato/canada"].append(("cambio-climatico", "Cambio climatico Canada: Pan-Canadian Framework, net-zero 2050, carbon pricing, NDC, adaptacion, vs medio-ambiente/energia/energia-renovables"))
+NEW_NODES_ROUND_97 = [
+    ("dominio/cambio-climatico", "Cambio climatico (disciplina): ciencia del clima, GEI, mitigacion/adaptacion, politica climatica, mercados de carbono, resiliencia, vs ciencia-ambiental/medio-ambiente/capital-natural"),
+    ("dominio/oceanografia", "Oceanografia: oceanos, corrientes, ecosistemas marinos, acidificacion, nivel del mar, vs medio-ambiente/recursos-naturales/pesca-acuicultura"),
+    ("dominio/meteorologia", "Meteorologia: atmosfera, clima, pronostico, fenomenos meteorologicos, observacion, vs cambio-climatico/oceanografia"),
+    ("dominio/ecologia", "Ecologia: ecosistemas, biodiversidad, poblaciones, comunidades, sucesion, vs ciencia-ambiental/conservacion"),
+    ("dominio/ciencia-del-suelo", "Ciencia del suelo / edafologia: suelos, fertilidad, degradacion, carbono en suelos, erosion, vs agricultura/agronomia"),
+    ("dominio/conservacion", "Conservacion / conservation biology: especies, habitats, areas protegidas, restauracion ecologica, vs ecologia/medio-ambiente"),
+    ("dominio/etica-de-datos", "Etica de datos: privacidad, consentimiento, sesgo algoritmico, gobernanza etica de datos, transparencia, vs proteccion-de-datos/gobierno-de-datos"),
+    ("dominio/ingenieria-biomedica", "Ingenieria biomedica: dispositivos medicos, biomecanica, biomateriales, imagen medica, rehabilitation engineering, vs biotecnologia/dispositivos-medicos"),
+    ("dominio/agronomia", "Agronomia: produccion de cultivos, manejo de suelos, fitomejoramiento, sistemas de cultivo, vs agricultura/agrotech/agricultura"),
+    ("dominio/genetica", "Genetica: herencia, genomas, edicion genetica (CRISPR), genetica molecular/poblacional, medicina genomica, vs biotecnologia/bioinformatica"),
+    ("dominio/epidemiologia", "Epidemiologia: distribucion de enfermedades, determinantes, vigilancia, estudios (cohorte/caso-control), vs salud-publica/medicina/salud"),
+    ("dominio/farmacologia", "Farmacologia: farmacos, farmacocinetica/farmacodinamia, ensayos clinicos, seguridad, farmacovigilancia, vs farmaceutica/medicina"),
+    ("rol/head-of-data-privacy", "Head of Data Privacy: privacidad, cumplimiento (GDPR/CCPA/LGPD/PIPL), DPO, proteccion de datos, vs chief-privacy-officer/head-of-legal/head-of-compliance-operations"),
+    ("rol/head-of-threat-hunting", "Head of Threat Hunting: busqueda proactiva de amenazas, deteccion, threat intel, caza de adversarios, vs security-analyst/head-of-incident-response/head-of-threat-intelligence"),
+    ("rol/head-of-sales-analytics", "Head of Sales Analytics: analitica de ventas, pipeline, forecast, win-rate, cohortes, vs head-of-revenue-operations/analitica-de-ventas"),
+    ("rol/head-of-clinical-data-management", "Head of Clinical Data Management: datos de ensayos clinicos, EDC, calidad de datos, estadistica clinica, vs head-of-clinical-data/head-of-medical-affairs"),
+]
+NEW_NODES = NEW_NODES_ROUND_97
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):
