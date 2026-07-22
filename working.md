@@ -1742,11 +1742,50 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Iterações totales:** 182.
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 182 (Round 44 COMPLETA — 13/13 ingestados).
-| - **Última ação:** Round 44 iter 182 — LOOP 1+2+3 sustrato NA (seguros MX/US/CA) + 5 dominio + 5 rol ingestados; modelo centralizado (página + index/log raíz, sem per-node raw/index/log). Round 44 COMPLETA (13/13). Tópicos acumulados: 640.
-- **Bloqueos:** ninguno.
-| - **Cola:** Round 44 CERRADA (13/13 COMPLETOS). gap_analysis.py extendido com 3 deepenings NA (seguros MX/US/CA) + 10 nodos novos (Round 44). Próxima: gap_analysis.py → Round 45.
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## ▶️ PRÓXIMA TAREA
 | - Round 43 COMPLETA (13/13). gap_analysis.py extendido (3 deepenings NA + 10 nodos). Próxima: LOOP 2 = dominio (open-banking, embedded-finance, agentes-ia, observabilidade, pagamentos) + LOOP 3 = rol (head-of-trust-and-safety, head-of-public-policy, head-of-design-ops, head-of-franchise, head-of-ecommerce).
 | - Próxima tarefa (Round 44): REALIZADO (LOOP 1+2+3 COMPLETOS); proximo: gap_analysis.py → Round 45 (reabastecer taxonimia). Sustrato NA (seguros MX/US/CA) CONCLUÍDO em iter 182.
@@ -1795,11 +1834,50 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Iterações totales:** 183.
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 183 (Round 45 COMPLETA — 13/13 ingestados). |
-| - **Última ação:** Round 45 iter 183 — LOOP 1 (sustrato NA x3) + LOOP 2 (dominio x5) + LOOP 3 (rol x5) ingestados; modelo centralizado. gap_analysis.py CORREGIDO (elimina 13 falsos positivos de Round 44). Taxonomía extendida Round 45 (3 deepenings NA + 10 nodos). |
-- **Bloqueos:** ninguno.
-| - **Cola:** Round 45 COMPLETA (13/13). gap_analysis.py reporta 0 huecos reales (taxonomía agotada). Próximo: gap_analysis.py → Round 46 (reabastecer taxonomía) o pausar hasta próximo cron. |
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## ▶️ PRÓXIMA TAREA
 | - Round 45 COMPLETA (13/13). gap_analysis.py corregido + taxonomía extendida. Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 46) o pausar hasta próximo cron. Sustrato NA = solo Norteamérica (respetado).
 ### [2026-07-15] Round 45 — ITER 183 | COMPLETA (13/13)
@@ -1840,11 +1918,50 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Iterações totales:** 184.
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 184 (Round 46 COMPLETA — 13/13 ingestados e integrados). |
-| - **Última ação:** Round 46 iter 184 — RECUPERACIÓN de integración pendiente: las 13 páginas ya estaban en disco (escritas en corrida anterior) pero no integradas a index.md/log.md ni commiteadas. Se integraron (index.md root + log.md root) y commitearon. Modelo centralizado. gap_analysis.py ya extendido Round 46 (3 deepenings NA + 10 nodos). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 46 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 47) o pausar hasta próximo cron. |
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## ▶️ PRÓXIMA TAREA
 | - Round 46 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 47) o pausar hasta próximo cron. Sustrato NA = solo Norteamérica (respetado).
 ### [2026-07-16] Round 46 — ITER 184 | COMPLETA (13/13)
@@ -2030,11 +2147,50 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Iterações totales:** 192. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 192 (Round 54 COMPLETA — 13/13 integrados y commiteados). |
-| - **Última ação:** Round 54 iter 192 — RECUPERACIÓN de integración pendiente: las 13 páginas ya estaban en disco (escritas en corrida anterior) pero no integradas a index.md/log.md ni commiteadas. Se integraron (index.md root + log.md root + esta sección) y se commitearon. Se escribieron también los 2 archivos rol faltantes (head-of-legal-operations, head-of-sales-enablement-mkt). Modelo centralizado. gap_analysis.py ya extendido Round 54 (3 deepenings NA + 10 nodos). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 54 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 55) e ingerir. |
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## ▶️ PRÓXIMA TAREA
 | - Round 54 COMPLETA (13/13). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 55) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
 
@@ -2090,11 +2246,50 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Iterações totales:** 194. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 194 (Round 56 COMPLETA — 13/13 integrados y commiteados). |
-| - **Última ação:** Round 56 iter 194 — Extendió taxonomía gap_analysis.py (3 deepenings NA + 10 nodos nuevos) e ingirió 13 páginas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5). Integración centralizada (index.md root + log.md root) y commit. Reference-only (frontmatter cita URL oficial; sin raw/). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 56 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 57) e ingerir. |
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## ▶️ PRÓXIMA TAREFA
 - Round 56 COMPLETA (13/13). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 57) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
 
@@ -2377,11 +2572,50 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Iteraciones totales:** 206. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 208 (Round 70 COMPLETA — 15/15 ingestados e integrados). |
-| - **Última ação:** Round 70 iter 208 — gap_analysis.py (iter 208) reportó 0 huecos reales → taxonomía extendida Round 70 (3 deepenings NA + 12 nodos nuevos dominio/rol). 15 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x4) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 70 COMPLETA (15/15). |
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## ▶️ PRÓXIMA TAREFA
 - Round 70 COMPLETA (15 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 71) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
 
@@ -2517,11 +2751,50 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Iterações totales:** 207. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 208 (Round 70 COMPLETA — 15/15 ingestados e integrados). |
-| - **Última ação:** Round 70 iter 208 — gap_analysis.py (iter 208) reportó 0 huecos reales → taxonomía extendida Round 70 (3 deepenings NA + 12 nodos nuevos dominio/rol). 15 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x4) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 70 COMPLETA (15/15). |
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## ▶️ PRÓXIMA TAREFA
 - Round 70 COMPLETA (15 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomía (Round 71) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamérica (respetado).
 
@@ -2567,11 +2840,50 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Iteraciones totales:** 209. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 209 (Round 71 COMPLETA — 13/13 ingestados e integrados). |
-| - **Última ação:** Round 71 iter 209 — gap_analysis.py (iter 209) reportó 0 huecos reales → taxonomía extendida Round 71 (3 deepenings NA + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x7, LOOP 3 rol x3) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 71 COMPLETA (13/13). |
-| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos → ampliar taxonomía (Round 72) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. |
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
+
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 
 ## ✅ COLA ROUND 72 — COMPLETA (23/23 páginas nuevas)
 > gap_analysis.py (iter 210) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 72 (scripts/gap_analysis.py): 3 deepenings NA (sustrato/mexico/seguridad-cibernetica, sustrato/estados-unidos/telecomunicaciones-cloud, sustrato/canada/energia-renovables) + 20 nodos nuevos dominio/rol (NEW_NODES_ROUND_72). Todos nuevos (sin duplicados).
@@ -2652,11 +2964,50 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Iteraciones totales:** 211. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 211 (Round 73 COMPLETA — 11/11 ingestados e integrados). |
-| - **Última ação:** Round 73 iter 211 — gap_analysis.py (iter 211) reportó 0 huecos reales → taxonomía extendida Round 73 (3 deepenings NA sugeridos, de los cuales 2 ya existían + 10 nodos nuevos dominio/rol). 11 páginas ingeridas (LOOP 1 sustrato NA x1, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 73 COMPLETA (11/11). |
-| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos → ampliar taxonomía (Round 74) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. |
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
+
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 
 ## ✅ COLA ROUND 74 — COMPLETA (13/13 páginas nuevas)
 > gap_analysis.py (iter 212) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 74 (scripts/gap_analysis.py): 3 deepenings NA (mexico/electorales, estados-unidos/policia-antimonopolio, canada/ciencia-tecnologia) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_74). Todos los 13 sugeridos eran nuevos (dedup against existing slugs; se corrigieron 6 duplicados del borrador: medio-ambiente MX/CA, seguridad-social US, seguros-de-responsabilidad, derecho-procesal, head-of-customer-marketing → no recreados).
@@ -2700,11 +3051,50 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Iteraciones totales:** 212. |
 
 ## 🚦 ESTADO
-| - **Iteración actual:** 212 (Round 74 COMPLETA — 13/13 ingestados e integrados). |
-| - **Última ação:** Round 74 iter 212 — gap_analysis.py (iter 212) reportó 0 huecos reales → taxonomía extendida Round 74 (3 deepenings NA + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 74 COMPLETA (13/13). |
-| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos → ampliar taxonomía (Round 75) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. |
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
+
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 
 ## ✅ COLA ROUND 75 — COMPLETA (13/13 páginas nuevas)
 > gap_analysis.py (iter 213) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 75 (scripts/gap_analysis.py): 3 deepenings NA (mexico/comunicacion-social, estados-unidos/energia-espacial, canada/pesca) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_75). NOTA: el 1er borrador (infraestructura MX, defensa US, politica-fiscal CA, economia-circular/economia-comportamental/bioetica) ya EXISTÍAN como páginas planas → reemplazados por topics libres (ver dedup).
@@ -2777,12 +3167,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
 | **Iteraciones totales:** 214. |
 
-## ESTADO
-| - **Iteracion actual:** 214 (Round 76 COMPLETA — 13/13 ingestados e integrados). |
-| - **Ultima accion:** Round 76 iter 214 — gap_analysis.py (iter 214) reporto 0 huecos reales → taxonomia extendida Round 76 (3 deepenings NA + 10 nodos nuevos dominio/rol). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 76 COMPLETA (13/13). |
+## 🚦 ESTADO
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## PROXIMA TAREFA
 - Round 76 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> extender taxonomia (Round 77) e ingerir en la siguiente corrida. Sustrato NA = solo Norteamerica (respetado).
 
@@ -2824,12 +3253,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
 | **Iteraciones totales:** 215. |
 
-## ESTADO
-| - **Iteracion actual:** 215 (Round 77 COMPLETA — 10/10 ingestados e integrados). |
-| - **Ultima accion:** Round 77 iter 215 — gap_analysis.py (iter 215) reporto 0 huecos reales → taxonomia extendida Round 77 (3 deepenings NA + 10 nodos nuevos dominio/rol, dedup de 2 ya existentes). 10 paginas ingeridas (LOOP 1 sustrato NA x2, LOOP 2 dominio x3, LOOP 3 rol x5) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 CA; US seguridad-social deduped). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 77 COMPLETA (10/10). |
-| - **Proxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 78) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. |
+## 🚦 ESTADO
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
+
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 
 ## ✅ COLA ROUND 78 — COMPLETA (13/13 páginas nuevas)
 > gap_analysis.py (iter 216) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 78 (scripts/gap_analysis.py): 3 deepenings NA (mexico/observatorio, estados-unidos/rendicion-de-cuentas, canada/derechos-de-los-pueblos-indigenas) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_78). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
@@ -2870,12 +3338,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
 | **Iteraciones totales:** 216. |
 
-## ESTADO
-| - **Iteracion actual:** 216 (Round 78 COMPLETA — 13/13 ingestados e integrados). |
-| - **Ultima accion:** Round 78 iter 216 — completó integración (index.md sustrato+dominio Round 78, log.md Round 78, working.md) y commit de 13 páginas + gap_analysis.py. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 78 COMPLETA (13/13). |
-| - **Proxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 79) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. |
+## 🚦 ESTADO
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
+
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 
 ## ✅ COLA ROUND 79 — COMPLETA (13/13 páginas nuevas)
 > gap_analysis.py (iter 217) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 79 (scripts/gap_analysis.py): 3 deepenings NA (mexico/politica-social, estados-unidos/seguridad-fronteriza, canada/seguridad-fronteriza) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_79). Verificado con `ls` que ninguno de los 13 slugs ya existía. Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
@@ -2915,12 +3422,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
 | **Iteraciones totales:** 218. |
 
-## ESTADO
-| - **Iteracion actual:** 220 (Round 82 COMPLETA — 13/13 ingestados e integrados). |
-| - **Ultima accion:** Round 82 iter 220 — gap_analysis.py (0 huecos) → taxonomia extendida Round 82 (3 deepenings NA + 10 nodos nuevos; 4 slugs dedupados por ya existir: estados-unidos/seguros, canada/energia, derecho-de-las-telecomunicaciones, economia-de-la-salud → reemplazados). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x7, LOOP 3 rol x5) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 82 COMPLETA (13/13). |
+## 🚦 ESTADO
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## PROXIMA TAREFA
 - Round 82 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 83) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
 
@@ -3037,12 +3583,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
 | **Iteraciones totales:** 222. |
 
-## ESTADO
-| - **Iteracion actual:** 222 (Round 84 COMPLETA — 13/13 ingestados e integrados). |
-| - **Ultima accion:** Round 84 iter 222 — gap_analysis.py (0 huecos) → taxonomia extendida Round 84 (3 deepenings NA derechos-humanos + 10 nodos nuevos; todos slugs verificados no-existentes). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x9, LOOP 3 rol x7) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 84 COMPLETA (13/13). |
+## 🚦 ESTADO
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## PROXIMA TAREFA
 - Round 84 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 85) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
 
@@ -3085,12 +3670,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
 | **Iteraciones totales:** 223. |
 
-## ESTADO
-| - **Iteracion actual:** 223 (Round 85 COMPLETA — 13/13 ingestados e integrados). |
-| - **Ultima accion:** Round 85 iter 223 — gap_analysis.py (0 huecos) → taxonomia extendida Round 85 (3 deepenings NA energia-nuclear/ciencia-de-datos/electricidad + 10 nodos nuevos dominio/rol ingenierías + roles EHS/facilities/RE/export/manufactura). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (pagina plana + index.md root + log.md root). Además se integró a index.md el Round 84 que faltaba. Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 85 COMPLETA (13/13). |
+## 🚦 ESTADO
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## PROXIMA TAREFA
 - Round 85 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 86) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
 
@@ -3132,12 +3756,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
 | **Iteraciones totales:** 224. |
 
-## ESTADO
-| - **Iteracion actual:** 226 (Round 89 COMPLETA — 13/13 ingestados e integrados). Round 88 también confirmada (páginas ya presentes en repo; registro diferido cerrado en log.md). |
-| - **Ultima accion:** Round 89 iter 226 — gap_analysis.py (0 huecos) → taxonomia extendida Round 89 (3 deepenings NA energia-distribuida MX / comercio US / salud-mental CA + 10 nodos nuevos dominio/rol). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x5, LOOP 3 rol x5) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 89 COMPLETA (13/13). |
+## 🚦 ESTADO
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## PROXIMA TAREFA
 - Round 89 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 90) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
 
@@ -3341,12 +4004,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
 | **Iteraciones totales:** 229. |
 
-## ESTADO
-| - **Iteracion actual:** 229 (Round 92 COMPLETA — 13/13 ingestados e integrados). |
-| - **Ultima accion:** Round 92 iter 229 — gap_analysis.py (0 huecos) → taxonomia extendida Round 92 (3 deepenings NA derecho-procesal-civil + 10 nodos nuevos dominio/rol). 13 paginas (3 sustrato NA + 8 dominio + 2 rol) ya escritas en corrida previa; esta iter cierra integración (log.md + working.md) y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 92 COMPLETA (13/13). |
+## 🚦 ESTADO
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## PROXIMA TAREFA
 - Round 92 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 93) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
 
@@ -3388,12 +4090,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
 | **Iteraciones totales:** 230. |
 
-## ESTADO
-| - **Iteracion actual:** 230 (Round 93 COMPLETA — 13/13 ingestados e integrados). |
-| - **Ultima accion:** Round 93 iter 230 — gap_analysis.py (0 huecos) → taxonomia extendida Round 93 (3 deepenings NA educacion-media-superior/industria MX + trabajo CA + 10 nodos nuevos dominio/rol). 13 paginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 2 deepening MX + 1 CA). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 93 COMPLETA (13/13). |
+## 🚦 ESTADO
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## PROXIMA TAREFA
 - Round 93 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 94) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
 
@@ -3435,12 +4176,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
 | **Iteraciones totales:** 231. |
 
-## ESTADO
-| - **Iteracion actual:** 231 (Round 94 COMPLETA — 13/13 ingestados e integrados). |
-| - **Ultima accion:** Round 94 iter 231 — gap_analysis.py (0 huecos) → taxonomia extendida Round 94 (3 deepenings NA politica-de-vivienda MX / educacion-inicial MX / ciencia CA + 10 nodos nuevos dominio/rol). Dedup de 5 duplicados resuelto (politica-monetaria US, politica-fiscal CA, derecho-penal, seguros-de-responsabilidad-civil, gestion-de-la-demanda-energetica ya existian). 13 paginas ingeridas (3 sustrato NA + 8 dominio + 2 rol) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 2 deepening MX + 1 CA). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 94 COMPLETA (13/13). |
+## 🚦 ESTADO
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## PROXIMA TAREFA
 - Round 94 COMPLETA (13 paginas nuevas ingeridas y commiteadas). Proximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomia (Round 95) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el proximo cron. Sustrato NA = solo Norteamerica (respetado).
 
@@ -3482,12 +4262,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
 | **Iteraciones totales:** 232. |
 
-## ESTADO
-| - **Iteracion actual:** 232 (Round 95 COMPLETA — 13/13 ingestados e integrados). |
-| - **Ultima accion:** Round 95 iter 232 — gap_analysis.py (0 huecos) → taxonomia extendida Round 95 (3 deepenings NA politica-de-salud MX / partidos-politicos US / desarrollo-regional CA + 10 nodos nuevos dominio/rol). Dedup de 5 duplicados resuelto (politica-social MX, derecho-de-los-refugiados, economia-del-cuidado, mercados-financieros, ciberseguridad-de-identidad ya existian en subdirectorios). 13 paginas ingeridas (3 sustrato NA + 8 dominio + 2 rol) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 95 COMPLETA (13/13). |
+## 🚦 ESTADO
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## PROXIMA TAREFA
 - Round 95 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 96) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamerica (respetado).
 
@@ -3529,12 +4348,51 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 | **Alcance sustrato:** solo Norteamerica (MX/US/CA) en profundizaciones; otros paises ya no se amplian salvo indicacion. |
 | **Iteraciones totales:** 233. |
 
-## ESTADO
-| - **Iteracion actual:** 233 (Round 96 COMPLETA — 13/13 ingestados e integrados). |
-| - **Ultima accion:** Round 96 iter 233 — gap_analysis.py (0 huecos) → taxonomia extendida Round 96 (3 deepenings NA desarrollo-urbano MX/US/CA + 10 nodos nuevos dominio/rol). Dedup de 4 duplicados resuelto (seguridad-y-salud-ocupacional, cadena-de-valor, comunicacion-corporativa, derecho-del-consumidor ya existian en subdirectorios). 13 paginas ingeridas (3 sustrato NA + 8 dominio + 2 rol) con modelo centralizado (pagina plana + index.md root + log.md root). Integracion y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamerica; 1 deepening MX + 1 US + 1 CA). |
-| - **Bloqueos:** ninguno. |
-| - **Cola:** Round 96 COMPLETA (13/13). |
+## 🚦 ESTADO
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
 
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
 ## PROXIMA TAREFA
 - Round 96 COMPLETA (13 páginas nuevas ingeridas y commiteadas). Próximo: ejecutar `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 97) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamerica (respetado).
 
@@ -3582,8 +4440,125 @@ Alcance sustrato: solo Norteamérica. 13 temas = 3 deepenings NA + 10 nodos nuev
 || **Iterações totales:** 234. ||
 
 ## 🚦 ESTADO
-|| - **Iteración actual:** 234 (Round 97 COMPLETA — 13/13 ingestados e integrados). ||
-|| - **Última ação:** Round 97 iter 234 — gap_analysis.py (0 huecos) → taxonomía extendida Round 97 (3 deepenings NA cambio-climático + 12 nodos nuevos dominio + 4 nodos nuevos rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x10, LOOP 3 rol x4) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
-|| - **Bloqueos:** ninguno. ||
-|| - **Cola:** Round 97 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 98) o pausar hasta próximo cron. ||
-|| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 98) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
+
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.
+
+## ✅ COLA ROUND 98 — COMPLETA (13/13 páginas nuevas)
+> gap_analysis.py (iter 235) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 98 (scripts/gap_analysis.py): 3 deepenings NA (mexico/justicia, estados-unidos/inteligencia, canada/artico) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_98). Todos los 13 slugs verificados como NO existentes (dedup previo; 0 duplicados). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/justicia — Justicia México (profundización): Poder Judicial de la Federación, SCJN, Consejo de la Judicatura, juicios orales, amparo, reforma judicial 2024-2025, fiscalías; vs poder-judicial/derecho-procesal-civil
+- [x] sustrato/estados-unidos/inteligencia — Inteligencia EE.UU. (profundización): Intelligence Community (ODNI, CIA, NSA, DIA, NGA, NRO), National Intelligence Program, Military Intelligence Program, supervisión congresual, vs seguridad-nacional/ciencia-de-datos
+- [x] sustrato/canada/artico — Ártico Canadá (profundización): soberanía ártica, Consejo del Ártico, infraestructura norte, cambio climático, pueblos indígenas, seguridad y defensa; vs defensa-nacional/relaciones-exteriores/medio-ambiente
+
+### Dominio (nuevos nodos)
+- [x] dominio/neurociencia — Neurociencia: sistema nervioso, cognición, neuroplasticidad, neuroimagen, neuroeconomía, aplicaciones clínicas/empresariales; vs psicologia/ia-generativa
+- [x] dominio/economia-del-comportamiento — Economía del comportamiento / behavioral economics (profundización): sesgos, heurísticas, nudge theory, arquitectura de elección, aplicaciones en política/público/privado; vs finanzas-comportamentales/psicologia-del-consumidor
+- [x] dominio/robotica — Robótica: brazos industriales, cobots, robots móviles (AMR), automatización de almacenes, cirugía robótica, vs automatizacion-procesos/mecatronica
+- [x] dominio/realidad-aumentada-virtual — Realidad aumentada y virtual (AR/VR/XR): headsets, spatial computing, casos industriales (entrenamiento, mantenimiento, diseño), metaverso empresarial; vs metaverso/juegos-videojuegos
+- [x] dominio/gestion-de-productos — Gestión de productos / product management: discovery, priorización, roadmap, métricas, ciclo de vida, PM vs PO, vs project-management/estrategia
+- [x] dominio/finanzas-descentralizadas — Finanzas descentralizadas / DeFi: protocolos, DEX, lending, stablecoins, yield farming, riesgos de contratos inteligentes, regulación; vs fintech/criptoactivos/blockchain-empresarial
+- [x] dominio/economia-azul — Economía azul / blue economy: recursos oceánicos sostenibles, pesca, turismo costero, energía marina, biotecnología marina, vs economia-maritima/acuicultura
+- [x] dominio/tecnologia-espacial — Tecnología espacial / space tech: satélites, launch, constelaciones LEO, observación de Tierra, comunicaciones, navegación, minería espacial; vs industria-espacial/aeroespacial/satelites
+
+### Rol (nuevos nodos)
+- [x] rol/head-of-product-operations — Head of Product Operations: procesos de producto, tooling, insights, planificación, habilitación de PMs; vs product-manager/head-of-product-strategy
+- [x] rol/head-of-ai-governance — Head of AI Governance: gobierno de modelos, risk management, compliance (EU AI Act, NIST RMF), ética, auditoría algorítmica; vs chief-ai-officer/gobernanza-etica-ia/head-of-ai-safety
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 97: 1338; Round 98: 1351/13 nuevas). ||
+|| **Rondas:** 98 completas (Round 1..98). ||
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). ||
+|| **Nodos dominio:** ~437 (Round 98 +8: neurociencia, economia-del-comportamiento, robotica, realidad-aumentada-virtual, gestion-de-productos, finanzas-descentralizadas, economia-azul, tecnologia-espacial). ||
+|| **Nodos rol:** ~356 (Round 98 +2: head-of-product-operations, head-of-ai-governance). ||
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. ||
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. ||
+|| **Iterações totales:** 235. ||
+
+## 🚦 ESTADO
+||| - **Iteración actual:** 235 (Round 98 COMPLETA — 13/13 ingestados e integrados). ||
+||| - **Última ação:** Round 98 iter 235 — gap_analysis.py (0 huecos) → taxonomía extendida Round 98 (3 deepenings NA justicia/inteligencia/artico + 10 nodos nuevos dominio/rol). 13 páginas ingeridas (LOOP 1 sustrato NA x3, LOOP 2 dominio x8, LOOP 3 rol x2) con modelo centralizado (página plana + index.md root + log.md root). Integración y commit. Reference-only (Wikipedia + autoridades sectoriales; sin raw/). ALLOWED_SUSTRATO respetado (solo Norteamérica; 1 deepening MX + 1 US + 1 CA). ||
+||| - **Bloqueos:** ninguno. ||
+||| - **Cola:** Round 98 COMPLETA (13/13). Próximo: `python3 scripts/gap_analysis.py`; si 0 huecos -> ampliar taxonomía (Round 99) o pausar hasta próximo cron. ||
+||| - **Próxima tarefa:** Re-ejecutar `python3 scripts/gap_analysis.py`; si reporta 0 huecos -> ampliar taxonomía (Round 99) con 3 deepenings NA + 10 nodos nuevos dominio/rol, o pausar hasta el próximo cron. Sustrato NA = solo Norteamérica (respetado). ||
+
+## ✅ COLA ROUND 99 — EN CURSO
+> gap_analysis.py (iter 236) reportó 0 huecos reales en nodos existentes → taxonomía extendida Round 99 (scripts/gap_analysis.py): 3 deepenings NA (gobernanza-corporativa MX/US/CA) + 10 nodos nuevos dominio/rol (NEW_NODES_ROUND_99). Alcance sustrato: solo Norteamérica (MX/US/CA). Modelo centralizado: página plana + index.md/log.md raíz. Reference-only (URL en frontmatter; sin raw/).
+
+### Sustrato (deepening nodos NA existentes)
+- [x] sustrato/mexico/gobernanza-corporativa — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa
+- [x] sustrato/estados-unidos/gobernanza-corporativa — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank
+- [x] sustrato/canada/gobernanza-corporativa — Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties
+
+### Dominio (nuevos nodos)
+- [ ] dominio/gestion-de-activos-digitales — Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución
+- [ ] dominio/tecnologia-regulatoria — Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML
+- [ ] dominio/inteligencia-de-amenazas — Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing
+- [ ] dominio/finanzas-de-proyecto — Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk
+- [ ] dominio/derecho-de-los-seguros — Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI)
+
+### Rol (nuevos nodos)
+- [ ] rol/head-of-data-mesh — Head of Data Mesh: arquitectura federada de datos, data products, domain ownership
+- [ ] rol/head-of-platform-operations — Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE
+- [ ] rol/head-of-customer-education — Head of Customer Education: academia, onboarding, certificación, adopción
+- [ ] rol/head-of-sales-strategy-operations — Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics
+- [ ] rol/head-of-partner-ecosystem — Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell
+
+## 📊 ÍNDICE DE PROGRESO (acumulado)
+|| **Tópicos ingeridos (acumulado): 1351** (Round 98: 1351). |
+|| **Rondas:** 98 completas (Round 1..98). |
+|| **Nodos sustrato (NA):** México 110 (+justicia), EE.UU. 91 (+inteligencia), Canadá 86 (+artico). |
+|| **Nodos dominio:** ~437 (Round 98 +8). |
+|| **Nodos rol:** ~356 (Round 98 +2). |
+|| **Organización:** 1 (ejemplo-empresa / NovaTech) + Nolvorn. |
+|| **Alcance sustrato:** solo Norteamérica (MX/US/CA) en profundizaciones; otros países ya no se amplían salvo indicación. |
+|| **Iteraciones totales:** 235. |
+
+## 🚦 ESTADO
+|| - **Iteración actual:** 236 (Round 99 INICIADA — 0/13 ingestados). |
+|| - **Última ação:** gap_analysis.py (iter 236) reportó 0 huecos reales → taxonomía extendida Round 99 (3 deepenings NA gobernanza-corporativa + 10 nodos nuevos dominio/rol). Cola Round 99 abierta (13 temas). |
+|| - **Bloqueos:** ninguno. |
+|| - **Cola:** Round 99 EN CURSO (0/13). |
+|| - **Próxima tarefa:** LOOP 1 (sustrato NA x3) — gobernanza-corporativa México/EE.UU./Canadá.

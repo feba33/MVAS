@@ -1805,6 +1805,49 @@ NEW_NODES_ROUND_97 = [
 NEW_NODES = NEW_NODES_ROUND_97
 
 
+# Round 98 (iter 235) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+# Alcance sustrato: solo Norteamérica (MX/US/CA). Dominio/rol generales (agnósticos de país).
+TAXONOMY["sustrato/mexico"].append(("justicia", "Justicia México (profundización): Poder Judicial de la Federación, SCJN, Consejo de la Judicatura, juicios orales, amparo, reforma judicial 2024-2025, fiscalías; vs poder-judicial/derecho-procesal-civil"))
+TAXONOMY["sustrato/estados-unidos"].append(("inteligencia", "Inteligencia EE.UU. (profundización): Intelligence Community (ODNI, CIA, NSA, DIA, NGA, NRO), National Intelligence Program, Military Intelligence Program, supervisión congresual, vs seguridad-nacional/ciencia-de-datos"))
+TAXONOMY["sustrato/canada"].append(("artico", "Ártico Canadá (profundización): soberanía ártica, Consejo del Ártico, infraestructura norte, cambio climático, pueblos indígenas, seguridad y defensa; vs defensa-nacional/relaciones-exteriores/medio-ambiente"))
+NEW_NODES_ROUND_98 = [
+    ("dominio/neurociencia", "Neurociencia: sistema nervioso, cognición, neuroplasticidad, neuroimagen, neuroeconomía, aplicaciones clínicas/empresariales; vs psicologia/ia-generativa"),
+    ("dominio/economia-del-comportamiento", "Economía del comportamiento / behavioral economics (profundización): sesgos, heurísticas, nudge theory, arquitectura de elección, aplicaciones en política/público/privado; vs finanzas-comportamentales/psicologia-del-consumidor"),
+    ("dominio/robotica", "Robótica: brazos industriales, cobots, robots móviles (AMR), automatización de almacenes, cirugía robótica, vs automatizacion-procesos/mecatronica"),
+    ("dominio/realidad-aumentada-virtual", "Realidad aumentada y virtual (AR/VR/XR): headsets, spatial computing, casos industriales (entrenamiento, mantenimiento, diseño), metaverso empresarial; vs metaverso/juegos-videojuegos"),
+    ("dominio/gestion-de-productos", "Gestión de productos / product management: discovery, priorización, roadmap, métricas, ciclo de vida, PM vs PO, vs project-management/estrategia"),
+    ("dominio/finanzas-descentralizadas", "Finanzas descentralizadas / DeFi: protocolos, DEX, lending, stablecoins, yield farming, riesgos de contratos inteligentes, regulación; vs fintech/criptoactivos/blockchain-empresarial"),
+    ("dominio/economia-azul", "Economía azul / blue economy: recursos oceánicos sostenibles, pesca, turismo costero, energía marina, biotecnología marina, vs economia-maritima/acuicultura"),
+    ("dominio/tecnologia-espacial", "Tecnología espacial / space tech: satélites, launch, constelaciones LEO, observación de Tierra, comunicaciones, navegación, minería espacial; vs industria-espacial/aeroespacial/satelites"),
+    ("rol/head-of-product-operations", "Head of Product Operations: procesos de producto, tooling, insights, planificación, habilitación de PMs; vs product-manager/head-of-product-strategy"),
+    ("rol/head-of-ai-governance", "Head of AI Governance: gobierno de modelos, risk management, compliance (EU AI Act, NIST RMF), ética, auditoría algorítmica; vs chief-ai-officer/gobernanza-etica-ia/head-of-ai-safety"),
+]
+NEW_NODES = NEW_NODES_ROUND_98
+
+# Round 99 (iter 236) — 3 deepenings NA + 10 nodos nuevos dominio/rol
+# Alcance sustrato: solo Norteamérica (MX/US/CA). Dominio/rol generales (agnósticos de país).
+TAXONOMY["sustrato/mexico"].append(("gobernanza-corporativa", "Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa, vs gobierno-federal/derecho-societario"))
+TAXONOMY["sustrato/estados-unidos"].append(("gobernanza-corporativa", "Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank, vs derecho-societario/seguridad-nacional"))
+TAXONOMY["sustrato/canada"].append(("gobernanza-corporativa", "Gobernanza corporativa Canadá (profundización): CBCA, board, audit committee, say-on-pay, directors' duties, vs poder-judicial/ciudadania"))
+NEW_NODES_ROUND_99 = [
+    ("dominio/gestion-de-activos-digitales", "Gestión de activos digitales / DAM: metadatos, derechos, versionado, distribución, vs gobierno-de-datos/almacenamiento"),
+    ("dominio/tecnologia-regulatoria", "Tecnología regulatoria / RegTech (profundización): automatización de compliance, reporting, KYC/AML, supervisión tecnológica, vs regtech/ciberseguridad"),
+    ("dominio/inteligencia-de-amenazas", "Inteligencia de amenazas / CTI: TTP, IOC, ATT&CK, threat hunting, feed, sharing, vs ciberseguridad/head-of-threat-intelligence"),
+    ("dominio/finanzas-de-proyecto", "Finanzas de proyecto / project finance (profundización): SPV, debt sizing, off-take, construction risk, vs banca-de-inversion/financiacion-structurada"),
+    ("dominio/derecho-de-los-seguros", "Derecho de los seguros / insurance law: contrato, cobertura, siniestro, regulación (CNSF/NAIC/OSFI), vs seguros/reaseguro/seguros-de-personas"),
+    ("dominio/gestion-de-la-cadena-de-frio", "Gestión de la cadena de frío / cold chain (profundización): farmacéuticos, alimentos, IoT temp, última milla, vs logistica/almacenamiento"),
+    ("dominio/biometria", "Biometría / biometrics (profundización): facial, huella, iris, voz, liveness, privacidad, regulación (BIPA/GDPR), vs ciberseguridad-de-identidad/proteccion-de-datos"),
+    ("dominio/economia-de-los-datos", "Economía de los datos / data economy: valoración de datos, data marketplaces, monetización, soberanía, vs gobierno-de-datos/analitica-negocio"),
+    ("rol/head-of-data-mesh", "Head of Data Mesh: arquitectura federada de datos, data products, domain ownership, vs chief-data-officer/head-of-data-platform"),
+    ("rol/head-of-platform-operations", "Head of Platform Operations: operación de plataforma interna, reliability, capacity, SRE, vs head-of-platform-engineering/head-of-infrastructure"),
+    ("rol/head-of-customer-education", "Head of Customer Education: academia, onboarding, certificación, adopción, vs customer-success/head-of-customer-lifecycle"),
+    ("rol/head-of-sales-strategy-operations", "Head of Sales Strategy & Operations: planificación, territory, quota, compensation, analytics, vs head-of-sales-ops/head-of-revenue-operations"),
+    ("rol/head-of-partner-ecosystem", "Head of Partner Ecosystem: alianzas tecnológicas, ISV, marketplace, co-sell, vs head-of-partnerships/head-of-business-development"),
+    ("rol/head-of-security-governance", "Head of Security Governance: GRC seguridad, políticas, risk appetite, auditorías, vs chief-information-security-officer/head-of-risk-and-compliance"),
+]
+NEW_NODES = NEW_NODES_ROUND_99
+
+
 def existing_pages(node: str) -> set:
     base = os.path.join(ROOT, node)
     if not os.path.isdir(base):

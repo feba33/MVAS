@@ -86,6 +86,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [economia-servicios](sustrato/mexico/economia-servicios.md) — Economía de servicios México: sector terciario, comercio/turismo/financiero, peso en PIB, informalidad · 🏷️ mexico,economia,servicios,sector-terciario,pib,informalidad · 📅 2026-07-18
 - [observatorio](sustrato/mexico/observatorio.md) — Observatorio México: INEGI/SNIEG, cuentas nacionales, censos, México en Cifras, datos abiertos; vs transparencia/gobierno-digital · 🏷️ mexico,inegi,observatorio,estadisticas,datos-oficiales,snieg,censos · 📅 2026-07-19
 - [derecho-procesal-civil](sustrato/mexico/derecho-procesal-civil.md) — Derecho procesal civil México: juicio ordinario/verbal, pruebas, recursos, amparo (directo/indirecto) · 🏷️ mexico,derecho-procesal-civil,litigio,amparo,juicio-ordinario · 📅 2026-07-20
+- [gobernanza-corporativa](sustrato/mexico/gobernanza-corporativa.md) — Gobernanza corporativa México (profundización): consejo, comités, deberes fiduciarios, asambleas, secretaría corporativa · 🏷️ gobierno-corporativo,consejo-administracion,deberes-fiduciarios,lgsm,asambleas,secretaria-corporativa · 📅 2026-07-22
 
 ### sustrato/estados-unidos
 - [delaware-gcl](sustrato/estados-unidos/delaware-gcl.md) — DGCL: paraíso societario de EE.UU. · 🏷️ delaware,dgcl · 📅 2026-07-09
@@ -98,6 +99,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [sec-valores](sustrato/estados-unidos/sec-valores.md) — SEC y regulación de valores · 🏷️ sec,valores · 📅 2026-07-09
 - [antitrust](sustrato/estados-unidos/antitrust.md) — Antitrust: Sherman/Clayton/FTC · 🏷️ antitrust,sherman · 📅 2026-07-09
 - [bankruptcy](sustrato/estados-unidos/bankruptcy.md) — Bankruptcy: Chapter 7/11/13 · 🏷️ bankruptcy,concursal · 📅 2026-07-09
+- [gobernanza-corporativa](sustrato/estados-unidos/gobernanza-corporativa.md) — Corporate governance EE.UU. (profundización): board, fiduciary duties, shareholder rights, proxy, SOX, Dodd-Frank · 🏷️ corporate-governance,board-of-directors,fiduciary-duties,shareholder-rights,proxy,sox,dodd-frank · 📅 2026-07-22
 - [controles-exportacion](sustrato/estados-unidos/controles-exportacion.md) — Controles de exportación EE.UU.: EAR/ITAR (BIS/DDTC) · 🏷️ eeuu,export-controls,ear,itar,bis,ddtc · 📅 2026-07-10
 - [salud](sustrato/estados-unidos/salud.md) — Salud/healthcare EE.UU.: FDA, CMS, HIPAA, Medicare-Medicaid, ACA · 🏷️ eeuu,healthcare,salud,fda,cms,hipaa,medicare,medicaid · 📅 2026-07-11
 - [sector-tecnologia](sustrato/estados-unidos/sector-tecnologia.md) — Sector tecnológico EE.UU.: Big Tech, antitrust, IA, CHIPS Act, privacidad · 🏷️ eeuu,big-tech,antitrust,ia,chips-act,privacidad · 📅 2026-07-11
@@ -173,6 +175,7 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [infraestructura](sustrato/canada/infraestructura.md) — Infraestructura Canadá: Infrastructure Canada, transporte, banda ancha, vivienda · 🏷️ canada,infraestructura,infrastructure-canada,vivienda,banda-ancha,transporte-publico,plan-de-infraestructura · 📅 2026-07-13
 - [poder-judicial](sustrato/canada/poder-judicial.md) — Poder Judicial Canadá: Supreme Court, cortes provinciales, Carta de Derechos, nombramiento · 🏷️ canada,poder-judicial,supreme-court,charter,nombramiento-judicial,estado-de-derecho · 📅 2026-07-13
 - [ciencia-e-innovacion](sustrato/canada/ciencia-e-innovacion.md) — Ciencia e innovación Canadá: NRC, ISED, políticas de CTI, IA/ML · 🏷️ canada,ciencia,innovacion,nrc,ised,investigacion,politica-de-ciencia · 📅 2026-07-13
+- [gobernanza-corporativa](sustrato/canada/gobernanza-corporativa.md) — Gobernanza corporativa Canadá (profundización): CBCA, consejo, comité de auditoría, say-on-pay, deberes de directores · 🏷️ cbc,gobernanza,consejo,say-on-pay,directors-duties · 📅 2026-07-22
 - [justicia-penal](sustrato/canada/justicia-penal.md) — Justicia penal Canadá: Criminal Code, RCMP, Crown prosecutors, Charter, proceso penal · 🏷️ canada,justicia-penal,derecho-penal,criminal-code,rcmp,crown-prosecutor,charter,proceso-penal · 📅 2026-07-18
 - [demografia-poblacion](sustrato/canada/demografia-poblacion.md) — Demografía y población Canadá: Statistics Canada, censo, inmigración, estructura por edad · 🏷️ canada,demografia,poblacion,statistics-canada,censo,inmigracion,envejecimiento · 📅 2026-07-13
 - [seguridad-publica](sustrato/canada/seguridad-publica.md) — Seguridad pública Canadá: Public Safety Canada, RCMP, CBSA, gestión de emergencias, fronteras · 🏷️ canada,seguridad-publica,public-safety-canada,rcmp,cbsa,policia,gestion-de-emergencias · 📅 2026-07-13
@@ -2483,3 +2486,22 @@ Formato por entrada: `- [ruta](enlace) — resumen de una línea  ·  🏷️ ta
 - [head-of-threat-hunting](rol/head-of-threat-hunting.md) — Head of Threat Hunting: cacería proactiva, SOC, detección · head-of-threat-hunting,threat-hunting,ciberseguridad · 2026-07-20
 - [head-of-sales-analytics](rol/head-of-sales-analytics.md) — Head of Sales Analytics: analítica de ventas, pipeline, forecast, win-rate, cohortes · head-of-sales-analytics,analitica-de-ventas,pipeline,forecast,win-rate,cohortes · 2026-07-21
 - [head-of-clinical-data-management](rol/head-of-clinical-data-management.md) — Head of Clinical Data Management: datos de ensayos clínicos, EDC, calidad de datos, estadística clínica · head-of-clinical-data-management,clinical-data-management,edc,clinical-trials · 2026-07-21
+
+### sustrato Round 98 (deepening NA)
+- [justicia](sustrato/mexico/justicia.md) — Justicia México: PJF, SCJN, CJF, juicios orales, amparo, reforma judicial 2024-2025 · justicia,mexico,poder-judicial,scjn,cjf · 2026-07-22
+- [inteligencia](sustrato/estados-unidos/inteligencia.md) — Inteligencia EE.UU.: ODNI, CIA, NSA, DIA, NGA, NRO, NIP/MIP, supervisión congresual · inteligencia,eeuu,odni,cia,nsa,dia,nga,nro · 2026-07-22
+- [artico](sustrato/canada/artico.md) — Ártico Canadá: soberanía, Consejo del Ártico, infraestructura norte, cambio climático, pueblos indígenas, seguridad · artico,canada,soberania,consejo-artico,indigenas,seguridad · 2026-07-22
+
+### dominio Round 98 (nuevos)
+- [neurociencia](dominio/neurociencia.md) — Neurociencia: sistema nervioso, cognición, neuroplasticidad, neuroimagen, neuroeconomía, aplicaciones clínicas/empresariales · neurociencia,cognicion,neuroplasticidad,neuroeconomia · 2026-07-22
+- [economia-del-comportamiento](dominio/economia-del-comportamiento.md) — Economía del comportamiento / behavioral economics: sesgos, heurísticas, nudge theory, arquitectura de elección, aplicaciones · economia-comportamental,sesgos,heuristicas,nudge · 2026-07-22
+- [robotica](dominio/robotica.md) — Robótica: brazos industriales, cobots, AMR, automatización almacenes, cirugía robótica · robotica,cobots,amr,automatizacion,cirugia-robotica · 2026-07-22
+- [realidad-aumentada-virtual](dominio/realidad-aumentada-virtual.md) — Realidad aumentada y virtual (AR/VR/XR): headsets, spatial computing, casos industriales, metaverso empresarial · ar,vr,xr,spatial-computing,metaverso,industrial · 2026-07-22
+- [gestion-de-productos](dominio/gestion-de-productos.md) — Gestión de productos / product management: discovery, priorización, roadmap, métricas, ciclo de vida, PM vs PO · product-management,discovery,priorizacion,roadmap,metricas · 2026-07-22
+- [finanzas-descentralizadas](dominio/finanzas-descentralizadas.md) — Finanzas descentralizadas / DeFi: protocolos, DEX, lending, stablecoins, yield farming, riesgos, regulación · defi,dex,lending,stablecoins,yield-farming,regulacion · 2026-07-22
+- [economia-azul](dominio/economia-azul.md) — Economía azul / blue economy: recursos oceánicos sostenibles, pesca, turismo costero, energía marina, biotecnología marina · economia-azul,blue-economy,oceano,pesca,turismo-costo,energia-marina · 2026-07-22
+- [tecnologia-espacial](dominio/tecnologia-espacial.md) — Tecnología espacial / space tech: satélites, launch, constelaciones LEO, observación Tierra, comunicaciones, navegación, minería · space-tech,satelites,launch,leo,observacion-tierra,comunicaciones · 2026-07-22
+
+### rol Round 98 (nuevos)
+- [head-of-product-operations](rol/head-of-product-operations.md) — Head of Product Operations: procesos, tooling, insights, planificación, habilitación PMs · product-operations,tooling,insights,planning,enablement · 2026-07-22
+- [head-of-ai-governance](rol/head-of-ai-governance.md) — Head of AI Governance: gobierno modelos, risk management, compliance EU AI Act/NIST RMF, ética, auditoría algorítmica · ai-governance,risk-management,compliance,eu-ai-act,nist-rmf,etica · 2026-07-22
